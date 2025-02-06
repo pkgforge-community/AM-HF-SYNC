@@ -11,7 +11,7 @@ printf "#!/bin/sh\nset -e\nrm -f /usr/local/bin/$APP\nrm -R -f /opt/$APP" > ../r
 #printf '\n%s' "rm -f /usr/local/share/applications/$APP-AM.desktop" >> ../remove
 chmod a+x ../remove || exit 1
 
-version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/"$SITE"/releases | sed 's/[()",{} ]/\n/g' | grep -oi 'https.*continuous.*i3.*86_64.*mage$' | head -1)
+version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/"$SITE"/releases | sed 's/[()",{} ]/\n/g' | grep -oi 'https.*continuous.*i3.*86_64.*mage$' | head -1)
 wget -U "${USER_AGENT}" "$version" || exit 1
 #wget -U "${USER_AGENT}" "$version.zsync" 2> /dev/null # Comment out this line if you want to use zsync
 # Use tar fx ./*tar* here for example in this line in case a compressed file is downloaded.
@@ -32,7 +32,7 @@ APP=i3
 SITE="Samueru-sama/i3-AppImage"
 if [ -z "$APP" ]; then exit 1; fi
 version0=$(cat "/opt/$APP/version")
-version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/"$SITE"/releases | sed 's/[()",{} ]/\n/g' | grep -oi 'https.*continuous.*i3.*86_64.*mage$' | head -1)
+version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/"$SITE"/releases | sed 's/[()",{} ]/\n/g' | grep -oi 'https.*continuous.*i3.*86_64.*mage$' | head -1)
 [ -n "$version" ] || { echo "Error getting link"; exit 1; }
 if [ "$version" != "$version0" ]; then
 	notify-send "A new version of $APP is available, please wait"

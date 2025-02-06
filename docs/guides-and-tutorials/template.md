@@ -108,15 +108,15 @@ In the previous cases, it is easy to preset a URL for download, being genericall
 
 Here is how a version variable looks for Abiword (github)...
 ```
-version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls  https://api.gh.pkgforge.dev/repos/ivan-hc/Abiword-appimage/releases | sed 's/[()",{} ]/\n/g' | grep -oi "https.*mage$" | grep -vi "i386\|i686\|aarch64\|arm64\|armv7l" | head -1)
+version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls  https://api.gh.pkgforge.dev/repos/ivan-hc/Abiword-appimage/releases | sed 's/[()",{} ]/\n/g' | grep -oi "https.*mage$" | grep -vi "i386\|i686\|aarch64\|arm64\|armv7l" | head -1)
 ```
 ...for SimpleScreenRecorder (still github)...
 ```
-version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls  https://api.gh.pkgforge.dev/repos/ivan-hc/Database-of-pkg2appimaged-packages/releases | sed 's/[()",{} ]/\n/g' | grep -oi "https.*mage$" | grep -vi "i386\|i686\|aarch64\|arm64\|armv7l" | grep -i "simplescreenrecorder" | head -1)
+version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls  https://api.gh.pkgforge.dev/repos/ivan-hc/Database-of-pkg2appimaged-packages/releases | sed 's/[()",{} ]/\n/g' | grep -oi "https.*mage$" | grep -vi "i386\|i686\|aarch64\|arm64\|armv7l" | grep -i "simplescreenrecorder" | head -1)
 ```
 ...and for Nootka (sourceforge)
 ```
-version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://sourceforge.net/p/nootka/activity/feed | grep -Eo "(http|https)://[a-zA-Z0-9./?=_%:-]*" | grep -i "appimage" | grep -v '%' | head -1)
+version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://sourceforge.net/p/nootka/activity/feed | grep -Eo "(http|https)://[a-zA-Z0-9./?=_%:-]*" | grep -i "appimage" | grep -v '%' | head -1)
 ```
 ...namely, the three AppImages created previously.
 
@@ -127,7 +127,7 @@ wget -U "${USER_AGENT}" "$version" || exit 1
 While **this is how a "`version`" variable looks in many sites other than the standard ones**, Inkscape for example have no `wget -U "${USER_AGENT}" "$version"` reference...
 ```
 version=$(wget -q https://repology.org/project/inkscape/related -O - | grep "version-newest" | head -1 | grep -Eo "([0-9]{1,}\.)+[0-9]{1,}")
-wget -U "${USER_AGENT}" "$(echo "https://inkscape.org/$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls $(echo "https://inkscape.org/release/inkscape-$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://inkscape.org/ | grep -Po '(?<=class="info")[^"]*' | grep -Eo "([0-9]{1,}\.)+[0-9]{1,}" | head -1)/gnulinux/appimage/dl/") | grep "click here" | grep -o -P '(?<=href=").*(?=">click)')")" || exit 1
+wget -U "${USER_AGENT}" "$(echo "https://inkscape.org/$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls $(echo "https://inkscape.org/release/inkscape-$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://inkscape.org/ | grep -Po '(?<=class="info")[^"]*' | grep -Eo "([0-9]{1,}\.)+[0-9]{1,}" | head -1)/gnulinux/appimage/dl/") | grep "click here" | grep -o -P '(?<=href=").*(?=">click)')")" || exit 1
 ```
 ...this is "Lens" instead...
 ```
@@ -137,7 +137,7 @@ wget -U "${USER_AGENT}" "$version" || exit 1
 ...and this is "Ember"
 ```
 version=$(wget -q https://repology.org/project/ember/versions -O - | grep -i "new.*version" | head -1 | tr '><' '\n' | grep "^[0-9]")
-wget -U "${USER_AGENT}" "$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://www.worldforge.org/downloads/ | tr '"' '\n' | grep -i "^http.*appimage")" || exit 1
+wget -U "${USER_AGENT}" "$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://www.worldforge.org/downloads/ | tr '"' '\n' | grep -i "^http.*appimage")" || exit 1
 ```
 interventions like this are mostly manual.
 
@@ -308,7 +308,7 @@ chmod a+x ../remove || exit 1
 
 The structure of the first two lines are similar for both AppImages and archives.
 ```
-version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/brave/brave-browser/releases/latest | sed 's/[()",{} ]/\n/g' | grep -oi "https.*" | grep -vi "i386\|i686\|aarch64\|arm64\|armv7l" | grep -i "https.*linux-amd64.zip$" | head -1)
+version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/brave/brave-browser/releases/latest | sed 's/[()",{} ]/\n/g' | grep -oi "https.*" | grep -vi "i386\|i686\|aarch64\|arm64\|armv7l" | grep -i "https.*linux-amd64.zip$" | head -1)
 wget -U "${USER_AGENT}" "$version" || exit 1
 ```
 but while archives have this to detect and extract packages that can be present, trying to extract the content at several levels...

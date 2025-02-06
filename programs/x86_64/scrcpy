@@ -15,7 +15,7 @@ chmod a+x ../remove || exit 1
 # DOWNLOAD AND PREPARE THE APP
 # $version is also used for updates
 
-version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/"$SITE"/releases | sed 's/[()",{} ]/\n/g' | grep -o 'https.*scrcpy.*86_64.*mage$' | head -1)
+version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/"$SITE"/releases | sed 's/[()",{} ]/\n/g' | grep -o 'https.*scrcpy.*86_64.*mage$' | head -1)
 wget -U "${USER_AGENT}" "$version" && echo "$version" > "/opt/$APP/version" || exit 1
 cd ..
 mv --backup=t ./tmp/*mage ./"$APP"
@@ -32,7 +32,7 @@ APP=scrcpy
 SITE="ardevd/scrcpy-appimage"
 if [ -z "$APP" ]; then exit 1; fi
 version0=$(cat "/opt/$APP/version")
-version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/"$SITE"/releases | sed 's/[()",{} ]/\n/g' | grep -o 'https.*scrcpy.*86_64.*mage$' | head -1)
+version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/"$SITE"/releases | sed 's/[()",{} ]/\n/g' | grep -o 'https.*scrcpy.*86_64.*mage$' | head -1)
 [ -n "$version" ] || { echo "Error getting link"; exit 1; }
 if [ "$version" != "$version0" ]; then
 	notify-send "A new version of $APP is available, please wait"

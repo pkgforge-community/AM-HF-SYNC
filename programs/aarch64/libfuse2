@@ -21,7 +21,7 @@ printf "#!/bin/sh\nset -e\n$SUDO_CMD rm -f /usr/local/lib/libfuse*\nrm -R -f /op
 chmod a+x ../remove || exit 1
 
 # DOWNLOAD AND PREPARE THE LIBRARY
-LIBFUSE2_DEB=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls http://ftp.debian.org/debian/pool/main/f/fuse/ | grep -Po '(?<=href=")[^"]*' | sort | grep -v exp | grep arm64 | grep "libfuse2_" | tail -1)
+LIBFUSE2_DEB=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls http://ftp.debian.org/debian/pool/main/f/fuse/ | grep -Po '(?<=href=")[^"]*' | sort | grep -v exp | grep arm64 | grep "libfuse2_" | tail -1)
 wget http://ftp.debian.org/debian/pool/main/f/fuse/"$LIBFUSE2_DEB" || exit 1
 ar x ./*.deb && tar fx ./data.tar.xz || exit 1
 cd .. || exit 1

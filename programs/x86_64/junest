@@ -12,7 +12,7 @@ printf "#!/bin/sh\nset -e\nrm -f /usr/local/bin/$APP /usr/local/bin/sudoj\nrm -R
 chmod a+x ../remove || exit 1
 
 # DOWNLOAD AND PREPARE THE APP, $version is also used for updates
-version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://raw.githubusercontent.com/fsquillace/junest/master/VERSION)
+version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://raw.githubusercontent.com/fsquillace/junest/master/VERSION)
 wget https://github.com/fsquillace/junest/archive/refs/heads/master.zip || exit 1
 [ -e ./*7z ] && 7z x ./*7z && rm -f ./*7z
 [ -e ./*tar.* ] && tar fx ./*tar.* && rm -f ./*tar.*
@@ -35,7 +35,7 @@ set -u
 APP=junest
 SITE="fsquillace/junest"
 version0=$(cat "/opt/$APP/version")
-version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://raw.githubusercontent.com/fsquillace/junest/master/VERSION)
+version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://raw.githubusercontent.com/fsquillace/junest/master/VERSION)
 [ -n "$version" ] || { echo "Error getting link"; exit 1; }
 if [ "$version" != "$version0" ]; then
 	mkdir "/opt/$APP/tmp" && cd "/opt/$APP/tmp" || exit 1

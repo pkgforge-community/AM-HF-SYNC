@@ -10,7 +10,7 @@ printf '\n%s' "rm -f /usr/local/share/applications/$APP-AM.desktop" >> "/opt/$AP
 chmod a+x "/opt/$APP/remove"
 
 # DOWNLOADING THE DEPENDENCIES
-wget -q "$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/probonopd/go-appimage/releases | grep -v zsync | grep -i continuous | grep -i appimagetool | grep -i "$(uname -m)" | grep browser_download_url | cut -d '"' -f 4 | head -1)" -O appimagetool
+wget -q "$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/probonopd/go-appimage/releases | grep -v zsync | grep -i continuous | grep -i appimagetool | grep -i "$(uname -m)" | grep browser_download_url | cut -d '"' -f 4 | head -1)" -O appimagetool
 wget https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC-application-manager/main/tools/pkg2appimage
 chmod a+x ./appimagetool ./pkg2appimage
 
@@ -115,13 +115,13 @@ APP=SAMPLE
 initial=$(echo $APP | head -c 1)
 version0=$(cat /opt/"$APP"/version)
 url="http://http.us.debian.org/debian/pool/main/$initial/"$APP"/$version0"
-if curl -A "${USER_AGENT}" -A "${USER_AGENT}" --output /dev/null --silent --head --fail "$url"; then
+if curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" --output /dev/null --silent --head --fail "$url"; then
 	echo "Update not needed, exit!"
 else
 	notify-send "A new version of $APP is available, please wait!"
 	mkdir /opt/"$APP"/tmp
 	cd /opt/"$APP"/tmp || exit 1
-	wget -q $(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/probonopd/go-appimage/releases | grep -v zsync | grep -i continuous | grep -i appimagetool | grep -i "$(uname -m)" | grep browser_download_url | cut -d '"' -f 4 | head -1) -O appimagetool
+	wget -q $(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/probonopd/go-appimage/releases | grep -v zsync | grep -i continuous | grep -i appimagetool | grep -i "$(uname -m)" | grep browser_download_url | cut -d '"' -f 4 | head -1) -O appimagetool
 	wget https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC-application-manager/main/tools/pkg2appimage # 64 BIT ONLY (comment to disable)
 	chmod a+x ./appimagetool ./pkg2appimage
 	cp /opt/"$APP"/recipe.yml /opt/"$APP"/tmp/recipe.yml
