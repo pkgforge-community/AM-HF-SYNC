@@ -56,8 +56,8 @@ jobs:
           git clone --depth="1" --filter="blob:none" --quiet "https://github.com/ivan-hc/AM"
           find "./AM/programs/x86_64/" -type f -exec basename "{}" 2>/dev/null \; | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | jq -R '{host: "x86_64-Linux", pkg: .}' > "${SYSTMP}/AM/x86_64-Linux.json"
           cat "${SYSTMP}/AM/x86_64-Linux.json" | jq -s 'sort_by(.pkg)' > "${SYSTMP}/AM/LIST.json"
-          ##Set Input (5000 builds)
-          BUILD_LIST="$(jq -c '[.[]] | .[:5000]' "${SYSTMP}/AM/LIST.json")"
+          ##Set Input (256 builds)
+          BUILD_LIST="$(jq -c '[.[]] | .[:256]' "${SYSTMP}/AM/LIST.json")"
           ##Validate Input
           if ! echo "${BUILD_LIST}" | jq -e 'type == "array" and length > 0' >/dev/null; then
              echo -e "\n[-] Input Json is likely Invalid\n"
