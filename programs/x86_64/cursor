@@ -2,7 +2,7 @@
 
 # AM INSTALL SCRIPT VERSION 3.
 
-set -ux
+set -uxx
 APP=cursor
 SITE="https://repology.org/project/cursor/versions"
 
