@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set +e
+set -e
 
 # Colors
 RED='\033[0;31m'; LightBlue='\033[1;34m'; Green='\033[0;32m'

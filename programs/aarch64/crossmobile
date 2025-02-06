@@ -36,7 +36,7 @@ echo 'version0=$(cat /opt/$APP/version)
 
 url=https://github.com/crossmob/CrossMobile/releases/latest' >> /opt/$APP/AM-updater
 
-echo 'if curl -A "${USER_AGENT}" -L -s $url | grep -ioF "$version0"; then' >> /opt/$APP/AM-updater
+echo 'if curl -L -s $url | grep -ioF "$version0"; then' >> /opt/$APP/AM-updater
 echo '  echo "Update not needed!".'  >> /opt/$APP/AM-updater
 echo 'else' >> /opt/$APP/AM-updater
 echo "  notify-send 'A new version of $APP is available, please wait'" >> /opt/$APP/AM-updater

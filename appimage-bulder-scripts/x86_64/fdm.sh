@@ -13,7 +13,7 @@ chmod a+x ./appimagetool
 
 # DOWLOAD THE DEB PACKAGE
 echo " Downloading the .deb package..."
-[ ! -f ./*.deb ] && wget -q "$(curl -A "${USER_AGENT}" -Ls https://www.freedownloadmanager.org/download-fdm-for-linux.htm | tr '">< ' '\n' | grep "http.*deb$" | grep -vi "qt" | head -1)"
+[ ! -f ./*.deb ] && wget -q "$(curl -Ls https://www.freedownloadmanager.org/download-fdm-for-linux.htm | tr '">< ' '\n' | grep "http.*deb$" | grep -vi "qt" | head -1)"
 
 # COMPILE THE APPDIR
 echo " Extracting the .deb package to the AppDir..."

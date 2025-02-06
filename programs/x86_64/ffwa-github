@@ -32,7 +32,7 @@ Comment=Web Application & Firefox Profile for $APPNAME" > /usr/local/share/appli
 
 # ICON
 mkdir /opt/"$APP"/icons
-wget -U "${USER_AGENT}" "$ICONURL" -O /opt/"$APP"/icons/"$APP"
+wget "$ICONURL" -O /opt/"$APP"/icons/"$APP"
 
 # ADD PREFERENCES
 cat >> /opt/"$APP"/prefs.js << 'EOF'

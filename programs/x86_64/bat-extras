@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # AM INSTALL SCRIPT VERSION 3.5
-set +u
+set -ux
 APP=bat-extras
 SITE="eth-p/bat-extras"
 
@@ -34,7 +34,7 @@ fi
 
 # CREATE DIRECTORIES AND ADD REMOVER
 [ -n "$APP" ] && mkdir -p "/opt/$APP/tmp" "/opt/$APP/icons" && cd "/opt/$APP/tmp" || exit 1
-printf "#!/bin/sh\nset +e\nrm -f /usr/local/bin/batdiff\nrm -R -f /opt/$APP" > ../remove
+printf "#!/bin/sh\nset -e\nrm -f /usr/local/bin/batdiff\nrm -R -f /opt/$APP" > ../remove
 printf '\n%s' "rm -f /usr/local/bin/batgrep" >> ../remove
 printf '\n%s' "rm -f /usr/local/bin/batman" >> ../remove
 printf '\n%s' "rm -f /usr/local/bin/bat-modules" >> ../remove
@@ -44,8 +44,8 @@ printf '\n%s' "rm -f /usr/local/bin/prettybat" >> ../remove
 chmod a+x ../remove || exit 1
 
 # DOWNLOAD AND PREPARE THE APP, $version is also used for updates
-version=$(curl -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/"$SITE"/releases | sed 's/[()",{} ]/\n/g' | grep -oi 'https.*bat-extras.*zip$' | head -1)
-wget -U "${USER_AGENT}" "$version" || exit 1
+version=$(curl -Ls https://api.gh.pkgforge.dev/repos/"$SITE"/releases | sed 's/[()",{} ]/\n/g' | grep -oi 'https.*bat-extras.*zip$' | head -1)
+wget "$version" || exit 1
 unzip ./*zip 1>/dev/null && rm -f ./*zip
 cd ..
 mv ./tmp/* ./
@@ -59,16 +59,16 @@ ln -s /opt/"$APP"/bin/*bat* /usr/local/bin
 # SCRIPT TO UPDATE THE PROGRAM
 cat >> ./AM-updater << 'EOF'
 #!/bin/sh
-set +u
+set -ux
 APP=bat-extras
 SITE="eth-p/bat-extras"
 version0=$(cat "/opt/$APP/version")
-version=$(curl -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/"$SITE"/releases | sed 's/[()",{} ]/\n/g' | grep -oi 'https.*bat-extras.*zip$' | head -1)
+version=$(curl -Ls https://api.gh.pkgforge.dev/repos/"$SITE"/releases | sed 's/[()",{} ]/\n/g' | grep -oi 'https.*bat-extras.*zip$' | head -1)
 [ -n "$version" ] || { echo "Error getting link"; exit 1; }
 if [ "$version" != "$version0" ]; then
 	mkdir "/opt/$APP/tmp" && cd "/opt/$APP/tmp" || exit 1
 	notify-send "A new version of $APP is available, please wait"
-	wget -U "${USER_AGENT}" "$version" || exit 1
+	wget "$version" || exit 1
 	unzip ./*zip 1>/dev/null && rm -f ./*zip
 	cd ..
 	mv --backup=t ./tmp/* ./

@@ -16,8 +16,8 @@ chmod a+x "/opt/$APP/remove"
 # DOWNLOAD AND PREPARE THE APP
 # $version is also used for updates
 
-version=$(curl -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/"$REPO"/releases/latest | grep browser_download_url | grep aarch64 | cut -d '"' -f 4 | head -1)
-wget -U "${USER_AGENT}" "$version"
+version=$(curl -Ls https://api.gh.pkgforge.dev/repos/"$REPO"/releases/latest | grep browser_download_url | grep aarch64 | cut -d '"' -f 4 | head -1)
+wget "$version"
 tar xf ./*.tbz
 cd ..
 echo "$version" >> ./version
@@ -35,13 +35,13 @@ cat >> /opt/$APP/AM-updater << 'EOF'
 APP=btop
 REPO="aristocratos/btop"
 version0=$(cat /opt/$APP/version)
-version=$(curl -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/"$REPO"/releases/latest | grep browser_download_url | grep aarch64 | cut -d '"' -f 4 | head -1)
+version=$(curl -Ls https://api.gh.pkgforge.dev/repos/"$REPO"/releases/latest | grep browser_download_url | grep aarch64 | cut -d '"' -f 4 | head -1)
 if [ "$version" = "$version0" ]; then
 	echo "Update not needed!" || exit 0
 else
 	notify-send "A new version of $APP is available, please wait"
 	mkdir /opt/$APP/tmp && cd /opt/$APP/tmp || exit 1
-	wget -U "${USER_AGENT}" "$version"
+	wget "$version"
 	tar xf ./*.tbz
 	cd ..
 	rm ./version

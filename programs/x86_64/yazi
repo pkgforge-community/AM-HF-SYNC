@@ -1,19 +1,19 @@
 #!/bin/sh
 
 # AM INSTALL SCRIPT VERSION 3.5
-set +u
+set -ux
 APP=yazi
 SITE="sxyazi/yazi"
 
 # CREATE DIRECTORIES AND ADD REMOVER
 [ -n "$APP" ] && mkdir -p "/opt/$APP/tmp" && cd "/opt/$APP/tmp" || exit 1
-printf "#!/bin/sh\nset +e\nrm -f /usr/local/bin/$APP\nrm -R -f /opt/$APP" > ../remove
+printf "#!/bin/sh\nset -e\nrm -f /usr/local/bin/$APP\nrm -R -f /opt/$APP" > ../remove
 printf '\n%s' "rm -f /usr/local/bin/ya" >> ../remove
 chmod a+x ../remove || exit 1
 
 # DOWNLOAD AND PREPARE THE APP, $version is also used for updates
-version=$(curl -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/"$SITE"/releases | sed 's/[()",{} ]/\n/g' | grep -o 'https.*x86_64.*linux.*gnu.*zip$' | head -1)
-wget -U "${USER_AGENT}" "$version" || exit 1
+version=$(curl -Ls https://api.gh.pkgforge.dev/repos/"$SITE"/releases | sed 's/[()",{} ]/\n/g' | grep -o 'https.*x86_64.*linux.*gnu.*zip$' | head -1)
+wget "$version" || exit 1
 [ -e ./*7z ] && 7z x ./*7z && rm -f ./*7z
 [ -e ./*tar.* ] && tar fx ./*tar.* && rm -f ./*tar.*
 [ -e ./*zip ] && unzip -qq ./*zip 1>/dev/null && rm -f ./*zip
@@ -29,16 +29,16 @@ ln -s "/opt/$APP/$APP" "/usr/local/bin/$APP" && ln -s "/opt/$APP/ya" "/usr/local
 # SCRIPT TO UPDATE THE PROGRAM
 cat >> ./AM-updater << 'EOF'
 #!/bin/sh
-set +u
+set -ux
 APP=yazi
 SITE="sxyazi/yazi"
 version0=$(cat /opt/$APP/version)
-version=$(curl -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/"$SITE"/releases | sed 's/[()",{} ]/\n/g' | grep -o 'https.*x86_64.*linux.*gnu.*zip$' | head -1)
+version=$(curl -Ls https://api.gh.pkgforge.dev/repos/"$SITE"/releases | sed 's/[()",{} ]/\n/g' | grep -o 'https.*x86_64.*linux.*gnu.*zip$' | head -1)
 [ -n "$version" ] || { echo "Error getting link"; exit 1; }
 if [ "$version" != "$version0" ]; then
 	mkdir "/opt/$APP/tmp" && cd "/opt/$APP/tmp" || exit 1
 	notify-send "A new version of $APP is available, please wait"
-	wget -U "${USER_AGENT}" "$version" || exit 1
+	wget "$version" || exit 1
 	[ -e ./*7z ] && 7z x ./*7z && rm -f ./*7z
 	[ -e ./*tar.* ] && tar fx ./*tar.* && rm -f ./*tar.*
 	[ -e ./*zip ] && unzip -qq ./*zip 1>/dev/null && rm -f ./*zip

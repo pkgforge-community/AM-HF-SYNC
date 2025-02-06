@@ -18,7 +18,7 @@ fi
 chmod a+x ./appimagetool ./pkg2appimage
 
 # CREATING THE HEAD OF THE RECIPE
-DEB=$(curl -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/felixrieseberg/windows95/releases | sed 's/[()",{} ]/\n/g' | grep -oi "https.*" | grep -vi "i386\|i686\|aarch64\|arm64\|armv7l" | grep -i "amd64.deb" | head -1)
+DEB=$(curl -Ls https://api.gh.pkgforge.dev/repos/felixrieseberg/windows95/releases | sed 's/[()",{} ]/\n/g' | grep -oi "https.*" | grep -vi "i386\|i686\|aarch64\|arm64\|armv7l" | grep -i "amd64.deb" | head -1)
 echo "app: $APP
 binpatch: true
 

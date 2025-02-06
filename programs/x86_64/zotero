@@ -16,7 +16,7 @@ chmod a+x /opt/"$APP"/remove
 mkdir -p tmp
 cd ./tmp
 
-wget -U "${USER_AGENT}" "https://www.zotero.org/download/client/dl?channel=release&platform=linux-x86_64" --trust-server-names
+wget "https://www.zotero.org/download/client/dl?channel=release&platform=linux-x86_64" --trust-server-names
 
 [ -e ./*tar.* ] && tar fx ./*tar.* && rm -f ./*tar.*
 cd ..
