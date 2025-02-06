@@ -226,9 +226,10 @@ jobs:
           #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/devscripts/refs/heads/main/Linux/install_bins_curl.sh")
           sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/7z" -o "/usr/bin/7z" &
           sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/7z" -o "/usr/local/bin/7z" &
+          sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/ansi2txt" -o "/usr/local/bin/ansi2txt" &
           sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/aria2c" -o "/usr/local/bin/aria2c" &
           sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/askalono" -o "/usr/local/bin/askalono" &
-          sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/bsdtar" -o "/usr/local/bin/bsdtar" &
+          sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/Baseutils/libarchive/bsdtar" -o "/usr/local/bin/bsdtar" &
           sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/b3sum" -o "/usr/local/bin/b3sum" &
           sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/eget" -o "/usr/local/bin/eget" &
           sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/huggingface-cli" -o "/usr/local/bin/huggingface-cli" &
@@ -237,8 +238,10 @@ jobs:
           sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/rsync" -o "/usr/local/bin/rsync" &
           sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/trufflehog" -o "/usr/local/bin/trufflehog" &
           sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/xq" -o "/usr/local/bin/xq" &
-          sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/xz" -o "/usr/local/bin/xz" &
+          sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/Baseutils/xz/xz" -o "/usr/local/bin/xz" &
           sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/yq" -o "/usr/local/bin/yq" &
+          sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/Baseutils/zstd/zstd" -o "/usr/bin/zstd" &
+          sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/Baseutils/zstd/zstd" -o "/usr/local/bin/zstd" &
           wait ; echo
           sudo chmod -v 'a+x' \
           "/usr/bin/7z" \
@@ -256,6 +259,7 @@ jobs:
           "/usr/local/bin/xq" \
           "/usr/local/bin/xz" \
           "/usr/local/bin/yq" \
+          "/usr/bin/zstd" \
           "/usr/local/bin/zstd"
         continue-on-error: true
 
@@ -325,7 +329,7 @@ jobs:
         if: env.CONTINUE_GHRUN != 'FALSE'
         uses: actions/upload-artifact@v4
         with:
-            name: Bincache_${{ env.PKG_FAMILY_LOCAL }}_${{ matrix.package.host }}
+            name: AM_${{ env.PKG_NAME }}_${{ matrix.package.host }}
             path: |
               /tmp/BUILD.log
               /tmp/BUILD_ARTIFACTS.7z
@@ -338,7 +342,7 @@ jobs:
         if: env.CONTINUE_GHRUN != 'FALSE'
         uses: actions/attest-build-provenance@v2.2.0
         with:
-          subject-name: "build-logs-${{ env.PKG_FAMILY_LOCAL }}-${{ env.UTC_TIME }}"
+          subject-name: "build-logs-${{ env.PKG_NAME }}-${{ env.UTC_TIME }}"
           subject-path: "/tmp/BUILD.log"
           show-summary: true
         continue-on-error: true
