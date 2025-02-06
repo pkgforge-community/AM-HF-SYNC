@@ -166,9 +166,10 @@ jobs:
           set +x ; set +e
           #-------------#
           ##CoreUtils
-          sudo apt update -y
-          sudo apt install bc coreutils curl dos2unix fdupes jq moreutils wget -y
-          sudo apt install apt-transport-https apt-utils ca-certificates coreutils dos2unix git-lfs gnupg2 jq moreutils p7zip-full rename rsync software-properties-common texinfo tmux torsocks util-linux wget zsync -y 2>/dev/null ; sudo apt update -y 2>/dev/null
+          sudo apt update -y -qq
+          sudo apt install apt-transport-https apt-utils bc ca-certificates coreutils curl dos2unix fdupes git-lfs gnupg2 \
+          jq moreutils p7zip-full rename rsync software-properties-common texinfo tmux torsocks util-linux wget zsync -y -qq 2>/dev/null
+          sudo apt update -y -qq 2>/dev/null
           ##tmp
           SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="${SYSTMP}"
           #GH ENV
@@ -179,10 +180,6 @@ jobs:
           git config --global "credential.helper" store
           git config --global "user.email" "AjamX101@gmail.com"
           git config --global "user.name" "Azathothas"
-          #-------------#
-          mkdir -p "${HOME}/bin"
-          sudo apt update -y
-          sudo apt install git-lfs dos2unix -y
           ##User-Agent
           USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="${USER_AGENT}"
           echo "USER_AGENT=${USER_AGENT}" >> "${GITHUB_ENV}"
@@ -225,8 +222,41 @@ jobs:
           #presets
           set +x ; set +e
           #-------------#
-          export PARALLEL=1
-          bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/devscripts/refs/heads/main/Linux/install_bins_curl.sh")
+          #export PARALLEL=1
+          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/devscripts/refs/heads/main/Linux/install_bins_curl.sh")
+          sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/7z" -o "/usr/bin/7z" &
+          sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/7z" -o "/usr/local/bin/7z" &
+          sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/aria2c" -o "/usr/local/bin/aria2c" &
+          sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/askalono" -o "/usr/local/bin/askalono" &
+          sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/bsdtar" -o "/usr/local/bin/bsdtar" &
+          sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/b3sum" -o "/usr/local/bin/b3sum" &
+          sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/eget" -o "/usr/local/bin/eget" &
+          sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/huggingface-cli" -o "/usr/local/bin/huggingface-cli" &
+          sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/jq" -o "/usr/local/bin/jq" &
+          sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/ouch" -o "/usr/local/bin/ouch" &
+          sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/rsync" -o "/usr/local/bin/rsync" &
+          sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/trufflehog" -o "/usr/local/bin/trufflehog" &
+          sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/xq" -o "/usr/local/bin/xq" &
+          sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/xz" -o "/usr/local/bin/xz" &
+          sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/yq" -o "/usr/local/bin/yq" &
+          wait ; echo
+          sudo chmod -v 'a+x' \
+          "/usr/bin/7z" \
+          "/usr/local/bin/7z" \
+          "/usr/local/bin/aria2c" \
+          "/usr/local/bin/askalono" \
+          "/usr/local/bin/bsdtar" \
+          "/usr/local/bin/b3sum" \
+          "/usr/local/bin/eget" \
+          "/usr/local/bin/huggingface-cli" \
+          "/usr/local/bin/jq" \
+          "/usr/local/bin/ouch" \
+          "/usr/local/bin/rsync" \
+          "/usr/local/bin/trufflehog" \
+          "/usr/local/bin/xq" \
+          "/usr/local/bin/xz" \
+          "/usr/local/bin/yq" \
+          "/usr/local/bin/zstd"
         continue-on-error: true
 
       - name: Setup HF [https://huggingface.co/datasets/pkgforge/AMcache]
@@ -313,7 +343,7 @@ jobs:
           show-summary: true
         continue-on-error: true
 
-      - name: Check Build [${{ matrix.package.pkg-name }}]
+      - name: Check Build ==> [https://hf.co/datasets/pkgforge/AMcache/tree/main/${{ env.HF_PKGNAME }}]
         if: env.CONTINUE_GHRUN != 'FALSE'
         run: |
           #Presets
@@ -322,5 +352,7 @@ jobs:
           if [[ "${GHA_BUILD_FAILED}" == "YES" || "${BUILD_SUCCESSFUL}" == "NO" ]]; then
             echo -e "\n[-] FATAL: Failed to Successfully Build ${{ matrix.package.pkg-name }}"
            exit 1
+          else
+            echo -e "\n[+] Build: https://huggingface.co/datasets/pkgforge/AMcache/tree/main/${{ env.HF_PKGNAME }}\n"
           fi
         continue-on-error: false

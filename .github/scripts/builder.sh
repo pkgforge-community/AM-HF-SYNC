@@ -60,7 +60,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
   git checkout ; ls -lah "." "./${PKG_NAME}/${HOST_TRIPLET}" ; git sparse-checkout list
   #Install
    {
-     echo -e "\n[+] Installing ${PKG_NAME} ...\n"
+     echo -e "\n[+] Installing ${PKG_NAME} <== ${BUILD_SCRIPT}\n"
      timeout -k 5s 10s curl -w "\n(Script) <== %{url}\n" -qfsSL "${BUILD_SCRIPT_RAW}"
      set -x
      timeout -k 10s 300s am install --debug "${PKG_NAME}"
@@ -87,6 +87,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
         if [[ -d "${HF_PKGPATH}" ]]; then
           pushd "${HF_PKGPATH}" &>/dev/null
           HF_PKGNAME="${PKG_NAME}/${HOST_TRIPLET}/${PKG_VERSION}"
+          echo HF_PKGNAME="${HF_PKGNAME}" >> "${GITHUB_ENV}"
         else
           echo -e "\n[-] FATAL: Failed to create ${HF_PKGPATH}\n"
          exit 1 
@@ -141,11 +142,11 @@ pushd "$(mktemp -d)" &>/dev/null && \
        #Desktop
         DESKTOP_FILE="$(find '/usr/local/share/applications/' -type f -iname "*${PKG_NAME}*AM*desktop" -print | sort -u | head -n 1 | tr -d '[:space:]')"
         if [[ -f "${DESKTOP_FILE}" ]] && [[ $(stat -c%s "${DESKTOP_FILE}") -gt 5 ]]; then
-         sed '/.*DBusActivatable.*/I d' -i "${DESKTOP_FILE}"
-         sed -E 's/\s+setup\s+/ /Ig' -i "${DESKTOP_FILE}"
-         sed "s/Icon=[^ ]*/Icon=${PKG}/" -i "${DESKTOP_FILE}"
          cp -fv "${DESKTOP_FILE}" "${HF_PKGPATH}/${PKG_NAME}.desktop"
          if [[ -f "${HF_PKGPATH}/${PKG_NAME}.desktop" ]] && [[ $(stat -c%s "${HF_PKGPATH}/${PKG_NAME}.desktop") -gt 5 ]]; then
+           sed '/.*DBusActivatable.*/I d' -i "${HF_PKGPATH}/${PKG_NAME}.desktop"
+           sed -E 's/\s+setup\s+/ /Ig' -i "${HF_PKGPATH}/${PKG_NAME}.desktop"
+           sed "s/Icon=[^ ]*/Icon=${PKG}/" -i "${HF_PKGPATH}/${PKG_NAME}.desktop"
            PKG_DESKTOP="https://huggingface.co/datasets/pkgforge/AMcache/resolve/main/${HF_PKGNAME}/${PKG_NAME}.desktop"
            echo -e "[+] Desktop: ${PKG_DESKTOP} ('.desktop')"
          fi
