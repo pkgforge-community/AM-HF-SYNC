@@ -66,9 +66,9 @@ jobs:
           ##api.github.com --> api.gh.pkgforge.dev
           find "${GITHUB_WORKSPACE}/main" -name ".git*" -prune -o -type f -exec sed 's#api.github.com#api.gh.pkgforge.dev#g' -i "{}" + 2>/dev/null
           ##curl -$ARGS --> curl -A "${USER_AGENT}" -$ARGS
-          find "${GITHUB_WORKSPACE}/main" -name ".git*" -prune -o -type f -exec sed 's#curl -#curl -A "${USER_AGENT}" -#g' -i "{}" + 2>/dev/null
-          ##wget $ARGS --> wget -U "${USER_AGENT}" $ARGS
-          find "${GITHUB_WORKSPACE}/main" -name ".git*" -prune -o -type f -exec sed 's#wget "#wget -U "${USER_AGENT}" "#g' -i "{}" + 2>/dev/null
+          find "${GITHUB_WORKSPACE}/main" -name ".git*" -prune -o -type f -exec sed '/USER_AGENT/!s#curl -#curl -A "${USER_AGENT}" -#g' -i "{}" + 2>/dev/null
+          ##wget "$ARGS --> wget -U "${USER_AGENT}" "$ARGS
+          find "${GITHUB_WORKSPACE}/main" -name ".git*" -prune -o -type f -exec sed '/USER_AGENT/!s#wget "#wget -U "${USER_AGENT}" "#g' -i "{}" + 2>/dev/null
         continue-on-error: true
           
       - name: Get DateTime

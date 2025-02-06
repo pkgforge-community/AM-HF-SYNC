@@ -167,21 +167,55 @@ jobs:
           ##CoreUtils
           sudo apt update -y
           sudo apt install bc coreutils curl dos2unix fdupes jq moreutils wget -y
-          sudo apt-get install apt-transport-https apt-utils ca-certificates coreutils dos2unix gnupg2 jq moreutils p7zip-full rename rsync software-properties-common texinfo tmux torsocks util-linux wget zsync -y 2>/dev/null ; sudo apt-get update -y 2>/dev/null
+          sudo apt install apt-transport-https apt-utils ca-certificates coreutils dos2unix git-lfs gnupg2 jq moreutils p7zip-full rename rsync software-properties-common texinfo tmux torsocks util-linux wget zsync -y 2>/dev/null ; sudo apt update -y 2>/dev/null
           ##tmp
           SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="${SYSTMP}"
           #GH ENV
           echo "SYSTMP=${SYSTMP}" >> "${GITHUB_ENV}"
           echo "GHA_MODE=MATRIX" >> "${GITHUB_ENV}"
+          echo "GIT_TERMINAL_PROMPT=0" >> "${GITHUB_ENV}"
+          echo "GIT_ASKPASS=/bin/echo" >> "${GITHUB_ENV}"
+          git config --global "credential.helper" store
+          git config --global "user.email" "AjamX101@gmail.com"
+          git config --global "user.name" "Azathothas"
           #-------------#
           mkdir -p "${HOME}/bin"
           sudo apt update -y
-          sudo apt install dos2unix -y
-          #HF
+          sudo apt install git-lfs dos2unix -y
           ##User-Agent
           USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="${USER_AGENT}"
           echo "USER_AGENT=${USER_AGENT}" >> "${GITHUB_ENV}"
         continue-on-error: true
+
+      - name: Install Addons
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/devscripts/refs/heads/main/Linux/install_bins_curl.sh")
+        continue-on-error: true
+
+      - name: Setup HF [https://huggingface.co/datasets/pkgforge/AMcache]
+        if: env.CONTINUE_GHRUN != 'FALSE'
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          if ! command -v huggingface-cli &> /dev/null; then
+            echo -e "[-] Failed to find huggingface-cli\n"
+            echo "CONTINUE_GHRUN=FALSE" >> "${GITHUB_ENV}"
+           exit 1 
+          fi
+          if [[ -z "${HF_TOKEN+x}" ]]; then
+            echo -e "\n[-] FATAL: Failed to Find HF Token (\${HF_TOKEN}\n"
+            echo "CONTINUE_GHRUN=FALSE" >> "${GITHUB_ENV}"
+           exit 1
+          else          
+            huggingface-cli login --token "${HF_TOKEN}" --add-to-git-credential
+          fi
+        continue-on-error: false
 
       - name: Disable apparmor_restrict_unprivileged_userns #Required for runimage etc
         if: env.CONTINUE_GHRUN != 'FALSE'
@@ -200,7 +234,10 @@ jobs:
         run: |
           #presets
           set +x ; set +e
-          #-------------#        
+          #-------------#
+          #https://github.com/ivan-hc/AM/blob/main/AM-INSTALLER#L13
+          sudo apt update -y -qq
+          sudo apt install curl torsocks wget zsync -y -qq
           yes '1' | bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/AM-INSTALLER")
           if ! command -v am &>/dev/null; then
             echo -e "[-] Failed to find am\n"
@@ -213,9 +250,6 @@ jobs:
 
       - name: BUILD (${{ github.event.inputs.ghcr-url }}) [${{ matrix.package.host }}<==>${{ matrix.package.runner }}]
         if: env.CONTINUE_GHRUN != 'FALSE'
-        env:
-          GITHUB_TOKEN: "${{ github.token }}"
-          HF_TOKEN: "${{ secrets.HF_TOKEN }}"
         run: |
           #Presets
           set +x ; set +e
