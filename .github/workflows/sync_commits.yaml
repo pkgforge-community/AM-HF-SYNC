@@ -78,7 +78,7 @@ jobs:
           ###set -u --> set +u
           #find "${GITHUB_WORKSPACE}/main" -name ".git*" -prune -o -type f -exec sed 's#set -u#set +u#g' -i "{}" + 2>/dev/null
           ##set -u --> set -ux
-          find "${GITHUB_WORKSPACE}/main/programs" -name ".git*" -prune -o -type f -exec sed 's#set -u#set -ux#g' -i "{}" + 2>/dev/null
+          find "${GITHUB_WORKSPACE}/main/programs" -name ".git*" -prune -o -type f -exec sed '/set -ux/!s#set -u#set -ux#g' -i "{}" + 2>/dev/null
         continue-on-error: true
           
       - name: Get DateTime
