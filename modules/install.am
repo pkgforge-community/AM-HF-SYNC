@@ -37,7 +37,7 @@ _convert_to_appman_compatible_script() {
 }
 
 _download() {
-	if curl -A "${USER_AGENT}" --output /dev/null --silent --head --fail "$APPSDB/$arg"  1>/dev/null; then
+	if curl -A "${USER_AGENT}" -A "${USER_AGENT}" --output /dev/null --silent --head --fail "$APPSDB/$arg"  1>/dev/null; then
 		cd "$SCRIPTDIR" || return 1
 		if [ -f ./"$arg" ] || [ -d ./"$arg" ]; then
 			echo "✖ \"$SCRIPTDIR/$arg\" already exists!" | _fit && return 1
@@ -60,8 +60,8 @@ _check_if_optional_dependences_are_needed() {
 	# Determine if this is an AppImage that can be compiled on-the-fly
 	if grep -qi "^wget.*.sh.*chmod.*&&" ./"$arg"; then
 		appimage_bulder_script=$(grep "^wget -U "${USER_AGENT}" " ./"$arg" | tr '"' '\n' | grep -i "^http" | sed "s/\$APP/$arg/g")
-		if curl -A "${USER_AGENT}" --output /dev/null --silent --head --fail "$appimage_bulder_script" 1> /dev/null; then
-			script_content=$(curl -A "${USER_AGENT}" -Ls "$appimage_bulder_script")
+		if curl -A "${USER_AGENT}" -A "${USER_AGENT}" --output /dev/null --silent --head --fail "$appimage_bulder_script" 1> /dev/null; then
+			script_content=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls "$appimage_bulder_script")
 			if echo "$script_content" | grep -ie "appimagetool\|pkg2appimage" 1>/dev/null; then
 				if ! command -v convert >/dev/null 2>&1; then
 					echo " 💀 ERROR: cannot create \"$arg\" without \"convert\" (from \"imagemagick\")"
@@ -206,7 +206,7 @@ _post_installation_processes() {
 	fi
 	# Check for AM-updater script sothat CLI can manage updates
 	[ -f "${LASTDIRPATH}"/AM-updater ] && mkdir "${LASTDIRPATH}"/.am-installer 2>/dev/null \
-		&& curl -A "${USER_AGENT}" -Ls "$APPSDB"/"$arg" > "${LASTDIRPATH}"/.am-installer/"$arg"
+		&& curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls "$APPSDB"/"$arg" > "${LASTDIRPATH}"/.am-installer/"$arg"
 	find "${LASTDIRPATH}"/icons/* -xtype l -delete 2>/dev/null # Removes broken links
 	# If you have a broken or missing icon in your "icons" directory, download one from the catalog
 	[ -z "$(ls -A "${LASTDIRPATH}"/icons 2>/dev/null)" ] \
@@ -262,14 +262,14 @@ _install_arg() {
 		TORSOCKS="1"
 	fi
 	if grep -q "https://repology.org" ./"$arg"; then
-		REPOLOGY_API_ALLOWED=$(curl -A "${USER_AGENT}" -Ls https://repology.org/)
+		REPOLOGY_API_ALLOWED=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://repology.org/)
 		TORSOCKS_MESSAGE="you have no access to https://repology.org, needed to check the version of this program."
 		if grep -q "https://repology.org" ./"$arg" && [ -z "$REPOLOGY_API_ALLOWED" ] && [ -n "$TORSOCKS" ]; then
 			sed -i "s/version=\$(wget/version=\$(torsocks wget/g" ./"$arg"
 		fi
 		[ -z "$REPOLOGY_API_ALLOWED" ] && [ -z "$TORSOCKS" ] && _torsocks_error_message | fold -sw 72 | sed 's/^/   /g; s/   ✖/✖/g' && return 0
 	elif grep -q "api.gh.pkgforge.dev" ./"$arg"; then
-		GH_API_ALLOWED=$(curl -A "${USER_AGENT}" -Ls $HeaderAuthWithGITPAT https://api.gh.pkgforge.dev/repos/ivan-hc/AM/releases/latest | sed 's/[()",{} ]/\n/g' | grep "^ivan-hc" | head -1)
+		GH_API_ALLOWED=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls $HeaderAuthWithGITPAT https://api.gh.pkgforge.dev/repos/pkgforge-community/AM-HF-SYNC/releases/latest | sed 's/[()",{} ]/\n/g' | grep "^ivan-hc" | head -1)
 		TORSOCKS_MESSAGE="you have reached GitHub API limit."
 		[ -z "$GH_API_ALLOWED" ] && [ -z "$TORSOCKS" ] && _torsocks_error_message | fold -sw 72 | sed 's/^/   /g; s/   ✖/✖/g' && return 0
 	fi
@@ -291,7 +291,7 @@ _install_arg() {
 _determine_pure_arg_name() {
 	pure_arg=$(echo "$arg" | sed 's/\.toolpack//g; s/\.dwfs.appbundle$//g; s/\.appbundle$//g; s/\.nixappimage//g')
 	pure_arg=$(echo "$pure_arg" | sed 's/\.appimage//g; s/\-appimage$//g' | sed 's:.*/::')
-	echo "$arg" | grep -q -- "-appimage$" && curl -A "${USER_AGENT}" -Ls "$APPSDB"/"$arg" | grep -q "APP=.*-appimage$" && pure_arg="$arg"
+	echo "$arg" | grep -q -- "-appimage$" && curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls "$APPSDB"/"$arg" | grep -q "APP=.*-appimage$" && pure_arg="$arg"
 }
 
 _install_appimage() {
@@ -329,7 +329,7 @@ _install_local_script() {
 _install_normally() {
 	# This is for scripts hosted on the official online database
 	mkdir -p "$AMCACHEDIR"/tmp && rm -f "$AMCACHEDIR"/tmp/* || return 1
-	curl -A "${USER_AGENT}" -Ls "$APPSDB"/"$arg" > "$AMCACHEDIR"/tmp/"$arg" || return 1
+	curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls "$APPSDB"/"$arg" > "$AMCACHEDIR"/tmp/"$arg" || return 1
 	cd "$AMCACHEDIR" && mv ./tmp/"$arg" ./"$arg" && rmdir ./tmp || return 1
 	_install_arg
 }
@@ -350,18 +350,18 @@ _3rd_party_apps_handler() {
 	else
 		[ -n "$toolpack_readme" ] && third_party_readme="$toolpack_readme"
 	fi
-	awk_version="curl -A "${USER_AGENT}" -Ls $third_party_readme | grep -i \"^| $arg \" | tr '|' '\\\n' | cut -c 2- | grep . | awk -F: \"NR==$awk_ver\""
-	third_party_url="curl -A "${USER_AGENT}" -Ls $third_party_readme | grep -i \"^| $arg \" | tr '|' '\\\n' | cut -c 2- | grep . | awk -F: \"NR==$awk_dl\""
+	awk_version="curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls $third_party_readme | grep -i \"^| $arg \" | tr '|' '\\\n' | cut -c 2- | grep . | awk -F: \"NR==$awk_ver\""
+	third_party_url="curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls $third_party_readme | grep -i \"^| $arg \" | tr '|' '\\\n' | cut -c 2- | grep . | awk -F: \"NR==$awk_dl\""
 	if echo "$arg" | grep -q "appbundle$"; then
-		curl -A "${USER_AGENT}" -Ls "$AMREPO"/templates/AM-SAMPLE-AppBundle > "$CACHEDIR/extra/$arg.toolpack" || exit 1
+		curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls "$AMREPO"/templates/AM-SAMPLE-AppBundle > "$CACHEDIR/extra/$arg.toolpack" || exit 1
 		sed -i "s#APP=SAMPLE#APP=$arg#g; s#FUNCTION#$awk_version#g; s#wget \"\$version\"#wget \$($third_party_url)#g" "$CACHEDIR/extra/$arg.toolpack"
 		sed -i 's/\.dwfs.appbundle$//g; s/\.appbundle$//g' "$CACHEDIR/extra/$arg.toolpack"
 	elif echo "$arg" | grep -q "nixappimage$"; then
-		curl -A "${USER_AGENT}" -Ls "$AMREPO"/templates/AM-SAMPLE-AppImage > "$CACHEDIR/extra/$arg.toolpack" || exit 1
+		curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls "$AMREPO"/templates/AM-SAMPLE-AppImage > "$CACHEDIR/extra/$arg.toolpack" || exit 1
 		sed -i "s#APP=SAMPLE#APP=$arg#g; s#FUNCTION#$awk_version#g; s#wget \"\$version\"#wget \$($third_party_url)#g" "$CACHEDIR/extra/$arg.toolpack"
 		sed -i 's/\.nixappimage$//g' "$CACHEDIR/extra/$arg.toolpack"
 	else
-		curl -A "${USER_AGENT}" -Ls "$AMREPO"/templates/AM-SAMPLE-Archive > "$CACHEDIR/extra/$arg.toolpack" || exit 1
+		curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls "$AMREPO"/templates/AM-SAMPLE-Archive > "$CACHEDIR/extra/$arg.toolpack" || exit 1
 		sed -i "s#APP=SAMPLE#APP=$arg#g; s#FUNCTION#$awk_version#g; s#wget \"\$version\"#wget \$($third_party_url)#g" "$CACHEDIR/extra/$arg.toolpack"
 		sed -e '/\[ -e/ s/^#*/#/' -i "$CACHEDIR/extra/$arg.toolpack" 2>/dev/null
 	fi
@@ -371,7 +371,7 @@ _3rd_party_apps_handler() {
 
 _install_3rd_party_app() {
 	arg=$(echo "$arg" | sed 's/\.toolpack//g; s/\.appimage//g')
-	if curl -A "${USER_AGENT}" -Ls "$appbundle_readme" 2>/dev/null | grep -q "^| $arg " || curl -A "${USER_AGENT}" -Ls "$toolpack_readme" 2>/dev/null | grep -q "^| $arg "; then
+	if curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls "$appbundle_readme" 2>/dev/null | grep -q "^| $arg " || curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls "$toolpack_readme" 2>/dev/null | grep -q "^| $arg "; then
 		_3rd_party_apps_handler
 		_install_local_script
 	else
@@ -464,7 +464,7 @@ case "$1" in
 				fi
 			elif _3rd_party_check "$@"; then
 				_install_3rd_party_app
-			elif curl -A "${USER_AGENT}" --output /dev/null --silent --head --fail "$APPSDB"/"$arg" 1>/dev/null; then
+			elif curl -A "${USER_AGENT}" -A "${USER_AGENT}" --output /dev/null --silent --head --fail "$APPSDB"/"$arg" 1>/dev/null; then
 				_install_normally
 			else
 				echo "💀 ERROR: \"$arg\" does NOT exist in the \"AM\" database, $(printf "please check the list, run the \"%b$AMCLIPATH_ORIGIN -l\033[0m\" command.\n\n" "${Gold}")" | fold -sw 72 | sed 's/^/ /g'
@@ -516,7 +516,7 @@ case "$1" in
 			;;
 		esac
 		mkdir -p "$CACHEDIR/extra"
-		curl -A "${USER_AGENT}" -Ls "$AMREPO"/templates/AM-SAMPLE-AppImage > "$CACHEDIR/extra/$EXTERNAL_APP_NAME" || exit 1
+		curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls "$AMREPO"/templates/AM-SAMPLE-AppImage > "$CACHEDIR/extra/$EXTERNAL_APP_NAME" || exit 1
 		sed -i "s#APP=SAMPLE#APP=$EXTERNAL_APP_NAME#g" "$CACHEDIR/extra/$EXTERNAL_APP_NAME"
 		API_GITHUB_REPO="https://api.gh.pkgforge.dev/repos/$USER_PROJECT/releases"
 		sed -i "s#REPLACETHIS#$USER_PROJECT#g" "$CACHEDIR/extra/$EXTERNAL_APP_NAME"
@@ -528,7 +528,7 @@ case "$1" in
 		elif [ "$ARCH" = "aarch64" ]; then
 			FILTER=' | grep -ie "aarch64\\|arm64" '
 		fi
-		FUNCTION='curl -A "${USER_AGENT}" -Ls '"$API_GITHUB_REPO"' | sed '"$q"'s/[()",{} ]/\\n/g'"$q"' | grep -oi "https.*mage$"'"$FILTER"' | head -1'
+		FUNCTION='curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls '"$API_GITHUB_REPO"' | sed '"$q"'s/[()",{} ]/\\n/g'"$q"' | grep -oi "https.*mage$"'"$FILTER"' | head -1'
 		sed -i "s#FUNCTION)#$FUNCTION)#g" "$CACHEDIR/extra/$EXTERNAL_APP_NAME"
 		[ -n "$APP_KEYWORD" ] && sed -i "s# head -1# grep -i \"$APP_KEYWORD\" | head -1#g" "$CACHEDIR/extra/$EXTERNAL_APP_NAME"
 		chmod a+x "$CACHEDIR/extra/$EXTERNAL_APP_NAME"

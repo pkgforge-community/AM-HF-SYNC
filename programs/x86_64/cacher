@@ -12,7 +12,7 @@ printf '\n%s' "rm -f /usr/local/share/applications/$APP-AM.desktop" >> ../remove
 chmod a+x ../remove || exit 1
 
 # DOWNLOAD AND PREPARE THE APP, $version is also used for updates
-version=$(v=$(curl -A "${USER_AGENT}" -Ls https://raw.githubusercontent.com/kkzzhizhou/scoop-apps/master/bucket/cacher.json | grep version | head -1 | cut -c 17- | rev | cut -c 4- | rev) && echo https://s3.amazonaws.com/download.cacher.io/Cacher-$v.AppImage)
+version=$(v=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://raw.githubusercontent.com/kkzzhizhou/scoop-apps/master/bucket/cacher.json | grep version | head -1 | cut -c 17- | rev | cut -c 4- | rev) && echo https://s3.amazonaws.com/download.cacher.io/Cacher-$v.AppImage)
 wget -U "${USER_AGENT}" "$version" || exit 1
 #wget -U "${USER_AGENT}" "$version.zsync" 2> /dev/null # Comment out this line if you want to use zsync
 # Use tar fx ./*tar* here for example in this line in case a compressed file is downloaded.
@@ -33,7 +33,7 @@ set -u
 APP=cacher
 SITE="https://www.cacher.io"
 version0=$(cat "/opt/$APP/version")
-version=$(v=$(curl -A "${USER_AGENT}" -Ls https://raw.githubusercontent.com/kkzzhizhou/scoop-apps/master/bucket/cacher.json | grep version | head -1 | cut -c 17- | rev | cut -c 4- | rev) && echo https://s3.amazonaws.com/download.cacher.io/Cacher-$v.AppImage)
+version=$(v=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://raw.githubusercontent.com/kkzzhizhou/scoop-apps/master/bucket/cacher.json | grep version | head -1 | cut -c 17- | rev | cut -c 4- | rev) && echo https://s3.amazonaws.com/download.cacher.io/Cacher-$v.AppImage)
 [ -n "$version" ] || { echo "Error getting link"; exit 1; }
 if [ "$version" != "$version0" ] || [ -e /opt/"$APP"/*.zsync ]; then
 	mkdir "/opt/$APP/tmp" && cd "/opt/$APP/tmp" || exit 1

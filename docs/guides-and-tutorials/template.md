@@ -23,7 +23,7 @@ This is a step-by-step guide on how to create, understand and test installation 
 
 ------------------------------------------------------------------------
 ## Create your installation script
-Option `-t` or `template` allows you to create an "AM" compatible installation script using a "[templates](https://github.com/ivan-hc/AM/tree/main/templates)" that can be used by both "AM" and "AppMan". In fact, all AppMan does is take the installation scripts from this database and patch them to make them compatible with a rootless installation.
+Option `-t` or `template` allows you to create an "AM" compatible installation script using a "[templates](https://github.com/pkgforge-community/AM-HF-SYNC/tree/main/templates)" that can be used by both "AM" and "AppMan". In fact, all AppMan does is take the installation scripts from this database and patch them to make them compatible with a rootless installation.
 
 The syntax to follow is this
 ```
@@ -35,7 +35,7 @@ appman -t $PROGRAM
 ```
 and this is the screen that will appear:
 
-![Istantanea_2024-06-17_21-35-26 png](https://github.com/ivan-hc/AM/assets/88724353/6e11aeff-9a70-44f7-bd73-1324b545704e)
+![Istantanea_2024-06-17_21-35-26 png](https://github.com/pkgforge-community/AM-HF-SYNC/assets/88724353/6e11aeff-9a70-44f7-bd73-1324b545704e)
 
 Each option corresponds to a different type of application or helper to target with an installation script:
 
@@ -108,15 +108,15 @@ In the previous cases, it is easy to preset a URL for download, being genericall
 
 Here is how a version variable looks for Abiword (github)...
 ```
-version=$(curl -A "${USER_AGENT}" -Ls  https://api.gh.pkgforge.dev/repos/ivan-hc/Abiword-appimage/releases | sed 's/[()",{} ]/\n/g' | grep -oi "https.*mage$" | grep -vi "i386\|i686\|aarch64\|arm64\|armv7l" | head -1)
+version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls  https://api.gh.pkgforge.dev/repos/ivan-hc/Abiword-appimage/releases | sed 's/[()",{} ]/\n/g' | grep -oi "https.*mage$" | grep -vi "i386\|i686\|aarch64\|arm64\|armv7l" | head -1)
 ```
 ...for SimpleScreenRecorder (still github)...
 ```
-version=$(curl -A "${USER_AGENT}" -Ls  https://api.gh.pkgforge.dev/repos/ivan-hc/Database-of-pkg2appimaged-packages/releases | sed 's/[()",{} ]/\n/g' | grep -oi "https.*mage$" | grep -vi "i386\|i686\|aarch64\|arm64\|armv7l" | grep -i "simplescreenrecorder" | head -1)
+version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls  https://api.gh.pkgforge.dev/repos/ivan-hc/Database-of-pkg2appimaged-packages/releases | sed 's/[()",{} ]/\n/g' | grep -oi "https.*mage$" | grep -vi "i386\|i686\|aarch64\|arm64\|armv7l" | grep -i "simplescreenrecorder" | head -1)
 ```
 ...and for Nootka (sourceforge)
 ```
-version=$(curl -A "${USER_AGENT}" -Ls https://sourceforge.net/p/nootka/activity/feed | grep -Eo "(http|https)://[a-zA-Z0-9./?=_%:-]*" | grep -i "appimage" | grep -v '%' | head -1)
+version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://sourceforge.net/p/nootka/activity/feed | grep -Eo "(http|https)://[a-zA-Z0-9./?=_%:-]*" | grep -i "appimage" | grep -v '%' | head -1)
 ```
 ...namely, the three AppImages created previously.
 
@@ -127,7 +127,7 @@ wget -U "${USER_AGENT}" "$version" || exit 1
 While **this is how a "`version`" variable looks in many sites other than the standard ones**, Inkscape for example have no `wget -U "${USER_AGENT}" "$version"` reference...
 ```
 version=$(wget -q https://repology.org/project/inkscape/related -O - | grep "version-newest" | head -1 | grep -Eo "([0-9]{1,}\.)+[0-9]{1,}")
-wget -U "${USER_AGENT}" "$(echo "https://inkscape.org/$(curl -A "${USER_AGENT}" -Ls $(echo "https://inkscape.org/release/inkscape-$(curl -A "${USER_AGENT}" -Ls https://inkscape.org/ | grep -Po '(?<=class="info")[^"]*' | grep -Eo "([0-9]{1,}\.)+[0-9]{1,}" | head -1)/gnulinux/appimage/dl/") | grep "click here" | grep -o -P '(?<=href=").*(?=">click)')")" || exit 1
+wget -U "${USER_AGENT}" "$(echo "https://inkscape.org/$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls $(echo "https://inkscape.org/release/inkscape-$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://inkscape.org/ | grep -Po '(?<=class="info")[^"]*' | grep -Eo "([0-9]{1,}\.)+[0-9]{1,}" | head -1)/gnulinux/appimage/dl/") | grep "click here" | grep -o -P '(?<=href=").*(?=">click)')")" || exit 1
 ```
 ...this is "Lens" instead...
 ```
@@ -137,7 +137,7 @@ wget -U "${USER_AGENT}" "$version" || exit 1
 ...and this is "Ember"
 ```
 version=$(wget -q https://repology.org/project/ember/versions -O - | grep -i "new.*version" | head -1 | tr '><' '\n' | grep "^[0-9]")
-wget -U "${USER_AGENT}" "$(curl -A "${USER_AGENT}" -Ls https://www.worldforge.org/downloads/ | tr '"' '\n' | grep -i "^http.*appimage")" || exit 1
+wget -U "${USER_AGENT}" "$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://www.worldforge.org/downloads/ | tr '"' '\n' | grep -i "^http.*appimage")" || exit 1
 ```
 interventions like this are mostly manual.
 
@@ -158,19 +158,19 @@ The templates are by @Samueru-sama
 ## Option One: "build AppImages on-the-fly"
 This was one of the very first approaches used to create this project. Before I started building AppImage packages myself, they were first compiled just like using any AUR-helper.
 
-From version 7.1, the installation script for the AppImages is used, with the only difference that it points only to the version, while a second script will be downloaded, published separately, at [github.com/ivan-hc/AM/tree/main/appimage-bulder-scripts](https://github.com/ivan-hc/AM/tree/main/appimage-bulder-scripts), which will have the task of assembling the AppImage in the directory on the fly "tmp", during the installation process. When the second script has created the .AppImage file, the first script will continue the installation treating the created AppImage as a ready-made one downloaded from the internet.
+From version 7.1, the installation script for the AppImages is used, with the only difference that it points only to the version, while a second script will be downloaded, published separately, at [github.com/pkgforge-community/AM-HF-SYNC/tree/main/appimage-bulder-scripts](https://github.com/pkgforge-community/AM-HF-SYNC/tree/main/appimage-bulder-scripts), which will have the task of assembling the AppImage in the directory on the fly "tmp", during the installation process. When the second script has created the .AppImage file, the first script will continue the installation treating the created AppImage as a ready-made one downloaded from the internet.
 
 In this video we see how "calibre" is installed (note that a "calibre.sh" file is downloaded during the process):
 
-https://github.com/ivan-hc/AM/assets/88724353/e439bd09-5ec6-4794-8b00-59735039caea
+https://github.com/pkgforge-community/AM-HF-SYNC/assets/88724353/e439bd09-5ec6-4794-8b00-59735039caea
 
 In this video, I run the aforementioned "calibre.sh" script in a separate directory, in a completely standalone way:
 
-https://github.com/ivan-hc/AM/assets/88724353/45844573-cecf-4107-b1d4-7e8fe3984eb1
+https://github.com/pkgforge-community/AM-HF-SYNC/assets/88724353/45844573-cecf-4107-b1d4-7e8fe3984eb1
 
 Two different operations (assembly and installation) require two different scripts.
 
-Fun fact, up until version 7, this option included a unique template that installed and assembled the AppImage on the fly (see [this video](https://github.com/ivan-hc/AM/assets/88724353/6ae38787-e0e5-4b63-b020-c89c1e975ddd)). This method has been replaced as it was too pretentious for a process, assembly, which may instead require many more steps, too many to be included in both an installation script and an update script (AM-updater).
+Fun fact, up until version 7, this option included a unique template that installed and assembled the AppImage on the fly (see [this video](https://github.com/pkgforge-community/AM-HF-SYNC/assets/88724353/6ae38787-e0e5-4b63-b020-c89c1e975ddd)). This method has been replaced as it was too pretentious for a process, assembly, which may instead require many more steps, too many to be included in both an installation script and an update script (AM-updater).
 
 ------------------------------------------------------------------------
 
@@ -185,7 +185,7 @@ Option two is very similar to option zero, the one for AppImages, with very few 
 
 That said, we can even create a script for AppImage, but customizing the launcher and the icon without having to rely on the "standard" operations for which the template used in the Zero option is designed. As in this video, I'll use OBS Studio AppImage (even if this is not the use for which this template is intended)
 
-https://github.com/ivan-hc/AM/assets/88724353/ce46e2f2-c251-4520-b41f-c511d4ce6c7d
+https://github.com/pkgforge-community/AM-HF-SYNC/assets/88724353/ce46e2f2-c251-4520-b41f-c511d4ce6c7d
 
 As mentioned in parenthesis, the template is designed for many other uses, such as interception and extraction of portable archives in ZIP, TAR and 7z format, but also scripts and static binary files.
 
@@ -308,7 +308,7 @@ chmod a+x ../remove || exit 1
 
 The structure of the first two lines are similar for both AppImages and archives.
 ```
-version=$(curl -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/brave/brave-browser/releases/latest | sed 's/[()",{} ]/\n/g' | grep -oi "https.*" | grep -vi "i386\|i686\|aarch64\|arm64\|armv7l" | grep -i "https.*linux-amd64.zip$" | head -1)
+version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/brave/brave-browser/releases/latest | sed 's/[()",{} ]/\n/g' | grep -oi "https.*" | grep -vi "i386\|i686\|aarch64\|arm64\|armv7l" | grep -i "https.*linux-amd64.zip$" | head -1)
 wget -U "${USER_AGENT}" "$version" || exit 1
 ```
 but while archives have this to detect and extract packages that can be present, trying to extract the content at several levels...
@@ -429,7 +429,7 @@ NOTE, since you are experimenting with scripts you created, I highly recommend u
 
 ------------------------------------------------------------------------
 ## How to submit a Pull Request
-A good example of how Pull Requests should be done is given by the user @Sush-ruta https://github.com/ivan-hc/AM/pull/981 https://github.com/ivan-hc/AM/pull/1000 https://github.com/ivan-hc/AM/pull/960 https://github.com/ivan-hc/AM/pull/957
+A good example of how Pull Requests should be done is given by the user @Sush-ruta https://github.com/pkgforge-community/AM-HF-SYNC/pull/981 https://github.com/pkgforge-community/AM-HF-SYNC/pull/1000 https://github.com/pkgforge-community/AM-HF-SYNC/pull/960 https://github.com/pkgforge-community/AM-HF-SYNC/pull/957
 
 All files and directories are created and saved in your XDG_DESKTOP directory (~/Desktop), under "`am-scripts`". This is the structure of the directories, considering that the scripts we create ar for the x86_64 architecture...
 ```

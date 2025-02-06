@@ -36,7 +36,7 @@ echo 'version0=$(cat /opt/$APP/version)
 
 url=https://github.com/enzo1982/freac/releases/latest' >> /opt/$APP/AM-updater
 
-echo 'if curl -A "${USER_AGENT}" -L -s $url | grep -ioF "$version0"; then' >> /opt/$APP/AM-updater
+echo 'if curl -A "${USER_AGENT}" -A "${USER_AGENT}" -L -s $url | grep -ioF "$version0"; then' >> /opt/$APP/AM-updater
 echo '  echo "Update not needed!".'  >> /opt/$APP/AM-updater
 echo 'else' >> /opt/$APP/AM-updater
 echo "  notify-send 'A new version of $APP is available, please wait'" >> /opt/$APP/AM-updater
@@ -77,4 +77,4 @@ Keywords=freac;
 MimeType=x-content/audio-cdda;application/x-cue;audio/aac;audio/flac;audio/mpeg;audio/mp2;audio/mp4;audio/x-m4b;audio/ogg;audio/x-flac+ogg;audio/x-opus+ogg;audio/x-speex+ogg;audio/x-vorbis+ogg;audio/x-ape;audio/x-musepack;audio/x-wavpack;audio/x-ms-wma;audio/x-aiff;audio/x-voc;audio/x-wav;" >> /usr/local/share/applications/$APP-AM.desktop
 
 # ICON
-wget https://raw.githubusercontent.com/ivan-hc/AM-application-manager/main/programs/.icons/$APP/$APP.svg
+wget https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC-application-manager/main/programs/.icons/$APP/$APP.svg

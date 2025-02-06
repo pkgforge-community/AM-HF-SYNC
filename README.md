@@ -3,12 +3,12 @@
 
 <div align="center">
 
-| <img src="https://raw.githubusercontent.com/ivan-hc/AM/main/sample/sandbox.gif"> | <img src="https://raw.githubusercontent.com/ivan-hc/AM/main/sample/list.gif"> | <img src="https://raw.githubusercontent.com/ivan-hc/AM/main/sample/about.gif"> |
+| <img src="https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/sample/sandbox.gif"> | <img src="https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/sample/list.gif"> | <img src="https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/sample/about.gif"> |
 | - | - | - |
 | *sandbox AppImages* | *list available apps* | *info about the apps* |
-| <img src="https://raw.githubusercontent.com/ivan-hc/AM/main/sample/install.gif"> | <img src="https://raw.githubusercontent.com/ivan-hc/AM/main/sample/query.gif"> | <img src="https://raw.githubusercontent.com/ivan-hc/AM/main/sample/files.gif"> |
+| <img src="https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/sample/install.gif"> | <img src="https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/sample/query.gif"> | <img src="https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/sample/files.gif"> |
 | *install applications* | *query lists using keywords* | *show the installed apps* |
-| <img src="https://raw.githubusercontent.com/ivan-hc/AM/main/sample/backup-overwrite.gif"> | <img src="https://raw.githubusercontent.com/ivan-hc/AM/main/sample/update.gif"> | <img src="https://raw.githubusercontent.com/ivan-hc/AM/main/sample/nolibfuse.gif"> |
+| <img src="https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/sample/backup-overwrite.gif"> | <img src="https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/sample/update.gif"> | <img src="https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/sample/nolibfuse.gif"> |
 | *create and restore snapshots* | *update everything* | *get rid of libfuse2* |
 
 </div>
@@ -89,9 +89,9 @@ To install "AM" you must first install the "core" dependencies from your package
 ### Quick installation
 The "AM-INSTALLER" script allows you to choose "[AppMan](#what-is-appman)" instead of "AM", briefly explaining the differences between the two.
 
-Copy/paste the following one line command to download and run the "[AM-INSTALLER](https://github.com/ivan-hc/AM/blob/main/AM-INSTALLER)" script
+Copy/paste the following one line command to download and run the "[AM-INSTALLER](https://github.com/pkgforge-community/AM-HF-SYNC/blob/main/AM-INSTALLER)" script
 ```
-wget -q https://raw.githubusercontent.com/ivan-hc/AM/main/AM-INSTALLER && chmod a+x ./AM-INSTALLER && ./AM-INSTALLER
+wget -q https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/AM-INSTALLER && chmod a+x ./AM-INSTALLER && ./AM-INSTALLER
 ```
 ...below, the screenshot of what will appear.
 
@@ -105,12 +105,12 @@ Run `am -h` or jump to "**[Usage](#usage)**" to see all the available options.
 
 ------------------------------------------------------------------------
 ### Other installation methods
-As already said, the "AM-INSTALLER" script in the previous paragraph helps you choosing between "[AppMan](#what-is-appman)" and "AM", briefly explaining the differences. However, installing "AM" can be much simpler than that. All "AM-INSTALLER" does when you select "1" is to download and run another script, named "[INSTALL](https://github.com/ivan-hc/AM/blob/main/INSTALL)". That said, you can easily install "AM" without "intermediaries".
+As already said, the "AM-INSTALLER" script in the previous paragraph helps you choosing between "[AppMan](#what-is-appman)" and "AM", briefly explaining the differences. However, installing "AM" can be much simpler than that. All "AM-INSTALLER" does when you select "1" is to download and run another script, named "[INSTALL](https://github.com/pkgforge-community/AM-HF-SYNC/blob/main/INSTALL)". That said, you can easily install "AM" without "intermediaries".
 
 #### Using "GIT"
 Copy/paste the following commands
 ```
-git clone https://github.com/ivan-hc/AM.git
+git clone https://github.com/pkgforge-community/AM-HF-SYNC.git
 cd AM
 chmod a+x INSTALL
 sudo ./INSTALL
@@ -119,7 +119,7 @@ sudo ./INSTALL
 #### Using "Wget"
 Copy/paste the following one line command command
 ```
-wget https://raw.githubusercontent.com/ivan-hc/AM/main/INSTALL && chmod a+x ./INSTALL && sudo ./INSTALL
+wget https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/INSTALL && chmod a+x ./INSTALL && sudo ./INSTALL
 ```
 This is definitely the quickest method of all!
 
@@ -211,7 +211,7 @@ NOTE: by modifying the contents of `~/.config/appman`, you will only change the 
 3. **FIREFOX PROFILES** to run as webapps, the ones with suffix "ffwa-" in the apps list.
 4. **THIRD-PARTY LIBRARIES** if they are missing in your repositories.
 
-The database aims to be a reference point where you can download all the AppImage packages scattered around the web, otherwise unobtainable, as you would expect from any package manager, through specific installation scripts for each application, as happens with the AUR PKGBUILDs, on Arch Linux. You can see all of them [here](https://github.com/ivan-hc/AM/tree/main/programs), divided by architecture.
+The database aims to be a reference point where you can download all the AppImage packages scattered around the web, otherwise unobtainable, as you would expect from any package manager, through specific installation scripts for each application, as happens with the AUR PKGBUILDs, on Arch Linux. You can see all of them [here](https://github.com/pkgforge-community/AM-HF-SYNC/tree/main/programs), divided by architecture.
 
 You can view basic information, site links and sources using the related command `am -a {PROGRAM}`, or visit [**portable-linux-apps.github.io/apps**](https://portable-linux-apps.github.io/apps).
 
@@ -234,8 +234,8 @@ Same thing, you can use `am -i {PROGRAM}.toolpack` or `am -i --user {PROGRAM}.to
 One thing I care a lot about is **continuity**, and as I have seen over the years, not all open source developers are able to maintain a project. This could happen to me in the future. I don't want it to be that way.
 
 Because of this, I have made some essential variables "customizable":
-- `APPSDB`, i.e. the "raw" directory of the architecture in use, containing the installation scripts (default value *https://raw.githubusercontent.com/ivan-hc/AM/main/programs/$ARCH*), this is mainly used in `-i`, `-d` and `-s`/`-u`
-- `APPSDBLIST`, i.e. the list of applications available for that architecture (default value *https://raw.githubusercontent.com/ivan-hc/AM/main/programs/$ARCH-apps*), this is used every time lists are updated, for example in `-l`, `-q` and `-s`/`-u`
+- `APPSDB`, i.e. the "raw" directory of the architecture in use, containing the installation scripts (default value *https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/programs/$ARCH*), this is mainly used in `-i`, `-d` and `-s`/`-u`
+- `APPSDBLIST`, i.e. the list of applications available for that architecture (default value *https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/programs/$ARCH-apps*), this is used every time lists are updated, for example in `-l`, `-q` and `-s`/`-u`
 - `APPIMAGES_LIST`, i.e. the list of AppImages available in the database (default value *https://raw.githubusercontent.com/Portable-Linux-Apps/Portable-Linux-Apps.github.io/main/x86_64-appimages*), used in `-ia` and `-l`/`-q` with the `--appimages` flag
 - `AMCATALOGUEMARKDOWNS`, i.e. the pages in .md format from the catalog of applications available in this database (default value *https://portable-linux-apps.github.io/apps*, add an appname with extension .md to see the content of one file), this is used in `-a`
 - `AMCATALOGUEICONS`, i.e. the icons in .png format available in the catalog of applications available in this database (default value *https://portable-linux-apps.github.io/icons*, add an appname with extension .png to see one file), this is used in `-i`, in case the installation script fails to get an icon for the application
@@ -772,7 +772,7 @@ You can package "AM" for Debian, Fedora, Arch Linux, Gentoo and many more GNU/Li
 /usr/bin/am
 /usr/lib/am/modules
 ```
-where "`/usr/bin/am`" is the script "[APP-MANAGER](https://github.com/ivan-hc/AM/blob/main/APP-MANAGER)" and "`/usr/lib/am/modules`" is the directory "[modules](https://github.com/ivan-hc/AM/tree/main/modules)" with all its content.
+where "`/usr/bin/am`" is the script "[APP-MANAGER](https://github.com/pkgforge-community/AM-HF-SYNC/blob/main/APP-MANAGER)" and "`/usr/lib/am/modules`" is the directory "[modules](https://github.com/pkgforge-community/AM-HF-SYNC/tree/main/modules)" with all its content.
 
 Applications will continue to be installed in /opt, as always. What changes from the normal "AM" installation is the update of the CLI and modules, which will instead be completely managed by the package manager in use (APT, DNF, PacMan/YAY...).
 

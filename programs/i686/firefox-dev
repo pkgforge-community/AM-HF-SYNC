@@ -15,8 +15,8 @@ chmod a+x /opt/"$APP"/remove
 mkdir -p tmp
 cd ./tmp
 
-LANGUAGE=$(curl -A "${USER_AGENT}" -Ls https://raw.githubusercontent.com/linuxmint/mdm/master/config/locale.alias | grep -i "$LANG" | grep -o '^\S*')
-CODE=$(curl -A "${USER_AGENT}" -Ls https://releases.mozilla.org/pub/firefox/releases/latest/README.txt | cut -d ':' -f2 | grep -i $LANGUAGE | cut -d '=' -f2)
+LANGUAGE=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://raw.githubusercontent.com/linuxmint/mdm/master/config/locale.alias | grep -i "$LANG" | grep -o '^\S*')
+CODE=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://releases.mozilla.org/pub/firefox/releases/latest/README.txt | cut -d ':' -f2 | grep -i $LANGUAGE | cut -d '=' -f2)
 wget -U "${USER_AGENT}" "https://download.mozilla.org/?product=firefox-devedition-latest&os=linux&lang=$CODE" --trust-server-names
 
 [ -e ./*tar.* ] && tar fx ./*tar.* && rm -f ./*tar.*

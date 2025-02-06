@@ -12,7 +12,7 @@ printf '\n%s' "rm -f /usr/local/share/applications/$APP-AM.desktop" >> ../remove
 chmod a+x ../remove || exit 1
 
 # DOWNLOAD AND PREPARE THE APP, $version is also used for updates
-version=$(curl -A "${USER_AGENT}" -s 'https://data.services.jetbrains.com/products/releases?code=TBA&latest=true&type=release' | grep -Po '"linux":.*?[^\\]",' | awk -F ':' '{print $3,":"$4}'| sed 's/[", ]//g')
+version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -s 'https://data.services.jetbrains.com/products/releases?code=TBA&latest=true&type=release' | grep -Po '"linux":.*?[^\\]",' | awk -F ':' '{print $3,":"$4}'| sed 's/[", ]//g')
 wget -U "${USER_AGENT}" "$version" || exit 1
 # Keep this space in sync with other installation scripts
 [ -e ./*tar.* ] && tar fx ./*tar.* && rm -f ./*tar.*
@@ -33,7 +33,7 @@ set -u
 APP=jetbrains-toolbox
 SITE="https://www.jetbrains.com"
 version0=$(cat "/opt/$APP/version")
-version=$(curl -A "${USER_AGENT}" -s 'https://data.services.jetbrains.com/products/releases?code=TBA&latest=true&type=release' | grep -Po '"linux":.*?[^\\]",' | awk -F ':' '{print $3,":"$4}'| sed 's/[", ]//g')
+version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -s 'https://data.services.jetbrains.com/products/releases?code=TBA&latest=true&type=release' | grep -Po '"linux":.*?[^\\]",' | awk -F ':' '{print $3,":"$4}'| sed 's/[", ]//g')
 [ -n "$version" ] || { echo "Error getting link"; exit 1; }
 if command -v appimageupdatetool >/dev/null 2>&1; then
 	cd "/opt/$APP" || exit 1
