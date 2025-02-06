@@ -49,7 +49,7 @@ ln -s "/opt/$APP/$APP" "/usr/local/bin/$APP"
 # SCRIPT TO UPDATE THE PROGRAM
 cat >> ./AM-updater << 'EOF'
 #!/bin/sh
-set -uxx
+set -uxxx
 APP=mpv
 if [ -z "$APP" ]; then exit 1; fi
 version0=$(cat "/opt/$APP/version")

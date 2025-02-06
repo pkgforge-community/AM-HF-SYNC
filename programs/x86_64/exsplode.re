@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # AM INSTALL SCRIPT VERSION 3.5
-set -uxx
+set -uxxx
 APP=exsplode.re
 SITE="AmarOk1412/Eksplode.re"
 
@@ -29,7 +29,7 @@ ln -s "/opt/$APP/$APP" "/usr/local/bin/$APP"
 # SCRIPT TO UPDATE THE PROGRAM
 cat >> ./AM-updater << 'EOF'
 #!/bin/sh
-set -uxx
+set -uxxx
 APP=exsplode.re
 SITE="AmarOk1412/Eksplode.re"
 version0=$(cat "/opt/$APP/version")
