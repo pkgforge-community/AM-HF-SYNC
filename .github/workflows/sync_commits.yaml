@@ -61,6 +61,8 @@ jobs:
           #Presets
           set +x ; set +e
           #--------------#
+          ##ivan-hc/AM --> pkgforge-community/AM-HF-SYNC
+          find "${GITHUB_WORKSPACE}/main" -name ".git*" -prune -o -type f -exec sed 's#ivan-hc/AM#pkgforge-community/AM-HF-SYNC#g' -i "{}" + 2>/dev/null
           ##api.github.com --> api.gh.pkgforge.dev
           find "${GITHUB_WORKSPACE}/main" -name ".git*" -prune -o -type f -exec sed 's#api.github.com#api.gh.pkgforge.dev#g' -i "{}" + 2>/dev/null
           ##curl -$ARGS --> curl -A "${USER_AGENT}" -$ARGS
@@ -83,4 +85,4 @@ jobs:
           repository: ./main
           commit_user_name: Azathothas
           commit_user_email: AjamX101@gmail.com
-          commit_message: "♻️ Synced AM 📦 <-- ${{ env.LATEST_COMMI_M }} ⌚"
+          commit_message: "♻️ Synced AM 📦 <-- [${{ env.LATEST_COMMI_M }}] ⌚"
