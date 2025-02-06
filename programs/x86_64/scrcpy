@@ -2,7 +2,7 @@
 
 # AM INSTALL SCRIPT VERSION 3.5
 
-set -uxxx
+set -ux
 APP=scrcpy
 SITE="ardevd/scrcpy-appimage"
 
