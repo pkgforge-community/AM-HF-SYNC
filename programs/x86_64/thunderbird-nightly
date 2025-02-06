@@ -14,7 +14,7 @@ chmod a+x /opt/"$APP"/remove
 # DOWNLOAD THE ARCHIVE
 mkdir -p tmp
 cd ./tmp
-wget "https://download.mozilla.org/?product=$APP-latest&os=linux64&lang=$response" --trust-server-names
+wget -U "${USER_AGENT}" "https://download.mozilla.org/?product=$APP-latest&os=linux64&lang=$response" --trust-server-names
 [ -e ./*tar.* ] && tar fx ./*tar.* && rm -f ./*tar.*
 cd ..
 mv ./tmp/thunderbird/* ./

@@ -26,7 +26,7 @@ _install_am() {
 	CACHEDIR="${XDG_CACHE_HOME:-$HOME/.cache}"
 	mkdir -p "$CACHEDIR" || true
 	rm -f "$CACHEDIR"/INSTALL-AM.sh || true
-	wget -q "https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/$AM_BRANCH/INSTALL" -O "$CACHEDIR"/INSTALL-AM.sh && chmod a+x "$CACHEDIR"/INSTALL-AM.sh
+	wget -q "https://raw.githubusercontent.com/ivan-hc/AM/$AM_BRANCH/INSTALL" -O "$CACHEDIR"/INSTALL-AM.sh && chmod a+x "$CACHEDIR"/INSTALL-AM.sh
 	#cp ./INSTALL "$CACHEDIR"/INSTALL-AM.sh && chmod a+x "$CACHEDIR"/INSTALL-AM.sh # for developers
 	if command -v sudo >/dev/null 2>&1; then
 		SUDOCMD="sudo"
@@ -59,7 +59,7 @@ _install_appman() {
 			printf '	export PATH="$PATH:$BINDIR"\nfi\n' >> "$ZSHRC"
 		fi
 	fi
-	wget -q "https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/$AM_BRANCH/APP-MANAGER" -O "$BINDIR"/appman && chmod a+x "$BINDIR"/appman
+	wget -q "https://raw.githubusercontent.com/ivan-hc/AM/$AM_BRANCH/APP-MANAGER" -O "$BINDIR"/appman && chmod a+x "$BINDIR"/appman
 }
 
 # CHOOSE BETWEEN "AM" AND "APPMAN"

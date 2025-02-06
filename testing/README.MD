@@ -7,7 +7,7 @@ Replace "SAMPLE" at the line 2 with the name of the program you want to install:
 	
     ARCH=$(uname -m)
     PROGRAM=SAMPLE
-    wget https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC-application-manager/main/testing/$ARCH/$PROGRAM
+    wget https://raw.githubusercontent.com/ivan-hc/AM-application-manager/main/testing/$ARCH/$PROGRAM
     chmod a+x ./$PROGRAM
     sudo ./$PROGRAM
     

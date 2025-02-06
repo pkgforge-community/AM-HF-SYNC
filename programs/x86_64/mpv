@@ -28,13 +28,13 @@ read -r -p "
 case "$response" in
 	1) rm -f /opt/"$APP"/version
 	UPDATER=1
-	version=$(curl -Ls https://api.gh.pkgforge.dev/repos/"$SITE1"/releases | sed 's/[()",{} ]/\n/g' | grep -io 'https.*mpv.*86_64.*mage$' | head -1)
-	wget "$version"
+	version=$(curl -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/"$SITE1"/releases | sed 's/[()",{} ]/\n/g' | grep -io 'https.*mpv.*86_64.*mage$' | head -1)
+	wget -U "${USER_AGENT}" "$version"
 	echo "$version" >> /opt/$APP/version;;
 	2) rm -f /opt/"$APP"/version
-	version=$(curl -Ls https://api.gh.pkgforge.dev/repos/"$SITE2"/releases | sed 's/[()",{} ]/\n/g' | grep -io 'https.*continuous.*mpv.*86_64.*mage$' | head -1)
+	version=$(curl -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/"$SITE2"/releases | sed 's/[()",{} ]/\n/g' | grep -io 'https.*continuous.*mpv.*86_64.*mage$' | head -1)
 	UPDATER=2
-	wget "$version"
+	wget -U "${USER_AGENT}" "$version"
 	echo "$version" >> /opt/$APP/version;;
 	*) /opt/"$APP"/remove && exit;;
 esac
@@ -53,12 +53,12 @@ set -u
 APP=mpv
 if [ -z "$APP" ]; then exit 1; fi
 version0=$(cat "/opt/$APP/version")
-version=$(curl -Ls https://api.gh.pkgforge.dev/repos/$SITE/releases | sed 's/[()",{} ]/\n/g' | grep -io 'https.*mpv.*86_64.*mage$' | head -1)
+version=$(curl -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/$SITE/releases | sed 's/[()",{} ]/\n/g' | grep -io 'https.*mpv.*86_64.*mage$' | head -1)
 [ -n "$version" ] || { echo "Error getting link"; exit 1; }
 if [ "$version" != "$version0" ]; then
 	notify-send "A new version of $APP is available, please wait"
 	mkdir "/opt/$APP/tmp" && cd "/opt/$APP/tmp" || exit 1
-	wget "$version" || exit 1
+	wget -U "${USER_AGENT}" "$version" || exit 1
 	cd ..
 	mv --backup=t ./tmp/*mage ./"$APP" || exit 1
 	echo "$version" > ./version

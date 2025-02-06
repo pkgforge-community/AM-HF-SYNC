@@ -13,8 +13,8 @@ chmod a+x ../remove || exit 1
 
 # DOWNLOAD AND PREPARE THE APP, $version is also used for updates
 version=$(wget -q https://repology.org/project/beeper/versions -O - | grep -i "new.*version" | head -1 | tr '><' '\n' | grep "^[0-9]")
-wget "https://download.beeper.com/linux/appImage/x64" || exit 1
-#wget "$version.zsync" 2> /dev/null # Comment out this line if you want to use zsync
+wget -U "${USER_AGENT}" "https://download.beeper.com/linux/appImage/x64" || exit 1
+#wget -U "${USER_AGENT}" "$version.zsync" 2> /dev/null # Comment out this line if you want to use zsync
 # Use tar fx ./*tar* here for example in this line in case a compressed file is downloaded.
 cd ..
 mv ./tmp/* ./"$APP"
@@ -38,7 +38,7 @@ version=$(wget -q https://repology.org/project/beeper/versions -O - | grep -i "n
 if [ "$version" != "$version0" ] || [ -e /opt/"$APP"/*.zsync ]; then
 	mkdir "/opt/$APP/tmp" && cd "/opt/$APP/tmp" || exit 1
 	[ -e ../*.zsync ] || notify-send "A new version of $APP is available, please wait"
-	[ -e ../*.zsync ] && wget "$version.zsync" 2>/dev/null || { wget "https://download.beeper.com/linux/appImage/x64" || exit 1; }
+	[ -e ../*.zsync ] && wget -U "${USER_AGENT}" "$version.zsync" 2>/dev/null || { wget -U "${USER_AGENT}" "https://download.beeper.com/linux/appImage/x64" || exit 1; }
 	# Use tar fx ./*tar* here for example in this line in case a compressed file is downloaded.
 	cd ..
 	mv ./tmp/*.zsync ./"$APP".zsync 2>/dev/null || mv --backup=t ./tmp/* ./"$APP"

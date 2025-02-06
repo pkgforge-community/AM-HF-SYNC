@@ -47,74 +47,74 @@ case "$response" in
 	1)	rm -f /opt/"$APP"/version
 		edition="basic-x86_64"
 		_release_still 2> /dev/null 
-		wget "https://appimages.libreitalia.org/$version" -O "$APP"
-		wget "https://appimages.libreitalia.org/$version".zsync -O "$APP".zsync 2> /dev/null
+		wget -U "${USER_AGENT}" "https://appimages.libreitalia.org/$version" -O "$APP"
+		wget -U "${USER_AGENT}" "https://appimages.libreitalia.org/$version".zsync -O "$APP".zsync 2> /dev/null
 		echo "$version" >> "/opt/$APP/version";;
 	2)	rm -f /opt/"$APP"/version
 		edition="basic.help-x86_64"
 		_release_still 2> /dev/null 
-		wget "https://appimages.libreitalia.org/$version" -O "$APP"
-		wget "https://appimages.libreitalia.org/$version".zsync -O "$APP".zsync 2> /dev/null
+		wget -U "${USER_AGENT}" "https://appimages.libreitalia.org/$version" -O "$APP"
+		wget -U "${USER_AGENT}" "https://appimages.libreitalia.org/$version".zsync -O "$APP".zsync 2> /dev/null
 		echo "$version" >> "/opt/$APP/version";;
 	3)	rm -f /opt/"$APP"/version
 		edition="standard-x86_64"
 		_release_still 2> /dev/null 
-		wget "https://appimages.libreitalia.org/$version" -O "$APP"
-		wget "https://appimages.libreitalia.org/$version".zsync -O "$APP".zsync 2> /dev/null
+		wget -U "${USER_AGENT}" "https://appimages.libreitalia.org/$version" -O "$APP"
+		wget -U "${USER_AGENT}" "https://appimages.libreitalia.org/$version".zsync -O "$APP".zsync 2> /dev/null
 		echo "$version" >> "/opt/$APP/version";;
 	4)	rm -f /opt/"$APP"/version
 		edition="standard.help-x86_64"
 		_release_still 2> /dev/null 
-		wget "https://appimages.libreitalia.org/$version" -O "$APP"
-		wget "https://appimages.libreitalia.org/$version".zsync -O "$APP".zsync 2> /dev/null
+		wget -U "${USER_AGENT}" "https://appimages.libreitalia.org/$version" -O "$APP"
+		wget -U "${USER_AGENT}" "https://appimages.libreitalia.org/$version".zsync -O "$APP".zsync 2> /dev/null
 		echo "$version" >> "/opt/$APP/version";;
 	5)	rm -f /opt/"$APP"/version
 		edition="full-x86_64"
 		_release_still 2> /dev/null 
-		wget "https://appimages.libreitalia.org/$version" -O "$APP"
-		wget "https://appimages.libreitalia.org/$version".zsync -O "$APP".zsync 2> /dev/null
+		wget -U "${USER_AGENT}" "https://appimages.libreitalia.org/$version" -O "$APP"
+		wget -U "${USER_AGENT}" "https://appimages.libreitalia.org/$version".zsync -O "$APP".zsync 2> /dev/null
 		echo "$version" >> "/opt/$APP/version";;
 	6)	rm -f /opt/"$APP"/version
 		edition="full.help-x86_64"
 		_release_still 2> /dev/null 
-		wget "https://appimages.libreitalia.org/$version" -O "$APP"
-		wget "https://appimages.libreitalia.org/$version".zsync -O "$APP".zsync 2> /dev/null
+		wget -U "${USER_AGENT}" "https://appimages.libreitalia.org/$version" -O "$APP"
+		wget -U "${USER_AGENT}" "https://appimages.libreitalia.org/$version".zsync -O "$APP".zsync 2> /dev/null
 		echo "$version" >> "/opt/$APP/version";;
 	7)	rm -f /opt/"$APP"/version
 		edition="basic-x86_64"
 		_release_fresh 2> /dev/null 
-		wget "https://appimages.libreitalia.org/$version" -O "$APP"
-		wget "https://appimages.libreitalia.org/$version".zsync -O "$APP".zsync 2> /dev/null
+		wget -U "${USER_AGENT}" "https://appimages.libreitalia.org/$version" -O "$APP"
+		wget -U "${USER_AGENT}" "https://appimages.libreitalia.org/$version".zsync -O "$APP".zsync 2> /dev/null
 		echo "$version" >> "/opt/$APP/version";;
 	8)	rm -f /opt/"$APP"/version
 		edition="basic.help-x86_64"
 		_release_fresh 2> /dev/null 
-		wget "https://appimages.libreitalia.org/$version" -O "$APP"
-		wget "https://appimages.libreitalia.org/$version".zsync -O "$APP".zsync 2> /dev/null
+		wget -U "${USER_AGENT}" "https://appimages.libreitalia.org/$version" -O "$APP"
+		wget -U "${USER_AGENT}" "https://appimages.libreitalia.org/$version".zsync -O "$APP".zsync 2> /dev/null
 		echo "$version" >> "/opt/$APP/version";;
 	9)	rm -f /opt/"$APP"/version
 		edition="standard-x86_64"
 		_release_fresh 2> /dev/null 
-		wget "https://appimages.libreitalia.org/$version" -O "$APP"
-		wget "https://appimages.libreitalia.org/$version".zsync -O "$APP".zsync 2> /dev/null
+		wget -U "${USER_AGENT}" "https://appimages.libreitalia.org/$version" -O "$APP"
+		wget -U "${USER_AGENT}" "https://appimages.libreitalia.org/$version".zsync -O "$APP".zsync 2> /dev/null
 		echo "$version" >> "/opt/$APP/version";;
 	10)	rm -f /opt/"$APP"/version
 		edition="standard.help-x86_64"
 		_release_fresh 2> /dev/null 
-		wget "https://appimages.libreitalia.org/$version" -O "$APP"
-		wget "https://appimages.libreitalia.org/$version".zsync -O "$APP".zsync 2> /dev/null
+		wget -U "${USER_AGENT}" "https://appimages.libreitalia.org/$version" -O "$APP"
+		wget -U "${USER_AGENT}" "https://appimages.libreitalia.org/$version".zsync -O "$APP".zsync 2> /dev/null
 		echo "$version" >> "/opt/$APP/version";;
 	11)	rm -f /opt/"$APP"/version
 		edition="full-x86_64"
 		_release_fresh 2> /dev/null 
-		wget "https://appimages.libreitalia.org/$version" -O "$APP"
-		wget "https://appimages.libreitalia.org/$version".zsync -O "$APP".zsync 2> /dev/null
+		wget -U "${USER_AGENT}" "https://appimages.libreitalia.org/$version" -O "$APP"
+		wget -U "${USER_AGENT}" "https://appimages.libreitalia.org/$version".zsync -O "$APP".zsync 2> /dev/null
 		echo "$version" >> "/opt/$APP/version";;
 	12)	rm -f /opt/"$APP"/version
 		edition="full.help-x86_64"
 		_release_fresh 2> /dev/null 
-		wget "https://appimages.libreitalia.org/$version" -O "$APP"
-		wget "https://appimages.libreitalia.org/$version".zsync -O "$APP".zsync 2> /dev/null
+		wget -U "${USER_AGENT}" "https://appimages.libreitalia.org/$version" -O "$APP"
+		wget -U "${USER_AGENT}" "https://appimages.libreitalia.org/$version".zsync -O "$APP".zsync 2> /dev/null
 		echo "$version" >> "/opt/$APP/version";;
 	''|*)	mkdir -p "/opt/$APP/tmp";;
 esac
@@ -141,7 +141,7 @@ version=$(wget -q https://appimages.libreitalia.org/ -O - | tr '"' '\n' | grep -
 if [ "$version" != "$version0" ] || [ -e /opt/"$APP"/*.zsync ]; then
 	mkdir "/opt/$APP/tmp" && cd "/opt/$APP/tmp" || exit 1
 	[ -e /opt/"$APP"/*.zsync ] || notify-send "A new version of $APP is available, please wait"
-	[ -e /opt/"$APP"/*.zsync ] && wget "https://appimages.libreitalia.org/$version.zsync" 2>/dev/null || { wget "https://appimages.libreitalia.org/$version" || exit 1; }
+	[ -e /opt/"$APP"/*.zsync ] && wget -U "${USER_AGENT}" "https://appimages.libreitalia.org/$version.zsync" 2>/dev/null || { wget -U "${USER_AGENT}" "https://appimages.libreitalia.org/$version" || exit 1; }
 	# Use tar fx ./*tar* here for example in this line in case a compressed file is downloaded.
 	cd ..
 	mv ./tmp/*.zsync ./"$APP".zsync 2>/dev/null || mv --backup=t ./tmp/*mage ./"$APP"

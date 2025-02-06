@@ -49,7 +49,7 @@ In the video below we will use "Baobab" (GTK3 version), a disk space analyzer, a
 
 Among the XDG directories we will authorize "Images" (Pictures) and "Videos" (Videos), while manually we will authorize "Public". The test will be carried out in normal mode, then in sandbox and again without sandbox:
 
-https://github.com/pkgforge-community/AM-HF-SYNC/assets/88724353/dd193943-7b08-474a-bbbb-4a6906de8b24
+https://github.com/ivan-hc/AM/assets/88724353/dd193943-7b08-474a-bbbb-4a6906de8b24
 
 ----------------------------------------------------
 #### About Aisap sandboxing
