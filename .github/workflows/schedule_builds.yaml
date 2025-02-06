@@ -52,8 +52,8 @@ jobs:
           mkdir -pv "${SYSTMP}/AM"
           #curl -qfsSL "https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/refs/heads/main/programs/aarch64-apps" | cut -d ':' -f1 | tr -cd '[:alnum:]-_\n' | jq -R '{host: "aarch64-Linux", pkg: .}' > "${SYSTMP}/AM/aarch64-Linux.json"
           curl -qfsSL "https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/refs/heads/main/programs/x86_64-apps" | cut -d ':' -f1 | tr -cd '[:alnum:]-_\n' | jq -R '{host: "x86_64-Linux", pkg: .}' > "${SYSTMP}/AM/x86_64-Linux.json"
-          #cat "${SYSTMP}/AM/aarch64-Linux.json" "${SYSTMP}/AM/x86_64-Linux.json" | jq -s '.' > "${SYSTMP}/AM/LIST.json"
-          cat "${SYSTMP}/AM/x86_64-Linux.json" | jq -s '.' > "${SYSTMP}/AM/LIST.json"
+          #cat "${SYSTMP}/AM/aarch64-Linux.json" "${SYSTMP}/AM/x86_64-Linux.json" | jq -s 'sort_by(.pkg)' > "${SYSTMP}/AM/LIST.json"
+          cat "${SYSTMP}/AM/x86_64-Linux.json" | jq -s 'sort_by(.pkg)' > "${SYSTMP}/AM/LIST.json"
           ##Set Input (100 builds)
           BUILD_LIST="$(jq -c '[.[]] | .[:100]' "${SYSTMP}/AM/LIST.json")"
           ##Validate Input
@@ -82,7 +82,7 @@ jobs:
       statuses: write
     strategy:
       fail-fast: false
-      max-parallel: 20
+      max-parallel: 10
       matrix:
         package: ${{ fromJSON(needs.pre-trigger-build.outputs.build_list) }}
     steps:
@@ -90,7 +90,7 @@ jobs:
         run: |
           echo '${{ toJSON(matrix.package) }}' | jq -r '
             "Host: \(.host)",
-            "Package: \(.pkg)",
+            "Package: \(.pkg)"
           '
         continue-on-error: true
 
