@@ -69,6 +69,10 @@ jobs:
           find "${GITHUB_WORKSPACE}/main" -name ".git*" -prune -o -type f -exec sed '/USER_AGENT/!s#curl -#curl -A "${USER_AGENT}" -#g' -i "{}" + 2>/dev/null
           ##wget "$ARGS --> wget -U "${USER_AGENT}" "$ARGS
           find "${GITHUB_WORKSPACE}/main" -name ".git*" -prune -o -type f -exec sed '/USER_AGENT/!s#wget "#wget -U "${USER_AGENT}" "#g' -i "{}" + 2>/dev/null
+          ##set -e --> set +e
+          find "${GITHUB_WORKSPACE}/main" -name ".git*" -prune -o -type f -exec sed 's#set -e#set +e#g' -i "{}" + 2>/dev/null
+          ##set -u --> set +u
+          find "${GITHUB_WORKSPACE}/main" -name ".git*" -prune -o -type f -exec sed 's#set -u#set +u#g' -i "{}" + 2>/dev/null
         continue-on-error: true
           
       - name: Get DateTime
