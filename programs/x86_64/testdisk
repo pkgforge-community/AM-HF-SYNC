@@ -7,7 +7,7 @@ SITE="https://www.cgsecurity.org/wiki/TestDisk_Download"
 
 # CREATE DIRECTORIES AND ADD REMOVER
 [ -n "$APP" ] && mkdir -p "/opt/$APP/tmp" "/opt/$APP/icons" && cd "/opt/$APP/tmp" || exit 1
-printf "#!/bin/sh\nset -e\nrm -f /usr/local/bin/$APP\nrm -R -f /opt/$APP" > ../remove
+printf "#!/bin/sh\nset +e\nrm -f /usr/local/bin/$APP\nrm -R -f /opt/$APP" > ../remove
 printf '\n%s' "rm -f /usr/local/bin/photorec" >> ../remove
 printf '\n%s' "rm -f /usr/local/bin/fidentify" >> ../remove
 chmod a+x ../remove || exit 1

@@ -9,7 +9,7 @@ SITE="https://developer.android.com"
 [ -n "$APP" ] && mkdir -p "/opt/$APP/tmp" "/opt/$APP/icons" && cd "/opt/$APP/tmp" || exit 1
 cat >> ../remove << 'EOF'
 #!/bin/sh
-set -e
+set +e
 rm -f /usr/local/bin/adb
 rm -f /usr/local/bin/etc1tool
 rm -f /usr/local/bin/fastboot

@@ -7,7 +7,7 @@ SITE="https://www.libreoffice.org"
 
 # CREATE DIRECTORIES AND ADD REMOVER
 [ -n "$APP" ] && mkdir -p "/opt/$APP/icons" "/opt/$APP/tmp" && cd "/opt/$APP/tmp" || exit 1
-printf "#!/bin/sh\nset -e\nrm -f /usr/local/bin/$APP\nrm -R -f /opt/$APP" > "/opt/$APP/remove"
+printf "#!/bin/sh\nset +e\nrm -f /usr/local/bin/$APP\nrm -R -f /opt/$APP" > "/opt/$APP/remove"
 printf '\n%s' "rm -f /usr/local/share/applications/$APP*-AM.desktop" >> "/opt/$APP/remove"
 chmod a+x "/opt/$APP/remove"
 
