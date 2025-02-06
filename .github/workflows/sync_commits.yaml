@@ -63,8 +63,10 @@ jobs:
           #--------------#
           ##ivan-hc/AM --> pkgforge-community/AM-HF-SYNC
           find "${GITHUB_WORKSPACE}/main" -name ".git*" -prune -o -type f -exec sed 's#ivan-hc/AM#pkgforge-community/AM-HF-SYNC#g' -i "{}" + 2>/dev/null
-          find "${GITHUB_WORKSPACE}/main/modules" -name ".git*" -prune -o -type f -exec sed 's#\^ivan-hc#\^pkgforge-community#g' -i "{}" + 2>/dev/null
-          sed 's#\^ivan-hc#\^pkgforge-community#g' -i "${GITHUB_WORKSPACE}/main/APP-MANAGER"
+          find "${GITHUB_WORKSPACE}/main/modules" -name ".git*" -prune -o -type f -exec sed 's#\^ivan-hc#\^Azathothas#g' -i "{}" + 2>/dev/null
+          sed 's#\^ivan-hc#\^Azathothas#g' -i "${GITHUB_WORKSPACE}/main/APP-MANAGER"
+          find "${GITHUB_WORKSPACE}/main/modules" -name ".git*" -prune -o -type f -exec sed 's#\TORSOCKS="1"#unset TORSOCKS#g' -i "{}" + 2>/dev/null
+          sed 's#\TORSOCKS="1"#unset TORSOCKS#g' -i "${GITHUB_WORKSPACE}/main/APP-MANAGER"
           ##api.github.com --> api.gh.pkgforge.dev
           find "${GITHUB_WORKSPACE}/main" -name ".git*" -prune -o -type f -exec sed 's#api.github.com#api.gh.pkgforge.dev#g' -i "{}" + 2>/dev/null
           ###curl -$ARGS --> curl -A "${USER_AGENT}" -$ARGS
