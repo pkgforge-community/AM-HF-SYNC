@@ -11,8 +11,8 @@ on:
         description: Host (Arch+OS) [ALL ==> Run on All Hosts]
         type: choice
         options:
-          - "ALL"
-          - "aarch64-Linux"
+          #- "ALL"
+          #- "aarch64-Linux"
           - "x86_64-Linux"
 
       pkg-name:
@@ -47,12 +47,12 @@ jobs:
           #-------------#
           echo '[' > "./MATRIX.json.tmp"
            if [[ "${{ github.event.inputs.host }}" == "ALL" ]]; then
-             echo '{"host": "aarch64-Linux", "runner": "ubuntu-24.04-arm", "pkg-name": "${{ inputs.ghcr-url }}"},' >> "./MATRIX.json.tmp"
-             echo '{"host": "x86_64-Linux", "runner": "ubuntu-latest", "pkg-name": "${{ inputs.ghcr-url }}"}' >> "./MATRIX.json.tmp"
+             echo '{"host": "aarch64-Linux", "runner": "ubuntu-24.04-arm", "pkg-name": "${{ inputs.pkg-name }}"},' >> "./MATRIX.json.tmp"
+             echo '{"host": "x86_64-Linux", "runner": "ubuntu-latest", "pkg-name": "${{ inputs.pkg-name }}"}' >> "./MATRIX.json.tmp"
            elif [[ "${{ github.event.inputs.host }}" == "aarch64-Linux" ]]; then
-             echo '{"host": "aarch64-Linux", "runner": "ubuntu-24.04-arm", "pkg-name": "${{ inputs.ghcr-url }}"}' >> "./MATRIX.json.tmp"
+             echo '{"host": "aarch64-Linux", "runner": "ubuntu-24.04-arm", "pkg-name": "${{ inputs.pkg-name }}"}' >> "./MATRIX.json.tmp"
            elif [[ "${{ github.event.inputs.host }}" == "x86_64-Linux" ]]; then
-             echo '{"host": "x86_64-Linux", "runner": "ubuntu-latest", "pkg-name": "${{ inputs.ghcr-url }}"}' >> "./MATRIX.json.tmp"
+             echo '{"host": "x86_64-Linux", "runner": "ubuntu-latest", "pkg-name": "${{ inputs.pkg-name }}"}' >> "./MATRIX.json.tmp"
            fi
           echo ']' >> "./MATRIX.json.tmp"
           jq 'unique_by(.runner)' "./MATRIX.json.tmp" | jq . > "./MATRIX.json"
@@ -73,7 +73,7 @@ jobs:
         package: ${{ fromJson(needs.preprocess.outputs.runner_matrix) }}
     name: "${{ matrix.package.host }} ==> (${{ matrix.package.pkg-name }})"
     runs-on: "${{ matrix.package.runner }}"
-    timeout-minutes: 200
+    timeout-minutes: 20
     permissions:
       attestations: write
       contents: write
@@ -145,10 +145,11 @@ jobs:
            sudo curl -qfsSL "https://bin.pkgforge.dev/${HOST_TRIPLET}/yq" -o "/usr/local/bin/yq" && \
              sudo chmod 'a+x' "/usr/local/bin/yq" && command -v yq >/dev/null || exit 1
            PKG_NAME="$(echo "${{ github.event.inputs.pkg-name }}" | tr -d '[:space:]')"
+           PKG_SCRIPT_URL="https://github.com/ivan-hc/AM/raw/main/programs/$(uname -m)/${PKG_NAME}"
            pushd "$(mktemp -d)" >/dev/null 2>&1
-             echo "${PKG_NAME}" > "./PKG_NAME"
-             if [[ ! -s "./PKG_NAME" || $(stat -c%s "./PKG_NAME") -le 3 ]]; then
-               echo -e "\n[✗] FATAL: Failed to Fetch ${PKG_NAME}\n"
+             PKG_STATUS="$(curl -X "HEAD" -qfsSL "${PKG_SCRIPT_URL}" -I | sed -n 's/^[[:space:]]*HTTP\/[0-9.]*[[:space:]]\+\([0-9]\+\).*/\1/p' | tail -n1 | tr -d '[:space:]')"
+             if echo "${PKG_STATUS}" | grep -qiv '200$'; then
+               echo -e "\n[✗] FATAL: Failed to Fetch ${PKG_NAME} <== ${PKG_SCRIPT_URL}\n"
                echo "CONTINUE_GHRUN=FALSE" >> "${GITHUB_ENV}"
               exit 1
              else
@@ -187,6 +188,37 @@ jobs:
           echo "USER_AGENT=${USER_AGENT}" >> "${GITHUB_ENV}"
         continue-on-error: true
 
+      - name: Disable apparmor_restrict_unprivileged_userns
+        if: env.CONTINUE_GHRUN != 'FALSE'
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          echo "kernel.apparmor_restrict_unprivileged_userns=0" | sudo tee "/etc/sysctl.d/98-apparmor-unuserns.conf"
+          echo "0" | sudo tee "/proc/sys/kernel/apparmor_restrict_unprivileged_userns"
+          sudo service procps restart
+          sudo sysctl -p "/etc/sysctl.conf"
+        continue-on-error: true
+
+      - name: Install AM
+        if: env.CONTINUE_GHRUN != 'FALSE'
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          #https://github.com/ivan-hc/AM/blob/main/AM-INSTALLER#L13
+          sudo apt update -y -qq
+          sudo apt install curl torsocks wget zsync -y -qq
+          yes '1' | bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/AM-INSTALLER")
+          if ! command -v am &>/dev/null; then
+            echo -e "[-] Failed to find am\n"
+            echo "CONTINUE_GHRUN=FALSE" >> "${GITHUB_ENV}"
+           exit 1
+          else
+            timeout -k 10s 60s bash -c 'am -l --appimages | cat -'
+          fi
+        continue-on-error: false
+
       - name: Install Addons
         run: |
           #presets
@@ -217,38 +249,7 @@ jobs:
           fi
         continue-on-error: false
 
-      - name: Disable apparmor_restrict_unprivileged_userns #Required for runimage etc
-        if: env.CONTINUE_GHRUN != 'FALSE'
-        run: |
-          #presets
-          set +x ; set +e
-          #-------------#
-          echo "kernel.apparmor_restrict_unprivileged_userns=0" | sudo tee "/etc/sysctl.d/98-apparmor-unuserns.conf"
-          echo "0" | sudo tee "/proc/sys/kernel/apparmor_restrict_unprivileged_userns"
-          sudo service procps restart
-          sudo sysctl -p "/etc/sysctl.conf"
-        continue-on-error: true
-
-      - name: Install AM
-        if: env.CONTINUE_GHRUN != 'FALSE'
-        run: |
-          #presets
-          set +x ; set +e
-          #-------------#
-          #https://github.com/ivan-hc/AM/blob/main/AM-INSTALLER#L13
-          sudo apt update -y -qq
-          sudo apt install curl torsocks wget zsync -y -qq
-          yes '1' | bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/AM-INSTALLER")
-          if ! command -v am &>/dev/null; then
-            echo -e "[-] Failed to find am\n"
-            echo "CONTINUE_GHRUN=FALSE" >> "${GITHUB_ENV}"
-           exit 1
-          else
-            am -l --appimages
-          fi
-        continue-on-error: false
-
-      - name: BUILD (${{ github.event.inputs.ghcr-url }}) [${{ matrix.package.host }}<==>${{ matrix.package.runner }}]
+      - name: BUILD (${{ github.event.inputs.pkg-name }}) [${{ matrix.package.host }}<==>${{ matrix.package.runner }}]
         if: env.CONTINUE_GHRUN != 'FALSE'
         run: |
           #Presets
@@ -263,7 +264,7 @@ jobs:
             export KEEP_LOGS="${KEEP_LOGS}"
             export PKG_NAME="${PKG_NAME}"
             export GITHUB_TEST_BUILD="${GITHUB_TEST_BUILD}"
-            bash "${SYSTMP}/BUILDER.sh" "${PKG_NAME}" | tee "${SYSTMP}/BUILD.log" 2>&1
+            bash "${SYSTMP}/BUILDER.sh" | tee "${SYSTMP}/BUILD.log" 2>&1
            ##Purge Tokens (in case set -x & gh didn't redact)
            cat "${SYSTMP}/BUILD.log" | ansi2txt > "${SYSTMP}/BUILD.gh.log.txt"
            sed -i '/.*github_pat.*/Id' "${SYSTMP}/BUILD.gh.log.txt" 2>/dev/null
@@ -316,20 +317,8 @@ jobs:
           #Presets
           set +x ; set +e
           #--------------#
-          if [[ "${GHA_BUILD_FAILED}" == "YES" || "${SBUILD_SUCCESSFUL}" == "NO" ]]; then
+          if [[ "${GHA_BUILD_FAILED}" == "YES" || "${BUILD_SUCCESSFUL}" == "NO" ]]; then
             echo -e "\n[-] FATAL: Failed to Successfully Build ${{ matrix.package.pkg-name }}"
-           exit 1
-          fi
-        continue-on-error: false
-
-      - name: Check Push [${{ matrix.package.pkg-name }}]
-        if: env.CONTINUE_GHRUN != 'FALSE'
-        run: |
-          #Presets
-          set +x ; set +e
-          #--------------#
-          if [[ "${PUSH_SUCCESSFUL}" == "NO" ]]; then
-            echo -e "\n[-] FATAL: Failed to Successfully Push ==> ${{ matrix.package.pkg-name }}"
            exit 1
           fi
         continue-on-error: false
