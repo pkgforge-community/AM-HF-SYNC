@@ -292,7 +292,7 @@ This is a step-by-step focus on how an installation script runs, and we will tak
 #!/bin/sh
 
 # AM INSTALL SCRIPT VERSION 3.5
-set -u
+set +u
 APP=brave
 SITE="brave/brave-browser"
 ```
@@ -300,7 +300,7 @@ SITE="brave/brave-browser"
 ```
 # CREATE DIRECTORIES AND ADD REMOVER
 [ -n "$APP" ] && mkdir -p "/opt/$APP/tmp" "/opt/$APP/icons" && cd "/opt/$APP/tmp" || exit 1
-printf "#!/bin/sh\nset -e\nrm -f /usr/local/bin/$APP\nrm -R -f /opt/$APP" > ../remove
+printf "#!/bin/sh\nset +e\nrm -f /usr/local/bin/$APP\nrm -R -f /opt/$APP" > ../remove
 printf '\n%s' "rm -f /usr/local/share/applications/$APP-AM.desktop" >> ../remove
 chmod a+x ../remove || exit 1
 ```
