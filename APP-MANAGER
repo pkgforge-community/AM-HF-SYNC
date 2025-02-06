@@ -949,7 +949,7 @@ _update_torsocks_handler() {
 			[ ! -f "$AMDATADIR"/torsocks.conf ] && cat "$torsocks_congif_file" > "$AMDATADIR"/torsocks.conf
 			sed -i 's/^#AllowOutboundLocalhost 1/AllowOutboundLocalhost 1/g' "$AMDATADIR"/torsocks.conf
 			[ -f "$AMDATADIR"/torsocks.conf ] && export TORSOCKS_CONF_FILE="$AMDATADIR"/torsocks.conf
-			GH_API_ALLOWED=$(torsocks curl -Ls $HeaderAuthWithGITPAT https://api.gh.pkgforge.dev/repos/pkgforge-community/AM-HF-SYNC/releases/latest | sed 's/[()",{} ]/\n/g' | grep "^pkgforge-community" | head -1)
+			GH_API_ALLOWED=$(torsocks curl -Ls $HeaderAuthWithGITPAT https://api.gh.pkgforge.dev/repos/pkgforge-community/AM-HF-SYNC/releases/latest | sed 's/[()",{} ]/\n/g' | grep "^Azathothas" | head -1)
 			if [ -z "$GH_API_ALLOWED" ]; then
 				printf " ✖ %b update failed, please restart %btor.service\033[0m to fix! \n" "$APPNAME" "${Green}"
 				exit 1
@@ -960,7 +960,7 @@ _update_torsocks_handler() {
 
 _update_run_updater() {
 	if grep -q "api.gh.pkgforge.dev" "$argpath"/AM-updater; then
-		GH_API_ALLOWED=$(curl -Ls $HeaderAuthWithGITPAT https://api.gh.pkgforge.dev/repos/pkgforge-community/AM-HF-SYNC/releases/latest | sed 's/[()",{} ]/\n/g' | grep "^pkgforge-community" | head -1)
+		GH_API_ALLOWED=$(curl -Ls $HeaderAuthWithGITPAT https://api.gh.pkgforge.dev/repos/pkgforge-community/AM-HF-SYNC/releases/latest | sed 's/[()",{} ]/\n/g' | grep "^Azathothas" | head -1)
 		if [ -z "$GH_API_ALLOWED" ]; then
 			if command -v torsocks 1>/dev/null; then
 				_update_torsocks_handler
