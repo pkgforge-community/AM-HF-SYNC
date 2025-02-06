@@ -16,7 +16,7 @@ version=$(wget -q https://aur.archlinux.org/packages/exodus -O - | tr '"' '\n' |
 if wget --version | head -1 | grep -q ' 1.'; then
 	wget --user-agent="Mozilla/5.0" "$version" || exit 1
 else
-	wget "$version" || exit 1
+	wget -U "${USER_AGENT}" "$version" || exit 1
 fi
 [ -e ./*7z ] && 7z x ./*7z && rm -f ./*7z
 [ -e ./*tar.* ] && tar fx ./*tar.* && rm -f ./*tar.*
@@ -45,7 +45,7 @@ if [ "$version" != "$version0" ]; then
 	if wget --version | head -1 | grep -q ' 1.'; then
 		wget --user-agent="Mozilla/5.0" "$version" || exit 1
 	else
-		wget "$version" || exit 1
+		wget -U "${USER_AGENT}" "$version" || exit 1
 	fi
 	[ -e ./*7z ] && 7z x ./*7z && rm -f ./*7z
 	[ -e ./*tar.* ] && tar fx ./*tar.* && rm -f ./*tar.*

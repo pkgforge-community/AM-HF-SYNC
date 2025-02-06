@@ -13,7 +13,7 @@ chmod a+x ../remove || exit 1
 
 # DOWNLOAD AND PREPARE THE APP, $version is also used for updates
 version=$(wget -q https://filezilla-project.org/download.php?platform=linux32 -O - | tr '">< ' '\n' | grep -i "^http.*filezilla.*linux.*tar" | head -1)
-wget "$version" || exit 1
+wget -U "${USER_AGENT}" "$version" || exit 1
 [ -e ./*7z ] && 7z x ./*7z && rm -f ./*7z
 [ -e ./*tar.* ] && tar fx ./*tar.* && rm -f ./*tar.*
 [ -e ./*zip ] && unzip -qq ./*zip 1>/dev/null && rm -f ./*zip
@@ -45,7 +45,7 @@ version=$(wget -q https://filezilla-project.org/download.php?platform=linux32 -O
 if [ "$version" != "$version0" ]; then
 	mkdir "/opt/$APP/tmp" && cd "/opt/$APP/tmp" || exit 1
 	notify-send "A new version of $APP is available, please wait"
-	wget "$version" || exit 1
+	wget -U "${USER_AGENT}" "$version" || exit 1
 	[ -e ./*7z ] && 7z x ./*7z && rm -f ./*7z
 	[ -e ./*tar.* ] && tar fx ./*tar.* && rm -f ./*tar.*
 	[ -e ./*zip ] && unzip -qq ./*zip 1>/dev/null && rm -f ./*zip

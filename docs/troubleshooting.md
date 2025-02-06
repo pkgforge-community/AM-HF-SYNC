@@ -25,7 +25,7 @@ There can be many reasons:
 - check your internet connection;
 - if the app is hosted on github.com, you have probably exceeded the hourly limit of API calls;
 - the referring link may have been changed, try the `--rollback` option or `downgrade`;
-- the reference site has changed, report any changes at https://github.com/pkgforge-community/AM-HF-SYNC/issues
+- the reference site has changed, report any changes at https://github.com/ivan-hc/AM/issues
 ------------------------------------------------------------------------
 
 | [Back to "Troubleshooting"](#troubleshooting) | [Back to "Main Index"](../README.md#main-index) |
@@ -77,7 +77,7 @@ Here's what you need to check:
 
 In the case of AppImageLauncher, as I write (today September 20, 2024), the repository has not been updated for a couple of years and the runtime used in the AppImages has changed. AppImageLauncher uses mechanisms to identify the AppImages present in the system, asking you to integrate them if you launch one. It acts a bit like a system daemon in effect, and could cause problems while you tend to manage the AppImages with different tools, and therefore even the execution via terminal can be problematic.
 
-Remove AppImageLauncher and its files, then reboot the system (see also [issues/955](https://github.com/pkgforge-community/AM-HF-SYNC/issues/955) and [issues/107](https://github.com/pkgforge-community/AM-HF-SYNC/issues/107)).
+Remove AppImageLauncher and its files, then reboot the system (see also [issues/955](https://github.com/ivan-hc/AM/issues/955) and [issues/107](https://github.com/ivan-hc/AM/issues/107)).
 
 ------------------------------------------------------------------------
 
@@ -202,7 +202,7 @@ echo 'kernel.apparmor_restrict_unprivileged_userns = 0' | sudo tee /etc/sysctl.d
 ### Wrong download link
 The reasons may be two:
 - the referring link may have been changed, try the `--rollback` option or `downgrade`;
-- the reference site has changed, report any changes at https://github.com/pkgforge-community/AM-HF-SYNC/issues
+- the reference site has changed, report any changes at https://github.com/ivan-hc/AM/issues
 ------------------------------------------------------------------------
 
 | [Back to "Troubleshooting"](#troubleshooting) | [Back to "Main Index"](../README.md#main-index) |

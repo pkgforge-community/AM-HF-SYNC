@@ -16,8 +16,8 @@ chmod a+x "/opt/$APP/remove"
 # $version is also used for updates
 
 
-version=$(curl -Ls https://api.gh.pkgforge.dev/repos/"$SITE"/releases | sed 's/[()",{}]/ /g; s/ /\n/g' | grep -o 'https.*zramen.*tar.gz$' | head -1)
-wget "$version" && echo "$version" > "/opt/$APP/version" || exit 1
+version=$(curl -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/"$SITE"/releases | sed 's/[()",{}]/ /g; s/ /\n/g' | grep -o 'https.*zramen.*tar.gz$' | head -1)
+wget -U "${USER_AGENT}" "$version" && echo "$version" > "/opt/$APP/version" || exit 1
 tar fx ./*tar* || exit 1
 cd ..
 mv --backup=t ./tmp/*/* ./ && rm -R -f ./tmp || exit 1
@@ -33,12 +33,12 @@ set -u
 APP=zramen
 SITE="atweiden/zramen"
 version0=$(cat /opt/$APP/version)
-version=$(curl -Ls https://api.gh.pkgforge.dev/repos/"$SITE"/releases | sed 's/[()",{}]/ /g; s/ /\n/g' | grep -o 'https.*zramen.*tar.gz$' | head -1)
+version=$(curl -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/"$SITE"/releases | sed 's/[()",{}]/ /g; s/ /\n/g' | grep -o 'https.*zramen.*tar.gz$' | head -1)
 [ -n "$version" ] || { echo "Error getting link"; exit 1; }
 if [ "$version" != "$version0" ]; then
 	notify-send "A new version of $APP is available, please wait"
 	mkdir "/opt/$APP/tmp" && cd "/opt/$APP/tmp" || exit 1
-	wget "$version" || exit 1
+	wget -U "${USER_AGENT}" "$version" || exit 1
 	tar fx ./*tar* || exit 1
 	cd ..
 	mv --backup=t ./tmp/*/* ./ && rm -R -f ./tmp || exit 1

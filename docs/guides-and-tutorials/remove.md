@@ -4,7 +4,7 @@ Option `-R` removes the selected apps without asking
 am -R {PROGRAM}
 ```
 
-https://github.com/pkgforge-community/AM-HF-SYNC/assets/88724353/4d26d2d7-4476-4322-a0ab-a0a1ec14f751
+https://github.com/ivan-hc/AM/assets/88724353/4d26d2d7-4476-4322-a0ab-a0a1ec14f751
 
 
 To have a prompt, use `-r` or `remove`, lowercased

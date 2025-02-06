@@ -12,7 +12,7 @@ chmod a+x ../remove || exit 1
 
 # DOWNLOAD AND PREPARE THE APP, $version is also used for updates
 version=$(wget -q "$SITE" -O - | sed 's/[()",{} ]/\n/g' | grep -oi 'https.*mmc.*lin64.*gz$' | head -1)
-wget "$version" || exit 1
+wget -U "${USER_AGENT}" "$version" || exit 1
 tar fx ./*tar*
 cd ..
 mv ./tmp/*/* ./
@@ -36,7 +36,7 @@ version=$(wget -q "$SITE" -O - | sed 's/[()",{} ]/\n/g' | grep -oi 'https.*mmc.*
 #if [ "$version" != "$version0" ]; then
 	mkdir "/opt/$APP/tmp" && cd "/opt/$APP/tmp" || exit 1
 #	notify-send "A new version of $APP is available, please wait"
-	wget "$version" || exit 1
+	wget -U "${USER_AGENT}" "$version" || exit 1
 	tar fx ./*tar*
 	cd ..
 	mv --backup=t ./tmp/*/* ./

@@ -23,7 +23,7 @@ EOF
 chmod a+x ../remove || exit 1
 
 # DOWNLOAD AND PREPARE THE APP, $version is also used for updates
-version=$(curl -Ls https://developer.android.com/tools/releases/platform-tools | grep -Po '(?<=data-text=")[^"]*' | grep -Eo "([0-9]{1,}\.)+[0-9]{1,}" | head -1)
+version=$(curl -A "${USER_AGENT}" -Ls https://developer.android.com/tools/releases/platform-tools | grep -Po '(?<=data-text=")[^"]*' | grep -Eo "([0-9]{1,}\.)+[0-9]{1,}" | head -1)
 wget https://dl.google.com/android/repository/platform-tools-latest-linux.zip || exit 1
 unzip -qq ./*zip 1>/dev/null && rm -f ./*zip || exit 1
 cd ..
@@ -50,7 +50,7 @@ set -u
 APP=platform-tools
 SITE="https://developer.android.com/tools/releases/platform-tools"
 version0=$(cat /opt/$APP/version)
-version=$(curl -Ls https://developer.android.com/tools/releases/platform-tools | grep -Po '(?<=data-text=")[^"]*' | grep -Eo "([0-9]{1,}\.)+[0-9]{1,}" | head -1)
+version=$(curl -A "${USER_AGENT}" -Ls https://developer.android.com/tools/releases/platform-tools | grep -Po '(?<=data-text=")[^"]*' | grep -Eo "([0-9]{1,}\.)+[0-9]{1,}" | head -1)
 [ -n "$version" ] || { echo "Error getting link"; exit 1; }
 if [ "$version" != "$version0" ]; then
 	mkdir "/opt/$APP/tmp" && cd "/opt/$APP/tmp" || exit 1
