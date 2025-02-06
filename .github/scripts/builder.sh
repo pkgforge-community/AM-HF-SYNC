@@ -60,7 +60,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
   git checkout ; ls -lah "." "./${PKG_NAME}/${HOST_TRIPLET}" ; git sparse-checkout list
   #Install
    {
-     echo -e "\n[+] Installing ${PKG_NAME} <== ${BUILD_SCRIPT}\n"
+     echo -e "\n[+] Installing ${PKG_NAME} <== ${BUILD_SCRIPT} ["$(date --utc '+%Y-%m-%dT%H:%M:%S')" UTC]\n"
      timeout -k 5s 10s curl -w "\n(Script) <== %{url}\n" -qfsSL "${BUILD_SCRIPT_RAW}"
      set -x
      timeout -k 10s 300s am install --debug "${PKG_NAME}"
@@ -107,7 +107,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
        #Info
         timeout -k 10s 300s am about "${PKG_NAME}" 2>/dev/null | cat -> "${HF_PKGPATH}/${PKG_NAME}.txt"
        #Build Date
-        PKG_DATETMP="$(date --utc +%Y-%m-%dT%H:%M:%S)Z"
+        PKG_DATETMP="$(date --utc '+%Y-%m-%dT%H:%M:%S')Z"
         PKG_BUILD_DATE="$(echo "${PKG_DATETMP}" | sed 's/ZZ\+/Z/Ig')"
         echo -e "[+] Build Date: ${PKG_BUILD_DATE} ('.build_date')"
        #Build GH

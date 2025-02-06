@@ -166,10 +166,14 @@ jobs:
           set +x ; set +e
           #-------------#
           ##CoreUtils
+          export DEBIAN_FRONTEND="noninteractive"
+          echo "DEBIAN_FRONTEND=${DEBIAN_FRONTEND}" >> "${GITHUB_ENV}"
           sudo apt update -y -qq
-          sudo apt install apt-transport-https apt-utils bc ca-certificates coreutils curl dos2unix fdupes git-lfs gnupg2 \
+          #https://github.com/ilikenwf/apt-fast?tab=readme-ov-file#quick-install
+          bash -c "$(curl -qfsSL 'https://raw.githubusercontent.com/ilikenwf/apt-fast/master/quick-install.sh')"
+          sudo apt-fast install apt-transport-https apt-utils bc ca-certificates coreutils curl dos2unix fdupes git-lfs gnupg2 \
           jq moreutils p7zip-full rename rsync software-properties-common texinfo tmux torsocks util-linux wget zsync -y -qq 2>/dev/null
-          sudo apt update -y -qq 2>/dev/null
+          sudo apt-fast update -y -qq 2>/dev/null
           ##tmp
           SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="${SYSTMP}"
           #GH ENV
@@ -204,8 +208,8 @@ jobs:
           set +x ; set +e
           #-------------#
           #https://github.com/ivan-hc/AM/blob/main/AM-INSTALLER#L13
-          sudo apt update -y -qq
-          sudo apt install curl torsocks wget zsync -y -qq
+          sudo apt-fast update -y -qq
+          sudo apt-fast install curl torsocks wget zsync -y -qq
           yes '1' | bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/AM-INSTALLER")
           if ! command -v am &>/dev/null; then
             echo -e "[-] Failed to find am\n"
@@ -246,6 +250,7 @@ jobs:
           sudo chmod -v 'a+x' \
           "/usr/bin/7z" \
           "/usr/local/bin/7z" \
+          "/usr/local/bin/ansi2txt" \
           "/usr/local/bin/aria2c" \
           "/usr/local/bin/askalono" \
           "/usr/local/bin/bsdtar" \
