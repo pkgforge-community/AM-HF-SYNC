@@ -215,7 +215,8 @@ jobs:
             echo "CONTINUE_GHRUN=FALSE" >> "${GITHUB_ENV}"
            exit 1
           else
-            timeout -k 10s 60s bash -c 'am -l --appimages | cat -'
+            #timeout -k 10s 60s bash -c 'am -l --appimages | cat -'
+            timeout -k 10s 60s bash -c 'am --version'
           fi
         continue-on-error: false
 
@@ -224,6 +225,7 @@ jobs:
           #presets
           set +x ; set +e
           #-------------#
+          export PARALLEL=1
           bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/devscripts/refs/heads/main/Linux/install_bins_curl.sh")
         continue-on-error: true
 
@@ -257,7 +259,7 @@ jobs:
           #--------------#
           ##Main
           pushd "$(mktemp -d)" >/dev/null 2>&1
-           curl -qfsSL "https://raw.githubusercontent.com/pkgforge-community/AM/refs/heads/main/.github/scripts/builder.sh" -o "${SYSTMP}/BUILDER.sh"
+           curl -qfsSL "https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/refs/heads/main/.github/scripts/builder.sh" -o "${SYSTMP}/BUILDER.sh"
            dos2unix --quiet "${SYSTMP}/BUILDER.sh" ; chmod +xwr "${SYSTMP}/BUILDER.sh"
            ##Run with STDOUT + LOGS
             export DEBUG="${DEBUG}"
