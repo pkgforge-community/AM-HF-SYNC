@@ -45,7 +45,7 @@ _prepare_am_directory() {
 _download_am_modules() {
 	# DOWNLOAD MODULES
 	cd /opt/am/modules || exit
-	MODULES=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls "https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/$AM_BRANCH/APP-MANAGER" | tr '"' '\n' | grep "[a-z]\.am$")
+	MODULES=$(curl -A "${USER_AGENT}" -Ls "https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/$AM_BRANCH/APP-MANAGER" | tr '"' '\n' | grep "[a-z]\.am$")
 	for module_name in $MODULES; do
 		if [ ! -f ./"$module_name" ]; then
 			echo " ◆ Downloading $module_name..."

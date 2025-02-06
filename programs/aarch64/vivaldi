@@ -24,7 +24,7 @@ mkdir tmp;
 cd tmp;
 
 # DOWNLOADING THE DEPENDENCIES
-version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -s https://archlinux.org/packages/community/x86_64/vivaldi/ | grep -Eo "vivaldi [+-]?[0-9]+([.][0-9]+)?+[.]?[0-9]" | head -1 | cut -c 9-)
+version=$(curl -A "${USER_AGENT}" -s https://archlinux.org/packages/community/x86_64/vivaldi/ | grep -Eo "vivaldi [+-]?[0-9]+([.][0-9]+)?+[.]?[0-9]" | head -1 | cut -c 9-)
 wget https://downloads.vivaldi.com/stable/vivaldi-stable_$version-1_arm64.deb
 ar x ./*deb
 tar fx ./data.tar.xz
@@ -39,7 +39,7 @@ ln -s /opt/$APP/vivaldi /usr/local/bin/$APP
 # SCRIPT TO UPDATE THE PROGRAM
 echo '#!/usr/bin/env bash
 version0=$(cat /opt/'$APP'/version)
-version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -s https://archlinux.org/packages/community/x86_64/vivaldi/ | grep -Eo "vivaldi [+-]?[0-9]+([.][0-9]+)?+[.]?[0-9]" | head -1 | cut -c 9-)
+version=$(curl -A "${USER_AGENT}" -s https://archlinux.org/packages/community/x86_64/vivaldi/ | grep -Eo "vivaldi [+-]?[0-9]+([.][0-9]+)?+[.]?[0-9]" | head -1 | cut -c 9-)
 if [[ "$version0" == "$version" ]]; then
   echo "Update not needed, exit!"
  else
@@ -296,7 +296,7 @@ mkdir tmp;
 cd tmp;
 
 # DOWNLOADING THE DEPENDENCIES
-version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -s https://aur.archlinux.org/packages/vivaldi-snapshot | grep -Eo "vivaldi-snapshot [+-]?[0-9]+([.][0-9]+)?+[.]?[0-9]" | head -1 | cut -c 18-)
+version=$(curl -A "${USER_AGENT}" -s https://aur.archlinux.org/packages/vivaldi-snapshot | grep -Eo "vivaldi-snapshot [+-]?[0-9]+([.][0-9]+)?+[.]?[0-9]" | head -1 | cut -c 18-)
 wget https://downloads.vivaldi.com/snapshot/vivaldi-snapshot_$version-1_arm64.deb
 ar x ./*deb
 tar fx ./data.tar.xz
@@ -311,7 +311,7 @@ ln -s /opt/$APP/vivaldi /usr/local/bin/$APP
 # SCRIPT TO UPDATE THE PROGRAM
 echo '#!/usr/bin/env bash
 version0=$(cat /opt/'$APP'/version)
-version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -s https://aur.archlinux.org/packages/vivaldi-snapshot | grep -Eo "vivaldi-snapshot [+-]?[0-9]+([.][0-9]+)?+[.]?[0-9]" | head -1 | cut -c 18-)
+version=$(curl -A "${USER_AGENT}" -s https://aur.archlinux.org/packages/vivaldi-snapshot | grep -Eo "vivaldi-snapshot [+-]?[0-9]+([.][0-9]+)?+[.]?[0-9]" | head -1 | cut -c 18-)
 if [[ "$version0" == "$version" ]]; then
   echo "Update not needed, exit!"
  else

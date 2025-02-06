@@ -12,8 +12,8 @@ printf '\n%s' "rm -f /usr/local/share/applications/$APP-AM.desktop" >> ../remove
 chmod a+x ../remove || exit 1
 
 # DOWNLOAD AND PREPARE THE APP, $version is also used for updates
-version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/UltimMC/Launcher/commits | sed 's/[(),{}]/\n/g; s/^ //g' | grep "\"sha\":" | head -1 | tr '"' '\n' | grep . | tail -1 | cut -c -7)
-wget -U "${USER_AGENT}" "$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://raw.githubusercontent.com/UltimMC/Launcher/refs/heads/develop/README.md | grep -i linux | tr '"><() ' '\n' | grep "^http.*zip$" | head -1)" || exit 1
+version=$(curl -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/UltimMC/Launcher/commits | sed 's/[(),{}]/\n/g; s/^ //g' | grep "\"sha\":" | head -1 | tr '"' '\n' | grep . | tail -1 | cut -c -7)
+wget "$(curl -A "${USER_AGENT}" -Ls https://raw.githubusercontent.com/UltimMC/Launcher/refs/heads/develop/README.md | grep -i linux | tr '"><() ' '\n' | grep "^http.*zip$" | head -1)" || exit 1
 [ -e ./*7z ] && 7z x ./*7z && rm -f ./*7z
 [ -e ./*tar.* ] && tar fx ./*tar.* && rm -f ./*tar.*
 [ -e ./*zip ] && unzip -qq ./*zip 1>/dev/null && rm -f ./*zip
@@ -33,12 +33,12 @@ set -u
 APP=ultimmc
 SITE="UltimMC/Launcher"
 version0=$(cat "/opt/$APP/version")
-version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/UltimMC/Launcher/commits | sed 's/[(),{}]/\n/g; s/^ //g' | grep "\"sha\":" | head -1 | tr '"' '\n' | grep . | tail -1 | cut -c -7)
+version=$(curl -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/UltimMC/Launcher/commits | sed 's/[(),{}]/\n/g; s/^ //g' | grep "\"sha\":" | head -1 | tr '"' '\n' | grep . | tail -1 | cut -c -7)
 [ -n "$version" ] || { echo "Error getting link"; exit 1; }
 if [ "$version" != "$version0" ]; then
 	mkdir "/opt/$APP/tmp" && cd "/opt/$APP/tmp" || exit 1
 	notify-send "A new version of $APP is available, please wait"
-	wget -U "${USER_AGENT}" "$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://raw.githubusercontent.com/UltimMC/Launcher/refs/heads/develop/README.md | grep -i linux | tr '"><() ' '\n' | grep "^http.*zip$" | head -1)" || exit 1
+	wget "$(curl -A "${USER_AGENT}" -Ls https://raw.githubusercontent.com/UltimMC/Launcher/refs/heads/develop/README.md | grep -i linux | tr '"><() ' '\n' | grep "^http.*zip$" | head -1)" || exit 1
 	[ -e ./*7z ] && 7z x ./*7z && rm -f ./*7z
 	[ -e ./*tar.* ] && tar fx ./*tar.* && rm -f ./*tar.*
 	[ -e ./*zip ] && unzip -qq ./*zip 1>/dev/null && rm -f ./*zip

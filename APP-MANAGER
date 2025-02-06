@@ -425,7 +425,7 @@ appbundle_readme="https://raw.githubusercontent.com/xplshn/dbin-metadata/refs/he
 
 _sync_appbundle_list() {
 	rm -f "$AMDATADIR/$ARCH-appbundle"
-	[ -n "$appbundle_readme" ] && curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls "$appbundle_readme" | grep -v "\.appimage \|?" | grep "\.appbundle " | cut -d":" -f1 | cut -d"@" -f2 \
+	[ -n "$appbundle_readme" ] && curl -A "${USER_AGENT}" -Ls "$appbundle_readme" | grep -v "\.appimage \|?" | grep "\.appbundle " | cut -d":" -f1 | cut -d"@" -f2 \
 	| sed 's/^| /◆ /g; s/ https$//g; s/ :$//g; s/ | / : /g; s/ |$/./g; s/\.\.$/./g;' | sort > "$AMDATADIR/$ARCH-appbundle" \
 	|| touch "$AMDATADIR/$ARCH-appbundle"
 }
@@ -451,7 +451,7 @@ NOTE, for installations you can use \".toolpack\" as the package extension inste
 
 _sync_toolpacks_list() {
 	rm -f "$AMDATADIR/$ARCH-toolpack"
-	[ -n "$toolpack_readme" ] && curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls "$toolpack_readme" | grep -v "\.appimage \|.appbundle \|?" | cut -d":" -f1 | cut -d"@" -f2 \
+	[ -n "$toolpack_readme" ] && curl -A "${USER_AGENT}" -Ls "$toolpack_readme" | grep -v "\.appimage \|.appbundle \|?" | cut -d":" -f1 | cut -d"@" -f2 \
 	| sed 's/^| /◆ /g; s/ | https$/. To install it use the "--toolpack" flag./g; s/ | / : /g' | sort > "$AMDATADIR/$ARCH-toolpack" \
 	|| touch "$AMDATADIR/$ARCH-toolpack"
 }
@@ -489,7 +489,7 @@ available_options="about add apikey backup clean config disable downgrade downlo
 
 _completion_lists() {
 	# Remove existing lists and download new ones
-	curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls "$APPSLISTDB" > "$AMDATADIR/$ARCH-apps"
+	curl -A "${USER_AGENT}" -Ls "$APPSLISTDB" > "$AMDATADIR/$ARCH-apps"
 	awk -v FS="(◆ | : )" '{print $2}' <"$AMDATADIR"/"$ARCH"-apps > "$AMDATADIR"/list
 	_completion_list_third_party
 	# Append options to the list
@@ -639,7 +639,7 @@ _use_apikey() {
 		exit 0
 	esac
 	if [[ "$2" =~ ^(gh[ps]_[a-zA-Z0-9]{36}|github_pat_[a-zA-Z0-9]{22}_[a-zA-Z0-9]{59})$ ]]; then
-		test_apikey_output_with_wget=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls --header "Authorization: token $2" 'https://api.gh.pkgforge.dev/repos/pkgforge-community/AM-HF-SYNC/releases' | head -1)
+		test_apikey_output_with_wget=$(curl -A "${USER_AGENT}" -Ls --header "Authorization: token $2" 'https://api.gh.pkgforge.dev/repos/pkgforge-community/AM-HF-SYNC/releases' | head -1)
 		[ -n "$test_apikey_output_with_wget" ] && echo "$2" > "$ghapikey_file" \
 			&& echo "Validation successful!" || echo "ERROR: This is not a valid key!"
 	else
@@ -815,14 +815,14 @@ _sync_installation_scripts() {
 			scriptname=$(ls "$argpath/.am-installer/" | head -1)
 			if [ -n "$scriptname" ]; then
 				CURRENT=$(cat "$argpath"/.am-installer/"$scriptname")
-				SOURCE=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls "$APPSDB"/"$scriptname")
+				SOURCE=$(curl -A "${USER_AGENT}" -Ls "$APPSDB"/"$scriptname")
 				if [ "$CURRENT" = "$SOURCE" ]; then
 					echo -ne "\r" 2>/dev/null
 				else
 					printf " ◆ Changed https://github.com/pkgforge-community/AM-HF-SYNC/blob/main/programs/%b/%b\n" "$ARCH" "$scriptname"
 				fi
 			else
-				if curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" --output /dev/null --silent --head --fail "$APPSDB"/"$arg"  1>/dev/null; then
+				if curl -A "${USER_AGENT}" --output /dev/null --silent --head --fail "$APPSDB"/"$arg"  1>/dev/null; then
 					printf " ◆ No installation script for %b, downloading one...\n" "$arg"
 					mkdir -p "$argpath"/.am-installer
 					wget -q "$APPSDB/$arg" -O "$argpath"/.am-installer/"$arg"
@@ -834,7 +834,7 @@ _sync_installation_scripts() {
 
 _sync_appimages_list() {
 	APPIMAGES_LIST="${APPIMAGES_LIST:-$AMREPO/programs/$ARCH-appimages}"
-	curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls "$APPIMAGES_LIST" > "$AMDATADIR/$ARCH-appimages"
+	curl -A "${USER_AGENT}" -Ls "$APPIMAGES_LIST" > "$AMDATADIR/$ARCH-appimages"
 }
 
 _sync_databases() {
@@ -846,21 +846,21 @@ _sync_databases() {
 
 _sync_modules() {
 	printf "%b\n Check for updates in modules...\n" "$DIVIDING_LINE"
-	MODULES=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls "$AMREPO/APP-MANAGER" | tr '"' '\n' | grep "[a-z]\.am$")
+	MODULES=$(curl -A "${USER_AGENT}" -Ls "$AMREPO/APP-MANAGER" | tr '"' '\n' | grep "[a-z]\.am$")
 	for module_name in $MODULES; do
 		cd "$MODULES_PATH" || return 1
 		if ! test -f ./"$module_name"; then
 			echo " ◆ Downloading $module_name (not previously installed)..."
-			curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Os "$MODULES_SOURCE/$module_name" 2>/dev/null
+			curl -A "${USER_AGENT}" -Os "$MODULES_SOURCE/$module_name" 2>/dev/null
 			chmod a+x ./"$MODULENAME"
 		fi
 		CURRENT=$(cat ./"$module_name" 2>/dev/null)
-		SOURCE=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls "$MODULES_SOURCE/$module_name")
+		SOURCE=$(curl -A "${USER_AGENT}" -Ls "$MODULES_SOURCE/$module_name")
 		if [ "$CURRENT" = "$SOURCE" ]; then
 			echo -ne "\r" 2>/dev/null
 		else
 			echo " ◆ Updating $module_name..."
-			curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls "$MODULES_SOURCE/$module_name" > ./"$module_name" 2>/dev/null
+			curl -A "${USER_AGENT}" -Ls "$MODULES_SOURCE/$module_name" > ./"$module_name" 2>/dev/null
 		fi
 	done
 	_clean_old_modules
@@ -872,7 +872,7 @@ _sync_amcli() {
 	echo -ne "\n ◆ SYNCHRONIZING \"$AMCLIUPPER\" VERSION \"$CURRENT_AM_VERSION\"...\r" && sleep 0.25
 	_clean_amcachedir 1>/dev/null
 	cd "$AMCACHEDIR" || return 1
-	curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls "$AMREPO"/APP-MANAGER > ./APP-MANAGER && chmod a+x ./APP-MANAGER
+	curl -A "${USER_AGENT}" -Ls "$AMREPO"/APP-MANAGER > ./APP-MANAGER && chmod a+x ./APP-MANAGER
 	echo y | mv ./APP-MANAGER "$(realpath "$0")"
 	NEW_AM_VERSION=$("$AMCLIPATH" -v)
 	if [ ! "$CURRENT_AM_VERSION" = "$NEW_AM_VERSION" ]; then
@@ -949,7 +949,7 @@ _update_torsocks_handler() {
 			[ ! -f "$AMDATADIR"/torsocks.conf ] && cat "$torsocks_congif_file" > "$AMDATADIR"/torsocks.conf
 			sed -i 's/^#AllowOutboundLocalhost 1/AllowOutboundLocalhost 1/g' "$AMDATADIR"/torsocks.conf
 			[ -f "$AMDATADIR"/torsocks.conf ] && export TORSOCKS_CONF_FILE="$AMDATADIR"/torsocks.conf
-			GH_API_ALLOWED=$(torsocks curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls $HeaderAuthWithGITPAT https://api.gh.pkgforge.dev/repos/pkgforge-community/AM-HF-SYNC/releases/latest | sed 's/[()",{} ]/\n/g' | grep "^ivan-hc" | head -1)
+			GH_API_ALLOWED=$(torsocks curl -A "${USER_AGENT}" -Ls $HeaderAuthWithGITPAT https://api.gh.pkgforge.dev/repos/pkgforge-community/AM-HF-SYNC/releases/latest | sed 's/[()",{} ]/\n/g' | grep "^ivan-hc" | head -1)
 			if [ -z "$GH_API_ALLOWED" ]; then
 				printf " ✖ %b update failed, please restart %btor.service\033[0m to fix! \n" "$APPNAME" "${Green}"
 				exit 1
@@ -960,7 +960,7 @@ _update_torsocks_handler() {
 
 _update_run_updater() {
 	if grep -q "api.gh.pkgforge.dev" "$argpath"/AM-updater; then
-		GH_API_ALLOWED=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls $HeaderAuthWithGITPAT https://api.gh.pkgforge.dev/repos/pkgforge-community/AM-HF-SYNC/releases/latest | sed 's/[()",{} ]/\n/g' | grep "^ivan-hc" | head -1)
+		GH_API_ALLOWED=$(curl -A "${USER_AGENT}" -Ls $HeaderAuthWithGITPAT https://api.gh.pkgforge.dev/repos/pkgforge-community/AM-HF-SYNC/releases/latest | sed 's/[()",{} ]/\n/g' | grep "^ivan-hc" | head -1)
 		if [ -z "$GH_API_ALLOWED" ]; then
 			if command -v torsocks 1>/dev/null; then
 				_update_torsocks_handler

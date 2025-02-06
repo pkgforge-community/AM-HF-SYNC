@@ -17,7 +17,7 @@ mkdir tmp
 cd ./tmp
 
 url="https://builder.blender.org/download/daily/archive/"
-version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls "$url" | tr '"' '\n' | grep "^https" | grep -i "tar.xz$" | grep -w -v sha256 | grep "$branch" | head -1)
+version=$(curl -A "${USER_AGENT}" -Ls "$url" | tr '"' '\n' | grep "^https" | grep -i "tar.xz$" | grep -w -v sha256 | grep "$branch" | head -1)
 wget -U "${USER_AGENT}" "$version"
 echo "$version" >> /opt/$APP/version
 tar fx *.tar.xz
@@ -35,7 +35,7 @@ cat >> /opt/"$APP"/AM-updater << 'EOF'
 branch=DEVELOPMENTBRANCH
 APP=blender-rc
 url="https://builder.blender.org/download/daily/archive/"
-version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls "$url" | tr '"' '\n' | grep "^https" | grep -i "tar.xz$" | grep -w -v sha256 | grep "$branch" | head -1)
+version=$(curl -A "${USER_AGENT}" -Ls "$url" | tr '"' '\n' | grep "^https" | grep -i "tar.xz$" | grep -w -v sha256 | grep "$branch" | head -1)
 version0=$(cat /opt/$APP/version)
 if [ $version0 = $version ]; then
   echo "Update not needed, exit!"
@@ -66,7 +66,7 @@ APP=BLENDEDITION
 rm -f ./rollback-args ./AM-rollback
 url="https://builder.blender.org/download/daily/archive/"
 SITE=https://www.blender.org
-printf "%s\n" $(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls $URL | grep -Eo "$url[a-zA-Z0-9./?=_%:-]+[+a-zA-Z0-9./?=_%:-]*" | grep -i "tar.xz$" | grep -w -v sha256 | grep $branch) >> "./rollback-args" &&
+printf "%s\n" $(curl -A "${USER_AGENT}" -Ls $URL | grep -Eo "$url[a-zA-Z0-9./?=_%:-]+[+a-zA-Z0-9./?=_%:-]*" | grep -i "tar.xz$" | grep -w -v sha256 | grep $branch) >> "./rollback-args" &&
 echo -e "-----------------------------------------------------------------------\nYou have chosen to roll back $APP.\nRollback will be done from $SITE\n-----------------------------------------------------------------------"
 printf "Select a URL from this menu (read carefully) or press CTRL+C to abort:\n-----------------------------------------------------------------------\n"; sleep 1;
 select d in $(cat "./rollback-args"); do test -n "$d" && break; echo ">>> Invalid Selection"; done

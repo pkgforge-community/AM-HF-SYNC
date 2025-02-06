@@ -13,7 +13,7 @@ chmod a+x ../remove || exit 1
 
 # DOWNLOAD AND PREPARE THE APP, $version is also used for updates
 version=$(wget -q https://repology.org/project/xnconvert/versions -O - | grep -i "new.*version" | head -1 | tr '><' '\n' | grep "^[0-9]")
-wget -U "${USER_AGENT}" "https://download.xnview.com/$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://download.xnview.com/ | tr '">< ' '\n' | grep -i appimage | head -1)" || exit 1
+wget "https://download.xnview.com/$(curl -A "${USER_AGENT}" -Ls https://download.xnview.com/ | tr '">< ' '\n' | grep -i appimage | head -1)" || exit 1
 # Keep this space in sync with other installation scripts
 # Use tar fx ./*tar* here for example in this line in case a compressed file is downloaded.
 cd ..
@@ -38,7 +38,7 @@ version=$(wget -q https://repology.org/project/xnconvert/versions -O - | grep -i
 if command -v appimageupdatetool >/dev/null 2>&1; then
 	cd "/opt/$APP" || exit 1
 	appimageupdatetool -Or ./"$APP" && chmod a+x ./"$APP" && echo "$version" > ./version && exit 0
-	[ -e ../*.zsync ] && wget -U "${USER_AGENT}" "$version.zsync" 2>/dev/null || { wget -U "${USER_AGENT}" "https://download.xnview.com/$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://download.xnview.com/ | tr '">< ' '\n' | grep -i appimage | head -1)" || exit 1; }
+	[ -e ../*.zsync ] && wget "$version.zsync" 2>/dev/null || { wget "https://download.xnview.com/$(curl -A "${USER_AGENT}" -Ls https://download.xnview.com/ | tr '">< ' '\n' | grep -i appimage | head -1)" || exit 1; }
 if [ "$version" != "$version0" ]; then
 	mkdir "/opt/$APP/tmp" && cd "/opt/$APP/tmp" || exit 1
 	notify-send "A new version of $APP is available, please wait"

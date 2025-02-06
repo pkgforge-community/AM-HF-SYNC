@@ -12,7 +12,7 @@ printf '\n%s' "rm -f /usr/local/share/applications/$APP-AM.desktop" >> ../remove
 chmod a+x ../remove || exit 1
 
 # DOWNLOAD AND PREPARE THE APP, $version is also used for updates
-version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://www.artix.com/downloads/artixlauncher/ | grep -i "version" | head -1 | tr " " "\n" | grep -E -o "([0-9]{1,}\.)+[0-9]{1,}")
+version=$(curl -A "${USER_AGENT}" -Ls https://www.artix.com/downloads/artixlauncher/ | grep -i "version" | head -1 | tr " " "\n" | grep -E -o "([0-9]{1,}\.)+[0-9]{1,}")
 wget -U "${USER_AGENT}" "https://launch.artix.com/latest/Artix_Games_Launcher-x86_64.AppImage" || exit 1
 # Use tar fx ./*tar* here for example in this line in case a compressed file is downloaded.
 cd ..
@@ -32,7 +32,7 @@ set -u
 APP=artix
 SITE="https://www.artix.com"
 version0=$(cat "/opt/$APP/version")
-version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://www.artix.com/downloads/artixlauncher/ | grep -i "version" | head -1 | tr " " "\n" | grep -E -o "([0-9]{1,}\.)+[0-9]{1,}")
+version=$(curl -A "${USER_AGENT}" -Ls https://www.artix.com/downloads/artixlauncher/ | grep -i "version" | head -1 | tr " " "\n" | grep -E -o "([0-9]{1,}\.)+[0-9]{1,}")
 [ -n "$version" ] || { echo "Error getting link"; exit 1; }
 if [ "$version" != "$version0" ] || [ -e /opt/"$APP"/*.zsync ]; then
 	mkdir "/opt/$APP/tmp" && cd "/opt/$APP/tmp" || exit 1
