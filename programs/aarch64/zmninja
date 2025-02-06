@@ -3,14 +3,14 @@
 APP=zmninja
 APPNAME=zmNinja
 
-CATEGORIES=$(curl -A "${USER_AGENT}" -L -s https://raw.githubusercontent.com/AppImage/appimage.github.io/master/apps/$APPNAME.md | grep -E -i categories | cut -c 17-)
-ICONURL="https://appimage.github.io/database/$(curl -A "${USER_AGENT}" -L -s https://raw.githubusercontent.com/AppImage/appimage.github.io/master/apps/$APPNAME.md | grep -E -i icons | sed -n 2p | cut -c 5-)"
+CATEGORIES=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -L -s https://raw.githubusercontent.com/AppImage/appimage.github.io/master/apps/$APPNAME.md | grep -E -i categories | cut -c 17-)
+ICONURL="https://appimage.github.io/database/$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -L -s https://raw.githubusercontent.com/AppImage/appimage.github.io/master/apps/$APPNAME.md | grep -E -i icons | sed -n 2p | cut -c 5-)"
 REPO="ZoneMinder/zmNinja"
 USER=$(echo $REPO | sed 's:/[^/]*$::')
 REPO2=$(echo $REPO | sed 's:.*/::')
 FILENAMEEXTENTION="arm64.AppImage"
 URL=https://github.com/$REPO/releases/latest
-COMMENT=$(curl -A "${USER_AGENT}" -L -s https://raw.githubusercontent.com/AppImage/appimage.github.io/master/apps/$APPNAME.md | grep "Comment:" | cut -c 14-)
+COMMENT=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -L -s https://raw.githubusercontent.com/AppImage/appimage.github.io/master/apps/$APPNAME.md | grep "Comment:" | cut -c 14-)
 
 # CREATE THE FOLDER
 mkdir /opt/$APP
@@ -27,7 +27,7 @@ cd ./tmp
 
 wget https://github.com/$(wget https://github.com/$REPO/releases/latest | grep -E '/.*/.*'$FILENAMEEXTENTION'' -o);
 
-version=$(curl -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/$REPO/releases/latest | grep -E tag_name | awk -F '[""]' '{print $4}')
+version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/$REPO/releases/latest | grep -E tag_name | awk -F '[""]' '{print $4}')
 echo "$version" >> /opt/$APP/version
 
 cd ..
@@ -44,7 +44,7 @@ cat >> /opt/$APP/AM-updater << 'EOF'
 APP=zmninja
 version0=$(cat /opt/$APP/version)
 url=https://github.com/FUNCTION2/FUNCTION3/releases/latest
-if curl -A "${USER_AGENT}" -L -s $url | grep -ioF "$version0"; then
+if curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -L -s $url | grep -ioF "$version0"; then
   echo "Update not needed!"
 else
   notify-send "A new version of $APP is available, please wait"
@@ -52,7 +52,7 @@ else
   cd /opt/$APP/tmp
   URL=https://github.com/FUNCTION2/FUNCTION3/releases/latest
   wget https://github.com/$(wget https://github.com/FUNCTION2/FUNCTION3/releases/latest | grep -E '/.*/.*'FUNCTION4'' -o);
-  version=$(curl -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/FUNCTION2/FUNCTION3/releases/latest | grep -E tag_name | awk -F '[""]' '{print $4}')
+  version=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/FUNCTION2/FUNCTION3/releases/latest | grep -E tag_name | awk -F '[""]' '{print $4}')
   cd ..
   if test -f ./tmp/*mage; then rm ./version
   fi

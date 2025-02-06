@@ -13,12 +13,12 @@ if test -f ./pkg2appimage; then
 	echo " pkg2appimage already exists" 1> /dev/null
 else
 	echo " Downloading pkg2appimage..."
-	wget -q https://github.com/ivan-hc/AM/raw/refs/heads/main/tools/pkg2appimage -O pkg2appimage
+	wget -q https://github.com/pkgforge-community/AM-HF-SYNC/raw/refs/heads/main/tools/pkg2appimage -O pkg2appimage
 fi
 chmod a+x ./appimagetool ./pkg2appimage
 
 # CREATING THE HEAD OF THE RECIPE
-DEB=$(curl -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/felixrieseberg/windows95/releases | sed 's/[()",{} ]/\n/g' | grep -oi "https.*" | grep -vi "i386\|i686\|aarch64\|arm64\|armv7l" | grep -i "amd64.deb" | head -1)
+DEB=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/felixrieseberg/windows95/releases | sed 's/[()",{} ]/\n/g' | grep -oi "https.*" | grep -vi "i386\|i686\|aarch64\|arm64\|armv7l" | grep -i "amd64.deb" | head -1)
 echo "app: $APP
 binpatch: true
 

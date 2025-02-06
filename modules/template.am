@@ -184,15 +184,15 @@ _template_if_github() {
 	SITE="https://github.com"
 	RESPONSE=$(echo "$RESPONSE" | sed 's#https://github.com/##g' | cut -f1,2 -d'/')
 	COMMENT=$(curl $HeaderAuthWithGITPAT https://api.gh.pkgforge.dev/repos/"$RESPONSE" 2>/dev/null | grep description | sed 's/"description": "//' | sed 's/",//' | cut -c 3-)
-	CURL_COMMAND_REF="curl -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos"
-	CURL_COMMAND_REF_PREVIEW="curl -A "${USER_AGENT}" -Ls $HeaderAuthWithGITPAT https://api.gh.pkgforge.dev/repos"
+	CURL_COMMAND_REF="curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos"
+	CURL_COMMAND_REF_PREVIEW="curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls $HeaderAuthWithGITPAT https://api.gh.pkgforge.dev/repos"
 }
 
 _template_if_codeberg() {
 	SITE="https://codeberg.org"
 	RESPONSE=$(echo "$RESPONSE" | sed 's#https://codeberg.org/##g' | cut -f1,2 -d'/')
 	COMMENT=$(curl https://codeberg.org/"$RESPONSE" 2>/dev/null | grep "description.*content" | tail -1 | sed 's/content="/\n/; s/">//g' | tail -1)
-	CURL_COMMAND_REF="curl -A "${USER_AGENT}" -Ls https://codeberg.org"
+	CURL_COMMAND_REF="curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://codeberg.org"
 	CURL_COMMAND_REF_PREVIEW="$CURL_COMMAND_REF"
 }
 
@@ -328,14 +328,14 @@ _template_if_sourceforge() {
 		;;
 	esac
 	echo "$DIVIDING_LINE"
-	sourceforge_url_test=$(curl -A "${USER_AGENT}" -Ls "$SOURCEFORGE" | grep -Eo "(http|https)://[a-zA-Z0-9./?=_%:-]*" | grep -i "$filetype" | grep -v '%' | head -1)
-	if curl -A "${USER_AGENT}" --head --silent --fail "$sourceforge_url_test" 1> /dev/null; then
+	sourceforge_url_test=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls "$SOURCEFORGE" | grep -Eo "(http|https)://[a-zA-Z0-9./?=_%:-]*" | grep -i "$filetype" | grep -v '%' | head -1)
+	if curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" --head --silent --fail "$sourceforge_url_test" 1> /dev/null; then
 		_edit_script_head
-		echo "version=\$(curl -A "${USER_AGENT}" -Ls $SOURCEFORGE | grep -Eo \"(http|https)://[a-zA-Z0-9./?=_%:-]*\" | grep -i \"$filetype\" | grep -v '%' | head -1)" >> ./am-scripts/"$ARCH"/"$arg"
+		echo "version=\$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls $SOURCEFORGE | grep -Eo \"(http|https)://[a-zA-Z0-9./?=_%:-]*\" | grep -i \"$filetype\" | grep -v '%' | head -1)" >> ./am-scripts/"$ARCH"/"$arg"
 		_edit_script_middle
-		echo "version=\$(curl -A "${USER_AGENT}" -Ls $SOURCEFORGE | grep -Eo \"(http|https)://[a-zA-Z0-9./?=_%:-]*\" | grep -i \"$filetype\" | grep -v '%' | head -1)" >> ./am-scripts/"$ARCH"/"$arg"
+		echo "version=\$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls $SOURCEFORGE | grep -Eo \"(http|https)://[a-zA-Z0-9./?=_%:-]*\" | grep -i \"$filetype\" | grep -v '%' | head -1)" >> ./am-scripts/"$ARCH"/"$arg"
 		_edit_script_ending
-		curl -A "${USER_AGENT}" -Ls "$SOURCEFORGE" | grep -Eo "(http|https)://[a-zA-Z0-9./?=_%:-]*" | grep -i "$filetype" | grep -v '%' | head -1
+		curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls "$SOURCEFORGE" | grep -Eo "(http|https)://[a-zA-Z0-9./?=_%:-]*" | grep -i "$filetype" | grep -v '%' | head -1
 		echo -e "\n The URL above is an example of what both\n the install and update scripts will point to.\n"
 	else
 		_template_custom_download_url_as_version_variable

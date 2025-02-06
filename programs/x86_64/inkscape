@@ -13,7 +13,7 @@ chmod a+x ../remove || exit 1
 
 # DOWNLOAD AND PREPARE THE APP, $version is also used for updates
 version=$(wget -q https://repology.org/project/inkscape/related -O - | grep "version-newest" | head -1 | grep -Eo "([0-9]{1,}\.)+[0-9]{1,}")
-wget -U "${USER_AGENT}" "$(echo "https://inkscape.org/$(curl -A "${USER_AGENT}" -Ls $(echo "https://inkscape.org/release/inkscape-$(curl -A "${USER_AGENT}" -Ls https://inkscape.org/ | grep -Po '(?<=class="info")[^"]*' | grep -Eo "([0-9]{1,}\.)+[0-9]{1,}" | head -1)/gnulinux/appimage/dl/") | grep "click here" | grep -o -P '(?<=href=").*(?=">click)')")" || exit 1
+wget -U "${USER_AGENT}" "$(echo "https://inkscape.org/$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls $(echo "https://inkscape.org/release/inkscape-$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://inkscape.org/ | grep -Po '(?<=class="info")[^"]*' | grep -Eo "([0-9]{1,}\.)+[0-9]{1,}" | head -1)/gnulinux/appimage/dl/") | grep "click here" | grep -o -P '(?<=href=").*(?=">click)')")" || exit 1
 #wget -U "${USER_AGENT}" "$version.zsync" 2> /dev/null # Comment out this line if you want to use zsync
 # Use tar fx ./*tar* here for example in this line in case a compressed file is downloaded.
 cd ..
@@ -38,7 +38,7 @@ version=$(wget -q https://repology.org/project/inkscape/related -O - | grep "ver
 if [ "$version" != "$version0" ] || [ -e /opt/"$APP"/*.zsync ]; then
 	mkdir "/opt/$APP/tmp" && cd "/opt/$APP/tmp" || exit 1
 	[ -e ../*.zsync ] || notify-send "A new version of $APP is available, please wait"
-	[ -e ../*.zsync ] && wget -U "${USER_AGENT}" "$version.zsync" 2>/dev/null || { wget -U "${USER_AGENT}" "$(echo "https://inkscape.org/$(curl -A "${USER_AGENT}" -Ls $(echo "https://inkscape.org/release/inkscape-$(curl -A "${USER_AGENT}" -Ls https://inkscape.org/ | grep -Po '(?<=class="info")[^"]*' | grep -Eo "([0-9]{1,}\.)+[0-9]{1,}" | head -1)/gnulinux/appimage/dl/") | grep "click here" | grep -o -P '(?<=href=").*(?=">click)')")" || exit 1; }
+	[ -e ../*.zsync ] && wget -U "${USER_AGENT}" "$version.zsync" 2>/dev/null || { wget -U "${USER_AGENT}" "$(echo "https://inkscape.org/$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls $(echo "https://inkscape.org/release/inkscape-$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://inkscape.org/ | grep -Po '(?<=class="info")[^"]*' | grep -Eo "([0-9]{1,}\.)+[0-9]{1,}" | head -1)/gnulinux/appimage/dl/") | grep "click here" | grep -o -P '(?<=href=").*(?=">click)')")" || exit 1; }
 	# Use tar fx ./*tar* here for example in this line in case a compressed file is downloaded.
 	cd ..
 	mv ./tmp/*.zsync ./"$APP".zsync 2>/dev/null || mv --backup=t ./tmp/*mage ./"$APP"

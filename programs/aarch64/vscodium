@@ -15,7 +15,7 @@ chmod a+x /opt/$APP/remove
 mkdir tmp
 cd ./tmp
 
-v=$(curl -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/VSCodium/vscodium/releases/latest | grep -E tag_name | awk -F '[""]' '{print $4}')
+v=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/VSCodium/vscodium/releases/latest | grep -E tag_name | awk -F '[""]' '{print $4}')
 wget https://github.com/VSCodium/vscodium/releases/download/$v/VSCodium-linux-arm64-$v.tar.gz
 
 version=$(ls /opt/$APP/tmp)
@@ -38,7 +38,7 @@ echo 'version0=$(cat /opt/$APP/version)
 
 url=https://github.com/VSCodium/vscodium/releases/latest' >> /opt/$APP/AM-updater
 
-echo 'if curl -A "${USER_AGENT}" -L -s $url | grep -ioF "$version0"; then' >> /opt/$APP/AM-updater
+echo 'if curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -L -s $url | grep -ioF "$version0"; then' >> /opt/$APP/AM-updater
 echo '  echo "Update not needed!".'  >> /opt/$APP/AM-updater
 echo 'else' >> /opt/$APP/AM-updater
 echo "  notify-send 'A new version of $APP is available, please wait'" >> /opt/$APP/AM-updater
@@ -47,7 +47,7 @@ echo "  mkdir /opt/$APP/tmp
 
 ########################################################################################
 
-function1='$(curl -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/VSCodium/vscodium/releases/latest'
+function1='$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/VSCodium/vscodium/releases/latest'
 part0='{print $4}'
 part1='[""]'
 function2="grep -E tag_name | awk -F '$part1' '$part0')"
@@ -95,4 +95,4 @@ Exec=vscodium --new-window %F
 Icon=/opt/$APP/$APP.svg" >> /usr/local/share/applications/$APP-AM.desktop
 
 # ICON
-wget https://raw.githubusercontent.com/ivan-hc/AM-application-manager/main/programs/.icons/$APP/$APP.svg
+wget https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC-application-manager/main/programs/.icons/$APP/$APP.svg

@@ -35,7 +35,7 @@ echo 'version0=$(cat /opt/$APP/version)
 
 url=https://github.com/Fabio286/antares/releases/latest' >> /opt/$APP/AM-updater
 
-echo 'if curl -A "${USER_AGENT}" -L -s $url | grep -ioF "$version0"; then' >> /opt/$APP/AM-updater
+echo 'if curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -L -s $url | grep -ioF "$version0"; then' >> /opt/$APP/AM-updater
 echo '  echo "Update not needed!".'  >> /opt/$APP/AM-updater
 echo 'else' >> /opt/$APP/AM-updater
 echo "  notify-send 'A new version of $APP is available, please wait'" >> /opt/$APP/AM-updater
@@ -76,4 +76,4 @@ Comment=A cross-platform easy to use SQL client.
 Categories=Development;" >> /usr/local/share/applications/$APP-AM.desktop
 
 # ICON
-wget https://raw.githubusercontent.com/ivan-hc/AM-application-manager/main/programs/.icons/$APP/$APP.svg
+wget https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC-application-manager/main/programs/.icons/$APP/$APP.svg

@@ -16,7 +16,7 @@ chmod a+x /opt/$APP/remove
 mkdir tmp
 cd ./tmp
 
-v=$(curl -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/srevinsaju/zap/releases/latest | grep -E tag_name | awk -F '[""]' '{print $4}')
+v=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/srevinsaju/zap/releases/latest | grep -E tag_name | awk -F '[""]' '{print $4}')
 wget https://github.com/srevinsaju/zap/releases/download/$v/$BINARY
 echo $v >> /opt/$APP/version
 
@@ -34,7 +34,7 @@ cat >> /opt/$APP/AM-updater << 'EOF'
 APP=zap
 BINARY=zap-arm64
 version0=$(cat /opt/$APP/version)
-v=$(curl -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/srevinsaju/zap/releases/latest | grep -E tag_name | awk -F '[""]' '{print $4}')
+v=$(curl -A "${USER_AGENT}" -A "${USER_AGENT}" -A "${USER_AGENT}" -Ls https://api.gh.pkgforge.dev/repos/srevinsaju/zap/releases/latest | grep -E tag_name | awk -F '[""]' '{print $4}')
 if [ "$version0" == "$v" ]; then
   echo "Update not needed, exit!"
 else
