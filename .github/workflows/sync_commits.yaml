@@ -1,0 +1,86 @@
+name: ♻️ Sync Upstream ♻️
+#MAX_RUNTIME: 02 Minutes */10 * * * * 
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */1 * * *" #@every 1hrs
+#------------------------------------------------------------------------------------#
+jobs:
+    sync-upstream:
+      name: Sync Upstream
+      runs-on: ubuntu-latest
+      permissions: 
+        contents: write
+
+      steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: main
+          fetch-depth: 1
+          filter: "blob:none"
+
+      - name: Setup Env
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          ##Install coreutils
+          sudo apt-get update -y -qq && sudo apt-get install curl coreutils dos2unix file findutils gawk git jq moreutils rsync tar xz-utils util-linux wget zip -y -qq
+          ##Install Addons
+          #https://github.com/pkgforge/devscripts/blob/main/Linux/install_bins_curl.sh
+          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/devscripts/refs/heads/main/Linux/install_bins_curl.sh")
+          ##Create Output Dir
+          mkdir -p "${GITHUB_WORKSPACE}/main"
+        continue-on-error: true
+
+      - name: Sync "${GITHUB_WORKSPACE}/main" <-- "(https://github.com/ivan-hc/AM)"
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          ##Main
+          pushd "$(mktemp -d)" >/dev/null 2>&1 && git clone --filter="blob:none" --quiet "https://github.com/ivan-hc/AM" && cd "./AM"
+          LATEST_COMMIT="$(git rev-parse HEAD | tr -d "[:space:]")" && export LATEST_COMMIT="${LATEST_COMMIT}"
+          LATEST_COMMI_M="$(git log -1 --pretty="%B" | head -n 1)" && export LATEST_COMMIT="${LATEST_COMMIT}"
+          echo "LATEST_COMMI_M=${LATEST_COMMI_M}" >> "${GITHUB_ENV}"
+          PREV_COMMIT="$(cat "${GITHUB_WORKSPACE}/main/.github/LATEST.txt" 2>/dev/null)" && export PREV_COMMIT="${PREV_COMMIT}"
+          if [ "${LATEST_COMMIT}" != "${PREV_COMMIT}" ]; then
+            #Sync Repo
+             echo "${LATEST_COMMIT}" > "${GITHUB_WORKSPACE}/main/.github/LATEST.txt"
+             sed '/^$/d' -i "${GITHUB_WORKSPACE}/main/.github/LATEST.txt"
+             rm -rfv "./.git/" "./.githooks/" "./.github/" 2>/dev/null
+             rsync -achLv --remove-source-files --exclude="./.git/**" --exclude="./.github/**" "./" "${GITHUB_WORKSPACE}/main/"
+          fi
+          popd >/dev/null 2>&1
+        continue-on-error: true
+
+      - name: Remove Reference
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          ##api.github.com --> api.gh.pkgforge.dev
+          find "${GITHUB_WORKSPACE}/main" -name ".git*" -prune -o -type f -exec sed 's#api.github.com#api.gh.pkgforge.dev#g' -i "{}" + 2>/dev/null
+          ##curl -$ARGS --> curl -A "${USER_AGENT}" -$ARGS
+          find "${GITHUB_WORKSPACE}/main" -name ".git*" -prune -o -type f -exec sed 's#curl -#curl -A "${USER_AGENT}" -#g' -i "{}" + 2>/dev/null
+          ##wget $ARGS --> wget -U "${USER_AGENT}" $ARGS
+          find "${GITHUB_WORKSPACE}/main" -name ".git*" -prune -o -type f -exec sed 's#wget "#wget -U "${USER_AGENT}" "#g' -i "{}" + 2>/dev/null
+        continue-on-error: true
+          
+      - name: Get DateTime
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          NEPALI_TIME="$(TZ='Asia/Kathmandu' date +'%Y-%m-%d (%I:%M:%S %p)')"
+          echo "NEPALI_TIME=${NEPALI_TIME}" >> "${GITHUB_ENV}"
+        continue-on-error: true
+        
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          repository: ./main
+          commit_user_name: Azathothas
+          commit_user_email: AjamX101@gmail.com
+          commit_message: "♻️ Synced AM 📦 <-- ${{ env.LATEST_COMMI_M }} ⌚"

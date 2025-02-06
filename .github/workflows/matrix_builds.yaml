@@ -1,0 +1,301 @@
+name: 🧰🛠️ Build Package 📦📀
+
+permissions:
+  contents: write
+
+on:
+  workflow_dispatch:
+    inputs:
+
+      host:
+        description: Host (Arch+OS) [ALL ==> Run on All Hosts]
+        type: choice
+        options:
+          - "ALL"
+          - "aarch64-Linux"
+          - "x86_64-Linux"
+
+      pkg-name:
+        description: Name of the Package
+        required: true
+
+      debug:
+        description: Debug Mode (Verbose with set -x) [Default ==> False]
+        type: choice
+        options:
+          - "false"
+          - "true"
+
+      logs:
+        description: Keep Logs? (Preserves Working Dir) [Default ==> True]
+        type: choice
+        options:
+          - "true"
+          - "false"
+
+jobs:
+  preprocess:
+    runs-on: ubuntu-latest
+    outputs:
+      runner_matrix: ${{ steps.generate-matrix.outputs.runner_matrix }}
+    steps:
+      - name: Presetup
+        id: generate-matrix
+        run: |
+          ##presets
+          set +x ; set +e
+          #-------------#
+          echo '[' > "./MATRIX.json.tmp"
+           if [[ "${{ github.event.inputs.host }}" == "ALL" ]]; then
+             echo '{"host": "aarch64-Linux", "runner": "ubuntu-24.04-arm", "pkg-name": "${{ inputs.ghcr-url }}"},' >> "./MATRIX.json.tmp"
+             echo '{"host": "x86_64-Linux", "runner": "ubuntu-latest", "pkg-name": "${{ inputs.ghcr-url }}"}' >> "./MATRIX.json.tmp"
+           elif [[ "${{ github.event.inputs.host }}" == "aarch64-Linux" ]]; then
+             echo '{"host": "aarch64-Linux", "runner": "ubuntu-24.04-arm", "pkg-name": "${{ inputs.ghcr-url }}"}' >> "./MATRIX.json.tmp"
+           elif [[ "${{ github.event.inputs.host }}" == "x86_64-Linux" ]]; then
+             echo '{"host": "x86_64-Linux", "runner": "ubuntu-latest", "pkg-name": "${{ inputs.ghcr-url }}"}' >> "./MATRIX.json.tmp"
+           fi
+          echo ']' >> "./MATRIX.json.tmp"
+          jq 'unique_by(.runner)' "./MATRIX.json.tmp" | jq . > "./MATRIX.json"
+          ESCAPED_MATRIX="$(cat "./MATRIX.json" | jq -c .)"
+          echo "runner_matrix=${ESCAPED_MATRIX}" >> "${GITHUB_OUTPUT}"
+        continue-on-error: false
+
+      - name: Sanity Check Input JSON
+        run: |
+          echo '${{ steps.generate-matrix.outputs.runner_matrix }}' | jq .
+        continue-on-error: true
+
+  build:
+    needs: [preprocess]
+    strategy:
+      fail-fast: false
+      matrix:
+        package: ${{ fromJson(needs.preprocess.outputs.runner_matrix) }}
+    name: "${{ matrix.package.host }} ==> (${{ matrix.package.pkg-name }})"
+    runs-on: "${{ matrix.package.runner }}"
+    timeout-minutes: 200
+    permissions:
+      attestations: write
+      contents: write
+      id-token: write
+      packages: write
+    steps:
+      - name: Exit if not called
+        env:
+          GH_TOKEN: "${{ github.token }}"
+        run: |
+          ##presets
+          set +x ; set +e
+          #-------------#
+          if [[ "$(uname -m | tr -d '[:space:]')" == "aarch64" ]]; then
+            if [[ "${{ github.event.inputs.host }}" != "ALL" ]] && [[ "${{ github.event.inputs.host }}" != "aarch64-Linux" ]]; then
+              echo "CONTINUE_GHRUN=FALSE" >> "${GITHUB_ENV}"
+            fi
+          elif [[ "$(uname -m | tr -d '[:space:]')" == "x86_64" ]]; then
+            if [[ "${{ github.event.inputs.host }}" != "ALL" ]] && [[ "${{ github.event.inputs.host }}" != "x86_64-Linux" ]]; then
+              echo "CONTINUE_GHRUN=FALSE" >> "${GITHUB_ENV}"
+            fi
+          fi
+        continue-on-error: false
+
+      - name: Validate Required Secrets [${{ matrix.package.host }}<==>${{ matrix.package.runner }}]
+        if: env.CONTINUE_GHRUN != 'FALSE'
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          #RO_GHTOKEN: ${{ secrets.RO_GHTOKEN }}
+          RO_GHTOKEN: ${{ github.token }}
+          #RO_GLTOKEN: ${{ secrets.RO_GLTOKEN }}
+        run: |
+          ##presets
+          set +x ; set +e
+          #-------------#
+          # Check if any of the required secrets are missing
+          if [ -z "${RO_GHTOKEN##*[[:space:]]}" ] || [ -z "${HF_TOKEN##*[[:space:]]}" ]; then
+            echo "::error::One or more required secrets are missing:"
+            [ -z "${RO_GHTOKEN##*[[:space:]]}" ] && echo "- RO_GHTOKEN is missing"
+            [ -z "${HF_TOKEN##*[[:space:]]}" ] && echo "- HF_TOKEN is missing"
+            exit 1
+          fi
+        continue-on-error: false
+
+      - name: Parse Input [${{ matrix.package.host }}<==>${{ matrix.package.runner }}]
+        if: env.CONTINUE_GHRUN != 'FALSE'
+        run: |
+          ##presets
+          set +x ; set +e
+          #-------------#
+          export HOST_TRIPLET="$(uname -m)-$(uname -s)"
+          ##Debug   
+           if [ "${{ github.event.inputs.debug }}" == "true" ] ; then
+             export DEBUG="1"
+           else
+             export DEBUG="0"
+           fi
+           echo "DEBUG=${DEBUG}" >> "${GITHUB_ENV}"
+          ##Logs
+           if [ "${{ github.event.inputs.logs }}" == "false" ] ; then
+             export KEEP_LOGS="NO"
+           else
+             export KEEP_LOGS="YES"
+             export GITHUB_TEST_BUILD="YES"
+           fi
+           echo "KEEP_LOGS=${KEEP_LOGS}" >> "${GITHUB_ENV}"
+           echo "GITHUB_TEST_BUILD=${GITHUB_TEST_BUILD}" >> "${GITHUB_ENV}"
+           ##Package
+           sudo curl -qfsSL "https://bin.pkgforge.dev/${HOST_TRIPLET}/yq" -o "/usr/local/bin/yq" && \
+             sudo chmod 'a+x' "/usr/local/bin/yq" && command -v yq >/dev/null || exit 1
+           PKG_NAME="$(echo "${{ github.event.inputs.pkg-name }}" | tr -d '[:space:]')"
+           pushd "$(mktemp -d)" >/dev/null 2>&1
+             echo "${PKG_NAME}" > "./PKG_NAME"
+             if [[ ! -s "./PKG_NAME" || $(stat -c%s "./PKG_NAME") -le 3 ]]; then
+               echo -e "\n[✗] FATAL: Failed to Fetch ${PKG_NAME}\n"
+               echo "CONTINUE_GHRUN=FALSE" >> "${GITHUB_ENV}"
+              exit 1
+             else
+               export PKG_NAME
+               echo "PKG_NAME=${PKG_NAME}" >> "${GITHUB_ENV}"
+             fi
+           popd >/dev/null 2>&1
+        continue-on-error: false
+
+      - name: Setup Env [${{ matrix.package.host }}<==>${{ matrix.package.runner }}]
+        if: env.CONTINUE_GHRUN != 'FALSE'
+        run: |
+          ##presets
+          set +x ; set +e
+          #-------------#
+          ##CoreUtils
+          sudo apt update -y
+          sudo apt install bc coreutils curl dos2unix fdupes jq moreutils wget -y
+          sudo apt-get install apt-transport-https apt-utils ca-certificates coreutils dos2unix gnupg2 jq moreutils p7zip-full rename rsync software-properties-common texinfo tmux torsocks util-linux wget zsync -y 2>/dev/null ; sudo apt-get update -y 2>/dev/null
+          ##tmp
+          SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="${SYSTMP}"
+          #GH ENV
+          echo "SYSTMP=${SYSTMP}" >> "${GITHUB_ENV}"
+          echo "GHA_MODE=MATRIX" >> "${GITHUB_ENV}"
+          #-------------#
+          mkdir -p "${HOME}/bin"
+          sudo apt update -y
+          sudo apt install dos2unix -y
+          #HF
+          ##User-Agent
+          USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="${USER_AGENT}"
+          echo "USER_AGENT=${USER_AGENT}" >> "${GITHUB_ENV}"
+        continue-on-error: true
+
+      - name: Disable apparmor_restrict_unprivileged_userns #Required for runimage etc
+        if: env.CONTINUE_GHRUN != 'FALSE'
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          echo "kernel.apparmor_restrict_unprivileged_userns=0" | sudo tee "/etc/sysctl.d/98-apparmor-unuserns.conf"
+          echo "0" | sudo tee "/proc/sys/kernel/apparmor_restrict_unprivileged_userns"
+          sudo service procps restart
+          sudo sysctl -p "/etc/sysctl.conf"
+        continue-on-error: true
+
+      - name: Install AM
+        if: env.CONTINUE_GHRUN != 'FALSE'
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#        
+          yes '1' | bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/AM-INSTALLER")
+          if ! command -v am &>/dev/null; then
+            echo -e "[-] Failed to find am\n"
+            echo "CONTINUE_GHRUN=FALSE" >> "${GITHUB_ENV}"
+           exit 1
+          else
+            am -l --appimages
+          fi
+        continue-on-error: false
+
+      - name: BUILD (${{ github.event.inputs.ghcr-url }}) [${{ matrix.package.host }}<==>${{ matrix.package.runner }}]
+        if: env.CONTINUE_GHRUN != 'FALSE'
+        env:
+          GITHUB_TOKEN: "${{ github.token }}"
+          HF_TOKEN: "${{ secrets.HF_TOKEN }}"
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          ##Main
+          pushd "$(mktemp -d)" >/dev/null 2>&1
+           curl -qfsSL "https://raw.githubusercontent.com/pkgforge-community/AM/refs/heads/main/.github/scripts/builder.sh" -o "${SYSTMP}/BUILDER.sh"
+           dos2unix --quiet "${SYSTMP}/BUILDER.sh" ; chmod +xwr "${SYSTMP}/BUILDER.sh"
+           ##Run with STDOUT + LOGS
+            export DEBUG="${DEBUG}"
+            export KEEP_LOGS="${KEEP_LOGS}"
+            export PKG_NAME="${PKG_NAME}"
+            export GITHUB_TEST_BUILD="${GITHUB_TEST_BUILD}"
+            bash "${SYSTMP}/BUILDER.sh" "${PKG_NAME}" | tee "${SYSTMP}/BUILD.log" 2>&1
+           ##Purge Tokens (in case set -x & gh didn't redact)
+           cat "${SYSTMP}/BUILD.log" | ansi2txt > "${SYSTMP}/BUILD.gh.log.txt"
+           sed -i '/.*github_pat.*/Id' "${SYSTMP}/BUILD.gh.log.txt" 2>/dev/null
+           sed -i '/.*ghp_.*/Id' "${SYSTMP}/BUILD.gh.log.txt" 2>/dev/null
+           sed -i '/.*access_key_id.*/Id' "${SYSTMP}/BUILD.gh.log.txt" 2>/dev/null
+           sed -i '/.*token.*/Id' "${SYSTMP}/BUILD.gh.log.txt" 2>/dev/null
+           sed -i '/.*secret_access_key.*/Id' "${SYSTMP}/BUILD.gh.log.txt" 2>/dev/null
+           sed -i '/.*token.*/Id' "${SYSTMP}/BUILD.gh.log.txt" 2>/dev/null
+           sed -i '/.*cloudflarestorage.*/Id' "${SYSTMP}/BUILD.gh.log.txt" 2>/dev/null
+           mv -fv "${SYSTMP}/BUILD.gh.log.txt" "${SYSTMP}/BUILD.log"
+          popd >/dev/null 2>&1
+        continue-on-error: true
+
+    ##Logs & Artifacts
+      - name: Get DateTime [${{ matrix.package.host }}<==>${{ matrix.package.runner }}]
+        if: env.CONTINUE_GHRUN != 'FALSE'
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          UTC_TIME="$(TZ='UTC' date +'%Y_%m_%dT%I_%M_%S_%p')"
+          echo "UTC_TIME=${UTC_TIME}" >> "${GITHUB_ENV}"
+        continue-on-error: true
+
+      - name: Upload (LOG) Artifacts [${{ matrix.package.host }}<==>${{ matrix.package.runner }}]
+        if: env.CONTINUE_GHRUN != 'FALSE'
+        uses: actions/upload-artifact@v4
+        with:
+            name: Bincache_${{ env.PKG_FAMILY_LOCAL }}_${{ matrix.package.host }}
+            path: |
+              /tmp/BUILD.log
+              /tmp/BUILD_ARTIFACTS.7z
+            compression-level: 0 # no compression, [Default: 6 (GNU Gzip)]
+            retention-days: 30
+            overwrite: true
+        continue-on-error: true     
+
+      - name: Attest Build Provenance [${{ matrix.package.host }}<==>${{ matrix.package.runner }}]
+        if: env.CONTINUE_GHRUN != 'FALSE'
+        uses: actions/attest-build-provenance@v2.2.0
+        with:
+          subject-name: "build-logs-${{ env.PKG_FAMILY_LOCAL }}-${{ env.UTC_TIME }}"
+          subject-path: "/tmp/BUILD.log"
+          show-summary: true
+        continue-on-error: true
+
+      - name: Check Build [${{ matrix.package.pkg-name }}]
+        if: env.CONTINUE_GHRUN != 'FALSE'
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          if [[ "${GHA_BUILD_FAILED}" == "YES" || "${SBUILD_SUCCESSFUL}" == "NO" ]]; then
+            echo -e "\n[-] FATAL: Failed to Successfully Build ${{ matrix.package.pkg-name }}"
+           exit 1
+          fi
+        continue-on-error: false
+
+      - name: Check Push [${{ matrix.package.pkg-name }}]
+        if: env.CONTINUE_GHRUN != 'FALSE'
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          if [[ "${PUSH_SUCCESSFUL}" == "NO" ]]; then
+            echo -e "\n[-] FATAL: Failed to Successfully Push ==> ${{ matrix.package.pkg-name }}"
+           exit 1
+          fi
+        continue-on-error: false
