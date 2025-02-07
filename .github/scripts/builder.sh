@@ -57,13 +57,12 @@ pushd "$(mktemp -d)" &>/dev/null && \
   setup_hf_pkgpath()
   {
    HF_PKGPATH="${HF_REPO_DIR}/${AM_PKG_NAME}/${HOST_TRIPLET}"
-   mkdir -pv "${HF_PKGPATH}" ; git fetch origin main ; git lfs track "./${AM_PKG_NAME}/${HOST_TRIPLET}/**"
+   mkdir -pv "${HF_PKGPATH}" ; git fetch origin main #; git lfs track "./${AM_PKG_NAME}/${HOST_TRIPLET}/**"
   }
   export -f setup_hf_pkgpath
   setup_hf_pkgpath
   git sparse-checkout set "" ; git sparse-checkout set --no-cone --sparse-index ".gitattributes"
   git checkout ; ls -lah "." "./${AM_PKG_NAME}/${HOST_TRIPLET}" ; git sparse-checkout list
-  sed '/refs\/remotes\/origin\/main/d' -i "${HF_REPO_DIR}/.gitattributes"
   #Install
    readarray -d '' -t "AM_DIRS_PRE" < <(find "/opt" -maxdepth 1 -type d -print0 2>/dev/null)
    TEMP_LOG="${BUILD_DIR}/${AM_PKG_NAME}.log.tmp" && touch "${TEMP_LOG}"
@@ -343,6 +342,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
        pushd "${HF_REPO_DIR}" &>/dev/null && \
          git pull origin main --ff-only ; git merge --no-ff -m "Merge & Sync"
          git lfs track "./${HF_PKGNAME}/**"
+         sed '/refs\/remotes\/origin\/main/d' -i "${HF_REPO_DIR}/.gitattributes"
          if [ -d "${HF_PKGPATH}" ] && [ "$(du -s "${HF_PKGPATH}" | cut -f1)" -gt 100 ]; then
            find "${HF_PKGPATH}" -type f -size -3c -delete
            git sparse-checkout add "${HF_PKGNAME}"
@@ -355,6 +355,11 @@ pushd "$(mktemp -d)" &>/dev/null && \
                 git merge --no-ff -m "Merge & Sync"
                 git fetch origin main
                 git merge "origin/main" -X ours -m "Merge & Sync"
+                if git diff --name-only --diff-filter="U" | grep -q ".gitattributes"; then
+                 git checkout --ours '.gitattributes'
+                 git add '.gitattributes'
+                 git commit -m "Merge & Sync"
+                fi
                 git pull origin main
               if git push origin main; then
                  echo "PUSH_SUCCESSFUL=YES" >> "${GITHUB_ENV}"
