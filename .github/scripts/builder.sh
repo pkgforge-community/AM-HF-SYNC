@@ -353,6 +353,8 @@ pushd "$(mktemp -d)" &>/dev/null && \
             for i in {1..10}; do
                 git pull origin main --ff-only
                 git merge --no-ff -m "Merge & Sync"
+                git fetch origin main
+                git merge "origin/main" -X ours -m "Merge & Sync"
                 git pull origin main
               if git push origin main; then
                  echo "PUSH_SUCCESSFUL=YES" >> "${GITHUB_ENV}"
