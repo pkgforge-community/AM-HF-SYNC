@@ -346,7 +346,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
             "This package was auto-built, cached & uploaded using AM",
             "Provided by: https://github.com/ivan-hc/AM",
             "Please create an Issue or send a PR for an official Package",
-            "Repo: https://github.com/pkgforge/soarpkgs"
+            "Learn More: https://docs.pkgforge.dev/repositories/external/am"
             ],
             provides: ($PROVIDES | split(",")),
             shasum: $SHASUM,
