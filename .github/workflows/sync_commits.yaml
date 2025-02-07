@@ -41,7 +41,7 @@ jobs:
           set +x ; set +e
           #--------------#
           ##Main
-          pushd "$(mktemp -d)" >/dev/null 2>&1 && git clone --filter="blob:none" --quiet "https://github.com/ivan-hc/AM" && cd "./AM"
+          pushd "$(mktemp -d)" &>/dev/null && git clone --filter="blob:none" --quiet "https://github.com/ivan-hc/AM" && cd "./AM"
           LATEST_COMMIT="$(git rev-parse HEAD | tr -d "[:space:]")" && export LATEST_COMMIT="${LATEST_COMMIT}"
           LATEST_COMMI_M="$(git log -1 --pretty="%B" | head -n 1)" && export LATEST_COMMIT="${LATEST_COMMIT}"
           echo "LATEST_COMMI_M=${LATEST_COMMI_M}" >> "${GITHUB_ENV}"
@@ -53,7 +53,7 @@ jobs:
              rm -rfv "./.git/" "./.githooks/" "./.github/" 2>/dev/null
              rsync -achLv --remove-source-files --exclude="./.git/**" --exclude="./.github/**" "./" "${GITHUB_WORKSPACE}/main/"
           fi
-          popd >/dev/null 2>&1
+          popd &>/dev/null
         continue-on-error: true
 
       - name: Remove Reference
@@ -81,6 +81,54 @@ jobs:
           find "${GITHUB_WORKSPACE}/main/programs" -name ".git*" -prune -o -type f -exec sed '/set -ux/!s#set -u#set -ux#g' -i "{}" + 2>/dev/null
         continue-on-error: true
           
+      - name: Update/Generate BUILD_LIST
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          ##AM
+          pushd "$(mktemp -d)" &>/dev/null && git clone --filter="blob:none" --depth="1" --no-checkout "https://github.com/ivan-hc/AM" && cd "./AM"
+          git sparse-checkout set "" && git checkout
+          unset AM_REPO_LOCAL ; AM_REPO_LOCAL="$(realpath .)" && export AM_REPO_LOCAL="${AM_REPO_LOCAL}"
+          if [ ! -d "${AM_REPO_LOCAL}" ] || [ $(du -s "${AM_REPO_LOCAL}" | cut -f1) -le 100 ]; then
+            echo -e "\n[X] FATAL: Failed to clone AM Repo\n"
+           exit 1
+          fi
+          popd &>/dev/null
+          ##HF
+          pushd "$(mktemp -d)" &>/dev/null && git clone --filter="blob:none" --depth="1" --no-checkout "https://huggingface.co/datasets/pkgforge/AMcache" && cd "./AMcache"
+          git sparse-checkout set "" && git checkout
+          unset HF_REPO_LOCAL ; HF_REPO_LOCAL="$(realpath .)" && export HF_REPO_LOCAL="${HF_REPO_LOCAL}"
+          if [ ! -d "${HF_REPO_LOCAL}" ] || [ $(du -s "${HF_REPO_LOCAL}" | cut -f1) -le 100 ]; then
+            echo -e "\n[X] FATAL: Failed to clone HF Repo\n"
+           exit 1
+          fi
+          popd &>/dev/null
+          ##Generate
+          pushd "$(mktemp -d)" &>/dev/null
+           readarray -t "AM_PKGS_X86" < <(git -C "${AM_REPO_LOCAL}" ls-tree --name-only 'HEAD' -- "programs/x86_64/" | xargs -I "{}" basename "{}" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | grep -Eiv '\.(git|md|txt)')
+           if [[ -n "${AM_PKGS_X86[*]}" && "${#AM_PKGS_X86[@]}" -gt 2000 ]]; then
+             printf "%s\n" "${AM_PKGS_X86[@]}" | sort -u -o "${GITHUB_WORKSPACE}/main/.github/PKG_LIST_x86_64-Linux.txt"
+           fi
+           readarray -t "AM_PREBUILTS" < <(git -C "${HF_REPO_LOCAL}" ls-tree --name-only 'HEAD' | xargs -I "{}" basename "{}" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | grep -Eiv '\.(git|md|txt)')
+           if [[ -n "${AM_PREBUILTS[*]}" && "${#AM_PREBUILTS[@]}" -gt 100 ]]; then
+             printf "%s\n" "${AM_PREBUILTS[@]}" | sort -u -o "${GITHUB_WORKSPACE}/main/.github/CACHE_LIST.txt"
+           fi
+           if [[ "${#AM_PKGS_X86[@]}" -gt 2000 && "${#AM_PREBUILTS[@]}" -gt 100 ]]; then
+             comm -23 <(printf "%s\n" "${AM_PKGS_X86[@]}" | sort) <(printf "%s\n" "${AM_PREBUILTS[@]}" | sort) | sort -u -o "./BUILD_LIST.tmp"
+             if [[ "$(wc -l < "./BUILD_LIST.tmp" | tr -cd '[:digit:]')" -gt 255 ]]; then
+               shuf -n 256 "./BUILD_LIST.tmp" | sort -u -o "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt"
+             elif [[ "$(wc -l < "./BUILD_LIST.tmp" | tr -cd '[:digit:]')" -lt 10 ]]; then
+               shuf -n 240 "${GITHUB_WORKSPACE}/main/.github/PKG_LIST_x86_64-Linux.txt" | sort -u >> "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt"
+               sort -u "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt" -o "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt"
+             fi
+           fi
+           sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${GITHUB_WORKSPACE}/main/.github/CACHE_LIST.txt"
+           sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${GITHUB_WORKSPACE}/main/.github/PKG_LIST_x86_64-Linux.txt"
+           sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt"
+          popd &>/dev/null
+        continue-on-error: true
+
       - name: Get DateTime
         run: |
           #Presets
