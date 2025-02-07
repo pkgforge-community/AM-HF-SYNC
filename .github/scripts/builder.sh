@@ -125,10 +125,14 @@ pushd "$(mktemp -d)" &>/dev/null && \
            echo -e "[+] Name: ${PKG_NAME} ('.pkg_name')"
            PKG_DOWNLOAD_URL="https://huggingface.co/datasets/pkgforge/AMcache/resolve/main/${HF_PKGNAME}/${PKG_NAME}"
            echo -e "[+] Download URL: ${PKG_DOWNLOAD_URL} ('.download_url')"
-           if grep -m1 -qi "appimage" "${BUILD_DIR}/${PKG_NAME}.log"; then
+           if grep -m1 -qi "appimage" "${BUILD_DIR}/${AM_PKG_NAME}.log"; then
              PKG_TYPE="appimage"
-             echo -e "[+] Type: ${PKG_TYPE} ('.pkg_type')"
+           elif grep -m1 -qi "dynamic-binary" "${BUILD_DIR}/${AM_PKG_NAME}.log"; then
+             PKG_TYPE="dynamic"
+           elif grep -m1 -qi "static-binary" "${BUILD_DIR}/${AM_PKG_NAME}.log"; then
+             PKG_TYPE="static"
            fi
+           echo -e "[+] Type: ${PKG_TYPE} ('.pkg_type')"
           fi
          #Info
           timeout -k 10s 300s am about "${AM_PKG_NAME}" 2>/dev/null | cat -> "${HF_PKGPATH}/${PKG_NAME}.txt"
@@ -327,7 +331,7 @@ popd &>/dev/null
 #-------------------------------------------------------#
 #Cleanup Dir  
  if [ -n "${GITHUB_TEST_BUILD+x}" ]; then
-  7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bsp1 -bt "/tmp/BUILD_ARTIFACTS.7z" "${BUILD_DIR}" 2>/dev/null
+  7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bsp1 -bt "/tmp/BUILD_ARTIFACTS.7z" "${HF_REPO_DIR}/${AM_PKG_NAME}" 2>/dev/null
  elif [[ "${KEEP_LOGS}" != "YES" ]]; then
   echo -e "\n[-] Removing ALL Logs & Files\n"
   rm -rvf "${BUILD_DIR}" 2>/dev/null
