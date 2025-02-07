@@ -329,9 +329,9 @@ pushd "$(mktemp -d)" &>/dev/null && \
             build_log: $BUILD_LOG,
             build_script: $BUILD_SCRIPT,
             description: (
-             if (.description // "") == "" 
+             if ($DESCRIPTION != "") 
              then $DESCRIPTION | gsub("<[^>]*>"; "") | gsub("\\s+"; " ") | gsub("^\\s+|\\s+$"; "") | gsub("^\\.+|\\.+$"; "") 
-             else .description | gsub("<[^>]*>"; "") | gsub("\\s+"; " ") | gsub("^\\s+|\\s+$"; "") | gsub("^\\.+|\\.+$"; "") 
+             else "No description available"
              end
             ),
             desktop: $DESKTOP,
@@ -353,7 +353,12 @@ pushd "$(mktemp -d)" &>/dev/null && \
             size: $SIZE,
             size_raw: $SIZE_RAW,
             src_url: [$SRC_URL],
-            version: $VERSION
+            version: (
+             if ($VERSION != "")
+             then $VERSION 
+             else "latest"
+             end
+             )
           }
          ' | jq 'walk(if type == "object" then with_entries(select(.value != null and .value != "")) | select(length > 0) elif type == "array" then map(select(. != null and . != "")) | select(length > 0) else . end)' > "${BUILD_DIR}/${PKG_NAME}.json"
       #Copy Json

@@ -110,7 +110,8 @@ jobs:
            if [[ -n "${AM_PKGS_X86[*]}" && "${#AM_PKGS_X86[@]}" -gt 2000 ]]; then
              printf "%s\n" "${AM_PKGS_X86[@]}" | sort -u -o "${GITHUB_WORKSPACE}/main/.github/PKG_LIST_x86_64-Linux.txt"
            fi
-           readarray -t "AM_PREBUILTS" < <(git -C "${HF_REPO_LOCAL}" ls-tree --name-only 'HEAD' | xargs -I "{}" basename "{}" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | grep -Eiv '\.(git|md|txt)')
+           #readarray -t "AM_PREBUILTS" < <(git -C "${HF_REPO_LOCAL}" ls-tree --name-only 'HEAD' | xargs -I "{}" basename "{}" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | grep -Eiv '\.(git|md|txt)')
+           readarray -t "AM_PREBUILTS" < <(curl -qfsSL "https://meta.pkgforge.dev/external/am/x86_64-Linux.json" | jq -r '.[] | .pkg' | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g')
            if [[ -n "${AM_PREBUILTS[*]}" && "${#AM_PREBUILTS[@]}" -gt 100 ]]; then
              printf "%s\n" "${AM_PREBUILTS[@]}" | sort -u -o "${GITHUB_WORKSPACE}/main/.github/CACHE_LIST.txt"
            fi
