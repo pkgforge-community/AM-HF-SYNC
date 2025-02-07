@@ -63,6 +63,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
   setup_hf_pkgpath
   git sparse-checkout set "" ; git sparse-checkout set --no-cone --sparse-index ".gitattributes"
   git checkout ; ls -lah "." "./${AM_PKG_NAME}/${HOST_TRIPLET}" ; git sparse-checkout list
+  sed '/refs\/remotes\/origin\/main/d' -i "${HF_REPO_DIR}/.gitattributes"
   #Install
    readarray -d '' -t "AM_DIRS_PRE" < <(find "/opt" -maxdepth 1 -type d -print0 2>/dev/null)
    TEMP_LOG="${BUILD_DIR}/${AM_PKG_NAME}.log.tmp" && touch "${TEMP_LOG}"
