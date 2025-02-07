@@ -377,7 +377,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
            git add --all --verbose && git commit -m "${COMMIT_MSG}"
            retry_git_push()
            {
-            for i in {1..10}; do
+            for i in {1..20}; do
              #Generic Merge
               git pull origin main --ff-only
               git merge --no-ff -m "${COMMIT_MSG}"
