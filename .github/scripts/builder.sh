@@ -125,7 +125,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
   #Type
    get_pkg_type()
    {
-     if [[ -s "${LOGPATH}" && $(stat -c%s "${TEMP_LOG}") -gt 10 ]]; then
+     if [[ -s "${LOGPATH}" && $(stat -c%s "${LOGPATH}") -gt 10 ]]; then
        if grep -m1 -qi "appimage" "${LOGPATH}"; then
          PKG_TYPE="appimage"
        elif grep -m1 -qi "dynamic-binary" "${LOGPATH}"; then
