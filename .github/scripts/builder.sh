@@ -6,6 +6,15 @@
 #-------------------------------------------------------#
 
 #-------------------------------------------------------#
+##Version
+AMB_VERSION="0.1.0" && echo -e "[+] AM Builder Version: ${AMB_VERSION}" ; unset AMB_VERSION
+##Enable Debug 
+ if [ "${DEBUG}" = "1" ] || [ "${DEBUG}" = "ON" ]; then
+    set -x
+ fi
+#-------------------------------------------------------#
+
+#-------------------------------------------------------#
 ##Sanity
 export TZ="UTC"
 #GH
@@ -129,7 +138,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
    fi
   #For each Prog
    for PKG_NAME in "${AM_PKG_NAMES[@]}"; do
-     unset BUILD_SUCCESSFUL DESKTOP_FILE HF_PKGNAME HF_PKGPATH ICON_FILE ICON_TYPE PKG_BSUM PKG_BUILD_DATE PKG_BUILD_GHA PKG_BUILD_ID PKG_BUILD_LOG PKG_BUILD_SCRIPT PKG_DATETMP PKG_DESCRIPTION PKG_DESCRIPTION_TMP PKG_DESKTOP PKG_DOWNLOAD_URL PKG_HOMEPAGE PKG_ICON PKG_SHASUM PKG_SIZE PKG_SIZE_RAW PKG_SRC_URL PKG_TYPE PKG_VERSION
+     unset BUILD_SUCCESSFUL COMMIT_MSG DESKTOP_FILE HF_PKGNAME HF_PKGPATH ICON_FILE ICON_TYPE PKG_BSUM PKG_BUILD_DATE PKG_BUILD_GHA PKG_BUILD_ID PKG_BUILD_LOG PKG_BUILD_SCRIPT PKG_DATETMP PKG_DESCRIPTION PKG_DESCRIPTION_TMP PKG_DESKTOP PKG_DOWNLOAD_URL PKG_HOMEPAGE PKG_ICON PKG_SHASUM PKG_SIZE PKG_SIZE_RAW PKG_SRC_URL PKG_TYPE PKG_VERSION
      echo "PUSH_SUCCESSFUL=NO" >> "${GITHUB_ENV}"
      if [[ -f "${AM_DIR_PKG}/${PKG_NAME}" ]] && [[ $(stat -c%s "${AM_DIR_PKG}/${PKG_NAME}") -gt 1024 ]]; then
        echo "BUILD_SUCCESSFUL=YES" >> "${GITHUB_ENV}"
@@ -340,6 +349,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
        fi
       #Sync
        pushd "${HF_REPO_DIR}" &>/dev/null && \
+         COMMIT_MSG="[+] PKG [${HF_PKGNAME}] (${PKG_VERSION})"
          git pull origin main --ff-only ; git merge --no-ff -m "Merge & Sync"
          git lfs track "./${HF_PKGNAME}/**"
          sed '/refs\/remotes\/origin\/main/d' -i "${HF_REPO_DIR}/.gitattributes"
@@ -347,25 +357,30 @@ pushd "$(mktemp -d)" &>/dev/null && \
            find "${HF_PKGPATH}" -type f -size -3c -delete
            git sparse-checkout add "${HF_PKGNAME}"
            git sparse-checkout list
-           git add --all --verbose && git commit -m "[+] PKG [${HF_PKGNAME}] (${PKG_VERSION})"
+           git add --all --verbose && git commit -m "${COMMIT_MSG}"
            retry_git_push()
            {
             for i in {1..10}; do
-                git pull origin main --ff-only
-                git merge --no-ff -m "Merge & Sync"
-                git fetch origin main
-                git merge "origin/main" -X ours -m "Merge & Sync"
-                if git diff --name-only --diff-filter="U" | grep -q ".gitattributes"; then
-                 git checkout --ours '.gitattributes'
-                 git add '.gitattributes'
-                 git commit -m "Merge & Sync"
-                fi
-                git pull origin main
+             #Generic Merge
+              git pull origin main --ff-only
+              git merge --no-ff -m "${COMMIT_MSG}"
+             #Ours 
+              git fetch origin main
+              git merge "origin/main" -X ours -m "${COMMIT_MSG}"
+             #GitAttribute
+              if git diff --name-only --diff-filter="U" | grep -q ".gitattributes"; then
+               git checkout --ours '.gitattributes'
+               git add '.gitattributes'
+               git commit -m "${COMMIT_MSG}"
+              fi
+             #Finally Push  
+              git pull origin main
               if git push origin main; then
                  echo "PUSH_SUCCESSFUL=YES" >> "${GITHUB_ENV}"
                  break
               fi
-             sleep "$(shuf -i 500-4500 -n 1)e-3"
+             #Sleep randomly 
+              sleep "$(shuf -i 500-4500 -n 1)e-3"
             done
            }
            export -f retry_git_push
@@ -402,4 +417,8 @@ popd &>/dev/null
   echo -e "\n[-] Removing ALL Logs & Files\n"
   rm -rvf "${BUILD_DIR}" 2>/dev/null
  fi
-#-------------------------------------------------------# 
+##Disable Debug 
+ if [ "${DEBUG}" = "1" ] || [ "${DEBUG}" = "ON" ]; then
+    set +x
+ fi
+#-------------------------------------------------------#
