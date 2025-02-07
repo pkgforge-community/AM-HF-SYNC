@@ -233,7 +233,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
             PKG_DESCRIPTION="$(awk 'BEGIN {IGNORECASE=1}
                /version:/ {f=1; next}
                /site:/ {f=0}
-               f {sub(/.*]➜[[:space:]]*/, ""); sub(/^[[:space:].]+/, ""); sub(/[[:space:].]+$/, ""); if (NF) print}' "${BUILD_DIR}/${PKG_NAME}.log" 2>/dev/null)"
+               f {sub(/.*]➜[[:space:]]*/, ""); sub(/^[[:space:].]+/, ""); sub(/[[:space:].]+$/, ""); if (NF) print}' "${HF_PKGPATH}/${PKG_NAME}.log" 2>/dev/null | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | head -n 1)"
           fi
           PKG_DESCRIPTION_TMP="${PKG_DESCRIPTION}"
           PKG_DESCRIPTION="$(echo "${PKG_DESCRIPTION_TMP}" | sed 's/`//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed ':a;N;$!ba;s/\r\n//g; s/\n//g' | sed 's/["'\'']//g' | sed 's/|//g' | sed 's/`//g')"
