@@ -114,7 +114,9 @@ pushd "$(mktemp -d)" &>/dev/null && \
             echo HF_PKGNAME="${HF_PKGNAME}" >> "${GITHUB_ENV}"
           else
             echo -e "\n[-] FATAL: Failed to create ${HF_PKGPATH}\n"
-           exit 1
+            echo "GHA_BUILD_FAILED=YES" >> "${GITHUB_ENV}"
+            echo "BUILD_SUCCESSFUL=NO" >> "${GITHUB_ENV}"
+           continue
           fi
          #Pkg
           cp -fv "${AM_DIR_PKG}/${PKG_NAME}" "${HF_PKGPATH}/${PKG_NAME}"
