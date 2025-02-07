@@ -103,11 +103,11 @@ pushd "$(mktemp -d)" &>/dev/null && \
           mkdir -pv "${HF_PKGPATH}" && echo "HF_PKGPATH=${HF_PKGPATH}" >> "${GITHUB_ENV}"
           if [[ -d "${HF_PKGPATH}" ]]; then
             pushd "${HF_PKGPATH}" &>/dev/null
-            HF_PKGNAME="${PKG_NAME}/${HOST_TRIPLET}/${PKG_VERSION}"
+            HF_PKGNAME="${AM_PKG_NAME}/${HOST_TRIPLET}/${PKG_VERSION}"
             echo HF_PKGNAME="${HF_PKGNAME}" >> "${GITHUB_ENV}"
           else
             echo -e "\n[-] FATAL: Failed to create ${HF_PKGPATH}\n"
-           exit 1 
+           exit 1
           fi
          #Pkg
           cp -fv "${AM_DIR_PKG}/${PKG_NAME}" "${HF_PKGPATH}/${PKG_NAME}"
@@ -277,6 +277,8 @@ pushd "$(mktemp -d)" &>/dev/null && \
       #Copy Json
        if jq -r '.pkg' "${BUILD_DIR}/${PKG_NAME}.json" | grep -iv 'null' | tr -d '[:space:]' | grep -Eiq "^${PKG_NAME}$"; then
          cp -fv "${BUILD_DIR}/${PKG_NAME}.json" "${HF_PKGPATH}/${PKG_NAME}.json"
+         echo -e "\n[+] JSON <==> ${HF_PKGNAME}\n"
+         jq . "${HF_PKGPATH}/${PKG_NAME}.json"
        fi
       #Sync
        pushd "${HF_REPO_DIR}" &>/dev/null && \

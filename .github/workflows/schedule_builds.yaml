@@ -8,10 +8,25 @@ jobs:
   pre-trigger-build:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      actions: write
+      contents: write
+      statuses: write
     outputs:
       build_list: ${{ steps.set-inputs.outputs.build_list }}
     steps:
+      - name: Sync Upstream
+        env:
+          GH_TOKEN: "${{ github.token }}"
+        run: |
+          ##presets
+          set +x ; set +e
+          #-------------#        
+          gh workflow run "sync_commits.yaml" \
+            --repo "${GITHUB_REPOSITORY}" \
+            --ref "${GITHUB_REF}"
+          sleep 60
+        continue-on-error: false
+
       - name: Setup Env
         run: |
           ##presets
