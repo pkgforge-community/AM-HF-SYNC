@@ -54,8 +54,13 @@ pushd "$(mktemp -d)" &>/dev/null && \
   cd "./AMcache" && HF_REPO_DIR="$(realpath .)"
   [[ -d "${HF_REPO_DIR}" ]] || echo -e "\n[-] FATAL: Failed to create ${HF_REPO_DIR}\n $(exit 1)"
   git lfs install &>/dev/null ; huggingface-cli lfs-enable-largefiles "." &>/dev/null
-  HF_PKGPATH="${HF_REPO_DIR}/${AM_PKG_NAME}/${HOST_TRIPLET}"
-  mkdir -pv "${HF_PKGPATH}" ; git fetch origin main ; git lfs track "./${AM_PKG_NAME}/${HOST_TRIPLET}/**"
+  setup_hf_pkgpath()
+  {
+   HF_PKGPATH="${HF_REPO_DIR}/${AM_PKG_NAME}/${HOST_TRIPLET}"
+   mkdir -pv "${HF_PKGPATH}" ; git fetch origin main ; git lfs track "./${AM_PKG_NAME}/${HOST_TRIPLET}/**"
+  }
+  export -f setup_hf_pkgpath
+  setup_hf_pkgpath
   git sparse-checkout set "" ; git sparse-checkout set --no-cone --sparse-index ".gitattributes"
   git checkout ; ls -lah "." "./${AM_PKG_NAME}/${HOST_TRIPLET}" ; git sparse-checkout list
   #Install
@@ -85,10 +90,11 @@ pushd "$(mktemp -d)" &>/dev/null && \
    fi
   #For each Prog
    for PKG_NAME in "${AM_PKG_NAMES[@]}"; do
-     unset BUILD_SUCCESSFUL DESKTOP_FILE HF_PKGNAME ICON_FILE ICON_TYPE PKG_BSUM PKG_BUILD_DATE PKG_BUILD_GHA PKG_BUILD_ID PKG_BUILD_LOG PKG_BUILD_SCRIPT PKG_DATETMP PKG_DESCRIPTION PKG_DESKTOP PKG_DOWNLOAD_URL PKG_HOMEPAGE PKG_ICON PKG_SHASUM PKG_SIZE PKG_SIZE_RAW PKG_SRC_URL PKG_TYPE PKG_VERSION
+     unset BUILD_SUCCESSFUL DESKTOP_FILE HF_PKGNAME HF_PKGPATH ICON_FILE ICON_TYPE PKG_BSUM PKG_BUILD_DATE PKG_BUILD_GHA PKG_BUILD_ID PKG_BUILD_LOG PKG_BUILD_SCRIPT PKG_DATETMP PKG_DESCRIPTION PKG_DESKTOP PKG_DOWNLOAD_URL PKG_HOMEPAGE PKG_ICON PKG_SHASUM PKG_SIZE PKG_SIZE_RAW PKG_SRC_URL PKG_TYPE PKG_VERSION
      if [[ -f "${AM_DIR_PKG}/${PKG_NAME}" ]] && [[ $(stat -c%s "${AM_DIR_PKG}/${PKG_NAME}") -gt 1024 ]]; then
        echo "BUILD_SUCCESSFUL=YES" >> "${GITHUB_ENV}"
        #Prep
+        setup_hf_pkgpath
         pushd "${HF_PKGPATH}" &>/dev/null && \
          #Version
           PKG_VERSION="$(sed -n 's/.*version *: *\([^ ]*\).*/\1/p' "${BUILD_DIR}/${AM_PKG_NAME}.log" | tr -d '[:space:]')"
