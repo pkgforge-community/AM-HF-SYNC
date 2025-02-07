@@ -15,16 +15,34 @@ jobs:
       build_list: ${{ steps.set-inputs.outputs.build_list }}
     steps:
       - name: Sync Upstream
+        timeout-minutes: 5
         env:
           GH_TOKEN: "${{ github.token }}"
         run: |
           ##presets
           set +x ; set +e
-          #-------------#        
+          #-------------#
+          ##Trigger  
           gh workflow run "sync_commits.yaml" \
-            --repo "${GITHUB_REPOSITORY}" \
-            --ref "${GITHUB_REF}"
-          sleep 60
+           --repo "${GITHUB_REPOSITORY}" \
+           --ref "${GITHUB_REF}"
+          sleep 5
+          ##Get ID
+          RUN_ID=""
+          while [[ -z "${RUN_ID}" ]]; do
+            RUN_ID="$(gh run list --repo "${GITHUB_REPOSITORY}" --workflow "sync_commits.yaml" --json 'databaseId' --jq '.[0].databaseId' 2>/dev/null | tr -d '[:space:]')"
+            sleep 5
+          done
+          gh run list --repo "${GITHUB_REPOSITORY}" --workflow "sync_commits.yaml"
+          ##Wait
+          while true; do
+           STATUS="$(gh run view "${RUN_ID}" --repo "${GITHUB_REPOSITORY}" --json status --jq '.status' | tr -d '[:space:]')"
+             if [[ "$STATUS" == "completed" ]]; then
+               break
+             fi
+             sleep 10
+          done
+          gh run list --repo "${GITHUB_REPOSITORY}" --workflow "sync_commits.yaml"
         continue-on-error: false
 
       - name: Setup Env
