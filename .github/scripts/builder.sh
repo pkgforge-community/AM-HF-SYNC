@@ -275,10 +275,13 @@ pushd "$(mktemp -d)" &>/dev/null && \
           }
          ' | jq 'walk(if type == "object" then with_entries(select(.value != null and .value != "")) | select(length > 0) elif type == "array" then map(select(. != null and . != "")) | select(length > 0) else . end)' > "${BUILD_DIR}/${PKG_NAME}.json"
       #Copy Json
-       if jq -r '.pkg' "${BUILD_DIR}/${PKG_NAME}.json" | grep -iv 'null' | tr -d '[:space:]' | grep -Eiq "^${PKG_NAME}$"; then
+       if jq -r '.pkg_name' "${BUILD_DIR}/${PKG_NAME}.json" | grep -iv 'null' | tr -d '[:space:]' | grep -Eiq "^${PKG_NAME}$"; then
          cp -fv "${BUILD_DIR}/${PKG_NAME}.json" "${HF_PKGPATH}/${PKG_NAME}.json"
          echo -e "\n[+] JSON <==> ${HF_PKGNAME}\n"
          jq . "${HF_PKGPATH}/${PKG_NAME}.json"
+       else
+         echo -e "\n[-] FATAL: JSON Generation Likely Failed <==> ${HF_PKGNAME}\n"
+         jq . "${BUILD_DIR}/${PKG_NAME}.json" || cat "${BUILD_DIR}/${PKG_NAME}.json"
        fi
       #Sync
        pushd "${HF_REPO_DIR}" &>/dev/null && \
