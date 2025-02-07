@@ -90,7 +90,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
    fi
   #For each Prog
    for PKG_NAME in "${AM_PKG_NAMES[@]}"; do
-     unset BUILD_SUCCESSFUL DESKTOP_FILE HF_PKGNAME HF_PKGPATH ICON_FILE ICON_TYPE PKG_BSUM PKG_BUILD_DATE PKG_BUILD_GHA PKG_BUILD_ID PKG_BUILD_LOG PKG_BUILD_SCRIPT PKG_DATETMP PKG_DESCRIPTION PKG_DESKTOP PKG_DOWNLOAD_URL PKG_HOMEPAGE PKG_ICON PKG_SHASUM PKG_SIZE PKG_SIZE_RAW PKG_SRC_URL PKG_TYPE PKG_VERSION
+     unset BUILD_SUCCESSFUL DESKTOP_FILE HF_PKGNAME HF_PKGPATH ICON_FILE ICON_TYPE PKG_BSUM PKG_BUILD_DATE PKG_BUILD_GHA PKG_BUILD_ID PKG_BUILD_LOG PKG_BUILD_SCRIPT PKG_DATETMP PKG_DESCRIPTION PKG_DESCRIPTION_TMP PKG_DESKTOP PKG_DOWNLOAD_URL PKG_HOMEPAGE PKG_ICON PKG_SHASUM PKG_SIZE PKG_SIZE_RAW PKG_SRC_URL PKG_TYPE PKG_VERSION
      if [[ -f "${AM_DIR_PKG}/${PKG_NAME}" ]] && [[ $(stat -c%s "${AM_DIR_PKG}/${PKG_NAME}") -gt 1024 ]]; then
        echo "BUILD_SUCCESSFUL=YES" >> "${GITHUB_ENV}"
        #Prep
@@ -167,8 +167,10 @@ pushd "$(mktemp -d)" &>/dev/null && \
                /version:/ {f=1; next}
                /site:/ {f=0}
                f {sub(/.*]➜[[:space:]]*/, ""); sub(/^[[:space:].]+/, ""); sub(/[[:space:].]+$/, ""); if (NF) print}' "${BUILD_DIR}/${PKG_NAME}.log" 2>/dev/null)"
-            echo -e "[+] Description: ${PKG_DESCRIPTION} ('.description')"
           fi
+          PKG_DESCRIPTION_TMP="${PKG_DESCRIPTION}"
+          PKG_DESCRIPTION="$(echo "${PKG_DESCRIPTION_TMP}" | sed 's/`//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed ':a;N;$!ba;s/\r\n//g; s/\n//g' | sed 's/["'\'']//g' | sed 's/|//g' | sed 's/`//g')"
+          echo -e "[+] Description: ${PKG_DESCRIPTION} ('.description')"
          #Desktop
           DESKTOP_FILE="$(find '/usr/local/share/applications/' -type f -iname "*AM*desktop" -print | sort -u | head -n 1 | tr -d '[:space:]')"
           if [[ -f "${DESKTOP_FILE}" ]] && [[ $(stat -c%s "${DESKTOP_FILE}") -gt 5 ]]; then
