@@ -189,6 +189,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
              PKG_TYPE="static"
            fi
            echo -e "[+] Type: ${PKG_TYPE} ('.pkg_type')"
+           echo "PKG_TYPE=${PKG_TYPE}" >> "${GITHUB_ENV}"
           fi
          #Info
           timeout -k 10s 300s am about "${AM_PKG_NAME}" 2>/dev/null | cat -> "${HF_PKGPATH}/${PKG_NAME}.txt"
