@@ -129,7 +129,14 @@ pushd "$(mktemp -d)" &>/dev/null && \
      find "${AM_DIR_PKG}" -maxdepth 1 -type f -exec bash -c 'for f; do file -i "$f" | grep -Ei "application/.*executable" >/dev/null && mv -fv "$f" "$(dirname "$f")/$(basename "$f" | tr [:upper:] [:lower:])" 2>/dev/null; done' bash "{}" +
     #Store Pkg Names 
      readarray -t "AM_PKG_NAMES" < <(find "${AM_DIR_PKG}" -maxdepth 1 -type f -exec file -i "{}" \; | grep -Ei 'application/.*executable' | cut -d":" -f1 | xargs realpath | xargs -I "{}" basename "{}" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g')
-     echo -e "[+] Progs: ${AM_PKG_NAMES[*]}"
+     if [[ "${#AM_PKG_NAMES[@]}" -eq 0 ]]; then
+       echo -e "\n[-] FATAL: Failed to Find any Progs [${AM_DIR_PKG}]\n"
+       echo "GHA_BUILD_FAILED=YES" >> "${GITHUB_ENV}"
+       echo "BUILD_SUCCESSFUL=NO" >> "${GITHUB_ENV}"
+       find "${AM_DIR_PKG}" -maxdepth 1 -type f -exec file -i "{}" \;
+     else
+       echo -e "[+] Progs: ${AM_PKG_NAMES[*]}"
+     fi
    else
      echo -e "\n[-] FATAL: Failed to Build ${AM_PKG_NAME}\n"
      echo "GHA_BUILD_FAILED=YES" >> "${GITHUB_ENV}"
