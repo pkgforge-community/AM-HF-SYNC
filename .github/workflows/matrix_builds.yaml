@@ -144,17 +144,17 @@ jobs:
            ##Package
            sudo curl -qfsSL "https://bin.pkgforge.dev/${HOST_TRIPLET}/yq" -o "/usr/local/bin/yq" && \
              sudo chmod 'a+x' "/usr/local/bin/yq" && command -v yq >/dev/null || exit 1
-           PKG_NAME="$(echo "${{ github.event.inputs.pkg-name }}" | tr -d '[:space:]')"
-           PKG_SCRIPT_URL="https://github.com/ivan-hc/AM/raw/main/programs/$(uname -m)/${PKG_NAME}"
+           AM_PKG_NAME="$(echo "${{ github.event.inputs.pkg-name }}" | tr -d '[:space:]')"
+           PKG_SCRIPT_URL="https://github.com/ivan-hc/AM/raw/main/programs/$(uname -m)/${AM_PKG_NAME}"
            pushd "$(mktemp -d)" >/dev/null 2>&1
              PKG_STATUS="$(curl -X "HEAD" -qfsSL "${PKG_SCRIPT_URL}" -I | sed -n 's/^[[:space:]]*HTTP\/[0-9.]*[[:space:]]\+\([0-9]\+\).*/\1/p' | tail -n1 | tr -d '[:space:]')"
              if echo "${PKG_STATUS}" | grep -qiv '200$'; then
-               echo -e "\n[✗] FATAL: Failed to Fetch ${PKG_NAME} <== ${PKG_SCRIPT_URL}\n"
+               echo -e "\n[✗] FATAL: Failed to Fetch ${AM_PKG_NAME} <== ${PKG_SCRIPT_URL}\n"
                echo "CONTINUE_GHRUN=FALSE" >> "${GITHUB_ENV}"
               exit 1
              else
-               export PKG_NAME
-               echo "PKG_NAME=${PKG_NAME}" >> "${GITHUB_ENV}"
+               export AM_PKG_NAME
+               echo "AM_PKG_NAME=${AM_PKG_NAME}" >> "${GITHUB_ENV}"
              fi
            popd >/dev/null 2>&1
         continue-on-error: false
@@ -303,7 +303,7 @@ jobs:
            ##Run with STDOUT + LOGS
             export DEBUG="${DEBUG}"
             export KEEP_LOGS="${KEEP_LOGS}"
-            export PKG_NAME="${PKG_NAME}"
+            export AM_PKG_NAME="${AM_PKG_NAME}"
             export GITHUB_TEST_BUILD="${GITHUB_TEST_BUILD}"
             bash "${SYSTMP}/BUILDER.sh" | tee "${SYSTMP}/BUILD.log" 2>&1
            ##Purge Tokens (in case set -x & gh didn't redact)
@@ -334,7 +334,7 @@ jobs:
         if: env.CONTINUE_GHRUN != 'FALSE'
         uses: actions/upload-artifact@v4
         with:
-            name: AM_${{ env.PKG_NAME }}_${{ matrix.package.host }}
+            name: AM_${{ env.AM_PKG_NAME }}_${{ matrix.package.host }}
             path: |
               /tmp/BUILD.log
               /tmp/BUILD_ARTIFACTS.7z
@@ -347,7 +347,7 @@ jobs:
         if: env.CONTINUE_GHRUN != 'FALSE'
         uses: actions/attest-build-provenance@v2.2.0
         with:
-          subject-name: "build-logs-${{ env.PKG_NAME }}-${{ env.UTC_TIME }}"
+          subject-name: "build-logs-${{ env.AM_PKG_NAME }}-${{ env.UTC_TIME }}"
           subject-path: "/tmp/BUILD.log"
           show-summary: true
         continue-on-error: true
