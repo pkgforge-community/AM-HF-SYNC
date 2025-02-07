@@ -133,6 +133,8 @@ pushd "$(mktemp -d)" &>/dev/null && \
        elif grep -m1 -qi "static-binary" "${LOGPATH}"; then
          PKG_TYPE="static"
        fi
+       export PKG_TYPE
+       echo "PKG_TYPE=${PKG_TYPE}" >> "${GITHUB_ENV}"
      fi
    }
    export -f get_pkg_type
@@ -142,7 +144,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
     #Lowercase
      find "${AM_DIR_PKG}" -maxdepth 1 -type f -exec bash -c 'for f; do file -i "$f" | grep -Ei "application/.*executable" >/dev/null && mv -fv "$f" "$(dirname "$f")/$(basename "$f" | tr [:upper:] [:lower:])" 2>/dev/null; done' bash "{}" +
     #Store Pkg Names 
-     get_pkg_type ; echo "PKG_TYPE=${PKG_TYPE}" >> "${GITHUB_ENV}" 
+     get_pkg_type
      readarray -t "AM_PKG_NAMES" < <(find "${AM_DIR_PKG}" -maxdepth 1 -type f -exec file -i "{}" \; | grep -Ei 'application/.*executable' | cut -d":" -f1 | xargs realpath | xargs -I "{}" basename "{}" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g')
      if [[ "${#AM_PKG_NAMES[@]}" -eq 0 ]]; then
        echo -e "\n[-] FATAL: Failed to Find any Progs [${AM_DIR_PKG}]\n"
@@ -198,7 +200,6 @@ pushd "$(mktemp -d)" &>/dev/null && \
            echo -e "[+] Download URL: ${PKG_DOWNLOAD_URL} ('.download_url')"
            get_pkg_type
            echo -e "[+] Type: ${PKG_TYPE} ('.pkg_type')"
-           echo "PKG_TYPE=${PKG_TYPE}" >> "${GITHUB_ENV}"
           fi
          #Info
           timeout -k 10s 300s am about "${AM_PKG_NAME}" 2>/dev/null | cat -> "${HF_PKGPATH}/${PKG_NAME}.txt"
@@ -418,6 +419,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
        pushd "${TMPDIR}" &>/dev/null
      else
        echo -e "\n[-] FATAL: Failed to Find ${PKG_NAME} [${AM_DIR_PKG}]\n"
+       get_pkg_type
        echo "GHA_BUILD_FAILED=YES" >> "${GITHUB_ENV}"
        echo "BUILD_SUCCESSFUL=NO" >> "${GITHUB_ENV}"
        echo "PUSH_SUCCESSFUL=NO" >> "${GITHUB_ENV}"
