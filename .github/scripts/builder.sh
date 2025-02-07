@@ -381,11 +381,12 @@ pushd "$(mktemp -d)" &>/dev/null && \
              #Generic Merge
               git pull origin main --ff-only
               git merge --no-ff -m "${COMMIT_MSG}"
-             #Ours 
+             #Ours
               git fetch origin main
               git merge "origin/main" -X ours -m "${COMMIT_MSG}"
              #GitAttribute
               if git diff --name-only --diff-filter="U" | grep -q ".gitattributes"; then
+               sed '/refs\/remotes\/origin\/main/d' -i "${HF_REPO_DIR}/.gitattributes"
                git checkout --ours '.gitattributes'
                git add '.gitattributes'
                git commit -m "${COMMIT_MSG}"
