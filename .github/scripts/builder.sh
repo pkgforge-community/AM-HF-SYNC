@@ -65,6 +65,8 @@ pushd "$(mktemp -d)" &>/dev/null && \
   git checkout ; ls -lah "." "./${AM_PKG_NAME}/${HOST_TRIPLET}" ; git sparse-checkout list
   #Install
    readarray -d '' -t "AM_DIRS_PRE" < <(find "/opt" -maxdepth 1 -type d -print0 2>/dev/null)
+   TEMP_LOG="${BUILD_DIR}/${AM_PKG_NAME}.log.tmp" && touch "${TEMP_LOG}"
+   LOGPATH="${BUILD_DIR}/${AM_PKG_NAME}.log"
    {
      echo -e "\n[+] Installing ${AM_PKG_NAME} <== ${BUILD_SCRIPT} ["$(date --utc '+%Y-%m-%dT%H:%M:%S')" UTC]\n"
      timeout -k 5s 10s curl -w "\n(Script) <== %{url}\n" -qfsSL "${BUILD_SCRIPT_RAW}"
@@ -72,7 +74,44 @@ pushd "$(mktemp -d)" &>/dev/null && \
      timeout -k 10s 300s am install --debug "${AM_PKG_NAME}"
      timeout -k 10s 300s am files "${AM_PKG_NAME}" | cat -
      timeout -k 10s 300s am about "${AM_PKG_NAME}" | cat -
-   } 2>&1 | ts -s '[%H:%M:%S]➜ ' | tee "${BUILD_DIR}/${AM_PKG_NAME}.log"
+   } 2>&1 | ts -s '[%H:%M:%S]➜ ' | tee "${TEMP_LOG}"
+  #logs
+   sanitize_logs()
+   {
+   if [[ -s "${TEMP_LOG}" && $(stat -c%s "${TEMP_LOG}") -gt 10 && -n "${LOGPATH}" ]]; then
+    echo -e "\n[+] Sanitizing $(realpath "${TEMP_LOG}") ==> ${LOGPATH}"
+    if command -v trufflehog &> /dev/null; then
+      trufflehog filesystem "${TEMP_LOG}" --no-fail --no-verification --no-update --json 2>/dev/null | jq -r '.Raw' | sed '/{/d' | xargs -I "{}" sh -c 'echo "{}" | tr -d " \t\r\f\v"' | xargs -I "{}" sed "s/{}/ /g" -i "${TEMP_LOG}"
+    fi
+    sed -e '/.*github_pat.*/Id' \
+       -e '/.*ghp_.*/Id' \
+       -e '/.*glpat.*/Id' \
+       -e '/.*hf_.*/Id' \
+       -e '/.*token.*/Id' \
+       -e '/.*AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.*/Id' \
+       -e '/.*access_key_id.*/Id' \
+       -e '/.*secret_access_key.*/Id' \
+       -e '/.*cloudflarestorage.*/Id' -i "${TEMP_LOG}"
+    sed '/\(LOGPATH\|ENVPATH\)=/d' -i "${TEMP_LOG}"
+       echo '\\\\================= Package Forge [External] ================////' > "${LOGPATH}"
+       echo '|--- Repository: https://github.com/ivan-hc/AM                 ---|' >> "${LOGPATH}"
+       echo '|--- Web/Search Index: https://portable-linux-apps.github.io/  ---|' >> "${LOGPATH}"
+       echo '|--- Contact: https://github.com/ivan-hc                       ---|' >> "${LOGPATH}"
+       echo '|--- Discord: https://discord.gg/djJUs48Zbu                    ---|' >> "${LOGPATH}"    
+       echo '|--- Docs: https://docs.pkgforge.dev/repositories/external/am  ---|' >> "${LOGPATH}"
+       echo '|--- Bugs/Issues: https://github.com/ivan-hc/AM/issues         ---|' >> "${LOGPATH}"
+       echo '|-----------------------------------------------------------------|' >> "${LOGPATH}"
+       grep -viE 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|github_pat|ghp_|glpat|hf_|token|access_key_id|secret_access_key|cloudflarestorage' "${TEMP_LOG}" >> "${LOGPATH}" && rm "${TEMP_LOG}" 2>/dev/null
+   fi
+   }
+   export -f sanitize_logs
+   if command -v ansi2txt &>/dev/null; then
+     sanitize_logs
+     cat "${LOGPATH}" | ansi2txt > "${LOGPATH}.tmp" && \
+     mv -fv "${LOGPATH}.tmp" "${LOGPATH}"
+   else
+     sanitize_logs
+   fi
    readarray -d '' -t "AM_DIRS_POST" < <(find "/opt" -maxdepth 1 -type d -print0 2>/dev/null)
   #Check
    AM_DIR_PKG="$(comm -13 <(printf "%s\n" "${AM_DIRS_PRE[@]}" | sort) <(printf "%s\n" "${AM_DIRS_POST[@]}" | sort) | awk -F'/' '!seen[$2 "/" $3]++ {print "/opt/" $3}' | head -n 1 | tr -d '[:space:]')"
@@ -97,7 +136,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
         setup_hf_pkgpath
         pushd "${HF_PKGPATH}" &>/dev/null && \
          #Version
-          PKG_VERSION="$(sed -n 's/.*version *: *\([^ ]*\).*/\1/p' "${BUILD_DIR}/${AM_PKG_NAME}.log" | tr -d '[:space:]')"
+          PKG_VERSION="$(sed -n 's/.*version *: *\([^ ]*\).*/\1/p' "${LOGPATH}" | tr -d '[:space:]')"
           if [ -z "${PKG_VERSION+x}" ] || [ -z "${PKG_VERSION##*[[:space:]]}" ]; then
             if grep -qi "github.com" "${AM_DIR_PKG}/version"; then
               PKG_VERSION="$(sed -E 's#.*/download/([^/]+)/.*#\1#' "${AM_DIR_PKG}/version" | tr -d '[:space:]')"
@@ -125,11 +164,11 @@ pushd "$(mktemp -d)" &>/dev/null && \
            echo -e "[+] Name: ${PKG_NAME} ('.pkg_name')"
            PKG_DOWNLOAD_URL="https://huggingface.co/datasets/pkgforge/AMcache/resolve/main/${HF_PKGNAME}/${PKG_NAME}"
            echo -e "[+] Download URL: ${PKG_DOWNLOAD_URL} ('.download_url')"
-           if grep -m1 -qi "appimage" "${BUILD_DIR}/${AM_PKG_NAME}.log"; then
+           if grep -m1 -qi "appimage" "${LOGPATH}"; then
              PKG_TYPE="appimage"
-           elif grep -m1 -qi "dynamic-binary" "${BUILD_DIR}/${AM_PKG_NAME}.log"; then
+           elif grep -m1 -qi "dynamic-binary" "${LOGPATH}"; then
              PKG_TYPE="dynamic"
-           elif grep -m1 -qi "static-binary" "${BUILD_DIR}/${AM_PKG_NAME}.log"; then
+           elif grep -m1 -qi "static-binary" "${LOGPATH}"; then
              PKG_TYPE="static"
            fi
            echo -e "[+] Type: ${PKG_TYPE} ('.pkg_type')"
@@ -144,7 +183,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
           PKG_BUILD_GHA="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
           PKG_BUILD_ID="${GITHUB_RUN_ID}"
          #Build Log
-          cp -fv "${BUILD_DIR}/${AM_PKG_NAME}.log" "${HF_PKGPATH}/${PKG_NAME}.log"
+          cp -fv "${LOGPATH}" "${HF_PKGPATH}/${PKG_NAME}.log"
           if [[ -f "${HF_PKGPATH}/${PKG_NAME}.log" ]] && [[ $(stat -c%s "${HF_PKGPATH}/${PKG_NAME}.log") -gt 5 ]]; then
            PKG_BUILD_LOG="https://huggingface.co/datasets/pkgforge/AMcache/resolve/main/${HF_PKGNAME}/${PKG_NAME}.log"
            echo -e "[+] Build Log: ${PKG_BUILD_LOG} ('.build_log')"
