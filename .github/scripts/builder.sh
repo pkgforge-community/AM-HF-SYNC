@@ -345,8 +345,8 @@ pushd "$(mktemp -d)" &>/dev/null && \
             "[EXTERNAL] We CAN NOT guarantee the authenticity, validity or security",
             "This package was auto-built, cached & uploaded using AM",
             "Provided by: https://github.com/ivan-hc/AM",
-            "Please create an Issue or send a PR for an official Package",
-            "Learn More: https://docs.pkgforge.dev/repositories/external/am"
+            "Learn More: https://docs.pkgforge.dev/repositories/external/am",
+            "Please create an Issue or send a PR for an official Package"
             ],
             provides: ($PROVIDES | split(",")),
             shasum: $SHASUM,
