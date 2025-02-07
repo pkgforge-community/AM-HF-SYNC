@@ -357,7 +357,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
        fi
       #Sync
        pushd "${HF_REPO_DIR}" &>/dev/null && \
-         COMMIT_MSG="[+] PKG [${HF_PKGNAME}] (${PKG_VERSION})"
+         COMMIT_MSG="[+] PKG [${HF_PKGNAME}] (${PKG_TYPE:-${PKG_VERSION}})"
          git pull origin main --ff-only ; git merge --no-ff -m "Merge & Sync"
          git lfs track "./${HF_PKGNAME}/**"
          sed '/refs\/remotes\/origin\/main/d' -i "${HF_REPO_DIR}/.gitattributes"
