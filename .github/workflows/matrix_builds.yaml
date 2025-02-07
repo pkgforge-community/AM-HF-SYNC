@@ -361,6 +361,9 @@ jobs:
           if [[ "${GHA_BUILD_FAILED}" == "YES" || "${BUILD_SUCCESSFUL}" == "NO" ]]; then
             echo -e "\n[-] FATAL: Failed to Successfully Build ${{ matrix.package.pkg-name }}"
            exit 1
+          elif [[ "${PUSH_SUCCESSFUL}" != "YES" ]]; then
+            echo -e "\n[-] FATAL: Failed to Push ==> https://huggingface.co/datasets/pkgforge/AMcache/tree/main/${{ env.HF_PKGNAME }}"
+           exit 1
           else
             echo -e "\n[+] Build: https://huggingface.co/datasets/pkgforge/AMcache/tree/main/${{ env.HF_PKGNAME }}\n"
           fi

@@ -347,14 +347,29 @@ pushd "$(mktemp -d)" &>/dev/null && \
            git sparse-checkout add "${HF_PKGNAME}"
            git sparse-checkout list
            git add --all --verbose && git commit -m "[+] PKG [${HF_PKGNAME}] (${PKG_VERSION})"
-           git pull origin main ; git push origin main #&& sleep "$(shuf -i 500-4500 -n 1)e-3"
+           retry_git_push()
+           {
+            for i in {1..10}; do
+                git pull origin main --ff-only
+                git merge --no-ff -m "Merge & Sync"
+                git pull origin main
+              if git push origin main; then
+                 echo "PUSH_SUCCESSFUL=YES" >> "${GITHUB_ENV}"
+                 break
+              fi
+             sleep "$(shuf -i 500-4500 -n 1)e-3"
+            done
+           }
+           export -f retry_git_push
+           retry_git_push
            git --no-pager log '-1' --pretty="format:'%h - %ar - %s - %an'"
            if ! git ls-remote --heads origin | grep -qi "$(git rev-parse HEAD)"; then
             echo -e "\n[-] WARN: Failed to push ==> ${HF_PKGNAME}/${PKG_VERSION}\n(Retrying ...)\n"
-            git pull origin main ; git push origin main #&& sleep "$(shuf -i 500-4500 -n 1)e-3"
+            retry_git_push
             git --no-pager log '-1' --pretty="format:'%h - %ar - %s - %an'"
             if ! git ls-remote --heads origin | grep -qi "$(git rev-parse HEAD)"; then
               echo -e "\n[-] FATAL: Failed to push ==> ${HF_PKGNAME}/${PKG_VERSION}\n"
+              retry_git_push
             fi
            fi
            du -sh "${HF_PKGPATH}" && realpath "${HF_PKGPATH}"
