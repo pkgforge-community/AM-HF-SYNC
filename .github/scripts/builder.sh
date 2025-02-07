@@ -122,12 +122,27 @@ pushd "$(mktemp -d)" &>/dev/null && \
      sanitize_logs
    fi
    readarray -d '' -t "AM_DIRS_POST" < <(find "/opt" -maxdepth 1 -type d -print0 2>/dev/null)
+  #Type
+   get_pkg_type()
+   {
+     if [[ -s "${LOGPATH}" && $(stat -c%s "${TEMP_LOG}") -gt 10 ]]; then
+       if grep -m1 -qi "appimage" "${LOGPATH}"; then
+         PKG_TYPE="appimage"
+       elif grep -m1 -qi "dynamic-binary" "${LOGPATH}"; then
+         PKG_TYPE="dynamic"
+       elif grep -m1 -qi "static-binary" "${LOGPATH}"; then
+         PKG_TYPE="static"
+       fi
+     fi
+   }
+   export -f get_pkg_type
   #Check
    AM_DIR_PKG="$(comm -13 <(printf "%s\n" "${AM_DIRS_PRE[@]}" | sort) <(printf "%s\n" "${AM_DIRS_POST[@]}" | sort) | awk -F'/' '!seen[$2 "/" $3]++ {print "/opt/" $3}' | head -n 1 | tr -d '[:space:]')"
    if [[ -d "${AM_DIR_PKG}" ]] && [[ "$(du -s "${AM_DIR_PKG}" | cut -f1)" -gt 100 ]]; then
     #Lowercase
      find "${AM_DIR_PKG}" -maxdepth 1 -type f -exec bash -c 'for f; do file -i "$f" | grep -Ei "application/.*executable" >/dev/null && mv -fv "$f" "$(dirname "$f")/$(basename "$f" | tr [:upper:] [:lower:])" 2>/dev/null; done' bash "{}" +
     #Store Pkg Names 
+     get_pkg_type ; echo "PKG_TYPE=${PKG_TYPE}" >> "${GITHUB_ENV}" 
      readarray -t "AM_PKG_NAMES" < <(find "${AM_DIR_PKG}" -maxdepth 1 -type f -exec file -i "{}" \; | grep -Ei 'application/.*executable' | cut -d":" -f1 | xargs realpath | xargs -I "{}" basename "{}" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g')
      if [[ "${#AM_PKG_NAMES[@]}" -eq 0 ]]; then
        echo -e "\n[-] FATAL: Failed to Find any Progs [${AM_DIR_PKG}]\n"
@@ -181,13 +196,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
            echo -e "[+] Name: ${PKG_NAME} ('.pkg_name')"
            PKG_DOWNLOAD_URL="https://huggingface.co/datasets/pkgforge/AMcache/resolve/main/${HF_PKGNAME}/${PKG_NAME}"
            echo -e "[+] Download URL: ${PKG_DOWNLOAD_URL} ('.download_url')"
-           if grep -m1 -qi "appimage" "${LOGPATH}"; then
-             PKG_TYPE="appimage"
-           elif grep -m1 -qi "dynamic-binary" "${LOGPATH}"; then
-             PKG_TYPE="dynamic"
-           elif grep -m1 -qi "static-binary" "${LOGPATH}"; then
-             PKG_TYPE="static"
-           fi
+           get_pkg_type
            echo -e "[+] Type: ${PKG_TYPE} ('.pkg_type')"
            echo "PKG_TYPE=${PKG_TYPE}" >> "${GITHUB_ENV}"
           fi
