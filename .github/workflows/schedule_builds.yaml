@@ -42,7 +42,7 @@ jobs:
           ##Wait
           while true; do
            STATUS="$(gh run view "${RUN_ID}" --repo "${GITHUB_REPOSITORY}" --json status --jq '.status' | tr -d '[:space:]')"
-             if [[ "$STATUS" == "completed" ]]; then
+             if [[ "${STATUS}" == "completed" ]]; then
                break
              fi
              sleep 10
