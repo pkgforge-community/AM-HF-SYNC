@@ -106,15 +106,15 @@ jobs:
           popd &>/dev/null
           ##Generate Input
           pushd "$(mktemp -d)" &>/dev/null
-           readarray -t "AM_PKGS_X86" < <(git -C "${AM_REPO_LOCAL}" ls-tree --name-only 'HEAD' -- "programs/x86_64/" | xargs -I "{}" basename "{}" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | grep -Eiv '\.(git|md|txt)')
-           if [[ -n "${AM_PKGS_X86[*]}" && "${#AM_PKGS_X86[@]}" -gt 2000 ]]; then
+           readarray -t "AM_PKGS_X86_TMP" < <(git -C "${AM_REPO_LOCAL}" ls-tree --name-only 'HEAD' -- "programs/x86_64/" | xargs -I "{}" basename "{}" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | grep -Eiv '\.(git|md|txt)')
+           if [[ -n "${AM_PKGS_X86_TMP[*]}" && "${#AM_PKGS_X86_TMP[@]}" -gt 2000 ]]; then
             #Update List
-             printf "%s\n" "${AM_PKGS_X86[@]}" | sort -u -o "${GITHUB_WORKSPACE}/main/.github/PKG_LIST_x86_64-Linux.txt"
+             printf "%s\n" "${AM_PKGS_X86_TMP[@]}" | sort -u -o "${GITHUB_WORKSPACE}/main/.github/PKG_LIST_x86_64-Linux.txt"
             #Remove Previous Builds
              readarray -t "QUEUE_LIST_X86" < <(sort -u "${GITHUB_WORKSPACE}/main/.github/QUEUE_LIST_x86_64-Linux.txt")
             #Reset Array to new
              AM_PKGS_X86=()
-             readarray -t "AM_PKGS_X86" < <(printf "%s\n" "${AM_PKGS_X86[@]}" | sort -u | comm -23 - <(printf "%s\n" "${QUEUE_LIST_X86[@]}" | sort -u))
+             readarray -t "AM_PKGS_X86" < <(printf "%s\n" "${AM_PKGS_X86_TMP[@]}" | sort -u | comm -23 - <(printf "%s\n" "${QUEUE_LIST_X86[@]}" | sort -u))
            fi
            #readarray -t "AM_PREBUILTS" < <(git -C "${HF_REPO_LOCAL}" ls-tree --name-only 'HEAD' | xargs -I "{}" basename "{}" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | grep -Eiv '\.(git|md|txt)')
            readarray -t "AM_PREBUILTS" < <(curl -qfsSL "https://meta.pkgforge.dev/external/am/x86_64-Linux.json" | jq -r '.[] | .pkg' | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g')
@@ -134,9 +134,11 @@ jobs:
            sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${GITHUB_WORKSPACE}/main/.github/CACHE_LIST.txt"
            sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${GITHUB_WORKSPACE}/main/.github/PKG_LIST_x86_64-Linux.txt"
            sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt"
+           sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${GITHUB_WORKSPACE}/main/.github/QUEUE_LIST_x86_64-Linux.txt"
            echo -e "\n[+] Total Packages: $(wc -l < ${GITHUB_WORKSPACE}/main/.github/PKG_LIST_x86_64-Linux.txt)"
            echo -e "[+] Total Prebuilts: $(wc -l < ${GITHUB_WORKSPACE}/main/.github/CACHE_LIST.txt)"
-           echo -e "[+] Total Build Queue: $(wc -l < ${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt)\n"
+           echo -e "[+] Total Build Queue: $(wc -l < ${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt)"
+           echo -e "[+] Total Exclusions: $(wc -l < ${GITHUB_WORKSPACE}/main/.github/QUEUE_LIST_x86_64-Linux.txt)\n"
           popd &>/dev/null
         continue-on-error: true
 
