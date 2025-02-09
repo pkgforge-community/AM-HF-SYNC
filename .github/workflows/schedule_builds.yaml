@@ -50,6 +50,13 @@ jobs:
           gh run list --repo "${GITHUB_REPOSITORY}" --workflow "sync_commits.yaml"
         continue-on-error: false
 
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: main
+          fetch-depth: 1
+          filter: "blob:none"
+
       - name: Setup Env
         run: |
           ##presets
@@ -97,6 +104,7 @@ jobs:
           cat "${SYSTMP}/AM/x86_64-Linux.json" | jq -s 'sort_by(.pkg)' > "${SYSTMP}/AM/LIST.json"
           ##Set Input (256 builds)
           BUILD_LIST="$(jq -c '[.[]] | .[:256]' "${SYSTMP}/AM/LIST.json")"
+          jq -r '.[] | .pkg' "${SYSTMP}/AM/LIST.json" | sort -u -o "${GITHUB_WORKSPACE}/main/.github/QUEUE_LIST_x86_64-Linux.txt"
           ##Validate Input
           if ! echo "${BUILD_LIST}" | jq -e 'type == "array" and length > 0' >/dev/null; then
              echo -e "\n[-] Input Json is likely Invalid\n"
@@ -113,6 +121,22 @@ jobs:
         run: |
           echo '${{ steps.set-inputs.outputs.build_list }}' | jq .
         continue-on-error: true
+
+      - name: Get DateTime
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          NEPALI_TIME="$(TZ='Asia/Kathmandu' date +'%Y-%m-%d (%I:%M:%S %p)')"
+          echo "NEPALI_TIME=${NEPALI_TIME}" >> "${GITHUB_ENV}"
+        continue-on-error: true
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          repository: ./main
+          commit_user_name: Azathothas
+          commit_user_email: AjamX101@gmail.com
+          commit_message: "♻️ Updated QueList 📦 <-- [${{ env.NEPALI_TIME }}] ⌚"
 
   trigger-build:
     needs: [pre-trigger-build]
