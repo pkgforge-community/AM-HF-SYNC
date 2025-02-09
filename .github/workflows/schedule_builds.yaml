@@ -104,7 +104,7 @@ jobs:
           cat "${SYSTMP}/AM/x86_64-Linux.json" | jq -s 'sort_by(.pkg)' > "${SYSTMP}/AM/LIST.json"
           ##Set Input (256 builds)
           BUILD_LIST="$(jq -c '[.[]] | .[:256]' "${SYSTMP}/AM/LIST.json")"
-          jq -r '.[] | .pkg' "${SYSTMP}/AM/LIST.json" | sort -u >> "${GITHUB_WORKSPACE}/main/.github/QUEUE_LIST_x86_64-Linux.txt"
+          jq -r '.[] | .pkg' "${BUILD_LIST}" | sort -u >> "${GITHUB_WORKSPACE}/main/.github/QUEUE_LIST_x86_64-Linux.txt"
           sort -u "${GITHUB_WORKSPACE}/main/.github/QUEUE_LIST_x86_64-Linux.txt" -o "${GITHUB_WORKSPACE}/main/.github/QUEUE_LIST_x86_64-Linux.txt"
           sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${GITHUB_WORKSPACE}/main/.github/QUEUE_LIST_x86_64-Linux.txt"
           ##Validate Input
