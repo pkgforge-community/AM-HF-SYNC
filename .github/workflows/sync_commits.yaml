@@ -127,7 +127,11 @@ jobs:
              if [[ "$(wc -l < "./BUILD_LIST.tmp" | tr -cd '[:digit:]')" -gt 255 ]]; then
                head -n 256 "./BUILD_LIST.tmp" | sort -u -o "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt"
              elif [[ "$(wc -l < "./BUILD_LIST.tmp" | tr -cd '[:digit:]')" -lt 10 ]]; then
-               printf "%s\n" "${AM_PKGS_X86[@]}" | head -n 240 | sort -u >> "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt"
+               printf "%s\n" "${AM_PKGS_X86[@]}" | head -n 240 | sort -u >> "./BUILD_LIST_x86_64-Linux.txt"
+               if [[ "$(wc -l < "./BUILD_LIST_x86_64-Linux.txt" | tr -cd '[:digit:]')" -lt 10 ]]; then
+                  curl -qfsSL "https://meta.pkgforge.dev/external/am/x86_64-Linux.json" | jq -r --arg CUT_OFF "$(date -u -d '5 days ago' +%Y-%m-%dT%H:%M:%SZ)" '.[] | select(.build_date < $CUT_OFF) | .pkg' | head -n 240 | sort -u >> "./BUILD_LIST_x86_64-Linux.txt"
+               fi
+               cat "./BUILD_LIST_x86_64-Linux.txt" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | head -n 256 > "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt"
                sort -u "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt" -o "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt"
              fi
            fi
