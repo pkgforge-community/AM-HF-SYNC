@@ -33,6 +33,10 @@ jobs:
           #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/devscripts/refs/heads/main/Linux/install_bins_curl.sh")
           ##Create Output Dir
           mkdir -p "${GITHUB_WORKSPACE}/main"
+          echo "GIT_TERMINAL_PROMPT=0" >> "${GITHUB_ENV}"
+          echo "GIT_ASKPASS=/bin/echo" >> "${GITHUB_ENV}"
+          git config --global "user.email" "AjamX101@gmail.com"
+          git config --global "user.name" "Azathothas"
         continue-on-error: true
 
       - name: Sync "${GITHUB_WORKSPACE}/main" <-- "(https://github.com/ivan-hc/AM)"
@@ -155,6 +159,31 @@ jobs:
           echo "NEPALI_TIME=${NEPALI_TIME}" >> "${GITHUB_ENV}"
         continue-on-error: true
         
+      - name: Pull & Push (1)
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          cd "${GITHUB_WORKSPACE}/main"
+          git pull origin main --no-edit 2>/dev/null
+          git pull origin main --ff-only ; git merge --no-ff -m "Merge & Sync"
+        continue-on-error: true
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          repository: ./main
+          commit_user_name: Azathothas
+          commit_user_email: AjamX101@gmail.com
+          commit_message: "♻️ Synced AM 📦 <-- [${{ env.LATEST_COMMI_M }}] ⌚"
+          
+      - name: Pull & Push (2)
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          cd "${GITHUB_WORKSPACE}/main"
+          git pull origin main --no-edit 2>/dev/null
+          git pull origin main --ff-only ; git merge --no-ff -m "Merge & Sync"
+        continue-on-error: true
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           repository: ./main

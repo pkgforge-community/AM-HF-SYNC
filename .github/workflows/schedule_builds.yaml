@@ -133,6 +133,19 @@ jobs:
           echo "NEPALI_TIME=${NEPALI_TIME}" >> "${GITHUB_ENV}"
         continue-on-error: true
 
+      - name: Pull & Push
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          cd "${GITHUB_WORKSPACE}/main"
+          echo "GIT_TERMINAL_PROMPT=0" >> "${GITHUB_ENV}"
+          echo "GIT_ASKPASS=/bin/echo" >> "${GITHUB_ENV}"
+          git config --global "user.email" "AjamX101@gmail.com"
+          git config --global "user.name" "Azathothas"
+          git pull origin main --no-edit 2>/dev/null
+          git pull origin main --ff-only ; git merge --no-ff -m "Merge & Sync"
+        continue-on-error: true
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           repository: ./main
