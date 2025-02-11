@@ -74,7 +74,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
       echo -e "\n[-] FATAL: Failed to switch to ${HF_PKGBRANCH}\n"
      return 1
    else
-     git -C "${HF_REPO_DIR}" fetch origin "${HF_PKGBRANCH}"
+     git -C "${HF_REPO_DIR}" fetch origin "${HF_PKGBRANCH}" 2>/dev/null
      echo HF_PKGBRANCH="${HF_PKGBRANCH}" >> "${GITHUB_ENV}"
      echo HF_PKGBRANCH_URI="${HF_PKGBRANCH_URI}" >> "${GITHUB_ENV}"
    fi
@@ -379,9 +379,9 @@ pushd "$(mktemp -d)" &>/dev/null && \
       #Sync
        pushd "${HF_REPO_DIR}" &>/dev/null && \
          COMMIT_MSG="[+] PKG [${HF_PKGBRANCH}] (${PKG_TYPE:-${PKG_VERSION}})"
-         git pull origin "${HF_PKGBRANCH}" --ff-only ; git merge --no-ff -m "Merge & Sync"
+         git pull origin "${HF_PKGBRANCH}" --ff-only 2>/dev/null
+         git merge --no-ff -m "Merge & Sync" 2>/dev/null
          git lfs track "./**"
-         sed -i "/origin[[:space:]]*${HF_PKGBRANCH}/d" "${HF_REPO_DIR}/.gitattributes"
          if [ -d "${HF_REPO_DIR}" ] && [ "$(du -s "${HF_REPO_DIR}" | cut -f1)" -gt 100 ]; then
            find "${HF_REPO_DIR}" -type f -size -3c -delete
            git sparse-checkout add "**"
@@ -391,10 +391,10 @@ pushd "$(mktemp -d)" &>/dev/null && \
            {
             for i in {1..20}; do
              #Generic Merge
-              git pull origin "${HF_PKGBRANCH}" --ff-only
+              git pull origin "${HF_PKGBRANCH}" --ff-only 2>/dev/null
               git merge --no-ff -m "${COMMIT_MSG}"
              #Push  
-              git pull origin "${HF_PKGBRANCH}"
+              git pull origin "${HF_PKGBRANCH}" 2>/dev/null
               if git push origin "${HF_PKGBRANCH}"; then
                  echo "PUSH_SUCCESSFUL=YES" >> "${GITHUB_ENV}"
                  break
