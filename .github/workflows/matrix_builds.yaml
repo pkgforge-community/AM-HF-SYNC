@@ -321,7 +321,7 @@ jobs:
         continue-on-error: true
 
     ##Logs & Artifacts
-      - name: Get DateTime [${{ matrix.package.host }}<==>${{ matrix.package.runner }}] (${{ env.PKG_YPE }})
+      - name: Get DateTime [${{ matrix.package.host }}<==>${{ matrix.package.runner }}] (${{ env.PKG_TYPE }})
         if: env.CONTINUE_GHRUN != 'FALSE'
         run: |
           #Presets
@@ -331,7 +331,7 @@ jobs:
           echo "UTC_TIME=${UTC_TIME}" >> "${GITHUB_ENV}"
         continue-on-error: true
 
-      - name: Upload (LOG) Artifacts [${{ matrix.package.host }}<==>${{ matrix.package.runner }}] (${{ env.PKG_YPE }})
+      - name: Upload (LOG) Artifacts [${{ matrix.package.host }}<==>${{ matrix.package.runner }}] (${{ env.PKG_TYPE }})
         if: env.CONTINUE_GHRUN != 'FALSE'
         uses: actions/upload-artifact@v4
         with:
@@ -344,7 +344,7 @@ jobs:
             overwrite: true
         continue-on-error: true     
 
-      - name: Attest Build Provenance [${{ matrix.package.host }}<==>${{ matrix.package.runner }}] (${{ env.PKG_YPE }})
+      - name: Attest Build Provenance [${{ matrix.package.host }}<==>${{ matrix.package.runner }}] (${{ env.PKG_TYPE }})
         if: env.CONTINUE_GHRUN != 'FALSE'
         uses: actions/attest-build-provenance@v2.2.0
         with:
@@ -353,7 +353,7 @@ jobs:
           show-summary: true
         continue-on-error: true
 
-      - name: Check Build ==> [https://hf.co/datasets/pkgforge/AMcache/tree/main/${{ env.HF_PKGNAME }}] (${{ env.PKG_YPE }})
+      - name: Check Build ==> [https://hf.co/datasets/pkgforge/AMcache/tree/${{ env.HF_PKGBRANCH_URI }}] (${{ env.PKG_TYPE }})
         if: env.CONTINUE_GHRUN != 'FALSE'
         run: |
           #Presets
@@ -363,9 +363,9 @@ jobs:
             echo -e "\n[-] FATAL: Failed to Successfully Build ${{ matrix.package.pkg-name }}"
            exit 1
           elif [[ "${PUSH_SUCCESSFUL}" != "YES" ]]; then
-            echo -e "\n[-] FATAL: Failed to Push ==> https://huggingface.co/datasets/pkgforge/AMcache/tree/main/${{ env.HF_PKGNAME }}"
+            echo -e "\n[-] FATAL: Failed to Push ==> https://huggingface.co/datasets/pkgforge/AMcache/tree/${{ env.HF_PKGBRANCH_URI }}"
            exit 1
           else
-            echo -e "\n[+] Build: https://huggingface.co/datasets/pkgforge/AMcache/tree/main/${{ env.HF_PKGNAME }}\n"
+            echo -e "\n[+] Build: https://huggingface.co/datasets/pkgforge/AMcache/tree/${{ env.HF_PKGBRANCH_URI }}\n"
           fi
         continue-on-error: false
