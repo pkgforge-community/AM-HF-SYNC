@@ -116,7 +116,8 @@ jobs:
             [ -z "${HF_TOKEN##*[[:space:]]}" ] && echo "- HF_TOKEN is missing"
             exit 1
           else
-            gh release create "metadata" --repo "${GITHUB_REPOSITORY}" --title "metadata" --prerelease 2>/dev/null
+            (gh release create "metadata" --repo "${GITHUB_REPOSITORY}" --title "metadata" --prerelease) &>/dev/null || true
+            gh release view "metadata" --repo "${GITHUB_REPOSITORY}" 2>/dev/null || true
           fi
         continue-on-error: false
 
