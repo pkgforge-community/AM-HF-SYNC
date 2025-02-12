@@ -224,10 +224,10 @@ pushd "$(mktemp -d)" &>/dev/null && \
           fi
          #Dir
           if [[ -d "${HF_REPO_DIR}" ]]; then
-            fix_gitattributes
+            fix_gitattributes ; sleep 5
             pushd "${HF_REPO_DIR}" &>/dev/null
-            checkout_sparse
-            setup_hf_pkgbranch
+            checkout_sparse ; sleep 3
+            setup_hf_pkgbranch ; sleep 1
           else
             echo -e "\n[-] FATAL: Failed to create ${HF_REPO_DIR}\n"
             echo "GHA_BUILD_FAILED=YES" >> "${GITHUB_ENV}"
