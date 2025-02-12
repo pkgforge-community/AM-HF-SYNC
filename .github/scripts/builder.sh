@@ -431,9 +431,9 @@ pushd "$(mktemp -d)" &>/dev/null && \
            {
             for i in {1..10}; do
              #Generic Merge
-              git pull origin "${HF_PKGBRANCH}" --ff-only 2>/dev/null
+              git pull origin "${HF_PKGBRANCH}" --ff-only
               git merge --no-ff -m "${COMMIT_MSG}"
-             #Push  
+             #Push
               git pull origin "${HF_PKGBRANCH}" 2>/dev/null
               if git push origin "${HF_PKGBRANCH}"; then
                  echo "PUSH_SUCCESSFUL=YES" >> "${GITHUB_ENV}"
