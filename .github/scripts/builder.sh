@@ -418,8 +418,9 @@ pushd "$(mktemp -d)" &>/dev/null && \
          COMMIT_MSG="[+] PKG [${HF_PKGBRANCH}] (${PKG_TYPE:-${PKG_VERSION}})"
          git pull origin "${HF_PKGBRANCH}" --ff-only 2>/dev/null
          git merge --no-ff -m "Merge & Sync" 2>/dev/null
-         git lfs track './**/*'
+         git lfs track './**/*' 2>/dev/null
          git lfs untrack '.gitattributes' 2>/dev/null
+         sed '/\*/!d' -i '.gitattributes'
          if [ -d "${HF_REPO_DIR}" ] && [ "$(du -s "${HF_REPO_DIR}" | cut -f1)" -gt 100 ]; then
            find "${HF_REPO_DIR}" -type f -size -3c -delete
            git sparse-checkout add "**"
