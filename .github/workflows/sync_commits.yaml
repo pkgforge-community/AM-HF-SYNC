@@ -73,6 +73,8 @@ jobs:
           sed 's#\TORSOCKS="1"#unset TORSOCKS#g' -i "${GITHUB_WORKSPACE}/main/APP-MANAGER"
           ##api.github.com --> api.gh.pkgforge.dev
           find "${GITHUB_WORKSPACE}/main" -name ".git*" -prune -o -type f -exec sed 's#api.github.com#api.gh.pkgforge.dev#g' -i "{}" + 2>/dev/null
+          ##repology.org --> api.rl.pkgforge.dev
+          find "${GITHUB_WORKSPACE}/main" -name ".git*" -prune -o -type f -exec sed 's#repology.org#api.rl.pkgforge.dev#g' -i "{}" + 2>/dev/null
           ###curl -$ARGS --> curl -A "${USER_AGENT}" -$ARGS
           #find "${GITHUB_WORKSPACE}/main" -name ".git*" -prune -o -type f -exec sed '/USER_AGENT/!s#curl -#curl -A "${USER_AGENT}" -#g' -i "{}" + 2>/dev/null
           ###wget "$ARGS --> wget -U "${USER_AGENT}" "$ARGS
