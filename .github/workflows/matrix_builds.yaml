@@ -116,8 +116,13 @@ jobs:
             [ -z "${HF_TOKEN##*[[:space:]]}" ] && echo "- HF_TOKEN is missing"
             exit 1
           else
-            (gh release create "metadata" --repo "${GITHUB_REPOSITORY}" --title "metadata" --prerelease) &>/dev/null || true
-            gh release view "metadata" --repo "${GITHUB_REPOSITORY}" 2>/dev/null || true
+            METADATA_TAG="METADATA-$(date --utc +'%Y_%m_%d-%H_%M_%S')"
+            export METADATA_TAG="$(echo "${METADATA_TAG}" | tr -d '[:space:]')"
+            echo "METADATA_TAG=${METADATA_TAG}" >> "${GITHUB_ENV}"
+            echo "GH_PAGER=" >> "${GITHUB_ENV}"
+            gh config set prompt disabled
+            gh release create "${METADATA_TAG}" --repo "${GITHUB_REPOSITORY}" --title "${METADATA_TAG}" --prerelease 2>/dev/null || true
+            gh release view "${METADATA_TAG}" --repo "${GITHUB_REPOSITORY}" 2>/dev/null || true
           fi
         continue-on-error: false
 
@@ -381,9 +386,10 @@ jobs:
             echo -e "\n[+] Build: https://huggingface.co/datasets/pkgforge/AMcache/tree/${{ env.HF_PKGBRANCH_URI }}\n"
              #if [[ -d "${METADATA_DIR}" ]] && [[ "$(du -s "${METADATA_DIR}" | cut -f1)" -gt 100 ]]; then
               pushd "${METADATA_DIR}" &>/dev/null &&\
-                find "${METADATA_DIR}" -maxdepth 1 -type f -iname "*.json" -size +3c -print0 | xargs -0 -P "$(($(nproc)+1))" -I '{}' gh release upload "metadata" --repo "${GITHUB_REPOSITORY}" '{}' --clobber
-                #gh release upload "metadata" --repo "${GITHUB_REPOSITORY}" "./${{ env.AM_PKG_NAME }}.json" --clobber
-                #echo -e "\n[+] Metadata: https://github.com/${GITHUB_REPOSITORY}/releases/download/metadata/${{ env.AM_PKG_NAME }}.json\n"
+                find "${METADATA_DIR}" -maxdepth 1 -type f -iname "*.json" -size +3c -print0 | xargs -0 -P "$(($(nproc)+1))" -I '{}' gh release upload "${METADATA_TAG}" --repo "${GITHUB_REPOSITORY}" '{}' --clobber
+                #gh release upload "${METADATA_TAG}" --repo "${GITHUB_REPOSITORY}" "./${{ env.AM_PKG_NAME }}.json" --clobber
+                #echo -e "\n[+] Metadata: https://github.com/${GITHUB_REPOSITORY}/releases/download/${METADATA_TAG}/${{ env.AM_PKG_NAME }}.json\n"
+                sleep 5 ; gh release view "${METADATA_TAG}" --repo "${GITHUB_REPOSITORY}" 2>/dev/null || true
               popd &>/dev/null
              #fi
           fi
