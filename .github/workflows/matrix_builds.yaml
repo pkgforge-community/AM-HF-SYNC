@@ -73,7 +73,7 @@ jobs:
         package: ${{ fromJson(needs.preprocess.outputs.runner_matrix) }}
     name: "${{ matrix.package.host }} ==> (${{ matrix.package.pkg-name }})"
     runs-on: "${{ matrix.package.runner }}"
-    timeout-minutes: 20
+    timeout-minutes: 15
     permissions:
       attestations: write
       contents: write

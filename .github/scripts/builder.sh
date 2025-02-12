@@ -428,7 +428,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
            git commit -m "${COMMIT_MSG}"
            retry_git_push()
            {
-            for i in {1..20}; do
+            for i in {1..10}; do
              #Generic Merge
               git pull origin "${HF_PKGBRANCH}" --ff-only 2>/dev/null
               git merge --no-ff -m "${COMMIT_MSG}"
