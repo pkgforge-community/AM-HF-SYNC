@@ -7,7 +7,7 @@
 
 #-------------------------------------------------------#
 ##Version
-AMB_VERSION="0.0.1" && echo -e "[+] AM Builder Version: ${AMB_VERSION}" ; unset AMB_VERSION
+AMB_VERSION="0.0.2" && echo -e "[+] AM Builder Version: ${AMB_VERSION}" ; unset AMB_VERSION
 ##Enable Debug 
  if [ "${DEBUG}" = "1" ] || [ "${DEBUG}" = "ON" ]; then
     set -x
@@ -62,25 +62,63 @@ pushd "$(mktemp -d)" &>/dev/null && \
   git clone --depth="1" --filter="blob:none" --no-checkout "https://huggingface.co/datasets/pkgforge/AMcache" && \
   cd "./AMcache" && HF_REPO_DIR="$(realpath .)"
   [[ -d "${HF_REPO_DIR}" ]] || echo -e "\n[-] FATAL: Failed to create ${HF_REPO_DIR}\n $(exit 1)"
-  git lfs install &>/dev/null ; huggingface-cli lfs-enable-largefiles "." &>/dev/null
-  setup_hf_pkgbranch()
-  {
-   HF_PKGBRANCH="${AM_PKG_NAME}/${HOST_TRIPLET}/${PKG_VERSION}"
-   HF_PKGBRANCH_URI="$(echo "${HF_PKGBRANCH}" | tr -d '[:space:]' | jq -sRr '@uri' | tr -d '[:space:]')"
-   echo -e "[+] Remote (Branch): ${HF_PKGBRANCH}"
-   echo -e "[+] Remote (URL): https://huggingface.co/datasets/pkgforge/AMcache/tree/${HF_PKGBRANCH_URI}"
-   git -C "${HF_REPO_DIR}" checkout -b "${HF_PKGBRANCH}" || git checkout "${HF_PKGBRANCH}"
-   if [[ "$(git -C "${HF_REPO_DIR}" rev-parse --abbrev-ref HEAD | head -n 1 | tr -d '[:space:]')" != "${HF_PKGBRANCH}" ]]; then
-      echo -e "\n[-] FATAL: Failed to switch to ${HF_PKGBRANCH}\n"
-     return 1
-   else
-     git -C "${HF_REPO_DIR}" fetch origin "${HF_PKGBRANCH}" 2>/dev/null
-     echo HF_PKGBRANCH="${HF_PKGBRANCH}" >> "${GITHUB_ENV}"
-     echo HF_PKGBRANCH_URI="${HF_PKGBRANCH_URI}" >> "${GITHUB_ENV}"
-   fi
-  }
-  export -f setup_hf_pkgbranch
-  git sparse-checkout set "" ; git sparse-checkout set --no-cone --sparse-index ".gitattributes" ; git sparse-checkout list
+  #LFS
+   git lfs install &>/dev/null ; huggingface-cli lfs-enable-largefiles "." &>/dev/null
+  #Setup Branch
+   setup_hf_pkgbranch()
+   {
+    HF_PKGBRANCH="$(echo "${AM_PKG_NAME}/${HOST_TRIPLET}/${PKG_VERSION}" | sed 's/[^a-zA-Z0-9\/_-]//g' | tr -d '[:space:]')"
+    HF_PKGBRANCH_URI="$(echo "${HF_PKGBRANCH}" | tr -d '[:space:]' | jq -sRr '@uri' | tr -d '[:space:]')"
+    echo -e "[+] Remote (Branch): ${HF_PKGBRANCH}"
+    echo -e "[+] Remote (URL): https://huggingface.co/datasets/pkgforge/AMcache/tree/${HF_PKGBRANCH_URI}"
+    git -C "${HF_REPO_DIR}" checkout -b "${HF_PKGBRANCH}" || git checkout "${HF_PKGBRANCH}"
+    if [[ "$(git -C "${HF_REPO_DIR}" rev-parse --abbrev-ref HEAD | head -n 1 | tr -d '[:space:]')" != "${HF_PKGBRANCH}" ]]; then
+       echo -e "\n[-] FATAL: Failed to switch to ${HF_PKGBRANCH}\n"
+      return 1
+    else
+      git -C "${HF_REPO_DIR}" fetch origin "${HF_PKGBRANCH}" 2>/dev/null
+      echo HF_PKGBRANCH="${HF_PKGBRANCH}" >> "${GITHUB_ENV}"
+      echo HF_PKGBRANCH_URI="${HF_PKGBRANCH_URI}" >> "${GITHUB_ENV}"
+    fi
+   }
+   export -f setup_hf_pkgbranch
+  #Git Attributes
+   fix_gitattributes()
+    {
+     if [[ -n "${HF_PKGBRANCH+x}" ]] && [[ -n "${HF_PKGBRANCH##*[[:space:]]}" ]]; then
+      pushd "$(mktemp -d)" &>/dev/null && \
+       git clone --branch "${HF_PKGBRANCH}" --depth="1" --filter="blob:none" --no-checkout \
+        "https://huggingface.co/datasets/pkgforge/AMcache" "./TEMPREPO" &>/dev/null &&\
+         cd "./TEMPREPO" && git checkout "${HF_PKGBRANCH}"
+       if [[ "$(git rev-parse --abbrev-ref HEAD | head -n 1 | tr -d '[:space:]')" == "${HF_PKGBRANCH}" ]]; then
+        git rm --cached --ignore-unmatch '.gitattributes'
+        git sparse-checkout init --cone
+        git sparse-checkout set ".gitattributes"
+        git lfs uninstall 2>/dev/null
+        git lfs untrack '.gitattributes' 2>/dev/null
+        #git checkout HEAD^ -- '.gitattributes'
+        #git restore --staged --worktree "."
+        echo '*/* filter=lfs diff=lfs merge=lfs -text' > "./.gitattributes"
+        echo '* filter=lfs diff=lfs merge=lfs -text' >> "./.gitattributes"
+        echo '!*/.* filter= -text' >> "./.gitattributes"
+        echo '!*/.*/* filter= -text' >> "./.gitattributes"
+        sed '/^[[:space:]]*[^*]/d' -i "./.gitattributes"
+        git add --all --renormalize --verbose
+        git commit -m "Init (GitAttributes)"
+        git push origin "${HF_PKGBRANCH}"
+       fi
+      [[ -d "$(realpath .)/TEMPREPO" ]] && rm -rf "$(realpath .)" &>/dev/null && popd &>/dev/null
+     fi
+    }
+   export -f fix_gitattributes
+  #Checkout
+   checkout_sparse()
+   {
+    pushd "${HF_REPO_DIR}" &>/dev/null &&\
+     git sparse-checkout set "" ; git sparse-checkout set --no-cone --sparse-index ".gitattributes" ; git sparse-checkout list
+    popd &>/dev/null
+   }
+   export -f checkout_sparse
   #Install
    readarray -d '' -t "AM_DIRS_PRE" < <(find "/opt" -maxdepth 1 -type d -print0 2>/dev/null)
    TEMP_LOG="${BUILD_DIR}/${AM_PKG_NAME}.log.tmp" && touch "${TEMP_LOG}"
@@ -188,7 +226,9 @@ pushd "$(mktemp -d)" &>/dev/null && \
           fi
          #Dir
           if [[ -d "${HF_REPO_DIR}" ]]; then
+            fix_gitattributes
             pushd "${HF_REPO_DIR}" &>/dev/null
+            checkout_sparse
             setup_hf_pkgbranch
           else
             echo -e "\n[-] FATAL: Failed to create ${HF_REPO_DIR}\n"
@@ -381,7 +421,8 @@ pushd "$(mktemp -d)" &>/dev/null && \
          COMMIT_MSG="[+] PKG [${HF_PKGBRANCH}] (${PKG_TYPE:-${PKG_VERSION}})"
          git pull origin "${HF_PKGBRANCH}" --ff-only 2>/dev/null
          git merge --no-ff -m "Merge & Sync" 2>/dev/null
-         git lfs track "./**"
+         git lfs track './**/*' '!./.*/*' '!./.*'
+         
          if [ -d "${HF_REPO_DIR}" ] && [ "$(du -s "${HF_REPO_DIR}" | cut -f1)" -gt 100 ]; then
            find "${HF_REPO_DIR}" -type f -size -3c -delete
            git sparse-checkout add "**"
