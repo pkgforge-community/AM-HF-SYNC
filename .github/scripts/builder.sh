@@ -242,7 +242,6 @@ pushd "$(mktemp -d)" &>/dev/null && \
            PKG_NAME="${PKG_NAME}"
            echo -e "[+] Name: ${PKG_NAME} ('.pkg_name')"
            PKG_DOWNLOAD_URL="https://huggingface.co/datasets/pkgforge/AMcache/resolve/${HF_PKGBRANCH_URI}/${PKG_NAME}"
-
            echo -e "[+] Download URL: ${PKG_DOWNLOAD_URL} ('.download_url')"
            get_pkg_type
            echo -e "[+] Type: ${PKG_TYPE} ('.pkg_type')"
