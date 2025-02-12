@@ -417,7 +417,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
       #Sync
        pushd "${HF_REPO_DIR}" &>/dev/null && \
          COMMIT_MSG="[+] PKG [${HF_PKGBRANCH}] (${PKG_TYPE:-${PKG_VERSION}})"
-         git pull origin "${HF_PKGBRANCH}" --ff-only 2>/dev/null
+         git pull origin "${HF_PKGBRANCH}" --ff-only || git pull --rebase origin "${HF_PKGBRANCH}"
          git merge --no-ff -m "Merge & Sync" 2>/dev/null
          git lfs track './**/*' 2>/dev/null
          git lfs untrack '.gitattributes' 2>/dev/null
