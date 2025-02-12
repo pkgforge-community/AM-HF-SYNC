@@ -358,6 +358,9 @@ jobs:
 
       - name: Check Build ==> [https://hf.co/datasets/pkgforge/AMcache/tree/${{ env.HF_PKGBRANCH_URI }}] (${{ env.PKG_TYPE }})
         if: env.CONTINUE_GHRUN != 'FALSE'
+        env:
+          GHCR_TOKEN: "${{ github.token }}"
+          GITHUB_TOKEN: "${{ github.token }}"
         run: |
           #Presets
           set +x ; set +e
