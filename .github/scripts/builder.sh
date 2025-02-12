@@ -68,6 +68,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
    setup_hf_pkgbranch()
    {
     HF_PKGBRANCH="$(echo "${AM_PKG_NAME}/${HOST_TRIPLET}/${PKG_VERSION}" | sed 's/[^a-zA-Z0-9\/_-]//g' | tr -d '[:space:]')"
+    HF_PKGBRANCH_ESC="$(echo "${HF_PKGBRANCH}" | tr -d '[:space:]' | sed 's/[^a-zA-Z0-9]/_/g' | tr -d '[:space:]')"
     HF_PKGBRANCH_URI="$(echo "${HF_PKGBRANCH}" | tr -d '[:space:]' | jq -sRr '@uri' | tr -d '[:space:]')"
     echo -e "[+] Remote (Branch): ${HF_PKGBRANCH}"
     echo -e "[+] Remote (URL): https://huggingface.co/datasets/pkgforge/AMcache/tree/${HF_PKGBRANCH_URI}"
@@ -407,7 +408,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
       #Copy Json
        if jq -r '.pkg_name' "${BUILD_DIR}/${PKG_NAME}.json" | grep -iv 'null' | tr -d '[:space:]' | grep -Eiq "^${PKG_NAME}$"; then
          cp -fv "${BUILD_DIR}/${PKG_NAME}.json" "${HF_REPO_DIR}/${PKG_NAME}.json"
-         cp -fv "${HF_REPO_DIR}/${PKG_NAME}.json" "${METADATA_DIR}/${PKG_NAME}.json"
+         cp -fv "${HF_REPO_DIR}/${PKG_NAME}.json" "${METADATA_DIR}/${HF_PKGBRANCH_ESC}-${PKG_NAME}.json"
          echo -e "\n[+] JSON <==> ${HF_PKGBRANCH}\n"
          jq . "${HF_REPO_DIR}/${PKG_NAME}.json"
        else
