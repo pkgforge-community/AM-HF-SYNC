@@ -407,6 +407,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
       #Copy Json
        if jq -r '.pkg_name' "${BUILD_DIR}/${PKG_NAME}.json" | grep -iv 'null' | tr -d '[:space:]' | grep -Eiq "^${PKG_NAME}$"; then
          cp -fv "${BUILD_DIR}/${PKG_NAME}.json" "${HF_REPO_DIR}/${PKG_NAME}.json"
+         cp -fv "${HF_REPO_DIR}/${PKG_NAME}.json" "/tmp/PKG_METADATA.json"
          echo -e "\n[+] JSON <==> ${HF_PKGBRANCH}\n"
          jq . "${HF_REPO_DIR}/${PKG_NAME}.json"
        else
