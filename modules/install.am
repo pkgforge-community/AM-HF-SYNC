@@ -261,10 +261,10 @@ _install_arg() {
 	if command -v torsocks 1>/dev/null; then
 		unset TORSOCKS
 	fi
-	if grep -q "https://repology.org" ./"$arg"; then
-		REPOLOGY_API_ALLOWED=$(curl -Ls https://repology.org/)
-		TORSOCKS_MESSAGE="you have no access to https://repology.org, needed to check the version of this program."
-		if grep -q "https://repology.org" ./"$arg" && [ -z "$REPOLOGY_API_ALLOWED" ] && [ -n "$TORSOCKS" ]; then
+	if grep -q "https://api.rl.pkgforge.dev" ./"$arg"; then
+		REPOLOGY_API_ALLOWED=$(curl -Ls https://api.rl.pkgforge.dev/)
+		TORSOCKS_MESSAGE="you have no access to https://api.rl.pkgforge.dev, needed to check the version of this program."
+		if grep -q "https://api.rl.pkgforge.dev" ./"$arg" && [ -z "$REPOLOGY_API_ALLOWED" ] && [ -n "$TORSOCKS" ]; then
 			sed -i "s/version=\$(wget/version=\$(torsocks wget/g" ./"$arg"
 		fi
 		[ -z "$REPOLOGY_API_ALLOWED" ] && [ -z "$TORSOCKS" ] && _torsocks_error_message | fold -sw 72 | sed 's/^/   /g; s/   ✖/✖/g' && return 0

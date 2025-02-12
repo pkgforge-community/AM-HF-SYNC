@@ -4,7 +4,7 @@
 
 set -ux
 APP=cursor
-SITE="https://repology.org/project/cursor/versions"
+SITE="https://api.rl.pkgforge.dev/project/cursor/versions"
 
 # CREATE DIRECTORIES AND ADD REMOVER
 [ -n "$APP" ] && mkdir -p "/opt/$APP/tmp" "/opt/$APP/icons" && cd "/opt/$APP/tmp" || exit 1
@@ -30,7 +30,7 @@ ln -s "/opt/$APP/$APP" "/usr/local/bin/$APP"
 cat >> ./AM-updater << 'EOF'
 #!/bin/sh
 APP=cursor
-SITE="https://repology.org/project/cursor/versions"
+SITE="https://api.rl.pkgforge.dev/project/cursor/versions"
 version0=$(cat /opt/$APP/version)
 version=$(wget -q "$SITE" -O - | grep "newest version" | head -1 | grep -o -P '(?<=">).*(?=</a)' | sed 's/^.*>//')
 [ -n "$version" ] || { echo "Error getting link"; exit 1; }

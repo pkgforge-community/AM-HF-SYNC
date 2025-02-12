@@ -81,7 +81,7 @@ This ease is due to the choice of the reference site: if you choose a URL that c
 Using different sites in fact starts to make things more complicated. See below.
 
 ### If the AppImage is hosted sourceforge
-If the AppImage is hosted on sourceforge.net, a dedicated function will try to intercept the app by browsing the APIs. You can also use services like repology.org if you want to find the version of the application, if it is not present in the download URL.
+If the AppImage is hosted on sourceforge.net, a dedicated function will try to intercept the app by browsing the APIs. You can also use services like api.rl.pkgforge.dev if you want to find the version of the application, if it is not present in the download URL.
 
 About the source, it should be enough to add something like this
 ```
@@ -100,7 +100,7 @@ https://github.com/user-attachments/assets/c1c08c93-3a57-45b9-9515-551555eca3c4
 NOTE, if the URL does not always appear. In that case, you need to resort to more "drastic" methods. See below.
 
 ### If the AppImage is hosted on other sistes
-For AppImages published elsewhere, you will need more advanced knowledge of how to find the latest download URL using `curl` and `wget` (preferably the former), as well as knowledge of how to use `sed`, `grep`, and `tr`. Again, you may choose to use repology.org to determine the version if it is not present in the download URL.
+For AppImages published elsewhere, you will need more advanced knowledge of how to find the latest download URL using `curl` and `wget` (preferably the former), as well as knowledge of how to use `sed`, `grep`, and `tr`. Again, you may choose to use api.rl.pkgforge.dev to determine the version if it is not present in the download URL.
 
 When downloading an installation script using the command `am -d $program` you will notice in most cases a variable "`$version`", which represents the URL for downloading the application.
 
@@ -126,17 +126,17 @@ wget "$version" || exit 1
 ```
 While **this is how a "`version`" variable looks in many sites other than the standard ones**, Inkscape for example have no `wget "$version"` reference...
 ```
-version=$(wget -q https://repology.org/project/inkscape/related -O - | grep "version-newest" | head -1 | grep -Eo "([0-9]{1,}\.)+[0-9]{1,}")
+version=$(wget -q https://api.rl.pkgforge.dev/project/inkscape/related -O - | grep "version-newest" | head -1 | grep -Eo "([0-9]{1,}\.)+[0-9]{1,}")
 wget "$(echo "https://inkscape.org/$(curl -Ls $(echo "https://inkscape.org/release/inkscape-$(curl -Ls https://inkscape.org/ | grep -Po '(?<=class="info")[^"]*' | grep -Eo "([0-9]{1,}\.)+[0-9]{1,}" | head -1)/gnulinux/appimage/dl/") | grep "click here" | grep -o -P '(?<=href=").*(?=">click)')")" || exit 1
 ```
 ...this is "Lens" instead...
 ```
-version=$(echo "https://api.k8slens.dev/binaries/Lens-$(wget -q https://repology.org/project/lens-kubernetes/versions -O - | grep "newest version" | head -1 | grep -o -P '(?<=">).*(?=</a)' | sed 's/^.*>//')-latest.x86_64.AppImage")
+version=$(echo "https://api.k8slens.dev/binaries/Lens-$(wget -q https://api.rl.pkgforge.dev/project/lens-kubernetes/versions -O - | grep "newest version" | head -1 | grep -o -P '(?<=">).*(?=</a)' | sed 's/^.*>//')-latest.x86_64.AppImage")
 wget "$version" || exit 1
 ```
 ...and this is "Ember"
 ```
-version=$(wget -q https://repology.org/project/ember/versions -O - | grep -i "new.*version" | head -1 | tr '><' '\n' | grep "^[0-9]")
+version=$(wget -q https://api.rl.pkgforge.dev/project/ember/versions -O - | grep -i "new.*version" | head -1 | tr '><' '\n' | grep "^[0-9]")
 wget "$(curl -Ls https://www.worldforge.org/downloads/ | tr '"' '\n' | grep -i "^http.*appimage")" || exit 1
 ```
 interventions like this are mostly manual.
