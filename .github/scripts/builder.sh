@@ -79,6 +79,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
     else
       git -C "${HF_REPO_DIR}" fetch origin "${HF_PKGBRANCH}" 2>/dev/null
       echo HF_PKGBRANCH="${HF_PKGBRANCH}" >> "${GITHUB_ENV}"
+      echo HF_PKGBRANCH_ESC="${HF_PKGBRANCH_ESC}" >> "${GITHUB_ENV}"
       echo HF_PKGBRANCH_URI="${HF_PKGBRANCH_URI}" >> "${GITHUB_ENV}"
     fi
    }

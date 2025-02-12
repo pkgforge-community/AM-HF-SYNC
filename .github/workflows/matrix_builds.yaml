@@ -404,12 +404,10 @@ jobs:
            exit 1
           else
             echo -e "\n[+] Build: https://huggingface.co/datasets/pkgforge/AMcache/tree/${{ env.HF_PKGBRANCH_URI }}\n"
-             if [[ -d "${METADATA_DIR}" ]] && [[ "$(du -s "${METADATA_DIR}" | cut -f1)" -gt 100 ]]; then
-              pushd "${METADATA_DIR}" &>/dev/null &&\
-                find "${METADATA_DIR}" -maxdepth 1 -type f -iname "*.json" -size +3c -print0 | xargs -0 -P "$(($(nproc)+1))" -I '{}' gh release upload "${METADATA_TAG}" --repo "${GITHUB_REPOSITORY}" '{}' --clobber
-                sleep 5 ; gh release view "${METADATA_TAG}" --repo "${GITHUB_REPOSITORY}" 2>/dev/null || true
-                echo -e "\n[+] Metadata: ${METADATA_TAG_URL}/${{ env.AM_PKG_NAME }}.json\n"
-              popd &>/dev/null
-             fi
+             pushd "${METADATA_DIR}" &>/dev/null &&\
+               find "${METADATA_DIR}" -maxdepth 1 -type f -iname "*.json" -size +3c -print0 | xargs -0 -P "$(($(nproc)+1))" -I '{}' gh release upload "${METADATA_TAG}" --repo "${GITHUB_REPOSITORY}" '{}' --clobber
+               sleep 5 ; gh release view "${METADATA_TAG}" --repo "${GITHUB_REPOSITORY}" 2>/dev/null || true
+               echo -e "\n[+] Metadata: ${METADATA_TAG_URL}/${{ env.AM_PKG_NAME }}.json\n"
+             popd &>/dev/null
           fi
         continue-on-error: false
