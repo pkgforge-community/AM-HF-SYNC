@@ -379,12 +379,12 @@ jobs:
            exit 1
           else
             echo -e "\n[+] Build: https://huggingface.co/datasets/pkgforge/AMcache/tree/${{ env.HF_PKGBRANCH_URI }}\n"
-             if [[ -d "${METADATA_DIR}" ]] && [[ "$(du -s "${METADATA_DIR}" | cut -f1)" -gt 100 ]]; then
+             #if [[ -d "${METADATA_DIR}" ]] && [[ "$(du -s "${METADATA_DIR}" | cut -f1)" -gt 100 ]]; then
               pushd "${METADATA_DIR}" &>/dev/null &&\
                 find "${METADATA_DIR}" -maxdepth 1 -type f -iname "*.json" -size +3c -print0 | xargs -0 -P "$(($(nproc)+1))" -I '{}' gh release upload "metadata" --repo "${GITHUB_REPOSITORY}" '{}' --clobber
                 #gh release upload "metadata" --repo "${GITHUB_REPOSITORY}" "./${{ env.AM_PKG_NAME }}.json" --clobber
                 #echo -e "\n[+] Metadata: https://github.com/${GITHUB_REPOSITORY}/releases/download/metadata/${{ env.AM_PKG_NAME }}.json\n"
               popd &>/dev/null
-             fi
+             #fi
           fi
         continue-on-error: false
