@@ -178,6 +178,14 @@ jobs:
           sleep 3 ; gh release view "${METADATA_TAG}" --repo "${GITHUB_REPOSITORY}"
           METADATA_TAG_URL="https://github.com/${GITHUB_REPOSITORY}/releases/tag/${METADATA_TAG}"
           echo METADATA_TAG_URL="${METADATA_TAG_URL}" >> "${GITHUB_ENV}"
+          METADATA_TAG_STATUS="$(curl -X "HEAD" -qfsSL "${METADATA_TAG_URL}" -I | sed -n 's/^[[:space:]]*HTTP\/[0-9.]*[[:space:]]\+\([0-9]\+\).*/\1/p' | tail -n1 | tr -d '[:space:]')"
+          if echo "${METADATA_TAG_STATUS}" | grep -qi '200$'; then
+            echo "CONTINUE_GHRUN=TRUE" >> "${GITHUB_ENV}"
+          else
+            echo -e "\n[✗] FATAL: Failed to Create ${METADATA_TAG} <== [Release Tag]\n"
+            echo "CONTINUE_GHRUN=FALSE" >> "${GITHUB_ENV}"
+           exit 1
+          fi
         continue-on-error: true
 
       - name: Setup Env [${{ matrix.package.host }}<==>${{ matrix.package.runner }}]
