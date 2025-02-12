@@ -180,6 +180,9 @@ jobs:
           echo METADATA_TAG_URL="${METADATA_TAG_URL}" >> "${GITHUB_ENV}"
           METADATA_TAG_STATUS="$(curl -X "HEAD" -qfsSL "${METADATA_TAG_URL}" -I | sed -n 's/^[[:space:]]*HTTP\/[0-9.]*[[:space:]]\+\([0-9]\+\).*/\1/p' | tail -n1 | tr -d '[:space:]')"
           if echo "${METADATA_TAG_STATUS}" | grep -qi '200$'; then
+            export METADATA_DIR="/tmp/PKG_METADATA"
+            echo "METADATA_DIR=${METADATA_DIR}" >> "${GITHUB_ENV}"
+            mkdir -pv "${METADATA_DIR}"
             echo "CONTINUE_GHRUN=TRUE" >> "${GITHUB_ENV}"
           else
             echo -e "\n[✗] FATAL: Failed to Create ${METADATA_TAG} <== [Release Tag]\n"
@@ -210,9 +213,6 @@ jobs:
           echo "GHA_MODE=MATRIX" >> "${GITHUB_ENV}"
           echo "GIT_TERMINAL_PROMPT=0" >> "${GITHUB_ENV}"
           echo "GIT_ASKPASS=/bin/echo" >> "${GITHUB_ENV}"
-          export METADATA_DIR="/tmp/PKG_METADATA"
-          echo "METADATA_DIR=${METADATA_DIR}" >> "${GITHUB_ENV}"
-          mkdir -pv "${METADATA_DIR}"
           git config --global "credential.helper" store
           git config --global "user.email" "AjamX101@gmail.com"
           git config --global "user.name" "Azathothas"
