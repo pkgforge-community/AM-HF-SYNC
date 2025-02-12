@@ -100,8 +100,6 @@ pushd "$(mktemp -d)" &>/dev/null && \
         #git restore --staged --worktree "."
         echo '*/* filter=lfs diff=lfs merge=lfs -text' > "./.gitattributes"
         echo '* filter=lfs diff=lfs merge=lfs -text' >> "./.gitattributes"
-        echo '!*/.* filter= -text' >> "./.gitattributes"
-        echo '!*/.*/* filter= -text' >> "./.gitattributes"
         sed '/^[[:space:]]*[^*]/d' -i "./.gitattributes"
         git add --all --renormalize --verbose
         git commit -m "Init (GitAttributes)"
@@ -420,13 +418,14 @@ pushd "$(mktemp -d)" &>/dev/null && \
          COMMIT_MSG="[+] PKG [${HF_PKGBRANCH}] (${PKG_TYPE:-${PKG_VERSION}})"
          git pull origin "${HF_PKGBRANCH}" --ff-only 2>/dev/null
          git merge --no-ff -m "Merge & Sync" 2>/dev/null
-         git lfs track './**/*' '!./.*/*' '!./.*'
-         
+         git lfs track './**/*'
+         git lfs untrack '.gitattributes' 2>/dev/null
          if [ -d "${HF_REPO_DIR}" ] && [ "$(du -s "${HF_REPO_DIR}" | cut -f1)" -gt 100 ]; then
            find "${HF_REPO_DIR}" -type f -size -3c -delete
            git sparse-checkout add "**"
            git sparse-checkout list
-           git add --all --verbose && git commit -m "${COMMIT_MSG}"
+           git add --all --renormalize --verbose
+           git commit -m "${COMMIT_MSG}"
            retry_git_push()
            {
             for i in {1..20}; do
