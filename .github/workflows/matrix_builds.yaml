@@ -162,6 +162,9 @@ jobs:
 
       - name: Create Metadata Tag [${{ matrix.package.host }}<==>${{ matrix.package.runner }}]
         if: env.CONTINUE_GHRUN != 'FALSE'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}      
         run: |
           ##presets
           set +x ; set +e
