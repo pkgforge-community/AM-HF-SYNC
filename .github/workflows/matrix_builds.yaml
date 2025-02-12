@@ -115,6 +115,8 @@ jobs:
             [ -z "${RO_GHTOKEN##*[[:space:]]}" ] && echo "- RO_GHTOKEN is missing"
             [ -z "${HF_TOKEN##*[[:space:]]}" ] && echo "- HF_TOKEN is missing"
             exit 1
+          else
+            gh release create "metadata" --repo "${GITHUB_REPOSITORY}" --title "metadata" --prerelease 2>/dev/null
           fi
         continue-on-error: false
 
@@ -376,8 +378,6 @@ jobs:
              if [[ -s "/tmp/PKG_METADATA.json" && $(stat -c%s "/tmp/PKG_METADATA.json") -gt 10 ]]; then
               pushd "$(mktemp -d)" &>/dev/null
                 cp -fv "/tmp/PKG_METADATA.json" "./${{ env.AM_PKG_NAME }}.json"
-                gh release create "metadata" --repo "${GITHUB_REPOSITORY}" --title "metadata" --prerelease 2>/dev/null
-                sleep 5
                 gh release upload "metadata" --repo "${GITHUB_REPOSITORY}" "./${{ env.AM_PKG_NAME }}.json" --clobber
                 echo -e "\n[+] Metadata: https://github.com/${GITHUB_REPOSITORY}/releases/download/metadata/${{ env.AM_PKG_NAME }}.json\n"
               popd &>/dev/null
