@@ -115,14 +115,6 @@ jobs:
             [ -z "${RO_GHTOKEN##*[[:space:]]}" ] && echo "- RO_GHTOKEN is missing"
             [ -z "${HF_TOKEN##*[[:space:]]}" ] && echo "- HF_TOKEN is missing"
             exit 1
-          else
-            METADATA_TAG="METADATA-$(date --utc +'%Y_%m_%d-%H_%M_%S')"
-            export METADATA_TAG="$(echo "${METADATA_TAG}" | tr -d '[:space:]')"
-            echo "METADATA_TAG=${METADATA_TAG}" >> "${GITHUB_ENV}"
-            echo "GH_PAGER=" >> "${GITHUB_ENV}"
-            gh config set prompt disabled
-            gh release create "${METADATA_TAG}" --repo "${GITHUB_REPOSITORY}" --title "${METADATA_TAG}" --prerelease 2>/dev/null || true
-            gh release view "${METADATA_TAG}" --repo "${GITHUB_REPOSITORY}" 2>/dev/null || true
           fi
         continue-on-error: false
 
@@ -167,6 +159,23 @@ jobs:
            popd >/dev/null 2>&1
            echo -e "\n==> ${PKG_SCRIPT_URL}\n"
         continue-on-error: false
+
+      - name: Create Metadata Tag [${{ matrix.package.host }}<==>${{ matrix.package.runner }}]
+        if: env.CONTINUE_GHRUN != 'FALSE'
+        run: |
+          ##presets
+          set +x ; set +e
+          #-------------#
+          METADATA_TAG="METADATA-$(date --utc +'%Y_%m_%d')"
+          export METADATA_TAG="$(echo "${METADATA_TAG}" | tr -d '[:space:]')"
+          echo "METADATA_TAG=${METADATA_TAG}" >> "${GITHUB_ENV}"
+          echo "GH_PAGER=" >> "${GITHUB_ENV}"
+          gh config set prompt disabled
+          gh release create "${METADATA_TAG}" --repo "${GITHUB_REPOSITORY}" --title "${METADATA_TAG}" --prerelease
+          sleep 3 ; gh release view "${METADATA_TAG}" --repo "${GITHUB_REPOSITORY}"
+          METADATA_TAG_URL="https://github.com/${GITHUB_REPOSITORY}/releases/tag/${METADATA_TAG}"
+          echo METADATA_TAG_URL="${METADATA_TAG_URL}" >> "${GITHUB_ENV}"
+        continue-on-error: true
 
       - name: Setup Env [${{ matrix.package.host }}<==>${{ matrix.package.runner }}]
         if: env.CONTINUE_GHRUN != 'FALSE'
@@ -384,13 +393,12 @@ jobs:
            exit 1
           else
             echo -e "\n[+] Build: https://huggingface.co/datasets/pkgforge/AMcache/tree/${{ env.HF_PKGBRANCH_URI }}\n"
-             #if [[ -d "${METADATA_DIR}" ]] && [[ "$(du -s "${METADATA_DIR}" | cut -f1)" -gt 100 ]]; then
+             if [[ -d "${METADATA_DIR}" ]] && [[ "$(du -s "${METADATA_DIR}" | cut -f1)" -gt 100 ]]; then
               pushd "${METADATA_DIR}" &>/dev/null &&\
                 find "${METADATA_DIR}" -maxdepth 1 -type f -iname "*.json" -size +3c -print0 | xargs -0 -P "$(($(nproc)+1))" -I '{}' gh release upload "${METADATA_TAG}" --repo "${GITHUB_REPOSITORY}" '{}' --clobber
-                #gh release upload "${METADATA_TAG}" --repo "${GITHUB_REPOSITORY}" "./${{ env.AM_PKG_NAME }}.json" --clobber
-                #echo -e "\n[+] Metadata: https://github.com/${GITHUB_REPOSITORY}/releases/download/${METADATA_TAG}/${{ env.AM_PKG_NAME }}.json\n"
                 sleep 5 ; gh release view "${METADATA_TAG}" --repo "${GITHUB_REPOSITORY}" 2>/dev/null || true
+                echo -e "\n[+] Metadata: ${METADATA_TAG_URL}/${{ env.AM_PKG_NAME }}.json\n"
               popd &>/dev/null
-             #fi
+             fi
           fi
         continue-on-error: false
