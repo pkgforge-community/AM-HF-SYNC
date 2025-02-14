@@ -429,6 +429,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
            find "${HF_REPO_DIR}" -type f -size -3c -delete
            git sparse-checkout add "**"
            git sparse-checkout list
+           find "." -maxdepth 1 -type f -not -path "*/\.*" | xargs -I "{}" git add "{}" --verbose
            git add --all --renormalize --verbose
            git commit -m "${COMMIT_MSG}"
            retry_git_push()
@@ -460,6 +461,11 @@ pushd "$(mktemp -d)" &>/dev/null && \
             fi
            fi
            du -sh "${HF_REPO_DIR}" && realpath "${HF_REPO_DIR}"
+         else
+           echo -e "\n[-] FATAL: Failed to Build ==> ${AM_PKG_NAME}\n"
+           echo "GHA_BUILD_FAILED=YES" >> "${GITHUB_ENV}"
+           echo "BUILD_SUCCESSFUL=NO" >> "${GITHUB_ENV}"
+           echo "PUSH_SUCCESSFUL=NO" >> "${GITHUB_ENV}"
          fi
        pushd "${TMPDIR}" &>/dev/null
      else
