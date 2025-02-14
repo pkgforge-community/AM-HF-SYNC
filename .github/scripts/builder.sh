@@ -105,7 +105,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
         sed '/^[[:space:]]*[^*]/d' -i "./.gitattributes"
         git add --all --renormalize --verbose
         git commit -m "Init (GitAttributes)"
-        git push origin "${HF_PKGBRANCH}"
+        git push -u origin "${HF_PKGBRANCH}"
        fi
       [[ -d "$(realpath .)/TEMPREPO" ]] && rm -rf "$(realpath .)" &>/dev/null && popd &>/dev/null
      fi
@@ -418,9 +418,10 @@ pushd "$(mktemp -d)" &>/dev/null && \
        fi
       #Sync
        pushd "${HF_REPO_DIR}" &>/dev/null && \
+         git remote -v
          COMMIT_MSG="[+] PKG [${HF_PKGBRANCH}] (${PKG_TYPE:-${PKG_VERSION}})"
-         git pull origin "${HF_PKGBRANCH}"
-         git pull origin "${HF_PKGBRANCH}" --ff-only || git pull --rebase origin "${HF_PKGBRANCH}"
+         git pull -u origin "${HF_PKGBRANCH}"
+         git pull -u origin "${HF_PKGBRANCH}" --ff-only || git pull --rebase origin "${HF_PKGBRANCH}"
          git merge --no-ff -m "Merge & Sync" 2>/dev/null
          git lfs track './**/*' 2>/dev/null
          git lfs untrack '.gitattributes' 2>/dev/null
@@ -436,11 +437,11 @@ pushd "$(mktemp -d)" &>/dev/null && \
            {
             for i in {1..10}; do
              #Generic Merge
-              git pull origin "${HF_PKGBRANCH}" --ff-only
+              git pull -u origin "${HF_PKGBRANCH}" --ff-only
               git merge --no-ff -m "${COMMIT_MSG}"
              #Push
-              git pull origin "${HF_PKGBRANCH}" 2>/dev/null
-              if git push origin "${HF_PKGBRANCH}"; then
+              git pull -u origin "${HF_PKGBRANCH}" 2>/dev/null
+              if git push -u origin "${HF_PKGBRANCH}"; then
                  echo "PUSH_SUCCESSFUL=YES" >> "${GITHUB_ENV}"
                  break
               fi
