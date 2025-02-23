@@ -90,7 +90,7 @@ jobs:
       - name: Update/Generate BUILD_LIST
         run: |
           #Presets
-          set +x ; set +e
+          set -x ; set +e
           #--------------#
           ##AM
           pushd "$(mktemp -d)" &>/dev/null && git clone --filter="blob:none" --depth="1" --no-checkout "https://github.com/ivan-hc/AM" && cd "./AM"
