@@ -133,7 +133,7 @@ jobs:
              BUILD_LIST_TMP="$(wc -l < "./BUILD_LIST.tmp" | tr -cd '[:digit:]' | tr -d '[:space:]')"
              if [[ "${BUILD_LIST_TMP}" -gt 255 ]]; then
                echo -e "\n[+] Generating Build List (Diff from Prebuilts [${BUILD_LIST_TMP}])\n"
-               head -n 256 "./BUILD_LIST.tmp" | sort -u -o "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt"
+               head -n 256 "./BUILD_LIST.tmp" | sort -u -o "./BUILD_LIST_x86_64-Linux.txt"
              elif [[ "${BUILD_LIST_TMP}" -lt 10 ]]; then
                echo -e "\n[+] Generating Build List (Diff from Prebuilts + PKG_LIST [${BUILD_LIST_TMP}])\n"
                printf "%s\n" "${AM_PKGS_X86[@]}" | head -n 240 | sort -u >> "./BUILD_LIST_x86_64-Linux.txt"
@@ -143,11 +143,10 @@ jobs:
                fi
              else
                echo -e "\n[+] Generating Build List (Diff from BUILD_LIST [${BUILD_LIST_TMP}])\n"
-               head -n 256 "./BUILD_LIST.tmp" | sort -u -o "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt"
+               head -n 256 "./BUILD_LIST.tmp" | sort -u -o "./BUILD_LIST_x86_64-Linux.txt"
              fi
                cat "./BUILD_LIST_x86_64-Linux.txt" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | head -n 256 > "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt"
                sort -u "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt" -o "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt"
-             fi
            #fi
            sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${GITHUB_WORKSPACE}/main/.github/CACHE_LIST.txt"
            sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${GITHUB_WORKSPACE}/main/.github/PKG_LIST_x86_64-Linux.txt"
