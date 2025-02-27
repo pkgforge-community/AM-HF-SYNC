@@ -266,7 +266,8 @@ jobs:
           sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/7z" -o "/usr/bin/7z" &
           sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/7z" -o "/usr/local/bin/7z" &
           sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/ansi2txt" -o "/usr/local/bin/ansi2txt" &
-          sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/aria2c" -o "/usr/local/bin/aria2c" &
+          sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/aria2" -o "/usr/local/bin/aria2" &
+          sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/aria2" -o "/usr/local/bin/aria2c" &
           sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/askalono" -o "/usr/local/bin/askalono" &
           sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/bsdtar" -o "/usr/local/bin/bsdtar" &
           sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/b3sum" -o "/usr/local/bin/b3sum" &
@@ -286,6 +287,7 @@ jobs:
           "/usr/bin/7z" \
           "/usr/local/bin/7z" \
           "/usr/local/bin/ansi2txt" \
+          "/usr/local/bin/aria2" \
           "/usr/local/bin/aria2c" \
           "/usr/local/bin/askalono" \
           "/usr/local/bin/bsdtar" \
