@@ -295,6 +295,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
              echo -e "[+] Desktop: ${PKG_DESKTOP} ('.desktop')"
            fi
           fi
+          find "${HF_REPO_DIR}" -maxdepth 1 -type f -iname "*.desktop" -exec sed -E 's/^[[:space:]]*[Ee]xec[[:space:]]*=[[:space:]]*[^[:space:]]+/Exec={{pkg_path}}/' -i "{}" \;
          #Homepage
           PKG_HOMEPAGE="$(grep -o 'http[s]\?://[^"]*' "${HF_REPO_DIR}/${PKG_NAME}.txt" | tr -d '"' | grep -iv "github.com" | head -n 1 | tr -d '[:space:]')"
           PKG_HOMEPAGE_GH="$(grep -o 'http[s]\?://[^"]*' "${HF_REPO_DIR}/${PKG_NAME}.txt" | tr -d '"' | grep -i "github.com" | head -n 1 | tr -d '[:space:]')"
