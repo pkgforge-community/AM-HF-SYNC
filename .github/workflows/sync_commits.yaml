@@ -123,7 +123,7 @@ jobs:
             #Reset Array to new
              AM_PKGS_X86=()
              readarray -t "AM_PKGS_X86" < <(printf "%s\n" "${AM_PKGS_X86_TMP[@]}" | sort -u | comm -23 - <(printf "%s\n" "${QUEUE_LIST_X86[@]}" | sort -u))
-             echo -e "\n[+] AM_PKGS_X86 ==> ${#AM_PKGS_X86_TMP[@]}\n"
+             echo -e "\n[+] AM_PKGS_X86 ==> ${#AM_PKGS_X86[@]}\n"
            fi
            #readarray -t "AM_PREBUILTS" < <(git -C "${HF_REPO_LOCAL}" ls-tree --name-only 'HEAD' | xargs -I "{}" basename "{}" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | grep -Eiv '\.(git|md|txt)')
            readarray -t "AM_PREBUILTS" < <(curl -qfsSL "https://meta.pkgforge.dev/external/am/x86_64-Linux.json" | jq -r '.[] | .pkg' | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g')
