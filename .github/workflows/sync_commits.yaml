@@ -139,7 +139,9 @@ jobs:
                head -n 256 "./BUILD_LIST.tmp" | sort -u -o "./BUILD_LIST_x86_64-Linux.txt"
              elif [[ "${BUILD_LIST_TMP}" -lt 10 ]]; then
                echo -e "\n[+] Generating Build List (Diff from Prebuilts + PKG_LIST [${BUILD_LIST_TMP}])\n"
-               printf "%s\n" "${AM_PKGS_X86[@]}" | head -n 240 | sort -u >> "./BUILD_LIST_x86_64-Linux.txt"
+               #printf "%s\n" "${AM_PKGS_X86[@]}" | head -n 240 | sort -u >> "./BUILD_LIST_x86_64-Linux.txt"
+               #printf "%s\n" "${AM_PKGS_X86[@]:0:240}" | sort -u >> "./BUILD_LIST_x86_64-Linux.txt"
+               printf "%q\n" "${AM_PKGS_X86[@]:0:240}" | xargs -n1 | sort -u >> "./BUILD_LIST_x86_64-Linux.txt"
                if [[ "$(wc -l < "./BUILD_LIST_x86_64-Linux.txt" | tr -cd '[:digit:]')" -lt 10 ]]; then
                   echo -e "\n[+] Generating Build List (Diff from Prebuilts + PKG_LIST + Old Prebuilts)\n"
                   curl -qfsSL "https://meta.pkgforge.dev/external/am/x86_64-Linux.json" | jq -r --arg CUT_OFF "$(date -u -d '5 days ago' +%Y-%m-%dT%H:%M:%SZ)" '.[] | select(.build_date < $CUT_OFF) | .pkg' | head -n 240 | sort -u >> "./BUILD_LIST_x86_64-Linux.txt"
