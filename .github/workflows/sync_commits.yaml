@@ -47,7 +47,7 @@ jobs:
           ##Main
           pushd "$(mktemp -d)" &>/dev/null && git clone --filter="blob:none" --quiet "https://github.com/ivan-hc/AM" && cd "./AM"
           LATEST_COMMIT="$(git rev-parse HEAD | tr -d "[:space:]")" && export LATEST_COMMIT="${LATEST_COMMIT}"
-          LATEST_COMMI_M="$(git log -1 --pretty="%B" | head -n 1)" && export LATEST_COMMIT="${LATEST_COMMIT}"
+          LATEST_COMMI_M="$(git log -1 --pretty="%B" | sed -e '/^[[:space:]]*$/d;1q')" && export LATEST_COMMIT="${LATEST_COMMIT}"
           echo "LATEST_COMMI_M=${LATEST_COMMI_M}" >> "${GITHUB_ENV}"
           PREV_COMMIT="$(cat "${GITHUB_WORKSPACE}/main/.github/LATEST.txt" 2>/dev/null)" && export PREV_COMMIT="${PREV_COMMIT}"
           if [ "${LATEST_COMMIT}" != "${PREV_COMMIT}" ]; then
@@ -136,22 +136,22 @@ jobs:
              BUILD_LIST_TMP="$(wc -l < "./BUILD_LIST.tmp" | tr -cd '[:digit:]' | tr -d '[:space:]')"
              if [[ "${BUILD_LIST_TMP}" -gt 255 ]]; then
                echo -e "\n[+] Generating Build List (Diff from Prebuilts [${BUILD_LIST_TMP}])\n"
-               head -n 256 "./BUILD_LIST.tmp" | sort -u -o "./BUILD_LIST_x86_64-Linux.txt"
+               sed -e '/^[[:space:]]*$/d;256q' "./BUILD_LIST.tmp" | sort -u -o "./BUILD_LIST_x86_64-Linux.txt"
              elif [[ "${BUILD_LIST_TMP}" -lt 10 ]]; then
                #echo -e "\n[+] Generating Build List (Diff from Prebuilts + PKG_LIST [${BUILD_LIST_TMP}])\n"
                #printf "%q\n" "${AM_PKGS_X86[@]:0:240}" | xargs -n1 | sort -u >> "./BUILD_LIST_x86_64-Linux.txt"
-               head -n 10 "./BUILD_LIST.tmp" | sort -u -o "./BUILD_LIST_x86_64-Linux.txt"
+               sed -e '/^[[:space:]]*$/d;10q' "./BUILD_LIST.tmp" | sort -u -o "./BUILD_LIST_x86_64-Linux.txt"
                if [[ "$(wc -l < "./BUILD_LIST_x86_64-Linux.txt" | tr -cd '[:digit:]')" -lt 10 ]]; then
                   echo -e "\n[+] Generating Build List (Diff from Prebuilts + PKG_LIST + Old Prebuilts)\n"
                   curl -qfsSL "https://meta.pkgforge.dev/external/am/x86_64-Linux.json" | jq -r --arg CUT_OFF "$(date -u -d '5 days ago' +%Y-%m-%dT%H:%M:%SZ)" '[.[] | select(.build_date < $CUT_OFF) | .pkg][0:240] | .[]' | sort -u >> "./BUILD_LIST_x86_64-Linux.txt"
                fi
              else
                echo -e "\n[+] Generating Build List (Diff from BUILD_LIST [${BUILD_LIST_TMP}])\n"
-               head -n 256 "./BUILD_LIST.tmp" | sort -u -o "./BUILD_LIST_x86_64-Linux.txt"
+               sed -e '/^[[:space:]]*$/d;256q' "./BUILD_LIST.tmp" | sort -u -o "./BUILD_LIST_x86_64-Linux.txt"
              fi
-               cat "./BUILD_LIST_x86_64-Linux.txt" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | head -n 256 > "./file1.tmp"
+               cat "./BUILD_LIST_x86_64-Linux.txt" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | sed -e '/^[[:space:]]*$/d;256q' > "./file1.tmp"
                cat "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' > "./file2.tmp"
-               comm -3 "./file1.tmp" "./file2.tmp" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | head -n 256 > "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt"
+               comm -3 "./file1.tmp" "./file2.tmp" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | sed -e '/^[[:space:]]*$/d;256q' > "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt"
                sort -u "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt" -o "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt"
            #fi
            sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${GITHUB_WORKSPACE}/main/.github/CACHE_LIST.txt"

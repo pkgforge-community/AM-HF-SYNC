@@ -73,7 +73,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
     echo -e "[+] Remote (Branch): ${HF_PKGBRANCH}"
     echo -e "[+] Remote (URL): https://huggingface.co/datasets/pkgforge/AMcache/tree/${HF_PKGBRANCH_URI}"
     git -C "${HF_REPO_DIR}" checkout -b "${HF_PKGBRANCH}" || git checkout "${HF_PKGBRANCH}"
-    if [[ "$(git -C "${HF_REPO_DIR}" rev-parse --abbrev-ref HEAD | head -n 1 | tr -d '[:space:]')" != "${HF_PKGBRANCH}" ]]; then
+    if [[ "$(git -C "${HF_REPO_DIR}" rev-parse --abbrev-ref HEAD | sed -e '/^[[:space:]]*$/d;1q' | tr -d '[:space:]')" != "${HF_PKGBRANCH}" ]]; then
        echo -e "\n[-] FATAL: Failed to switch to ${HF_PKGBRANCH}\n"
       return 1
     else
@@ -92,7 +92,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
        git clone --branch "${HF_PKGBRANCH}" --depth="1" --filter="blob:none" --no-checkout \
         "https://huggingface.co/datasets/pkgforge/AMcache" "./TEMPREPO" &>/dev/null &&\
          cd "./TEMPREPO" && git checkout "${HF_PKGBRANCH}"
-       if [[ "$(git rev-parse --abbrev-ref HEAD | head -n 1 | tr -d '[:space:]')" == "${HF_PKGBRANCH}" ]]; then
+       if [[ "$(git rev-parse --abbrev-ref HEAD | sed -e '/^[[:space:]]*$/d;1q' | tr -d '[:space:]')" == "${HF_PKGBRANCH}" ]]; then
         git rm --cached --ignore-unmatch '.gitattributes'
         git sparse-checkout init --cone
         git sparse-checkout set ".gitattributes"
@@ -186,7 +186,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
    }
    export -f get_pkg_type
   #Check
-   AM_DIR_PKG="$(comm -13 <(printf "%s\n" "${AM_DIRS_PRE[@]}" | sort) <(printf "%s\n" "${AM_DIRS_POST[@]}" | sort) | awk -F'/' '!seen[$2 "/" $3]++ {print "/opt/" $3}' | head -n 1 | tr -d '[:space:]')"
+   AM_DIR_PKG="$(comm -13 <(printf "%s\n" "${AM_DIRS_PRE[@]}" | sort) <(printf "%s\n" "${AM_DIRS_POST[@]}" | sort) | awk -F'/' '!seen[$2 "/" $3]++ {print "/opt/" $3}' | sed -e '/^[[:space:]]*$/d;1q' | tr -d '[:space:]')"
    if [[ -d "${AM_DIR_PKG}" ]] && [[ "$(du -s "${AM_DIR_PKG}" | cut -f1)" -gt 100 ]]; then
     #Lowercase
      find "${AM_DIR_PKG}" -maxdepth 1 -type f -exec bash -c 'for f; do file -i "$f" | grep -Ei "application/.*executable" >/dev/null && mv -fv "$f" "$(dirname "$f")/$(basename "$f" | tr [:upper:] [:lower:])" 2>/dev/null; done' bash "{}" +
@@ -278,13 +278,13 @@ pushd "$(mktemp -d)" &>/dev/null && \
             PKG_DESCRIPTION="$(awk 'BEGIN {IGNORECASE=1}
                /version:/ {f=1; next}
                /site:/ {f=0}
-               f {sub(/.*]➜[[:space:]]*/, ""); sub(/^[[:space:].]+/, ""); sub(/[[:space:].]+$/, ""); if (NF) print}' "${HF_REPO_DIR}/${PKG_NAME}.log" 2>/dev/null | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | head -n 1)"
+               f {sub(/.*]➜[[:space:]]*/, ""); sub(/^[[:space:].]+/, ""); sub(/[[:space:].]+$/, ""); if (NF) print}' "${HF_REPO_DIR}/${PKG_NAME}.log" 2>/dev/null | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | sed -e '/^[[:space:]]*$/d;1q')"
           fi
           PKG_DESCRIPTION_TMP="${PKG_DESCRIPTION}"
           PKG_DESCRIPTION="$(echo "${PKG_DESCRIPTION_TMP}" | sed 's/`//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed ':a;N;$!ba;s/\r\n//g; s/\n//g' | sed 's/["'\'']//g' | sed 's/|//g' | sed 's/`//g')"
           echo -e "[+] Description: ${PKG_DESCRIPTION} ('.description')"
          #Desktop
-          DESKTOP_FILE="$(find '/usr/local/share/applications/' -type f -iname "*AM*desktop" -print | sort -u | head -n 1 | tr -d '[:space:]')"
+          DESKTOP_FILE="$(find '/usr/local/share/applications/' -type f -iname "*AM*desktop" -print | sort -u | sed -e '/^[[:space:]]*$/d;1q' | tr -d '[:space:]')"
           if [[ -f "${DESKTOP_FILE}" ]] && [[ $(stat -c%s "${DESKTOP_FILE}") -gt 5 ]]; then
            cp -fv "${DESKTOP_FILE}" "${HF_REPO_DIR}/${PKG_NAME}.desktop"
            if [[ -f "${HF_REPO_DIR}/${PKG_NAME}.desktop" ]] && [[ $(stat -c%s "${HF_REPO_DIR}/${PKG_NAME}.desktop") -gt 5 ]]; then
@@ -297,8 +297,8 @@ pushd "$(mktemp -d)" &>/dev/null && \
           fi
           find "${HF_REPO_DIR}" -maxdepth 1 -type f -iname "*.desktop" -exec sed -E 's/^[[:space:]]*[Ee]xec[[:space:]]*=[[:space:]]*[^[:space:]]+/Exec={{pkg_path}}/' -i "{}" \;
          #Homepage
-          PKG_HOMEPAGE="$(grep -o 'http[s]\?://[^"]*' "${HF_REPO_DIR}/${PKG_NAME}.txt" | tr -d '"' | grep -iv "github.com" | head -n 1 | tr -d '[:space:]')"
-          PKG_HOMEPAGE_GH="$(grep -o 'http[s]\?://[^"]*' "${HF_REPO_DIR}/${PKG_NAME}.txt" | tr -d '"' | grep -i "github.com" | head -n 1 | tr -d '[:space:]')"
+          PKG_HOMEPAGE="$(grep -o 'http[s]\?://[^"]*' "${HF_REPO_DIR}/${PKG_NAME}.txt" | tr -d '"' | grep -iv "github.com" | sed -e '/^[[:space:]]*$/d;1q' | tr -d '[:space:]')"
+          PKG_HOMEPAGE_GH="$(grep -o 'http[s]\?://[^"]*' "${HF_REPO_DIR}/${PKG_NAME}.txt" | tr -d '"' | grep -i "github.com" | sed -e '/^[[:space:]]*$/d;1q' | tr -d '[:space:]')"
           if echo "${PKG_HOMEPAGE_GH}" | grep -qi 'http'; then
             PKG_HOMEPAGE="${PKG_HOMEPAGE_GH}"
             PKG_SRC_URL="${PKG_HOMEPAGE_GH}"
@@ -311,7 +311,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
           fi
           echo -e "[+] Homepage: ${PKG_HOMEPAGE} ('.homepage')"
          #Icon
-          ICON_FILE="$(find "${AM_DIR_PKG}/icons" -type f -exec stat --format="%s %n" "{}" + | sort -nr | head -n1 | sed 's/^[0-9]\+[[:space:]]\+//')"
+          ICON_FILE="$(find "${AM_DIR_PKG}/icons" -type f -exec stat --format="%s %n" "{}" + | sort -nr | sed -e '/^[[:space:]]*$/d;1q' | sed 's/^[0-9]\+[[:space:]]\+//')"
           if [[ -f "${ICON_FILE}" ]] && [[ $(stat -c%s "${ICON_FILE}") -gt 5 ]]; then
             ICON_TYPE="$(file -i "${ICON_FILE}")"
              if echo "${ICON_TYPE}" | grep -qiE 'image/(png)'; then
