@@ -143,7 +143,7 @@ jobs:
                head -n 10 "./BUILD_LIST.tmp" | sort -u -o "./BUILD_LIST_x86_64-Linux.txt"
                if [[ "$(wc -l < "./BUILD_LIST_x86_64-Linux.txt" | tr -cd '[:digit:]')" -lt 10 ]]; then
                   echo -e "\n[+] Generating Build List (Diff from Prebuilts + PKG_LIST + Old Prebuilts)\n"
-                  curl -qfsSL "https://meta.pkgforge.dev/external/am/x86_64-Linux.json" | jq -r --arg CUT_OFF "$(date -u -d '5 days ago' +%Y-%m-%dT%H:%M:%SZ)" '.[] | select(.build_date < $CUT_OFF) | .pkg' | head -n 240 | sort -u >> "./BUILD_LIST_x86_64-Linux.txt"
+                  curl -qfsSL "https://meta.pkgforge.dev/external/am/x86_64-Linux.json" | jq -r --arg CUT_OFF "$(date -u -d '5 days ago' +%Y-%m-%dT%H:%M:%SZ)" '[.[] | select(.build_date < $CUT_OFF) | .pkg][0:240] | .[]' | sort -u >> "./BUILD_LIST_x86_64-Linux.txt"
                fi
              else
                echo -e "\n[+] Generating Build List (Diff from BUILD_LIST [${BUILD_LIST_TMP}])\n"
