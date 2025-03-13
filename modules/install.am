@@ -261,14 +261,7 @@ _install_arg() {
 	if command -v torsocks 1>/dev/null; then
 		unset TORSOCKS
 	fi
-	if grep -q "https://api.rl.pkgforge.dev" ./"$arg"; then
-		REPOLOGY_API_ALLOWED=$(curl -Ls https://api.rl.pkgforge.dev/)
-		TORSOCKS_MESSAGE="you have no access to https://api.rl.pkgforge.dev, needed to check the version of this program."
-		if grep -q "https://api.rl.pkgforge.dev" ./"$arg" && [ -z "$REPOLOGY_API_ALLOWED" ] && [ -n "$TORSOCKS" ]; then
-			sed -i "s/version=\$(wget/version=\$(torsocks wget/g" ./"$arg"
-		fi
-		[ -z "$REPOLOGY_API_ALLOWED" ] && [ -z "$TORSOCKS" ] && _torsocks_error_message | fold -sw 72 | sed 's/^/   /g; s/   ✖/✖/g' && return 0
-	elif grep -q "api.gh.pkgforge.dev" ./"$arg"; then
+	if grep -q "api.gh.pkgforge.dev" ./"$arg"; then
 		GH_API_ALLOWED=$(curl -Ls $HeaderAuthWithGITPAT https://api.gh.pkgforge.dev/repos/pkgforge-community/AM-HF-SYNC/releases/latest | sed 's/[()",{} ]/\n/g' | grep "^Azathothas" | head -1)
 		TORSOCKS_MESSAGE="you have reached GitHub API limit."
 		[ -z "$GH_API_ALLOWED" ] && [ -z "$TORSOCKS" ] && _torsocks_error_message | fold -sw 72 | sed 's/^/   /g; s/   ✖/✖/g' && return 0
