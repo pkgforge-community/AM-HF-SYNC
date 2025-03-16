@@ -398,25 +398,29 @@ jobs:
           #Presets
           set +x ; set +e
           #--------------#
-          REMOTE_PKG_URL="https://huggingface.co/datasets/pkgforge/AMcache/tree/${{ env.HF_PKGBRANCH_URI }}"
-          export REMOTE_PKG_URL
-          if [[ "${GHA_BUILD_FAILED}" == "YES" || "${BUILD_SUCCESSFUL}" == "NO" ]]; then
-            echo -e "\n[-] FATAL: Failed to Successfully Build ${{ matrix.package.pkg-name }}"
-           exit 1
-          elif [[ "${PUSH_SUCCESSFUL}" != "YES" ]]; then
-            echo -e "\n[-] FATAL: Failed to Push (Git) ==> ${REMOTE_PKG_URL}"
-            #Check if succeeded via CLI
-            REMOTE_PKG_STATUS="$(curl -X "HEAD" -qfsSL "${REMOTE_PKG_URL}" -I | sed -n 's/^[[:space:]]*HTTP\/[0-9.]*[[:space:]]\+\([0-9]\+\).*/\1/p' | tail -n1 | tr -d '[:space:]')"
-             if echo "${REMOTE_PKG_STATUS}" | grep -qiv '200$'; then
-               echo -e "\n[-] FATAL: Failed to Push (HF CLI) ==> ${REMOTE_PKG_URL}"
-              exit 1
-             fi
-          else
-            echo -e "\n[+] Build: https://huggingface.co/datasets/pkgforge/AMcache/tree/${{ env.HF_PKGBRANCH_URI }}\n"
-             pushd "${METADATA_DIR}" &>/dev/null &&\
-               find "${METADATA_DIR}" -maxdepth 1 -type f -iname "*.json" -size +3c -print0 | xargs -0 -P "$(($(nproc)+1))" -I '{}' gh release upload "${METADATA_TAG}" --repo "${GITHUB_REPOSITORY}" '{}' --clobber
-               sleep 5 ; gh release view "${METADATA_TAG}" --repo "${GITHUB_REPOSITORY}" 2>/dev/null || true
-               echo -e "\n[+] Metadata: ${METADATA_TAG_URL}/${{ env.AM_PKG_NAME }}.json\n"
-             popd &>/dev/null
-          fi
+          #Set
+           REMOTE_PKG_URL="https://huggingface.co/datasets/pkgforge/AMcache/tree/${{ env.HF_PKGBRANCH_URI }}"
+           export REMOTE_PKG_URL
+          #Check
+           if [[ "${GHA_BUILD_FAILED}" == "YES" || "${BUILD_SUCCESSFUL}" == "NO" ]]; then
+             echo -e "\n[-] FATAL: Failed to Successfully Build ${{ matrix.package.pkg-name }}"
+            exit 1
+           elif [[ "${PUSH_SUCCESSFUL}" != "YES" ]]; then
+             echo -e "\n[-] FATAL: Failed to Push (Git) ==> ${REMOTE_PKG_URL}"
+             #Check if succeeded via CLI
+             REMOTE_PKG_STATUS="$(curl -X "HEAD" -qfsSL "${REMOTE_PKG_URL}" -I | sed -n 's/^[[:space:]]*HTTP\/[0-9.]*[[:space:]]\+\([0-9]\+\).*/\1/p' | tail -n1 | tr -d '[:space:]')"
+              if echo "${REMOTE_PKG_STATUS}" | grep -qiv '200$'; then
+                echo -e "\n[-] FATAL: Failed to Push (HF CLI) ==> ${REMOTE_PKG_URL}"
+               exit 1
+              else
+                echo -e "\n[+] Pushed with HF CLI"
+              fi
+           fi
+          #Print 
+           echo -e "\n[+] Build: ${REMOTE_PKG_URL}\n"
+            pushd "${METADATA_DIR}" &>/dev/null &&\
+              find "${METADATA_DIR}" -maxdepth 1 -type f -iname "*.json" -size +3c -print0 | xargs -0 -P "$(($(nproc)+1))" -I '{}' gh release upload "${METADATA_TAG}" --repo "${GITHUB_REPOSITORY}" '{}' --clobber
+              sleep 5 ; gh release view "${METADATA_TAG}" --repo "${GITHUB_REPOSITORY}" 2>/dev/null || true
+              echo -e "\n[+] Metadata: ${METADATA_TAG_URL}/${{ env.AM_PKG_NAME }}.json\n"
+            popd &>/dev/null
         continue-on-error: false
