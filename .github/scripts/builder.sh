@@ -9,7 +9,7 @@
 ##Version
 AMB_VERSION="0.0.4" && echo -e "[+] AM Builder Version: ${AMB_VERSION}" ; unset AMB_VERSION
 ##Enable Debug 
- if [ "${DEBUG}" = "1" ] || [ "${DEBUG}" = "ON" ]; then
+ if [[ "${DEBUG}" = "1" ]] || [[ "${DEBUG}" = "ON" ]]; then
     set -x
  fi
 #-------------------------------------------------------#
@@ -274,7 +274,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
           PKG_SHASUM="$(sha256sum "${HF_REPO_DIR}/${PKG_NAME}" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]')"
           echo -e "[+] SHA256SUM: ${PKG_SHASUM} ('.shasum')"
          #Description
-          if [ -z "${PKG_DESCRIPTION+x}" ] || [ -z "${PKG_DESCRIPTION##*[[:space:]]}" ]; then
+          if [[ -z "${PKG_DESCRIPTION+x}" ]] || [[ -z "${PKG_DESCRIPTION##*[[:space:]]}" ]]; then
             PKG_DESCRIPTION="$(awk 'BEGIN {IGNORECASE=1}
                /version:/ {f=1; next}
                /site:/ {f=0}
@@ -421,13 +421,20 @@ pushd "$(mktemp -d)" &>/dev/null && \
        pushd "${HF_REPO_DIR}" &>/dev/null && \
          git remote -v
          COMMIT_MSG="[+] PKG [${HF_PKGBRANCH}] (${PKG_TYPE:-${PKG_VERSION}})"
+
+         
+         rm -rf "${HF_REPO_DIR}/.git" 2>/dev/null
+         echo -e "\n[+] Trying with HuggingFace CLI ...\n"
+         huggingface-cli upload "pkgforge/AMcache" "${HF_REPO_DIR}" --repo-type "dataset" --revision "${HF_PKGBRANCH}" --commit-message "${COMMIT_MSG}"
+
+         
          git pull origin "${HF_PKGBRANCH}"
          git pull origin "${HF_PKGBRANCH}" --ff-only || git pull --rebase origin "${HF_PKGBRANCH}"
          git merge --no-ff -m "Merge & Sync" 2>/dev/null
          git lfs track './**/*' 2>/dev/null
          git lfs untrack '.gitattributes' 2>/dev/null
          sed '/\*/!d' -i '.gitattributes'
-         if [ -d "${HF_REPO_DIR}" ] && [ "$(du -s "${HF_REPO_DIR}" | cut -f1)" -gt 100 ]; then
+         if [[ -d "${HF_REPO_DIR}" ]] && [[ "$(du -s "${HF_REPO_DIR}" | cut -f1)" -gt 100 ]]; then
            find "${HF_REPO_DIR}" -type f -size -3c -delete
            git sparse-checkout add "**"
            git sparse-checkout list
@@ -459,7 +466,11 @@ pushd "$(mktemp -d)" &>/dev/null && \
             git --no-pager log '-1' --pretty="format:'%h - %ar - %s - %an'"
             if ! git ls-remote --heads origin | grep -qi "$(git rev-parse HEAD)"; then
               echo -e "\n[-] FATAL: Failed to push ==> ${HF_PKGBRANCH}/${PKG_VERSION}\n"
-              retry_git_push
+              if [[ -n "${GITHUB_TEST_BUILD+x}" ]]; then
+                 rm -rf "${HF_REPO_DIR}/.git" 2>/dev/null
+                 echo -e "\n[+] Trying with HuggingFace CLI ...\n"
+                 huggingface-cli upload "pkgforge/AMcache" "${HF_REPO_DIR}" --repo-type "dataset" --revision "${HF_PKGBRANCH}" --commit-message "${COMMIT_MSG}"
+              fi
             fi
            fi
            du -sh "${HF_REPO_DIR}" && realpath "${HF_REPO_DIR}"
@@ -484,7 +495,7 @@ popd &>/dev/null
 
 #-------------------------------------------------------#
 #Cleanup Dir  
- if [ -n "${GITHUB_TEST_BUILD+x}" ]; then
+ if [[ -n "${GITHUB_TEST_BUILD+x}" ]]; then
   rm -rf "${HF_REPO_DIR}/.git" 2>/dev/null
   7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bsp1 -bt "/tmp/BUILD_ARTIFACTS.7z" "${HF_REPO_DIR}/${AM_PKG_NAME}" 2>/dev/null
  elif [[ "${KEEP_LOGS}" != "YES" ]]; then
