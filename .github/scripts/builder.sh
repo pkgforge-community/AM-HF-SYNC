@@ -459,11 +459,18 @@ pushd "$(mktemp -d)" &>/dev/null && \
             git --no-pager log '-1' --pretty="format:'%h - %ar - %s - %an'"
             if ! git ls-remote --heads origin | grep -qi "$(git rev-parse HEAD)"; then
               echo -e "\n[-] FATAL: Failed to push ==> ${HF_PKGBRANCH}/${PKG_VERSION}\n"
-              if [[ -n "${GITHUB_TEST_BUILD+x}" ]]; then
-                 rm -rf "${HF_REPO_DIR}/.git" 2>/dev/null
-                 echo -e "\n[+] Trying with HuggingFace CLI ...\n"
-                 huggingface-cli upload "pkgforge/AMcache" "${HF_REPO_DIR}" --repo-type "dataset" --revision "${HF_PKGBRANCH}" --commit-message "${COMMIT_MSG}"
-              fi
+               echo -e "\n[+] Trying Force Push ...\n"
+               git push -u origin "${HF_PKGBRANCH}" --force
+               if ! git ls-remote --heads origin | grep -qi "$(git rev-parse HEAD)"; then
+                 if [[ -n "${GITHUB_TEST_BUILD+x}" ]]; then
+                    rm -rf "${HF_REPO_DIR}/.git" 2>/dev/null
+                    echo -e "\n[+] Trying with HuggingFace CLI ...\n"
+                    huggingface-cli upload "pkgforge/AMcache" "${HF_REPO_DIR}" --repo-type "dataset" --revision "${HF_PKGBRANCH}" --commit-message "${COMMIT_MSG}"
+                 fi
+               else
+                  echo -e "\n[+] Force Pushed ==> ${HF_PKGBRANCH}/${PKG_VERSION}\n"
+                  echo "PUSH_SUCCESSFUL=YES" >> "${GITHUB_ENV}"
+               fi
             fi
            fi
            du -sh "${HF_REPO_DIR}" && realpath "${HF_REPO_DIR}"
