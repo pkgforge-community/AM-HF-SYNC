@@ -421,13 +421,6 @@ pushd "$(mktemp -d)" &>/dev/null && \
        pushd "${HF_REPO_DIR}" &>/dev/null && \
          git remote -v
          COMMIT_MSG="[+] PKG [${HF_PKGBRANCH}] (${PKG_TYPE:-${PKG_VERSION}})"
-
-         
-         rm -rf "${HF_REPO_DIR}/.git" 2>/dev/null
-         echo -e "\n[+] Trying with HuggingFace CLI ...\n"
-         huggingface-cli upload "pkgforge/AMcache" "${HF_REPO_DIR}" --repo-type "dataset" --revision "${HF_PKGBRANCH}" --commit-message "${COMMIT_MSG}"
-
-         
          git pull origin "${HF_PKGBRANCH}"
          git pull origin "${HF_PKGBRANCH}" --ff-only || git pull --rebase origin "${HF_PKGBRANCH}"
          git merge --no-ff -m "Merge & Sync" 2>/dev/null
