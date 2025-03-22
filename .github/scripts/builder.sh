@@ -26,6 +26,8 @@ export TZ="UTC"
  if [[ -z "${AM_PKG_NAME+x}" ]]; then
    echo -e "[-] FATAL: Package Name '\${AM_PKG_NAME}' is NOT Set\n"
   exit 1
+ else
+   export AM_PKG_NAME="${AM_PKG_NAME}"
  fi
 #Host
  if [[ -z "${HOST_TRIPLET+x}" ]]; then
@@ -61,7 +63,10 @@ pushd "$(mktemp -d)" &>/dev/null && \
   BUILD_DIR="$(realpath .)" && \
   git clone --depth="1" --filter="blob:none" --no-checkout "https://huggingface.co/datasets/pkgforge/AMcache" && \
   cd "./AMcache" && HF_REPO_DIR="$(realpath .)"
-  [[ -d "${HF_REPO_DIR}" ]] || echo -e "\n[-] FATAL: Failed to create ${HF_REPO_DIR}\n $(exit 1)"
+  if [[ ! -d "${HF_REPO_DIR}" ]]; then
+     echo -e "\n[-] FATAL: Failed to create \${HF_REPO_DIR}"
+    exit 1
+  fi
   #LFS
    git lfs install &>/dev/null ; huggingface-cli lfs-enable-largefiles "." &>/dev/null
   #Setup Branch
@@ -215,6 +220,10 @@ pushd "$(mktemp -d)" &>/dev/null && \
        echo "BUILD_SUCCESSFUL=YES" >> "${GITHUB_ENV}"
        #Prep
         pushd "${HF_REPO_DIR}" &>/dev/null && \
+         #Dynamic --> Static
+          if file "${AM_DIR_PKG}/${PKG_NAME}" | grep -m1 -qi "dynamic"; then
+             timeout -k 10s 300s bash -c 'yes "y" | am nolibfuse "${AM_PKG_NAME}" | cat -' || true
+          fi
          #Version
           PKG_VERSION="$(sed -n 's/.*version *: *\([^ ]*\).*/\1/p' "${LOGPATH}" | tr -d '[:space:]')"
           if [ -z "${PKG_VERSION+x}" ] || [ -z "${PKG_VERSION##*[[:space:]]}" ]; then
@@ -231,7 +240,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
             checkout_sparse ; sleep 3
             setup_hf_pkgbranch ; sleep 1
           else
-            echo -e "\n[-] FATAL: Failed to create ${HF_REPO_DIR}\n"
+            echo -e "\n[-] FATAL: Failed to create \${HF_REPO_DIR}\n"
             echo "GHA_BUILD_FAILED=YES" >> "${GITHUB_ENV}"
             echo "BUILD_SUCCESSFUL=NO" >> "${GITHUB_ENV}"
            continue
