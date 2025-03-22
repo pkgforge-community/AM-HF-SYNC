@@ -222,7 +222,8 @@ pushd "$(mktemp -d)" &>/dev/null && \
         pushd "${HF_REPO_DIR}" &>/dev/null && \
          #Dynamic --> Static
           if file "${AM_DIR_PKG}/${PKG_NAME}" | grep -m1 -qi "dynamic"; then
-             timeout -k 10s 300s bash -c 'yes "y" | am nolibfuse "${AM_PKG_NAME}" | cat -' || true
+             echo -e "\n[+] ${PKG_NAME} (Dynamic) ==> ${PKG_NAME} (Static)\n"
+             timeout -k 10s 300s bash -c 'yes "y" | am nolibfuse "${AM_PKG_NAME}" | cat -' &>/dev/null || true
           fi
          #Version
           PKG_VERSION="$(sed -n 's/.*version *: *\([^ ]*\).*/\1/p' "${LOGPATH}" | tr -d '[:space:]')"
