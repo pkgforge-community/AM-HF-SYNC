@@ -273,6 +273,7 @@ jobs:
         continue-on-error: false
 
       - name: Install Addons
+        if: env.CONTINUE_GHRUN != 'FALSE'
         run: |
           #presets
           set +x ; set +e
