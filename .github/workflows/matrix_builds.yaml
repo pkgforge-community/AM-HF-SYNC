@@ -160,6 +160,22 @@ jobs:
            echo -e "\n==> ${PKG_SCRIPT_URL}\n"
         continue-on-error: false
 
+      - name: Check if Git Ops Work [https://huggingface.co/datasets/pkgforge/AMcache]
+        if: env.CONTINUE_GHRUN != 'FALSE'  
+        run: |
+          ##presets
+          set +x ; set +e
+          #-------------#
+          pushd "$(mktemp -d)" &>/dev/null &&\
+            timeout -k 5s 15s bash -c 'git clone --filter="blob:none" --depth="1" --single-branch --no-checkout --quiet "https://huggingface.co/datasets/pkgforge/AMcache"'
+            if [[ ! -d "./AMcache" ]]; then
+               echo -e "\n[✗] FATAL: Remote seems to be Down\n"
+               echo "CONTINUE_GHRUN=FALSE" >> "${GITHUB_ENV}"
+            fi
+            rm -rf "$(realpath .)" &&\
+          popd &>/dev/null
+        continue-on-error: true
+
       - name: Create Metadata Tag [${{ matrix.package.host }}<==>${{ matrix.package.runner }}]
         if: env.CONTINUE_GHRUN != 'FALSE'
         env:
@@ -424,3 +440,15 @@ jobs:
               echo -e "\n[+] Metadata: ${METADATA_TAG_URL}/${{ env.AM_PKG_NAME }}.json\n"
             popd &>/dev/null
         continue-on-error: false
+
+      - name: Self-Kill
+        if: always()
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          [[ -f "/tmp/GHA_CI_STATUS" && -w "/tmp/GHA_CI_STATUS" ]] && echo "" > "/tmp/GHA_CI_STATUS"
+          if [[ -d "/tmp" && -w "/tmp" ]]; then
+            echo "EXITED" | tee "/tmp/GHA_CI_STATUS"
+          fi
+        continue-on-error: true
