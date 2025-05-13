@@ -110,13 +110,6 @@ jobs:
            exit 1
           fi
           popd &>/dev/null
-          ##Get Prebuilts
-          AM_PREBUILTS=()
-          cd "${HF_REPO_LOCAL}" && \
-           readarray -t "AM_PREBUILTS" < <({ git ls-remote --heads origin | awk '{for(i=1; i<=NF; i++) if($i ~ /^refs\/heads\//) {gsub("refs/heads/", "", $i); sub("/.*$", "", $i); print $i}}'; curl -qfsSL "https://meta.pkgforge.dev/external/am/x86_64-Linux.json" | jq -r '.[] | .pkg'; } 2>/dev/null | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | grep -Eiv '\.(git|md|txt)' | sort -u)
-           if [[ -n "${AM_PREBUILTS[*]}" && "${#AM_PREBUILTS[@]}" -gt 100 ]]; then
-             printf "%s\n" "${AM_PREBUILTS[@]}" | sort -u -o "${GITHUB_WORKSPACE}/main/.github/CACHE_LIST.txt"
-           fi
           ##Generate Input
           pushd "$(mktemp -d)" &>/dev/null
            curl -qfsSL "https://github.com/ivan-hc/AM/raw/main/programs/x86_64-appimages" | sort -u -o "./AI.txt"
@@ -131,6 +124,11 @@ jobs:
              AM_PKGS_X86=()
              readarray -t "AM_PKGS_X86" < <(printf "%s\n" "${AM_PKGS_X86_TMP[@]}" | sort -u | comm -23 - <(printf "%s\n" "${QUEUE_LIST_X86[@]}" | sort -u))
              echo -e "\n[+] AM_PKGS_X86 ==> ${#AM_PKGS_X86[@]}\n"
+           fi
+           AM_PREBUILTS=()
+           readarray -t "AM_PREBUILTS" < <({ git -C "${HF_REPO_LOCAL}" ls-remote --heads origin | awk '{for(i=1; i<=NF; i++) if($i ~ /^refs\/heads\//) {gsub("refs/heads/", "", $i); sub("/.*$", "", $i); print $i}}'; curl -qfsSL "https://meta.pkgforge.dev/external/am/x86_64-Linux.json" | jq -r '.[] | .pkg'; } 2>/dev/null | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | grep -Eiv '\.(git|md|txt)' | sort -u)
+           if [[ -n "${AM_PREBUILTS[*]}" && "${#AM_PREBUILTS[@]}" -gt 100 ]]; then
+             printf "%s\n" "${AM_PREBUILTS[@]}" | sort -u -o "${GITHUB_WORKSPACE}/main/.github/CACHE_LIST.txt"
            fi
            ##Generate Build List
            #if [[ "${#AM_PKGS_X86[@]}" -gt 2000 && "${#AM_PREBUILTS[@]}" -gt 100 ]]; then
