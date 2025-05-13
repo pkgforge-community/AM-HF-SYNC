@@ -90,7 +90,7 @@ jobs:
       - name: Update/Generate BUILD_LIST
         run: |
           #Presets
-          set +x ; set +e
+          set -x ; set +e
           #--------------#
           ##AM
           pushd "$(mktemp -d)" &>/dev/null && git clone --filter="blob:none" --depth="1" --no-checkout "https://github.com/ivan-hc/AM" && cd "./AM"
@@ -127,9 +127,9 @@ jobs:
            fi
            readarray -t "AM_PREBUILTS" < <(
              {
-               git ls-remote --heads origin | awk '{for(i=1; i<=NF; i++) if($i ~ /^refs\/heads\//) {gsub("refs/heads/", "", $i); sub("/.*$", "", $i); print $i}}' | sort -u
-               curl -qfsSL "https://meta.pkgforge.dev/external/am/x86_64-Linux.json" | jq -r '.[] | .pkg' | sort -u
-             } 2>/dev/null | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | grep -Eiv '\.(git|md|txt)' | sort -u
+               git ls-remote --heads origin | awk '{for(i=1; i<=NF; i++) if($i ~ /^refs\/heads\//) {gsub("refs/heads/", "", $i); sub("/.*$", "", $i); print $i}}'
+               curl -qfsSL "https://meta.pkgforge.dev/external/am/x86_64-Linux.json" | jq -r '.[] | .pkg'
+             } 2>/dev/null | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | grep -Eiv '\.(git|md|txt)' | sort -u
            )
            if [[ -n "${AM_PREBUILTS[*]}" && "${#AM_PREBUILTS[@]}" -gt 100 ]]; then
              printf "%s\n" "${AM_PREBUILTS[@]}" | sort -u -o "${GITHUB_WORKSPACE}/main/.github/CACHE_LIST.txt"
