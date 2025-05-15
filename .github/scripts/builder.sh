@@ -367,19 +367,19 @@ pushd "$(mktemp -d)" &>/dev/null && \
           rsync -achv "${AM_DIR_PKG}/." "${HF_REPO_DIR}/_bundle"
          #Copy Symlinks
           find "/usr/local/bin" -type l -exec bash -c 'for f do 
-            t=$(readlink "$f")
+            t=$(readlink "${f}")
             if [[ $t == /opt/* && $t != /opt/am/* ]]; then
               if [[ -e "${t}" ]]; then
                 echo "Processing ${f} -> ${t}"
                 dest_dir="$(dirname "${t}")"
-                sym_name="$(basename "${f}")"
-                target_file="$(basename "${t}" | tr [:upper:] [:lower:])"
+                sym_name="$(basename "${f}" | tr [:upper:] [:lower:])"
+                target_file="$(basename "${t}")"
                 if mkdir -p "${dest_dir}/SOAR_SYMS"; then
                   orig_dir="$(pwd)"
                   if cd "${dest_dir}/SOAR_SYMS"; then
                     if ln -fs "../$target_file" "${sym_name}"; then
                       echo "Created: ${dest_dir}/SOAR_SYMS/${sym_name} --> ../$target_file"
-                      echo "Resolved: $(readlink -f "$(realpath ../$target_file)")"
+                      echo "Resolved: $(readlink -f "$(realpath ${dest_dir}/SOAR_SYMS/${sym_name})")"
                       if [[ -e "${sym_name}" ]]; then
                         echo "Verified: Symlink points to existing file"
                       else
