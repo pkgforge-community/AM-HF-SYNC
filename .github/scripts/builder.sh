@@ -441,7 +441,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
             fi
          #Fix Metadata
           if [[ -f "${AM_PKG_BUNDLE}" ]] && [[ $(stat -c%s "${AM_PKG_BUNDLE}") -gt 1024 ]]; then
-           echo "\n[+] (Re) Fixing Metadata\n"
+           echo -e "\n[+] (Re) Fixing Metadata\n"
             _PKG_DOWNLOAD_URL="${PKG_DOWNLOAD_URL}.bundle.tar.zstd"
             export PKG_DOWNLOAD_URL="${_PKG_DOWNLOAD_URL}"
             PKG_BSUM="$(b3sum "${AM_PKG_BUNDLE}" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]')"
