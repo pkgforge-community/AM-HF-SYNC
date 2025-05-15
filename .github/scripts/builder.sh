@@ -138,7 +138,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
      echo -e "\n[+] Installing ${AM_PKG_NAME} <== ${BUILD_SCRIPT} ["$(date --utc '+%Y-%m-%dT%H:%M:%S')" UTC]\n"
      timeout -k 5s 10s curl -w "\n(Script) <== %{url}\n" -qfsSL "${BUILD_SCRIPT_RAW}"
      set -x
-     timeout -k 10s 300s am install --debug "${AM_PKG_NAME}"
+     timeout -k 10s 1000s am install --debug "${AM_PKG_NAME}"
      timeout -k 10s 300s am files "${AM_PKG_NAME}" | cat -
      timeout -k 10s 300s am about "${AM_PKG_NAME}" | cat -
    } 2>&1 | ts -s '[%H:%M:%S]➜ ' | tee "${TEMP_LOG}"
