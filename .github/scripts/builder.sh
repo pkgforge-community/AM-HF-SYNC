@@ -7,7 +7,7 @@
 
 #-------------------------------------------------------#
 ##Version
-AMB_VERSION="0.0.7+1" && echo -e "[+] AM Builder Version: ${AMB_VERSION}" ; unset AMB_VERSION
+AMB_VERSION="0.0.8" && echo -e "[+] AM Builder Version: ${AMB_VERSION}" ; unset AMB_VERSION
 ##Enable Debug 
  if [[ "${DEBUG}" = "1" ]] || [[ "${DEBUG}" = "ON" ]]; then
     set -x
@@ -53,6 +53,12 @@ export TZ="UTC"
 #Path
  export PATH="${HOME}/bin:${HOME}/.cargo/bin:${HOME}/.cargo/env:${HOME}/.go/bin:${HOME}/go/bin:${HOME}/.local/bin:${HOME}/miniconda3/bin:${HOME}/miniconda3/condabin:/usr/local/zig:/usr/local/zig/lib:/usr/local/zig/lib/include:/usr/local/musl/bin:/usr/local/musl/lib:/usr/local/musl/include:${PATH}"
  PATH="$(echo "${PATH}" | awk 'BEGIN{RS=":";ORS=":"}{gsub(/\n/,"");if(!a[$0]++)print}' | sed 's/:*$//')" ; export PATH
+ hash -r &>/dev/null
+#ZSTD
+ if ! command -v zstd &>/dev/null; then
+   echo -e "[-] FATAL: zstd is NOT Installed\n"
+  exit 1
+ fi
 #Cleanup 
  unset GH_TOKEN GITHUB_TOKEN HF_TOKEN
 #-------------------------------------------------------#
@@ -225,7 +231,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
    fi
   #For each Prog
    for PKG_NAME in "${AM_PKG_NAMES[@]}"; do
-     unset BUILD_SUCCESSFUL COMMIT_MSG DESKTOP_FILE HF_PKGBRANCH ICON_FILE ICON_TYPE PKG_BSUM PKG_BUILD_DATE PKG_BUILD_GHA PKG_BUILD_ID PKG_BUILD_LOG PKG_BUILD_SCRIPT PKG_DATETMP PKG_DESCRIPTION PKG_DESCRIPTION_TMP PKG_DESKTOP PKG_DOWNLOAD_URL _PKG_DOWNLOAD_URL PKG_HOMEPAGE PKG_ICON PKG_SHASUM PKG_SIZE PKG_SIZE_RAW PKG_SRC_URL PKG_TYPE PKG_VERSION
+     unset AM_PKG_BUNDLE BUILD_SUCCESSFUL COMMIT_MSG DESKTOP_FILE HF_PKGBRANCH ICON_FILE ICON_TYPE PKG_BSUM PKG_BUILD_DATE PKG_BUILD_GHA PKG_BUILD_ID PKG_BUILD_LOG PKG_BUILD_SCRIPT PKG_DATETMP PKG_DESCRIPTION PKG_DESCRIPTION_TMP PKG_DESKTOP PKG_DOWNLOAD_URL _PKG_DOWNLOAD_URL PKG_HOMEPAGE PKG_ICON PKG_SHASUM PKG_SIZE PKG_SIZE_RAW PKG_SRC_URL PKG_TYPE PKG_VERSION
      echo "PUSH_SUCCESSFUL=NO" >> "${GITHUB_ENV}"
      if [[ -f "${AM_DIR_PKG}/${PKG_NAME}" ]] && [[ $(stat -c%s "${AM_DIR_PKG}/${PKG_NAME}") -gt 5 ]]; then
        echo "BUILD_SUCCESSFUL=YES" >> "${GITHUB_ENV}"
@@ -363,10 +369,10 @@ pushd "$(mktemp -d)" &>/dev/null && \
          export AM_PKG_ID="AM.$(uname -m).${AM_PKG_NAME}.${PKG_NAME}"
        else
          export PKG_TYPE="archive"
-         export AM_PKG_ID="AM.$(uname -m).${AM_PKG_NAME}.${PKG_NAME}.bundle.tar"
+         export AM_PKG_ID="AM.$(uname -m).${AM_PKG_NAME}.${PKG_NAME}.bundle.tar.zstd"
        fi
       #Generate Bundle
-       if echo "${AM_PKG_ID}" | grep -qi "bundle\.tar$"; then
+       if echo "${AM_PKG_ID}" | grep -qi "bundle\.tar\.zstd$"; then
          #Copy Struct
           rsync -achv "${AM_DIR_PKG}/." "${HF_REPO_DIR}/_bundle"
          #Copy Symlinks
@@ -421,8 +427,11 @@ pushd "$(mktemp -d)" &>/dev/null && \
            tar --directory="${HF_REPO_DIR}/_bundle" --preserve-permissions --create --file="bundle.tar" "."
            #Check
             if [[ -f "./bundle.tar" ]] && [[ $(stat -c%s "./bundle.tar") -gt 1024 ]]; then
-               mv -fv "./bundle.tar" "${HF_REPO_DIR}/${PKG_NAME}.bundle.tar" &&\
-               rm -rf "${HF_REPO_DIR}/_bundle"
+               zstd --ultra -22 --force "./bundle.tar" -o "./bundle.tar.zstd"
+               [[ -s "./bundle.tar.zstd" ]] || exit 1
+               export AM_PKG_BUNDLE="${HF_REPO_DIR}/${PKG_NAME}.bundle.tar.zstd"
+               mv -fv "./bundle.tar.zstd" "${AM_PKG_BUNDLE}" &&\
+               rm -rf "./bundle.tar" "${HF_REPO_DIR}/_bundle"
                pushd "${HF_REPO_DIR}" &>/dev/null
             else
                echo -e "[-] FATAL: Failed to create Bundle\n"
@@ -430,16 +439,16 @@ pushd "$(mktemp -d)" &>/dev/null && \
               exit 1
             fi
          #Fix Metadata
-          if [[ -f "${HF_REPO_DIR}/${PKG_NAME}.bundle.tar" ]] && [[ $(stat -c%s "${HF_REPO_DIR}/${PKG_NAME}.bundle.tar") -gt 1024 ]]; then
+          if [[ -f "${AM_PKG_BUNDLE}" ]] && [[ $(stat -c%s "${AM_PKG_BUNDLE}") -gt 1024 ]]; then
            echo "\n[+] (Re) Fixing Metadata\n"
-            _PKG_DOWNLOAD_URL="${PKG_DOWNLOAD_URL}.bundle.tar"
+            _PKG_DOWNLOAD_URL="${PKG_DOWNLOAD_URL}.bundle.tar.zstd"
             export PKG_DOWNLOAD_URL="${_PKG_DOWNLOAD_URL}"
-            PKG_BSUM="$(b3sum "${HF_REPO_DIR}/${PKG_NAME}.bundle.tar" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]')"
+            PKG_BSUM="$(b3sum "${AM_PKG_BUNDLE}" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]')"
             echo -e "[+] B3SUM: ${PKG_BSUM} ('.bsum')"
-            PKG_SHASUM="$(sha256sum "${HF_REPO_DIR}/${PKG_NAME}.bundle.tar" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]')"
+            PKG_SHASUM="$(sha256sum "${AM_PKG_BUNDLE}" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]')"
             echo -e "[+] SHA256SUM: ${PKG_SHASUM} ('.shasum')"
-            PKG_SIZE_RAW="$(stat --format="%s" "${HF_REPO_DIR}/${PKG_NAME}.bundle.tar" | tr -d '[:space:]')"
-            PKG_SIZE="$(du -sh "${HF_REPO_DIR}/${PKG_NAME}.bundle.tar" | awk '{unit=substr($1,length($1)); sub(/[BKMGT]$/,"",$1); print $1 " " unit "B"}')"
+            PKG_SIZE_RAW="$(stat --format="%s" "${AM_PKG_BUNDLE}" | tr -d '[:space:]')"
+            PKG_SIZE="$(du -sh "${AM_PKG_BUNDLE}" | awk '{unit=substr($1,length($1)); sub(/[BKMGT]$/,"",$1); print $1 " " unit "B"}')"
             echo -e "[+] Size: ${PKG_SIZE} ('.size')"
             echo -e "[+] Size (Raw): ${PKG_SIZE_RAW} ('.size_raw')"
           fi
