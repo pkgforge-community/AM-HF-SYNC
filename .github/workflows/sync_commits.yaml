@@ -112,7 +112,10 @@ jobs:
           popd &>/dev/null
           ##Generate Input
           pushd "$(mktemp -d)" &>/dev/null
-           curl -qfsSL "https://github.com/ivan-hc/AM/raw/main/programs/x86_64-appimages" | sort -u -o "./AI.txt"
+           ##Filters only AppImages
+           #curl -qfsSL "https://github.com/ivan-hc/AM/raw/main/programs/x86_64-appimages" | sort -u -o "./AI.txt"
+           ##For now, get all
+           curl -qfsSL "https://github.com/ivan-hc/AM/raw/main/programs/x86_64-apps" | sort -u -o "./AI.txt"
            git -C "${AM_REPO_LOCAL}" ls-tree --name-only 'HEAD' -- "programs/x86_64/" | xargs -I "{}" basename "{}" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | grep -Eiv '\.(git|md|txt)' | sort -u -o "./APP.txt"
            readarray -t "AM_PKGS_X86_TMP" < <(grep -o -w -f "./APP.txt" "./AI.txt" | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | grep -Eiv '\.(git|md|txt)' | sort -u)
            if [[ -n "${AM_PKGS_X86_TMP[*]}" && "${#AM_PKGS_X86_TMP[@]}" -gt 2000 ]]; then
