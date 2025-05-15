@@ -7,7 +7,7 @@
 
 #-------------------------------------------------------#
 ##Version
-AMB_VERSION="0.0.6" && echo -e "[+] AM Builder Version: ${AMB_VERSION}" ; unset AMB_VERSION
+AMB_VERSION="0.0.7" && echo -e "[+] AM Builder Version: ${AMB_VERSION}" ; unset AMB_VERSION
 ##Enable Debug 
  if [[ "${DEBUG}" = "1" ]] || [[ "${DEBUG}" = "ON" ]]; then
     set -x
@@ -428,10 +428,19 @@ pushd "$(mktemp -d)" &>/dev/null && \
              echo -e "[-] FATAL: Failed to create Bundle\n"
             exit 1
           fi
-         #Fix Download URL
+         #Fix Metadata
           if [[ -f "${HF_REPO_DIR}/${PKG_NAME}.bundle.tar" ]] && [[ $(stat -c%s "${HF_REPO_DIR}/${PKG_NAME}.bundle.tar") -gt 1024 ]]; then
+           echo "\n[+] (Re) Fixing Metadata\n"
             _PKG_DOWNLOAD_URL="${PKG_DOWNLOAD_URL}.bundle.tar"
             export PKG_DOWNLOAD_URL="${_PKG_DOWNLOAD_URL}"
+            PKG_BSUM="$(b3sum "${HF_REPO_DIR}/${PKG_NAME}.bundle.tar" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]')"
+            echo -e "[+] B3SUM: ${PKG_BSUM} ('.bsum')"
+            PKG_SHASUM="$(sha256sum "${HF_REPO_DIR}/${PKG_NAME}.bundle.tar" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]')"
+            echo -e "[+] SHA256SUM: ${PKG_SHASUM} ('.shasum')"
+            PKG_SIZE_RAW="$(stat --format="%s" "${HF_REPO_DIR}/${PKG_NAME}.bundle.tar" | tr -d '[:space:]')"
+            PKG_SIZE="$(du -sh "${HF_REPO_DIR}/${PKG_NAME}.bundle.tar" | awk '{unit=substr($1,length($1)); sub(/[BKMGT]$/,"",$1); print $1 " " unit "B"}')"
+            echo -e "[+] Size: ${PKG_SIZE} ('.size')"
+            echo -e "[+] Size (Raw): ${PKG_SIZE_RAW} ('.size_raw')"
           fi
        fi
       #Generate Json
