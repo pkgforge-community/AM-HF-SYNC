@@ -7,7 +7,7 @@
 
 #-------------------------------------------------------#
 ##Version
-AMB_VERSION="0.0.8+1" && echo -e "[+] AM Builder Version: ${AMB_VERSION}" ; unset AMB_VERSION
+AMB_VERSION="0.0.9" && echo -e "[+] AM Builder Version: ${AMB_VERSION}" ; unset AMB_VERSION
 ##Enable Debug 
  if [[ "${DEBUG}" = "1" ]] || [[ "${DEBUG}" = "ON" ]]; then
     set -x
@@ -427,8 +427,8 @@ pushd "$(mktemp -d)" &>/dev/null && \
            tar --directory="${HF_REPO_DIR}/_bundle" --preserve-permissions --create --file="bundle.tar" "."
            #Check
             if [[ -f "./bundle.tar" ]] && [[ $(stat -c%s "./bundle.tar") -gt 1024 ]]; then
-               #zstd --ultra -22 --force "./bundle.tar" -o "./bundle.tar.zstd"
-               zstd --force "./bundle.tar" -o "./bundle.tar.zstd"
+               #zstd --ultra -22 --force "./bundle.tar" --verbose -o "./bundle.tar.zstd"
+               zstd --force "./bundle.tar" --verbose -o "./bundle.tar.zstd"
                [[ -s "./bundle.tar.zstd" ]] || exit 1
                export AM_PKG_BUNDLE="${HF_REPO_DIR}/${PKG_NAME}.bundle.tar.zstd"
                mv -fv "./bundle.tar.zstd" "${AM_PKG_BUNDLE}" &&\
