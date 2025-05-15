@@ -214,7 +214,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
    fi
   #For each Prog
    for PKG_NAME in "${AM_PKG_NAMES[@]}"; do
-     unset BUILD_SUCCESSFUL COMMIT_MSG DESKTOP_FILE HF_PKGBRANCH ICON_FILE ICON_TYPE PKG_BSUM PKG_BUILD_DATE PKG_BUILD_GHA PKG_BUILD_ID PKG_BUILD_LOG PKG_BUILD_SCRIPT PKG_DATETMP PKG_DESCRIPTION PKG_DESCRIPTION_TMP PKG_DESKTOP PKG_DOWNLOAD_URL PKG_HOMEPAGE PKG_ICON PKG_SHASUM PKG_SIZE PKG_SIZE_RAW PKG_SRC_URL PKG_TYPE PKG_VERSION
+     unset BUILD_SUCCESSFUL COMMIT_MSG DESKTOP_FILE HF_PKGBRANCH ICON_FILE ICON_TYPE PKG_BSUM PKG_BUILD_DATE PKG_BUILD_GHA PKG_BUILD_ID PKG_BUILD_LOG PKG_BUILD_SCRIPT PKG_DATETMP PKG_DESCRIPTION PKG_DESCRIPTION_TMP PKG_DESKTOP PKG_DOWNLOAD_URL _PKG_DOWNLOAD_URL PKG_HOMEPAGE PKG_ICON PKG_SHASUM PKG_SIZE PKG_SIZE_RAW PKG_SRC_URL PKG_TYPE PKG_VERSION
      echo "PUSH_SUCCESSFUL=NO" >> "${GITHUB_ENV}"
      if [[ -f "${AM_DIR_PKG}/${PKG_NAME}" ]] && [[ $(stat -c%s "${AM_DIR_PKG}/${PKG_NAME}") -gt 1024 ]]; then
        echo "BUILD_SUCCESSFUL=YES" >> "${GITHUB_ENV}"
@@ -347,10 +347,86 @@ pushd "$(mktemp -d)" &>/dev/null && \
           PKG_SIZE="$(du -sh "${HF_REPO_DIR}/${PKG_NAME}" | awk '{unit=substr($1,length($1)); sub(/[BKMGT]$/,"",$1); print $1 " " unit "B"}')"
           echo -e "[+] Size: ${PKG_SIZE} ('.size')"
           echo -e "[+] Size (Raw): ${PKG_SIZE_RAW} ('.size_raw')"
+      #Generate PKG_ID
+       if [[ "${PKG_TYPE}" == "appimage" ]]; then
+         export AM_PKG_ID="AM.$(uname -m).${AM_PKG_NAME}.${PKG_NAME}"
+       else
+         export PKG_TYPE="archive"
+         export AM_PKG_ID="AM.$(uname -m).${AM_PKG_NAME}.${PKG_NAME}.bundle.tar"
+       fi
+      #Generate Bundle
+       if echo "${AM_PKG_ID}" | grep -qi "bundle\.tar$"; then
+         #Copy Struct
+          rsync -achv "${AM_DIR_PKG}/." "${HF_REPO_DIR}/_bundle"
+         #Copy Symlinks
+          find "/usr/local/bin" -type l -exec bash -c 'for f do 
+            t=$(readlink "$f")
+            if [[ $t == /opt/* && $t != /opt/am/* ]]; then
+              if [[ -e "${t}" ]]; then
+                echo "Processing ${f} -> ${t}"
+                dest_dir="$(dirname "${t}")"
+                sym_name="$(basename "${f}")"
+                target_file=$(basename "${t}")
+                if mkdir -p "${dest_dir}/SOAR_SYMS"; then
+                  orig_dir="$(pwd)"
+                  if cd "${dest_dir}/SOAR_SYMS"; then
+                    if ln -fs "../$target_file" "${sym_name}"; then
+                      echo "Created: ${dest_dir}/SOAR_SYMS/${sym_name} --> ../$target_file"
+                      echo "Resolved: $(readlink -f "$(realpath ../$target_file)")"
+                      if [[ -e "${sym_name}" ]]; then
+                        echo "Verified: Symlink points to existing file"
+                      else
+                        echo "WARNING: Created symlink appears to be broken: ${dest_dir}/SOAR_SYMS/${sym_name}"
+                      fi
+                    else
+                      echo "ERROR: Failed to create symlink ${sym_name} in ${dest_dir}/SOAR_SYMS"
+                    fi
+                    cd "$orig_dir" || exit 1
+                  else
+                    echo "ERROR: Could not change to directory ${dest_dir}/SOAR_SYMS"
+                  fi
+                else
+                  echo "ERROR: Could not create directory ${dest_dir}/SOAR_SYMS"
+                fi
+              else
+                echo "SKIPPING: Target does not exist: $t"
+              fi
+            fi
+          done' _ {} \;
+          realpath "${AM_DIR_PKG}/SOAR_SYMS" && ls -lah "${AM_DIR_PKG}/SOAR_SYMS"
+         #Relocate Symlinks          
+          if [[ -d "${AM_DIR_PKG}/SOAR_SYMS" ]] && [[ -n "$(find "${AM_DIR_PKG}/SOAR_SYMS" -type l -print -quit)" ]]; then
+            cp -frv "${AM_DIR_PKG}/SOAR_SYMS" "${HF_REPO_DIR}/_bundle"
+          else
+             echo -e "[-] FATAL: Failed to relocate Symlink\n"
+            exit 1
+          fi
+         #Prepare Dir
+          sudo chown -R "$(whoami):$(whoami)" "${HF_REPO_DIR}/_bundle" && chmod -R 755 "${HF_REPO_DIR}/_bundle"
+          tree "${HF_REPO_DIR}/_bundle" -L 2 2>/dev/null
+          tree "${HF_REPO_DIR}/_bundle" 2>/dev/null
+         #Pack Dir
+          pushd "$(mktemp -d)" &>/dev/null && \
+           tar --directory="${HF_REPO_DIR}/_bundle" --verbose --preserve-permissions --create --file="bundle.tar" "."
+          pushd "${HF_REPO_DIR}" &>/dev/null
+         #Check
+          if [[ -f "./bundle.tar" ]] && [[ $(stat -c%s "./bundle.tar") -gt 1024 ]]; then
+             mv -fv "./bundle.tar" "${HF_REPO_DIR}/${PKG_NAME}.bundle.tar" &&\
+             rm -rf "${HF_REPO_DIR}/_bundle"
+          else
+             echo -e "[-] FATAL: Failed to create Bundle\n"
+            exit 1
+          fi
+         #Fix Download URL
+          if [[ -f "${HF_REPO_DIR}/${PKG_NAME}.bundle.tar" ]] && [[ $(stat -c%s "${HF_REPO_DIR}/${PKG_NAME}.bundle.tar") -gt 1024 ]]; then
+            _PKG_DOWNLOAD_URL="${PKG_DOWNLOAD_URL}.bundle.tar"
+            export PKG_DOWNLOAD_URL="${_PKG_DOWNLOAD_URL}"
+          fi
+       fi
       #Generate Json
        jq -n --arg HOST "${HOST_TRIPLET}" \
          --arg PKG "${AM_PKG_NAME}" \
-         --arg PKG_ID "AM.$(uname -m).${AM_PKG_NAME}.${PKG_NAME}" \
+         --arg PKG_ID "${AM_PKG_ID}" \
          --arg PKG_NAME "${PKG_NAME,,}" \
          --arg PKG_TYPE "${PKG_TYPE}" \
          --arg BSUM "${PKG_BSUM}" \

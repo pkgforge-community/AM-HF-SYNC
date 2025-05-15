@@ -220,7 +220,7 @@ jobs:
           #https://github.com/ilikenwf/apt-fast?tab=readme-ov-file#quick-install
           bash -c "$(curl -qfsSL 'https://raw.githubusercontent.com/ilikenwf/apt-fast/master/quick-install.sh')"
           sudo apt-fast install apt-transport-https apt-utils bc ca-certificates coreutils curl dos2unix fdupes git-lfs gnupg2 \
-          jq moreutils p7zip-full rename rsync software-properties-common texinfo tmux torsocks util-linux wget zsync -y -qq 2>/dev/null
+          jq moreutils p7zip-full rename rsync software-properties-common tar texinfo tmux tree util-linux wget zsync -y -qq 2>/dev/null
           sudo apt-fast update -y -qq 2>/dev/null
           ##tmp
           SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="${SYSTMP}"
@@ -260,7 +260,7 @@ jobs:
           #-------------#
           #https://github.com/ivan-hc/AM/blob/main/AM-INSTALLER#L13
           sudo apt-fast update -y -qq
-          sudo apt-fast install curl torsocks wget zsync -y -qq
+          sudo apt-fast install curl jq rsync tar tree wget zsync -y -qq
           yes '1' | bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/AM-INSTALLER")
           if ! command -v am &>/dev/null; then
             echo -e "[-] Failed to find am\n"
