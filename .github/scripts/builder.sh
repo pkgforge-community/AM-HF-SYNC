@@ -7,7 +7,7 @@
 
 #-------------------------------------------------------#
 ##Version
-AMB_VERSION="0.0.7" && echo -e "[+] AM Builder Version: ${AMB_VERSION}" ; unset AMB_VERSION
+AMB_VERSION="0.0.7+1" && echo -e "[+] AM Builder Version: ${AMB_VERSION}" ; unset AMB_VERSION
 ##Enable Debug 
  if [[ "${DEBUG}" = "1" ]] || [[ "${DEBUG}" = "ON" ]]; then
     set -x
@@ -419,15 +419,16 @@ pushd "$(mktemp -d)" &>/dev/null && \
          #Pack Dir
           pushd "$(mktemp -d)" &>/dev/null && \
            tar --directory="${HF_REPO_DIR}/_bundle" --verbose --preserve-permissions --create --file="bundle.tar" "."
-          pushd "${HF_REPO_DIR}" &>/dev/null
-         #Check
-          if [[ -f "./bundle.tar" ]] && [[ $(stat -c%s "./bundle.tar") -gt 1024 ]]; then
-             mv -fv "./bundle.tar" "${HF_REPO_DIR}/${PKG_NAME}.bundle.tar" &&\
-             rm -rf "${HF_REPO_DIR}/_bundle"
-          else
-             echo -e "[-] FATAL: Failed to create Bundle\n"
-            exit 1
-          fi
+           #Check
+            if [[ -f "./bundle.tar" ]] && [[ $(stat -c%s "./bundle.tar") -gt 1024 ]]; then
+               mv -fv "./bundle.tar" "${HF_REPO_DIR}/${PKG_NAME}.bundle.tar" &&\
+               rm -rf "${HF_REPO_DIR}/_bundle"
+               pushd "${HF_REPO_DIR}" &>/dev/null
+            else
+               echo -e "[-] FATAL: Failed to create Bundle\n"
+               pushd "${HF_REPO_DIR}" &>/dev/null
+              exit 1
+            fi
          #Fix Metadata
           if [[ -f "${HF_REPO_DIR}/${PKG_NAME}.bundle.tar" ]] && [[ $(stat -c%s "${HF_REPO_DIR}/${PKG_NAME}.bundle.tar") -gt 1024 ]]; then
            echo "\n[+] (Re) Fixing Metadata\n"
