@@ -418,7 +418,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
           tree "${HF_REPO_DIR}/_bundle" 2>/dev/null
          #Pack Dir
           pushd "$(mktemp -d)" &>/dev/null && \
-           tar --directory="${HF_REPO_DIR}/_bundle" --verbose --preserve-permissions --create --file="bundle.tar" "."
+           tar --directory="${HF_REPO_DIR}/_bundle" --preserve-permissions --create --file="bundle.tar" "."
            #Check
             if [[ -f "./bundle.tar" ]] && [[ $(stat -c%s "./bundle.tar") -gt 1024 ]]; then
                mv -fv "./bundle.tar" "${HF_REPO_DIR}/${PKG_NAME}.bundle.tar" &&\
