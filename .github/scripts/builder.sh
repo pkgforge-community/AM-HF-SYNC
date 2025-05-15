@@ -202,10 +202,10 @@ pushd "$(mktemp -d)" &>/dev/null && \
        readarray -t "AM_PKG_NAMES" < <(find "${AM_DIR_PKG}" -maxdepth 1 -type f -exec file -i "{}" \; | grep -Ei 'application/.*executable' | cut -d":" -f1 | xargs realpath | xargs -I "{}" basename "{}" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g')
      else
        readarray -t "AM_PKG_NAMES" < <(echo "${AM_PKG_NAME}")
-       if [[ -d "${AM_DIR_PKG}/${PKG_NAME}" ]]; then
-         [[ ! -f "${AM_DIR_PKG}/${PKG_NAME}/${PKG_NAME}" ]] && echo "_${AM_PKG_NAME}_" > "${AM_DIR_PKG}/${PKG_NAME}/${PKG_NAME}"
-       elif [[ ! -f "${AM_DIR_PKG}/${PKG_NAME}" ]]; then
-           echo "_${AM_PKG_NAME}_" > "${AM_DIR_PKG}/${PKG_NAME}"
+       if [[ -d "${AM_DIR_PKG}/${AM_PKG_NAME}" ]]; then
+         [[ ! -f "${AM_DIR_PKG}/${AM_PKG_NAME}/${AM_PKG_NAME}" ]] && echo "_${AM_PKG_NAME}_" > "${AM_DIR_PKG}/${AM_PKG_NAME}/${AM_PKG_NAME}"
+       elif [[ ! -f "${AM_DIR_PKG}/${AM_PKG_NAME}" ]]; then
+         echo "_${AM_PKG_NAME}_" > "${AM_DIR_PKG}/${AM_PKG_NAME}"
        fi
      fi
     #Sanity Check 
