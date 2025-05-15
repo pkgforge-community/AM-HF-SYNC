@@ -193,11 +193,18 @@ pushd "$(mktemp -d)" &>/dev/null && \
   #Check
    AM_DIR_PKG="$(comm -13 <(printf "%s\n" "${AM_DIRS_PRE[@]}" | sort) <(printf "%s\n" "${AM_DIRS_POST[@]}" | sort) | awk -F'/' '!seen[$2 "/" $3]++ {print "/opt/" $3}' | sed -e '/^[[:space:]]*$/d;1q' | tr -d '[:space:]')"
    if [[ -d "${AM_DIR_PKG}" ]] && [[ "$(du -s "${AM_DIR_PKG}" | cut -f1)" -gt 100 ]]; then
-    #Lowercase
-     find "${AM_DIR_PKG}" -maxdepth 1 -type f -exec bash -c 'for f; do file -i "$f" | grep -Ei "application/.*executable" >/dev/null && mv -fv "$f" "$(dirname "$f")/$(basename "$f" | tr [:upper:] [:lower:])" 2>/dev/null; done' bash "{}" +
-    #Store Pkg Names 
+    #Get PKG_Type
      get_pkg_type
-     readarray -t "AM_PKG_NAMES" < <(find "${AM_DIR_PKG}" -maxdepth 1 -type f -exec file -i "{}" \; | grep -Ei 'application/.*executable' | cut -d":" -f1 | xargs realpath | xargs -I "{}" basename "{}" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g')
+     if [[ "${PKG_TYPE}" == "appimage" ]]; then
+      #Lowercase
+       find "${AM_DIR_PKG}" -maxdepth 1 -type f -exec bash -c 'for f; do file -i "$f" | grep -Ei "application/.*executable" >/dev/null && mv -fv "$f" "$(dirname "$f")/$(basename "$f" | tr [:upper:] [:lower:])" 2>/dev/null; done' bash "{}" +
+      #Store Pkg Names
+       readarray -t "AM_PKG_NAMES" < <(find "${AM_DIR_PKG}" -maxdepth 1 -type f -exec file -i "{}" \; | grep -Ei 'application/.*executable' | cut -d":" -f1 | xargs realpath | xargs -I "{}" basename "{}" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g')
+     else
+       readarray -t "AM_PKG_NAMES" < <(echo "${AM_PKG_NAME}")
+       [[ ! -f "${AM_DIR_PKG}/${PKG_NAME}" ]] && echo "_${AM_PKG_NAME}_" > "${AM_DIR_PKG}/${PKG_NAME}"
+     fi
+    #Sanity Check 
      if [[ "${#AM_PKG_NAMES[@]}" -eq 0 ]]; then
        echo -e "\n[-] FATAL: Failed to Find any Progs [${AM_DIR_PKG}]\n"
        echo "GHA_BUILD_FAILED=YES" >> "${GITHUB_ENV}"
@@ -366,7 +373,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
                 echo "Processing ${f} -> ${t}"
                 dest_dir="$(dirname "${t}")"
                 sym_name="$(basename "${f}")"
-                target_file=$(basename "${t}")
+                target_file="$(basename "${t}" | tr [:upper:] [:lower:])"
                 if mkdir -p "${dest_dir}/SOAR_SYMS"; then
                   orig_dir="$(pwd)"
                   if cd "${dest_dir}/SOAR_SYMS"; then
