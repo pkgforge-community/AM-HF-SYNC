@@ -7,7 +7,7 @@
 
 #-------------------------------------------------------#
 ##Version
-AMB_VERSION="0.0.5" && echo -e "[+] AM Builder Version: ${AMB_VERSION}" ; unset AMB_VERSION
+AMB_VERSION="0.0.6" && echo -e "[+] AM Builder Version: ${AMB_VERSION}" ; unset AMB_VERSION
 ##Enable Debug 
  if [[ "${DEBUG}" = "1" ]] || [[ "${DEBUG}" = "ON" ]]; then
     set -x
@@ -227,7 +227,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
    for PKG_NAME in "${AM_PKG_NAMES[@]}"; do
      unset BUILD_SUCCESSFUL COMMIT_MSG DESKTOP_FILE HF_PKGBRANCH ICON_FILE ICON_TYPE PKG_BSUM PKG_BUILD_DATE PKG_BUILD_GHA PKG_BUILD_ID PKG_BUILD_LOG PKG_BUILD_SCRIPT PKG_DATETMP PKG_DESCRIPTION PKG_DESCRIPTION_TMP PKG_DESKTOP PKG_DOWNLOAD_URL _PKG_DOWNLOAD_URL PKG_HOMEPAGE PKG_ICON PKG_SHASUM PKG_SIZE PKG_SIZE_RAW PKG_SRC_URL PKG_TYPE PKG_VERSION
      echo "PUSH_SUCCESSFUL=NO" >> "${GITHUB_ENV}"
-     if [[ -f "${AM_DIR_PKG}/${PKG_NAME}" ]] && [[ $(stat -c%s "${AM_DIR_PKG}/${PKG_NAME}") -gt 1024 ]]; then
+     if [[ -f "${AM_DIR_PKG}/${PKG_NAME}" ]] && [[ $(stat -c%s "${AM_DIR_PKG}/${PKG_NAME}") -gt 5 ]]; then
        echo "BUILD_SUCCESSFUL=YES" >> "${GITHUB_ENV}"
        #Prep
         pushd "${HF_REPO_DIR}" &>/dev/null && \
