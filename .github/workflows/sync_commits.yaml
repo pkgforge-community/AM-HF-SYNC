@@ -165,9 +165,13 @@ jobs:
                cat "./file1.tmp" "./diff.tmp" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | sed -e '/^[[:space:]]*$/d;255q' > "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt"
            #fi
            sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${GITHUB_WORKSPACE}/main/.github/CACHE_LIST.txt"
+           sed '/^[[:space:]]*$/d' -i "${GITHUB_WORKSPACE}/main/.github/CACHE_LIST.txt"
            sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${GITHUB_WORKSPACE}/main/.github/PKG_LIST_x86_64-Linux.txt"
+           sed '/^[[:space:]]*$/d' -i "${GITHUB_WORKSPACE}/main/.github/PKG_LIST_x86_64-Linux.txt"
            sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt"
+           sed '/^[[:space:]]*$/d' -i "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt"
            sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${GITHUB_WORKSPACE}/main/.github/QUEUE_LIST_x86_64-Linux.txt"
+           sed '/^[[:space:]]*$/d' -i "${GITHUB_WORKSPACE}/main/.github/QUEUE_LIST_x86_64-Linux.txt"
            grep -xFf <(sed 's/^[[:space:]]*//;s/[[:space:]]*$//' "${GITHUB_WORKSPACE}/main/.github/PKG_LIST_x86_64-Linux.txt") <(sed 's/^[[:space:]]*//;s/[[:space:]]*$//' "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt") > "./BUILD_LIST_x86_64-Linux.txt.temp"
            BUILD_LIST_TMP_F="$(wc -l < "./BUILD_LIST_x86_64-Linux.txt.temp" | tr -cd '[:digit:]' | tr -d '[:space:]')"
            if [[ "${BUILD_LIST_TMP_F}" -gt 5 ]]; then
