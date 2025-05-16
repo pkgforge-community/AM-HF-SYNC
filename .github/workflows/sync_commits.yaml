@@ -152,6 +152,11 @@ jobs:
                echo -e "\n[+] Generating Build List (Diff from BUILD_LIST [${BUILD_LIST_TMP}])\n"
                sed -e '/^[[:space:]]*$/d;256q' "./BUILD_LIST.tmp" | sort -u -o "./BUILD_LIST_x86_64-Linux.txt"
              fi
+               grep -xFf <(sed 's/^[[:space:]]*//;s/[[:space:]]*$//' "${GITHUB_WORKSPACE}/main/.github/PKG_LIST_x86_64-Linux.txt") <(sed 's/^[[:space:]]*//;s/[[:space:]]*$//' "./BUILD_LIST_x86_64-Linux.txt") > "./BUILD_LIST_x86_64-Linux.txt.tmp"
+               BUILD_LIST_TMP_C="$(wc -l < "./BUILD_LIST_x86_64-Linux.txt.tmp" | tr -cd '[:digit:]' | tr -d '[:space:]')"
+               if [[ "${BUILD_LIST_TMP_C}" -gt 10 ]]; then
+                  mv -fv "./BUILD_LIST_x86_64-Linux.txt.tmp" "./BUILD_LIST_x86_64-Linux.txt"
+               fi
                cat "./BUILD_LIST_x86_64-Linux.txt" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | sed -e '/^[[:space:]]*$/d;256q' > "./file1.tmp"
                cat "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' > "./file2.tmp"
                comm -23 "./file2.tmp" "./file1.tmp" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | sed -e '/^[[:space:]]*$/d' | head -n $((255 - $(wc -l < "./file1.tmp"))) > "./diff.tmp"
