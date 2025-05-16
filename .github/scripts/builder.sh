@@ -7,7 +7,7 @@
 
 #-------------------------------------------------------#
 ##Version
-AMB_VERSION="0.0.9" && echo -e "[+] AM Builder Version: ${AMB_VERSION}" ; unset AMB_VERSION
+AMB_VERSION="0.1.0" && echo -e "[+] AM Builder Version: ${AMB_VERSION}" ; unset AMB_VERSION
 ##Enable Debug 
  if [[ "${DEBUG}" = "1" ]] || [[ "${DEBUG}" = "ON" ]]; then
     set -x
@@ -136,7 +136,8 @@ pushd "$(mktemp -d)" &>/dev/null && \
    LOGPATH="${BUILD_DIR}/${AM_PKG_NAME}.log"
    {
      echo -e "\n[+] Installing ${AM_PKG_NAME} <== ${BUILD_SCRIPT} ["$(date --utc '+%Y-%m-%dT%H:%M:%S')" UTC]\n"
-     timeout -k 5s 10s curl -w "\n(Script) <== %{url}\n" -qfsSL "${BUILD_SCRIPT_RAW}"
+     timeout -k 5s 10s curl -w "\n(Script) <== %{url}\n" -qfsSL "${BUILD_SCRIPT_RAW}" -o "${BUILD_DIR}/${AM_PKG_NAME}.script"
+     cat "${BUILD_DIR}/${AM_PKG_NAME}.script"
      set -x
      timeout -k 10s 1000s am install --debug "${AM_PKG_NAME}"
      timeout -k 10s 300s am files "${AM_PKG_NAME}" | cat -
@@ -184,7 +185,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
    get_pkg_type()
    {
      if [[ -s "${LOGPATH}" && $(stat -c%s "${LOGPATH}") -gt 10 ]]; then
-       if grep -m1 -qi "appimage" "${LOGPATH}"; then
+       if grep -m1 -Eqi -- "--appimage-extract|APPIMAGE_EXTRACT_AND_RUN" "${LOGPATH}"; then
          PKG_TYPE="appimage"
        elif grep -m1 -qi "dynamic-binary" "${LOGPATH}"; then
          PKG_TYPE="dynamic"
