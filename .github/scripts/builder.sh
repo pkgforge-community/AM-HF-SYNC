@@ -139,7 +139,11 @@ pushd "$(mktemp -d)" &>/dev/null && \
      timeout -k 5s 10s curl -w "\n(Script) <== %{url}\n" -qfsSL "${BUILD_SCRIPT_RAW}" -o "${BUILD_DIR}/${AM_PKG_NAME}.script"
      cat "${BUILD_DIR}/${AM_PKG_NAME}.script"
      set -x
-     timeout -k 10s 1000s am install --debug "${AM_PKG_NAME}"
+     if grep -m1 -Eqi -- "read -" "${BUILD_DIR}/${AM_PKG_NAME}.script"; then
+       timeout -k 10s 1000s yes '1' | am install --debug "${AM_PKG_NAME}"
+     else
+       timeout -k 10s 1000s am install --debug "${AM_PKG_NAME}"
+     fi
      timeout -k 10s 300s am files "${AM_PKG_NAME}" | cat -
      timeout -k 10s 300s am about "${AM_PKG_NAME}" | cat -
    } 2>&1 | ts -s '[%H:%M:%S]➜ ' | tee "${TEMP_LOG}"
