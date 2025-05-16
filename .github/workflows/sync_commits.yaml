@@ -156,6 +156,8 @@ jobs:
                BUILD_LIST_TMP_C="$(wc -l < "./BUILD_LIST_x86_64-Linux.txt.tmp" | tr -cd '[:digit:]' | tr -d '[:space:]')"
                if [[ "${BUILD_LIST_TMP_C}" -gt 10 ]]; then
                   mv -fv "./BUILD_LIST_x86_64-Linux.txt.tmp" "./BUILD_LIST_x86_64-Linux.txt"
+               else
+                  rm -rfv "./BUILD_LIST_x86_64-Linux.txt.tmp"
                fi
                cat "./BUILD_LIST_x86_64-Linux.txt" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | sed -e '/^[[:space:]]*$/d;256q' > "./file1.tmp"
                cat "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' > "./file2.tmp"
@@ -166,6 +168,13 @@ jobs:
            sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${GITHUB_WORKSPACE}/main/.github/PKG_LIST_x86_64-Linux.txt"
            sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt"
            sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${GITHUB_WORKSPACE}/main/.github/QUEUE_LIST_x86_64-Linux.txt"
+           grep -xFf <(sed 's/^[[:space:]]*//;s/[[:space:]]*$//' "${GITHUB_WORKSPACE}/main/.github/PKG_LIST_x86_64-Linux.txt") <(sed 's/^[[:space:]]*//;s/[[:space:]]*$//' "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt") > "./BUILD_LIST_x86_64-Linux.txt.temp"
+           BUILD_LIST_TMP_F="$(wc -l < "./BUILD_LIST_x86_64-Linux.txt.temp" | tr -cd '[:digit:]' | tr -d '[:space:]')"
+           if [[ "${BUILD_LIST_TMP_F}" -gt 5 ]]; then
+              mv -fv "./BUILD_LIST_x86_64-Linux.txt.temp" "${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt"
+           else
+              rm -rfv "./BUILD_LIST_x86_64-Linux.txt.temp"
+           fi
            echo -e "\n[+] Total Packages: $(wc -l < ${GITHUB_WORKSPACE}/main/.github/PKG_LIST_x86_64-Linux.txt)"
            echo -e "[+] Total Prebuilts: $(wc -l < ${GITHUB_WORKSPACE}/main/.github/CACHE_LIST.txt)"
            echo -e "[+] Total Build Queue: $(wc -l < ${GITHUB_WORKSPACE}/main/.github/BUILD_LIST_x86_64-Linux.txt)"
