@@ -214,7 +214,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
      else
        readarray -t "AM_PKG_NAMES" < <(echo "${AM_PKG_NAME}")
        if [[ -d "${AM_DIR_PKG}/${AM_PKG_NAME}" ]]; then
-         [[ ! -f "${AM_DIR_PKG}/${AM_PKG_NAME}/${AM_PKG_NAME}" ]] && echo "_${AM_PKG_NAME}.bundle.tar.zstd_" > "${AM_DIR_PKG}/${AM_PKG_NAME}/${AM_PKG_NAME}"
+         [[ ! -f "${AM_DIR_PKG}/${AM_PKG_NAME}/${AM_PKG_NAME}" ]] && echo "_@bundle.tar.zstd_" > "${AM_DIR_PKG}/${AM_PKG_NAME}/${AM_PKG_NAME}"
        elif [[ ! -f "${AM_DIR_PKG}/${AM_PKG_NAME}" ]]; then
          echo "_${AM_PKG_NAME}_" > "${AM_DIR_PKG}/${AM_PKG_NAME}"
        fi
@@ -374,10 +374,10 @@ pushd "$(mktemp -d)" &>/dev/null && \
          export AM_PKG_ID="AM.$(uname -m).${AM_PKG_NAME}.${PKG_NAME}"
        else
          export PKG_TYPE="archive"
-         export AM_PKG_ID="AM.$(uname -m).${AM_PKG_NAME}.${PKG_NAME}.bundle.tar.zstd"
+         export AM_PKG_ID="AM.$(uname -m).${AM_PKG_NAME}.${PKG_NAME}.bundle"
        fi
       #Generate Bundle
-       if echo "${AM_PKG_ID}" | grep -qi "bundle\.tar\.zstd$"; then
+       if echo "${AM_PKG_ID}" | grep -qi "\.bundle$"; then
          #Copy Struct
           rsync -achv "${AM_DIR_PKG}/." "${HF_REPO_DIR}/_bundle"
          #Copy Symlinks
@@ -458,6 +458,18 @@ pushd "$(mktemp -d)" &>/dev/null && \
             echo -e "[+] Size: ${PKG_SIZE} ('.size')"
             echo -e "[+] Size (Raw): ${PKG_SIZE_RAW} ('.size_raw')"
           fi
+         #Finalize Notes
+          NOTES=(
+            "[EXTERNAL] We CAN NOT guarantee the authenticity, validity or security"
+            "This package was auto-built, cached & uploaded using AM"
+            "Provided by: https://github.com/ivan-hc/AM"
+            "Learn More: https://docs.pkgforge.dev/repositories/external/am"
+            "Please create an Issue or send a PR for an official Package"
+          )
+          if echo "${AM_PKG_ID}" | grep -qi "\.bundle$"; then
+            NOTES+=("[BUNDLE] (This is a tar.zstd bundle with SOAR_SYMS)")
+          fi
+          NOTES_JSON=$(printf '%s\n' "${NOTES[@]}" | jq -R . | jq -s .)
        fi
       #Generate Json
        jq -n --arg HOST "${HOST_TRIPLET}" \
@@ -476,6 +488,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
          --arg DOWNLOAD_URL "${PKG_DOWNLOAD_URL}" \
          --arg HOMEPAGE "${PKG_HOMEPAGE}" \
          --arg ICON "${PKG_ICON}" \
+         --argjson NOTES "${NOTES_JSON}" \
          --arg PROVIDES "$(printf "%s\n" "${AM_PKG_NAMES[@]}" | paste -sd, - | tr -d '[:space:]')" \
          --arg SHASUM "${PKG_SHASUM}" \
          --arg SIZE "${PKG_SIZE}" \
@@ -509,13 +522,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
             maintainer: [
             "AM (https://github.com/ivan-hc/AM)"
             ],
-            note: [
-            "[EXTERNAL] We CAN NOT guarantee the authenticity, validity or security",
-            "This package was auto-built, cached & uploaded using AM",
-            "Provided by: https://github.com/ivan-hc/AM",
-            "Learn More: https://docs.pkgforge.dev/repositories/external/am",
-            "Please create an Issue or send a PR for an official Package"
-            ],
+            note: $NOTES,
             provides: ($PROVIDES | split(",")),
             shasum: $SHASUM,
             size: $SIZE,
