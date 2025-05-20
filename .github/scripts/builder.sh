@@ -460,7 +460,8 @@ pushd "$(mktemp -d)" &>/dev/null && \
           fi
          #Finalize Notes
           NOTES=(
-            "[EXTERNAL] We CAN NOT guarantee the authenticity, validity or security"
+            "[EXTERNAL] (This is an unofficial, third-party repository)"
+            "[UNTRUSTED] (We CAN NOT guarantee the authenticity, validity or security)"
             "This package was auto-built, cached & uploaded using AM"
             "Provided by: https://github.com/ivan-hc/AM"
             "Learn More: https://docs.pkgforge.dev/repositories/external/am"
