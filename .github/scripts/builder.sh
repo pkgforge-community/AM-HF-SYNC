@@ -470,7 +470,8 @@ pushd "$(mktemp -d)" &>/dev/null && \
           if echo "${AM_PKG_ID}" | grep -qi "\.bundle$"; then
             NOTES+=("[BUNDLE] (This is a tar.zstd bundle with SOAR_SYMS)")
           fi
-          NOTES_JSON=$(printf '%s\n' "${NOTES[@]}" | jq -R . | jq -s .)
+          echo -e "[+] Notes:\n$(printf '%s\n' "${NOTES[@]}" | jq -R . | jq -s .)"
+          NOTES_JSON="$(printf '%s\n' "${NOTES[@]}" | jq -R . | jq -s .)"
        fi
       #Generate Json
        jq -n --arg HOST "${HOST_TRIPLET}" \
