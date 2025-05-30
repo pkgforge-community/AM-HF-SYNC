@@ -7,7 +7,7 @@
 
 #-------------------------------------------------------#
 ##Version
-AMB_VERSION="0.1.0" && echo -e "[+] AM Builder Version: ${AMB_VERSION}" ; unset AMB_VERSION
+AMB_VERSION="0.1.0+1" && echo -e "[+] AM Builder Version: ${AMB_VERSION}" ; unset AMB_VERSION
 ##Enable Debug 
  if [[ "${DEBUG}" = "1" ]] || [[ "${DEBUG}" = "ON" ]]; then
     set -x
