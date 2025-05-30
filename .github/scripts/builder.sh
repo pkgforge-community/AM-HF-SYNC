@@ -7,7 +7,7 @@
 
 #-------------------------------------------------------#
 ##Version
-AMB_VERSION="0.1.0+1" && echo -e "[+] AM Builder Version: ${AMB_VERSION}" ; unset AMB_VERSION
+AMB_VERSION="0.1.1" && echo -e "[+] AM Builder Version: ${AMB_VERSION}" ; unset AMB_VERSION
 ##Enable Debug 
  if [[ "${DEBUG}" = "1" ]] || [[ "${DEBUG}" = "ON" ]]; then
     set -x
@@ -458,21 +458,21 @@ pushd "$(mktemp -d)" &>/dev/null && \
             echo -e "[+] Size: ${PKG_SIZE} ('.size')"
             echo -e "[+] Size (Raw): ${PKG_SIZE_RAW} ('.size_raw')"
           fi
-         #Finalize Notes
-          NOTES=(
-            "[EXTERNAL] (This is an unofficial, third-party repository)"
-            "[UNTRUSTED] (We CAN NOT guarantee the authenticity, validity or security)"
-            "This package was auto-built, cached & uploaded using AM"
-            "Provided by: https://github.com/ivan-hc/AM"
-            "Learn More: https://docs.pkgforge.dev/repositories/external/am"
-            "Please create an Issue or send a PR for an official Package"
-          )
-          if echo "${AM_PKG_ID}" | grep -qi "\.bundle$"; then
-            NOTES+=("[BUNDLE] (This is a tar.zstd bundle with SOAR_SYMS)")
-          fi
-          echo -e "[+] Notes:\n$(printf '%s\n' "${NOTES[@]}" | jq -R . | jq -s .)"
-          NOTES_JSON="$(printf '%s\n' "${NOTES[@]}" | jq -R . | jq -s .)"
        fi
+      #Finalize Notes
+       NOTES=(
+         "[EXTERNAL] (This is an unofficial, third-party repository)"
+         "[UNTRUSTED] (We CAN NOT guarantee the authenticity, validity or security)"
+         "This package was auto-built, cached & uploaded using AM"
+         "Provided by: https://github.com/ivan-hc/AM"
+         "Learn More: https://docs.pkgforge.dev/repositories/external/am"
+         "Please create an Issue or send a PR for an official Package"
+       )
+       if echo "${AM_PKG_ID}" | grep -qi "\.bundle$"; then
+         NOTES+=("[BUNDLE] (This is a tar.zstd bundle with SOAR_SYMS)")
+       fi
+       echo -e "[+] Notes:\n$(printf '%s\n' "${NOTES[@]}" | jq -R . | jq -s .)"
+       NOTES_JSON="$(printf '%s\n' "${NOTES[@]}" | jq -R . | jq -s .)"
       #Generate Json
        jq -n --arg HOST "${HOST_TRIPLET}" \
          --arg PKG "${AM_PKG_NAME}" \
