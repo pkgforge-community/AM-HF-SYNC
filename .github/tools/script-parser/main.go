@@ -10,6 +10,7 @@ import (
 	"os"
 	"os/exec"
 	"path/filepath"
+	"regexp"
 	"strings"
 	"sync"
 	"time"
@@ -28,15 +29,16 @@ type Variable struct {
 }
 
 type Config struct {
-	Quiet    bool
-	Verbose  bool
-	JSON     bool
-	Files    []string
-	URLs     []string
-	FromFile string
-	Extract  bool
-	Output   string
-	Parallel int
+	Quiet     bool
+	Verbose   bool
+	JSON      bool
+	Files     []string
+	URLs      []string
+	FromFile  string
+	Extract   bool
+	Transform bool
+	Output    string
+	Parallel  int
 }
 
 type ParseResult struct {
@@ -49,32 +51,33 @@ var config Config
 
 func main() {
 	var rootCmd = &cobra.Command{
-		Use:   "shell-parser",
-		Short: "Extract variables from shell scripts",
-		Long: `A modern CLI tool to parse shell scripts and extract variable assignments.
-Supports reading from files, URLs, or stdin, with various output formats and parallel processing.`,
-		Example: `  shell-parser -f script.sh
-  cat script.sh | shell-parser
-  shell-parser --file script.sh --json
-  shell-parser -f script.sh --quiet
-  shell-parser -u https://example.com/script.sh --extract --json
-  shell-parser --url https://raw.githubusercontent.com/user/repo/main/script.sh --extract
-  shell-parser -f script1.sh -f script2.sh --parallel 2 --json -o results.json
-  shell-parser -u url1 -u url2 -f local.sh --parallel 3 --output combined.json
-  shell-parser --from-file sources.txt --parallel 4 --json -o results.json
-  shell-parser --from-file urls.txt --extract --verbose`,
+		Use:   "script-parser",
+		Short: "Extract/Eval Variables from shell scripts",
+		Example: `  script-parser -f script.sh
+  cat script.sh | script-parser
+  script-parser --file script.sh --json
+  script-parser -f script.sh --quiet
+  script-parser -u https://example.com/script.sh --extract --json
+  script-parser --url https://raw.githubusercontent.com/user/repo/main/script.sh --extract
+  script-parser -f script1.sh -f script2.sh --parallel 2 --json -o results.json
+  script-parser -u url1 -u url2 -f local.sh --parallel 3 --output combined.json
+  script-parser --from-file sources.txt --parallel 4 --json -o results.json
+  script-parser --from-file urls.txt --extract --verbose
+  script-parser -f script.sh --transform --extract --json
+  script-parser --from-file sources.txt --transform --extract --parallel 4`,
 		RunE: runParser,
 	}
 
 	rootCmd.Flags().StringArrayVarP(&config.Files, "file", "f", []string{}, "shell script file(s) to parse (can be specified multiple times)")
 	rootCmd.Flags().StringArrayVarP(&config.URLs, "url", "u", []string{}, "URL(s) to download shell script from (can be specified multiple times)")
-	rootCmd.Flags().StringVar(&config.FromFile, "from-file", "", "read file paths and URLs from a file (one per line)")
+	rootCmd.Flags().StringVarP(&config.FromFile, "from-file", "l", "", "read file paths and URLs from a file (one per line)")
 	rootCmd.Flags().StringVarP(&config.Output, "output", "o", "", "output file path (default: stdout)")
-	rootCmd.Flags().IntVar(&config.Parallel, "parallel", 1, "number of files to process in parallel")
+	rootCmd.Flags().IntVarP(&config.Parallel, "parallel", "p", 10, "number of files to process in parallel")
 	rootCmd.Flags().BoolVarP(&config.Quiet, "quiet", "q", false, "only output variable assignments")
 	rootCmd.Flags().BoolVarP(&config.Verbose, "verbose", "v", false, "verbose output with additional details")
-	rootCmd.Flags().BoolVar(&config.JSON, "json", false, "output in JSON format")
-	rootCmd.Flags().BoolVar(&config.Extract, "extract", false, "evaluate variables using bash and include results")
+	rootCmd.Flags().BoolVarP(&config.JSON, "json", "j", false, "output in JSON format")
+	rootCmd.Flags().BoolVarP(&config.Extract, "extract", "e", false, "evaluate variables using bash and include results")
+	rootCmd.Flags().BoolVarP(&config.Transform, "transform", "t", false, "transform URLs (Use Pkgforge APIs) before processing")
 
 	// Add validation
 	rootCmd.PreRunE = func(cmd *cobra.Command, args []string) error {
@@ -265,6 +268,15 @@ func isURL(str string) bool {
 	return err == nil && u.Scheme != "" && u.Host != ""
 }
 
+func applyURLTransformations(url string) string {
+	// Transform /blob/ to /raw/ in URLs
+	blobPattern := regexp.MustCompile(`/blob/`)
+	url = blobPattern.ReplaceAllString(url, "/raw/")
+	
+	// Add other URL transformations here if needed
+	return url
+}
+
 func parseSourceWrapper(source string) ParseResult {
 	if strings.HasPrefix(source, "file:") {
 		filePath := strings.TrimPrefix(source, "file:")
@@ -284,6 +296,9 @@ func parseSourceWrapper(source string) ParseResult {
 		return ParseResult{Variables: variables, Source: absPath, Error: err}
 	} else if strings.HasPrefix(source, "url:") {
 		url := strings.TrimPrefix(source, "url:")
+		if config.Transform {
+			url = applyURLTransformations(url)
+		}
 		resp, err := downloadScript(url)
 		if err != nil {
 			return ParseResult{Error: fmt.Errorf("error downloading script: %w", err), Source: url}
@@ -298,9 +313,26 @@ func parseSourceWrapper(source string) ParseResult {
 }
 
 func parseSource(sourceName string, input io.Reader) ([]Variable, error) {
+	var reader io.Reader = input
+
+	// Apply transformations if requested
+	if config.Transform {
+		content, err := io.ReadAll(input)
+		if err != nil {
+			return nil, fmt.Errorf("error reading content for transformation: %w", err)
+		}
+
+		transformedContent := applyTransformations(string(content))
+		reader = strings.NewReader(transformedContent)
+
+		if config.Verbose && !config.Quiet {
+			fmt.Fprintf(os.Stderr, "Applied transformations to %s\n", sourceName)
+		}
+	}
+
 	// Parse the shell script
 	parser := syntax.NewParser()
-	file, err := parser.Parse(input, sourceName)
+	file, err := parser.Parse(reader, sourceName)
 	if err != nil {
 		return nil, fmt.Errorf("error parsing shell script: %w", err)
 	}
@@ -330,10 +362,34 @@ func downloadScript(url string) (*http.Response, error) {
 
 func extractVariableValues(variables []Variable) []Variable {
 	for i, v := range variables {
-		result := evaluateVariable(v.Name, v.Value)
+		// Apply transformations to the value before evaluation if transform is enabled
+		value := v.Value
+		if config.Transform {
+			value = applyTransformations(value)
+		}
+		
+		result := evaluateVariable(v.Name, value)
 		variables[i].Result = result
+		
+		// Also update the original value if it was transformed
+		if config.Transform && value != v.Value {
+			variables[i].Value = value
+		}
 	}
 	return variables
+}
+
+func applyTransformations(content string) string {
+	// Create case-insensitive regex patterns for the transformations
+	// Pattern 1: api.github.com -> api.gh.pkgforge.dev
+	githubPattern := regexp.MustCompile(`(?i)api\.github\.com`)
+	content = githubPattern.ReplaceAllString(content, "api.gh.pkgforge.dev")
+	
+	// Pattern 2: repology.org -> api.rl.pkgforge.dev  
+	repologyPattern := regexp.MustCompile(`(?i)repology\.org`)
+	content = repologyPattern.ReplaceAllString(content, "api.rl.pkgforge.dev")
+	
+	return content
 }
 
 func evaluateVariable(name, value string) string {
