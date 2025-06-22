@@ -4,7 +4,7 @@ name: ♻️ Sync Upstream ♻️
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */1 * * *" #@every 1hrs
+    - cron: "0 */2 * * *" #@every 2hrs
 #------------------------------------------------------------------------------------#
 jobs:
     sync-upstream:
@@ -117,6 +117,90 @@ jobs:
            ##For now, get all
            curl -qfsSL "https://github.com/ivan-hc/AM/raw/main/programs/x86_64-apps" | sort -u -o "./AI.txt"
            git -C "${AM_REPO_LOCAL}" ls-tree --name-only 'HEAD' -- "programs/x86_64/" | xargs -I "{}" basename "{}" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | grep -Eiv '\.(git|md|txt)' | sort -u -o "./APP.txt"
+           #Gen JSON
+             jq -Rn '[inputs | gsub("\\s+";"") | select(length > 0) | {pkg: ., source_blob: "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/" + ., source_raw: "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/" + .}]' < "./APP.txt" | jq . > "./APP_RAW.json"
+             if [[ "$(jq -r '.[] | .pkg' "./APP_RAW.json" | sort -u | grep -Eiv '^null$' | wc -l | tr -cd '[:digit:]')" -gt 1000 ]]; then
+               #Get Descr
+                curl -qfsSL "https://github.com/ivan-hc/AM/raw/refs/heads/main/programs/x86_64-apps" | awk \
+                 '
+                  NF && gsub(/^[^a-zA-Z0-9]*/, "") &&
+                  match($0, /^[a-zA-Z0-9][a-zA-Z0-9_.-]*/) &&
+                  (pkg = substr($0, RSTART, RLENGTH)) &&
+                  (rest = substr($0, RSTART + RLENGTH)) &&
+                  gsub(/^[^a-zA-Z0-9]*/, "", rest) &&
+                  length(rest) > 0 {
+                      gsub(/[ \t]/, "", pkg)
+                      gsub(/^[ \t.]*/, "", rest)
+                      gsub(/[ \t.]*$/, "", rest)
+                      # Remove problematic characters completely
+                      gsub(/["\\]/, "", pkg)
+                      gsub(/["\\]/, "", rest)
+                      gsub(/\n/, " ", rest)
+                      gsub(/\r/, " ", rest)
+                      gsub(/\t/, " ", rest)
+                      print "{\"pkg\": \"" pkg "\", \"description\": \"" rest "\"}"
+                  }    
+                 ' > "./APP_DESCR.json.tmp"
+                  jq . "./APP_DESCR.json.tmp" | awk '/^\s*{\s*$/{flag=1; buffer="{\n"; next} /^\s*}\s*$/{if(flag){buffer=buffer"}\n"; print buffer}; flag=0; next} flag{buffer=buffer$0"\n"}' | jq -c '. as $line | (fromjson? | .message) // $line' >> "./APP_DESCR.json.raw"
+                  jq -s '[.[] | select(type == "object" and has("pkg"))] 
+                        | unique_by(.pkg | ascii_downcase)
+                        | sort_by(.pkg | ascii_downcase)' "./APP_DESCR.json.raw" > "./APP_DESCR.json"
+               #Parse/Generate Eval
+                jq -r '.[] | .source_raw' "./APP_RAW.json" | sort -u | grep -Eiv '^null$' | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' > "./APP_URLS.txt"
+                script-parser --from-file "./APP_URLS.txt" --output "./APP_TMP.json" --parallel "100" --extract --json --transform --verbose
+                jq -s \
+                 '
+                  flatten
+                  | group_by(.source)
+                  | map({
+                      pkg: (.[] | select(.name | ascii_downcase == "app") | .result),
+                      version_raw: ((.[] | select(.name | ascii_downcase == "version") | .result) // "" | if . == "null" or . == null or . == "" or (. | type == "string" and contains("ERROR:")) then "" else . end),
+                      site: (.[] | select(.name | ascii_downcase == "site") | .result),
+                      source_raw: (.[0].source | sub("/blob/"; "/raw/")),
+                      source_blob: (.[0].source | sub("/raw/"; "/blob/"))
+                  })
+                  | unique_by(.source_raw)
+                  | sort_by(.source_raw)
+                 ' "./APP_TMP.json" > "./APP_CMP.json.tmp"
+                jq -s \
+                 '
+                   .[0] as $raw | .[1] as $cmp |
+                   [
+                     $raw[] as $r |
+                     $cmp[] |
+                     select(.source_blob == $r.source_blob or .source_raw == $r.source_raw) |
+                     {
+                       pkg: $r.pkg,
+                       site: .site,
+                       source_blob: $r.source_blob,
+                       source_raw: $r.source_raw,
+                       version_raw: .version_raw
+                     }
+                   ] | unique_by(.source_raw) | sort_by(.pkg)
+                 ' "./APP_RAW.json" "./APP_CMP.json.tmp" > "./APP_CMP.json"
+                 if [[ "$(jq -r '.[] | .pkg' "./APP_DESCR.json" | sort -u | grep -Eiv '^null$' | wc -l | tr -cd '[:digit:]')" -gt 1000 ]]; then
+                   if [[ "$(jq -r '.[] | .pkg' "./APP_CMP.json" | sort -u | grep -Eiv '^null$' | wc -l | tr -cd '[:digit:]')" -gt 1000 ]]; then
+                     jq -s \
+                      '
+                       (.[1] | map({(.pkg): .description}) | add) as $descs
+                       | .[0] | map(. + {description: ($descs[.pkg] // "No Description Provided")})
+                      ' "./APP_CMP.json" "./APP_DESCR.json" | jq . > "./PKGS.json.tmp"
+                     jq 'walk(if type == "boolean" or type == "number" then tostring else . end)' "./PKGS.json.tmp" | jq \
+                      '
+                       map(select(
+                       .pkg != null and .pkg != "" and
+                       .source_blob != null and .source_blob != "" and
+                       .source_raw != null and .source_raw != "" and
+                       .description != null and .description != ""
+                       ))
+                      ' > "./PKGS.json.raw"
+                     if [[ "$(jq -r '.[] | .pkg' "./PKGS.json.raw" | sort -u | grep -Eiv '^null$' | wc -l | tr -cd '[:digit:]')" -gt 1000 ]]; then
+                        cp -fv "./PKGS.json.raw" "${GITHUB_WORKSPACE}/main/.github/PKGS.json"
+                     fi
+                   fi
+                 fi
+             fi
+           #Main
            readarray -t "AM_PKGS_X86_TMP" < <(grep -o -w -f "./APP.txt" "./AI.txt" | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | grep -Eiv '\.(git|md|txt)' | sort -u)
            if [[ -n "${AM_PKGS_X86_TMP[*]}" && "${#AM_PKGS_X86_TMP[@]}" -gt 2000 ]]; then
             #Update List

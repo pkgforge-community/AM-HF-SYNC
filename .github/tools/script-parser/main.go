@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+	"context"
 	"encoding/json"
 	"fmt"
 	"io"
@@ -361,21 +362,70 @@ func downloadScript(url string) (*http.Response, error) {
 }
 
 func extractVariableValues(variables []Variable) []Variable {
-	for i, v := range variables {
-		// Apply transformations to the value before evaluation if transform is enabled
-		value := v.Value
-		if config.Transform {
-			value = applyTransformations(value)
-		}
-		
-		result := evaluateVariable(v.Name, value)
-		variables[i].Result = result
+	if len(variables) == 0 {
+		return variables
+	}
+
+	// Create jobs and results channels
+	jobs := make(chan int, len(variables))
+	results := make(chan struct {
+		index int
+		result string
+		transformedValue string
+	}, len(variables))
+
+	// Start workers
+	var wg sync.WaitGroup
+	for i := 0; i < config.Parallel; i++ {
+		wg.Add(1)
+		go func() {
+			defer wg.Done()
+			for index := range jobs {
+				v := variables[index]
+				
+				// Apply transformations to the value before evaluation if transform is enabled
+				value := v.Value
+				if config.Transform {
+					value = applyTransformations(value)
+				}
+				
+				result := evaluateVariable(v.Name, value)
+				
+				results <- struct {
+					index int
+					result string
+					transformedValue string
+				}{
+					index: index,
+					result: result,
+					transformedValue: value,
+				}
+			}
+		}()
+	}
+
+	// Send jobs
+	for i := range variables {
+		jobs <- i
+	}
+	close(jobs)
+
+	// Wait for completion
+	go func() {
+		wg.Wait()
+		close(results)
+	}()
+
+	// Collect results and update variables
+	for result := range results {
+		variables[result.index].Result = result.result
 		
 		// Also update the original value if it was transformed
-		if config.Transform && value != v.Value {
-			variables[i].Value = value
+		if config.Transform && result.transformedValue != variables[result.index].Value {
+			variables[result.index].Value = result.transformedValue
 		}
 	}
+
 	return variables
 }
 
@@ -396,9 +446,18 @@ func evaluateVariable(name, value string) string {
 	// Create a temporary bash script to evaluate the variable
 	script := fmt.Sprintf("#!/bin/bash\n%s=%s\necho \"${%s}\"", name, value, name)
 	
-	cmd := exec.Command("bash", "-c", script)
+	// Create a context with 100-second timeout
+	ctx, cancel := context.WithTimeout(context.Background(), 100*time.Second)
+	defer cancel()
+	
+	cmd := exec.CommandContext(ctx, "bash", "-c", script)
 	output, err := cmd.Output()
 	if err != nil {
+		// Check if it was a timeout
+		if ctx.Err() == context.DeadlineExceeded {
+			return "ERROR: evaluation timed out after 100 seconds"
+		}
+		
 		// If evaluation fails, return the error info
 		if exitError, ok := err.(*exec.ExitError); ok {
 			return fmt.Sprintf("ERROR: %s", string(exitError.Stderr))
