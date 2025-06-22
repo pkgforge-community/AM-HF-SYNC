@@ -131,7 +131,7 @@ jobs:
                 curl -qfsSL "https://github.com/ivan-hc/AM/raw/refs/heads/main/programs/x86_64-apps" | awk \
                  '
                   NF && gsub(/^[^a-zA-Z0-9]*/, "") &&
-                  match($0, /^[a-zA-Z0-9][a-zA-Z0-9_.-]*/) &&
+                  match($0, /^[a-zA-Z0-9][a-zA-Z0-9_.+-]*/) &&
                   (pkg = substr($0, RSTART, RLENGTH)) &&
                   (rest = substr($0, RSTART + RLENGTH)) &&
                   gsub(/^[^a-zA-Z0-9]*/, "", rest) &&
@@ -146,7 +146,7 @@ jobs:
                       gsub(/\r/, " ", rest)
                       gsub(/\t/, " ", rest)
                       print "{\"pkg\": \"" pkg "\", \"description\": \"" rest "\"}"
-                  }    
+                  }
                  ' > "./APP_DESCR.json.tmp"
                   jq . "./APP_DESCR.json.tmp" | awk '/^\s*{\s*$/{flag=1; buffer="{\n"; next} /^\s*}\s*$/{if(flag){buffer=buffer"}\n"; print buffer}; flag=0; next} flag{buffer=buffer$0"\n"}' | jq -c '. as $line | (fromjson? | .message) // $line' >> "./APP_DESCR.json.raw"
                   jq -s '[.[] | select(type == "object" and has("pkg"))] 
