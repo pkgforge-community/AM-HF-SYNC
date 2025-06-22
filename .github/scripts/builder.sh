@@ -42,6 +42,7 @@ export TZ="UTC"
    BUILD_SCRIPT="https://github.com/ivan-hc/AM/blob/main/programs/x86_64/${AM_PKG_NAME}"
  fi
  BUILD_SCRIPT_RAW="$(echo "${BUILD_SCRIPT}" | sed 's|/blob/main|/raw/main|' | tr -d '[:space:]')"
+ export BUILD_SCRIPT BUILD_SCRIPT_RAW
 #Tmp
  if [[ ! -d "${SYSTMP}" ]]; then
   SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP
@@ -248,7 +249,7 @@ pushd "$(mktemp -d)" &>/dev/null && \
              timeout -k 10s 300s bash -c 'yes "y" | am nolibfuse "${AM_PKG_NAME}" | cat -' &>/dev/null || true
           fi
          #Version
-          PKG_VERSION="$(sed -n 's/.*version *: *\([^ ]*\).*/\1/p' "${LOGPATH}" | tr -d '[:space:]')"
+          PKG_VERSION="$(sed -n 's/.*version *: *\([^ ]*\).*/\1/p' "${LOGPATH}" | grep -Eiv -- '-----' | tr -d '[:space:]')"
           if [ -z "${PKG_VERSION+x}" ] || [ -z "${PKG_VERSION##*[[:space:]]}" ]; then
             if grep -qi "github.com" "${AM_DIR_PKG}/version"; then
               PKG_VERSION="$(sed -E 's#.*/download/([^/]+)/.*#\1#' "${AM_DIR_PKG}/version" | tr -d '[:space:]')"
@@ -307,10 +308,13 @@ pushd "$(mktemp -d)" &>/dev/null && \
           echo -e "[+] SHA256SUM: ${PKG_SHASUM} ('.shasum')"
          #Description
           if [[ -z "${PKG_DESCRIPTION+x}" ]] || [[ -z "${PKG_DESCRIPTION##*[[:space:]]}" ]]; then
-            PKG_DESCRIPTION="$(awk 'BEGIN {IGNORECASE=1}
-               /version:/ {f=1; next}
-               /site:/ {f=0}
-               f {sub(/.*]➜[[:space:]]*/, ""); sub(/^[[:space:].]+/, ""); sub(/[[:space:].]+$/, ""); if (NF) print}' "${HF_REPO_DIR}/${PKG_NAME}.log" 2>/dev/null | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | sed -e '/^[[:space:]]*$/d;1q')"
+            #PKG_DESCRIPTION="$(awk 'BEGIN {IGNORECASE=1}
+            #   /version:/ {f=1; next}
+            #   /site:/ {f=0}
+            #   f {sub(/.*]➜[[:space:]]*/, ""); sub(/^[[:space:].]+/, ""); sub(/[[:space:].]+$/, ""); if (NF) print}' "${HF_REPO_DIR}/${PKG_NAME}.log" 2>/dev/null | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | sed -e '/^[[:space:]]*$/d;1q')"
+            PKG_DESCRIPTION="$(curl -qfsSL "https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/refs/heads/main/.github/PKGS.json" | \
+              jq -r --arg PKG "${AM_PKG_NAME}" --arg SOURCE_RAW "${BUILD_SCRIPT_RAW}" \
+              '.[] | select(.pkg == $PKG and .source_raw == $SOURCE_RAW) | .description // "No Description Provided"')"
           fi
           PKG_DESCRIPTION_TMP="${PKG_DESCRIPTION}"
           PKG_DESCRIPTION="$(echo "${PKG_DESCRIPTION_TMP}" | sed 's/`//g' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed ':a;N;$!ba;s/\r\n//g; s/\n//g' | sed 's/["'\'']//g' | sed 's/|//g' | sed 's/`//g')"
