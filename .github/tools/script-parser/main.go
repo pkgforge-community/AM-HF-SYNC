@@ -1,13 +1,17 @@
 package main
 
 import (
+	"bufio"
 	"encoding/json"
 	"fmt"
 	"io"
 	"net/http"
+	"net/url"
 	"os"
 	"os/exec"
+	"path/filepath"
 	"strings"
+	"sync"
 	"time"
 
 	"github.com/spf13/cobra"
@@ -20,15 +24,25 @@ type Variable struct {
 	Type   string `json:"type"`
 	Line   uint   `json:"line"`
 	Result string `json:"result,omitempty"`
+	Source string `json:"source"`
 }
 
 type Config struct {
-	Quiet   bool
-	Verbose bool
-	JSON    bool
-	File    string
-	URL     string
-	Extract bool
+	Quiet    bool
+	Verbose  bool
+	JSON     bool
+	Files    []string
+	URLs     []string
+	FromFile string
+	Extract  bool
+	Output   string
+	Parallel int
+}
+
+type ParseResult struct {
+	Variables []Variable
+	Source    string
+	Error     error
 }
 
 var config Config
@@ -38,34 +52,34 @@ func main() {
 		Use:   "shell-parser",
 		Short: "Extract variables from shell scripts",
 		Long: `A modern CLI tool to parse shell scripts and extract variable assignments.
-Supports reading from files, URLs, or stdin, with various output formats.`,
+Supports reading from files, URLs, or stdin, with various output formats and parallel processing.`,
 		Example: `  shell-parser -f script.sh
   cat script.sh | shell-parser
   shell-parser --file script.sh --json
   shell-parser -f script.sh --quiet
   shell-parser -u https://example.com/script.sh --extract --json
-  shell-parser --url https://raw.githubusercontent.com/user/repo/main/script.sh --extract`,
+  shell-parser --url https://raw.githubusercontent.com/user/repo/main/script.sh --extract
+  shell-parser -f script1.sh -f script2.sh --parallel 2 --json -o results.json
+  shell-parser -u url1 -u url2 -f local.sh --parallel 3 --output combined.json
+  shell-parser --from-file sources.txt --parallel 4 --json -o results.json
+  shell-parser --from-file urls.txt --extract --verbose`,
 		RunE: runParser,
 	}
 
-	rootCmd.Flags().StringVarP(&config.File, "file", "f", "", "shell script file to parse")
-	rootCmd.Flags().StringVarP(&config.URL, "url", "u", "", "URL to download shell script from")
+	rootCmd.Flags().StringArrayVarP(&config.Files, "file", "f", []string{}, "shell script file(s) to parse (can be specified multiple times)")
+	rootCmd.Flags().StringArrayVarP(&config.URLs, "url", "u", []string{}, "URL(s) to download shell script from (can be specified multiple times)")
+	rootCmd.Flags().StringVar(&config.FromFile, "from-file", "", "read file paths and URLs from a file (one per line)")
+	rootCmd.Flags().StringVarP(&config.Output, "output", "o", "", "output file path (default: stdout)")
+	rootCmd.Flags().IntVar(&config.Parallel, "parallel", 1, "number of files to process in parallel")
 	rootCmd.Flags().BoolVarP(&config.Quiet, "quiet", "q", false, "only output variable assignments")
 	rootCmd.Flags().BoolVarP(&config.Verbose, "verbose", "v", false, "verbose output with additional details")
 	rootCmd.Flags().BoolVar(&config.JSON, "json", false, "output in JSON format")
 	rootCmd.Flags().BoolVar(&config.Extract, "extract", false, "evaluate variables using bash and include results")
 
-	// Add validation for mutually exclusive options
+	// Add validation
 	rootCmd.PreRunE = func(cmd *cobra.Command, args []string) error {
-		sources := 0
-		if config.File != "" {
-			sources++
-		}
-		if config.URL != "" {
-			sources++
-		}
-		if sources > 1 {
-			return fmt.Errorf("cannot specify both --file and --url options")
+		if config.Parallel < 1 {
+			return fmt.Errorf("parallel must be at least 1")
 		}
 		return nil
 	}
@@ -76,58 +90,224 @@ Supports reading from files, URLs, or stdin, with various output formats.`,
 }
 
 func runParser(cmd *cobra.Command, args []string) error {
-	var input io.Reader
-	var sourceName string
+	var allSources []string
+	var allVariables []Variable
 
-	if config.File != "" {
-		file, err := os.Open(config.File)
+	// Collect sources from --from-file first
+	if config.FromFile != "" {
+		fileSources, err := readSourcesFromFile(config.FromFile)
 		if err != nil {
-			return fmt.Errorf("error opening file: %w", err)
+			return fmt.Errorf("error reading from file %s: %w", config.FromFile, err)
 		}
-		defer file.Close()
-		input = file
-		sourceName = config.File
-	} else if config.URL != "" {
-		resp, err := downloadScript(config.URL)
-		if err != nil {
-			return fmt.Errorf("error downloading script: %w", err)
-		}
-		defer resp.Body.Close()
-		input = resp.Body
-		sourceName = config.URL
-	} else {
-		input = os.Stdin
-		sourceName = "stdin"
+		allSources = append(allSources, fileSources...)
 	}
 
+	// Collect all other sources
+	for _, file := range config.Files {
+		allSources = append(allSources, "file:"+file)
+	}
+	for _, url := range config.URLs {
+		allSources = append(allSources, "url:"+url)
+	}
+
+	// Handle stdin if no sources specified
+	if len(allSources) == 0 {
+		variables, err := parseSource("stdin", os.Stdin)
+		if err != nil {
+			return err
+		}
+		allVariables = variables
+	} else {
+		// Parse multiple sources in parallel
+		results := parseSourcesParallel(allSources)
+		
+		// Collect results and handle errors
+		for _, result := range results {
+			if result.Error != nil {
+				if !config.Quiet {
+					fmt.Fprintf(os.Stderr, "Error parsing %s: %v\n", result.Source, result.Error)
+				}
+				continue
+			}
+			allVariables = append(allVariables, result.Variables...)
+		}
+	}
+
+	// Remove duplicates across all files
+	allVariables = removeDuplicates(allVariables)
+
+	// Extract/evaluate variables if requested
+	if config.Extract {
+		allVariables = extractVariableValues(allVariables)
+	}
+
+	// Output results
+	var output io.Writer = os.Stdout
+	if config.Output != "" {
+		file, err := os.Create(config.Output)
+		if err != nil {
+			return fmt.Errorf("error creating output file: %w", err)
+		}
+		defer file.Close()
+		output = file
+	}
+
+	if config.JSON {
+		return outputJSON(allVariables, output)
+	}
+
+	if config.Quiet {
+		return outputQuiet(allVariables, output)
+	}
+
+	return outputNormal(allVariables, allSources, output)
+}
+
+func parseSourcesParallel(sources []string) []ParseResult {
+	jobs := make(chan string, len(sources))
+	results := make(chan ParseResult, len(sources))
+
+	// Start workers
+	var wg sync.WaitGroup
+	for i := 0; i < config.Parallel; i++ {
+		wg.Add(1)
+		go func() {
+			defer wg.Done()
+			for source := range jobs {
+				result := parseSourceWrapper(source)
+				results <- result
+			}
+		}()
+	}
+
+	// Send jobs
+	for _, source := range sources {
+		jobs <- source
+	}
+	close(jobs)
+
+	// Wait for completion
+	go func() {
+		wg.Wait()
+		close(results)
+	}()
+
+	// Collect results
+	var allResults []ParseResult
+	for result := range results {
+		allResults = append(allResults, result)
+	}
+
+	return allResults
+}
+
+func readSourcesFromFile(filename string) ([]string, error) {
+	file, err := os.Open(filename)
+	if err != nil {
+		return nil, err
+	}
+	defer file.Close()
+
+	var sources []string
+	scanner := bufio.NewScanner(file)
+	lineNum := 0
+
+	for scanner.Scan() {
+		lineNum++
+		line := strings.TrimSpace(scanner.Text())
+		
+		// Skip empty lines and comments
+		if line == "" || strings.HasPrefix(line, "#") {
+			continue
+		}
+
+		// Determine if it's a URL or file path
+		source, err := categorizeSource(line)
+		if err != nil {
+			if !config.Quiet {
+				fmt.Fprintf(os.Stderr, "Warning: skipping invalid source on line %d: %s (%v)\n", lineNum, line, err)
+			}
+			continue
+		}
+
+		sources = append(sources, source)
+	}
+
+	if err := scanner.Err(); err != nil {
+		return nil, fmt.Errorf("error reading file: %w", err)
+	}
+
+	return sources, nil
+}
+
+func categorizeSource(source string) (string, error) {
+	// Check if it's a URL
+	if isURL(source) {
+		return "url:" + source, nil
+	}
+
+	// Check if it's a valid file path
+	if _, err := os.Stat(source); err != nil {
+		// Try to resolve relative path
+		if absPath, absErr := filepath.Abs(source); absErr == nil {
+			if _, statErr := os.Stat(absPath); statErr == nil {
+				return "file:" + absPath, nil
+			}
+		}
+		return "", fmt.Errorf("file does not exist: %s", source)
+	}
+
+	return "file:" + source, nil
+}
+
+func isURL(str string) bool {
+	u, err := url.Parse(str)
+	return err == nil && u.Scheme != "" && u.Host != ""
+}
+
+func parseSourceWrapper(source string) ParseResult {
+	if strings.HasPrefix(source, "file:") {
+		filePath := strings.TrimPrefix(source, "file:")
+		file, err := os.Open(filePath)
+		if err != nil {
+			return ParseResult{Error: fmt.Errorf("error opening file: %w", err), Source: filePath}
+		}
+		defer file.Close()
+
+		// Get absolute path for source
+		absPath, err := filepath.Abs(filePath)
+		if err != nil {
+			absPath = filePath // fallback to original path
+		}
+
+		variables, err := parseSource(absPath, file)
+		return ParseResult{Variables: variables, Source: absPath, Error: err}
+	} else if strings.HasPrefix(source, "url:") {
+		url := strings.TrimPrefix(source, "url:")
+		resp, err := downloadScript(url)
+		if err != nil {
+			return ParseResult{Error: fmt.Errorf("error downloading script: %w", err), Source: url}
+		}
+		defer resp.Body.Close()
+
+		variables, err := parseSource(url, resp.Body)
+		return ParseResult{Variables: variables, Source: url, Error: err}
+	}
+
+	return ParseResult{Error: fmt.Errorf("unknown source type: %s", source), Source: source}
+}
+
+func parseSource(sourceName string, input io.Reader) ([]Variable, error) {
 	// Parse the shell script
 	parser := syntax.NewParser()
 	file, err := parser.Parse(input, sourceName)
 	if err != nil {
-		return fmt.Errorf("error parsing shell script: %w", err)
+		return nil, fmt.Errorf("error parsing shell script: %w", err)
 	}
 
 	// Extract variables
-	variables := extractVariables(file)
-
-	// Remove duplicates
-	variables = removeDuplicates(variables)
-
-	// Extract/evaluate variables if requested
-	if config.Extract {
-		variables = extractVariableValues(variables)
-	}
-
-	// Output results
-	if config.JSON {
-		return outputJSON(variables)
-	}
-
-	if config.Quiet {
-		return outputQuiet(variables)
-	}
-
-	return outputNormal(variables, sourceName)
+	variables := extractVariables(file, sourceName)
+	return variables, nil
 }
 
 func downloadScript(url string) (*http.Response, error) {
@@ -173,7 +353,7 @@ func evaluateVariable(name, value string) string {
 	return strings.TrimSpace(string(output))
 }
 
-func extractVariables(file *syntax.File) []Variable {
+func extractVariables(file *syntax.File, sourceName string) []Variable {
 	var variables []Variable
 	seen := make(map[string]bool)
 
@@ -186,10 +366,11 @@ func extractVariables(file *syntax.File) []Variable {
 					seen[key] = true
 					value, varType := getWordValue(n.Value)
 					variables = append(variables, Variable{
-						Name:  n.Name.Value,
-						Value: value,
-						Type:  varType,
-						Line:  n.Pos().Line(),
+						Name:   n.Name.Value,
+						Value:  value,
+						Type:   varType,
+						Line:   n.Pos().Line(),
+						Source: sourceName,
 					})
 				}
 			}
@@ -201,10 +382,11 @@ func extractVariables(file *syntax.File) []Variable {
 						seen[key] = true
 						value, varType := getWordValue(assign.Value)
 						variables = append(variables, Variable{
-							Name:  assign.Name.Value,
-							Value: value,
-							Type:  varType,
-							Line:  assign.Pos().Line(),
+							Name:   assign.Name.Value,
+							Value:  value,
+							Type:   varType,
+							Line:   assign.Pos().Line(),
+							Source: sourceName,
 						})
 					}
 				}
@@ -372,7 +554,7 @@ func removeDuplicates(variables []Variable) []Variable {
 	var result []Variable
 	
 	for _, v := range variables {
-		key := fmt.Sprintf("%s:%d:%s", v.Name, v.Line, v.Value)
+		key := fmt.Sprintf("%s:%d:%s:%s", v.Name, v.Line, v.Value, v.Source)
 		if !seen[key] {
 			seen[key] = true
 			result = append(result, v)
@@ -382,55 +564,71 @@ func removeDuplicates(variables []Variable) []Variable {
 	return result
 }
 
-func outputJSON(variables []Variable) error {
+func outputJSON(variables []Variable, output io.Writer) error {
 	data, err := json.MarshalIndent(variables, "", "  ")
 	if err != nil {
 		return fmt.Errorf("error marshaling JSON: %w", err)
 	}
-	fmt.Println(string(data))
+	fmt.Fprintln(output, string(data))
 	return nil
 }
 
-func outputQuiet(variables []Variable) error {
+func outputQuiet(variables []Variable, output io.Writer) error {
 	for _, v := range variables {
 		if config.Extract && v.Result != "" {
-			fmt.Printf("%s=%s\n", v.Name, v.Result)
+			fmt.Fprintf(output, "%s=%s\n", v.Name, v.Result)
 		} else {
-			fmt.Printf("%s=%s\n", v.Name, v.Value)
+			fmt.Fprintf(output, "%s=%s\n", v.Name, v.Value)
 		}
 	}
 	return nil
 }
 
-func outputNormal(variables []Variable, sourceName string) error {
+func outputNormal(variables []Variable, sources []string, output io.Writer) error {
+	if len(sources) == 0 {
+		sources = []string{"stdin"}
+	}
+
 	if !config.Verbose {
-		fmt.Printf("Variables found in %s:\n", sourceName)
-		fmt.Println(strings.Repeat("-", 50))
+		if len(sources) == 1 {
+			fmt.Fprintf(output, "Variables found in %s:\n", sources[0])
+		} else {
+			fmt.Fprintf(output, "Variables found in %d sources:\n", len(sources))
+		}
+		fmt.Fprintln(output, strings.Repeat("-", 50))
 	} else {
-		fmt.Printf("Parsing %s...\n", sourceName)
-		fmt.Printf("Found %d variables:\n", len(variables))
-		fmt.Println(strings.Repeat("=", 60))
+		if len(sources) == 1 {
+			fmt.Fprintf(output, "Parsing %s...\n", sources[0])
+		} else {
+			fmt.Fprintf(output, "Parsing %d sources...\n", len(sources))
+		}
+		fmt.Fprintf(output, "Found %d variables:\n", len(variables))
+		fmt.Fprintln(output, strings.Repeat("=", 60))
 	}
 
 	for _, v := range variables {
 		if config.Verbose {
 			if config.Extract && v.Result != "" {
-				fmt.Printf("Line %d | Type: %-10s | %s = %s -> %s\n", v.Line, v.Type, v.Name, v.Value, v.Result)
+				fmt.Fprintf(output, "Source: %s | Line %d | Type: %-10s | %s = %s -> %s\n", 
+					v.Source, v.Line, v.Type, v.Name, v.Value, v.Result)
 			} else {
-				fmt.Printf("Line %d | Type: %-10s | %s = %s\n", v.Line, v.Type, v.Name, v.Value)
+				fmt.Fprintf(output, "Source: %s | Line %d | Type: %-10s | %s = %s\n", 
+					v.Source, v.Line, v.Type, v.Name, v.Value)
 			}
 		} else {
 			if config.Extract && v.Result != "" {
-				fmt.Printf("Line %d: %s = %s -> %s\n", v.Line, v.Name, v.Value, v.Result)
+				fmt.Fprintf(output, "%s:%d: %s = %s -> %s\n", 
+					filepath.Base(v.Source), v.Line, v.Name, v.Value, v.Result)
 			} else {
-				fmt.Printf("Line %d: %s = %s\n", v.Line, v.Name, v.Value)
+				fmt.Fprintf(output, "%s:%d: %s = %s\n", 
+					filepath.Base(v.Source), v.Line, v.Name, v.Value)
 			}
 		}
 	}
 
 	if config.Verbose {
-		fmt.Println(strings.Repeat("=", 60))
-		fmt.Printf("Total: %d variables\n", len(variables))
+		fmt.Fprintln(output, strings.Repeat("=", 60))
+		fmt.Fprintf(output, "Total: %d variables from %d sources\n", len(variables), len(sources))
 	}
 
 	return nil
