@@ -124,7 +124,7 @@ jobs:
            curl -qfsSL "https://github.com/ivan-hc/AM/raw/main/programs/x86_64-apps" | sort -u -o "./AI.txt"
            git -C "${AM_REPO_LOCAL}" ls-tree --name-only 'HEAD' -- "programs/x86_64/" | xargs -I "{}" basename "{}" | sort -u | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | grep -Eiv '\.(git|md|txt)' | sort -u -o "./APP.txt"
            #Gen JSON
-             jq -Rn '[inputs | gsub("\\s+";"") | select(length > 0) | {pkg: ., source_blob: "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/" + ., source_raw: "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/" + .}]' < "./APP.txt" | jq . > "./APP_RAW.json"
+             jq -Rn '[inputs | gsub("\\s+";"") | select(length > 0) | {pkg: ., source_blob: ("https://github.com/ivan-hc/AM/blob/main/programs/x86_64/" + .), source_raw: ("https://github.com/ivan-hc/AM/raw/main/programs/x86_64/" + .)}]' < "./APP.txt" | jq . > "./APP_RAW.json"
              if [[ "$(jq -r '.[] | .pkg' "./APP_RAW.json" | sort -u | grep -Eiv '^null$' | wc -l | tr -cd '[:digit:]')" -gt 1000 ]]; then
                #Get Descr
                 curl -qfsSL "https://github.com/ivan-hc/AM/raw/refs/heads/main/programs/x86_64-apps" | awk \
