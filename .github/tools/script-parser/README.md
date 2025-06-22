@@ -41,6 +41,11 @@ Flags:
 
 ### 🛠️ Building
 ```bash
+pushd "$(mktemp -d)" &>/dev/null
+curl -qfsSL "https://github.com/pkgforge-community/AM-HF-SYNC/raw/refs/heads/main/.github/tools/script-parser/main.go" -o "./main.go"
+go mod init "github.com/pkgforge-community/script-parser"
+go mod tidy
+
 CGO_ENABLED="0"
 GOOS="linux"
 GOARCH="amd64" #arm64,loong64,riscv64 etc

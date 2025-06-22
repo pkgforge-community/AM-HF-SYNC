@@ -31,6 +31,12 @@ jobs:
           ##Install Addons
           #https://github.com/pkgforge/devscripts/blob/main/Linux/install_bins_curl.sh
           #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/devscripts/refs/heads/main/Linux/install_bins_curl.sh")
+          sudo curl -qfsSL "https://bin.pkgforge.dev/$(uname -m)-$(uname -s)/script-parser" -o "/usr/local/bin/script-parser"
+          sudo chmod 'a+x' "/usr/local/bin/script-parser" ; hash -r &>/dev/null
+          if ! command -v script-parser &> /dev/null; then
+             echo -e "\n[-] script-parser NOT Found"
+            exit 1
+          fi
           ##Create Output Dir
           mkdir -p "${GITHUB_WORKSPACE}/main"
           echo "GIT_TERMINAL_PROMPT=0" >> "${GITHUB_ENV}"
