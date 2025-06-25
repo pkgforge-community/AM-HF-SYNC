@@ -900,7 +900,7 @@
     "site": "bmsuseluda/ares-emu-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ares",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ares",
-    "version_raw": "https://github.com/pkgforge-dev/ares-emu-appimage/releases/download/nightly/ares-073d7a537-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ares-emu-appimage/releases/download/nightly/ares-b1c69c9f3-anylinux-x86_64.AppImage",
     "description": "AppImage for the ares emulator"
   },
   {
@@ -5556,7 +5556,7 @@
     "site": "https://filezilla-project.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/filezilla",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/filezilla",
-    "version_raw": "https://dl1.cdn.filezilla-project.org/client/FileZilla_3.69.1_x86_64-linux-gnu.tar.xz?h=rNGiCVy864nieUf0EEWytg&x=1750836917",
+    "version_raw": "https://dl2.cdn.filezilla-project.org/client/FileZilla_3.69.1_x86_64-linux-gnu.tar.xz?h=ZcDoNn0Rl_BXAF45jfJspA&x=1750843951",
     "description": "The free FTP solution with support for FTP over TLS and SFTP"
   },
   {
@@ -10164,7 +10164,7 @@
     "site": "Manager-io/Manager",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/manager-io",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/manager-io",
-    "version_raw": "https://github.com/Manager-io/Manager/releases/download/25.6.25.2440/Manager-linux-x64.AppImage",
+    "version_raw": "https://github.com/Manager-io/Manager/releases/download/25.6.25.2441/Manager-linux-x64.AppImage",
     "description": "Free Accounting Software for Linux, Server"
   },
   {
@@ -11108,7 +11108,7 @@
     "site": "emqx/MQTTX",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mqttx",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mqttx",
-    "version_raw": "https://github.com/emqx/MQTTX/releases/download/v1.12.0-beta.4/MQTTX-1.12.0-beta.4.AppImage",
+    "version_raw": "https://github.com/emqx/MQTTX/releases/download/v1.12.0/MQTTX-1.12.0.AppImage",
     "description": "MQTT 5.0 Desktop, CLI, and WebSocket client tools"
   },
   {
@@ -19428,7 +19428,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "51285331599",
+    "version_raw": "51287921251",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
