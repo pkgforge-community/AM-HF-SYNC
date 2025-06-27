@@ -5556,7 +5556,7 @@
     "site": "https://filezilla-project.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/filezilla",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/filezilla",
-    "version_raw": "https://dl1.cdn.filezilla-project.org/client/FileZilla_3.69.1_x86_64-linux-gnu.tar.xz?h=tZFBiD4AgOf-gxcxNTQRFQ&x=1751002314",
+    "version_raw": "https://dl3.cdn.filezilla-project.org/client/FileZilla_3.69.1_x86_64-linux-gnu.tar.xz?h=l1NFKBhjDtn1uVnypK1LvA&x=1751009094",
     "description": "The free FTP solution with support for FTP over TLS and SFTP"
   },
   {
@@ -6217,10 +6217,10 @@
   },
   {
     "pkg": "gaiasky",
-    "site": "https://zah.uni-heidelberg.de",
+    "site": "gaiasky/gaiasky",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gaiasky",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gaiasky",
-    "version_raw": "https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_3.6.8.1e74ed71e_x86_64.appimage",
+    "version_raw": "https://codeberg.org/gaiasky/gaiasky/releases/download/3.6.7/gaiasky_3.6.7.5160f2cfe_x86_64.appimage",
     "description": "Gaia Sky, a real-time 3D space simulator & astronomy visualisation"
   },
   {
@@ -10172,7 +10172,7 @@
     "site": "buddhi1980/mandelbulber2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mandelbulber2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mandelbulber2",
-    "version_raw": "https://github.com/buddhi1980/mandelbulber2/releases/download/continuous/Mandelbulber_v2-403a046-x86_64.AppImage",
+    "version_raw": "https://github.com/buddhi1980/mandelbulber2/releases/download/continuous/Mandelbulber_v2-19e6e50-x86_64.AppImage",
     "description": "Explore trigonometric, hyper-complex and other 3D fractals"
   },
   {
@@ -16244,7 +16244,7 @@
     "site": "siyuan-note/siyuan",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/siyuan",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/siyuan",
-    "version_raw": "https://github.com/siyuan-note/siyuan/releases/download/v3.2.0-dev6/siyuan-v202506262306-linux.AppImage",
+    "version_raw": "https://github.com/siyuan-note/siyuan/releases/download/v3.2.0-dev7/siyuan-v202506271248-linux.AppImage",
     "description": "A local-first personal knowledge management system"
   },
   {
@@ -17068,7 +17068,7 @@
     "site": "https://gitlab.com/posktomten/streamcapture2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/streamcapture2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/streamcapture2",
-    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=qHscvZCdGnw",
+    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=xJJztsWp",
     "description": "Download video streams"
   },
   {
@@ -19428,7 +19428,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "51390160131",
+    "version_raw": "51391956471",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
