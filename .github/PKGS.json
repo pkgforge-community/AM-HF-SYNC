@@ -900,7 +900,7 @@
     "site": "bmsuseluda/ares-emu-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ares",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ares",
-    "version_raw": "https://github.com/pkgforge-dev/ares-emu-appimage/releases/download/nightly/ares-136afead5-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ares-emu-appimage/releases/download/v144/ares-v144-anylinux-x86_64.AppImage",
     "description": "AppImage for the ares emulator"
   },
   {
@@ -1196,7 +1196,7 @@
     "site": "pkgforge-dev/Azahar-AppImage-Enhanced",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/azahar-enhanced",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/azahar-enhanced",
-    "version_raw": "https://github.com/pkgforge-dev/Azahar-AppImage-Enhanced/releases/download/2122-alpha1/Azahar-Enhanced-2122-alpha1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Azahar-AppImage-Enhanced/releases/download/2122.1/Azahar-Enhanced-2122.1-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of Azahar, with optimized builds for modern cpus"
   },
   {
@@ -4172,7 +4172,7 @@
     "site": "pkgforge-dev/Dolphin-emu-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dolphin-emu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dolphin-emu",
-    "version_raw": "https://github.com/pkgforge-dev/Dolphin-emu-AppImage/releases/download/2503/Dolphin_Emulator-2503-anylinux.dwarfs-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Dolphin-emu-AppImage/releases/download/2506/Dolphin_Emulator-2506-anylinux.dwarfs-x86_64.AppImage",
     "description": "Unofficial, GameCube/Nintento Wii emulator with improvements"
   },
   {
@@ -5556,7 +5556,7 @@
     "site": "https://filezilla-project.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/filezilla",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/filezilla",
-    "version_raw": "https://dl4.cdn.filezilla-project.org/client/FileZilla_3.69.1_x86_64-linux-gnu.tar.xz?h=DwXblGTPAAXD2zQf9Jn19g&x=1751182345",
+    "version_raw": "https://dl4.cdn.filezilla-project.org/client/FileZilla_3.69.1_x86_64-linux-gnu.tar.xz?h=5lEoRFXV7Naj-RApg7c2qQ&x=1751189306",
     "description": "The free FTP solution with support for FTP over TLS and SFTP"
   },
   {
@@ -12764,7 +12764,7 @@
     "site": "patrikx3/redis-ui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/p3x-redis-ui",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/p3x-redis-ui",
-    "version_raw": "https://github.com/patrikx3/redis-ui/releases/download/v2025.4.129/P3X-Redis-UI-2025.4.129.AppImage",
+    "version_raw": "https://github.com/patrikx3/redis-ui/releases/download/v2025.4.136/P3X-Redis-UI-2025.4.136.AppImage",
     "description": "A very functional handy database GUI and works in your pocket"
   },
   {
@@ -19436,7 +19436,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "51464704473",
+    "version_raw": "51468088866",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -19964,7 +19964,7 @@
     "site": "https://xmedcon.sourceforge.io",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xmedcon",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xmedcon",
-    "version_raw": "",
+    "version_raw": "https://sourceforge.net/projects/xmedcon/files/XMedCon-AppImage/0.25.3/XMedCon-x86_64.AppImage/download",
     "description": "An open-source toolkit for medical image conversion"
   },
   {
