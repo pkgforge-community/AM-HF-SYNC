@@ -164,7 +164,7 @@
     "site": "toeverything/AFFiNE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine-canary",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine-canary",
-    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/2025.6.29-canary.93/affine-2025.6.29-canary.93-canary-linux-x64.appimage",
+    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/2025.6.30-canary.95/affine-2025.6.30-canary.95-canary-linux-x64.appimage",
     "description": "Next-gen knowledge base that brings planning/sorting/creating"
   },
   {
@@ -2620,7 +2620,7 @@
     "site": "kangfenmao/cherry-studio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cherry-studio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cherry-studio",
-    "version_raw": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.4.7/Cherry-Studio-1.4.7-x86_64.AppImage",
+    "version_raw": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.5.0-rc.2/Cherry-Studio-1.5.0-rc.2-x86_64.AppImage",
     "description": "Cherry Studio is a desktop client that supports for multiple LLM providers"
   },
   {
@@ -5556,7 +5556,7 @@
     "site": "https://filezilla-project.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/filezilla",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/filezilla",
-    "version_raw": "https://dl1.cdn.filezilla-project.org/client/FileZilla_3.69.1_x86_64-linux-gnu.tar.xz?h=Jd2oYfa8xxZrZ2z3VKuPVg&x=1751275949",
+    "version_raw": "https://dl4.cdn.filezilla-project.org/client/FileZilla_3.69.1_x86_64-linux-gnu.tar.xz?h=cYS4boXbF8NzSx4RusewOw&x=1751282772",
     "description": "The free FTP solution with support for FTP over TLS and SFTP"
   },
   {
@@ -11916,7 +11916,7 @@
     "site": "NordicSemiconductor/pc-nrfconnect-core",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nrf-connect",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nrf-connect",
-    "version_raw": "https://github.com/NordicSemiconductor/pc-nrfconnect-launcher/releases/download/v5.2.0/nrfconnect-5.2.0-x86_64.AppImage",
+    "version_raw": "https://github.com/NordicSemiconductor/pc-nrfconnect-launcher/releases/download/v5.2.1-rc.1/nrfconnect-5.2.1-rc.1-x86_64.AppImage",
     "description": "Framework for desktop apps for development kits"
   },
   {
@@ -17193,11 +17193,11 @@
   },
   {
     "pkg": "sudachi",
-    "site": "emuplace/sudachi.emuplace.app",
+    "site": "pkgforge-dev/Sudachi-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sudachi",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sudachi",
-    "version_raw": "https://github.com/emuplace/sudachi.emuplace.app/releases/download/v1.0.14/sudachi-linux-v1.0.14.7z",
-    "description": "Nintendo Switch emulator"
+    "version_raw": "https://github.com/pkgforge-dev/Sudachi-AppImage/releases/download/2025-06-30-1.0.15/Sudachi-v1.0.15-Legacy-x86_64.AppImage",
+    "description": "Unofficial. Nintendo Switch emulator"
   },
   {
     "pkg": "sultanpos",
@@ -19436,7 +19436,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "51489123940",
+    "version_raw": "51493287848",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -19964,7 +19964,7 @@
     "site": "https://xmedcon.sourceforge.io",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xmedcon",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xmedcon",
-    "version_raw": "",
+    "version_raw": "https://sourceforge.net/projects/xmedcon/files/XMedCon-AppImage/0.25.3/XMedCon-x86_64.AppImage/download",
     "description": "An open-source toolkit for medical image conversion"
   },
   {
