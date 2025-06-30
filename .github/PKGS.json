@@ -1292,7 +1292,7 @@
     "site": "Azure/BatchExplorer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/batch-explorer",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/batch-explorer",
-    "version_raw": "",
+    "version_raw": "https://github.com/Azure/BatchExplorer/releases/download/v2.22.0-stable.1076/BatchExplorer-2.22.0-stable.1076.AppImage",
     "description": "A client tool to create/debug/monitor Azure Batch Apps"
   },
   {
@@ -4820,7 +4820,7 @@
     "site": "blahgeek/emacs-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/emacs-nox",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/emacs-nox",
-    "version_raw": "https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-15949632109/Emacs-mps-native_comp-nox-x86_64.AppImage",
+    "version_raw": "https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-15960842619/Emacs-master-nox-x86_64.AppImage",
     "description": "Unofficial. FOSS text editor for complete programming language"
   },
   {
@@ -5556,7 +5556,7 @@
     "site": "https://filezilla-project.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/filezilla",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/filezilla",
-    "version_raw": "https://dl1.cdn.filezilla-project.org/client/FileZilla_3.69.1_x86_64-linux-gnu.tar.xz?h=hgZBfcli_5VBLHkjQKCedw&x=1751239278",
+    "version_raw": "https://dl4.cdn.filezilla-project.org/client/FileZilla_3.69.1_x86_64-linux-gnu.tar.xz?h=tVJ1klbN08qX__19Kwmz_g&x=1751249979",
     "description": "The free FTP solution with support for FTP over TLS and SFTP"
   },
   {
@@ -6500,7 +6500,7 @@
     "site": "pkgforge-dev/ghostty-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ghostty-glfw-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ghostty-glfw-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty_Glfw-1.1.4-main%2B2637400-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty_Glfw-1.1.4-main%2B7106a3d-x86_64.AppImage",
     "description": "Unofficial, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (Tip, Nightly) (glfw version)"
   },
   {
@@ -6508,7 +6508,7 @@
     "site": "pkgforge-dev/ghostty-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ghostty-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ghostty-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.1.4-main%2B2637400-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.1.4-main%2B7106a3d-x86_64.AppImage",
     "description": "Unoffical, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (Tip, Nightly)"
   },
   {
@@ -9372,7 +9372,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.5.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -13012,7 +13012,7 @@
     "site": "PCSX2/pcsx2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcsx2",
-    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.5.7/pcsx2-v2.5.7-linux-appimage-x64-Qt.AppImage",
+    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.5.24/pcsx2-v2.5.24-linux-appimage-x64-Qt.AppImage",
     "description": "The Playstation 2 Emulator"
   },
   {
@@ -15940,7 +15940,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4-nightly",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-06-29-77117abb31c2d653e6f6f7fe112e7d723759883a/shadps4-linux-sdl-2025-06-29-77117ab.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-06-29-1757dfaf5a8d7d59601013da80c72e8de7d538a7/shadps4-linux-sdl-2025-06-29-1757dfa.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -19436,7 +19436,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "51478426729",
+    "version_raw": "51481288553",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
