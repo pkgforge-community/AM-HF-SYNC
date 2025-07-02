@@ -900,7 +900,7 @@
     "site": "bmsuseluda/ares-emu-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ares",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ares",
-    "version_raw": "https://github.com/pkgforge-dev/ares-emu-appimage/releases/download/v144/ares-v144-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ares-emu-appimage/releases/download/v144%402025-07-02_1751466624/ares-v144-anylinux-x86_64.AppImage",
     "description": "AppImage for the ares emulator"
   },
   {
@@ -1612,7 +1612,7 @@
     "site": "bitwarden/clients",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bitwarden",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bitwarden",
-    "version_raw": "https://github.com/bitwarden/clients/releases/download/desktop-v2025.6.0/Bitwarden-2025.6.0-x86_64.AppImage",
+    "version_raw": "https://github.com/bitwarden/clients/releases/download/desktop-v2025.6.1/Bitwarden-2025.6.1-x86_64.AppImage",
     "description": "Password manager for individuals, teams and business"
   },
   {
@@ -3324,7 +3324,7 @@
     "site": "cozy-labs/cozy-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cozydrive",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cozydrive",
-    "version_raw": "https://github.com/cozy-labs/cozy-desktop/releases/download/v4.0.0-beta.6/Twake-Desktop-x86_64.AppImage",
+    "version_raw": "https://github.com/cozy-labs/cozy-desktop/releases/download/v3.43.0-beta.2/Cozy-Drive-x86_64.AppImage",
     "description": "File Synchronisation for Cozy, cloud"
   },
   {
@@ -5548,7 +5548,7 @@
     "site": "https://filezilla-project.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/filezilla",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/filezilla",
-    "version_raw": "https://dl1.cdn.filezilla-project.org/client/FileZilla_3.69.1_x86_64-linux-gnu.tar.xz?h=MXt2SUof4q4iFket0vURMg&x=1751470010",
+    "version_raw": "https://dl1.cdn.filezilla-project.org/client/FileZilla_3.69.1_x86_64-linux-gnu.tar.xz?h=EXPXxgW4VWMK5bI9PX7cSA&x=1751477366",
     "description": "The free FTP solution with support for FTP over TLS and SFTP"
   },
   {
@@ -9356,7 +9356,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.5.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -17332,7 +17332,7 @@
     "site": "surrealdb/surrealist",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/surrealist",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/surrealist",
-    "version_raw": "https://github.com/surrealdb/surrealist/releases/download/surrealist-v3.4.2/Surrealist_3.4.2_amd64.AppImage",
+    "version_raw": "https://github.com/surrealdb/surrealist/releases/download/surrealist-v3.4.3/Surrealist_3.4.3_amd64.AppImage",
     "description": "Surrealist is the ultimate way to visually manage your SurrealDB database"
   },
   {
