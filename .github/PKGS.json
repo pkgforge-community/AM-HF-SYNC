@@ -276,7 +276,7 @@
     "site": "pkgforge-dev/alacritty-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alacritty",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alacritty",
-    "version_raw": "https://github.com/pkgforge-dev/alacritty-AppImage/releases/download/0.15.1-1/alacritty-0.15.1-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/alacritty-AppImage/releases/download/0.15.1-1%402025-07-01_1751413795/alacritty-0.15.1-1-anylinux-x86_64.AppImage",
     "description": "Unofficial. A modern terminal emulator that comes with sensible defaults, but allows for extensive configuration"
   },
   {
@@ -996,7 +996,7 @@
     "site": "asgardex/asgardex-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/asgardex",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/asgardex",
-    "version_raw": "https://github.com/asgardex/asgardex-desktop/releases/download/v1.40.2/ASGARDEX-1.40.2-linux.AppImage",
+    "version_raw": "https://github.com/asgardex/asgardex-desktop/releases/download/v1.40.3/ASGARDEX-1.40.3-linux.AppImage",
     "description": "Thorchain wallet desktop app"
   },
   {
@@ -1928,14 +1928,6 @@
     "description": "Client for the 2018 edition of the BottleBats AI competition"
   },
   {
-    "pkg": "bottlenose",
-    "site": "quinton-ashley/bottlenose",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bottlenose",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bottlenose",
-    "version_raw": "",
-    "description": "Bottlenose is a front-end for video game emulators"
-  },
-  {
     "pkg": "bottles",
     "site": "ivan-hc/Bottles-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bottles",
@@ -2748,7 +2740,7 @@
     "site": "pkgforge-dev/Citron-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/citron",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/citron",
-    "version_raw": "https://github.com/pkgforge-dev/Citron-AppImage/releases/download/v0.6.1/Citron-v0.6.1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Citron-AppImage/releases/download/v0.6.1%402025-07-02_1751414657/Citron-v0.6.1-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of Citron (fork of yuzu), with optimized builds for modern cpus"
   },
   {
@@ -3484,7 +3476,7 @@
     "site": "pkgforge-dev/Cromite-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cromite",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cromite",
-    "version_raw": "https://github.com/pkgforge-dev/Cromite-AppImage/releases/download/v138.0.7204.50/Cromite-v138.0.7204.50-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Cromite-AppImage/releases/download/v138.0.7204.50%402025-07-01_1751413176/Cromite-v138.0.7204.50-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of the Cromite web browser"
   },
   {
@@ -3612,7 +3604,7 @@
     "site": "https://www.cursor.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cursor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cursor",
-    "version_raw": "",
+    "version_raw": "https://downloads.cursor.com/production/7111807980fa9c93aedd455ffa44b682c0dc1356/linux/x64/Cursor-1.1.7-x86_64.AppImage",
     "description": "Built to make you extraordinarily productive, Cursor is the best way to code with AI"
   },
   {
@@ -3780,7 +3772,7 @@
     "site": "Samueru-sama/DeaDBeef-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/deadbeef-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/deadbeef-appimage",
-    "version_raw": "https://github.com/pkgforge-dev/DeaDBeeF-AppImage/releases/download/1.10.0-1/DeaDBeeF-1.10.0-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/DeaDBeeF-AppImage/releases/download/1.10.0-1%402025-07-01_1751411901/DeaDBeeF-1.10.0-1-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of the DeaDBeeF music player. Stable build"
   },
   {
@@ -3956,7 +3948,7 @@
     "site": "pkgforge-dev/DeSmuME-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/desmume",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/desmume",
-    "version_raw": "https://github.com/pkgforge-dev/DeSmuME-AppImage/releases/download/0.9.13-1/desmume-0.9.13-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/DeSmuME-AppImage/releases/download/0.9.13-1%402025-07-01_1751411793/desmume-0.9.13-1-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of the DeSmuME emulator"
   },
   {
@@ -4500,7 +4492,7 @@
     "site": "pkgforge-dev/EasyTAG-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/easytag",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/easytag",
-    "version_raw": "https://github.com/pkgforge-dev/EasyTAG-AppImage/releases/download/2.4.3-14/EasyTAG-2.4.3-14-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/EasyTAG-AppImage/releases/download/2.4.3-14%402025-07-01_1751410809/EasyTAG-2.4.3-14-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of EasyTAG tag editor"
   },
   {
@@ -4820,7 +4812,7 @@
     "site": "blahgeek/emacs-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/emacs-nox",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/emacs-nox",
-    "version_raw": "https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-15986393777/Emacs-master-nox-x86_64.AppImage",
+    "version_raw": "https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-16012873225/Emacs-master-nox-x86_64.AppImage",
     "description": "Unofficial. FOSS text editor for complete programming language"
   },
   {
@@ -5556,7 +5548,7 @@
     "site": "https://filezilla-project.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/filezilla",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/filezilla",
-    "version_raw": "https://dl4.cdn.filezilla-project.org/client/FileZilla_3.69.1_x86_64-linux-gnu.tar.xz?h=iwvNkQH6n7RoVx-g4Za95A&x=1751412134",
+    "version_raw": "https://dl2.cdn.filezilla-project.org/client/FileZilla_3.69.1_x86_64-linux-gnu.tar.xz?h=-JCQ5HnVB_OlIPHHKCCopA&x=1751422582",
     "description": "The free FTP solution with support for FTP over TLS and SFTP"
   },
   {
@@ -6500,7 +6492,7 @@
     "site": "pkgforge-dev/ghostty-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ghostty-glfw-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ghostty-glfw-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty_Glfw-1.1.4-main%2B3cf181a-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty_Glfw-1.1.4-main%2B776d25b-x86_64.AppImage",
     "description": "Unofficial, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (Tip, Nightly) (glfw version)"
   },
   {
@@ -6508,7 +6500,7 @@
     "site": "pkgforge-dev/ghostty-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ghostty-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ghostty-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.1.4-main%2B3cf181a-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.1.4-main%2B776d25b-x86_64.AppImage",
     "description": "Unoffical, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (Tip, Nightly)"
   },
   {
@@ -7100,7 +7092,7 @@
     "site": "pkgforge-dev/gpu-screen-recorder-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gpu-screen-recorder",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gpu-screen-recorder",
-    "version_raw": "https://github.com/pkgforge-dev/gpu-screen-recorder-AppImage/releases/download/r1130.469e234-1/gpu-screen-recorder-r1130.469e234-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/gpu-screen-recorder-AppImage/releases/download/r1130.469e234-1%402025-07-01_1751410007/gpu-screen-recorder-r1130.469e234-1-anylinux-x86_64.AppImage",
     "description": "Unofficial, AppImage of GPU Screen Recorder"
   },
   {
@@ -8692,7 +8684,7 @@
     "site": "pkgforge-dev/kdeconnect-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kdeconnect",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kdeconnect",
-    "version_raw": "https://github.com/pkgforge-dev/kdeconnect-AppImage/releases/download/25.04.2-1/kdeconnect-25.04.2-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/kdeconnect-AppImage/releases/download/25.04.2-1%402025-07-01_1751409647/kdeconnect-25.04.2-1-anylinux-x86_64.AppImage",
     "description": "Unofficial, A project that enables all your Android devices to communicate with each other"
   },
   {
@@ -10164,7 +10156,7 @@
     "site": "Manager-io/Manager",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/manager-io",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/manager-io",
-    "version_raw": "https://github.com/Manager-io/Manager/releases/download/25.6.30.2468/Manager-linux-x64.AppImage",
+    "version_raw": "https://github.com/Manager-io/Manager/releases/download/25.7.2.2469/Manager-linux-x64.AppImage",
     "description": "Free Accounting Software for Linux, Server"
   },
   {
@@ -11790,14 +11782,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nosqlbooster",
     "version_raw": "9.1.6",
     "description": "Essential admin GUI for mongodb"
-  },
-  {
-    "pkg": "nostlan",
-    "site": "quinton-ashley/nostlan",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nostlan",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nostlan",
-    "version_raw": "",
-    "description": "A multiplatform game launcher for video game emulators"
   },
   {
     "pkg": "notable",
