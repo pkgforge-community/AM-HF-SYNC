@@ -276,7 +276,7 @@
     "site": "pkgforge-dev/alacritty-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alacritty",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alacritty",
-    "version_raw": "https://github.com/pkgforge-dev/alacritty-AppImage/releases/download/0.15.1-1%402025-07-01_1751413795/alacritty-0.15.1-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/alacritty-AppImage/releases/download/v0.15.1%402025-07-02_1751496541/alacritty-v0.15.1-anylinux-x86_64.AppImage",
     "description": "Unofficial. A modern terminal emulator that comes with sensible defaults, but allows for extensive configuration"
   },
   {
@@ -4324,7 +4324,7 @@
     "site": "kraflab/dsda-doom",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dsda-doom",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dsda-doom",
-    "version_raw": "https://github.com/kraflab/dsda-doom/releases/download/v0.29.2/dsda-doom-0.29.2-Linux.appimage",
+    "version_raw": "https://github.com/kraflab/dsda-doom/releases/download/v0.29.3/dsda-doom-0.29.3-Linux.appimage",
     "description": "This is a successor of prboom+ with extra tooling for demo recording and playback, with a focus on speedrunning and quality of life"
   },
   {
@@ -4812,7 +4812,7 @@
     "site": "blahgeek/emacs-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/emacs-nox",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/emacs-nox",
-    "version_raw": "https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-16012873225/Emacs-master-nox-x86_64.AppImage",
+    "version_raw": "https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-16038428245/Emacs-master-nox-x86_64.AppImage",
     "description": "Unofficial. FOSS text editor for complete programming language"
   },
   {
@@ -5472,6 +5472,14 @@
     "description": "A software for editing and managing markdown documents"
   },
   {
+    "pkg": "fiddler-everywhere",
+    "site": "https://www.telerik.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fiddler-everywhere",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fiddler-everywhere",
+    "version_raw": "6.6.0",
+    "description": "Debug your network traffic to deliver high-quality products"
+  },
+  {
     "pkg": "fidias-database-migration-app",
     "site": "open-fidias/db-migration-app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fidias-database-migration-app",
@@ -5548,7 +5556,7 @@
     "site": "https://filezilla-project.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/filezilla",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/filezilla",
-    "version_raw": "https://dl2.cdn.filezilla-project.org/client/FileZilla_3.69.1_x86_64-linux-gnu.tar.xz?h=s3PXWiyg22fQYUDgxiEljQ&x=1751498506",
+    "version_raw": "https://dl1.cdn.filezilla-project.org/client/FileZilla_3.69.1_x86_64-linux-gnu.tar.xz?h=Bp8v5eM4vnjN1Rmw7lz3lQ&x=1751508916",
     "description": "The free FTP solution with support for FTP over TLS and SFTP"
   },
   {
@@ -6492,7 +6500,7 @@
     "site": "pkgforge-dev/ghostty-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ghostty-glfw-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ghostty-glfw-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty_Glfw-1.1.4-main%2B776d25b-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty_Glfw-1.1.4-main%2Bf1f9d5e-x86_64.AppImage",
     "description": "Unofficial, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (Tip, Nightly) (glfw version)"
   },
   {
@@ -6500,7 +6508,7 @@
     "site": "pkgforge-dev/ghostty-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ghostty-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ghostty-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.1.4-main%2B776d25b-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.1.4-main%2Bf1f9d5e-x86_64.AppImage",
     "description": "Unoffical, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (Tip, Nightly)"
   },
   {
@@ -9356,7 +9364,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.5.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -15284,7 +15292,7 @@
     "site": "Samueru-sama/rofi-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rofi",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rofi",
-    "version_raw": "https://github.com/pkgforge-dev/rofi-AppImage/releases/download/4110e98%402025-07-02_1751462153/rofi-4110e98-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/rofi-AppImage/releases/download/4110e98-dirty%402025-07-03_1751502599/rofi-4110e98-dirty-anylinux-x86_64.AppImage",
     "description": "Unofficial, A window switcher, runs dialogs, dmenu like, etc"
   },
   {
@@ -17220,7 +17228,7 @@
     "site": "LizardByte/Sunshine",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sunshine",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sunshine",
-    "version_raw": "https://github.com/LizardByte/Sunshine/releases/download/v2025.702.22618/sunshine.AppImage",
+    "version_raw": "https://github.com/LizardByte/Sunshine/releases/download/v2025.702.221443/sunshine.AppImage",
     "description": "Sunshine is a Gamestream host for Moonlight"
   },
   {
@@ -19404,7 +19412,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "51628359380",
+    "version_raw": "51631747191",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
