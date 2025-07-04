@@ -2300,7 +2300,7 @@
     "site": "ivan-hc/Database-of-pkg2appimaged-packages",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/capbattleship",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/capbattleship",
-    "version_raw": "https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/reaper/REAPER_7.41-1-archimage4.3-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/filezilla/FileZilla_3.69.1-1-archimage4.3-x86_64.AppImage",
     "description": "Battleship game with a pirate theme"
   },
   {
@@ -2612,7 +2612,7 @@
     "site": "kangfenmao/cherry-studio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cherry-studio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cherry-studio",
-    "version_raw": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.4.8/Cherry-Studio-1.4.8-x86_64.AppImage",
+    "version_raw": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.5.0-rc.4/Cherry-Studio-1.5.0-rc.4-x86_64.AppImage",
     "description": "Cherry Studio is a desktop client that supports for multiple LLM providers"
   },
   {
@@ -5553,11 +5553,11 @@
   },
   {
     "pkg": "filezilla",
-    "site": "https://filezilla-project.org",
+    "site": "ivan-hc/Database-of-pkg2appimaged-packages",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/filezilla",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/filezilla",
-    "version_raw": "",
-    "description": "The free FTP solution with support for FTP over TLS and SFTP"
+    "version_raw": "https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/filezilla/FileZilla_3.69.1-1-archimage4.3-x86_64.AppImage",
+    "description": "Unofficial. The free FTP solution with support for FTP over TLS and SFTP"
   },
   {
     "pkg": "filmulator-gui",
@@ -15000,6 +15000,14 @@
     "description": "A complete digital audio production app, offering a full multitrack audio and MIDI recording, editing, processing, mixing and mastering toolset"
   },
   {
+    "pkg": "reaper-appimage",
+    "site": "ivan-hc/Database-of-pkg2appimaged-packages",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/reaper-appimage",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/reaper-appimage",
+    "version_raw": "https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/reaper/REAPER_7.41-1-archimage4.3-x86_64.AppImage",
+    "description": "Unofficial. A complete digital audio production app, offering a full multitrack audio and MIDI recording, editing, processing, mixing and mastering toolset"
+  },
+  {
     "pkg": "rebaslight",
     "site": "rebaslight/rebaslight",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rebaslight",
@@ -17444,7 +17452,7 @@
     "site": "s00d/switchshuttle",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/switchshuttle",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/switchshuttle",
-    "version_raw": "https://github.com/s00d/switchshuttle/releases/download/app-v1.6.1/switch-shuttle_1.6.1_amd64.AppImage",
+    "version_raw": "https://github.com/s00d/switchshuttle/releases/download/app-v1.7.0/switch-shuttle_1.7.0_amd64.AppImage",
     "description": "Run predefined commands in various terminal applications"
   },
   {
@@ -19012,7 +19020,7 @@
     "site": "ivan-hc/Vivaldi-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vivaldi-stable",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vivaldi-stable",
-    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-stable-7.5.3735.41-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-stable-7.5.3735.44-1-x86_64.AppImage",
     "description": "Unofficial. Advanced Web Browser, Stable Version"
   },
   {
@@ -19404,7 +19412,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "51683751706",
+    "version_raw": "51685463875",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
