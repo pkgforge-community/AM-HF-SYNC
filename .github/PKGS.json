@@ -964,7 +964,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "1.0.4",
+    "version_raw": "",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -4524,7 +4524,7 @@
     "site": "pflyly/eden-nightly",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eden-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eden-nightly",
-    "version_raw": "https://github.com/pflyly/eden-nightly/releases/download/2025-07-03-64fe103afd/Eden-27418-Common-light-x86_64_v3.AppImage",
+    "version_raw": "https://github.com/pflyly/eden-nightly/releases/download/2025-07-05-d8bfc691d1/Eden-27423-Common-light-x86_64_v3.AppImage",
     "description": "Unofficial, an experimental open-source emulator for Nintendo Switch (yuzu fork, nightly builds)"
   },
   {
@@ -14500,7 +14500,7 @@
     "site": "pbek/QOwnNotes",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qownnotes",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qownnotes",
-    "version_raw": "https://github.com/pbek/QOwnNotes/releases/download/v25.7.2/QOwnNotes-x86_64-Qt6.AppImage",
+    "version_raw": "https://github.com/pbek/QOwnNotes/releases/download/v25.7.3/QOwnNotes-x86_64.AppImage",
     "description": "Plain text notepad and todo list manager"
   },
   {
@@ -18448,20 +18448,20 @@
     "description": "Client for the pubsub app"
   },
   {
+    "pkg": "twitch-wrapper",
+    "site": "simoniz0r/twitch-wrapper",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/twitch-wrapper",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/twitch-wrapper",
+    "version_raw": "https://github.com/simoniz0r/twitch-wrapper/releases/download/v0.0.3/twitch-wrapper-0.0.3-x86_64.AppImage",
+    "description": "An Electron wrapper for Twitch.tv"
+  },
+  {
     "pkg": "twitter-pake",
     "site": "tw93/Pake",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/twitter-pake",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/twitter-pake",
     "version_raw": "https://github.com/tw93/Pake/releases/download/V3.1.1/Twitter_x86_64.AppImage",
     "description": "Unofficial Twitter app. Pake project turns any webpage into a desktop app with Rust"
-  },
-  {
-    "pkg": "typioca",
-    "site": "bloznelis/typioca",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/typioca",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/typioca",
-    "version_raw": "",
-    "description": "Cozy typing speed tester in terminal"
   },
   {
     "pkg": "tzared",
@@ -18504,12 +18504,36 @@
     "description": "Configuration app of the Ultimate Hacking Keyboard"
   },
   {
+    "pkg": "uivonim",
+    "site": "smolck/uivonim",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uivonim",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uivonim",
+    "version_raw": "https://github.com/smolck/uivonim/releases/download/v0.29.0/uivonim-0.29.0.AppImage",
+    "description": "Fork of the Veonim Neovim GUI"
+  },
+  {
     "pkg": "ultimmc",
     "site": "UltimMC/Launcher",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ultimmc",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ultimmc",
     "version_raw": "c95dfe8",
     "description": "Offline Minecraft launcher"
+  },
+  {
+    "pkg": "ultragrid",
+    "site": "CESNET/UltraGrid",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ultragrid",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ultragrid",
+    "version_raw": "https://github.com/CESNET/UltraGrid/releases/download/continuous/UltraGrid-continuous-x86_64.AppImage",
+    "description": "UltraGrid low-latency audio/video network transmission system"
+  },
+  {
+    "pkg": "ultrascreen",
+    "site": "w3yden/ultrascreen",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ultrascreen",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ultrascreen",
+    "version_raw": "https://github.com/w3yden/ultrascreen/releases/download/v2.0.0/ultrascreen-1.0.0.AppImage",
+    "description": "Share your screens with friends"
   },
   {
     "pkg": "ums",
@@ -18526,5 +18550,309 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uncov",
     "version_raw": "https://github.com/xaizek/uncov/releases/download/v0.5/uncov-0.5-x86_64.AppImage",
     "description": "A tool that collects and processes code coverage reports"
+  },
+  {
+    "pkg": "unetbootin",
+    "site": "unetbootin/unetbootin",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/unetbootin",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/unetbootin",
+    "version_raw": "https://github.com/unetbootin/unetbootin/releases/download/702/unetbootin-linux64-702.bin",
+    "description": "Install Linux/BSD distributions to a partition or USB drive"
+  },
+  {
+    "pkg": "ungoogled-chromium",
+    "site": "ungoogled-software/ungoogled-chromium-portablelinux",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ungoogled-chromium",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ungoogled-chromium",
+    "version_raw": "https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/138.0.7204.96-1/ungoogled-chromium_138.0.7204.96-1.AppImage",
+    "description": "Chromium Web Browser without Google services"
+  },
+  {
+    "pkg": "unishellect",
+    "site": "Lateralus138/unishellectv2",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/unishellect",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/unishellect",
+    "version_raw": "https://github.com/Lateralus138/unishellectv2/releases/download/2.0.1661201987/UniShellect-x86_64.AppImage",
+    "description": "JSON parser file and menu customizez Hyper-inspired"
+  },
+  {
+    "pkg": "unleashedrecomp",
+    "site": "pkgforge-dev/UnleashedRecomp-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/unleashedrecomp",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/unleashedrecomp",
+    "version_raw": "https://github.com/pkgforge-dev/UnleashedRecomp-AppImage/releases/download/1.0.3-1%402025-07-01_1751392192/UnleashedRecomp-1.0.3-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of UnleashedRecomp (Sonic Unleashed port)"
+  },
+  {
+    "pkg": "unofficial-homestuck-collection",
+    "site": "GiovanH/unofficial-homestuck-collection",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/unofficial-homestuck-collection",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/unofficial-homestuck-collection",
+    "version_raw": "https://github.com/GiovanH/unofficial-homestuck-collection/releases/download/v2.6.7/The-Unofficial-Homestuck-Collection-2.6.7.AppImage",
+    "description": "An offline collection of Homestuck and its related works"
+  },
+  {
+    "pkg": "unofficial-zalo",
+    "site": "SafeStudio/unofficial-zalo",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/unofficial-zalo",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/unofficial-zalo",
+    "version_raw": "https://github.com/safestudio/unofficial-zalo/releases/download/v1.0.3/unofficial-zalo-1.0.3-x86_64.AppImage",
+    "description": "Unofficial Zalo App"
+  },
+  {
+    "pkg": "unreel",
+    "site": "linux-man/unreel",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/unreel",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/unreel",
+    "version_raw": "https://github.com/linux-man/unreel/releases/download/v1.4.0/unreel-1.4.0-x86_64.AppImage",
+    "description": "A GUI to create Reveal presentations"
+  },
+  {
+    "pkg": "unveil",
+    "site": "oknozor/unveil-rs",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/unveil",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/unveil",
+    "version_raw": "https://github.com/oknozor/unveil-rs/releases/download/0.1.2-alpha1/unveil-0.1.2-alpha1-x86_64-unknown-linux-gnu.tar.gz",
+    "description": "Unveil Rs is a tool to create presentations from markdown inspired by reveal.js, mdbook and zola"
+  },
+  {
+    "pkg": "unyo",
+    "site": "K3vinb5/Unyo",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/unyo",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/unyo",
+    "version_raw": "https://github.com/K3vinb5/Unyo/releases/download/v0.6.7/Unyo-v0.6.7-linux.AppImage",
+    "description": "Anime streaming and Manga reader desktop app without ads"
+  },
+  {
+    "pkg": "updatedeployqt",
+    "site": "TheFutureShell/updatedeployqt",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/updatedeployqt",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/updatedeployqt",
+    "version_raw": "https://github.com/antony-jr/updatedeployqt/releases/download/continuous/updatedeployqt-continuous-x86_64.AppImage",
+    "description": "Tool to deploy auto update for qt applications"
+  },
+  {
+    "pkg": "upgit",
+    "site": "pluveto/upgit",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/upgit",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/upgit",
+    "version_raw": "https://github.com/pluveto/upgit/releases/download/v0.2.25/upgit_cgo_linux_amd64",
+    "description": "CLI, another upload hub that supports clipboard. It works well with Typora, Snipaste, VSCode"
+  },
+  {
+    "pkg": "upnote",
+    "site": "https://getupnote.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/upnote",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/upnote",
+    "version_raw": "https://download.getupnote.com/app/UpNote.AppImage",
+    "description": "Stay focused and productive with a clean and clutter-free note space"
+  },
+  {
+    "pkg": "upnotes",
+    "site": "upnotes-io/upnotes-website",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/upnotes",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/upnotes",
+    "version_raw": "https://github.com/upnotes-io/upnotes-website/releases/download/v2.5.2-beta/Upnotes-2.5.2-beta.AppImage",
+    "description": "A notes app for software developers"
+  },
+  {
+    "pkg": "upscayl",
+    "site": "upscayl/upscayl",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/upscayl",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/upscayl",
+    "version_raw": "https://github.com/upscayl/upscayl/releases/download/v2.15.0/upscayl-2.15.0-linux.AppImage",
+    "description": "Free and Open Source AI Image Upscaler"
+  },
+  {
+    "pkg": "urbanterror",
+    "site": "ivan-hc/UrbanTerror-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/urbanterror",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/urbanterror",
+    "version_raw": "https://github.com/ivan-hc/UrbanTerror-appimage/releases/download/continuous/Urban-Terror_4.3.4-x86_64.AppImage",
+    "description": "A team-based tactical game shooter based on the Quake 3 Engine"
+  },
+  {
+    "pkg": "utilso",
+    "site": "https://utilso.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/utilso",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/utilso",
+    "version_raw": "https://cdn.utilso.com/Utilso-4.4.0.AppImage",
+    "description": "Regex Tester, JWT Verify, Image Converter, Format JSON, Decode"
+  },
+  {
+    "pkg": "uv",
+    "site": "astral-sh/uv",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uv",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uv",
+    "version_raw": "https://github.com/astral-sh/uv/releases/download/0.7.19/uv-x86_64-unknown-linux-musl.tar.gz",
+    "description": "An extremely fast Python package and project manager, written in Rust"
+  },
+  {
+    "pkg": "uwufetch",
+    "site": "ad-oliviero/uwufetch",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uwufetch",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uwufetch",
+    "version_raw": "https://github.com/ad-oliviero/uwufetch/releases/download/2.1/uwufetch_2.1-linux.tar.gz",
+    "description": "A meme system info tool for Linux, based on nyan/uwu trend"
+  },
+  {
+    "pkg": "uyou",
+    "site": "tonylu110/uyou-todo-electron",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uyou",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uyou",
+    "version_raw": "https://github.com/tonylu110/uyou-todo-electron/releases/download/3.1.0/uyou.ToDo-3.1.0.AppImage",
+    "description": "This is a todo list with electron"
+  },
+  {
+    "pkg": "v2ray-desktop",
+    "site": "Dr-Incognito/V2Ray-Desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/v2ray-desktop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/v2ray-desktop",
+    "version_raw": "https://github.com/Dr-Incognito/V2Ray-Desktop/releases/download/2.4.0/V2Ray-Desktop-v2.4.0-linux-x86_64.AppImage",
+    "description": "V2Ray GUI client for Linux"
+  },
+  {
+    "pkg": "valeronoi",
+    "site": "ccoors/Valeronoi",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/valeronoi",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/valeronoi",
+    "version_raw": "https://github.com/ccoors/Valeronoi/releases/download/v0.2.2/Valeronoi-current-x86_64.AppImage",
+    "description": "Companion app for Valetudo for generating WiFi heat maps"
+  },
+  {
+    "pkg": "vcloudcam",
+    "site": "quocson95/vCloudcam",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vcloudcam",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vcloudcam",
+    "version_raw": "https://github.com/quocson95/vCloudcam/releases/download/v5.6.4/default.AppImage",
+    "description": "Solution for the camera systems of gas and fuel stations"
+  },
+  {
+    "pkg": "vechain",
+    "site": "vechain/thor-sync.electron",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vechain",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vechain",
+    "version_raw": "https://github.com/vechain/thor-sync.electron/releases/download/v1.3.2/Sync-linux-x86_64-1.3.2.AppImage",
+    "description": "A browser that empowers DApps on VeChain"
+  },
+  {
+    "pkg": "vegeta",
+    "site": "tsenart/vegeta",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vegeta",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vegeta",
+    "version_raw": "https://github.com/tsenart/vegeta/releases/download/v12.12.0/vegeta_12.12.0_linux_amd64.tar.gz",
+    "description": "HTTP load testing tool and library. It's over 9000!"
+  },
+  {
+    "pkg": "ventoy",
+    "site": "ventoy/Ventoy",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ventoy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ventoy",
+    "version_raw": "https://github.com/ventoy/Ventoy/releases/download/v1.1.05/ventoy-1.1.05-linux.tar.gz",
+    "description": "Tool to create bootable USB drive for ISO/WIM/IMG/VHDx/EFI files"
+  },
+  {
+    "pkg": "verto",
+    "site": "Volentix/verto",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/verto",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/verto",
+    "version_raw": "https://github.com/Volentix/verto/releases/download/v0.9.1/verto-linux-0.9.1.AppImage",
+    "description": "A multi-currency crypto wallet with support for EOS & VTX"
+  },
+  {
+    "pkg": "vesktop",
+    "site": "Vencord/Vesktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vesktop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vesktop",
+    "version_raw": "https://github.com/Vencord/Vesktop/releases/download/v1.5.7/Vesktop-1.5.7.AppImage",
+    "description": "Vesktop gives you the performance of web Discord"
+  },
+  {
+    "pkg": "vgmtrans",
+    "site": "vgmtrans/vgmtrans",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vgmtrans",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vgmtrans",
+    "version_raw": "https://github.com/vgmtrans/vgmtrans/releases/download/v1.1/vgmtrans-preview-v1.1.AppImage",
+    "description": "A tool to convert proprietary, sequenced videogame music"
+  },
+  {
+    "pkg": "vhc-viewer-wayland",
+    "site": "https://vulkan.gpuinfo.org",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vhc-viewer-wayland",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vhc-viewer-wayland",
+    "version_raw": "https://vulkan.gpuinfo.org/",
+    "description": "Vulkan Hardware Capability Viewer"
+  },
+  {
+    "pkg": "vhc-viewer-x11",
+    "site": "https://vulkan.gpuinfo.org",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vhc-viewer-x11",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vhc-viewer-x11",
+    "version_raw": "https://vulkan.gpuinfo.org/",
+    "description": "Vulkan Hardware Capability Viewer"
+  },
+  {
+    "pkg": "vhs",
+    "site": "charmbracelet/vhs",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vhs",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vhs",
+    "version_raw": "",
+    "description": "Your CLI home video recorder"
+  },
+  {
+    "pkg": "via",
+    "site": "the-via/releases",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/via",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/via",
+    "version_raw": "https://github.com/the-via/releases/releases/download/v3.0.0/via-3.0.0-linux.AppImage",
+    "description": "Your keyboard's best friend"
+  },
+  {
+    "pkg": "vial",
+    "site": "vial-kb/vial-gui",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vial",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vial",
+    "version_raw": "https://github.com/vial-kb/vial-gui/releases/download/v0.7.3/Vial-v0.7.3-x86_64.AppImage",
+    "description": "GUI and a QMK fork for configuring your keyboard in real time"
+  },
+  {
+    "pkg": "viber",
+    "site": "https://www.viber.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/viber",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/viber",
+    "version_raw": "",
+    "description": "Proprietary cross-platform IM and VoIP software"
+  },
+  {
+    "pkg": "vicut",
+    "site": "km-clay/vicut",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vicut",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vicut",
+    "version_raw": "https://github.com/km-clay/vicut/releases/download/v0.4.2/vicut-x86_64-linux-static",
+    "description": "A Vim-based, scriptable, headless text editor for the command line"
+  },
+  {
+    "pkg": "vidcutter",
+    "site": "ozmartian/vidcutter",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vidcutter",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vidcutter",
+    "version_raw": "https://github.com/ozmartian/vidcutter/releases/download/6.0.5.1/VidCutter-6.0.5.1-x86_64.AppImage",
+    "description": "Simple and fast video cutter and joiner"
+  },
+  {
+    "pkg": "viddy",
+    "site": "sachaos/viddy",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/viddy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/viddy",
+    "version_raw": "https://github.com/sachaos/viddy/releases/download/v1.3.0/viddy-v1.3.0-linux-x86_64.tar.gz",
+    "description": "A modern watch command line utility. Time machine and pager etc"
+  },
+  {
+    "pkg": "videomass",
+    "site": "jeanslack/Videomass",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/videomass",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/videomass",
+    "version_raw": "https://github.com/jeanslack/Videomass/releases/download/v5.0.2/Videomass-5.0.2-x86_64.AppImage",
+    "description": "Free, open source and cross-platform GUI for FFmpeg"
   }
 ]
