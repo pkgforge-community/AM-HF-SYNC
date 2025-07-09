@@ -964,7 +964,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "",
+    "version_raw": "1.0.4",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -17068,7 +17068,7 @@
     "site": "https://gitlab.com/posktomten/streamcapture2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/streamcapture2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/streamcapture2",
-    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=VmVMBWNntLR",
+    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=NSdwVzVx",
     "description": "Download video streams"
   },
   {
@@ -19428,7 +19428,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "51850043448",
+    "version_raw": "51851950190",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -20232,6 +20232,46 @@
     "description": "A feature-rich command-line audio/video downloader"
   },
   {
+    "pkg": "ytarchive",
+    "site": "Kethsar/ytarchive",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ytarchive",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ytarchive",
+    "version_raw": "https://github.com/Kethsar/ytarchive/releases/download/latest/ytarchive_linux_amd64.zip",
+    "description": "Garbage Youtube livestream downloader CLI"
+  },
+  {
+    "pkg": "ytdownloader",
+    "site": "aandrew-me/ytDownloader",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ytdownloader",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ytdownloader",
+    "version_raw": "https://github.com/aandrew-me/ytDownloader/releases/download/v3.19.1/YTDownloader_Linux.AppImage",
+    "description": "App for downloading Videos and Audios from hundreds of sites"
+  },
+  {
+    "pkg": "ytermusic",
+    "site": "ccgauche/ytermusic",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ytermusic",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ytermusic",
+    "version_raw": "https://github.com/ccgauche/ytermusic/releases/download/beta-0.1.0/ytermusic",
+    "description": "An in terminal youtube music client with focus on privacy, simplicity and performance"
+  },
+  {
+    "pkg": "ytmdesktop",
+    "site": "ytmdesktop/ytmdesktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ytmdesktop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ytmdesktop",
+    "version_raw": "https://github.com/ytmdesktop/ytmdesktop/releases/download/1.14.1/YouTube.Music.Desktop.App-1.14.1_Nightly.AppImage",
+    "description": "A Desktop App for YouTube Music"
+  },
+  {
+    "pkg": "ytmdesktop2",
+    "site": "Venipa/ytmdesktop2",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ytmdesktop2",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ytmdesktop2",
+    "version_raw": "https://github.com/Venipa/ytmdesktop2/releases/download/v0.17.5/YouTube-Music-for-Desktop-0.17.5.AppImage",
+    "description": "Unofficial Youtube Music Desktop App, with LastFM support"
+  },
+  {
     "pkg": "yts-streaming",
     "site": "iambpn/YTS-Streaming",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yts-streaming",
@@ -20246,5 +20286,261 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yubikey-manager",
     "version_raw": "https://developers.yubico.com/yubikey-manager-qt/Releases/yubikey-manager-qt-latest-linux.AppImage",
     "description": "Configure your YubiKey over all USB transports"
+  },
+  {
+    "pkg": "yup",
+    "site": "ericm/yup",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yup",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yup",
+    "version_raw": "https://github.com/ericm/yup/releases/download/v1.1.8/yup",
+    "description": "Arch Linux AUR Helper with ncurses functionality and better searching and sorting"
+  },
+  {
+    "pkg": "yuque-pake",
+    "site": "tw93/Pake",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yuque-pake",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yuque-pake",
+    "version_raw": "https://github.com/tw93/Pake/releases/download/V2.0.0/YuQue_x86_64.AppImage",
+    "description": "Unofficial YuQue. Pake project turns any webpage into a desktop app with Rust"
+  },
+  {
+    "pkg": "yuview",
+    "site": "IENT/YUView",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yuview",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yuview",
+    "version_raw": "https://github.com/IENT/YUView/releases/download/v2.13/YUView.AppImage",
+    "description": "YUV player with an advanced analytic toolset"
+  },
+  {
+    "pkg": "zap",
+    "site": "srevinsaju/zap",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zap",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zap",
+    "version_raw": "https://github.com/srevinsaju/zap/releases/download/continuous/zap-amd64",
+    "description": "Delightful command line AppImage package manager for appimage.github.io"
+  },
+  {
+    "pkg": "zapdesktop",
+    "site": "LN-Zap/zap-desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zapdesktop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zapdesktop",
+    "version_raw": "https://github.com/LN-Zap/zap-desktop/releases/download/v0.7.7-beta/Zap-linux-x86_64-v0.7.7-beta.AppImage",
+    "description": "Desktop application for the lightning network"
+  },
+  {
+    "pkg": "zapzap",
+    "site": "rafatosta/zapzap",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zapzap",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zapzap",
+    "version_raw": "https://github.com/rafatosta/zapzap/releases/download/6.1/ZapZap-x86_64.AppImage",
+    "description": "WhatsApp desktop application written in Pyqt6 + PyQt6-WebEngine"
+  },
+  {
+    "pkg": "zed",
+    "site": "zed-industries/zed",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zed",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zed",
+    "version_raw": "https://github.com/zed-industries/zed/releases/download/v0.194.3-pre/zed-linux-x86_64.tar.gz",
+    "description": "High-performance, multiplayer code editor from the creators of Atom"
+  },
+  {
+    "pkg": "zegarek",
+    "site": "konradmb/zegarek",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zegarek",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zegarek",
+    "version_raw": "https://github.com/konradmb/zegarek/releases/download/v0.4.5/Zegarek-0.4.5-x86_64.AppImage",
+    "description": "A simple clock with millisecond resolution"
+  },
+  {
+    "pkg": "zegrapher",
+    "site": "AdelKS/ZeGrapher",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zegrapher",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zegrapher",
+    "version_raw": "https://github.com/AdelKS/ZeGrapher/releases/download/v3.1.1/ZeGrapher_v3.1.1_Linux_64bit.AppImage",
+    "description": "Math graphing software"
+  },
+  {
+    "pkg": "zellij",
+    "site": "zellij-org/zellij",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zellij",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zellij",
+    "version_raw": "",
+    "description": "A terminal workspace with batteries included"
+  },
+  {
+    "pkg": "zen-browser",
+    "site": "zen-browser/desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zen-browser",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zen-browser",
+    "version_raw": "https://github.com/zen-browser/desktop/releases/download/1.14.2b/zen-x86_64.AppImage",
+    "description": "Experience tranquillity while browsing the web without tracking"
+  },
+  {
+    "pkg": "zenity",
+    "site": "Samueru-sama/Zenity-GTK3-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zenity",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zenity",
+    "version_raw": "",
+    "description": "Unofficial, A CLI utility that creates dialog boxes, GTK3 version"
+  },
+  {
+    "pkg": "zenkit",
+    "site": "https://static.zenkit.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zenkit",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zenkit",
+    "version_raw": "https://static.zenkit.com/downloads/desktop-apps/base/zenkit-linux.AppImage",
+    "description": "A platform for collaboration and project management"
+  },
+  {
+    "pkg": "zenroomstudio",
+    "site": "DECODEproject/zenroom-studio",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zenroomstudio",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zenroomstudio",
+    "version_raw": "https://github.com/DECODEproject/zenroom-studio/releases/download/v0.0.1-alpha/zenroom-studio-0.0.1-x86_64.AppImage",
+    "description": "Extensible IDE which targets multiple dev platforms"
+  },
+  {
+    "pkg": "zettlr",
+    "site": "Zettlr/Zettlr",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zettlr",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zettlr",
+    "version_raw": "https://github.com/Zettlr/Zettlr/releases/download/v3.5.1/Zettlr-3.5.1-x86_64.AppImage",
+    "description": "A Markdown Editor for the 21st century"
+  },
+  {
+    "pkg": "zfind",
+    "site": "laktak/zfind",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zfind",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zfind",
+    "version_raw": "https://github.com/laktak/zfind/releases/download/v0.4.7/zfind-linux-amd64.tar.gz",
+    "description": "Search files, even inside tar/zip/7z/rar using a SQL-WHERE filter"
+  },
+  {
+    "pkg": "zfxtop",
+    "site": "ssleert/zfxtop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zfxtop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zfxtop",
+    "version_raw": "https://github.com/ssleert/zfxtop/releases/download/0.3.2/zfxtop_0.3.2_linux_amd64.tar.gz",
+    "description": "WIP] fetch top for gen Z with X written by bubbletea enjoyer"
+  },
+  {
+    "pkg": "zk",
+    "site": "zk-org/zk",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zk",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zk",
+    "version_raw": "https://github.com/zk-org/zk/releases/download/v0.15.1/zk-v0.15.1-linux-amd64.tar.gz",
+    "description": "A plain text note-taking assistant"
+  },
+  {
+    "pkg": "zmk-studio",
+    "site": "zmkfirmware/zmk-studio",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zmk-studio",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zmk-studio",
+    "version_raw": "https://github.com/zmkfirmware/zmk-studio/releases/download/v0.3.1/ZMK.Studio_0.3.1_amd64.AppImage",
+    "description": "ZMK Firmware. Modern, open source keyboard firmware"
+  },
+  {
+    "pkg": "zmninja",
+    "site": "ZoneMinder/zmNinja",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zmninja",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zmninja",
+    "version_raw": "https://github.com/ZoneMinder/zmNinja/releases/download/v1.7.007/zmninja-1.7.7-linux-x86_64.AppImage",
+    "description": "Ionic app for Home/Commerical Security Surveillance"
+  },
+  {
+    "pkg": "znax",
+    "site": "joyrider3774/Znax",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/znax",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/znax",
+    "version_raw": "https://github.com/joyrider3774/Znax/releases/download/v1.1/znax-1.1-linux.x86_64.AppImage",
+    "description": "Znax is a cross platform puzzle / arcade game using SDL2 libraries"
+  },
+  {
+    "pkg": "znote",
+    "site": "alagrede/znote-app",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/znote",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/znote",
+    "version_raw": "https://github.com/alagrede/znote-app/releases/download/v3.2.4/znote-3.2.4.AppImage",
+    "description": "A Beautiful markdown editor inspired by Jupyter"
+  },
+  {
+    "pkg": "zograscope",
+    "site": "xaizek/zograscope",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zograscope",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zograscope",
+    "version_raw": "https://github.com/xaizek/zograscope/releases/download/app-image/zs-x86_64.AppImage",
+    "description": "Syntax-aware diff that provides a number of additional tools"
+  },
+  {
+    "pkg": "zoom",
+    "site": "probonopd/Zoom.AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zoom",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zoom",
+    "version_raw": "https://github.com/probonopd/Zoom.AppImage/releases/download/stable/Zoom_Workplace-6.4.3.827.glibc2.27-x86_64.AppImage",
+    "description": "Unofficial. Video Conferencing and Web Conferencing Service"
+  },
+  {
+    "pkg": "zotero",
+    "site": "https://www.zotero.org",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zotero",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zotero",
+    "version_raw": "",
+    "description": "Collect, organize, cite, and share your research sources"
+  },
+  {
+    "pkg": "zoxide",
+    "site": "ajeetdsouza/zoxide",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zoxide",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zoxide",
+    "version_raw": "",
+    "description": "A smarter cd command. Supports all major shells"
+  },
+  {
+    "pkg": "zramen",
+    "site": "atweiden/zramen",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zramen",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zramen",
+    "version_raw": "",
+    "description": "Manage zram swap space"
+  },
+  {
+    "pkg": "zsync2",
+    "site": "AppImageCommunity/zsync2",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zsync2",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zsync2",
+    "version_raw": "https://github.com/AppImageCommunity/zsync2/releases/download/continuous/zsync2-85-f855a8b-x86_64.AppImage",
+    "description": "A rewrite of the advanced file download/sync tool zsync"
+  },
+  {
+    "pkg": "zulip",
+    "site": "zulip/zulip-desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zulip",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zulip",
+    "version_raw": "https://github.com/zulip/zulip-desktop/releases/download/v5.12.0/Zulip-5.12.0-x86_64.AppImage",
+    "description": "Zulip Desktop Client for Linux"
+  },
+  {
+    "pkg": "zx-poly",
+    "site": "raydac/zxpoly",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zx-poly",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zx-poly",
+    "version_raw": "https://github.com/raydac/zxpoly/releases/download/2.3.5-S/zxpoly-emul-2.3.5-SNAPSHOT-x86_64.AppImage",
+    "description": "a multi-CPU ZX-Spectrum 128 concept platform"
+  },
+  {
+    "pkg": "zxinfo-file-browser",
+    "site": "thomasheckmann/zxinfo-file-browser",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zxinfo-file-browser",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zxinfo-file-browser",
+    "version_raw": "https://github.com/thomasheckmann/zxinfo-file-browser/releases/download/v1.2.5-final/zxinfo-file-browser-1.2.5-final.AppImage",
+    "description": "Organize and manage your emulator files for ZX Spectrum"
+  },
+  {
+    "pkg": "zy-player",
+    "site": "Hunlongyu/ZY-Player",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zy-player",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zy-player",
+    "version_raw": "https://github.com/Hunlongyu/ZY-Player/releases/download/v2.8.8/ZY-Player-2.8.8.AppImage",
+    "description": "Video resource player, simple, ad-free and high-value"
   }
 ]
