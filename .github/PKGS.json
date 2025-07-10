@@ -972,7 +972,7 @@
     "site": "artisan-roaster-scope/artisan",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artisan",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artisan",
-    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/v3.2.0/artisan-linux-3.2.0.AppImage",
+    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/continuous/artisan-linux-3.2.1.AppImage",
     "description": "Visualizes the coffee roasting process"
   },
   {
@@ -1364,7 +1364,7 @@
     "site": "kabiiQ/BeatmapExporter",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/beatmapexporter",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/beatmapexporter",
-    "version_raw": "https://github.com/kabiiQ/BeatmapExporter/releases/download/untagged-36d3a778344cb538e6bb/linux-BeatmapExporterCLI",
+    "version_raw": "https://github.com/kabiiQ/BeatmapExporter/releases/download/v2.6.0/linux-BeatmapExporterCLI",
     "description": "osu!lazer beatmap exporter utility. Allowing mass export of beatmaps from the new osu!lazer file storage back into .osz files"
   },
   {
@@ -5836,7 +5836,7 @@
     "site": "superfly/flyctl",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flyctl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/flyctl",
-    "version_raw": "https://github.com/superfly/flyctl/releases/download/v0.3.153/flyctl_0.3.153_Linux_x86_64.tar.gz",
+    "version_raw": "https://github.com/superfly/flyctl/releases/download/v0.3.154/flyctl_0.3.154_Linux_x86_64.tar.gz",
     "description": "Command line tools for fly.io services"
   },
   {
@@ -9364,7 +9364,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.5.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -12180,7 +12180,7 @@
     "site": "ollama/ollama",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ollama",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ollama",
-    "version_raw": "https://github.com/ollama/ollama/releases/download/v0.9.6/ollama-linux-amd64.tgz",
+    "version_raw": "https://github.com/ollama/ollama/releases/download/v0.9.7-rc0/ollama-linux-amd64.tgz",
     "description": "Get up and running with Llama 3, Mistral, Gemma, and other LLMs"
   },
   {
@@ -13848,14 +13848,6 @@
     "description": "Manage your movie and show watchlist"
   },
   {
-    "pkg": "postcat",
-    "site": "Postcatlab/postcat",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/postcat",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/postcat",
-    "version_raw": "https://github.com/Postcatlab/postcat/releases/download/v0.5.1/Postcat-0.5.1.AppImage",
-    "description": "An extensible API tool"
-  },
-  {
     "pkg": "postman",
     "site": "showcheap/postman-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/postman",
@@ -13896,139 +13888,11 @@
     "description": "Create presentation slides and exported as PDF"
   },
   {
-    "pkg": "powerliminals-player",
-    "site": "mysteryx93/NaturalGroundingPlayer",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/powerliminals-player",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/powerliminals-player",
-    "version_raw": "https://github.com/mysteryx93/HanumanInstituteApps/releases/download/v3.3.2/Player432Hz-3.3.2_Linux_x64.AppImage",
-    "description": "Powerliminal audios in the background, Audio player"
-  },
-  {
     "pkg": "powershell",
     "site": "ivan-hc/PowerShell-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/powershell",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/powershell",
     "version_raw": "https://github.com/ivan-hc/PowerShell-appimage/releases/download/continuous/PowerShell-v7.5.2-x86_64.AppImage",
     "description": "Microsoft PowerShell"
-  },
-  {
-    "pkg": "ppet3",
-    "site": "zenghongtu/PPet",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ppet3",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ppet3",
-    "version_raw": "https://github.com/zenghongtu/PPet/releases/download/v3.3.0/PPet3-3.3.0.AppImage",
-    "description": "Put a cute girl on your desk for more fun"
-  },
-  {
-    "pkg": "ppsspp",
-    "site": "hrydgard/ppsspp",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ppsspp",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ppsspp",
-    "version_raw": "https://github.com/hrydgard/ppsspp/releases/download/v1.19.2/PPSSPP-v1.19.2-anylinux-x86_64.AppImage",
-    "description": "PSP emulator written in C++"
-  },
-  {
-    "pkg": "pragtical",
-    "site": "pragtical/pragtical",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pragtical",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pragtical",
-    "version_raw": "https://github.com/pragtical/pragtical/releases/download/rolling/Pragtical-rolling-x86_64.AppImage",
-    "description": "The practical and pragmatic code editor"
-  },
-  {
-    "pkg": "pretty-handy-privacy",
-    "site": "bobbyrne01/pretty-handy-privacy",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pretty-handy-privacy",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pretty-handy-privacy",
-    "version_raw": "https://github.com/bobbyrne01/pretty-handy-privacy/releases/download/v0.1.1/pretty-handy-privacy.0.1.1.AppImage",
-    "description": "User interface for basic encryption tasks"
-  },
-  {
-    "pkg": "prime-world-editor",
-    "site": "AxioDL/PrimeWorldEditor",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/prime-world-editor",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/prime-world-editor",
-    "version_raw": "https://github.com/AxioDL/PrimeWorldEditor/releases/download/v1.2.7/PrimeWorldEditor-1.2.7-linux64.AppImage",
-    "description": "Edit world assets from games by Retro Studios"
-  },
-  {
-    "pkg": "principia",
-    "site": "Bithack/principia",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/principia",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/principia",
-    "version_raw": "https://github.com/Bithack/principia/releases/download/2025.04.05/principia_2025.04.05_x86_64.AppImage",
-    "description": "Open source physics-based sandbox game"
-  },
-  {
-    "pkg": "printerclient",
-    "site": "DevTeamSCH/printer-client",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/printerclient",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/printerclient",
-    "version_raw": "https://github.com/DevTeamSCH/printer-client/releases/download/v0.1.2/PrinterClient-x86_64.AppImage",
-    "description": "A printer client"
-  },
-  {
-    "pkg": "prisma-studio",
-    "site": "prisma/studio",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/prisma-studio",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/prisma-studio",
-    "version_raw": "https://github.com/prisma/studio/releases/download/v0.458.0/Prisma-Studio.AppImage",
-    "description": "The easiest way to explore and manipulate your data"
-  },
-  {
-    "pkg": "prismlauncher-qt5",
-    "site": "PrismLauncher/PrismLauncher",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/prismlauncher-qt5",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/prismlauncher-qt5",
-    "version_raw": "https://github.com/PrismLauncher/PrismLauncher/releases/download/9.4/PrismLauncher-Linux-Qt5-Portable-9.4.tar.gz",
-    "description": "Launcher for Minecraft, manage multiple installations (Qt5 version)"
-  },
-  {
-    "pkg": "privaxy",
-    "site": "Barre/privaxy",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/privaxy",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/privaxy",
-    "version_raw": "https://github.com/Barre/privaxy/releases/download/v0.5.2/privaxy_0.5.2_amd64.AppImage",
-    "description": "The next generation tracker and ads/advertisement blocker"
-  },
-  {
-    "pkg": "procdepmonitor",
-    "site": "3dproger/ProcDepMonitor",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/procdepmonitor",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/procdepmonitor",
-    "version_raw": "https://github.com/3dproger/ProcDepMonitor/releases/download/1.1.2/Process_Dependency_Monitor-1.1.2-x86_64.AppImage",
-    "description": "Obtaining information about loaded process dependencies"
-  },
-  {
-    "pkg": "procspin",
-    "site": "Lateralus138/ProcSpin",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/procspin",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/procspin",
-    "version_raw": "https://github.com/Lateralus138/ProcSpin/releases/download/Continuous/procspin-x86_64.AppImage",
-    "description": "CLI to create a process/progress animation with text"
-  },
-  {
-    "pkg": "procyon",
-    "site": "orion-project/procyon",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/procyon",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/procyon",
-    "version_raw": "https://github.com/orion-project/procyon/releases/download/0.11.0/procyon-0.11.0-linux-x64.AppImage",
-    "description": "Note Keeper"
-  },
-  {
-    "pkg": "programmer-browser",
-    "site": "yessGlory17/programmer-browser",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/programmer-browser",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/programmer-browser",
-    "version_raw": "https://github.com/yessGlory17/programmer-browser/releases/download/v0.1.8/ProgrammerBrowser-0.1.8.AppImage",
-    "description": "A fast-searching and space-saving browser specially designed for programmers"
-  },
-  {
-    "pkg": "protoman",
-    "site": "spluxx/Protoman",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/protoman",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/protoman",
-    "version_raw": "https://github.com/spluxx/Protoman/releases/download/v0.4.1/Protoman-0.4.1.AppImage",
-    "description": "A Postman-like API client for protobuf-based messages"
   }
 ]
