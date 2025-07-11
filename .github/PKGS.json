@@ -9364,7 +9364,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.5.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -13552,6 +13552,14 @@
     "description": "Unofficial, MPRIS media player command-line controller"
   },
   {
+    "pkg": "playit",
+    "site": "playit-cloud/playit-agent",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/playit",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/playit",
+    "version_raw": "https://github.com/playit-cloud/playit-agent/releases/download/v0.15.26/playit-linux-amd64",
+    "description": "Want to run an online game server? playit.gg is a global proxy that allows anyone to host a server without port forwarding"
+  },
+  {
     "pkg": "playme",
     "site": "filipuic/playme",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/playme",
@@ -13792,6 +13800,14 @@
     "description": "Stay Focused. Take a Break"
   },
   {
+    "pkg": "pomodorolm",
+    "site": "vjousse/pomodorolm",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pomodorolm",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pomodorolm",
+    "version_raw": "https://github.com/vjousse/pomodorolm/releases/download/app-v0.5.0/pomodorolm_0.5.0_amd64.AppImage",
+    "description": "A simple, good looking and multi-platform pomodoro tracker"
+  },
+  {
     "pkg": "pomotroid",
     "site": "Splode/pomotroid",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pomotroid",
@@ -13960,11 +13976,1035 @@
     "description": "Open source physics-based sandbox game"
   },
   {
+    "pkg": "printerclient",
+    "site": "DevTeamSCH/printer-client",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/printerclient",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/printerclient",
+    "version_raw": "https://github.com/DevTeamSCH/printer-client/releases/download/v0.1.2/PrinterClient-x86_64.AppImage",
+    "description": "A printer client"
+  },
+  {
     "pkg": "prisma-studio",
     "site": "prisma/studio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/prisma-studio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/prisma-studio",
     "version_raw": "https://github.com/prisma/studio/releases/download/v0.458.0/Prisma-Studio.AppImage",
     "description": "The easiest way to explore and manipulate your data"
+  },
+  {
+    "pkg": "prismlauncher",
+    "site": "PrismLauncher/PrismLauncher",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/prismlauncher",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/prismlauncher",
+    "version_raw": "https://github.com/PrismLauncher/PrismLauncher/releases/download/9.4/PrismLauncher-Linux-x86_64.AppImage",
+    "description": "Launcher for Minecraft, manage multiple installations"
+  },
+  {
+    "pkg": "prismlauncher-qt5",
+    "site": "PrismLauncher/PrismLauncher",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/prismlauncher-qt5",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/prismlauncher-qt5",
+    "version_raw": "https://github.com/PrismLauncher/PrismLauncher/releases/download/9.4/PrismLauncher-Linux-Qt5-Portable-9.4.tar.gz",
+    "description": "Launcher for Minecraft, manage multiple installations (Qt5 version)"
+  },
+  {
+    "pkg": "privacy.sexy",
+    "site": "undergroundwires/privacy.sexy",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/privacy.sexy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/privacy.sexy",
+    "version_raw": "https://github.com/undergroundwires/privacy.sexy/releases/download/0.13.8/privacy.sexy-0.13.8.AppImage",
+    "description": "Tool to enforce privacy & security best-practices"
+  },
+  {
+    "pkg": "privaxy",
+    "site": "Barre/privaxy",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/privaxy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/privaxy",
+    "version_raw": "https://github.com/Barre/privaxy/releases/download/v0.5.2/privaxy_0.5.2_amd64.AppImage",
+    "description": "The next generation tracker and ads/advertisement blocker"
+  },
+  {
+    "pkg": "procdepmonitor",
+    "site": "3dproger/ProcDepMonitor",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/procdepmonitor",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/procdepmonitor",
+    "version_raw": "https://github.com/3dproger/ProcDepMonitor/releases/download/1.1.2/Process_Dependency_Monitor-1.1.2-x86_64.AppImage",
+    "description": "Obtaining information about loaded process dependencies"
+  },
+  {
+    "pkg": "procs",
+    "site": "dalance/procs",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/procs",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/procs",
+    "version_raw": "",
+    "description": "A modern replacement for ps written in Rust"
+  },
+  {
+    "pkg": "procspin",
+    "site": "Lateralus138/ProcSpin",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/procspin",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/procspin",
+    "version_raw": "https://github.com/Lateralus138/ProcSpin/releases/download/Continuous/procspin-x86_64.AppImage",
+    "description": "CLI to create a process/progress animation with text"
+  },
+  {
+    "pkg": "procyon",
+    "site": "orion-project/procyon",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/procyon",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/procyon",
+    "version_raw": "https://github.com/orion-project/procyon/releases/download/0.11.0/procyon-0.11.0-linux-x64.AppImage",
+    "description": "Note Keeper"
+  },
+  {
+    "pkg": "programmer-browser",
+    "site": "yessGlory17/programmer-browser",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/programmer-browser",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/programmer-browser",
+    "version_raw": "https://github.com/yessGlory17/programmer-browser/releases/download/v0.1.8/ProgrammerBrowser-0.1.8.AppImage",
+    "description": "A fast-searching and space-saving browser specially designed for programmers"
+  },
+  {
+    "pkg": "programmusic-pake",
+    "site": "tw93/Pake",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/programmusic-pake",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/programmusic-pake",
+    "version_raw": "https://github.com/tw93/Pake/releases/download/V3.1.1/ProgramMusic_x86_64.AppImage",
+    "description": "Unofficial ProgramMusic app. Pake project turns any webpage into a desktop app with Rust"
+  },
+  {
+    "pkg": "promethium",
+    "site": "Alex313031/promethium",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/promethium",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/promethium",
+    "version_raw": "https://github.com/Alex313031/promethium/releases/download/v6.1.6/Promethium_6.1.6_x86_64.AppImage",
+    "description": "Extensible and innovative web browser with built-in AdBlock"
+  },
+  {
+    "pkg": "proofkeeper",
+    "site": "woleet/woleet-proofkeeper",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/proofkeeper",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/proofkeeper",
+    "version_raw": "https://github.com/woleet/woleet-proofkeeper/releases/download/0.7.0/ProofKeeper-0.7.0-Linux.AppImage",
+    "description": "Desktop tool to automate proof management"
+  },
+  {
+    "pkg": "prospect-mail",
+    "site": "julian-alarcon/prospect-mail",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/prospect-mail",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/prospect-mail",
+    "version_raw": "https://github.com/julian-alarcon/prospect-mail/releases/download/v0.6.0-beta1/Prospect-Mail-0.6.0-beta1.AppImage",
+    "description": "An Outlook mail desktop client powered by Electron"
+  },
+  {
+    "pkg": "protoman",
+    "site": "spluxx/Protoman",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/protoman",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/protoman",
+    "version_raw": "https://github.com/spluxx/Protoman/releases/download/v0.4.1/Protoman-0.4.1.AppImage",
+    "description": "A Postman-like API client for protobuf-based messages"
+  },
+  {
+    "pkg": "protonmail-desktop",
+    "site": "protonmail-desktop/application",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/protonmail-desktop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/protonmail-desktop",
+    "version_raw": "https://github.com/unofficial-protonmail-desktop/application/releases/download/v1.2.1/Unofficial-desktop-client-for-ProtonMail-1.2.1.AppImage",
+    "description": "Unofficial Electron wrapper for ProtonMail"
+  },
+  {
+    "pkg": "protonup-qt",
+    "site": "DavidoTek/ProtonUp-Qt",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/protonup-qt",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/protonup-qt",
+    "version_raw": "https://github.com/DavidoTek/ProtonUp-Qt/releases/download/v2.12.0/ProtonUp-Qt-2.12.0-x86_64.AppImage",
+    "description": "Manage Proton-GE/Luxtorpeda for Steam/Wine-GE for Lutris"
+  },
+  {
+    "pkg": "proxyman",
+    "site": "ProxymanApp/proxyman-windows-linux",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/proxyman",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/proxyman",
+    "version_raw": "https://github.com/ProxymanApp/proxyman-windows-linux/releases/download/2.27.0/Proxyman-2.27.0.AppImage",
+    "description": "Modern and Delightful HTTP Debugging Proxy"
+  },
+  {
+    "pkg": "prusa-slicer",
+    "site": "probonopd/PrusaSlicer.AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/prusa-slicer",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/prusa-slicer",
+    "version_raw": "https://github.com/probonopd/PrusaSlicer.AppImage/releases/download/2.9.1-rc1/PrusaSlicer-2.9.1-rc1-x86_64.AppImage",
+    "description": "Prusa3d/PrusaSlicer, G-code generator for 3D printers"
+  },
+  {
+    "pkg": "psi+",
+    "site": "https://sourceforge.net/projects/psiplus",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/psi+",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/psi+",
+    "version_raw": "https://sourceforge.net/projects/psiplus/files/Linux/tehnick/Psi%2B-1.5.1515-x86_64.AppImage/download",
+    "description": "Communicate over the XMPP network"
+  },
+  {
+    "pkg": "pstube",
+    "site": "prateekmedia/pstube",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pstube",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pstube",
+    "version_raw": "https://github.com/prateekmedia/pstube/releases/download/2.6.0/pstube-linux-2.6.0-x86_64.AppImage",
+    "description": "Watch and download videos without ads"
+  },
+  {
+    "pkg": "psydoom",
+    "site": "BodbDearg/PsyDoom",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/psydoom",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/psydoom",
+    "version_raw": "https://github.com/BodbDearg/PsyDoom/releases/download/preview-builds/1.2.0-preview1/PsyDoom_1.2.0-preview1_Linux_x86_64.AppImage",
+    "description": "A backport of PSX Doom to PC"
+  },
+  {
+    "pkg": "publii",
+    "site": "https://getpublii.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/publii",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/publii",
+    "version_raw": "https://cdn.getpublii.com/Publii-0.46.5.AppImage",
+    "description": "A desktop-based CMS that makes creating static websites fast"
+  },
+  {
+    "pkg": "puddletag",
+    "site": "Samueru-sama/puddletag-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/puddletag",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/puddletag",
+    "version_raw": "https://github.com/pkgforge-dev/puddletag-AppImage/releases/download/20250601-102133/puddletag-2.4.0-anylinux-x86_64.AppImage",
+    "description": "Unofficial, Powerful, simple, audio tag editor for GNU/Linux"
+  },
+  {
+    "pkg": "pullp",
+    "site": "rkclark/pullp",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pullp",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pullp",
+    "version_raw": "https://github.com/rkclark/pullp/releases/download/v4.0.2/Pullp-4.0.2.AppImage",
+    "description": "Pull request monitoring app for Github"
+  },
+  {
+    "pkg": "pulsar",
+    "site": "pulsar-edit/pulsar",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pulsar",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pulsar",
+    "version_raw": "https://github.com/pulsar-edit/pulsar/releases/download/v1.128.0/Linux.Pulsar-1.128.0.AppImage",
+    "description": "A Community-led Hyper-Hackable Text Editor"
+  },
+  {
+    "pkg": "pulse",
+    "site": "pulsedownloader/releases",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pulse",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pulse",
+    "version_raw": "https://github.com/pulsedownloader/releases/releases/download/linux-x64-dev-38.0.24-dev.507/Pulse-38.0.24-dev.507.AppImage",
+    "description": "Pulse desktop client"
+  },
+  {
+    "pkg": "pulseview",
+    "site": "sigrokproject/pulseview",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pulseview",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pulseview",
+    "version_raw": "https://github.com/sigrokproject/pulseview/releases/download/continuous/pulseview-NIGHTLY-x86_64-debug.appimage",
+    "description": "PulseView (sometimes abbreviated as PV) is a Qt based logic analyzer, oscilloscope and MSO GUI for sigrok"
+  },
+  {
+    "pkg": "puppetry",
+    "site": "dsheiko/puppetry",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/puppetry",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/puppetry",
+    "version_raw": "https://github.com/dsheiko/puppetry/releases/download/v3.2.6/puppetry-linux-v3.2.6-x86_64.AppImage",
+    "description": "Solution for non-developers on top of Puppeteer and Jest"
+  },
+  {
+    "pkg": "pureref",
+    "site": "https://www.pureref.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pureref",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pureref",
+    "version_raw": "2.0.3",
+    "description": "All your reference images in one place"
+  },
+  {
+    "pkg": "puush-qt",
+    "site": "jplsek/puush-qt",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/puush-qt",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/puush-qt",
+    "version_raw": "https://github.com/jplsek/puush-qt/releases/download/v0.2.5/puush-qt-x86_64.AppImage",
+    "description": "A GUI frontend for puush on Linux"
+  },
+  {
+    "pkg": "pyappimage",
+    "site": "srevinsaju/pyappimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pyappimage",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pyappimage",
+    "version_raw": "https://github.com/srevinsaju/pyappimage/releases/download/continuous/pyappimage-3.6-x86_64.AppImage",
+    "description": "Simple appimage builder for Python applications"
+  },
+  {
+    "pkg": "pycharm",
+    "site": "ryuuzaki42/PyCharm-community-edition_AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pycharm",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pycharm",
+    "version_raw": "https://github.com/ryuuzaki42/PyCharm_AppImage/releases/download/2025.1.3/PyCharm-2025.1.3-1_JB-x86_64.AppImage",
+    "description": "Unofficial, PyCharm-community-edition in AppImage"
+  },
+  {
+    "pkg": "pyfa",
+    "site": "pyfa-org/Pyfa",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pyfa",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pyfa",
+    "version_raw": "https://github.com/pyfa-org/Pyfa/releases/download/v2.63.1/pyfa-v2.63.1-linux.AppImage",
+    "description": "EVE Online Fitting Assistant"
+  },
+  {
+    "pkg": "python2.7",
+    "site": "niess/python-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/python2.7",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/python2.7",
+    "version_raw": "https://github.com/niess/python-appimage/releases/download/python2.7/python2.7.18-cp27-cp27m-manylinux1_x86_64.AppImage",
+    "description": "Unofficial. Interactive high-level object-oriented language, version 2.7"
+  },
+  {
+    "pkg": "python3.10",
+    "site": "niess/python-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/python3.10",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/python3.10",
+    "version_raw": "https://github.com/niess/python-appimage/releases/download/python3.10/python3.10.18-cp310-cp310-manylinux2014_x86_64.AppImage",
+    "description": "Unofficial. Interactive high-level object-oriented language, version 3.10"
+  },
+  {
+    "pkg": "python3.11",
+    "site": "niess/python-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/python3.11",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/python3.11",
+    "version_raw": "https://github.com/niess/python-appimage/releases/download/python3.11/python3.11.1-cp311-cp311-manylinux_2_24_x86_64.AppImage",
+    "description": "Unofficial. Interactive high-level object-oriented language, version 3.11"
+  },
+  {
+    "pkg": "python3.12",
+    "site": "niess/python-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/python3.12",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/python3.12",
+    "version_raw": "https://github.com/niess/python-appimage/releases/download/python3.12/python3.12.11-cp312-cp312-manylinux2014_x86_64.AppImage",
+    "description": "Unofficial. Interactive high-level object-oriented language, version 3.12"
+  },
+  {
+    "pkg": "python3.13",
+    "site": "niess/python-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/python3.13",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/python3.13",
+    "version_raw": "https://github.com/niess/python-appimage/releases/download/python3.13/python3.13.5-cp313-cp313-manylinux2014_x86_64.AppImage",
+    "description": "Unofficial. Interactive high-level object-oriented language, version 3.13"
+  },
+  {
+    "pkg": "python3.5",
+    "site": "niess/python-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/python3.5",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/python3.5",
+    "version_raw": "https://github.com/niess/python-appimage/releases/download/python3.5/python3.5.10-cp35-cp35m-manylinux1_x86_64.AppImage",
+    "description": "Unofficial. Interactive high-level object-oriented language, version 3.5"
+  },
+  {
+    "pkg": "python3.6",
+    "site": "niess/python-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/python3.6",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/python3.6",
+    "version_raw": "https://github.com/niess/python-appimage/releases/download/python3.6/python3.6.15-cp36-cp36m-manylinux1_x86_64.AppImage",
+    "description": "Unofficial. Interactive high-level object-oriented language, version 3.6"
+  },
+  {
+    "pkg": "python3.7",
+    "site": "niess/python-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/python3.7",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/python3.7",
+    "version_raw": "https://github.com/niess/python-appimage/releases/download/python3.7/python3.7.13-cp37-cp37m-manylinux2010_x86_64.AppImage",
+    "description": "Unofficial. Interactive high-level object-oriented language, version 3.7"
+  },
+  {
+    "pkg": "python3.8",
+    "site": "niess/python-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/python3.8",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/python3.8",
+    "version_raw": "https://github.com/niess/python-appimage/releases/download/python3.8/python3.8.13-cp38-cp38-manylinux2010_x86_64.AppImage",
+    "description": "Unofficial. Interactive high-level object-oriented language, version 3.8"
+  },
+  {
+    "pkg": "python3.9",
+    "site": "niess/python-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/python3.9",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/python3.9",
+    "version_raw": "https://github.com/niess/python-appimage/releases/download/python3.9/python3.9.13-cp39-cp39-manylinux2010_x86_64.AppImage",
+    "description": "Unofficial. Interactive high-level object-oriented language, version 3.9"
+  },
+  {
+    "pkg": "qaddapp",
+    "site": "smokejohn/qaddapp",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qaddapp",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qaddapp",
+    "version_raw": "https://github.com/smokejohn/qaddapp/releases/download/0.4-alpha/QAddApp-x86_64.AppImage",
+    "description": "Qt5 Gui app that helps you add AppImages and binary archives into your Desktop environment"
+  },
+  {
+    "pkg": "qaterialgallery",
+    "site": "OlivierLDff/QaterialGallery",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qaterialgallery",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qaterialgallery",
+    "version_raw": "https://github.com/OlivierLDff/QaterialGallery/releases/download/v1.4.0/QaterialGallery.AppImage",
+    "description": "Demonstrate Qaterial library"
+  },
+  {
+    "pkg": "qaterialhotreload",
+    "site": "OlivierLDff/QaterialHotReload",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qaterialhotreload",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qaterialhotreload",
+    "version_raw": "https://github.com/OlivierLDff/QaterialHotReload/releases/download/v1.2.5/QaterialHotReload.AppImage",
+    "description": "Qml HotReload software"
+  },
+  {
+    "pkg": "qawl",
+    "site": "mr-islam/qawl",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qawl",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qawl",
+    "version_raw": "https://github.com/mr-islam/qawl/releases/download/v3.2.2/Qawl.Quran.Reader-3.2.2.AppImage",
+    "description": "Read the Holy Qur’ān whenever, wherever, however you like"
+  },
+  {
+    "pkg": "qbittorrent",
+    "site": "https://sourceforge.net/projects/qbittorrent",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qbittorrent",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qbittorrent",
+    "version_raw": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-5.1.2/qbittorrent-5.1.2_x86_64.AppImage/download",
+    "description": "A powerful QT-based Bittorrent Client, official AppImage"
+  },
+  {
+    "pkg": "qbittorrent-enhanced",
+    "site": "c0re100/qBittorrent-Enhanced-Edition",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qbittorrent-enhanced",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qbittorrent-enhanced",
+    "version_raw": "",
+    "description": "Unofficial qBittorrent Enhanced, based on qBittorrent"
+  },
+  {
+    "pkg": "qdiskinfo",
+    "site": "edisionnano/QDiskInfo",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qdiskinfo",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qdiskinfo",
+    "version_raw": "https://github.com/edisionnano/QDiskInfo/releases/download/0.4/QDiskInfo-x86_64.AppImage",
+    "description": "QDiskInfo is a frontend for smartctl. It provides a user experience similar to CrystalDiskInfo"
+  },
+  {
+    "pkg": "qdriverstation",
+    "site": "FRC-Utilities/QDriverStation",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qdriverstation",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qdriverstation",
+    "version_raw": "https://github.com/FRC-Utilities/QDriverStation/releases/download/v21.04/QDriverStation-21.04-Linux.AppImage",
+    "description": "Cross-platform clone of the FRC Driver Station"
+  },
+  {
+    "pkg": "qelectrotech",
+    "site": "qelectrotech/qelectrotech-source-mirror",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qelectrotech",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qelectrotech",
+    "version_raw": "https://github.com/qelectrotech/qelectrotech-source-mirror/releases/download/0.9/QElectroTech_0.9-r7759-x86_64.AppImage",
+    "description": "Edit electrical diagrams"
+  },
+  {
+    "pkg": "qemu-appimage",
+    "site": "lucasmz1/Qemu_Appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qemu-appimage",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qemu-appimage",
+    "version_raw": "https://github.com/lucasmz1/Qemu-AppImage/releases/download/continuous-stable-jammy/QEMU-git-x86_64.AppImage",
+    "description": "Unofficial. Prove of the concept to run a virtual machine from Appimage"
+  },
+  {
+    "pkg": "qemu-ppc",
+    "site": "probonopd/qemu-ppc",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qemu-ppc",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qemu-ppc",
+    "version_raw": "https://github.com/probonopd/qemu-ppc/releases/download/continuous/QEMU_PowerPC-38d1b31e05-x86_64.AppImage",
+    "description": "Run PowerPC operating systems on 64-bit Intel Linux hosts"
+  },
+  {
+    "pkg": "qflipper",
+    "site": "https://flipperzero.one",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qflipper",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qflipper",
+    "version_raw": "https://update.flipperzero.one/builds/qFlipper/1.3.2/qFlipper-x86_64-1.3.2.AppImage",
+    "description": "Flipper Zero multitool for pentesters and geeks in a toy-like body"
+  },
+  {
+    "pkg": "qfsm",
+    "site": "AaronErhardt/qfsm",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qfsm",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qfsm",
+    "version_raw": "https://github.com/AaronErhardt/qfsm/releases/download/0.56/Qfsm-x86_64.AppImage",
+    "description": "Qt Finite State Machine Designer"
+  },
+  {
+    "pkg": "qgroundcontrol",
+    "site": "mavlink/qgroundcontrol",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qgroundcontrol",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qgroundcontrol",
+    "version_raw": "https://github.com/mavlink/qgroundcontrol/releases/download/v5.0.5/QGroundControl-x86_64.AppImage",
+    "description": "Ground control for unmanned vehicles"
+  },
+  {
+    "pkg": "qikqr",
+    "site": "deep5050/qikQR",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qikqr",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qikqr",
+    "version_raw": "https://github.com/deep5050/qikQR/releases/download/v1.0.0/qikqr-1.0.0.AppImage",
+    "description": "Minimal desktop app to create QR codes"
+  },
+  {
+    "pkg": "qmasterpassword",
+    "site": "bkueng/qMasterPassword",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qmasterpassword",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qmasterpassword",
+    "version_raw": "https://github.com/bkueng/qMasterPassword/releases/download/v2.0/qMasterPassword-x86_64-qt5.AppImage",
+    "description": "A password manager based on Qt"
+  },
+  {
+    "pkg": "qmediathekview",
+    "site": "adamreichold/QMediathekView",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qmediathekview",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qmediathekview",
+    "version_raw": "https://github.com/adamreichold/QMediathekView/releases/download/continuous/QMediathekView-7c2da81-x86_64.AppImage",
+    "description": "An alternative front-end to the MediathekView database"
+  },
+  {
+    "pkg": "qmidictl",
+    "site": "https://sourceforge.net/projects/qmidictl",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qmidictl",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qmidictl",
+    "version_raw": "https://sourceforge.net/projects/qmidictl/files/qmidictl/1.0.2/qmidictl-1.0.2-5.1.x86_64.AppImage/download",
+    "description": "MIDI Remote Controller via UDP/IP Multicast"
+  },
+  {
+    "pkg": "qmidinet",
+    "site": "https://sourceforge.net/projects/qmidinet",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qmidinet",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qmidinet",
+    "version_raw": "https://sourceforge.net/projects/qmidinet/files/qmidinet/1.0.1/qmidinet-1.0.1-2.1.x86_64.AppImage/download",
+    "description": "MIDI Network Gateway via UDP/IP Multicast"
+  },
+  {
+    "pkg": "qmplay2",
+    "site": "zaps166/QMPlay2",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qmplay2",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qmplay2",
+    "version_raw": "https://github.com/zaps166/QMPlay2/releases/download/25.06.27/QMPlay2-25.06.27-2-x86_64.AppImage",
+    "description": "Video and audio player whit support of most formats and codecs"
+  },
+  {
+    "pkg": "qnapi",
+    "site": "QNapi/qnapi",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qnapi",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qnapi",
+    "version_raw": "https://github.com/QNapi/qnapi/releases/download/snapshot/QNapi-0.2.4-snapshot-x86_64.AppImage",
+    "description": "Qt-based, multi-engine, multi-platform subtitle downloader"
+  },
+  {
+    "pkg": "qortal-ui",
+    "site": "Qortal/qortal-ui",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qortal-ui",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qortal-ui",
+    "version_raw": "https://github.com/Qortal/qortal-ui/releases/download/v4.6.1/Qortal-Setup-amd64.AppImage",
+    "description": "Decentralize the world, data storage, communications"
+  },
+  {
+    "pkg": "qownnotes",
+    "site": "pbek/QOwnNotes",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qownnotes",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qownnotes",
+    "version_raw": "https://github.com/pbek/QOwnNotes/releases/download/v25.7.4/QOwnNotes-x86_64.AppImage",
+    "description": "Plain text notepad and todo list manager"
+  },
+  {
+    "pkg": "qpdf",
+    "site": "qpdf/qpdf",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qpdf",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qpdf",
+    "version_raw": "https://github.com/qpdf/qpdf/releases/download/v12.2.0/qpdf-12.2.0-x86_64.AppImage",
+    "description": "CLI tool to perform content-preserving transformations on PDF files"
+  },
+  {
+    "pkg": "qppcad",
+    "site": "nvpopov/qppcad",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qppcad",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qppcad",
+    "version_raw": "https://github.com/nvpopov/qppcad/releases/download/continuous/qppcad-x86_64.AppImage",
+    "description": "Molecule and crystal editor written in c++"
+  },
+  {
+    "pkg": "qprompt",
+    "site": "Cuperino/QPrompt",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qprompt",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qprompt",
+    "version_raw": "https://github.com/Cuperino/QPrompt-Teleprompter/releases/download/v1.1.6/qprompt-v1.1.6-51788eb-linux-gcc-x86_64.AppImage",
+    "description": "Personal teleprompter software for all video creators"
+  },
+  {
+    "pkg": "qr-code-generator",
+    "site": "studioLaCosaNostra/qr-code-generator-desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qr-code-generator",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qr-code-generator",
+    "version_raw": "https://github.com/studioLaCosaNostra/qr-code-generator-desktop/releases/download/v1.0.27/qr-code-generator-desktop-1.0.27-x86_64.AppImage",
+    "description": "Create custom QR Codes, resize, save them as PNG image"
+  },
+  {
+    "pkg": "qradiolink",
+    "site": "qradiolink/qradiolink",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qradiolink",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qradiolink",
+    "version_raw": "https://github.com/qradiolink/qradiolink/releases/download/0.8.11-1/QRadioLink-0.8.11-1-x86_64.AppImage",
+    "description": "Multimode SDR transceiver for GNU radio"
+  },
+  {
+    "pkg": "qrop",
+    "site": "andreh11/qrop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qrop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qrop",
+    "version_raw": "https://github.com/andreh11/qrop/releases/download/v0.1.1/Qrop-x86_64.AppImage",
+    "description": "Crop planning and recordkeeping software"
+  },
+  {
+    "pkg": "qrscan",
+    "site": "sayanarijit/qrscan",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qrscan",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qrscan",
+    "version_raw": "https://github.com/sayanarijit/qrscan/releases/download/v0.1.9/qrscan-0.1.9-x86_64-unknown-linux-musl.tar.gz",
+    "description": "Scan a QR code in the terminal using the system camera or an image"
+  },
+  {
+    "pkg": "qsdrswr",
+    "site": "PTDreamer/qSdrSwr",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qsdrswr",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qsdrswr",
+    "version_raw": "https://github.com/PTDreamer/qSdrSwr/releases/download/VER1.0.5/SDR_Spectrum_and_SWR_analyser-x86_64.AppImage",
+    "description": "Qt SWR analyser using an SDR and soapy_power"
+  },
+  {
+    "pkg": "qt-dab",
+    "site": "JvanKatwijk/qt-dab",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qt-dab",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qt-dab",
+    "version_raw": "https://github.com/JvanKatwijk/qt-dab/releases/download/Qt-DAB-6.9.2.E/qt5-db-loader-x86_64.AppImage",
+    "description": "Listening to terrestrial Digital Audio Broadcasting"
+  },
+  {
+    "pkg": "qt-raster-lines",
+    "site": "humble-barnacle001/qt-raster-lines",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qt-raster-lines",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qt-raster-lines",
+    "version_raw": "https://github.com/humble-barnacle001/qt-raster-lines/releases/download/latest/RasterDraw-Linux-latest-x86_64.AppImage",
+    "description": "Lines between points using rasterization, DDA, Bresenham"
+  },
+  {
+    "pkg": "qtads",
+    "site": "realnc/qtads",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qtads",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qtads",
+    "version_raw": "https://github.com/realnc/qtads/releases/download/v3.4.0/QTads-3.4-Linux-x86_64-AppImage.tar.gz",
+    "description": "A cross-platform, multimedia interpreter for TADS adventure games"
+  },
+  {
+    "pkg": "qtalarm",
+    "site": "antony-jr/QTalarm-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qtalarm",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qtalarm",
+    "version_raw": "https://github.com/antony-jr/QTalarm-AppImage/releases/download/continuous/QTalarm-8028f64-x86_64.AppImage",
+    "description": "Alarm clock for Computers"
+  },
+  {
+    "pkg": "qtchan",
+    "site": "siavash119/qtchan",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qtchan",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qtchan",
+    "version_raw": "https://github.com/siavash119/qtchan/releases/download/v0.100/qtchan-x86_64.AppImage",
+    "description": "4chan browser in qt5"
+  },
+  {
+    "pkg": "qtjsondiff",
+    "site": "coozoo/qtjsondiff",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qtjsondiff",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qtjsondiff",
+    "version_raw": "https://github.com/coozoo/qtjsondiff/releases/download/0.63b_refs/heads/master/Qt_JSON_diff-x86_64.AppImage",
+    "description": "Json difference checker widget and viewer"
+  },
+  {
+    "pkg": "qtox",
+    "site": "qTox/qTox-nightly-releases",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qtox",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qtox",
+    "version_raw": "https://github.com/qTox/qTox-nightly-releases/releases/download/ci-v1.17-dev-latest/qTox-c0e9a3b79609681e5b9f6bbf8f9a36cb1993dc5f-x86_64.AppImage",
+    "description": "Qt 5 based Tox instant messenger for secure communication"
+  },
+  {
+    "pkg": "qtractor",
+    "site": "https://sourceforge.net/projects/qtractor",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qtractor",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qtractor",
+    "version_raw": "https://downloads.sourceforge.net/project/qtractor/qtractor/1.5.6/qtractor-1.5.6-13.1.x86_64.AppImage",
+    "description": "An Audio/MIDI multi-track sequencer"
+  },
+  {
+    "pkg": "qtrfpowermeter",
+    "site": "coozoo/qtrfpowermeter",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qtrfpowermeter",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qtrfpowermeter",
+    "version_raw": "https://github.com/coozoo/qtrfpowermeter/releases/download/0.2b-202403270458_refs/heads/main/qtrfpowermeter-x86_64.AppImage",
+    "description": "Improve usage of chinese RF power meter RF8000"
+  },
+  {
+    "pkg": "quamodbusclient",
+    "site": "juangburgos/QUaModbusClient",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quamodbusclient",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quamodbusclient",
+    "version_raw": "https://github.com/juangburgos/QUaModbusClient/releases/download/latest/QUaModbusClient-e1ac862-x86_64.AppImage",
+    "description": "Modbus to OPC UA Gateway"
+  },
+  {
+    "pkg": "quark",
+    "site": "Nishkalkashyap/Quark-electron",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quark",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quark",
+    "version_raw": "https://github.com/Nishkalkashyap/Quark-electron/releases/download/v0.6.4/Quark-linux-x86_64-0.6.4.AppImage",
+    "description": "Sketchbook for rapid prototyping and development of your projects"
+  },
+  {
+    "pkg": "quark-player",
+    "site": "Alex313031/quark-player",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quark-player",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quark-player",
+    "version_raw": "https://github.com/Alex313031/quark-player/releases/download/v3.4.2/quark-player_3.4.2_x64.AppImage",
+    "description": "An Electron based Web Video Services Player"
+  },
+  {
+    "pkg": "quarto-cli",
+    "site": "quarto-dev/quarto-cli",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quarto-cli",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quarto-cli",
+    "version_raw": "https://github.com/quarto-dev/quarto-cli/releases/download/v1.8.16/quarto-1.8.16-linux-amd64.tar.gz",
+    "description": "Scientific and technical publishing system built on Pandoc"
+  },
+  {
+    "pkg": "quaternion",
+    "site": "quotient-im/Quaternion",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quaternion",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quaternion",
+    "version_raw": "https://github.com/quotient-im/Quaternion/releases/download/0.0.96-beta1/quaternion-0.0.96-beta1.AppImage",
+    "description": "A Qt5-based IM client for Matrix"
+  },
+  {
+    "pkg": "quba",
+    "site": "ZUGFeRD/quba-viewer",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quba",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quba",
+    "version_raw": "https://github.com/ZUGFeRD/quba-viewer/releases/download/v1.5.0/Quba-1.5.0.AppImage",
+    "description": "A viewer for electronic invoices"
+  },
+  {
+    "pkg": "qucs-s",
+    "site": "ra3xdh/qucs_s",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qucs-s",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qucs-s",
+    "version_raw": "https://github.com/ra3xdh/qucs_s/releases/download/continuous_build/Qucs-S-25.1.99-044a3a5-linux-x86_64.AppImage",
+    "description": "An Universal GUI for Circuit Simulators"
+  },
+  {
+    "pkg": "quentier",
+    "site": "d1vanov/quentier",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quentier",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quentier",
+    "version_raw": "https://github.com/d1vanov/quentier/releases/download/continuous-master/Quentier-master-x86_64.AppImage",
+    "description": "Note taking app integrated with Evernote"
+  },
+  {
+    "pkg": "quick-clone",
+    "site": "eckon/quick-clone",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quick-clone",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quick-clone",
+    "version_raw": "https://github.com/eckon/quick-clone/releases/download/v0.2.1/quick_clone-v0.2.1-x86_64-manual.AppImage",
+    "description": "Search through gitlab and clone git-repositories"
+  },
+  {
+    "pkg": "quickgui",
+    "site": "quickemu-project/quickgui",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quickgui",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quickgui",
+    "version_raw": "https://github.com/quickemu-project/quickgui/releases/download/1.2.10/quickgui-1.2.10%2B1-linux.AppImage",
+    "description": "An elegant virtual machine manager for the desktop"
+  },
+  {
+    "pkg": "quicknote",
+    "site": "srilakshmikanthanp/quicknote",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quicknote",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quicknote",
+    "version_raw": "https://github.com/srilakshmikanthanp/quicknote/releases/download/v2.0.3/quicknote-2.0.3.AppImage",
+    "description": "QuickNote helps to paste some random text or take some notes right from your taskbar!"
+  },
+  {
+    "pkg": "quickredis",
+    "site": "quick123official/quick_redis_blog",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quickredis",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quickredis",
+    "version_raw": "https://github.com/quick123official/quick_redis_blog/releases/download/v2.7.1/QuickRedis-2.7.1-linux-x86_64.AppImage",
+    "description": "A free Redis Desktop manager"
+  },
+  {
+    "pkg": "quicktwitch",
+    "site": "mhmiles/QuickTwitch",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quicktwitch",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quicktwitch",
+    "version_raw": "https://github.com/mhmiles/QuickTwitch/releases/download/0.9.0/QuickTwitch-0.9.0-x86_64.AppImage",
+    "description": "Electron React Redux Boilerplate"
+  },
+  {
+    "pkg": "quickviewer",
+    "site": "kanryu/quickviewer",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quickviewer",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quickviewer",
+    "version_raw": "https://github.com/kanryu/quickviewer/releases/download/v1.2.2/QuickViewer-1.2.2-x64.AppImage",
+    "description": "A image viewer application for folders/archives"
+  },
+  {
+    "pkg": "quiet",
+    "site": "TryQuiet/quiet",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quiet",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quiet",
+    "version_raw": "https://github.com/TryQuiet/quiet/releases/download/%40quiet/desktop%406.0.1/Quiet-6.0.1.AppImage",
+    "description": "A private, p2p alternative to Slack and Discord built on Tor & IPFS"
+  },
+  {
+    "pkg": "quokkagit",
+    "site": "ballessay/quokkagit",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quokkagit",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quokkagit",
+    "version_raw": "https://github.com/ballessay/turtlegit/releases/download/v0.2.0/turtlegit-x86_64.AppImage",
+    "description": "A small, TortoiseGit inspired git log viewer for linux"
+  },
+  {
+    "pkg": "quran-companion",
+    "site": "0xzer0x/quran-companion",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quran-companion",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quran-companion",
+    "version_raw": "https://github.com/0xzer0x/quran-companion/releases/download/v1.3.3/Quran_Companion-1.3.3-x86_64.AppImage",
+    "description": "Free and open-source desktop Quran reader and player"
+  },
+  {
+    "pkg": "qv2ray",
+    "site": "lhy0403/Qv2ray",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qv2ray",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qv2ray",
+    "version_raw": "https://github.com/Qv2ray/Qv2ray/releases/download/v2.7.0/Qv2ray-v2.7.0-linux-x64.AppImage",
+    "description": "Cross-platform v2ray GUI Client in Qt"
+  },
+  {
+    "pkg": "qview",
+    "site": "jurplel/qView",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qview",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qview",
+    "version_raw": "https://github.com/jurplel/qView/releases/download/7.0/qView-7.0-x86_64.AppImage",
+    "description": "Practical and minimal image viewer"
+  },
+  {
+    "pkg": "qwerty-learner-pake",
+    "site": "tw93/Pake",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qwerty-learner-pake",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qwerty-learner-pake",
+    "version_raw": "https://github.com/tw93/Pake/releases/download/V3.1.1/Qwerty_x86_64.AppImage",
+    "description": "Unofficial. Words learning and English muscle memory training. Pake project turns any webpage into a desktop app with Rust"
+  },
+  {
+    "pkg": "qxgedit",
+    "site": "https://sourceforge.net/projects/qxgedit",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qxgedit",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qxgedit",
+    "version_raw": "https://sourceforge.net/projects/qxgedit/files/qxgedit/1.0.1/qxgedit-1.0.1-2.1.x86_64.AppImage/download",
+    "description": "QXGEdit is a Qt GUI XG editor application"
+  },
+  {
+    "pkg": "r2modman",
+    "site": "ebkr/r2modmanPlus",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/r2modman",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/r2modman",
+    "version_raw": "https://github.com/ebkr/r2modmanPlus/releases/download/v3.2.1/r2modman-3.2.1.AppImage",
+    "description": "Mod manager for several Unity games using Thunderstore"
+  },
+  {
+    "pkg": "r3play",
+    "site": "qier222/YesPlayMusic",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/r3play",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/r3play",
+    "version_raw": "https://github.com/qier222/YesPlayMusic/releases/download/v0.4.8-2/YesPlayMusic-0.4.8.AppImage",
+    "description": "High-value third-party Netease cloud player, chinese"
+  },
+  {
+    "pkg": "rabix-composer",
+    "site": "rabix/composer",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rabix-composer",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rabix-composer",
+    "version_raw": "https://github.com/rabix/composer/releases/download/1.5.0-rc.2/rabix-composer-linux-1.5.0-rc2.AppImage",
+    "description": "A desktop IDE for working with Common Workflow Language"
+  },
+  {
+    "pkg": "radioit",
+    "site": "blackPantherOS/radioit",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/radioit",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/radioit",
+    "version_raw": "https://github.com/blackPantherOS/radioit/releases/download/1.0beta1/RadioIt-x86_64.AppImage",
+    "description": "Automation software for Radios"
+  },
+  {
+    "pkg": "radix-wallet",
+    "site": "radixdlt/desktop-wallet",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/radix-wallet",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/radix-wallet",
+    "version_raw": "https://github.com/radixdlt/desktop-wallet/releases/download/1.4.0-beta/Radix.Wallet.1.4.0-beta.AppImage",
+    "description": "Radix DLT desktop wallet"
+  },
+  {
+    "pkg": "rainbow-board",
+    "site": "harshkhandeparkar/rainbow-board",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rainbow-board",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rainbow-board",
+    "version_raw": "https://github.com/harshkhandeparkar/rainbow-board/releases/download/v0.8.1/Rainbow-Board-0.8.1.AppImage",
+    "description": "22nd Century Whiteboard App"
+  },
+  {
+    "pkg": "rambox",
+    "site": "ramboxapp/download",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rambox",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rambox",
+    "version_raw": "https://github.com/ramboxapp/download/releases/download/v2.5.0-beta.2/Rambox-2.5.0-beta.2-linux-x64.AppImage",
+    "description": "Free and Open Source messaging and emailing app"
+  },
+  {
+    "pkg": "rare",
+    "site": "Dummerle/Rare",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rare",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rare",
+    "version_raw": "https://github.com/RareDevs/Rare/releases/download/1.11.3.125/Rare-1.11.3.125.AppImage",
+    "description": "GUI for legendary. An Epic Games Launcher open source alternative"
+  },
+  {
+    "pkg": "raspirus",
+    "site": "Raspirus/Raspirus",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/raspirus",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/raspirus",
+    "version_raw": "https://github.com/Raspirus/raspirus/releases/download/v2.2.0/raspirus_2.2.0_x86_64.AppImage",
+    "description": "A user and resources-friendly signatures-based malware scanner"
+  },
+  {
+    "pkg": "rasterdraw",
+    "site": "humble-barnacle001/qt-raster-lines",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rasterdraw",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rasterdraw",
+    "version_raw": "https://github.com/humble-barnacle001/qt-raster-lines/releases/download/latest/RasterDraw-Linux-latest-x86_64.AppImage",
+    "description": "Simple shape drawn using rasterisation"
+  },
+  {
+    "pkg": "rasterview",
+    "site": "KurtPfeifle/rasterview",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rasterview",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rasterview",
+    "version_raw": "https://github.com/pdfkungfoo/rasterview/releases/download/continuous/rasterview-v1.6-travisbuild.52-travisbranch.master-git.9ff98c7-x86_64.AppImage",
+    "description": "Raster Viewer for CUPS-Raster, Apple-Raster and PWG-Raster"
+  },
+  {
+    "pkg": "rats-search",
+    "site": "DEgITx/rats-search",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rats-search",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rats-search",
+    "version_raw": "https://github.com/DEgITx/rats-search/releases/download/v1.11.0/rats-search-1.11.0-x86_64.AppImage",
+    "description": "P2P BitTorrent search engine"
+  },
+  {
+    "pkg": "rawtherapee",
+    "site": "https://rawtherapee.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rawtherapee",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rawtherapee",
+    "version_raw": "https://rawtherapee.com/shared/builds/linux/",
+    "description": "An advanced raw photo development program"
+  },
+  {
+    "pkg": "rbdl-toolkit",
+    "site": "ORB-HD/rbdl-toolkit",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rbdl-toolkit",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rbdl-toolkit",
+    "version_raw": "https://github.com/rbdl/rbdl-toolkit/releases/download/v1.1.4/rbdl-toolkit-x86_64.AppImage",
+    "description": "Application for visualizing and working with rbdl models"
+  },
+  {
+    "pkg": "rbdoom-3",
+    "site": "mantralunar/RBDOOM-3-BFG",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rbdoom-3",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rbdoom-3",
+    "version_raw": "https://github.com/mantralunar/RBDOOM-3-BFG/releases/download/RBDOOM-3-BFG-0a1a591-x86_64/RBDOOM-3-BFG-x86_64.AppImage",
+    "description": "Doom 3 BFG Edition source port with updated DX12/Vulkan renderer"
+  },
+  {
+    "pkg": "rbw",
+    "site": "doy/rbw",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rbw",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rbw",
+    "version_raw": "https://github.com/doy/rbw/releases/download/1.13.2/rbw_1.13.2_linux_amd64.tar.gz",
+    "description": "Unofficial Bitwarden password manager cli"
+  },
+  {
+    "pkg": "rclone",
+    "site": "rclone/rclone",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rclone",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rclone",
+    "version_raw": "https://github.com/rclone/rclone/releases/download/v1.70.3/rclone-v1.70.3-linux-amd64.zip",
+    "description": "rsync for cloud storage, CLI that supports Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files"
+  },
+  {
+    "pkg": "rclone-browser",
+    "site": "kapitainsky/RcloneBrowser",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rclone-browser",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rclone-browser",
+    "version_raw": "https://github.com/kapitainsky/RcloneBrowser/releases/download/1.8.0/rclone-browser-1.8.0-a0b66c6-linux-x86_64.AppImage",
+    "description": "Simple cross platform GUI for rclone"
+  },
+  {
+    "pkg": "rclone-ui",
+    "site": "rclone-ui/rclone-ui",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rclone-ui",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rclone-ui",
+    "version_raw": "https://github.com/rclone-ui/rclone-ui/releases/download/v1.0.4/Rclone.UI_1.0.4_amd64.AppImage",
+    "description": "The cross-platform desktop GUI for rclone & S3"
+  },
+  {
+    "pkg": "reactotron",
+    "site": "infinitered/reactotron",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/reactotron",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/reactotron",
+    "version_raw": "https://github.com/infinitered/reactotron/releases/download/reactotron-app%403.7.7/Reactotron-3.7.7.AppImage",
+    "description": "Reactotron desktop mode engage"
+  },
+  {
+    "pkg": "real-video-enhancer",
+    "site": "TNTwise/REAL-Video-Enhancer",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/real-video-enhancer",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/real-video-enhancer",
+    "version_raw": "https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/1.2.0/REAL-Video-Enhancer-NCNN-Linux-x86_64.AppImage",
+    "description": "Interpolate and Upscale easily"
+  },
+  {
+    "pkg": "realm-studio",
+    "site": "realm/realm-studio",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/realm-studio",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/realm-studio",
+    "version_raw": "https://github.com/realm/realm-studio/releases/download/v20.0.0/Realm.Studio-20.0.0.AppImage",
+    "description": "A tool for everything Realm"
+  },
+  {
+    "pkg": "reaper",
+    "site": "https://reaper.fm",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/reaper",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/reaper",
+    "version_raw": "https://www.reaper.fm/",
+    "description": "A complete digital audio production app, offering a full multitrack audio and MIDI recording, editing, processing, mixing and mastering toolset"
   }
 ]
