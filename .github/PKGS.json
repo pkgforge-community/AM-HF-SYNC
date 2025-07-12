@@ -1492,7 +1492,7 @@
     "site": "msojocs/bilibili-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bilibili",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bilibili",
-    "version_raw": "https://github.com/msojocs/bilibili-linux/releases/download/v1.16.5-3/bilibili-1.16.5-x86_64.AppImage",
+    "version_raw": "https://github.com/msojocs/bilibili-linux/releases/download/v1.16.5-4/bilibili-1.16.5-x86_64.AppImage",
     "description": "Bilibili official desktop client"
   },
   {
@@ -9364,7 +9364,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.5.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -14468,7 +14468,7 @@
     "site": "adamreichold/QMediathekView",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qmediathekview",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qmediathekview",
-    "version_raw": "https://github.com/adamreichold/QMediathekView/releases/download/continuous/QMediathekView-7c2da81-x86_64.AppImage",
+    "version_raw": "https://github.com/adamreichold/QMediathekView/releases/download/continuous/QMediathekView-2eb1ecd-x86_64.AppImage",
     "description": "An alternative front-end to the MediathekView database"
   },
   {
@@ -16460,7 +16460,7 @@
     "site": "pkgforge/soar",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/soar",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/soar",
-    "version_raw": "https://github.com/pkgforge/soar/releases/download/v0.6.4/soar-x86_64-linux",
+    "version_raw": "https://github.com/pkgforge/soar/releases/download/v0.6.5/soar-x86_64-linux",
     "description": "A fast, modern package manager for Static Binaries, Portable Formats, AppImage, AppBundle, FlatImage, Runimage & More"
   },
   {
@@ -17300,7 +17300,7 @@
     "site": "johannesjo/super-productivity",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/superproductivity",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/superproductivity",
-    "version_raw": "https://github.com/johannesjo/super-productivity/releases/download/v14.0.5/superProductivity-x86_64.AppImage",
+    "version_raw": "https://github.com/johannesjo/super-productivity/releases/download/v14.1.0/superProductivity-x86_64.AppImage",
     "description": "An advanced todo list app with integrated Timeboxing"
   },
   {
@@ -18712,6 +18712,14 @@
     "description": "An extremely fast Python package and project manager, written in Rust"
   },
   {
+    "pkg": "uwufetch",
+    "site": "ad-oliviero/uwufetch",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uwufetch",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uwufetch",
+    "version_raw": "https://github.com/ad-oliviero/uwufetch/releases/download/2.1/uwufetch_2.1-linux.tar.gz",
+    "description": "A meme system info tool for Linux, based on nyan/uwu trend"
+  },
+  {
     "pkg": "uyou",
     "site": "tonylu110/uyou-todo-electron",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uyou",
@@ -18776,6 +18784,22 @@
     "description": "A multi-currency crypto wallet with support for EOS & VTX"
   },
   {
+    "pkg": "vesktop",
+    "site": "Vencord/Vesktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vesktop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vesktop",
+    "version_raw": "https://github.com/Vencord/Vesktop/releases/download/v1.5.8/Vesktop-1.5.8.AppImage",
+    "description": "Vesktop gives you the performance of web Discord"
+  },
+  {
+    "pkg": "vgmtrans",
+    "site": "vgmtrans/vgmtrans",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vgmtrans",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vgmtrans",
+    "version_raw": "https://github.com/vgmtrans/vgmtrans/releases/download/v1.1/vgmtrans-preview-v1.1.AppImage",
+    "description": "A tool to convert proprietary, sequenced videogame music"
+  },
+  {
     "pkg": "vhc-viewer-wayland",
     "site": "https://vulkan.gpuinfo.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vhc-viewer-wayland",
@@ -18832,6 +18856,38 @@
     "description": "A Vim-based, scriptable, headless text editor for the command line"
   },
   {
+    "pkg": "vidcutter",
+    "site": "ozmartian/vidcutter",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vidcutter",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vidcutter",
+    "version_raw": "https://github.com/ozmartian/vidcutter/releases/download/6.0.5.1/VidCutter-6.0.5.1-x86_64.AppImage",
+    "description": "Simple and fast video cutter and joiner"
+  },
+  {
+    "pkg": "viddy",
+    "site": "sachaos/viddy",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/viddy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/viddy",
+    "version_raw": "https://github.com/sachaos/viddy/releases/download/v1.3.0/viddy-v1.3.0-linux-x86_64.tar.gz",
+    "description": "A modern watch command line utility. Time machine and pager etc"
+  },
+  {
+    "pkg": "video-hub",
+    "site": "whyboris/Video-Hub-App",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/video-hub",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/video-hub",
+    "version_raw": "https://github.com/whyboris/Video-Hub-App/releases/download/v3.2.0/Video.Hub.App.3.Demo-3.2.0.AppImage",
+    "description": "A fastest way to browse and search for videos on your computer"
+  },
+  {
+    "pkg": "videomass",
+    "site": "jeanslack/Videomass",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/videomass",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/videomass",
+    "version_raw": "https://github.com/jeanslack/Videomass/releases/download/v5.0.2/Videomass-5.0.2-x86_64.AppImage",
+    "description": "Free, open source and cross-platform GUI for FFmpeg"
+  },
+  {
     "pkg": "vieb",
     "site": "Jelmerro/Vieb",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vieb",
@@ -18848,11 +18904,451 @@
     "description": "File manager with curses interface providing Vim-like environment"
   },
   {
+    "pkg": "vigad",
+    "site": "VisualGameData/VIGAD",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vigad",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vigad",
+    "version_raw": "https://github.com/VisualGameData/VIGAD/releases/download/v1.0.0/Vigad-1.0.0.AppImage",
+    "description": "Extract live-data from your screen"
+  },
+  {
+    "pkg": "vikunja",
+    "site": "https://vikunja.io",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vikunja",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vikunja",
+    "version_raw": "0.24.6",
+    "description": "The open-source, self-hostable to-do app"
+  },
+  {
     "pkg": "vimeo-dl",
     "site": "akiomik/vimeo-dl",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vimeo-dl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vimeo-dl",
     "version_raw": "https://github.com/akiomik/vimeo-dl/releases/download/v0.2.0/vimeo-dl_0.2.0_linux_amd64.tar.gz",
     "description": "A cli tool to download private videos on vimeo. Written in golang"
+  },
+  {
+    "pkg": "viper",
+    "site": "0neGal/viper",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/viper",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/viper",
+    "version_raw": "https://github.com/0neGal/viper/releases/download/v1.13.0/Viper-1.13.0.AppImage",
+    "description": "Launcher and Updater for TF2 Northstar"
+  },
+  {
+    "pkg": "viper-browser",
+    "site": "LeFroid/Viper-Browser",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/viper-browser",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/viper-browser",
+    "version_raw": "https://github.com/LeFroid/Viper-Browser/releases/download/continuous/Viper_Browser-1-x86_64.AppImage",
+    "description": "Fast and lightweight Qt web browser"
+  },
+  {
+    "pkg": "vipster",
+    "site": "sgsaenger/vipster",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vipster",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vipster",
+    "version_raw": "https://github.com/sgsaenger/vipster/releases/download/v1.19.1b/Vipster-Linux-x86_64.AppImage",
+    "description": "Visual periodic structure editor"
+  },
+  {
+    "pkg": "vircadia",
+    "site": "vircadia/vircadia-native-core",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vircadia",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vircadia",
+    "version_raw": "https://github.com/vircadia/vircadia-native-core/releases/download/2022.1.1/Vircadia-2022.1.1-Selene.AppImage",
+    "description": "Open Source continuation of the High Fidelity metaverse"
+  },
+  {
+    "pkg": "virtscreen",
+    "site": "kbumsik/VirtScreen",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/virtscreen",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/virtscreen",
+    "version_raw": "https://github.com/kbumsik/VirtScreen/releases/download/0.3.1/VirtScreen.AppImage",
+    "description": "Make your iPad/tablet/computer into a secondary monitor on Linux"
+  },
+  {
+    "pkg": "virtualbox",
+    "site": "ivan-hc/VirtualBox-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/virtualbox",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/virtualbox",
+    "version_raw": "https://github.com/ivan-hc/VirtualBox-appimage/releases/download/7.1.6/VirtualBox-KVM_7.1.6-archimage4.3-x86_64.AppImage",
+    "description": "Powerful x86 virtualization for enterprise as well as home use"
+  },
+  {
+    "pkg": "visipics",
+    "site": "ivan-hc/Database-of-pkg2appimaged-packages",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/visipics",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/visipics",
+    "version_raw": "https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/visipics/VisiPics-1.3-x86_64.AppImage",
+    "description": "Windows software to find and remove duplicate pictures. Unofficial AppImage built using wine32-deploy and powered by wine"
+  },
+  {
+    "pkg": "visual-define-xml-editor",
+    "site": "defineEditor/editor",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/visual-define-xml-editor",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/visual-define-xml-editor",
+    "version_raw": "https://github.com/defineEditor/editor/releases/download/v1.1.16-current/DefineEditor.1.1.16-current.AppImage",
+    "description": "Editor for CDISC Define-XML standard"
+  },
+  {
+    "pkg": "visualfamilytree",
+    "site": "Jisco/VisualFamilyTree",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/visualfamilytree",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/visualfamilytree",
+    "version_raw": "https://github.com/Jisco/VisualFamilyTree/releases/download/v1.4.0/VisualFamilyTree.1.4.0.AppImage",
+    "description": "Create a family tree with information and pictures"
+  },
+  {
+    "pkg": "vita3k",
+    "site": "Vita3K/Vita3K",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vita3k",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vita3k",
+    "version_raw": "https://github.com/Vita3K/Vita3K/releases/download/continuous/Vita3K-x86_64.AppImage",
+    "description": "Experimental PlayStation Vita emulator"
+  },
+  {
+    "pkg": "vitomu",
+    "site": "digimezzo/vitomu",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vitomu",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vitomu",
+    "version_raw": "https://github.com/digimezzo/vitomu/releases/download/v2.1.0/Vitomu-2.1.0.AppImage",
+    "description": "Easy to use video to audio converter"
+  },
+  {
+    "pkg": "viu",
+    "site": "atanunq/viu",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/viu",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/viu",
+    "version_raw": "https://github.com/atanunq/viu/releases/download/v1.5.1/viu-x86_64-unknown-linux-musl",
+    "description": "Terminal image viewer with native support for iTerm and Kitty"
+  },
+  {
+    "pkg": "vivaldi-snapshot",
+    "site": "ivan-hc/Vivaldi-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vivaldi-snapshot",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vivaldi-snapshot",
+    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-snapshot-7.5.3735.34-1-x86_64.AppImage",
+    "description": "Unofficial. Advanced Web Browser, Testing Version"
+  },
+  {
+    "pkg": "vivaldi-stable",
+    "site": "ivan-hc/Vivaldi-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vivaldi-stable",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vivaldi-stable",
+    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-stable-7.5.3735.47-1-x86_64.AppImage",
+    "description": "Unofficial. Advanced Web Browser, Stable Version"
+  },
+  {
+    "pkg": "vivifyscrum",
+    "site": "Vivify-Ideas/vivifyscrum2-electron",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vivifyscrum",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vivifyscrum",
+    "version_raw": "https://github.com/Vivify-Ideas/vivifyscrum2-electron/releases/download/linux-x64-prod-2.4.29/VivifyScrum-2.4.29.AppImage",
+    "description": "Agile Tool for Professionals"
+  },
+  {
+    "pkg": "vizgraph",
+    "site": "jcf94/vizgraph",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vizgraph",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vizgraph",
+    "version_raw": "https://github.com/jcf94/vizgraph/releases/download/v0.0.8/vizgraph-0.0.8-x86_64.AppImage",
+    "description": "A simple tool for Using Graphviz"
+  },
+  {
+    "pkg": "vk-desktop",
+    "site": "danyadev/vk-desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vk-desktop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vk-desktop",
+    "version_raw": "https://github.com/danyadev/vk-desktop/releases/download/0.0.5/VK.Desktop.0.0.5-Linux-x64.appimage",
+    "description": "Cross-platform client VKontakte"
+  },
+  {
+    "pkg": "vk-music-fs",
+    "site": "vodka2/vk-music-fs",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vk-music-fs",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vk-music-fs",
+    "version_raw": "https://github.com/vodka2/vk-music-fs/releases/download/1.3.2/vk_music_fs-x86_64.AppImage",
+    "description": "Listen to the music from VK"
+  },
+  {
+    "pkg": "vlc",
+    "site": "ivan-hc/VLC-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vlc",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vlc",
+    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous/VLC-media-player_3.0.21-26-archimage4.3-x86_64.AppImage",
+    "description": "Unofficial. Free and Open Source Video & Media player for Audio, streaming and more"
+  },
+  {
+    "pkg": "vlc+",
+    "site": "ivan-hc/VLC-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vlc+",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vlc+",
+    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-with-plugins/VLC-media-player_3.0.21-26-jre8-with-plugins-archimage4.3-x86_64.AppImage",
+    "description": "Unofficial. Video & Media player for Audio, streaming and more, with JAVA support"
+  },
+  {
+    "pkg": "vlc-git",
+    "site": "ivan-hc/VLC-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vlc-git",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vlc-git",
+    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r34186.g4ed95f35fd3-1-archimage4.3-x86_64.AppImage",
+    "description": "Unofficial. Free and Open Source Video & Media player, GIT version"
+  },
+  {
+    "pkg": "vnote",
+    "site": "tamlok/vnote",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vnote",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vnote",
+    "version_raw": "https://github.com/vnotex/vnote/releases/download/continuous-build/VNote-3.18.2-linux-x64.AppImage",
+    "description": "Note-taking application for pleasant Markdown"
+  },
+  {
+    "pkg": "vocabsieve",
+    "site": "FreeLanguageTools/vocabsieve",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vocabsieve",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vocabsieve",
+    "version_raw": "https://github.com/FreeLanguageTools/vocabsieve/releases/download/v0.12.5/VocabSieve-v0.12.5-linux-amd64.AppImage",
+    "description": "Simple sentence mining tool for language learning"
+  },
+  {
+    "pkg": "voicevox",
+    "site": "VOICEVOX/voicevox",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/voicevox",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/voicevox",
+    "version_raw": "https://github.com/VOICEVOX/voicevox/releases/download/0.24.2/VOICEVOX.AppImage.7z.001",
+    "description": "Offical Frontend for the free VOICEVOX TTS Engine"
+  },
+  {
+    "pkg": "volaris",
+    "site": "volar-is/volaris-gui",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/volaris",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/volaris",
+    "version_raw": "https://github.com/volar-is/volaris-gui/releases/download/app-v0.6.0/Volaris_0.6.0_amd64.AppImage",
+    "description": "Volaris-Gui is the wrapper for Volaris, a secure file encryption software"
+  },
+  {
+    "pkg": "vpaint",
+    "site": "dalboris/vpaint",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vpaint",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vpaint",
+    "version_raw": "https://github.com/dalboris/vpaint/releases/download/v1.7/VPaint-1.7-x86_64.AppImage",
+    "description": "Experimental vector graphics and 2D animation editor"
+  },
+  {
+    "pkg": "vrest-ng",
+    "site": "Optimizory/vrest-ng",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vrest-ng",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vrest-ng",
+    "version_raw": "https://github.com/Optimizory/vrest-ng/releases/download/v3.4.0/vrest-ng-enterprise-linux-3.4.0.AppImage",
+    "description": "Zero code API test automation solution"
+  },
+  {
+    "pkg": "vrew",
+    "site": "https://vrew.ai",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vrew",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vrew",
+    "version_raw": "",
+    "description": "Your first video editor, your easiest choice"
+  },
+  {
+    "pkg": "vscodium",
+    "site": "VSCodium/vscodium",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vscodium",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vscodium",
+    "version_raw": "https://github.com/VSCodium/vscodium/releases/download/1.102.04606/VSCodium-1.102.04606.glibc2.29-x86_64.AppImage",
+    "description": "Community-driven, freely-licensed binary distribution of MS VSCode"
+  },
+  {
+    "pkg": "vt",
+    "site": "VirusTotal/vt-cli",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vt",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vt",
+    "version_raw": "https://github.com/VirusTotal/vt-cli/releases/download/1.1.1/Linux64.zip",
+    "description": "VirusTotal Command Line Interface"
+  },
+  {
+    "pkg": "vtm",
+    "site": "directvt/vtm",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vtm",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vtm",
+    "version_raw": "https://github.com/directvt/vtm/releases/download/v2025.06.18/vtm_linux_x86_64.zip",
+    "description": "Text-based desktop environment"
+  },
+  {
+    "pkg": "vue-calc",
+    "site": "el3um4s/vue-calc",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vue-calc",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vue-calc",
+    "version_raw": "https://github.com/el3um4s/vue-calc/releases/download/v0.18.04.15/vue-calc-x86_64.AppImage",
+    "description": "A Simple VueJS's Calculator built with ElectronJS"
+  },
+  {
+    "pkg": "vuerd",
+    "site": "vuerd/vuerd-electron",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vuerd",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vuerd",
+    "version_raw": "https://github.com/dineug/vuerd-electron/releases/download/v1.0.2/vuerd_1.0.2.AppImage",
+    "description": "A desktop ERD app"
+  },
+  {
+    "pkg": "vup",
+    "site": "vup-app/vup",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vup",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vup",
+    "version_raw": "https://github.com/vup-app/vup/releases/download/v0.15.0/Vup-0.15.0-BETA-Linux.AppImage",
+    "description": "Private and decentralized cloud storage"
+  },
+  {
+    "pkg": "w2vgrep",
+    "site": "arunsupe/semantic-grep",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/w2vgrep",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/w2vgrep",
+    "version_raw": "https://github.com/arunsupe/semantic-grep/releases/download/v0.7.0/w2vgrep.linux.amd64",
+    "description": "semantic-grep for words with similar meaning to the query"
+  },
+  {
+    "pkg": "walc",
+    "site": "cstayyab/WALC",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/walc",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/walc",
+    "version_raw": "https://github.com/WAClient/WALC/releases/download/v0.3.3/WALC-0.3.3.AppImage",
+    "description": "WhatsApp Linux Client, Unofficial"
+  },
+  {
+    "pkg": "walk",
+    "site": "antonmedv/walk",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/walk",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/walk",
+    "version_raw": "https://github.com/antonmedv/walk/releases/download/v1.13.0/walk_linux_amd64",
+    "description": "Terminal file manager"
+  },
+  {
+    "pkg": "wallettech",
+    "site": "bytechcoin/bytech-wallet-electron",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wallettech",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wallettech",
+    "version_raw": "https://github.com/bytechcoin/bytech-wallet-electron/releases/download/v0.3.6/WalletTech-v0.3.6-linux.AppImage",
+    "description": "BytechCoin GUI Wallet"
+  },
+  {
+    "pkg": "warp-terminal",
+    "site": "https://www.warp.dev",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/warp-terminal",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/warp-terminal",
+    "version_raw": "",
+    "description": "Terminal reimagined with AI and collaborative tools"
+  },
+  {
+    "pkg": "wasistlos",
+    "site": "xeco23/WasIstLos",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wasistlos",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wasistlos",
+    "version_raw": "https://github.com/xeco23/WasIstLos/releases/download/v1.7.0/wasistlos-1.7.0-x86_64.AppImage",
+    "description": "Unofficial, WhatsApp Linux Client, formerly known as whatsapp-for-linux"
+  },
+  {
+    "pkg": "watched",
+    "site": "mediaurl/mediaurl-js",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/watched",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/watched",
+    "version_raw": "v2.3.1",
+    "description": "A media player and a browser for Excellent entertainment"
+  },
+  {
+    "pkg": "watchflower",
+    "site": "emericg/WatchFlower",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/watchflower",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/watchflower",
+    "version_raw": "https://github.com/emericg/WatchFlower/releases/download/v5.4/WatchFlower-5.4-linux64.AppImage",
+    "description": "Read and plot datas from your Xiaomi devices"
+  },
+  {
+    "pkg": "watchit",
+    "site": "ZorrillosDev/watchit-app",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/watchit",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/watchit",
+    "version_raw": "https://github.com/WatchItDev/watchit-app/releases/download/v1.0.0-beta.0/watchit-1.0.0-beta.0.AppImage",
+    "description": "Open movies everywhere"
+  },
+  {
+    "pkg": "waterfox",
+    "site": "https://www.waterfox.net",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/waterfox",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/waterfox",
+    "version_raw": "",
+    "description": "Browse the World Wide Web, current version"
+  },
+  {
+    "pkg": "waydroid-helper",
+    "site": "ayasa520/waydroid-helper",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/waydroid-helper",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/waydroid-helper",
+    "version_raw": "https://github.com/ayasa520/waydroid-helper/releases/download/v0.1.2/waydroid-helper-0.1.2-x86_64.AppImage",
+    "description": "App that provides a user-friendly way to configure Waydroid and install extensions, including Magisk and ARM translation (android)"
+  },
+  {
+    "pkg": "wazo-desktop",
+    "site": "https://wazo.io",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wazo-desktop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wazo-desktop",
+    "version_raw": "",
+    "description": "Wazo desktop client for wazo VOIP server"
+  },
+  {
+    "pkg": "weakauras",
+    "site": "WeakAuras/WeakAuras-Companion",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/weakauras",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/weakauras",
+    "version_raw": "https://github.com/WeakAuras/WeakAuras-Companion/releases/download/v5.2.10/WeakAuras-Companion-5.2.10.AppImage",
+    "description": "App to provide missing link between Wago.io and World of Warcraft"
+  },
+  {
+    "pkg": "weatherdump",
+    "site": "luigifreitas/weatherdump-desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/weatherdump",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/weatherdump",
+    "version_raw": "https://github.com/luigifcruz/weatherdump-desktop/releases/download/v0.0.0-alpha.3/weatherdump-gui-0.0.0-alpha.3-linux-x86_64.AppImage",
+    "description": "A WeatherDump GUI"
+  },
+  {
+    "pkg": "webamp",
+    "site": "durasj/webamp-desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/webamp",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/webamp",
+    "version_raw": "https://github.com/durasj/webamp-desktop/releases/download/v0.3.0/webamp-desktop-0.3.0-x86_64.AppImage",
+    "description": "Winamp Player 2.9 reimplementation in HTML5 and JS"
+  },
+  {
+    "pkg": "webcamoid",
+    "site": "ivan-hc/Database-of-pkg2appimaged-packages",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/webcamoid",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/webcamoid",
+    "version_raw": "https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/webcamoid/Webcamoid_9.2.3-1-archimage4.3-x86_64.AppImage",
+    "description": "A multi-platform camera capture app focused on providing all major features required by power users with a very simple and intuitive interface"
+  },
+  {
+    "pkg": "webcatalog",
+    "site": "https://webcatalog.io",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/webcatalog",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/webcatalog",
+    "version_raw": "",
+    "description": "App store for web apps. Find the right software and services"
+  },
+  {
+    "pkg": "webcord",
+    "site": "SpacingBat3/WebCord",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/webcord",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/webcord",
+    "version_raw": "https://github.com/SpacingBat3/WebCord/releases/download/v4.11.0/WebCord-4.11.0-x64.AppImage",
+    "description": "A Discord and Fosscord client implemented without Discord API"
+  },
+  {
+    "pkg": "webkitty",
+    "site": "yikuansun/webkitty",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/webkitty",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/webkitty",
+    "version_raw": "https://github.com/yikuansun/webkitty/releases/download/v3.2.1/WebKitty-3.2.1.AppImage",
+    "description": "Local web development IDE"
   }
 ]
