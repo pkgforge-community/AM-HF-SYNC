@@ -529,11 +529,11 @@
   },
   {
     "pkg": "anki",
-    "site": "ankitects/anki",
+    "site": "ivan-hc/Database-of-pkg2appimaged-packages",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anki",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anki",
-    "version_raw": "https://github.com/ankitects/anki/releases/download/25.07.2/anki-linux.tar.zst",
-    "description": "Anki's shared backend and web components, and the Qt frontend"
+    "version_raw": "https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/anki/Anki_25.07.2-1-archimage4.3-x86_64.AppImage",
+    "description": "Unofficial, Anki's shared backend and web components, and the Qt frontend"
   },
   {
     "pkg": "anklang",
@@ -1524,7 +1524,7 @@
     "site": "jorio/BillyFrontier",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/billyfrontier",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/billyfrontier",
-    "version_raw": "https://github.com/jorio/BillyFrontier/releases/download/v1.1.1/BillyFrontier-1.1.1-linux-x86_64.AppImage",
+    "version_raw": "",
     "description": "Pangea Software’s Billy Frontier for modern systems"
   },
   {
@@ -3572,7 +3572,7 @@
     "site": "https://cudatext.github.io",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cudatext",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cudatext",
-    "version_raw": "1.225.0.0",
+    "version_raw": "1.226.0.0",
     "description": "A cross-platform text editor, written in Object Pascal"
   },
   {
@@ -9364,7 +9364,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.5.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -13932,7 +13932,7 @@
     "site": "hrydgard/ppsspp",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ppsspp",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ppsspp",
-    "version_raw": "",
+    "version_raw": "https://github.com/hrydgard/ppsspp/releases/download/v1.19.2/PPSSPP-v1.19.2-anylinux-x86_64.AppImage",
     "description": "PSP emulator written in C++"
   },
   {
@@ -14516,7 +14516,7 @@
     "site": "pbek/QOwnNotes",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qownnotes",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qownnotes",
-    "version_raw": "https://github.com/pbek/QOwnNotes/releases/download/v25.7.5/QOwnNotes-x86_64.AppImage",
+    "version_raw": "https://github.com/pbek/QOwnNotes/releases/download/v25.7.6/QOwnNotes-x86_64.AppImage",
     "description": "Plain text notepad and todo list manager"
   },
   {
@@ -17948,7 +17948,7 @@
     "site": "edrlab/thorium-reader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium-reader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium-reader",
-    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.2.0-alpha.1.16264766999.AppImage",
+    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.2.0-alpha.1.16274057549.AppImage",
     "description": "Desktop application to read ebooks"
   },
   {
@@ -18708,7 +18708,7 @@
     "site": "astral-sh/uv",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uv",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uv",
-    "version_raw": "https://github.com/astral-sh/uv/releases/download/0.7.20/uv-x86_64-unknown-linux-musl.tar.gz",
+    "version_raw": "https://github.com/astral-sh/uv/releases/download/0.7.21/uv-x86_64-unknown-linux-musl.tar.gz",
     "description": "An extremely fast Python package and project manager, written in Rust"
   },
   {
@@ -19428,7 +19428,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "52055688240",
+    "version_raw": "52059178607",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
