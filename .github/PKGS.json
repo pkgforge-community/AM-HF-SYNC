@@ -708,7 +708,7 @@
     "site": "https://gitlab.com/posktomten/appimagehelper",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimagehelper",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimagehelper",
-    "version_raw": "2022-11-06",
+    "version_raw": "",
     "description": "Create and organize shortcuts for AppImages"
   },
   {
@@ -828,7 +828,7 @@
     "site": "ivan-hc/Arch-Deployer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/arch-deployer",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/arch-deployer",
-    "version_raw": "https://github.com/ivan-hc/Arch-Deployer/releases/download/1.5.0/arch-deployer",
+    "version_raw": "https://github.com/ivan-hc/Arch-Deployer/releases/download/1.6.1/arch-deployer",
     "description": "A script to bulk download an Arch Linux package with all its dependencies to be converted in AppImage"
   },
   {
@@ -972,7 +972,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "1.0.4",
+    "version_raw": "",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -1684,7 +1684,7 @@
     "site": "ivan-hc/Blender-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blender-alpha",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blender-alpha",
-    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.0.0-alpha%2Bmain.14e2876b7322-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.0.0-alpha%2Bmain.1a247fbaa8bc-x86_64.AppImage",
     "description": "Very fast and versatile 3D modeller/renderer, Alpha"
   },
   {
@@ -6948,7 +6948,7 @@
     "site": "ivan-hc/Chrome-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/google-chrome",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/google-chrome",
-    "version_raw": "https://github.com/ivan-hc/Chrome-appimage/releases/download/continuous/Google-Chrome-stable-138.0.7204.100-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Chrome-appimage/releases/download/continuous/Google-Chrome-stable-138.0.7204.157-1-x86_64.AppImage",
     "description": "Unofficial, Web Browser, Stable version"
   },
   {
@@ -7372,7 +7372,7 @@
     "site": "https://gitlab.com/posktomten/hashsum",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hashsum",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hashsum",
-    "version_raw": "2025.05.26",
+    "version_raw": "",
     "description": "A universal tool for finding file duplicates and modified files"
   },
   {
@@ -8980,7 +8980,7 @@
     "site": "kovidgoyal/kitty",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kitty",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kitty",
-    "version_raw": "https://github.com/kovidgoyal/kitty/releases/download/nightly/kitten-linux-amd64",
+    "version_raw": "https://github.com/kovidgoyal/kitty/releases/download/v0.42.2/kitten-linux-amd64",
     "description": "Cross-platform, fast, feature-rich, GPU based terminal"
   },
   {
@@ -9372,7 +9372,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.5.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -11388,7 +11388,7 @@
     "site": "naev/naev",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/naev",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/naev",
-    "version_raw": "https://github.com/naev/naev/releases/download/nightly/naev-0.13.0-alpha.8%2B300.g26837bf3ef-linux-x86-64.AppImage",
+    "version_raw": "https://github.com/naev/naev/releases/download/nightly/naev-0.13.0-alpha.8%2B301.g918eacfff8-linux-x86-64.AppImage",
     "description": "A 2d action/rpg space game that combines elements from the action"
   },
   {
@@ -19100,7 +19100,7 @@
     "site": "ivan-hc/VLC-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vlc-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vlc-git",
-    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous/VLC-media-player_3.0.21-26-archimage4.3-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r34237.g1a207ac722c0-1-archimage4.3-x86_64.AppImage",
     "description": "Unofficial. Free and Open Source Video & Media player, GIT version"
   },
   {
@@ -19452,7 +19452,7 @@
     "site": "ivan-hc/WhatsApp-nativefier-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/whatsapp-nativefier",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/whatsapp-nativefier",
-    "version_raw": "https://github.com/ivan-hc/WhatsApp-nativefier-appimage/releases/download/continuous/Whatsapp-nativefier-2.3000.1019818867-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/WhatsApp-nativefier-appimage/releases/download/continuous/Whatsapp-nativefier--x86_64.AppImage",
     "description": "Unofficial, Electron-based WhatsApp Linux Client"
   },
   {
@@ -19972,7 +19972,7 @@
     "site": "https://www.xnview.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xnconvert",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xnconvert",
-    "version_raw": "XnConvert-178.glibc2.14-x86_64.AppImage",
+    "version_raw": "",
     "description": "A fast, powerful and free cross-platform batch image converter"
   },
   {
@@ -19980,7 +19980,7 @@
     "site": "https://www.xnview.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xnviewmp",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xnviewmp",
-    "version_raw": "1.9.2",
+    "version_raw": "",
     "description": "Graphic viewer, browser, converter"
   },
   {
