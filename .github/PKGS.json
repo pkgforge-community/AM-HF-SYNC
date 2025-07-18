@@ -9372,7 +9372,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.5.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -10180,7 +10180,7 @@
     "site": "buddhi1980/mandelbulber2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mandelbulber2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mandelbulber2",
-    "version_raw": "https://github.com/buddhi1980/mandelbulber2/releases/download/continuous/Mandelbulber_v2-e782be5-x86_64.AppImage",
+    "version_raw": "https://github.com/buddhi1980/mandelbulber2/releases/download/continuous/Mandelbulber_v2-595902a-x86_64.AppImage",
     "description": "Explore trigonometric, hyper-complex and other 3D fractals"
   },
   {
@@ -10230,6 +10230,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mangojuice",
     "version_raw": "https://github.com/radiolamp/mangojuice/releases/download/0.8.5/MangoJuice-0.8.5-x86_64.AppImage",
     "description": "It's a great alternative to GOverlay"
+  },
+  {
+    "pkg": "mangoverlay",
+    "site": "loissascha/MangOverlay",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mangoverlay",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mangoverlay",
+    "version_raw": "https://github.com/loissascha/MangOverlay/releases/download/v0.4.0/MangOverlay.AppImage",
+    "description": "Mangohud configuration tool"
   },
   {
     "pkg": "manta",
