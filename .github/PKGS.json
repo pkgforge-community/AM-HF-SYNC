@@ -3140,7 +3140,7 @@
     "site": "https://gitlab.com/coolercontrol",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/coolercontrold",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/coolercontrold",
-    "version_raw": "https://gitlab.com/coolercontrol/coolercontrol/-/releases/2.2.1/downloads/packages/CoolerControlD-x86_64.AppImage",
+    "version_raw": "https://gitlab.com/coolercontrol/coolercontrol/-/releases/2.2.2/downloads/packages/CoolerControlD-x86_64.AppImage",
     "description": "Daemon for coolercontrol, to monitor your cooling devices"
   },
   {
@@ -10916,7 +10916,7 @@
     "site": "MUME/MMapper",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mmapper",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mmapper",
-    "version_raw": "https://github.com/MUME/MMapper/releases/download/beta/MMapper-25.07.0-5-g30d17a98-x86_64.AppImage",
+    "version_raw": "https://github.com/MUME/MMapper/releases/download/beta/MMapper-25.07.0-7-gbb0f8f3f-x86_64.AppImage",
     "description": "Graphical MUD client for the game MUME"
   },
   {
@@ -16528,14 +16528,6 @@
     "description": "Stellar wallet. Secure and user-friendly"
   },
   {
-    "pkg": "soniclineup",
-    "site": "https://sonicvisualiser.org",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/soniclineup",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/soniclineup",
-    "version_raw": "https://code.soundsoftware.ac.uk",
-    "description": "Comparative visualisation of multiple audio files"
-  },
-  {
     "pkg": "sonicvisualiser",
     "site": "sonic-visualiser/sonic-visualiser",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sonicvisualiser",
@@ -19444,7 +19436,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "52249401509",
+    "version_raw": "52252354966",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
