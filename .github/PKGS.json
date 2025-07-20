@@ -2244,7 +2244,7 @@
     "site": "larygwil/caesium-image-compressor",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/caesium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/caesium",
-    "version_raw": "https://github.com/larygwil/caesium-image-compressor/releases/download/v2.6.0/Caesium_Image_Compressor-x86_64_v2.6.0_ubu20_qt66.AppImage",
+    "version_raw": "",
     "description": "Image compression software that helps you store, send and share digital pictures, supporting JPG, PNG, WebP and TIFF formats"
   },
   {
@@ -3484,7 +3484,7 @@
     "site": "pkgforge-dev/Cromite-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cromite",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cromite",
-    "version_raw": "https://github.com/pkgforge-dev/Cromite-AppImage/releases/download/v138.0.7204.97%402025-07-20_1753006863/Cromite-v138.0.7204.97-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Cromite-AppImage/releases/download/v138.0.7204.97%402025-07-20_1753010020/Cromite-v138.0.7204.97-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of the Cromite web browser"
   },
   {
@@ -3876,7 +3876,7 @@
     "site": "deerportal/deerportal",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/deerportal",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/deerportal",
-    "version_raw": "https://github.com/deerportal/deerportal/releases/download/v0.9.7-pre.1/DeerPortal-0.9.7-pre.1-x86_64.AppImage",
+    "version_raw": "https://github.com/deerportal/deerportal/releases/download/v0.9.7/DeerPortal-0.9.7-x86_64.AppImage",
     "description": "Full of the diamonds board game"
   },
   {
@@ -6358,6 +6358,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/geeqie",
     "version_raw": "https://github.com/BestImageViewer/geeqie/releases/download/continuous/Geeqie-latest-x86_64.AppImage",
     "description": "Claiming to be the best image viewer and photo collection browser"
+  },
+  {
+    "pkg": "geforce-infinity",
+    "site": "AstralVixen/GeForce-Infinity",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/geforce-infinity",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/geforce-infinity",
+    "version_raw": "https://github.com/AstralVixen/GeForce-Infinity/releases/download/1.1.2/GeForceInfinity-linux-1.1.2-x86_64.AppImage",
+    "description": "Enhance the Nvidia GeForce NOW experience"
   },
   {
     "pkg": "geforcenow-electron",
@@ -10172,7 +10180,7 @@
     "site": "buddhi1980/mandelbulber2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mandelbulber2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mandelbulber2",
-    "version_raw": "https://github.com/buddhi1980/mandelbulber2/releases/download/continuous/Mandelbulber_v2-1da2292-x86_64.AppImage",
+    "version_raw": "https://github.com/buddhi1980/mandelbulber2/releases/download/continuous/Mandelbulber_v2-df9db50-x86_64.AppImage",
     "description": "Explore trigonometric, hyper-complex and other 3D fractals"
   },
   {
@@ -13012,7 +13020,7 @@
     "site": "PCSX2/pcsx2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcsx2",
-    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.5.73/pcsx2-v2.5.73-linux-appimage-x64-Qt.AppImage",
+    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.5.74/pcsx2-v2.5.74-linux-appimage-x64-Qt.AppImage",
     "description": "The Playstation 2 Emulator"
   },
   {
@@ -19420,7 +19428,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "52297425503",
+    "version_raw": "52299678579",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
