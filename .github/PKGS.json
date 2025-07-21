@@ -164,7 +164,7 @@
     "site": "toeverything/AFFiNE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine-canary",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine-canary",
-    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2025.7.20-canary.903/affine-2025.7.20-canary.903-canary-linux-x64.appimage",
+    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2025.7.21-canary.907/affine-2025.7.21-canary.907-canary-linux-x64.appimage",
     "description": "Next-gen knowledge base that brings planning/sorting/creating"
   },
   {
@@ -4884,7 +4884,7 @@
     "site": "ente-io/ente",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ente-auth",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ente-auth",
-    "version_raw": "https://github.com/ente-io/ente/releases/download/auth-v4.4.0/ente-auth-v4.4.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ente-io/ente/releases/download/auth-v4.4.3/ente-auth-v4.4.3-x86_64.AppImage",
     "description": "Fully open source, End to End Encrypted alternative to Google Photos and Apple Photos"
   },
   {
@@ -5230,6 +5230,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/f1mv-lights-integration",
     "version_raw": "https://github.com/JustJoostNL/F1MV-Lights-Integration/releases/download/v3.2.4/F1MV-Lights-Integration-3.2.4.AppImage",
     "description": "Connect your smart home lights to MultiViewer"
+  },
+  {
+    "pkg": "fafarunner",
+    "site": "fafarunner/fafarunner",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fafarunner",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fafarunner",
+    "version_raw": "https://github.com/FaFaRunner/fafarunner/releases/download/v2.5.2%2B382/fafarunner-2.5.2.382-linux-amd64.AppImage",
+    "description": "A game developed using flutter and flame"
   },
   {
     "pkg": "fairshare",
@@ -9364,7 +9372,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.5.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -19420,7 +19428,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "52324559682",
+    "version_raw": "52327790359",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
