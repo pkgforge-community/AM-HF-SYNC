@@ -156,7 +156,7 @@
     "site": "toeverything/AFFiNE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine-beta",
-    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v0.23.1-beta.1/affine-0.23.1-beta.1-beta-linux-x64.appimage",
+    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v0.23.2-beta.1/affine-0.23.2-beta.1-beta-linux-x64.appimage",
     "description": "Next-gen knowledge base that brings planning, sorting and creating"
   },
   {
@@ -4516,7 +4516,7 @@
     "site": "eden-emulator/Releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eden",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eden",
-    "version_raw": "https://github.com/eden-emulator/Releases/releases/download/tmp_backup/Eden-Linux-tmp-amd64.appimage",
+    "version_raw": "https://github.com/eden-emulator/Releases/releases/download/v0.0.2-pre-alpha/Eden-Linux-0.0.2-pre-alpha-amd64.AppImage",
     "description": "An experimental open-source emulator for Nintendo Switch (yuzu fork)"
   },
   {
@@ -5230,14 +5230,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/f1mv-lights-integration",
     "version_raw": "https://github.com/JustJoostNL/F1MV-Lights-Integration/releases/download/v3.2.4/F1MV-Lights-Integration-3.2.4.AppImage",
     "description": "Connect your smart home lights to MultiViewer"
-  },
-  {
-    "pkg": "fafarunner",
-    "site": "fafarunner/fafarunner",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fafarunner",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fafarunner",
-    "version_raw": "https://github.com/FaFaRunner/fafarunner/releases/download/v2.5.2%2B382/fafarunner-2.5.2.382-linux-amd64.AppImage",
-    "description": "A game developed using flutter and flame"
   },
   {
     "pkg": "fairshare",
@@ -9372,7 +9364,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.5.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -19428,7 +19420,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "52320705699",
+    "version_raw": "52324559682",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
