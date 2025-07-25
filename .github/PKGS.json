@@ -1700,7 +1700,7 @@
     "site": "ivan-hc/Blender-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blender-rc",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blender-rc",
-    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-candidate/Blender_Release_Candidate-4.5.0-candidate%2Bv45.2983ea4616b3-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-candidate/Blender_Release_Candidate-4.5.1-candidate%2Bv45.16048302b4a7-x86_64.AppImage",
     "description": "Very fast and versatile 3D modeller/renderer, Release Candidate"
   },
   {
@@ -2020,7 +2020,7 @@
     "site": "tom-james-watson/breaktimer-app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/breaktimer",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/breaktimer",
-    "version_raw": "https://github.com/tom-james-watson/breaktimer-app/releases/download/v1.3.2/BreakTimer.AppImage",
+    "version_raw": "",
     "description": "Save yourself from RSI and eye-strain"
   },
   {
@@ -2612,7 +2612,7 @@
     "site": "ksharindam/chemcanvas",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chemcanvas",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chemcanvas",
-    "version_raw": "https://github.com/ksharindam/chemcanvas/releases/download/v0.8.0/ChemCanvas-x86_64.AppImage",
+    "version_raw": "https://github.com/ksharindam/chemcanvas/releases/download/v0.8.2/ChemCanvas-x86_64.AppImage",
     "description": "A very intuitive 2D chemical drawing tool"
   },
   {
@@ -3756,7 +3756,7 @@
     "site": "dbgate/dbgate",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dbgate",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dbgate",
-    "version_raw": "https://github.com/dbgate/dbgate/releases/download/v6.5.7-premium-beta.3/dbgate-premium-6.5.7-premium-beta.3-linux_x86_64.AppImage",
+    "version_raw": "https://github.com/dbgate/dbgate/releases/download/v6.6.0/dbgate-6.6.0-linux_x86_64.AppImage",
     "description": "Opensource database administration tool"
   },
   {
@@ -9372,7 +9372,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.5.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -15948,7 +15948,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4-nightly",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-07-25-4c221372559def7d904dcbcc801c02da34c59def/shadps4-linux-sdl-2025-07-25-4c22137.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-07-25-61ce3936732af3cfb663d15c3853b8c761aa05e0/shadps4-linux-sdl-2025-07-25-61ce393.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -19428,7 +19428,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "52526911297",
+    "version_raw": "52530970290",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -19486,6 +19486,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/widelands",
     "version_raw": "https://github.com/widelands/widelands/releases/download/v1.2.1/Widelands-1.2.1-x86_64.AppImage",
     "description": "Real-time strategy game with singleplayer campaigns"
+  },
+  {
+    "pkg": "wikilynx",
+    "site": "flamboyantpenguin/wikilynx",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wikilynx",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wikilynx",
+    "version_raw": "https://github.com/flamboyantpenguin/wikilynx/releases/download/v1.5.6/wikiLYNX_1.5.6-3_amd64.AppImage",
+    "description": "A simple game browser made using Qt C++ for playing wikipedia speed-runs the right way"
   },
   {
     "pkg": "window-pet",
