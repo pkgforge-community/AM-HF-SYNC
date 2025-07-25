@@ -164,7 +164,7 @@
     "site": "toeverything/AFFiNE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine-canary",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine-canary",
-    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2025.7.23-canary.906/affine-2025.7.23-canary.906-canary-linux-x64.appimage",
+    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2025.7.25-canary.905/affine-2025.7.25-canary.905-canary-linux-x64.appimage",
     "description": "Next-gen knowledge base that brings planning/sorting/creating"
   },
   {
@@ -708,7 +708,7 @@
     "site": "https://gitlab.com/posktomten/appimagehelper",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimagehelper",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimagehelper",
-    "version_raw": "2022-11-06",
+    "version_raw": "",
     "description": "Create and organize shortcuts for AppImages"
   },
   {
@@ -972,7 +972,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "1.0.4",
+    "version_raw": "",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -980,7 +980,7 @@
     "site": "artisan-roaster-scope/artisan",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artisan",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artisan",
-    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/continuous/artisan-linux-3.2.1.AppImage",
+    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/v3.2.0/artisan-linux-3.2.0.AppImage",
     "description": "Visualizes the coffee roasting process"
   },
   {
@@ -1604,7 +1604,7 @@
     "site": "digitalbitbox/bitbox-wallet-app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bitbox-wallet",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bitbox-wallet",
-    "version_raw": "https://github.com/BitBoxSwiss/bitbox-wallet-app/releases/download/v4.47.3/BitBox-4.47.3-x86_64.AppImage",
+    "version_raw": "https://github.com/BitBoxSwiss/bitbox-wallet-app/releases/download/v4.48.1/BitBox-4.48.1-x86_64.AppImage",
     "description": "Cryptocurrency hardware wallet desktop app"
   },
   {
@@ -2020,7 +2020,7 @@
     "site": "tom-james-watson/breaktimer-app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/breaktimer",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/breaktimer",
-    "version_raw": "",
+    "version_raw": "https://github.com/tom-james-watson/breaktimer-app/releases/download/v1.3.2/BreakTimer.AppImage",
     "description": "Save yourself from RSI and eye-strain"
   },
   {
@@ -2710,14 +2710,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cicada",
     "version_raw": "https://github.com/mitnk/cicada/releases/download/v1.1.2/cicada-x86_64-unknown-linux-gnu",
     "description": "An old-school bash-like Unix shell written in Rust"
-  },
-  {
-    "pkg": "cinelerra-gg",
-    "site": "https://cinelerra-gg.org",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cinelerra-gg",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cinelerra-gg",
-    "version_raw": "https://cinelerra-gg.org/download/images/",
-    "description": "Professional video editing and compositing environment"
   },
   {
     "pkg": "cinny",
@@ -7372,7 +7364,7 @@
     "site": "https://gitlab.com/posktomten/hashsum",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hashsum",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hashsum",
-    "version_raw": "2025.05.26",
+    "version_raw": "",
     "description": "A universal tool for finding file duplicates and modified files"
   },
   {
@@ -9372,7 +9364,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.5.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -10612,7 +10604,7 @@
     "site": "https://www.mendeley.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mendeley",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mendeley",
-    "version_raw": "https://static.mendeley.com/bin/desktop/mendeley-reference-manager-2.135.0-x86_64.AppImage",
+    "version_raw": "https://static.mendeley.com/bin/desktop/mendeley-reference-manager-2.136.0-x86_64.AppImage",
     "description": "Search over 100 million cross-publisher articles and counting"
   },
   {
@@ -19428,7 +19420,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "52530970290",
+    "version_raw": "52537560248",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
