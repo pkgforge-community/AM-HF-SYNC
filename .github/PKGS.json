@@ -708,7 +708,7 @@
     "site": "https://gitlab.com/posktomten/appimagehelper",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimagehelper",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimagehelper",
-    "version_raw": "",
+    "version_raw": "2022-11-06",
     "description": "Create and organize shortcuts for AppImages"
   },
   {
@@ -972,7 +972,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "",
+    "version_raw": "1.0.4",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -980,7 +980,7 @@
     "site": "artisan-roaster-scope/artisan",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artisan",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artisan",
-    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/v3.2.0/artisan-linux-3.2.0.AppImage",
+    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/continuous/artisan-linux-3.2.1.AppImage",
     "description": "Visualizes the coffee roasting process"
   },
   {
@@ -1996,7 +1996,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave-beta",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-beta/Brave-Web-Browser-beta-1.81.123-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-beta/Brave-Web-Browser-beta-1.81.124-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the beta release"
   },
   {
@@ -2004,7 +2004,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave-nightly",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-nightly/Brave-Web-Browser-nightly-1.82.120-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-nightly/Brave-Web-Browser-nightly-1.82.124-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the nightly release"
   },
   {
@@ -2384,14 +2384,6 @@
     "description": "Screen recorder, easing recording and clipping in-game"
   },
   {
-    "pkg": "castersoundboard",
-    "site": "covarianttensor/CasterSoundboard",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/castersoundboard",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/castersoundboard",
-    "version_raw": "https://github.com/covarianttensor/CasterSoundboard/releases/download/continuous/CasterSoundboard-1a84315-x86_64.AppImage",
-    "description": "Soundboard for hot-keying and playing back sounds"
-  },
-  {
     "pkg": "catalyst",
     "site": "CatalystDevOrg/Catalyst",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/catalyst",
@@ -2430,6 +2422,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cbetar2",
     "version_raw": "https://github.com/MrMYHuang/cbetar2/releases/download/v22.0.0/cbetar2_22.0.0_linux_x86_64.AppImage",
     "description": "ePub viewer supporting fetching and displaying HTML as ePub"
+  },
+  {
+    "pkg": "cbird",
+    "site": "scrubbbbs/cbird",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cbird",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cbird",
+    "version_raw": "https://github.com/scrubbbbs/cbird/releases/download/v0.8.0/cbird-linux-0.8.0-x86_64.AppImage",
+    "description": "Command-line program for Content-Based Image Retrieval of images and videos. Includes tools for general search and de-duplication"
   },
   {
     "pkg": "cccp",
@@ -3880,14 +3880,6 @@
     "description": "A linux port of Deezer, allows downloading your songs, music"
   },
   {
-    "pkg": "defichain-app",
-    "site": "BirthdayResearch/defichain-app",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/defichain-app",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/defichain-app",
-    "version_raw": "https://github.com/DeFiCh/defichain-app/releases/download/v4.2.5/DeFi-Wallet-4.2.5.AppImage",
-    "description": "DefiChain Wallet AppImage"
-  },
-  {
     "pkg": "delta",
     "site": "dandavison/delta",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/delta",
@@ -3902,14 +3894,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/deltachat-desktop",
     "version_raw": "https://github.com/deltachat/deltachat-desktop/releases/download/v1.60.1/DeltaChat-1.60.1-x86_64.AppImage",
     "description": "Desktop Application for delta.chat"
-  },
-  {
-    "pkg": "demonizer",
-    "site": "IoriBranford/demonizer",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/demonizer",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/demonizer",
-    "version_raw": "https://github.com/IoriBranford/demonizer/releases/download/0.3.0-demo/Demonizer_Demo-x86_64.AppImage",
-    "description": "Demonic corruption fantasy shmup"
   },
   {
     "pkg": "densify",
@@ -4932,7 +4916,7 @@
     "site": "Equicord/Equibop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/equibop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/equibop",
-    "version_raw": "https://github.com/Equicord/Equibop/releases/download/v2.1.5/Equibop-linux-x86_64.AppImage",
+    "version_raw": "",
     "description": "Equibop is a custom Discord App aiming to give you better performance and improve linux support"
   },
   {
@@ -5860,7 +5844,7 @@
     "site": "AllenInstitute/aics-fms-file-explorer-app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fms-file-explorer",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fms-file-explorer",
-    "version_raw": "https://github.com/AllenInstitute/biofile-finder/releases/download/v8.4.4/BioFile-Finder-8.4.4.AppImage",
+    "version_raw": "https://github.com/AllenInstitute/biofile-finder/releases/download/v8.5.0/BioFile-Finder-8.5.0.AppImage",
     "description": "Access and exploration of data produced"
   },
   {
@@ -6356,7 +6340,7 @@
     "site": "AstralVixen/GeForce-Infinity",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/geforce-infinity",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/geforce-infinity",
-    "version_raw": "https://github.com/AstralVixen/GeForce-Infinity/releases/download/1.1.2/GeForceInfinity-linux-1.1.2-x86_64.AppImage",
+    "version_raw": "https://github.com/AstralVixen/GeForce-Infinity/releases/download/1.1.3/GeForceInfinity-linux-1.1.3-x86_64.AppImage",
     "description": "Enhance the Nvidia GeForce NOW experience"
   },
   {
@@ -7052,7 +7036,7 @@
     "site": "benjamimgois/goverlay",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/goverlay",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/goverlay",
-    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-af3630c13-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-dcc5684fe-anylinux-x86_64.AppImage",
     "description": "An opensource project that aims to create a Graphical UI to help manage Linux overlays"
   },
   {
@@ -7364,7 +7348,7 @@
     "site": "https://gitlab.com/posktomten/hashsum",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hashsum",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hashsum",
-    "version_raw": "",
+    "version_raw": "2025.05.26",
     "description": "A universal tool for finding file duplicates and modified files"
   },
   {
@@ -10468,7 +10452,7 @@
     "site": "SurajRaika/MechType",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mechtype",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mechtype",
-    "version_raw": "https://github.com/SurajRaika/MechType/releases/download/app-v0.0.1/mech-type_0.0.1_amd64.AppImage",
+    "version_raw": "",
     "description": "A lightweight app designed to elevate your typing experience by allowing you to enjoy custom soundtracks with every keystroke"
   },
   {
@@ -10908,7 +10892,7 @@
     "site": "MUME/MMapper",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mmapper",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mmapper",
-    "version_raw": "https://github.com/MUME/MMapper/releases/download/beta/MMapper-25.07.0-16-gcdc49fbc-x86_64.AppImage",
+    "version_raw": "https://github.com/MUME/MMapper/releases/download/beta/MMapper-25.07.0-16-gb8d4f49e-x86_64.AppImage",
     "description": "Graphical MUD client for the game MUME"
   },
   {
@@ -15180,7 +15164,7 @@
     "site": "revoltchat/desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/revolt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/revolt",
-    "version_raw": "https://github.com/revoltchat/desktop/releases/download/v1.0.8/Revolt-1.0.8.AppImage",
+    "version_raw": "",
     "description": "Revolt Desktop App"
   },
   {
@@ -15340,7 +15324,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-b90bacba4870534dfc501a51119b5913337a5e95/rpcs3-v0.0.37-18087-b90bacba_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-e319ca299820cb4009386059f2ba830a9b698274/rpcs3-v0.0.37-18090-e319ca29_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -15940,7 +15924,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4-nightly",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-07-28-d28663179836c96c477c76c9dd977a91a75a055e/shadps4-linux-sdl-2025-07-28-d286631.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-07-28-26a92d97fa8c2a83bf90e175c82d33d6b6b1a5e2/shadps4-linux-sdl-2025-07-28-26a92d9.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -16204,7 +16188,7 @@
     "site": "simplex-chat/simplex-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/simplex-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/simplex-chat",
-    "version_raw": "https://github.com/simplex-chat/simplex-chat/releases/download/v6.4.1-beta.0/simplex-desktop-x86_64.AppImage",
+    "version_raw": "https://github.com/simplex-chat/simplex-chat/releases/download/v6.4.1/simplex-desktop-x86_64.AppImage",
     "description": "First messaging platform operating without user identifiers"
   },
   {
@@ -17604,7 +17588,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.9.0.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.10.0-beta.2.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -17940,7 +17924,7 @@
     "site": "edrlab/thorium-reader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium-reader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium-reader",
-    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.2.0-alpha.1.16579046909.AppImage",
+    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.2.0-alpha.1.16580985787.AppImage",
     "description": "Desktop application to read ebooks"
   },
   {
@@ -18676,7 +18660,7 @@
     "site": "upscayl/upscayl",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/upscayl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/upscayl",
-    "version_raw": "https://github.com/upscayl/upscayl/releases/download/v2.15.0/upscayl-2.15.0-linux.AppImage",
+    "version_raw": "",
     "description": "Free and Open Source AI Image Upscaler"
   },
   {
@@ -19420,7 +19404,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "52620016662",
+    "version_raw": "52628854199",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -20348,7 +20332,7 @@
     "site": "zed-industries/zed",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zed",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zed",
-    "version_raw": "https://github.com/zed-industries/zed/releases/download/v0.197.1-pre/zed-linux-x86_64.tar.gz",
+    "version_raw": "https://github.com/zed-industries/zed/releases/download/v0.197.2-pre/zed-linux-x86_64.tar.gz",
     "description": "High-performance, multiplayer code editor from the creators of Atom"
   },
   {
