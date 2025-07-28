@@ -908,7 +908,7 @@
     "site": "bmsuseluda/ares-emu-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ares",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ares",
-    "version_raw": "https://github.com/pkgforge-dev/ares-emu-appimage/releases/download/nightly/ares-7d7b8ea4b-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ares-emu-appimage/releases/download/nightly/ares-426606bd0-anylinux-x86_64.AppImage",
     "description": "AppImage for the ares emulator"
   },
   {
@@ -972,7 +972,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "",
+    "version_raw": "1.0.4",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -9364,7 +9364,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.5.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -12825,10 +12825,10 @@
   },
   {
     "pkg": "palemoon",
-    "site": "https://www.palemoon.org",
+    "site": "Portable-Linux-Apps/palemoon-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/palemoon",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/palemoon",
-    "version_raw": "https://rm-us.palemoon.org/release/",
+    "version_raw": "https://github.com/Portable-Linux-Apps/palemoon-AppImage/releases/download/33.8.0%402025-07-28_1753702616/Pale_Moon-33.8.0-x86_64.AppImage",
     "description": "Web browser, a Firefox fork with a classic UI and modern APIs"
   },
   {
