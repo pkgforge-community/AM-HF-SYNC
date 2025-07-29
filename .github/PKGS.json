@@ -540,7 +540,7 @@
     "site": "tim-janik/anklang",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anklang",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anklang",
-    "version_raw": "https://github.com/tim-janik/anklang/releases/download/v0.3.0/anklang-0.3.0-x64.AppImage",
+    "version_raw": "https://github.com/tim-janik/anklang/releases/download/v0.3.0.nightly2507290120/anklang-0.3.0.dev334-x64.AppImage",
     "description": "MIDI and Audio Synthesizer and Composer"
   },
   {
@@ -972,7 +972,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "1.0.4",
+    "version_raw": "",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -2382,6 +2382,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/casterr",
     "version_raw": "https://github.com/sbondCo/Casterr/releases/download/v2.0.0/Casterr-2.0.0.AppImage",
     "description": "Screen recorder, easing recording and clipping in-game"
+  },
+  {
+    "pkg": "castersoundboard",
+    "site": "covarianttensor/CasterSoundboard",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/castersoundboard",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/castersoundboard",
+    "version_raw": "https://github.com/covarianttensor/CasterSoundboard/releases/download/continuous/CasterSoundboard-1a84315-x86_64.AppImage",
+    "description": "Soundboard for hot-keying and playing back sounds"
   },
   {
     "pkg": "catalyst",
@@ -3880,6 +3888,14 @@
     "description": "A linux port of Deezer, allows downloading your songs, music"
   },
   {
+    "pkg": "defichain-app",
+    "site": "BirthdayResearch/defichain-app",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/defichain-app",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/defichain-app",
+    "version_raw": "https://github.com/DeFiCh/defichain-app/releases/download/v4.2.5/DeFi-Wallet-4.2.5.AppImage",
+    "description": "DefiChain Wallet AppImage"
+  },
+  {
     "pkg": "delta",
     "site": "dandavison/delta",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/delta",
@@ -3894,6 +3910,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/deltachat-desktop",
     "version_raw": "https://github.com/deltachat/deltachat-desktop/releases/download/v1.60.1/DeltaChat-1.60.1-x86_64.AppImage",
     "description": "Desktop Application for delta.chat"
+  },
+  {
+    "pkg": "demonizer",
+    "site": "IoriBranford/demonizer",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/demonizer",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/demonizer",
+    "version_raw": "https://github.com/IoriBranford/demonizer/releases/download/0.3.0-demo/Demonizer_Demo-x86_64.AppImage",
+    "description": "Demonic corruption fantasy shmup"
   },
   {
     "pkg": "densify",
@@ -4092,7 +4116,7 @@
     "site": "srevinsaju/discord-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/discord",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/discord",
-    "version_raw": "https://github.com/srevinsaju/discord-appimage/releases/download/stable/Discord-0.0.102-x86_64.AppImage",
+    "version_raw": "https://github.com/srevinsaju/discord-appimage/releases/download/stable/Discord-0.0.103-x86_64.AppImage",
     "description": "Unofficial. All-in-one voice and text chat for gamers"
   },
   {
@@ -4260,7 +4284,7 @@
     "site": "drawpile/Drawpile",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/drawpile",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/drawpile",
-    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.2.2-982-g38e220afb-x86_64.AppImage",
+    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.2.2-984-gf6ee79674-x86_64.AppImage",
     "description": "Drawing program to sketch on the same canvas simultaneously"
   },
   {
@@ -4916,7 +4940,7 @@
     "site": "Equicord/Equibop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/equibop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/equibop",
-    "version_raw": "",
+    "version_raw": "https://github.com/Equicord/Equibop/releases/download/v2.1.5/Equibop-linux-x86_64.AppImage",
     "description": "Equibop is a custom Discord App aiming to give you better performance and improve linux support"
   },
   {
@@ -10452,7 +10476,7 @@
     "site": "SurajRaika/MechType",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mechtype",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mechtype",
-    "version_raw": "",
+    "version_raw": "https://github.com/SurajRaika/MechType/releases/download/app-v0.0.1/mech-type_0.0.1_amd64.AppImage",
     "description": "A lightweight app designed to elevate your typing experience by allowing you to enjoy custom soundtracks with every keystroke"
   },
   {
@@ -15164,7 +15188,7 @@
     "site": "revoltchat/desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/revolt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/revolt",
-    "version_raw": "",
+    "version_raw": "https://github.com/revoltchat/desktop/releases/download/v1.0.8/Revolt-1.0.8.AppImage",
     "description": "Revolt Desktop App"
   },
   {
@@ -18660,7 +18684,7 @@
     "site": "upscayl/upscayl",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/upscayl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/upscayl",
-    "version_raw": "",
+    "version_raw": "https://github.com/upscayl/upscayl/releases/download/v2.15.0/upscayl-2.15.0-linux.AppImage",
     "description": "Free and Open Source AI Image Upscaler"
   },
   {
@@ -19404,7 +19428,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "52628854199",
+    "version_raw": "52629352957",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
