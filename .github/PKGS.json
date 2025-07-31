@@ -4824,14 +4824,6 @@
     "description": "Makefile based IDE for embedded systems"
   },
   {
-    "pkg": "ember",
-    "site": "https://www.worldforge.org/",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ember",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ember",
-    "version_raw": "",
-    "description": "Client for the WorldForge virtual world system, game"
-  },
-  {
     "pkg": "emoji-keyboard",
     "site": "OzymandiasTheGreat/emoji-keyboard",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/emoji-keyboard",
@@ -6172,7 +6164,7 @@
     "site": "FunkinCrew/Funkin",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/funkin",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/funkin",
-    "version_raw": "https://github.com/FunkinCrew/Funkin/releases/download/v0.6.4/funkin-linux.zip",
+    "version_raw": "https://github.com/FunkinCrew/Funkin/releases/download/v0.7.3/funkin-linux-64bit.zip",
     "description": "A rhythm game made with HaxeFlixel"
   },
   {
@@ -8460,7 +8452,7 @@
     "site": "bvschaik/julius",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/julius",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/julius",
-    "version_raw": "https://github.com/bvschaik/julius/releases/download/v1.7.0/julius-1.7.0-linux.AppImage",
+    "version_raw": "https://github.com/bvschaik/julius/releases/download/v1.8.0/julius-1.8.0-linux.AppImage",
     "description": "An open source re-implementation of the Caesar III game"
   },
   {
@@ -17612,7 +17604,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.9.0.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.10.0-beta.2.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
