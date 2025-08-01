@@ -708,7 +708,7 @@
     "site": "https://gitlab.com/posktomten/appimagehelper",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimagehelper",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimagehelper",
-    "version_raw": "2022-11-06",
+    "version_raw": "",
     "description": "Create and organize shortcuts for AppImages"
   },
   {
@@ -980,7 +980,7 @@
     "site": "artisan-roaster-scope/artisan",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artisan",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artisan",
-    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/v3.2.0/artisan-linux-3.2.0.AppImage",
+    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/continuous/artisan-linux-3.2.1.AppImage",
     "description": "Visualizes the coffee roasting process"
   },
   {
@@ -3393,10 +3393,10 @@
   },
   {
     "pkg": "creality-print",
-    "site": "https://www.creality.com",
+    "site": "CrealityOfficial/CrealityPrint",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/creality-print",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/creality-print",
-    "version_raw": "",
+    "version_raw": "https://github.com/CrealityOfficial/CrealityPrint/releases/download/v6.2.1/CrealityPrint_Ubuntu2004-V6.2.1.3044-x86_64-Release.AppImage",
     "description": "Creality Print is a slicer dedicated to FDM printers"
   },
   {
@@ -5468,7 +5468,7 @@
     "site": "https://www.telerik.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fiddler-everywhere",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fiddler-everywhere",
-    "version_raw": "7.0.0",
+    "version_raw": "7.1.0",
     "description": "Debug your network traffic to deliver high-quality products"
   },
   {
@@ -7364,7 +7364,7 @@
     "site": "https://gitlab.com/posktomten/hashsum",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hashsum",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hashsum",
-    "version_raw": "2025.05.26",
+    "version_raw": "",
     "description": "A universal tool for finding file duplicates and modified files"
   },
   {
@@ -10676,7 +10676,7 @@
     "site": "ivan-hc/MS-Edge-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/microsoft-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/microsoft-edge",
-    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-stable-138.0.3351.109-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-stable-138.0.3351.121-1-x86_64.AppImage",
     "description": "Web Browser provided by Microsoft, Stable Edition"
   },
   {
@@ -17604,7 +17604,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.9.0.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.10.0-beta.2.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -19420,7 +19420,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "52799898660",
+    "version_raw": "52802451529",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -19996,7 +19996,7 @@
     "site": "xournalpp/xournalpp",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xournal++nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xournal++nightly",
-    "version_raw": "https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-1.2.7%2Bdev-nightly-20250731-x86_64.AppImage",
+    "version_raw": "https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-1.2.7%2Bdev-nightly-20250801-x86_64.AppImage",
     "description": "C++ notetaking software with PDF annotation support, DEV"
   },
   {
