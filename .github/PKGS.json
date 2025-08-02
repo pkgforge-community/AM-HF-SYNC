@@ -9784,6 +9784,14 @@
     "description": "New Linux QQ based on Electron"
   },
   {
+    "pkg": "linuxtoys",
+    "site": "psygreg/linuxtoys",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxtoys",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxtoys",
+    "version_raw": "https://github.com/psygreg/linuxtoys/releases/download/4.1/LinuxToys_-x86_64.AppImage",
+    "description": "A collection of tools for Linux in a user-friendly way"
+  },
+  {
     "pkg": "linwood-butterfly",
     "site": "LinwoodDev/Butterfly",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linwood-butterfly",
@@ -18300,7 +18308,7 @@
     "site": "zadam/trilium",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trilium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/trilium",
-    "version_raw": "https://github.com/TriliumNext/Trilium/releases/download/v0.97.1/TriliumNotes-Server-v0.97.1-linux-x64.tar.xz",
+    "version_raw": "https://github.com/TriliumNext/Trilium/releases/download/v0.97.2/TriliumNotes-Server-v0.97.2-linux-x64.tar.xz",
     "description": "Build your personal knowledge base with Trilium Notes"
   },
   {
@@ -18828,7 +18836,7 @@
     "site": "vial-kb/vial-gui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vial",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vial",
-    "version_raw": "https://github.com/vial-kb/vial-gui/releases/download/v0.7.4/Vial-v0.7.4-x86_64.AppImage",
+    "version_raw": "https://github.com/vial-kb/vial-gui/releases/download/v0.7.5/Vial-v0.7.5-x86_64.AppImage",
     "description": "GUI and a QMK fork for configuring your keyboard in real time"
   },
   {
@@ -19420,7 +19428,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "52870176212",
+    "version_raw": "52871895625",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
