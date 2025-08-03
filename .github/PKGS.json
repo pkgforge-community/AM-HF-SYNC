@@ -460,7 +460,7 @@
     "site": "zyrouge/android-studio-appimages",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/android-studio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/android-studio",
-    "version_raw": "https://github.com/zyrouge/android-studio-appimages/releases/download/v2025.1.1.14/android-studio-2025.1.1.14-x86_64.AppImage",
+    "version_raw": "https://github.com/zyrouge/android-studio-appimages/releases/download/v2025.1.2.11/android-studio-2025.1.2.11-x86_64.AppImage",
     "description": "Unofficial. Android Studio as AppImages, stable"
   },
   {
@@ -468,7 +468,7 @@
     "site": "zyrouge/android-studio-appimages",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/android-studio-latest",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/android-studio-latest",
-    "version_raw": "https://github.com/zyrouge/android-studio-appimages/releases/download/v2025.1.2.10/android-studio-beta-2025.1.2.10-x86_64.AppImage",
+    "version_raw": "https://github.com/zyrouge/android-studio-appimages/releases/download/v2025.1.2.11/android-studio-2025.1.2.11-x86_64.AppImage",
     "description": "Unofficial. Android Studio as AppImages, release"
   },
   {
@@ -1508,7 +1508,7 @@
     "site": "msojocs/bilibili-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bilibili",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bilibili",
-    "version_raw": "https://github.com/msojocs/bilibili-linux/releases/download/v1.16.5-4/bilibili-1.16.5-x86_64.AppImage",
+    "version_raw": "https://github.com/msojocs/bilibili-linux/releases/download/v1.16.5-5/bilibili-1.16.5-x86_64.AppImage",
     "description": "Bilibili official desktop client"
   },
   {
@@ -1692,7 +1692,7 @@
     "site": "ivan-hc/Blender-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blender-alpha",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blender-alpha",
-    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.0.0-alpha%2Bmain.531d3d0a9cc2-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.0.0-alpha%2Bmain.bdc0d39aa4ec-x86_64.AppImage",
     "description": "Very fast and versatile 3D modeller/renderer, Alpha"
   },
   {
@@ -9364,7 +9364,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.5.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -11396,7 +11396,7 @@
     "site": "naev/naev",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/naev",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/naev",
-    "version_raw": "https://github.com/naev/naev/releases/download/nightly/naev-0.13.0-alpha.8%2B660.g495ad38eae-linux-x86-64.AppImage",
+    "version_raw": "https://github.com/naev/naev/releases/download/nightly/naev-0.13.0-alpha.8%2B687.gaa31d1f6b4-linux-x86-64.AppImage",
     "description": "A 2d action/rpg space game that combines elements from the action"
   },
   {
@@ -11936,6 +11936,14 @@
     "description": "Framework for desktop apps for development kits"
   },
   {
+    "pkg": "nsz",
+    "site": "pkgforge-dev/NSZ-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nsz",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nsz",
+    "version_raw": "https://github.com/pkgforge-dev/NSZ-AppImage/releases/download/4.6.1%402025-08-03_1754190165/NSZ-4.6.1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, Homebrew compatible NSP/XCI compressor/decompressor"
+  },
+  {
     "pkg": "nteract",
     "site": "nteract/nteract",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nteract",
@@ -12060,7 +12068,7 @@
     "site": "nnisarggada/NyChess",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nychess",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nychess",
-    "version_raw": "",
+    "version_raw": "https://github.com/hect1k/NyChess/releases/download/Linux/NyChess_Chess_Game.AppImage",
     "description": "A python Chess Engine and AI"
   },
   {
@@ -16092,7 +16100,7 @@
     "site": "karo-solutions/Signal-Desktop-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/signal",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/signal",
-    "version_raw": "https://github.com/karo-solutions/Signal-Desktop-AppImage/releases/download/v7.63.0/Signal-v7.63.0-x86_64.AppImage",
+    "version_raw": "https://github.com/karo-solutions/Signal-Desktop-AppImage/releases/download/v7.64.0/Signal-v7.64.0-x86_64.AppImage",
     "description": "Unofficial AppImage package for Signal (communication)"
   },
   {
@@ -17612,7 +17620,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.9.0.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.10.0-beta.2.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -18852,7 +18860,7 @@
     "site": "km-clay/vicut",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vicut",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vicut",
-    "version_raw": "",
+    "version_raw": "https://github.com/km-clay/vicut/releases/download/v0.4.2/vicut-x86_64-linux-static",
     "description": "A Vim-based, scriptable, headless text editor for the command line"
   },
   {
@@ -19092,7 +19100,7 @@
     "site": "ivan-hc/VLC-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vlc-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vlc-git",
-    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r34303.g7c5cd6e7361f-1-archimage4.3-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r34304.gf2d969df60a8-1-archimage4.3-x86_64.AppImage",
     "description": "Unofficial. Free and Open Source Video & Media player, GIT version"
   },
   {
@@ -19428,7 +19436,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "52874500054",
+    "version_raw": "52875650136",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
