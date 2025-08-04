@@ -164,7 +164,7 @@
     "site": "toeverything/AFFiNE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine-canary",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine-canary",
-    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2025.8.3-canary.904/affine-2025.8.3-canary.904-canary-linux-x64.appimage",
+    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2025.8.4-canary.908/affine-2025.8.4-canary.908-canary-linux-x64.appimage",
     "description": "Next-gen knowledge base that brings planning/sorting/creating"
   },
   {
@@ -604,7 +604,7 @@
     "site": "anyproto/anytype-ts",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anytype",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anytype",
-    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.47.57-alpha/Anytype-0.47.57-alpha.AppImage",
+    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.47.58-alpha/Anytype-0.47.58-alpha.AppImage",
     "description": "The everything app for those who celebrate trust & autonomy"
   },
   {
@@ -9364,7 +9364,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.5.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -11932,7 +11932,7 @@
     "site": "NordicSemiconductor/pc-nrfconnect-core",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nrf-connect",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nrf-connect",
-    "version_raw": "https://github.com/NordicSemiconductor/pc-nrfconnect-launcher/releases/download/v5.2.1-rc.1/nrfconnect-5.2.1-rc.1-x86_64.AppImage",
+    "version_raw": "https://github.com/NordicSemiconductor/pc-nrfconnect-launcher/releases/download/v5.2.1-rc.2/nrfconnect-5.2.1-rc.2-x86_64.AppImage",
     "description": "Framework for desktop apps for development kits"
   },
   {
@@ -14844,7 +14844,7 @@
     "site": "ebkr/r2modmanPlus",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/r2modman",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/r2modman",
-    "version_raw": "https://github.com/ebkr/r2modmanPlus/releases/download/v3.2.2/r2modman-3.2.2.AppImage",
+    "version_raw": "https://github.com/ebkr/r2modmanPlus/releases/download/v3.2.3/r2modman-3.2.3.AppImage",
     "description": "Mod manager for several Unity games using Thunderstore"
   },
   {
@@ -17176,6 +17176,14 @@
     "description": "Official upstream of the Subsurface divelog program"
   },
   {
+    "pkg": "subtitld",
+    "site": "https://subtitld.org",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/subtitld",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/subtitld",
+    "version_raw": "https://builds.subtitld.org/appimage/Subtitld%20",
+    "description": "Transform your video content creation with Subtitld, the open source software that streamlines your video content creation process"
+  },
+  {
     "pkg": "subtitle-composer",
     "site": "maxrd2/subtitlecomposer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/subtitle-composer",
@@ -19436,7 +19444,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "52901553081",
+    "version_raw": "52905957669",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
