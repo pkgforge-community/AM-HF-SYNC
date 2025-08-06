@@ -664,14 +664,6 @@
     "description": "A Universal linux app store for Flatpak/Snap/AppImage"
   },
   {
-    "pkg": "appflowy",
-    "site": "AppFlowy-IO/AppFlowy",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appflowy",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appflowy",
-    "version_raw": "https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.9.6/AppFlowy-0.9.6-linux-x86_64.AppImage",
-    "description": "Bring projects, wikis, and teams together with AI. Alternative to Notion"
-  },
-  {
     "pkg": "apphub",
     "site": "francesco-gaglione/AppHub",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/apphub",
@@ -17972,7 +17964,7 @@
     "site": "edrlab/thorium-reader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium-reader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium-reader",
-    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.0-alpha.1.16762788972.AppImage",
+    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.0-alpha.1.16778323541.AppImage",
     "description": "Desktop application to read ebooks"
   },
   {
@@ -20380,7 +20372,7 @@
     "site": "zed-industries/zed",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zed",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zed",
-    "version_raw": "https://github.com/zed-industries/zed/releases/download/v0.198.2-pre/zed-linux-x86_64.tar.gz",
+    "version_raw": "https://github.com/zed-industries/zed/releases/download/v0.199.0-pre/zed-linux-x86_64.tar.gz",
     "description": "High-performance, multiplayer code editor from the creators of Atom"
   },
   {
