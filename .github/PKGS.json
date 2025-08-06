@@ -156,7 +156,7 @@
     "site": "toeverything/AFFiNE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine-beta",
-    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v0.24.0-beta.1/affine-0.24.0-beta.1-beta-linux-x64.appimage",
+    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v0.24.0-beta.3/affine-0.24.0-beta.3-beta-linux-x64.appimage",
     "description": "Next-gen knowledge base that brings planning, sorting and creating"
   },
   {
@@ -6804,7 +6804,7 @@
     "site": "ivan-hc/Gnome-calculator-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gnome-calculator",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gnome-calculator",
-    "version_raw": "https://github.com/ivan-hc/Gnome-calculator-appimage/releases/download/continuous/Calculator_48.1-2-archimage4.3-x86_64.AppImage",
+    "version_raw": "",
     "description": "Unofficial, Perform arithmetic, scientific or financial calculations"
   },
   {
@@ -8566,6 +8566,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kapman",
     "version_raw": "https://github.com/ivan-hc/KDE-games-suite-appimage/releases/download/continuous/KDE-games-suite_25.04-1-archimage4.3-x86_64.AppImage",
     "description": "Pac-Man clone. This script installs the full kdegames suite"
+  },
+  {
+    "pkg": "karbonized",
+    "site": "yossTheDev/karbonized",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/karbonized",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/karbonized",
+    "version_raw": "https://github.com/yossTheDev/karbonized/releases/download/v1.12.0/karbonized-1.12.0.AppImage",
+    "description": "Awesome Image Generator for Code Snippets & Mockups"
   },
   {
     "pkg": "kardi",
@@ -10700,7 +10708,7 @@
     "site": "ivan-hc/MS-Edge-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/microsoft-edge-dev",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/microsoft-edge-dev",
-    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-dev-140.0.3456.0-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-dev-140.0.3471.0-1-x86_64.AppImage",
     "description": "Web Browser provided by Microsoft, Developer Edition"
   },
   {
@@ -20140,7 +20148,7 @@
     "site": "purocean/yn",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yank-note",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yank-note",
-    "version_raw": "https://github.com/purocean/yn/releases/download/v3-next-02/Yank-Note-linux-x86_64-3.83.2.AppImage",
+    "version_raw": "https://github.com/purocean/yn/releases/download/v3.84.0/Yank-Note-linux-x86_64-3.84.0.AppImage",
     "description": "A Hackable Markdown Note Application for Programmers"
   },
   {
