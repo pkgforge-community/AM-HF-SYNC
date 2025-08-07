@@ -164,7 +164,7 @@
     "site": "toeverything/AFFiNE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine-canary",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine-canary",
-    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2025.8.5-canary.907/affine-2025.8.5-canary.907-canary-linux-x64.appimage",
+    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2025.8.7-canary.1118/affine-2025.8.7-canary.1118-canary-linux-x64.appimage",
     "description": "Next-gen knowledge base that brings planning/sorting/creating"
   },
   {
@@ -604,7 +604,7 @@
     "site": "anyproto/anytype-ts",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anytype",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anytype",
-    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.47.64-beta/Anytype-0.47.64-beta.AppImage",
+    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.47.65-beta/Anytype-0.47.65-beta.AppImage",
     "description": "The everything app for those who celebrate trust & autonomy"
   },
   {
@@ -2628,7 +2628,7 @@
     "site": "kangfenmao/cherry-studio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cherry-studio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cherry-studio",
-    "version_raw": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.5.4/Cherry-Studio-1.5.4-x86_64.AppImage",
+    "version_raw": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.5.5/Cherry-Studio-1.5.5-x86_64.AppImage",
     "description": "Cherry Studio is a desktop client that supports for multiple LLM providers"
   },
   {
@@ -6340,7 +6340,7 @@
     "site": "BestImageViewer/geeqie",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/geeqie",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/geeqie",
-    "version_raw": "https://github.com/BestImageViewer/geeqie/releases/download/v2.1/Geeqie-v2.1-x86_64.AppImage",
+    "version_raw": "https://github.com/BestImageViewer/geeqie/releases/download/continuous/Geeqie-latest-x86_64.AppImage",
     "description": "Claiming to be the best image viewer and photo collection browser"
   },
   {
@@ -9652,7 +9652,7 @@
     "site": "LiberTEM/LiberTEM",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/libertem",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/libertem",
-    "version_raw": "https://github.com/LiberTEM/LiberTEM/releases/download/continuous/LiberTEM-739a5c4-x86_64.AppImage",
+    "version_raw": "https://github.com/LiberTEM/LiberTEM/releases/download/continuous/LiberTEM-f8d03bb-x86_64.AppImage",
     "description": "Pixelated scanning transmission electron microscopy"
   },
   {
@@ -10676,7 +10676,7 @@
     "site": "ivan-hc/MS-Edge-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/microsoft-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/microsoft-edge",
-    "version_raw": "",
+    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-stable-138.0.3351.121-1-x86_64.AppImage",
     "description": "Web Browser provided by Microsoft, Stable Edition"
   },
   {
@@ -10684,7 +10684,7 @@
     "site": "ivan-hc/MS-Edge-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/microsoft-edge-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/microsoft-edge-beta",
-    "version_raw": "",
+    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-beta-139.0.3405.83-1-x86_64.AppImage",
     "description": "Web Browser provided by Microsoft, Beta Edition"
   },
   {
@@ -10692,7 +10692,7 @@
     "site": "ivan-hc/MS-Edge-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/microsoft-edge-dev",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/microsoft-edge-dev",
-    "version_raw": "",
+    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-dev-140.0.3471.0-1-x86_64.AppImage",
     "description": "Web Browser provided by Microsoft, Developer Edition"
   },
   {
@@ -14310,6 +14310,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/python3.13",
     "version_raw": "https://github.com/niess/python-appimage/releases/download/python3.13/python3.13.5-cp313-cp313-manylinux2014_x86_64.AppImage",
     "description": "Unofficial. Interactive high-level object-oriented language, version 3.13"
+  },
+  {
+    "pkg": "python3.14",
+    "site": "niess/python-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/python3.14",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/python3.14",
+    "version_raw": "https://github.com/niess/python-appimage/releases/download/python3.14/python3.14.0rc1-cp314-cp314-manylinux2014_x86_64.AppImage",
+    "description": "Unofficial. Interactive high-level object-oriented language, version 3.14"
   },
   {
     "pkg": "python3.5",
@@ -19444,7 +19452,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "53042252488",
+    "version_raw": "53048760706",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -20364,7 +20372,7 @@
     "site": "rafatosta/zapzap",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zapzap",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zapzap",
-    "version_raw": "https://github.com/rafatosta/zapzap/releases/download/6.1.1-2/ZapZap-x86_64.AppImage",
+    "version_raw": "https://github.com/rafatosta/zapzap/releases/download/6.2/ZapZap-x86_64.AppImage",
     "description": "WhatsApp desktop application written in Pyqt6 + PyQt6-WebEngine"
   },
   {
