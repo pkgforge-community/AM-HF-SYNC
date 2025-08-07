@@ -3756,7 +3756,7 @@
     "site": "dbgate/dbgate",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dbgate",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dbgate",
-    "version_raw": "https://github.com/dbgate/dbgate/releases/download/v6.6.1-premium-beta.14/dbgate-premium-6.6.1-premium-beta.14-linux_x86_64.AppImage",
+    "version_raw": "https://github.com/dbgate/dbgate/releases/download/v6.6.1-premium-beta.15/dbgate-premium-6.6.1-premium-beta.15-linux_x86_64.AppImage",
     "description": "Opensource database administration tool"
   },
   {
@@ -4284,7 +4284,7 @@
     "site": "drawpile/Drawpile",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/drawpile",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/drawpile",
-    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.2.2-1006-gfe23e4c28-x86_64.AppImage",
+    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.2.2-1030-g30799cf14-x86_64.AppImage",
     "description": "Drawing program to sketch on the same canvas simultaneously"
   },
   {
@@ -9364,7 +9364,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.5.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -14888,6 +14888,14 @@
     "description": "Free and Open Source messaging and emailing app"
   },
   {
+    "pkg": "rapidraw",
+    "site": "CyberTimon/RapidRAW",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rapidraw",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rapidraw",
+    "version_raw": "https://github.com/CyberTimon/RapidRAW/releases/download/v1.3.4/03_RapidRAW_v1.3.4_ubuntu-22.04_amd64.AppImage",
+    "description": "A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind"
+  },
+  {
     "pkg": "rare",
     "site": "Dummerle/Rare",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rare",
@@ -19436,7 +19444,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "53039394341",
+    "version_raw": "53042252488",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
