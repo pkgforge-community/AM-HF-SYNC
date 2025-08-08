@@ -972,7 +972,7 @@
     "site": "artisan-roaster-scope/artisan",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artisan",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artisan",
-    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/v3.2.0/artisan-linux-3.2.0.AppImage",
+    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/continuous/artisan-linux-3.2.1.AppImage",
     "description": "Visualizes the coffee roasting process"
   },
   {
@@ -6252,7 +6252,7 @@
     "site": "GAMS-dev/studio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gams-studio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gams-studio",
-    "version_raw": "https://github.com/GAMS-dev/studio/releases/download/v1.21.4/GAMS_Studio-1.21.4-x86_64.AppImage",
+    "version_raw": "https://github.com/GAMS-dev/studio/releases/download/v1.21.5/GAMS_Studio-1.21.5-x86_64.AppImage",
     "description": "Development environment of General Algebraic Modeling System"
   },
   {
@@ -9364,7 +9364,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.5.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -14272,92 +14272,12 @@
     "description": "EVE Online Fitting Assistant"
   },
   {
-    "pkg": "python2.7",
+    "pkg": "python",
     "site": "niess/python-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/python2.7",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/python2.7",
-    "version_raw": "https://github.com/niess/python-appimage/releases/download/python2.7/python2.7.18-cp27-cp27m-manylinux1_x86_64.AppImage",
-    "description": "Unofficial. Interactive high-level object-oriented language, version 2.7"
-  },
-  {
-    "pkg": "python3.10",
-    "site": "niess/python-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/python3.10",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/python3.10",
-    "version_raw": "https://github.com/niess/python-appimage/releases/download/python3.10/python3.10.18-cp310-cp310-manylinux2014_x86_64.AppImage",
-    "description": "Unofficial. Interactive high-level object-oriented language, version 3.10"
-  },
-  {
-    "pkg": "python3.11",
-    "site": "niess/python-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/python3.11",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/python3.11",
-    "version_raw": "https://github.com/niess/python-appimage/releases/download/python3.11/python3.11.1-cp311-cp311-manylinux_2_24_x86_64.AppImage",
-    "description": "Unofficial. Interactive high-level object-oriented language, version 3.11"
-  },
-  {
-    "pkg": "python3.12",
-    "site": "niess/python-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/python3.12",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/python3.12",
-    "version_raw": "https://github.com/niess/python-appimage/releases/download/python3.12/python3.12.11-cp312-cp312-manylinux2014_x86_64.AppImage",
-    "description": "Unofficial. Interactive high-level object-oriented language, version 3.12"
-  },
-  {
-    "pkg": "python3.13",
-    "site": "niess/python-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/python3.13",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/python3.13",
-    "version_raw": "https://github.com/niess/python-appimage/releases/download/python3.13/python3.13.5-cp313-cp313-manylinux2014_x86_64.AppImage",
-    "description": "Unofficial. Interactive high-level object-oriented language, version 3.13"
-  },
-  {
-    "pkg": "python3.14",
-    "site": "niess/python-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/python3.14",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/python3.14",
-    "version_raw": "https://github.com/niess/python-appimage/releases/download/python3.14/python3.14.0rc1-cp314-cp314-manylinux2014_x86_64.AppImage",
-    "description": "Unofficial. Interactive high-level object-oriented language, version 3.14"
-  },
-  {
-    "pkg": "python3.5",
-    "site": "niess/python-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/python3.5",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/python3.5",
-    "version_raw": "https://github.com/niess/python-appimage/releases/download/python3.5/python3.5.10-cp35-cp35m-manylinux1_x86_64.AppImage",
-    "description": "Unofficial. Interactive high-level object-oriented language, version 3.5"
-  },
-  {
-    "pkg": "python3.6",
-    "site": "niess/python-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/python3.6",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/python3.6",
-    "version_raw": "https://github.com/niess/python-appimage/releases/download/python3.6/python3.6.15-cp36-cp36m-manylinux1_x86_64.AppImage",
-    "description": "Unofficial. Interactive high-level object-oriented language, version 3.6"
-  },
-  {
-    "pkg": "python3.7",
-    "site": "niess/python-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/python3.7",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/python3.7",
-    "version_raw": "https://github.com/niess/python-appimage/releases/download/python3.7/python3.7.13-cp37-cp37m-manylinux2010_x86_64.AppImage",
-    "description": "Unofficial. Interactive high-level object-oriented language, version 3.7"
-  },
-  {
-    "pkg": "python3.8",
-    "site": "niess/python-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/python3.8",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/python3.8",
-    "version_raw": "https://github.com/niess/python-appimage/releases/download/python3.8/python3.8.13-cp38-cp38-manylinux2010_x86_64.AppImage",
-    "description": "Unofficial. Interactive high-level object-oriented language, version 3.8"
-  },
-  {
-    "pkg": "python3.9",
-    "site": "niess/python-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/python3.9",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/python3.9",
-    "version_raw": "https://github.com/niess/python-appimage/releases/download/python3.9/python3.9.13-cp39-cp39-manylinux2010_x86_64.AppImage",
-    "description": "Unofficial. Interactive high-level object-oriented language, version 3.9"
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/python",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/python",
+    "version_raw": "https://github.com/niess/python-appimage/releases/download/python3.14/python3.14.0rc1-cp314-cp314-manylinux_2_28_x86_64.AppImage",
+    "description": "AppImage distributions of Python, an interactive high-level object-oriented language"
   },
   {
     "pkg": "qaddapp",
@@ -19060,7 +18980,7 @@
     "site": "ivan-hc/Vivaldi-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vivaldi-snapshot",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vivaldi-snapshot",
-    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-snapshot-7.6.3765.3-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-snapshot-7.6.3772.3-1-x86_64.AppImage",
     "description": "Unofficial. Advanced Web Browser, Testing Version"
   },
   {
@@ -19868,7 +19788,7 @@
     "site": "Voxelum/x-minecraft-launcher",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/x-minecraft-launcher",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/x-minecraft-launcher",
-    "version_raw": "https://github.com/Voxelum/x-minecraft-launcher/releases/download/v0.51.2/xmcl-0.51.2-x86_64.AppImage",
+    "version_raw": "https://github.com/Voxelum/x-minecraft-launcher/releases/download/v0.51.3/xmcl-0.51.3-x86_64.AppImage",
     "description": "An Open Source Minecraft Launcher with Modern UX"
   },
   {
