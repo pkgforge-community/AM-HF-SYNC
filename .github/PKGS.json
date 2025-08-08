@@ -2836,7 +2836,7 @@
     "site": "https://clipgrab.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clipgrab",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/clipgrab",
-    "version_raw": "",
+    "version_raw": "https://download.clipgrab.org/ClipGrab-3.9.10-x86_64.AppImage",
     "description": "Download and Convert Online Videos"
   },
   {
@@ -4284,7 +4284,7 @@
     "site": "drawpile/Drawpile",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/drawpile",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/drawpile",
-    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/2.3.0-beta.1/Drawpile-2.3.0-beta.1-x86_64.AppImage",
+    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/2.3.0-beta.2/Drawpile-2.3.0-beta.2-x86_64.AppImage",
     "description": "Drawing program to sketch on the same canvas simultaneously"
   },
   {
@@ -16868,7 +16868,7 @@
     "site": "babaissarkar/ssplot",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ssplot",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ssplot",
-    "version_raw": "https://github.com/babaissarkar/ssplot/releases/download/v2.2.6/SSPlot-x86_64.AppImage",
+    "version_raw": "https://github.com/babaissarkar/ssplot/releases/download/v2.3/SSPlot-x86_64.AppImage",
     "description": "A simple plotting utility for dynamical systems"
   },
   {
@@ -17084,7 +17084,7 @@
     "site": "https://gitlab.com/posktomten/streamcapture2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/streamcapture2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/streamcapture2",
-    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=JbNqcpvmsl",
+    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=hmzhqSDQ",
     "description": "Download video streams"
   },
   {
@@ -18006,6 +18006,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ticker",
     "version_raw": "https://github.com/achannarasappa/ticker/releases/download/v5.0.5/ticker-5.0.5-linux-amd64.tar.gz",
     "description": "Terminal stock ticker with live updates and position tracking"
+  },
+  {
+    "pkg": "ticktick",
+    "site": "https://ticktick.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ticktick",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ticktick",
+    "version_raw": "https://d2atcrkye2ik4e.cloudfront.net/download/linux/linux_appimage_x64/ticktick-6.0.40-x86_64.AppImage",
+    "description": "A To-Do List and Calendar to keep you organized"
   },
   {
     "pkg": "tidal-hifi",
@@ -19452,7 +19460,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "53103860164",
+    "version_raw": "53106524883",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
