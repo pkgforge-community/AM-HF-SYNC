@@ -5692,7 +5692,7 @@
     "site": "DonutWare/Fladder",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fladder",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fladder",
-    "version_raw": "https://github.com/DonutWare/Fladder/releases/download/nightly/Fladder-Linux-0.7.0-nightly.AppImage",
+    "version_raw": "https://github.com/DonutWare/Fladder/releases/download/nightly/Fladder-Linux-0.7.5-nightly.AppImage",
     "description": "A Simple Jellyfin frontend built on top of Flutter"
   },
   {
@@ -7380,7 +7380,7 @@
     "site": "hayase-app/ui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hayase",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hayase",
-    "version_raw": "https://github.com/hayase-app/ui/releases/download/v6.4.21/linux-hayase-6.4.21-linux.AppImage",
+    "version_raw": "https://github.com/hayase-app/ui/releases/download/v6.4.22/linux-hayase-6.4.22-linux.AppImage",
     "description": "Torrent streaming made simple. Watch anime torrents, real-time with no waiting for downloads"
   },
   {
@@ -9364,7 +9364,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.5.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -16568,14 +16568,6 @@
     "description": "A wallet GUI for c-lightning, accessible over web/mobile/pc"
   },
   {
-    "pkg": "spark.payments",
-    "site": "kodaxx/spark-dash-desktop",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/spark.payments",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/spark.payments",
-    "version_raw": "",
-    "description": "Terminal app for processing DASH payments"
-  },
-  {
     "pkg": "speaky-miniplayer",
     "site": "fjrd84/speaky-miniplayer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/speaky-miniplayer",
@@ -18152,14 +18144,6 @@
     "description": "Unofficial AppImage of Torzu (fork of yuzu), with optimized builds for modern cpus"
   },
   {
-    "pkg": "toughcookies",
-    "site": "https://www.toughcookies.net",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/toughcookies",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/toughcookies",
-    "version_raw": "",
-    "description": "A modern flash cards study and management app"
-  },
-  {
     "pkg": "trackaudio",
     "site": "pierr3/TrackAudio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trackaudio",
@@ -19044,7 +19028,7 @@
     "site": "ivan-hc/VLC-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vlc-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vlc-git",
-    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r34314.g231f5d4099ca-1-archimage4.3-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous/VLC-media-player_3.0.21-27-archimage4.3-x86_64.AppImage",
     "description": "Unofficial. Free and Open Source Video & Media player, GIT version"
   },
   {
