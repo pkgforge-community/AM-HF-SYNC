@@ -2,8 +2,8 @@
 
 # AM INSTALL SCRIPT VERSION 3.5
 set -ux
-APP=gitbutler
-SITE="https://gitbutler.com"
+APP=media-hoarder
+SITE="theMK2k/Media-Hoarder"
 
 # CREATE DIRECTORIES AND ADD REMOVER
 [ -n "$APP" ] && mkdir -p "/opt/$APP/tmp" "/opt/$APP/icons" && cd "/opt/$APP/tmp" || exit 1
@@ -12,10 +12,10 @@ printf '\n%s' "rm -f /usr/local/share/applications/$APP-AM.desktop" >> ../remove
 chmod a+x ../remove || exit 1
 
 # DOWNLOAD AND PREPARE THE APP, $version is also used for updates
-version=$(curl --globoff --location --head -qfsS -X 'GET' --retry 3 --header "Authorization: Bearer QQ==" https://app.gitbutler.com/downloads/release/linux/x86_64/gz | tr '">< ' '\n' | grep -i "http.*appimage" | head -1)
-wget "https://app.gitbutler.com/downloads/release/linux/x86_64/gz" --trust-server-names || exit 1
+version=$(curl -Ls https://api.gh.pkgforge.dev/repos/theMK2k/Media-Hoarder/releases/latest | sed 's/[()",{} ]/\n/g' | grep -oi "https.*mage$" | grep -vi "i386\|i686\|aarch64\|arm64\|armv7l" | head -1)
+wget "$version" || exit 1
 # Keep this space in sync with other installation scripts
-[ -e ./*tar.* ] && tar fx ./*tar.* && rm -f ./*tar.*
+# Use tar fx ./*tar* here for example in this line in case a compressed file is downloaded.
 cd ..
 mv ./tmp/*mage ./"$APP"
 # Keep this space in sync with other installation scripts
@@ -30,10 +30,10 @@ ln -s "/opt/$APP/$APP" "/usr/local/bin/$APP"
 cat >> ./AM-updater << 'EOF'
 #!/bin/sh
 set -ux
-APP=gitbutler
-SITE="https://gitbutler.com"
+APP=media-hoarder
+SITE="theMK2k/Media-Hoarder"
 version0=$(cat "/opt/$APP/version")
-version=$(curl --globoff --location --head -qfsS -X 'GET' --retry 3 --header "Authorization: Bearer QQ==" https://app.gitbutler.com/downloads/release/linux/x86_64/gz | tr '">< ' '\n' | grep -i "http.*appimage" | head -1)
+version=$(curl -Ls https://api.gh.pkgforge.dev/repos/theMK2k/Media-Hoarder/releases/latest | sed 's/[()",{} ]/\n/g' | grep -oi "https.*mage$" | grep -vi "i386\|i686\|aarch64\|arm64\|armv7l" | head -1)
 [ -n "$version" ] || { echo "Error getting link"; exit 1; }
 if command -v appimageupdatetool >/dev/null 2>&1; then
 	cd "/opt/$APP" || exit 1
@@ -42,8 +42,8 @@ fi
 if [ "$version" != "$version0" ]; then
 	mkdir "/opt/$APP/tmp" && cd "/opt/$APP/tmp" || exit 1
 	notify-send "A new version of $APP is available, please wait"
-	wget "https://app.gitbutler.com/downloads/release/linux/x86_64/gz" --trust-server-names || exit 1
-	[ -e ./*tar.* ] && tar fx ./*tar.* && rm -f ./*tar.*
+	wget "$version" || exit 1
+	# Use tar fx ./*tar* here for example in this line in case a compressed file is downloaded.
 	cd ..
 	mv --backup=t ./tmp/*mage ./"$APP"
 	chmod a+x ./"$APP" || exit 1
@@ -72,6 +72,6 @@ while [ "$COUNT" -lt 10 ]; do # Tries to get the actual icon/desktop if it is a 
 	[ ! -L ./"$APP".desktop ] && [ ! -L ./DirIcon ] && break
 	COUNT=$((COUNT + 1))
 done
-sed -i "s#Exec=[^ ]*#Exec=$APP#g; s#Icon=.*#Icon=/opt/$APP/icons/$APP#g" ./"$APP".desktop
+sed -i "s#Exec=[^ ]*#Exec=$APP#g; s#Icon=.*#Icon=/opt/$APP/icons/$APP#g; s# --no-sandbox##g" ./"$APP".desktop
 mv ./"$APP".desktop /usr/local/share/applications/"$APP"-AM.desktop && mv ./DirIcon ./icons/"$APP" 1>/dev/null
 rm -R -f ./squashfs-root
