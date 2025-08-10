@@ -8973,7 +8973,7 @@
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kitty",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kitty",
     "version_raw": "https://github.com/kovidgoyal/kitty/releases/download/v0.42.2/kitty-0.42.2-x86_64.txz",
-    "description": "Cross-platform, fast, feature-rich, GPU based terminal"
+    "description": "Cross-platform, fast, feature-rich, GPU based terminal (also provides kitten CLI utility)"
   },
   {
     "pkg": "kitupiikki",
@@ -9364,7 +9364,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.5.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -12070,6 +12070,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nychess",
     "version_raw": "https://github.com/hect1k/NyChess/releases/download/Linux/NyChess_Chess_Game.AppImage",
     "description": "A python Chess Engine and AI"
+  },
+  {
+    "pkg": "nym-vpn",
+    "site": "nymtech/nym-vpn-client",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nym-vpn",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nym-vpn",
+    "version_raw": "https://github.com/nymtech/nym-vpn-client/releases/download/nym-vpn-app-nightly/NymVPN_1.14.0-dev_x64.AppImage",
+    "description": "Cross-platform open source VPN client built in Rust, with mixnet anonymity and WireGuard speed. Protects metadata, not just IP addresses. Zero-knowledge payments for unlinkable online activities"
   },
   {
     "pkg": "nym-wallet",
@@ -19124,7 +19132,7 @@
     "site": "directvt/vtm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vtm",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vtm",
-    "version_raw": "https://github.com/directvt/vtm/releases/download/v2025.08.04b/vtm_linux_x86_64.zip",
+    "version_raw": "https://github.com/directvt/vtm/releases/download/v2025.08.10/vtm_linux_x86_64.zip",
     "description": "Text-based desktop environment"
   },
   {
