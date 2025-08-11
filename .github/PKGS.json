@@ -1604,7 +1604,7 @@
     "site": "digitalbitbox/bitbox-wallet-app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bitbox-wallet",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bitbox-wallet",
-    "version_raw": "https://github.com/BitBoxSwiss/bitbox-wallet-app/releases/download/v4.48.1/BitBox-4.48.1-x86_64.AppImage",
+    "version_raw": "https://github.com/BitBoxSwiss/bitbox-wallet-app/releases/download/v4.48.3/BitBox-4.48.3-x86_64.AppImage",
     "description": "Cryptocurrency hardware wallet desktop app"
   },
   {
@@ -2628,7 +2628,7 @@
     "site": "kangfenmao/cherry-studio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cherry-studio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cherry-studio",
-    "version_raw": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.5.6-beta.1/Cherry-Studio-1.5.6-beta.1-x86_64.AppImage",
+    "version_raw": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.5.6-rc.1/Cherry-Studio-1.5.6-rc.1-x86_64.AppImage",
     "description": "Cherry Studio is a desktop client that supports for multiple LLM providers"
   },
   {
@@ -7550,14 +7550,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hmcl",
     "version_raw": "https://github.com/HMCL-dev/HMCL/releases/download/v3.6.15.289/HMCL-3.6.15.289.sh",
     "description": "A Minecraft Launcher which is multi-functional, cross-platform and popular"
-  },
-  {
-    "pkg": "hoptodesk",
-    "site": "https://www.hoptodesk.com",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hoptodesk",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hoptodesk",
-    "version_raw": "",
-    "description": "Allows users to share their screens and remotely control access"
   },
   {
     "pkg": "hotspot",
@@ -12732,7 +12724,7 @@
     "site": "colin-i/ostream",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ovideo",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ovideo",
-    "version_raw": "https://github.com/colin-i/ostream/releases/download/1-198/ovideo.amd64.AppImage",
+    "version_raw": "https://github.com/colin-i/ostream/releases/download/1-199/ovideo.amd64.AppImage",
     "description": "Video Editor"
   },
   {
@@ -14974,14 +14966,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/reaper",
     "version_raw": "https://www.reaper.fm/",
     "description": "A complete digital audio production app, offering a full multitrack audio and MIDI recording, editing, processing, mixing and mastering toolset"
-  },
-  {
-    "pkg": "reaper-appimage",
-    "site": "ivan-hc/Database-of-pkg2appimaged-packages",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/reaper-appimage",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/reaper-appimage",
-    "version_raw": "https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/reaper/REAPER_7.42-1-archimage4.3-x86_64.AppImage",
-    "description": "Unofficial. A complete digital audio production app, offering a full multitrack audio and MIDI recording, editing, processing, mixing and mastering toolset"
   },
   {
     "pkg": "rebaslight",
@@ -19388,7 +19372,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "53190705099",
+    "version_raw": "53197572318",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
