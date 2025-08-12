@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: am 9.7.1-9\n"
 "Report-Msgid-Bugs-To: https://github.com/pkgforge-community/AM-HF-SYNC\n"
-"POT-Creation-Date: 2025-08-11\n"
+"POT-Creation-Date: 2025-08-12\n"
 "PO-Revision-Date: 2025-08-04 14:28+0200\n"
 "Last-Translator: Apertium APy <noreply-mt-apertium-apy@weblate.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/am/am/es/>\n"
@@ -226,7 +226,7 @@ msgstr ""
 "intentarlo!"
 
 #: APP-MANAGER:487 modules/database.am:605 modules/database.am:690
-#: modules/install.am:462 modules/install.am:487 modules/management.am:487
+#: modules/install.am:462 modules/install.am:487 modules/management.am:478
 #: modules/sandboxes.am:262 modules/template.am:345
 msgid " USAGE: $AMCLI $1 [ARGUMENT]"
 msgstr " USO: $AMCLI $1 [ARGUMENTO]"
@@ -1728,69 +1728,46 @@ msgstr " 💀Error, \\\"%b\\\" NO es una AppImage\\n"
 msgid " ◆ \\\"%b\\\" is already a new generation AppImage.\\n"
 msgstr " ◆ \\\"%b\\\" ya es una AppImage de nueva generación.\\n"
 
-#: modules/management.am:376
-msgid " Warning! Your AppImage uses \\\"zsync\\\" to update."
-msgstr " ¡Advertencia! Su AppImage usa \\\"zsync\\\" para actualizar."
-
-#: modules/management.am:377
-msgid " The .zsync file will be removed and will no longer work"
-msgstr " El archivo .zsync será eliminado y ya no funcionará"
-
-#: modules/management.am:378
-msgid ""
-" your \\\"AM-updater\\\" will likely still be able to update the AppImage"
-msgstr " su \\\"AM-updater\\\" probablemente aún podrá actualizar la AppImage"
-
-#: modules/management.am:379
-msgid " by comparing the old vs new version url, but it is not guaranteed"
-msgstr ""
-" comparando la URL de la versión antigua con la nueva, pero no está "
-"garantizado"
-
 #: modules/management.am:380
-msgid " Do you want to proceede anyway? (N/y) "
-msgstr " ¿Desea proceder de todos modos? (N/s) "
-
-#: modules/management.am:389
 msgid " ...downloading appimagetool\\r"
 msgstr " ...descargando appimagetool\\r"
 
-#: modules/management.am:395
+#: modules/management.am:386
 msgid " ...extracting the AppImage\\r"
 msgstr " ...extrayendo la AppImage\\r"
 
-#: modules/management.am:408
+#: modules/management.am:399
 msgid " ...trying to convert in new generation AppImage\\r"
 msgstr " ...intentando convertir a AppImage de nueva generación\\r"
 
-#: modules/management.am:417
+#: modules/management.am:408
 msgid " 💀Error when trying to convert $target. Operation Aborted."
 msgstr " 💀Error al intentar convertir $target. Operación abortada."
 
-#: modules/management.am:423
+#: modules/management.am:414
 msgid " ◆ $target has been converted to a new generation AppImage."
 msgstr " ◆ $target ha sido convertido a una AppImage de nueva generación."
 
-#: modules/management.am:427
+#: modules/management.am:418
 msgid " The next update may replace this AppImage with a Type2 one"
 msgstr ""
 " La próxima actualización podría reemplazar esta AppImage con una de Tipo2"
 
-#: modules/management.am:428
+#: modules/management.am:419
 msgid ""
 " so I added this command to the bottom of the \\\"AM-updater\\\" script!"
 msgstr " ¡así que agregué este comando al final del script \\\"AM-updater\\\"!"
 
-#: modules/management.am:430
+#: modules/management.am:421
 msgid " Contact the upstream developers to make them officially upgrade!"
 msgstr ""
 " ¡Contacte a los desarrolladores originales para que actualicen oficialmente!"
 
-#: modules/management.am:431
+#: modules/management.am:422
 msgid " Do you wish to remove the old libfuse2 AppImage? (Y/n) "
 msgstr " ¿Desea eliminar la antigua AppImage libfuse2? (S/n) "
 
-#: modules/management.am:458 modules/management.am:474
+#: modules/management.am:449 modules/management.am:465
 msgid ""
 " \\\"${RED}$arg\\033[0m\\\" is not a valid \\\"APPNAME\\\", see \\\"$AMCLI -"
 "f\\\" for more."
@@ -1798,40 +1775,40 @@ msgstr ""
 " \\\"${RED}$arg\\033[0m\\\" no es un \\\"NOMBREAPP\\\" válido, consulte \\"
 "\"$AMCLI -f\\\" para más información."
 
-#: modules/management.am:459
+#: modules/management.am:450
 msgid " ◆ Do you wish to remove \\\"$arg\\\"? (Y/n) "
 msgstr " ◆ ¿Desea eliminar \\\"$arg\\\"? (S/n) "
 
-#: modules/management.am:461
+#: modules/management.am:452
 msgid " \\\"${LightBlue}$arg\\033[0m\\\" has not been removed!"
 msgstr " ¡\\\"${LightBlue}$arg\\033[0m\\\" no ha sido eliminado!"
 
-#: modules/management.am:466 modules/management.am:478
+#: modules/management.am:457 modules/management.am:469
 msgid " \\\"${Green}$arg\\033[0m\\\" has been removed!"
 msgstr " ¡\\\"${Green}$arg\\033[0m\\\" ha sido eliminado!"
 
-#: modules/management.am:532
+#: modules/management.am:523
 msgid " ◆ Do you wish to allow custom icon theming for ALL the apps? (y,N) "
 msgstr ""
 " ◆ ¿Desea permitir temas de iconos personalizados para TODAS las "
 "aplicaciones? (s,N) "
 
-#: modules/management.am:535
+#: modules/management.am:526
 msgid ""
 " ◆ Do you wish to allow custom icon theming for the selected apps? (y,N) "
 msgstr ""
 " ◆ ¿Desea permitir temas de iconos personalizados para las aplicaciones "
 "seleccionadas? (s,N) "
 
-#: modules/management.am:542
+#: modules/management.am:533
 msgid " ✔ Success!"
 msgstr " ✔ ¡Éxito!"
 
-#: modules/management.am:544
+#: modules/management.am:535
 msgid " ✖ Aborted!"
 msgstr " ✖ ¡Abortado!"
 
-#: modules/management.am:555
+#: modules/management.am:546
 msgid "%b\\n ◆ Updates check finished! \\n"
 msgstr "%b\\n ◆ ¡Comprobación de actualizaciones finalizada! \\n"
 
@@ -2054,220 +2031,3 @@ msgstr " ◆ URL DE LA APLICACIÓN WEB: "
 #: modules/template.am:510
 msgid "\\n No valid argument was chosen: process aborted! \\n"
 msgstr "\\n No se eligió ningún argumento válido: ¡proceso abortado! \\n"
-
-#~ msgid " STATUS: %b"
-#~ msgstr " ESTADO: %b"
-
-#~ msgid " ERROR: %b not found\\033[0m\\n"
-#~ msgstr " ERROR: %b no encontrado\\033[0m\\n"
-
-#~ msgid "%b%b%s\\n"
-#~ msgstr "%b%b%s\\n"
-
-#~ msgid " ◆ File: %s\\n"
-#~ msgstr " ◆ Archivo: %s\\n"
-
-#, fuzzy
-#~ msgid "   or try AM with GUI (Alpha version!)"
-#~ msgstr "O probar SOY con GUI (versión de Alfa!)"
-
-#, fuzzy
-#~| msgid " Run the \\\"$AMCLI -h\\\" command to find out more"
-#~ msgid " Run the \\\"$AMCLI --gui\\\" command"
-#~ msgstr "Corrido el \\\"$AMCLI --gui\\\" orden"
-
-#, fuzzy
-#~ msgid "   and help us catch the bugs please"
-#~ msgstr "Y ayudarnos coger los bugs complacen"
-
-#, fuzzy
-#~ msgid "ERROR! yad is missing! Install it..."
-#~ msgstr "Error! yad Falta! Lo instala..."
-
-#, fuzzy
-#~ msgid ""
-#~ "Testing Alpha release\n"
-#~ "\n"
-#~ "Using YAD to create simple and usable\n"
-#~ "Graphical User Interface for\n"
-#~ "AM: Application Manager\n"
-#~ "for linux\n"
-#~ "\n"
-#~ "AM website:\n"
-#~ "https://github.com/ivan-hc/am\n"
-#~ "\n"
-#~ "GUI:"
-#~ msgstr ""
-#~ "Probando emisión de Alfa\n"
-#~ "\n"
-#~ "que Utiliza YAD para crear sencillo e interfaz\n"
-#~ "de Usuario Gráfica utilizable para\n"
-#~ "SOY: #Gerente de Aplicación\n"
-#~ "para linux\n"
-#~ "\n"
-#~ "SOY sitio web:\n"
-#~ "https://github.com/ivan-hc/am\n"
-#~ "\n"
-#~ "GUI:"
-
-#, fuzzy
-#~ msgid "AppImage!Install only AppImages"
-#~ msgstr "AppImage!Instala sólo AppImages"
-
-#, fuzzy
-#~ msgid "soarpkg!For installation from soar packages"
-#~ msgstr "soarpkg!Para instalación de soar envases"
-
-#, fuzzy
-#~ msgid "toolpack!For installation of toolpacks"
-#~ msgstr "toolpack!Para instalación de toolpacks"
-
-#, fuzzy
-#~ msgid "sandbox!Set also sandbox"
-#~ msgstr "sandbox!Pone también sandbox"
-
-#, fuzzy
-#~ msgid "user (as AppMan)!Use it to install applications locally"
-#~ msgstr ""
-#~ "Usuario (como AppMan)!Lo utiliza para instalar aplicaciones localmente"
-
-#, fuzzy
-#~ msgid "force latest!Downgrade installed app from pre-release to latest"
-#~ msgstr ""
-#~ "La fuerza más tardía!Downgrade Aplicación instalada de pre-liberar a más "
-#~ "tardío"
-
-#, fuzzy
-#~ msgid "icons!Allow use of system theme"
-#~ msgstr "Iconos!Deja uso de tema de sistema"
-
-#, fuzzy
-#~ msgid "debug!For installation debuging"
-#~ msgstr "Depura!Para instalación debuging"
-
-#, fuzzy
-#~ msgid "!Choose app to install"
-#~ msgstr "!Escoge aplicación para instalar"
-
-#, fuzzy
-#~ msgid "RUNNING: %s %s %s"
-#~ msgstr "Corriendo: %s %s %s"
-
-#, fuzzy
-#~ msgid "📥 Install apps!!Install more apps"
-#~ msgstr "📥 Instala aplicaciones!!Instala más aplicaciones"
-
-#, fuzzy
-#~ msgid "📥 Install!!Install one app"
-#~ msgstr "📥 Instala!!Instala una aplicación"
-
-#, fuzzy
-#~ msgid "📋 Installed!!List installed Apps and remove App"
-#~ msgstr "📋 Instalado!!Lista Aplicaciones instaladas y sacar Aplicación"
-
-#, fuzzy
-#~ msgid "🗑️ Remove!!Uninstall App(s)"
-#~ msgstr "🗑️ Saca!!Uninstall Aplicación(s)"
-
-#, fuzzy
-#~ msgid "About!ℹ️!Info about GUI"
-#~ msgstr "Aproximadamente!ℹ️!Info Sobre GUI"
-
-#, fuzzy
-#~ msgid "yad-quit!!Exit GUI"
-#~ msgstr "yad-Dejar!!Salida GUI"
-
-#~ msgid "Press y to continue, anything else to exit (timeout 15 seconds)"
-#~ msgstr ""
-#~ "Presione s para continuar, cualquier otra tecla para salir (tiempo de "
-#~ "espera 15 segundos)"
-
-#~ msgid "Translating: $list"
-#~ msgstr "Traduciendo: $list"
-
-#~ msgid "Can´t enter AMPATH $AMPATH"
-#~ msgstr "No se puede acceder a AMPATH $AMPATH"
-
-#~ msgid "am.pot removed"
-#~ msgstr "am.pot eliminado"
-
-#~ msgid "Fresh start"
-#~ msgstr "Nuevo comienzo"
-
-#~ msgid "Creating directories"
-#~ msgstr "Creando directorios"
-
-#~ msgid "Extracting strings..."
-#~ msgstr "Extrayendo cadenas..."
-
-#~ msgid "Extraction completed"
-#~ msgstr "Extracción completada"
-
-#~ msgid "Fixing strings"
-#~ msgstr "Corrigiendo cadenas"
-
-#~ msgid "Fixing completed"
-#~ msgstr "Corrección completada"
-
-#~ msgid "Joining duplicities from ${1} into ${2}"
-#~ msgstr "Uniendo duplicados de ${1} en ${2}"
-
-#~ msgid "Creating files for translations"
-#~ msgstr "Creando archivos para traducciones"
-
-#~ msgid "Enter short code of new language"
-#~ msgstr "Introduzca el código corto del nuevo idioma"
-
-#~ msgid "Translator name"
-#~ msgstr "Nombre del traductor"
-
-#~ msgid "Enter your name..."
-#~ msgstr "Introduzca su nombre..."
-
-#~ msgid "Translator email"
-#~ msgstr "Correo electrónico del traductor"
-
-#~ msgid "Enter your email..."
-#~ msgstr "Introduzca su correo electrónico..."
-
-#~ msgid "Is it ${NLANG} correct language?"
-#~ msgstr "¿Es ${NLANG} el idioma correcto?"
-
-#~ msgid "Language already included"
-#~ msgstr "Idioma ya incluido"
-
-#~ msgid ""
-#~ " Try again with another language, or run \\\"$AMCLI --translate\\\" to "
-#~ "update added translations"
-#~ msgstr ""
-#~ " Inténtelo de nuevo con otro idioma, o ejecute \\\"$AMCLI --translate\\\" "
-#~ "para actualizar las traducciones añadidas"
-
-#~ msgid "Merging with old ${i}.po"
-#~ msgstr "Fusionando con el antiguo ${i}.po"
-
-#~ msgid "Creating new ${i} translation file"
-#~ msgstr "Creando nuevo archivo de traducción ${i}"
-
-#~ msgid "${i} done"
-#~ msgstr "${i} hecho"
-
-#~ msgid "Preparation for translation done."
-#~ msgstr "Preparación para la traducción completada."
-
-#~ msgid "Now is up to translators, or AI..."
-#~ msgstr "Ahora depende de los traductores, o de la IA..."
-
-#~ msgid "Copy files to $HOME/.local/share/ for use with AppMan?"
-#~ msgstr "¿Copiar archivos a $HOME/.local/share/ para usarlos con AppMan?"
-
-#~ msgid "No language added, run \\\"$AMCLI --translate-new\\\" first!"
-#~ msgstr ""
-#~ "¡Ningún idioma añadido, ejecute \\\"$AMCLI --translate-new\\\" primero!"
-
-#~ msgid "$HELP_MESSAGE"
-#~ msgstr "$HELP_MESSAGE"
-
-#, fuzzy
-#~ msgid "\\\"$AMCLIUPPER\\\" $AMVERSION:"
-#~ msgstr "\\\"$AMCLIUPPER\\\" $AMVERSION:"
