@@ -3809,7 +3809,7 @@
   },
   {
     "pkg": "dealers-choice",
-    "site": "Dealer-s-Choice/dealers_choice",
+    "site": "Dealer-s-Choice/dealers-choice",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dealers-choice",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dealers-choice",
     "version_raw": "https://github.com/Dealer-s-Choice/dealers-choice/releases/download/v0.0.8/dealers_choice-v0.0.8-x86_64.AppImage",
@@ -4036,7 +4036,7 @@
     "site": "https://dezor.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dezor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dezor",
-    "version_raw": "https://cdn.dezor.net/updates/net.dezor.browser/linux/Dezor-v1.5.8-x86_64.AppImage",
+    "version_raw": "",
     "description": "The web browser including VPN and Adblocker"
   },
   {
@@ -5124,7 +5124,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-25.28.4.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -5820,7 +5820,7 @@
     "site": "superfly/flyctl",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flyctl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/flyctl",
-    "version_raw": "https://github.com/superfly/flyctl/releases/download/v0.3.169/flyctl_0.3.169_Linux_x86_64.tar.gz",
+    "version_raw": "https://github.com/superfly/flyctl/releases/download/v0.3.170/flyctl_0.3.170_Linux_x86_64.tar.gz",
     "description": "Command line tools for fly.io services"
   },
   {
@@ -6884,7 +6884,7 @@
     "site": "https://www.jetbrains.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/goland",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/goland",
-    "version_raw": "https://download.jetbrains.com/go/goland-2025.2.tar.gz",
+    "version_raw": "",
     "description": "Capable and Ergonomic Go IDE"
   },
   {
@@ -7044,7 +7044,7 @@
     "site": "benjamimgois/goverlay",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/goverlay",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/goverlay",
-    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-be432a26e-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-1da5b5589-anylinux-x86_64.AppImage",
     "description": "An opensource project that aims to create a Graphical UI to help manage Linux overlays"
   },
   {
@@ -7812,7 +7812,7 @@
     "site": "ImageMagick/ImageMagick",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/imagemagick-clang",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/imagemagick-clang",
-    "version_raw": "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-0/ImageMagick-3fcd081-clang-x86_64.AppImage",
+    "version_raw": "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-1/ImageMagick-83b6fc3-clang-x86_64.AppImage",
     "description": "CLI to create, edit, compose, or convert digital images"
   },
   {
@@ -7820,7 +7820,7 @@
     "site": "ImageMagick/ImageMagick",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/imagemagick-gcc",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/imagemagick-gcc",
-    "version_raw": "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-0/ImageMagick-3fcd081-gcc-x86_64.AppImage",
+    "version_raw": "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-1/ImageMagick-83b6fc3-gcc-x86_64.AppImage",
     "description": "CLI to create, edit, compose, or convert digital images"
   },
   {
@@ -8412,7 +8412,7 @@
     "site": "https://js.design",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/js-design",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/js-design",
-    "version_raw": "https://img.js.design/assets/download/%E5%8D%B3%E6%97%B6%E8%AE%BE%E8%AE%A1%20Linux%E7%89%88.AppImage",
+    "version_raw": "",
     "description": "A professional UI design software tailored for Chinese designers"
   },
   {
@@ -9356,7 +9356,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.5.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -9764,7 +9764,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250724_x86_64_01.AppImage",
+    "version_raw": "",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -9860,7 +9860,7 @@
     "site": "https://lmstudio.ai",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lmstudio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lmstudio",
-    "version_raw": "https://installers.lmstudio.ai/linux/x64/0.3.22-2/LM-Studio-0.3.22-2-x64.AppImage",
+    "version_raw": "",
     "description": "Experimenting with local and open-source Large Language Models"
   },
   {
@@ -9892,7 +9892,7 @@
     "site": "lockbook/lockbook",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lockbook-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lockbook-desktop",
-    "version_raw": "https://github.com/lockbook/lockbook/releases/download/0.9.25/lockbook-linux",
+    "version_raw": "https://github.com/lockbook/lockbook/releases/download/0.9.26/lockbook-linux",
     "description": "The private, polished note-taking platform"
   },
   {
@@ -10908,7 +10908,7 @@
     "site": "MUME/MMapper",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mmapper",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mmapper",
-    "version_raw": "https://github.com/MUME/MMapper/releases/download/beta/MMapper-25.07.0-17-g44fe713c-x86_64.AppImage",
+    "version_raw": "https://github.com/MUME/MMapper/releases/download/beta/MMapper-25.07.0-18-gd20556d4-x86_64.AppImage",
     "description": "Graphical MUD client for the game MUME"
   },
   {
@@ -13028,7 +13028,7 @@
     "site": "PCSX2/pcsx2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcsx2",
-    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.5.103/pcsx2-v2.5.103-linux-appimage-x64-Qt.AppImage",
+    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.5.104/pcsx2-v2.5.104-linux-appimage-x64-Qt.AppImage",
     "description": "The Playstation 2 Emulator"
   },
   {
@@ -14244,7 +14244,7 @@
     "site": "https://www.pureref.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pureref",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pureref",
-    "version_raw": "2.0.3",
+    "version_raw": "",
     "description": "All your reference images in one place"
   },
   {
@@ -19372,7 +19372,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "53276056049",
+    "version_raw": "53277617232",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
