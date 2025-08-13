@@ -900,7 +900,7 @@
     "site": "bmsuseluda/ares-emu-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ares",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ares",
-    "version_raw": "https://github.com/pkgforge-dev/ares-emu-appimage/releases/download/nightly/ares-46abceebf-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ares-emu-appimage/releases/download/nightly/ares-bea395b24-anylinux-x86_64.AppImage",
     "description": "AppImage for the ares emulator"
   },
   {
@@ -2660,7 +2660,7 @@
     "site": "ivan-hc/Chromium-Web-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chromium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chromium",
-    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-stable-138.0.7204.183-x86_64.AppImage",
+    "version_raw": "",
     "description": "Unofficial. FOSS Web Browser, base of Google Chrome, Edge and Brave, stable"
   },
   {
@@ -2668,7 +2668,7 @@
     "site": "ivan-hc/Chromium-Web-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chromium-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chromium-beta",
-    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-beta-139.0.7258.52-x86_64.AppImage",
+    "version_raw": "",
     "description": "Unofficial. FOSS Web Browser, base of Google Chrome, beta edition"
   },
   {
@@ -2684,7 +2684,7 @@
     "site": "ivan-hc/Chromium-Web-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chromium-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chromium-edge",
-    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-edge-140.0.7259.2-x86_64.AppImage",
+    "version_raw": "",
     "description": "Unofficial. FOSS Web Browser, base of Google Chrome, edge edition"
   },
   {
@@ -2692,7 +2692,7 @@
     "site": "ivan-hc/Chromium-Web-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chromium-rc",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chromium-rc",
-    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-candidate-139.0.7258.66-x86_64.AppImage",
+    "version_raw": "",
     "description": "Unofficial. FOSS Web Browser, base of Google Chrome, release candidate"
   },
   {
@@ -6708,7 +6708,7 @@
     "site": "https://gitlab.com/gitlab-org/cli",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/glab",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/glab",
-    "version_raw": "https://gitlab.com/gitlab-org/cli/-/releases/v1.65.0/downloads/glab_1.65.0_linux_386.tar.gz",
+    "version_raw": "https://gitlab.com/gitlab-org/cli/-/releases/v1.66.0/downloads/glab_1.66.0_linux_amd64.tar.gz",
     "description": "A GitLab CLI tool bringing GitLab to your command line"
   },
   {
@@ -9356,7 +9356,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.5.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -12892,7 +12892,7 @@
     "site": "tywil04/parchment",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parchment",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parchment",
-    "version_raw": "https://github.com/tywil04/parchment/releases/download/v1.0.0/parchment_1.0.0_amd64.AppImage",
+    "version_raw": "",
     "description": "A minimal minimal text editor written using web technologies"
   },
   {
@@ -15892,7 +15892,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4-nightly",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-08-10-1b621e4b1d6b473d3fdc9f02e96912e483a399d6/shadps4-linux-sdl-2025-08-10-1b621e4.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-08-13-882dd889df96c987ea007722476b729ad9848413/shadps4-linux-sdl-2025-08-13-882dd88.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -19892,7 +19892,7 @@
     "site": "smeighan/xLights",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xlights",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xlights",
-    "version_raw": "https://github.com/xLightsSequencer/xLights/releases/download/2025.07/xLights-2025.07-x86_64.AppImage",
+    "version_raw": "https://github.com/xLightsSequencer/xLights/releases/download/2025.08/xLights-2025.08-x86_64.AppImage",
     "description": "A sequencer for Lights and sequences manager"
   },
   {
