@@ -1996,7 +1996,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave-beta",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-beta/Brave-Web-Browser-beta-1.82.144-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-beta/Brave-Web-Browser-beta-1.82.145-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the beta release"
   },
   {
@@ -2004,7 +2004,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave-nightly",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-nightly/Brave-Web-Browser-nightly-1.83.41-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-nightly/Brave-Web-Browser-nightly-1.83.46-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the nightly release"
   },
   {
@@ -3580,7 +3580,7 @@
     "site": "https://cudatext.github.io",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cudatext",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cudatext",
-    "version_raw": "1.226.1.1",
+    "version_raw": "1.226.4.0",
     "description": "A cross-platform text editor, written in Object Pascal"
   },
   {
@@ -5392,6 +5392,14 @@
     "description": "All your services in one place, built by the community"
   },
   {
+    "pkg": "ferrix",
+    "site": "mehranTaslimi/Ferrix",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ferrix",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ferrix",
+    "version_raw": "https://github.com/mehranTaslimi/Ferrix/releases/download/v0.1.3/Ferrix.Beta._0.1.3_amd64.AppImage",
+    "description": "Fast, modern, cross-platform download manager built with Rust and Tauri, supports resumable downloads, clean UI, and blazing performance"
+  },
+  {
     "pkg": "fetchit",
     "site": "Ruturajn/fetchit",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fetchit",
@@ -6300,7 +6308,7 @@
     "site": "4ian/GDevelop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gdevelop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gdevelop",
-    "version_raw": "https://github.com/4ian/GDevelop/releases/download/v5.5.238/GDevelop-5-5.5.238.AppImage",
+    "version_raw": "https://github.com/4ian/GDevelop/releases/download/v5.5.239/GDevelop-5-5.5.239.AppImage",
     "description": "Cross-platform game engine designed to be used by everyone"
   },
   {
@@ -7380,7 +7388,7 @@
     "site": "hayase-app/ui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hayase",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hayase",
-    "version_raw": "https://github.com/hayase-app/ui/releases/download/v6.4.22/linux-hayase-6.4.22-linux.AppImage",
+    "version_raw": "https://github.com/hayase-app/ui/releases/download/v6.4.23/linux-hayase-6.4.23-linux.AppImage",
     "description": "Torrent streaming made simple. Watch anime torrents, real-time with no waiting for downloads"
   },
   {
@@ -11756,7 +11764,7 @@
     "site": "https://nodejs.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/node",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/node",
-    "version_raw": "https://nodejs.org/dist/latest/node-v24.5.0-linux-x64.tar.gz",
+    "version_raw": "https://nodejs.org/dist/latest/node-v24.6.0-linux-x64.tar.gz",
     "description": "This is the official suite of Node.js tools, also known as NodeJS, a JavaScript runtime built on Chrome's V8 JavaScript engine"
   },
   {
@@ -11916,7 +11924,7 @@
     "site": "https://nodejs.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/npm",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/npm",
-    "version_raw": "https://nodejs.org/dist/latest/node-v24.5.0-linux-x64.tar.gz",
+    "version_raw": "https://nodejs.org/dist/latest/node-v24.6.0-linux-x64.tar.gz",
     "description": "Package manager for Node.js. This script installs the full node suite"
   },
   {
@@ -14628,7 +14636,7 @@
     "site": "quarto-dev/quarto-cli",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quarto-cli",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quarto-cli",
-    "version_raw": "https://github.com/quarto-dev/quarto-cli/releases/download/v1.7.33/quarto-1.7.33-linux-amd64.tar.gz",
+    "version_raw": "https://github.com/quarto-dev/quarto-cli/releases/download/v1.8.20/quarto-1.8.20-linux-amd64.tar.gz",
     "description": "Scientific and technical publishing system built on Pandoc"
   },
   {
@@ -14932,7 +14940,7 @@
     "site": "rclone-ui/rclone-ui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rclone-ui",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rclone-ui",
-    "version_raw": "https://github.com/rclone-ui/rclone-ui/releases/download/v1.2.0/Rclone.UI_1.2.0_amd64.AppImage",
+    "version_raw": "https://github.com/rclone-ui/rclone-ui/releases/download/v1.3.0/Rclone.UI_1.3.0_amd64.AppImage",
     "description": "The cross-platform desktop GUI for rclone & S3"
   },
   {
@@ -15772,7 +15780,7 @@
     "site": "Serial-Studio/Serial-Studio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/serial-studio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/serial-studio",
-    "version_raw": "https://github.com/Serial-Studio/Serial-Studio/releases/download/v3.1.8/Serial-Studio-Pro-3.1.8-Linux-x64.AppImage",
+    "version_raw": "https://github.com/Serial-Studio/Serial-Studio/releases/download/continuous/Serial-Studio-Pro-3.1.8-Linux-x64.AppImage",
     "description": "Multi-purpose serial data view program"
   },
   {
@@ -19116,7 +19124,7 @@
     "site": "directvt/vtm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vtm",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vtm",
-    "version_raw": "https://github.com/directvt/vtm/releases/download/v2025.08.13/vtm_linux_x86_64.zip",
+    "version_raw": "https://github.com/directvt/vtm/releases/download/v2025.08.14/vtm_linux_x86_64.zip",
     "description": "Text-based desktop environment"
   },
   {
@@ -19372,7 +19380,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "53384809959",
+    "version_raw": "53387887979",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
