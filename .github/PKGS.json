@@ -96,14 +96,6 @@
     "description": "AppImage з AceStream Media"
   },
   {
-    "pkg": "acreom",
-    "site": "Acreom/releases",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/acreom",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/acreom",
-    "version_raw": "https://github.com/Acreom/releases/releases/download/v1.20.2/acreom-1.20.2.AppImage",
-    "description": "Acreom desktop app releases"
-  },
-  {
     "pkg": "actual",
     "site": "actualbudget/releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/actual",
@@ -816,14 +808,6 @@
     "description": "Manage your rom collection, Games/Retropie & Recalbox"
   },
   {
-    "pkg": "arch-deployer",
-    "site": "ivan-hc/Arch-Deployer",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/arch-deployer",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/arch-deployer",
-    "version_raw": "https://github.com/ivan-hc/Arch-Deployer/releases/download/1.7.0/arch-deployer",
-    "description": "A script to bulk download an Arch Linux package with all its dependencies to be converted in AppImage"
-  },
-  {
     "pkg": "arch-flatimage",
     "site": "ruanformigoni/flatimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/arch-flatimage",
@@ -964,7 +948,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "",
+    "version_raw": "1.0.4",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -1788,7 +1772,7 @@
     "site": "HemantKArya/BloomeeTunes",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bloomee",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bloomee",
-    "version_raw": "https://github.com/HemantKArya/BloomeeTunes/releases/download/v2.11.6%2B171/bloomee_tunes_linux_v2.11.6_dev%2B50.zip",
+    "version_raw": "https://github.com/HemantKArya/BloomeeTunes/releases/download/v2.12.2%2B175/bloomee_tunes_linux_v2.12.2%2B175.zip",
     "description": "Music app designed to bring you ad-free tunes from various sources"
   },
   {
@@ -9364,7 +9348,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.5.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -10180,7 +10164,7 @@
     "site": "josueBarretogit/manga-tui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/manga-tui",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/manga-tui",
-    "version_raw": "https://github.com/josueBarretogit/manga-tui/releases/download/v0.8.1/manga-tui-0.8.1-x86_64-unknown-linux-gnu.tar.gz",
+    "version_raw": "https://github.com/josueBarretogit/manga-tui/releases/download/v0.9.0/manga-tui-0.9.0-x86_64-unknown-linux-gnu.tar.gz",
     "description": "Terminal-based manga reader and downloader with image support"
   },
   {
@@ -19380,7 +19364,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "53446807230",
+    "version_raw": "53447715701",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -19916,7 +19900,7 @@
     "site": "https://xmedcon.sourceforge.io",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xmedcon",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xmedcon",
-    "version_raw": "",
+    "version_raw": "https://sourceforge.net/projects/xmedcon/files/XMedCon-AppImage/0.25.3/XMedCon-x86_64.AppImage/download",
     "description": "An open-source toolkit for medical image conversion"
   },
   {
@@ -20190,14 +20174,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yt-dlg",
     "version_raw": "https://github.com/oleksis/youtube-dl-gui/releases/download/v1.8.5/yt-dlg",
     "description": "A front-end GUI of the popular youtube-dl written in wxPython"
-  },
-  {
-    "pkg": "yt-dlp",
-    "site": "yt-dlp/yt-dlp",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yt-dlp",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yt-dlp",
-    "version_raw": "",
-    "description": "A feature-rich command-line audio/video downloader"
   },
   {
     "pkg": "ytarchive",
