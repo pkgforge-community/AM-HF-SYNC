@@ -6760,6 +6760,14 @@
     "description": "AppImage of the glulxe interactive fiction interpreter"
   },
   {
+    "pkg": "glyphr-studio-desktop",
+    "site": "glyphr-studio/Glyphr-Studio-Desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/glyphr-studio-desktop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/glyphr-studio-desktop",
+    "version_raw": "https://github.com/glyphr-studio/Glyphr-Studio-Desktop/releases/download/v0.6.0/Glyphr.Studio-0.6.0.AppImage",
+    "description": "Professional font design programs"
+  },
+  {
     "pkg": "gm-companion",
     "site": "PhilInTheGaps/GM-Companion",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gm-companion",
@@ -9356,7 +9364,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.5.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -19228,7 +19236,7 @@
     "site": "ayasa520/waydroid-helper",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/waydroid-helper",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/waydroid-helper",
-    "version_raw": "https://github.com/ayasa520/waydroid-helper/releases/download/v0.2.4/waydroid-helper-0.2.4-x86_64.AppImage",
+    "version_raw": "https://github.com/ayasa520/waydroid-helper/releases/download/v0.2.3/waydroid-helper-0.2.3-x86_64.AppImage",
     "description": "App that provides a user-friendly way to configure Waydroid and install extensions, including Magisk and ARM translation (android)"
   },
   {
@@ -19908,7 +19916,7 @@
     "site": "https://xmedcon.sourceforge.io",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xmedcon",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xmedcon",
-    "version_raw": "",
+    "version_raw": "https://sourceforge.net/projects/xmedcon/files/XMedCon-AppImage/0.25.3/XMedCon-x86_64.AppImage/download",
     "description": "An open-source toolkit for medical image conversion"
   },
   {
