@@ -276,7 +276,7 @@
     "site": "pkgforge-dev/alacritty-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alacritty",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alacritty",
-    "version_raw": "https://github.com/pkgforge-dev/alacritty-AppImage/releases/download/v0.15.1%402025-08-14_1755132931/alacritty-v0.15.1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/alacritty-AppImage/releases/download/v0.15.1%402025-08-18_1755527989/alacritty-v0.15.1-anylinux-x86_64.AppImage",
     "description": "Unofficial. A modern terminal emulator that comes with sensible defaults, but allows for extensive configuration"
   },
   {
@@ -2660,7 +2660,7 @@
     "site": "ivan-hc/Chromium-Web-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chromium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chromium",
-    "version_raw": "",
+    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-stable-138.0.7204.183-x86_64.AppImage",
     "description": "Unofficial. FOSS Web Browser, base of Google Chrome, Edge and Brave, stable"
   },
   {
@@ -2684,7 +2684,7 @@
     "site": "ivan-hc/Chromium-Web-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chromium-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chromium-edge",
-    "version_raw": "",
+    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-edge-140.0.7259.2-x86_64.AppImage",
     "description": "Unofficial. FOSS Web Browser, base of Google Chrome, edge edition"
   },
   {
@@ -6684,7 +6684,7 @@
     "site": "francescmm/GitQlient",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gitqlient",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gitqlient",
-    "version_raw": "https://github.com/francescmm/GitQlient/releases/download/dev-latest/GitQlient-1.6.3-101-g39d5ea92-x86_64.AppImage",
+    "version_raw": "https://github.com/francescmm/GitQlient/releases/download/dev-latest/GitQlient-1.6.3-104-ga72d8134-x86_64.AppImage",
     "description": "Multi-platform Git client written with Qt"
   },
   {
@@ -9364,7 +9364,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.5.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -12124,7 +12124,7 @@
     "site": "Yakitrak/obsidian-cli",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/obsidian-cli",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/obsidian-cli",
-    "version_raw": "https://github.com/Yakitrak/obsidian-cli/releases/download/v0.1.8/obsidian-cli_0.1.8_linux_amd64.tar.gz",
+    "version_raw": "https://github.com/Yakitrak/obsidian-cli/releases/download/v0.1.9/obsidian-cli_0.1.9_linux_amd64.tar.gz",
     "description": "Interact with Obsidian in the terminal. Open, search, create, update, move and delete notes!"
   },
   {
@@ -13772,7 +13772,7 @@
     "site": "rubiin/pokego",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pokego",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pokego",
-    "version_raw": "https://github.com/rubiin/pokego/releases/download/v0.3.0/pokego-linux-0.3.0.tar.gz",
+    "version_raw": "https://github.com/rubiin/pokego/releases/download/v0.4.0/pokego-linux-0.3.0.tar.gz",
     "description": "Command-line tool that lets you display Pokémon sprites in color directly in your terminal"
   },
   {
@@ -15492,7 +15492,7 @@
     "site": "adil192/saber",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/saber",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/saber",
-    "version_raw": "https://github.com/saber-notes/saber/releases/download/v0.26.3/Saber-0.26.3-x86_64.AppImage",
+    "version_raw": "https://github.com/saber-notes/saber/releases/download/v0.26.4/Saber-0.26.4-x86_64.AppImage",
     "description": "A work-in-progress cross-platform libre handwritten notes app"
   },
   {
@@ -18732,7 +18732,7 @@
     "site": "ventoy/Ventoy",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ventoy",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ventoy",
-    "version_raw": "https://github.com/ventoy/Ventoy/releases/download/v1.1.06/ventoy-1.1.06-linux.tar.gz",
+    "version_raw": "https://github.com/ventoy/Ventoy/releases/download/v1.1.07/ventoy-1.1.07-linux.tar.gz",
     "description": "Tool to create bootable USB drive for ISO/WIM/IMG/VHDx/EFI files"
   },
   {
@@ -19388,7 +19388,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "53483154357",
+    "version_raw": "53487208870",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
