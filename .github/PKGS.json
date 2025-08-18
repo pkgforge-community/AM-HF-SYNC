@@ -148,7 +148,7 @@
     "site": "toeverything/AFFiNE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine",
-    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v0.24.0/affine-0.24.0-stable-linux-x64.appimage",
+    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v0.24.1/affine-0.24.1-stable-linux-x64.appimage",
     "description": "Next-gen knowledge base that brings planning, sorting and creating"
   },
   {
@@ -700,7 +700,7 @@
     "site": "https://gitlab.com/posktomten/appimagehelper",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimagehelper",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimagehelper",
-    "version_raw": "",
+    "version_raw": "2022-11-06",
     "description": "Create and organize shortcuts for AppImages"
   },
   {
@@ -964,7 +964,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "",
+    "version_raw": "1.0.4",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -2980,7 +2980,7 @@
     "site": "Toinane/colorpicker",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/colorpicker",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/colorpicker",
-    "version_raw": "https://github.com/Toinane/colorpicker/releases/download/2.2.2/Colorpicker-2.2.2.AppImage",
+    "version_raw": "",
     "description": "Electron app that can show colors with hex/rgb"
   },
   {
@@ -5244,7 +5244,7 @@
     "site": "ivan-hc/Database-of-pkg2appimaged-packages",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/falkon",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/falkon",
-    "version_raw": "https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/falkon/Falkon_25.04.3-1-archimage4.3-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/falkon/Falkon_25.08.0-1-archimage4.3-x86_64.AppImage",
     "description": "Unofficial. A fast Qt web browser from KDE"
   },
   {
@@ -5396,7 +5396,7 @@
     "site": "mehranTaslimi/Ferrix",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ferrix",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ferrix",
-    "version_raw": "https://github.com/mehranTaslimi/Ferrix/releases/download/v0.1.4/Ferrix.Beta._0.1.4_amd64.AppImage",
+    "version_raw": "https://github.com/mehranTaslimi/Ferrix/releases/download/v0.1.5/Ferrix.Beta._0.1.5_amd64.AppImage",
     "description": "Fast, modern, cross-platform download manager built with Rust and Tauri, supports resumable downloads, clean UI, and blazing performance"
   },
   {
@@ -7364,7 +7364,7 @@
     "site": "https://gitlab.com/posktomten/hashsum",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hashsum",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hashsum",
-    "version_raw": "",
+    "version_raw": "2025.05.26",
     "description": "A universal tool for finding file duplicates and modified files"
   },
   {
@@ -9364,7 +9364,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.5.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -14844,7 +14844,7 @@
     "site": "Dummerle/Rare",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rare",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rare",
-    "version_raw": "https://github.com/RareDevs/Rare/releases/download/1.11.3.135/Rare-1.11.3.135.AppImage",
+    "version_raw": "https://github.com/RareDevs/Rare/releases/download/1.11.3.143/Rare-1.11.3.143.AppImage",
     "description": "GUI for legendary. An Epic Games Launcher open source alternative"
   },
   {
@@ -15238,6 +15238,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rmw",
     "version_raw": "https://github.com/theimpossibleastronaut/rmw/releases/download/v0.9.3/rmw-0.9.3-x86_64.AppImage",
     "description": "A safe-remove utility for the command line"
+  },
+  {
+    "pkg": "rnote",
+    "site": "pkgforge-dev/Rnote-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rnote",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rnote",
+    "version_raw": "https://github.com/pkgforge-dev/Rnote-AppImage/releases/download/0.12.0-2%402025-08-18_1755480509/rnote-0.12.0-2-anylinux-x86_64.AppImage",
+    "description": "Unofficial, Rnote is a vector-based drawing app for sketching, handwritten notes and to annotate documents and pictures"
   },
   {
     "pkg": "roborock-control-center",
@@ -18540,7 +18548,7 @@
     "site": "ungoogled-software/ungoogled-chromium-portablelinux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ungoogled-chromium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ungoogled-chromium",
-    "version_raw": "https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/139.0.7258.127-1/ungoogled-chromium-139.0.7258.127-1-x86_64.AppImage",
+    "version_raw": "",
     "description": "Chromium Web Browser without Google services"
   },
   {
@@ -19380,7 +19388,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "53471898090",
+    "version_raw": "53477090783",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
