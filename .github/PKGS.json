@@ -164,7 +164,7 @@
     "site": "toeverything/AFFiNE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine-canary",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine-canary",
-    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2025.8.17-canary.903/affine-2025.8.17-canary.903-canary-linux-x64.appimage",
+    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2025.8.19-canary.904/affine-2025.8.19-canary.904-canary-linux-x64.appimage",
     "description": "Next-gen knowledge base that brings planning/sorting/creating"
   },
   {
@@ -700,7 +700,7 @@
     "site": "https://gitlab.com/posktomten/appimagehelper",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimagehelper",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimagehelper",
-    "version_raw": "2022-11-06",
+    "version_raw": "",
     "description": "Create and organize shortcuts for AppImages"
   },
   {
@@ -1484,7 +1484,7 @@
     "site": "https://gitlab.com/hotlittlewhitedog/BibleTheLife",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/biblemultithelife",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/biblemultithelife",
-    "version_raw": "https://gitlab.com/api/v4/projects/17175284",
+    "version_raw": "https://gitlab.com/api/v4/projects/17175284/uploads/caa00a30e4fef52175512637eabf6c76/BibleMultiTheLife-1.27.4-x86_64.AppImage",
     "description": "Bible multi languages, free, offline, no advertising, in English, French, Italian, Spanish, Portuguese"
   },
   {
@@ -7364,7 +7364,7 @@
     "site": "https://gitlab.com/posktomten/hashsum",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hashsum",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hashsum",
-    "version_raw": "2025.05.26",
+    "version_raw": "",
     "description": "A universal tool for finding file duplicates and modified files"
   },
   {
@@ -10692,7 +10692,7 @@
     "site": "ivan-hc/MS-Edge-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/microsoft-edge-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/microsoft-edge-beta",
-    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-beta-140.0.3485.11-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-beta-140.0.3485.14-1-x86_64.AppImage",
     "description": "Web Browser provided by Microsoft, Beta Edition"
   },
   {
@@ -11196,7 +11196,7 @@
     "site": "staniel359/muffon",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/muffon",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/muffon",
-    "version_raw": "https://github.com/staniel359/muffon/releases/download/v2.2.0/muffon-2.2.0-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/staniel359/muffon/releases/download/v2.3.0/muffon-2.3.0-linux-x86_64.AppImage",
     "description": "Music streaming browser,retrieves audio, video and metadata"
   },
   {
@@ -12750,14 +12750,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/owallet",
     "version_raw": "https://github.com/ontio/OWallet/releases/download/v0.10.1/OWallet-0.10.1-Linux.AppImage",
     "description": "A comprehensive Ontology desktop wallet"
-  },
-  {
-    "pkg": "owncloud",
-    "site": "https://owncloud.com",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/owncloud",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/owncloud",
-    "version_raw": "https://download.owncloud.com/desktop/ownCloud/stable/latest/linux-appimage/",
-    "description": "The most essential productivity tool since email"
   },
   {
     "pkg": "oxen-gui-wallet",
@@ -17900,7 +17892,7 @@
     "site": "edrlab/thorium-reader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium-reader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium-reader",
-    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.0-alpha.1.17063726454.AppImage",
+    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/v3.2.2/Thorium-3.2.2.AppImage",
     "description": "Desktop application to read ebooks"
   },
   {
@@ -20076,7 +20068,7 @@
     "site": "purocean/yn",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yank-note",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yank-note",
-    "version_raw": "https://github.com/purocean/yn/releases/download/v3-next-01/Yank-Note-linux-x86_64-3.85.0.AppImage",
+    "version_raw": "https://github.com/purocean/yn/releases/download/v3-next-02/Yank-Note-linux-x86_64-3.85.0.AppImage",
     "description": "A Hackable Markdown Note Application for Programmers"
   },
   {
