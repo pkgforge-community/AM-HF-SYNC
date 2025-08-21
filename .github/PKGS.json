@@ -276,7 +276,7 @@
     "site": "pkgforge-dev/alacritty-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alacritty",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alacritty",
-    "version_raw": "https://github.com/pkgforge-dev/alacritty-AppImage/releases/download/v0.15.1%402025-08-18_1755537488/alacritty-v0.15.1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/alacritty-AppImage/releases/download/v0.15.1%402025-08-21_1755805680/alacritty-v0.15.1-anylinux-x86_64.AppImage",
     "description": "Unofficial. A modern terminal emulator that comes with sensible defaults, but allows for extensive configuration"
   },
   {
@@ -604,7 +604,7 @@
     "site": "anyproto/anytype-ts",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anytype",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anytype",
-    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.49.0/Anytype-0.49.0.AppImage",
+    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.49.1-alpha/Anytype-0.49.1-alpha.AppImage",
     "description": "The everything app for those who celebrate trust & autonomy"
   },
   {
@@ -2916,7 +2916,7 @@
     "site": "https://code.visualstudio.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/code",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/code",
-    "version_raw": "https://github.com/microsoft/vscode/releases/tag/1.103.1",
+    "version_raw": "https://github.com/microsoft/vscode/releases/tag/1.103.2",
     "description": "Visual Studio, VSCode, Original Editor to build/debug web/cloud apps"
   },
   {
@@ -5564,7 +5564,7 @@
     "site": "lyskouski/app-finance",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fingrom",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fingrom",
-    "version_raw": "",
+    "version_raw": "https://github.com/lyskouski/app-finance/releases/download/v6.4.2/fingrom_Linux.AppImage",
     "description": "Financial accounting application"
   },
   {
@@ -6188,7 +6188,7 @@
     "site": "antonmedv/fx",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fx",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fx",
-    "version_raw": "https://github.com/antonmedv/fx/releases/download/39.0.1/fx_linux_amd64",
+    "version_raw": "https://github.com/antonmedv/fx/releases/download/39.0.2/fx_linux_amd64",
     "description": "Terminal JSON viewer & processor"
   },
   {
@@ -6460,7 +6460,7 @@
     "site": "cli/cli",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gh",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gh",
-    "version_raw": "https://github.com/cli/cli/releases/download/v2.77.0/gh_2.77.0_linux_amd64.tar.gz",
+    "version_raw": "https://github.com/cli/cli/releases/download/v2.78.0/gh_2.78.0_linux_amd64.tar.gz",
     "description": "GitHub’s official command line tool"
   },
   {
@@ -12380,7 +12380,7 @@
     "site": "zaghaghi/openapi-tui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openapi-tui",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openapi-tui",
-    "version_raw": "",
+    "version_raw": "https://github.com/zaghaghi/openapi-tui/releases/download/0.10.2/openapi-tui-0.10.2-linux-x86_64.tar.gz",
     "description": "Terminal UI to list, browse and run APIs defined with openapi"
   },
   {
@@ -12668,7 +12668,7 @@
     "site": "sniptt-official/ots",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ots",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ots",
-    "version_raw": "",
+    "version_raw": "https://github.com/sniptt-official/ots/releases/download/v0.3.1/ots_0.3.1_linux_amd64.tar.gz",
     "description": "Share end-to-end encrypted secrets with others via a one-time URL"
   },
   {
@@ -12860,7 +12860,7 @@
     "site": "mb21/panwriter",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/panwriter",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/panwriter",
-    "version_raw": "",
+    "version_raw": "https://github.com/mb21/panwriter/releases/download/v0.8.9/PanWriter-0.8.9.AppImage",
     "description": "Markdown editor with pandoc integration"
   },
   {
@@ -13596,7 +13596,7 @@
     "site": "pydt/client",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/playyourdamnturn",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/playyourdamnturn",
-    "version_raw": "",
+    "version_raw": "https://github.com/pydt/client/releases/download/v2.1.9/playyourdamnturn-linux-2.1.9-x86_64.AppImage",
     "description": "Desktop Client to assist with playing your damn turns"
   },
   {
@@ -15236,7 +15236,7 @@
     "site": "pkgforge-dev/Rnote-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rnote",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rnote",
-    "version_raw": "https://github.com/pkgforge-dev/Rnote-AppImage/releases/download/0.12.0-2%402025-08-18_1755480509/rnote-0.12.0-2-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Rnote-AppImage/releases/download/0.12.0-2%402025-08-21_1755807812/rnote-0.12.0-2-anylinux-x86_64.AppImage",
     "description": "Unofficial, Rnote is a vector-based drawing app for sketching, handwritten notes and to annotate documents and pictures"
   },
   {
@@ -18652,7 +18652,7 @@
     "site": "astral-sh/uv",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uv",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uv",
-    "version_raw": "https://github.com/astral-sh/uv/releases/download/0.8.12/uv-x86_64-unknown-linux-musl.tar.gz",
+    "version_raw": "https://github.com/astral-sh/uv/releases/download/0.8.13/uv-x86_64-unknown-linux-musl.tar.gz",
     "description": "An extremely fast Python package and project manager, written in Rust"
   },
   {
@@ -19100,7 +19100,7 @@
     "site": "VSCodium/vscodium",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vscodium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vscodium",
-    "version_raw": "https://github.com/VSCodium/vscodium/releases/download/1.103.15539/VSCodium-1.103.15539.glibc2.29-x86_64.AppImage",
+    "version_raw": "https://github.com/VSCodium/vscodium/releases/download/1.103.25610/VSCodium-1.103.25610.glibc2.29-x86_64.AppImage",
     "description": "Community-driven, freely-licensed binary distribution of MS VSCode"
   },
   {
@@ -19372,7 +19372,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "53637731130",
+    "version_raw": "53641806199",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
