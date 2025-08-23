@@ -4500,7 +4500,7 @@
     "site": "pkgforge-dev/EasyTAG-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/easytag",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/easytag",
-    "version_raw": "https://github.com/pkgforge-dev/EasyTAG-AppImage/releases/download/2.4.3-15%402025-08-23_1755949922/EasyTAG-2.4.3-15-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/EasyTAG-AppImage/releases/download/2.4.3-15%402025-08-23_1755965429/EasyTAG-2.4.3-15-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of EasyTAG tag editor"
   },
   {
@@ -6092,7 +6092,7 @@
     "site": "FreeTubeApp/FreeTube",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/freetube",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/freetube",
-    "version_raw": "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.7-beta/freetube-0.23.7-beta-amd64.AppImage",
+    "version_raw": "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.8-beta/freetube-0.23.8-beta-amd64.AppImage",
     "description": "An Open Source YouTube app for privacy"
   },
   {
@@ -7516,7 +7516,7 @@
     "site": "heyman/heynote",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/heynote",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/heynote",
-    "version_raw": "https://github.com/heyman/heynote/releases/download/v2.5.0/Heynote_2.5.0_x86_64.AppImage",
+    "version_raw": "https://github.com/heyman/heynote/releases/download/v2.6.0-beta/Heynote_2.6.0-beta_x86_64.AppImage",
     "description": "A dedicated scratchpad for developers"
   },
   {
@@ -9372,7 +9372,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.5.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -13036,7 +13036,7 @@
     "site": "PCSX2/pcsx2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcsx2",
-    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.5.120/pcsx2-v2.5.120-linux-appimage-x64-Qt.AppImage",
+    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.5.121/pcsx2-v2.5.121-linux-appimage-x64-Qt.AppImage",
     "description": "The Playstation 2 Emulator"
   },
   {
@@ -13772,7 +13772,7 @@
     "site": "rubiin/pokego",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pokego",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pokego",
-    "version_raw": "https://github.com/rubiin/pokego/releases/download/v0.4.6/pokego_Linux_x86_64.tar.gz",
+    "version_raw": "https://github.com/rubiin/pokego/releases/download/v0.5.0/pokego_Linux_x86_64.tar.gz",
     "description": "Command-line tool that lets you display Pokémon sprites in color directly in your terminal"
   },
   {
@@ -17564,7 +17564,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.10.0.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.10.1.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -19438,6 +19438,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/widelands",
     "version_raw": "https://github.com/widelands/widelands/releases/download/v1.2.1/Widelands-1.2.1-x86_64.AppImage",
     "description": "Real-time strategy game with singleplayer campaigns"
+  },
+  {
+    "pkg": "wiiu-downloader",
+    "site": "Xpl0itU/WiiUDownloader",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wiiu-downloader",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wiiu-downloader",
+    "version_raw": "https://github.com/Xpl0itU/WiiUDownloader/releases/download/v2.66/WiiUDownloader-Linux-x86_64.AppImage",
+    "description": "Allows to download encrypted wiiu files from nintendo's official servers"
   },
   {
     "pkg": "wikilynx",
