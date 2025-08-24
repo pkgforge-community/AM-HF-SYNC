@@ -9372,7 +9372,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.5.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -11404,7 +11404,7 @@
     "site": "naev/naev",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/naev",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/naev",
-    "version_raw": "https://github.com/naev/naev/releases/download/nightly/naev-0.13.0-alpha.9%2B284.g0e721c8022-linux-x86-64.AppImage",
+    "version_raw": "https://github.com/naev/naev/releases/download/nightly/naev-0.13.0-alpha.9%2B286.g18b8738ee2-linux-x86-64.AppImage",
     "description": "A 2d action/rpg space game that combines elements from the action"
   },
   {
@@ -16052,7 +16052,7 @@
     "site": "karo-solutions/Signal-Desktop-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/signal",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/signal",
-    "version_raw": "https://github.com/karo-solutions/Signal-Desktop-AppImage/releases/download/v7.66.0/Signal-v7.66.0-x86_64.AppImage",
+    "version_raw": "https://github.com/karo-solutions/Signal-Desktop-AppImage/releases/download/v7.67.0/Signal-v7.67.0-x86_64.AppImage",
     "description": "Unofficial AppImage package for Signal (communication)"
   },
   {
@@ -16374,6 +16374,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/snake-js",
     "version_raw": "https://github.com/aenany/snake.js/releases/download/v0.0.2/snake.js-0.0.2.AppImage",
     "description": "Canvas/JavaScript based Snake Game with support for controllers"
+  },
+  {
+    "pkg": "snapclear",
+    "site": "manuelernestog/snapclear-app-releases",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/snapclear",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/snapclear",
+    "version_raw": "https://github.com/manuelernestog/snapclear-app-releases/releases/download/v2.1.0/Snapclear-2.1.0.AppImage",
+    "description": "Remove Image Background with AI for Free Offline"
   },
   {
     "pkg": "snapshot-slider",
@@ -19380,7 +19388,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "53745264302",
+    "version_raw": "53746353643",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
