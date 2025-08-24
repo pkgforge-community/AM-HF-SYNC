@@ -2012,7 +2012,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave-nightly",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-nightly/Brave-Web-Browser-nightly-1.83.72-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-nightly/Brave-Web-Browser-nightly-1.83.73-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the nightly release"
   },
   {
@@ -10080,6 +10080,14 @@
     "description": "Unofficial. Install and play video games from all eras and from most gaming systems, by leveraging and combining existing emulators, WINE included"
   },
   {
+    "pkg": "lutris-gamepad-ui",
+    "site": "andrew-ld/lutris-gamepad-ui",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lutris-gamepad-ui",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lutris-gamepad-ui",
+    "version_raw": "https://github.com/andrew-ld/lutris-gamepad-ui/releases/download/v0.1.14/lutris-gamepad-ui-x64.AppImage",
+    "description": "A simple, TV-friendly, gamepad-navigable frontend for the Lutris game launcher on Linux"
+  },
+  {
     "pkg": "lux",
     "site": "https://bitbucket.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lux",
@@ -15268,7 +15276,7 @@
     "site": "Samueru-sama/rofi-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rofi",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rofi",
-    "version_raw": "https://github.com/pkgforge-dev/rofi-AppImage/releases/download/2.0.0%402025-08-17_1755465637/rofi-2.0.0-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/rofi-AppImage/releases/download/2.0.0%402025-08-24_1756069884/rofi-2.0.0-anylinux-x86_64.AppImage",
     "description": "Unofficial, A window switcher, runs dialogs, dmenu like, etc"
   },
   {
@@ -15900,7 +15908,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4-nightly",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-08-24-6d98a5ab608d7c3b044e10e81c81d07bd7b80fc4/shadps4-linux-sdl-2025-08-24-6d98a5a.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-08-24-c90781d3e21ce2f141a81d6160d3d2b350c1d754/shadps4-linux-sdl-2025-08-24-c90781d.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -19380,7 +19388,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "53763935353",
+    "version_raw": "53765241264",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
