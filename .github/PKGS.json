@@ -164,7 +164,7 @@
     "site": "toeverything/AFFiNE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine-canary",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine-canary",
-    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2025.8.23-canary.903/affine-2025.8.23-canary.903-canary-linux-x64.appimage",
+    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2025.8.24-canary.903/affine-2025.8.24-canary.903-canary-linux-x64.appimage",
     "description": "Next-gen knowledge base that brings planning/sorting/creating"
   },
   {
@@ -3492,7 +3492,7 @@
     "site": "pkgforge-dev/Cromite-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cromite",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cromite",
-    "version_raw": "https://github.com/pkgforge-dev/Cromite-AppImage/releases/download/v139.0.7258.143%402025-08-23_1755976103/Cromite-v139.0.7258.143-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Cromite-AppImage/releases/download/v139.0.7258.143%402025-08-24_1756030876/Cromite-v139.0.7258.143-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of the Cromite web browser"
   },
   {
@@ -9372,7 +9372,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.5.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -10692,7 +10692,7 @@
     "site": "ivan-hc/MS-Edge-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/microsoft-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/microsoft-edge",
-    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-stable-139.0.3405.111-1-x86_64.AppImage",
+    "version_raw": "",
     "description": "Web Browser provided by Microsoft, Stable Edition"
   },
   {
@@ -10726,14 +10726,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/midori",
     "version_raw": "https://github.com/goastian/midori-desktop/releases/download/v11.5/Midori-11.5.AppImage",
     "description": "Surf lightly, quickly and safely with Midori Web Browser"
-  },
-  {
-    "pkg": "miesimulatorgui",
-    "site": "VirtualPhotonics/MieSimulatorGUI",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/miesimulatorgui",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/miesimulatorgui",
-    "version_raw": "https://github.com/VirtualPhotonics/MieSimulatorGUI/releases/download/Version_2.0/MieSimulatorGUI_v2_0-x86_64.AppImage",
-    "description": "MieSimulatorGUI by Virtual Photonics"
   },
   {
     "pkg": "mightymike",
@@ -15308,7 +15300,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-d72f95677e92fd6031214d20861379ed005207a5/rpcs3-v0.0.37-18110-d72f9567_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-4332d2151e109208623922b4befe2dc2f4504a9b/rpcs3-v0.0.37-18113-4332d215_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -19388,7 +19380,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "53749110829",
+    "version_raw": "53751896639",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -19988,7 +19980,7 @@
     "site": "xpipe-io/xpipe",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xpipe",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xpipe",
-    "version_raw": "https://github.com/xpipe-io/xpipe/releases/download/17.4/xpipe-portable-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/xpipe-io/xpipe/releases/download/18.0.1/xpipe-portable-linux-x86_64.AppImage",
     "description": "Your entire server infrastructure at your fingertips. Manage all your servers from your local desktop. No remote setup required"
   },
   {
