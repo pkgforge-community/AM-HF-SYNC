@@ -6516,7 +6516,7 @@
     "site": "pkgforge-dev/ghostty-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ghostty-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ghostty-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.1.4-main%2B400576f-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.1.4-main%2B9a56e77-x86_64.AppImage",
     "description": "Unoffical, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (Tip, Nightly)"
   },
   {
@@ -9372,7 +9372,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.5.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -10734,6 +10734,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/midori",
     "version_raw": "https://github.com/goastian/midori-desktop/releases/download/v11.5/Midori-11.5.AppImage",
     "description": "Surf lightly, quickly and safely with Midori Web Browser"
+  },
+  {
+    "pkg": "miesimulatorgui",
+    "site": "VirtualPhotonics/MieSimulatorGUI",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/miesimulatorgui",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/miesimulatorgui",
+    "version_raw": "https://github.com/VirtualPhotonics/MieSimulatorGUI/releases/download/continuous/MieSimulatorGUI-359f6d9-x86_64.AppImage",
+    "description": "MieSimulatorGUI by Virtual Photonics"
   },
   {
     "pkg": "mightymike",
@@ -12916,7 +12924,7 @@
     "site": "Scille/parsec-cloud",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parsec",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parsec",
-    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.5.0-a.6.dev.20324%2B9e6e2ef_linux_x86_64.unsigned.AppImage",
+    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.5.0-a.6.dev.20325%2B62436e6_linux_x86_64.unsigned.AppImage",
     "description": "Open source Dropbox-like file sharing with full client encryption"
   },
   {
@@ -13036,7 +13044,7 @@
     "site": "PCSX2/pcsx2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcsx2",
-    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.5.128/pcsx2-v2.5.128-linux-appimage-x64-Qt.AppImage",
+    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.5.129/pcsx2-v2.5.129-linux-appimage-x64-Qt.AppImage",
     "description": "The Playstation 2 Emulator"
   },
   {
@@ -15276,7 +15284,7 @@
     "site": "Samueru-sama/rofi-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rofi",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rofi",
-    "version_raw": "https://github.com/pkgforge-dev/rofi-AppImage/releases/download/2.0.0%402025-08-24_1756069884/rofi-2.0.0-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/rofi-AppImage/releases/download/2.0.0%402025-08-25_1756160708/rofi-2.0.0-anylinux-x86_64.AppImage",
     "description": "Unofficial, A window switcher, runs dialogs, dmenu like, etc"
   },
   {
@@ -15364,7 +15372,7 @@
     "site": "Linus-Mussmaecher/rucola",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rucola",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rucola",
-    "version_raw": "https://github.com/Linus-Mussmaecher/rucola/releases/download/v0.5.0/rucola-notes-x86_64-unknown-linux-gnu.tar.xz",
+    "version_raw": "https://github.com/Linus-Mussmaecher/rucola/releases/download/v0.6.0/rucola-notes-x86_64-unknown-linux-gnu.tar.xz",
     "description": "Terminal-based markdown note manager"
   },
   {
@@ -16964,7 +16972,7 @@
     "site": "sagivo/StockStalk",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/stockstalk",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/stockstalk",
-    "version_raw": "",
+    "version_raw": "https://github.com/sagivo/StockStalk/releases/download/v1.0.7/StockStalk-1.0.7-x86_64.AppImage",
     "description": "Your stocks on your desktop"
   },
   {
@@ -19388,7 +19396,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "53796579519",
+    "version_raw": "53802175024",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
