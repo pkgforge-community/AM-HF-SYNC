@@ -612,7 +612,7 @@
     "site": "anyproto/anytype-ts",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anytype",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anytype",
-    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.49.16-alpha/Anytype-0.49.16-alpha.AppImage",
+    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.49.17-alpha/Anytype-0.49.17-alpha.AppImage",
     "description": "The everything app for those who celebrate trust & autonomy"
   },
   {
@@ -2004,7 +2004,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave-beta",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-beta/Brave-Web-Browser-beta-1.83.86-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-beta/Brave-Web-Browser-beta-1.83.87-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the beta release"
   },
   {
@@ -2012,7 +2012,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave-nightly",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-nightly/Brave-Web-Browser-nightly-1.84.3-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-nightly/Brave-Web-Browser-nightly-1.84.10-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the nightly release"
   },
   {
@@ -4532,7 +4532,7 @@
     "site": "pflyly/eden-nightly",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eden-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eden-nightly",
-    "version_raw": "https://github.com/pflyly/eden-nightly/releases/download/2025-08-28-27647/Eden-27647-Common-x86_64_v3.AppImage",
+    "version_raw": "https://github.com/pflyly/eden-nightly/releases/download/2025-08-29-27652/Eden-27652-Common-x86_64_v3.AppImage",
     "description": "Unofficial, an experimental open-source emulator for Nintendo Switch (yuzu fork, nightly builds)"
   },
   {
@@ -15916,7 +15916,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4-nightly",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-08-29-e85308c01125f27b7d1ec5ee414cd3f0801d6d8c/shadps4-linux-sdl-2025-08-29-e85308c.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-08-29-8ae45559fca1c098c532f92220ed643de7aaa866/shadps4-linux-sdl-2025-08-29-8ae4555.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -19888,6 +19888,14 @@
     "description": "Original Xbox Emulator"
   },
   {
+    "pkg": "xenia-canary",
+    "site": "pkgforge-dev/xenia-canary-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xenia-canary",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xenia-canary",
+    "version_raw": "https://github.com/pkgforge-dev/xenia-canary-AppImage/releases/download/7650730%402025-08-29_1756452184/xenia-canary-7650730-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of xenia-canary Xbox360 emulator"
+  },
+  {
     "pkg": "xgetter",
     "site": "xgetter-team/xgetter",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xgetter",
@@ -20508,7 +20516,7 @@
     "site": "zulip/zulip-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zulip",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zulip",
-    "version_raw": "https://github.com/zulip/zulip-desktop/releases/download/v5.12.0/Zulip-5.12.0-x86_64.AppImage",
+    "version_raw": "https://github.com/zulip/zulip-desktop/releases/download/v5.12.1/Zulip-5.12.1-x86_64.AppImage",
     "description": "Zulip Desktop Client for Linux"
   },
   {
