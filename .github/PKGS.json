@@ -164,7 +164,7 @@
     "site": "toeverything/AFFiNE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine-canary",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine-canary",
-    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2025.8.29-canary.904/affine-2025.8.29-canary.904-canary-linux-x64.appimage",
+    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2025.8.31-canary.903/affine-2025.8.31-canary.903-canary-linux-x64.appimage",
     "description": "Next-gen knowledge base that brings planning/sorting/creating"
   },
   {
@@ -3012,7 +3012,7 @@
     "site": "binarynonsense/comic-book-reader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/comic-book-reader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/comic-book-reader",
-    "version_raw": "https://github.com/binarynonsense/comic-book-reader/releases/download/v3.12.4/ACBR_Linux_AppImage.zip",
+    "version_raw": "https://github.com/binarynonsense/comic-book-reader/releases/download/v3.12.5/ACBR_Linux_AppImage.zip",
     "description": "Reader and converter for cbz, cbr, epub and pdf files"
   },
   {
@@ -10196,7 +10196,7 @@
     "site": "buddhi1980/mandelbulber2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mandelbulber2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mandelbulber2",
-    "version_raw": "https://github.com/buddhi1980/mandelbulber2/releases/download/continuous/Mandelbulber_v2-176ffc7-x86_64.AppImage",
+    "version_raw": "https://github.com/buddhi1980/mandelbulber2/releases/download/continuous/Mandelbulber_v2-55dfd4d-x86_64.AppImage",
     "description": "Explore trigonometric, hyper-complex and other 3D fractals"
   },
   {
@@ -15992,6 +15992,14 @@
     "description": "Ship of Harkinian"
   },
   {
+    "pkg": "shiru",
+    "site": "RockinChaos/Shiru",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shiru",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shiru",
+    "version_raw": "https://github.com/RockinChaos/Shiru/releases/download/v6.1.12/linux-Shiru-v6.1.12.AppImage",
+    "description": "BitTorrent streaming software with no paws in the way—watch anime in real-time, no waiting for downloads!"
+  },
+  {
     "pkg": "shotcut",
     "site": "mltframework/shotcut",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shotcut",
@@ -17344,6 +17352,14 @@
     "description": "Surrealist is the ultimate way to visually manage your SurrealDB database"
   },
   {
+    "pkg": "suwayomi",
+    "site": "Suwayomi/Suwayomi-Server",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/suwayomi",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/suwayomi",
+    "version_raw": "https://github.com/Suwayomi/Suwayomi-Server/releases/download/v2.1.1867/Suwayomi-Server-v2.1.1867-appimage.AppImage",
+    "description": "A rewrite of Tachiyomi for the Desktop"
+  },
+  {
     "pkg": "suyu",
     "site": "https://git.suyu.dev/suyu/suyu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/suyu",
@@ -18020,7 +18036,7 @@
     "site": "bksubhuti/tipitaka-pali-reader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tipitaka-pali-reader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tipitaka-pali-reader",
-    "version_raw": "https://github.com/bksubhuti/tipitaka-pali-reader/releases/download/v2.7.2%2B95/tipitaka_pali_reader.AppImage",
+    "version_raw": "https://github.com/bksubhuti/tipitaka-pali-reader/releases/download/2.7.2%2B99/tipitaka_pali_reader.AppImage",
     "description": "A Pali Reading app made in Flutter"
   },
   {
@@ -19404,7 +19420,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "54051123440",
+    "version_raw": "54052737164",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -19478,6 +19494,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wikilynx",
     "version_raw": "https://github.com/flamboyantpenguin/wikilynx/releases/download/v1.5.6/wikiLYNX_1.5.6-3_amd64.AppImage",
     "description": "A simple game browser made using Qt C++ for playing wikipedia speed-runs the right way"
+  },
+  {
+    "pkg": "winboat",
+    "site": "TibixDev/winboat",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/winboat",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/winboat",
+    "version_raw": "https://github.com/TibixDev/winboat/releases/download/v0.6.8/winboat-0.6.8.AppImage",
+    "description": "Run Windows apps on 🐧 Linux with ✨ seamless integration"
   },
   {
     "pkg": "window-pet",
