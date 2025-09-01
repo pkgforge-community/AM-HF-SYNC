@@ -716,7 +716,7 @@
     "site": "https://gitlab.com/posktomten/appimagehelper",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimagehelper",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimagehelper",
-    "version_raw": "2022-11-06",
+    "version_raw": "",
     "description": "Create and organize shortcuts for AppImages"
   },
   {
@@ -980,7 +980,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "1.0.4",
+    "version_raw": "",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -2576,14 +2576,6 @@
     "description": "A cross-platform ChatGPT/Gemini UI"
   },
   {
-    "pkg": "chatgpt-pake",
-    "site": "tw93/Pake",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chatgpt-pake",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chatgpt-pake",
-    "version_raw": "https://github.com/tw93/Pake/releases/download/V3.2.16/ChatGPT_x86_64.AppImage",
-    "description": "Unofficial ChatGPT app. Pake project turns any webpage into a desktop app with Rust"
-  },
-  {
     "pkg": "chatpad-ai",
     "site": "https://chatpad.ai",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chatpad-ai",
@@ -2950,14 +2942,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/code-radio",
     "version_raw": "https://github.com/JasonWei512/code-radio-cli/releases/download/v1.0.5/code-radio-1.0.5-ubuntu-x86_64-gnu",
     "description": "A command line music radio client for coderadio.freecodecamp.org, written in Rust"
-  },
-  {
-    "pkg": "coderunner-pake",
-    "site": "tw93/Pake",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/coderunner-pake",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/coderunner-pake",
-    "version_raw": "https://github.com/tw93/Pake/releases/download/V2.6.0/CodeRunner_x86_64.AppImage",
-    "description": "Unofficial CodeRunner app. Pake project turns any webpage into a desktop app with Rust"
   },
   {
     "pkg": "coinstac",
@@ -4508,7 +4492,7 @@
     "site": "pkgforge-dev/EasyTAG-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/easytag",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/easytag",
-    "version_raw": "https://github.com/pkgforge-dev/EasyTAG-AppImage/releases/download/2.4.3-15%402025-08-29_1756484483/EasyTAG-2.4.3-15-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/EasyTAG-AppImage/releases/download/2.4.3-15%402025-09-01_1756743680/EasyTAG-2.4.3-15-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of EasyTAG tag editor"
   },
   {
@@ -4540,7 +4524,7 @@
     "site": "pflyly/eden-nightly",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eden-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eden-nightly",
-    "version_raw": "https://github.com/pflyly/eden-nightly/releases/download/2025-08-31-27665/Eden-27665-Common-x86_64_v3.AppImage",
+    "version_raw": "https://github.com/pflyly/eden-nightly/releases/download/2025-09-01-27668/Eden-27668-Common-x86_64_v3.AppImage",
     "description": "Unofficial, an experimental open-source emulator for Nintendo Switch (yuzu fork, nightly builds)"
   },
   {
@@ -5088,14 +5072,6 @@
     "description": "Agent-based modeling"
   },
   {
-    "pkg": "excalidraw-pake",
-    "site": "tw93/Pake",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/excalidraw-pake",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/excalidraw-pake",
-    "version_raw": "https://github.com/tw93/Pake/releases/download/V3.2.16/Excalidraw_x86_64.AppImage",
-    "description": "Unofficial Excalidraw, a virtual collaborative whiteboard tool that lets you easily sketch diagrams that have a hand-drawn feel to them. Pake project turns any webpage into a desktop app with Rust"
-  },
-  {
     "pkg": "excel-parser-processor",
     "site": "btargac/excel-parser-processor",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/excel-parser-processor",
@@ -5308,7 +5284,7 @@
     "site": "Portable-Linux-Apps/fastfetch-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fastfetch",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fastfetch",
-    "version_raw": "https://github.com/Portable-Linux-Apps/fastfetch-AppImage/releases/download/2.51.1%402025-08-29_1756484036/fastfetch-2.51.1-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/fastfetch-AppImage/releases/download/2.51.1%402025-09-01_1756743263/fastfetch-2.51.1-x86_64.AppImage",
     "description": "Like neofetch, but much faster because written mostly in C"
   },
   {
@@ -5784,19 +5760,11 @@
     "description": "Music sheet reader"
   },
   {
-    "pkg": "flomo-pake",
-    "site": "tw93/Pake",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flomo-pake",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/flomo-pake",
-    "version_raw": "https://github.com/tw93/Pake/releases/download/V3.2.16/Flomo_x86_64.AppImage",
-    "description": "Unofficial Flomo app. Pake project turns any webpage into a desktop app with Rust"
-  },
-  {
     "pkg": "floorp",
     "site": "Portable-Linux-Apps/floorp-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/floorp",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/floorp",
-    "version_raw": "https://github.com/Portable-Linux-Apps/floorp-AppImage/releases/download/nightly/Floorp-v12.1.2-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/floorp-AppImage/releases/download/nightly/Floorp-v12.1.3-x86_64.AppImage",
     "description": "Floorp Web Browser, the most Advanced and Fastest Firefox derivative"
   },
   {
@@ -6400,14 +6368,6 @@
     "description": "Command line downloader for the Gemini protocol"
   },
   {
-    "pkg": "gemini-pake",
-    "site": "tw93/Pake",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gemini-pake",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gemini-pake",
-    "version_raw": "https://github.com/tw93/Pake/releases/download/V3.2.16/Gemini_x86_64.AppImage",
-    "description": "Unofficial Gemini app. Pake project turns any webpage into a desktop app with Rust"
-  },
-  {
     "pkg": "genact",
     "site": "svenstaro/genact",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/genact",
@@ -6820,7 +6780,7 @@
     "site": "pkgforge-dev/Gnome-Calculator-Appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gnome-calculator",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gnome-calculator",
-    "version_raw": "https://github.com/pkgforge-dev/Gnome-Calculator-AppImage/releases/download/48.1-2%402025-08-29_1756483456/gnome-calculator-48.1-2-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Gnome-Calculator-AppImage/releases/download/48.1-2%402025-09-01_1756743225/gnome-calculator-48.1-2-anylinux-x86_64.AppImage",
     "description": "Unofficial, Perform arithmetic, scientific or financial calculations"
   },
   {
@@ -7380,7 +7340,7 @@
     "site": "https://gitlab.com/posktomten/hashsum",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hashsum",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hashsum",
-    "version_raw": "2025.05.26",
+    "version_raw": "",
     "description": "A universal tool for finding file duplicates and modified files"
   },
   {
@@ -7796,7 +7756,7 @@
     "site": "Portable-Linux-Apps/IceCat-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/icecat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/icecat",
-    "version_raw": "https://github.com/Portable-Linux-Apps/IceCat-AppImage/releases/download/128.14.0%402025-08-29_1756483836/IceCat-128.14.0-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/IceCat-AppImage/releases/download/128.14.0%402025-09-01_1756742510/IceCat-128.14.0-x86_64.AppImage",
     "description": "GNU IceCat is the GNU version of the Firefox web browser"
   },
   {
@@ -8708,7 +8668,7 @@
     "site": "pkgforge-dev/kdeconnect-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kdeconnect",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kdeconnect",
-    "version_raw": "https://github.com/pkgforge-dev/kdeconnect-AppImage/releases/download/25.08.0-2%402025-08-22_1755879484/kdeconnect-25.08.0-2-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/kdeconnect-AppImage/releases/download/25.08.0-2%402025-09-01_1756743480/kdeconnect-25.08.0-2-anylinux-x86_64.AppImage",
     "description": "Unofficial, A project that enables all your Android devices to communicate with each other"
   },
   {
@@ -9484,7 +9444,7 @@
     "site": "Portable-Linux-Apps/lapce-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lapce",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lapce",
-    "version_raw": "https://github.com/Portable-Linux-Apps/lapce-AppImage/releases/download/v0.4.3%402025-08-21_1755793871/Lapce-v0.4.3-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/lapce-AppImage/releases/download/v0.4.4%402025-09-01_1756743889/Lapce-v0.4.4-x86_64.AppImage",
     "description": "Lightning-fast and Powerful Code Editor written in Rust"
   },
   {
@@ -9596,7 +9556,7 @@
     "site": "https://k8slens.dev",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lens",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lens",
-    "version_raw": "",
+    "version_raw": "2024.11.261604",
     "description": "App you need to take control of your Kubernetes clusters"
   },
   {
@@ -9788,7 +9748,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -9862,14 +9822,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/liveme-pro-tools",
     "version_raw": "https://github.com/thecoder75/liveme-pro-tools/releases/download/v1.508.20211220/LiveMe_Pro_Tools-1.508.20211220-linux-x86_64.AppImage",
     "description": "Browse, search and manage accounts, replays and more"
-  },
-  {
-    "pkg": "lizhi-pake",
-    "site": "tw93/Pake",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lizhi-pake",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lizhi-pake",
-    "version_raw": "https://github.com/tw93/Pake/releases/download/V3.2.16/LiZhi_x86_64.AppImage",
-    "description": "Unofficial LiZhi app. Pake project turns any webpage into a desktop app with Rust"
   },
   {
     "pkg": "lmms",
@@ -9972,7 +9924,7 @@
     "site": "Portable-Linux-Apps/Lorien-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lorien",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lorien",
-    "version_raw": "https://github.com/Portable-Linux-Apps/Lorien-AppImage/releases/download/v0.6.0%402025-08-29_1756484024/Lorien-v0.6.0-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/Lorien-AppImage/releases/download/v0.6.0%402025-09-01_1756743231/Lorien-v0.6.0-x86_64.AppImage",
     "description": "Infinite canvas drawing/whiteboarding app"
   },
   {
@@ -10728,14 +10680,6 @@
     "description": "Web Browser provided by Microsoft, Developer Edition"
   },
   {
-    "pkg": "microsoft-loop-pake",
-    "site": "tw93/Pake",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/microsoft-loop-pake",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/microsoft-loop-pake",
-    "version_raw": "https://github.com/tw93/Pake/releases/download/V2.0.0/Loop_x86_64.AppImage",
-    "description": "Unofficial Microsoft Loop. Pake project turns any webpage into a desktop app with Rust"
-  },
-  {
     "pkg": "midori",
     "site": "goastian/midori-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/midori",
@@ -11228,7 +11172,7 @@
     "site": "Portable-Linux-Apps/mullvad-browser-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mullvad-browser",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mullvad-browser",
-    "version_raw": "https://github.com/Portable-Linux-Apps/mullvad-browser-AppImage/releases/download/14.5.6%402025-08-29_1756484784/Mullvad_Browser-14.5.6-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/mullvad-browser-AppImage/releases/download/14.5.6%402025-09-01_1756743924/Mullvad_Browser-14.5.6-x86_64.AppImage",
     "description": "A Tor-based Web Browser"
   },
   {
@@ -12868,7 +12812,7 @@
     "site": "Portable-Linux-Apps/palemoon-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/palemoon",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/palemoon",
-    "version_raw": "https://github.com/Portable-Linux-Apps/palemoon-AppImage/releases/download/33.8.2%402025-08-29_1756484956/Pale_Moon-33.8.2-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/palemoon-AppImage/releases/download/33.8.2%402025-09-01_1756744100/Pale_Moon-33.8.2-x86_64.AppImage",
     "description": "Web browser, a Firefox fork with a classic UI and modern APIs"
   },
   {
@@ -13744,14 +13688,6 @@
     "description": "Path of Exile ladder viewer"
   },
   {
-    "pkg": "poe-pake",
-    "site": "tw93/Pake",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/poe-pake",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/poe-pake",
-    "version_raw": "https://github.com/tw93/Pake/releases/download/V2.6.0/Poe_x86_64.AppImage",
-    "description": "Unofficial Poe app. Pake project turns any webpage into a desktop app with Rust"
-  },
-  {
     "pkg": "poedit",
     "site": "ivan-hc/Database-of-pkg2appimaged-packages",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/poedit",
@@ -14110,14 +14046,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/programmer-browser",
     "version_raw": "https://github.com/yessGlory17/programmer-browser/releases/download/v0.1.8/ProgrammerBrowser-0.1.8.AppImage",
     "description": "A fast-searching and space-saving browser specially designed for programmers"
-  },
-  {
-    "pkg": "programmusic-pake",
-    "site": "tw93/Pake",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/programmusic-pake",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/programmusic-pake",
-    "version_raw": "https://github.com/tw93/Pake/releases/download/V3.2.16/ProgramMusic_x86_64.AppImage",
-    "description": "Unofficial ProgramMusic app. Pake project turns any webpage into a desktop app with Rust"
   },
   {
     "pkg": "promethium",
@@ -14776,14 +14704,6 @@
     "description": "Practical and minimal image viewer"
   },
   {
-    "pkg": "qwerty-learner-pake",
-    "site": "tw93/Pake",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qwerty-learner-pake",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qwerty-learner-pake",
-    "version_raw": "https://github.com/tw93/Pake/releases/download/V3.2.16/Qwerty_x86_64.AppImage",
-    "description": "Unofficial. Words learning and English muscle memory training. Pake project turns any webpage into a desktop app with Rust"
-  },
-  {
     "pkg": "qxgedit",
     "site": "https://sourceforge.net/projects/qxgedit",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qxgedit",
@@ -15388,7 +15308,7 @@
     "site": "Portable-Linux-Apps/ruffle-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ruffle",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ruffle",
-    "version_raw": "https://github.com/Portable-Linux-Apps/ruffle-AppImage/releases/download/nightly-2025-08-29%402025-08-29_1756484412/Ruffle-nightly-2025-08-29-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/ruffle-AppImage/releases/download/nightly-2025-09-01%402025-09-01_1756743595/Ruffle-nightly-2025-09-01-x86_64.AppImage",
     "description": "A Flash Player emulator written in Rust"
   },
   {
@@ -17716,7 +17636,7 @@
     "site": "Portable-Linux-Apps/Telegram-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/telegram",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/telegram",
-    "version_raw": "https://github.com/Portable-Linux-Apps/Telegram-AppImage/releases/download/v6.0.3%402025-08-29_1756484138/Telegram-v6.0.3-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/Telegram-AppImage/releases/download/v6.1.0%402025-09-01_1756743380/Telegram-v6.1.0-x86_64.AppImage",
     "description": "Official desktop version of Telegram messaging app"
   },
   {
@@ -18252,7 +18172,7 @@
     "site": "pkgforge-dev/transmission-qt-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/transmission-qt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/transmission-qt",
-    "version_raw": "https://github.com/pkgforge-dev/transmission-qt-AppImage/releases/download/4.0.6-10%402025-08-22_1755879841/Transmission-Qt-4.0.6-10-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/transmission-qt-AppImage/releases/download/4.0.6-10%402025-09-01_1756743820/Transmission-Qt-4.0.6-10-anylinux-x86_64.AppImage",
     "description": "Unofficial, Fast, easy, and free BitTorrent client, Qt GUI"
   },
   {
@@ -18464,14 +18384,6 @@
     "description": "An Electron wrapper for Twitch.tv"
   },
   {
-    "pkg": "twitter-pake",
-    "site": "tw93/Pake",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/twitter-pake",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/twitter-pake",
-    "version_raw": "https://github.com/tw93/Pake/releases/download/V3.2.16/Twitter_x86_64.AppImage",
-    "description": "Unofficial Twitter app. Pake project turns any webpage into a desktop app with Rust"
-  },
-  {
     "pkg": "typioca",
     "site": "bloznelis/typioca",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/typioca",
@@ -18596,7 +18508,7 @@
     "site": "pkgforge-dev/UnleashedRecomp-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/unleashedrecomp",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/unleashedrecomp",
-    "version_raw": "https://github.com/pkgforge-dev/UnleashedRecomp-AppImage/releases/download/1.0.3-1%402025-08-29_1756484484/UnleashedRecomp-1.0.3-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/UnleashedRecomp-AppImage/releases/download/1.0.3-1%402025-09-01_1756743685/UnleashedRecomp-1.0.3-1-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of UnleashedRecomp (Sonic Unleashed port)"
   },
   {
@@ -19084,7 +18996,7 @@
     "site": "ivan-hc/VLC-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vlc-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vlc-git",
-    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r34481.gb194800fc45d-1-archimage4.3-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous/VLC-media-player_3.0.21-28-archimage4.3-x86_64.AppImage",
     "description": "Unofficial. Free and Open Source Video & Media player, GIT version"
   },
   {
@@ -19268,7 +19180,7 @@
     "site": "Portable-Linux-Apps/Waterfox-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/waterfox",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/waterfox",
-    "version_raw": "https://github.com/Portable-Linux-Apps/Waterfox-AppImage/releases/download/140.3.0%402025-08-29_1756484434/Waterfox-140.3.0-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/Waterfox-AppImage/releases/download/140.3.0%402025-09-01_1756743590/Waterfox-140.3.0-x86_64.AppImage",
     "description": "A privacy-focused web browser engineered to give you  speed, control, and peace of mind on the internet"
   },
   {
@@ -19366,14 +19278,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/weektodo",
     "version_raw": "https://github.com/manuelernestog/weektodo/releases/download/v2.2.0/WeekToDo-2.2.0.AppImage",
     "description": "WeekToDo is a Free and Open Source Weekly Planner"
-  },
-  {
-    "pkg": "weread-pake",
-    "site": "tw93/Pake",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/weread-pake",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/weread-pake",
-    "version_raw": "https://github.com/tw93/Pake/releases/download/V3.2.16/WeRead_x86_64.AppImage",
-    "description": "Unofficial WeRead. Pake project turns any webpage into a desktop app with Rust"
   },
   {
     "pkg": "westeroscraftlauncher",
@@ -19936,14 +19840,6 @@
     "description": "Download video on Youtube, Facebook, X(Twitter), Instagram, Tiktok, Bilibili, Douyin and more"
   },
   {
-    "pkg": "xiaohongshu-pake",
-    "site": "tw93/Pake",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xiaohongshu-pake",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xiaohongshu-pake",
-    "version_raw": "https://github.com/tw93/Pake/releases/download/V3.2.16/XiaoHongShu_x86_64.AppImage",
-    "description": "Unofficial xiaohongshu. Pake project turns any webpage into a desktop app with Rust"
-  },
-  {
     "pkg": "xilinota",
     "site": "XilinJia/Xilinota",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xilinota",
@@ -20200,14 +20096,6 @@
     "description": "Unofficial. Amazing electron wrapper for YouTube Music featuring plugins"
   },
   {
-    "pkg": "youtube-pake",
-    "site": "tw93/Pake",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/youtube-pake",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/youtube-pake",
-    "version_raw": "https://github.com/tw93/Pake/releases/download/V3.2.16/YouTube_x86_64.AppImage",
-    "description": "Unofficial YouTube app. Pake project turns any webpage into a desktop app with Rust"
-  },
-  {
     "pkg": "youtube-tui",
     "site": "Siriusmart/youtube-tui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/youtube-tui",
@@ -20222,14 +20110,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/youtubeanddownloader",
     "version_raw": "https://github.com/claudemods/YoutubeAndDownloader/releases/download/v1.02/youtube_appimage-x86_64.AppImage",
     "description": "An app to use youtube and download videos as mp3s or mp4s"
-  },
-  {
-    "pkg": "youtubemusic-pake",
-    "site": "tw93/Pake",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/youtubemusic-pake",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/youtubemusic-pake",
-    "version_raw": "https://github.com/tw93/Pake/releases/download/V3.2.16/YouTubeMusic_x86_64.AppImage",
-    "description": "Unofficial YouTube Music app. Pake project turns any webpage into a desktop app with Rust"
   },
   {
     "pkg": "youtubesearchfilter",
@@ -20328,14 +20208,6 @@
     "description": "Arch Linux AUR Helper with ncurses functionality and better searching and sorting"
   },
   {
-    "pkg": "yuque-pake",
-    "site": "tw93/Pake",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yuque-pake",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yuque-pake",
-    "version_raw": "https://github.com/tw93/Pake/releases/download/V2.0.0/YuQue_x86_64.AppImage",
-    "description": "Unofficial YuQue. Pake project turns any webpage into a desktop app with Rust"
-  },
-  {
     "pkg": "yuview",
     "site": "IENT/YUView",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yuview",
@@ -20404,7 +20276,7 @@
     "site": "zen-browser/desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zen-browser",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zen-browser",
-    "version_raw": "https://github.com/zen-browser/desktop/releases/download/1.15.3b/zen-x86_64.AppImage",
+    "version_raw": "https://github.com/zen-browser/desktop/releases/download/1.15.2b/zen-x86_64.AppImage",
     "description": "Experience tranquillity while browsing the web without tracking"
   },
   {
