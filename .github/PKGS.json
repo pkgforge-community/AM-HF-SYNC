@@ -8,12 +8,132 @@
     "description": "Unofficial. FOSS historical Real Time Strategy, RTS game of ancient warfare"
   },
   {
+    "pkg": "0ad-prerelease",
+    "site": "0ad-matters/0ad-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/0ad-prerelease",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/0ad-prerelease",
+    "version_raw": "https://github.com/0ad-matters/0ad-appimage/releases/download/v0.0.27-rc1-27645-alpha/0ad-0.0.27-rc1-27645-alpha-2306180725-focal-x86_64.AppImage",
+    "description": "Unofficial. FOSS historical Real Time Strategy, RTS game of ancient warfare (Pre-release)"
+  },
+  {
+    "pkg": "2ship",
+    "site": "HarbourMasters/2ship2harkinian",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/2ship",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/2ship",
+    "version_raw": "https://github.com/HarbourMasters/2ship2harkinian/releases/download/2.0.1/2Ship-Rena-Bravo-Linux.zip",
+    "description": "2 Ship 2 Harkinian game"
+  },
+  {
+    "pkg": "3d-puzzles",
+    "site": "volatilflerovium/3D-Puzzles",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/3d-puzzles",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/3d-puzzles",
+    "version_raw": "https://raw.githubusercontent.com/volatilflerovium/3D-Puzzles/main/3D-Puzzles-x86_64.AppImage",
+    "description": "3D-Puzzles are Rubik, Dogic and Dogic12"
+  },
+  {
+    "pkg": "432hz-player",
+    "site": "mysteryx93/NaturalGroundingPlayer",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/432hz-player",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/432hz-player",
+    "version_raw": "https://github.com/mysteryx93/HanumanInstituteApps/releases/download/v3.3.2/Player432Hz-3.3.2_Linux_x64.AppImage",
+    "description": "Because most music is recorded in 440hz, Audio Player"
+  },
+  {
+    "pkg": "7zip",
+    "site": "https://www.7-zip.org",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/7zip",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/7zip",
+    "version_raw": "https://www.7-zip.org/",
+    "description": "7-Zip is a file archiver with a high compression ratio"
+  },
+  {
+    "pkg": "86box",
+    "site": "86Box/86Box",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/86box",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/86box",
+    "version_raw": "https://github.com/86Box/86Box/releases/download/v5.0/86Box-Linux-x86_64-b7600.AppImage",
+    "description": "Emulator of x86-based machines based on PCem"
+  },
+  {
+    "pkg": "9launcher",
+    "site": "wearrrrr/9Launcher",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/9launcher",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/9launcher",
+    "version_raw": "https://github.com/wearrrrr/9Launcher/releases/download/v.1.3.1/9launcher_1.3.1_amd64.AppImage",
+    "description": "An actively maintained and cross platform remake of Touhou Relauncher"
+  },
+  {
+    "pkg": "aaaaxy",
+    "site": "divVerent/aaaaxy",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aaaaxy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aaaaxy",
+    "version_raw": "https://github.com/divVerent/aaaaxy/releases/download/v1.6.288/AAAAXY-x86_64.AppImage",
+    "description": "A nonlinear puzzle platformer, game"
+  },
+  {
+    "pkg": "abiword",
+    "site": "ivan-hc/Abiword-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/abiword",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/abiword",
+    "version_raw": "https://github.com/ivan-hc/Abiword-appimage/releases/download/continuous/AbiWord_3.0.7-1-archimage4.3-x86_64.AppImage",
+    "description": "Unofficial. A light and free word processing software"
+  },
+  {
+    "pkg": "accessimap-lecteur-der",
+    "site": "makinacorpus/accessimap-lecteur-der",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/accessimap-lecteur-der",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/accessimap-lecteur-der",
+    "version_raw": "https://github.com/makinacorpus/accessimap-lecteur-der/releases/download/0.0.35/accessimap-lecteur-der-0.0.34-x86_64.AppImage",
+    "description": "Accessimap Lecteur DER"
+  },
+  {
+    "pkg": "acestream",
+    "site": "bro2020/acestream-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/acestream",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/acestream",
+    "version_raw": "https://github.com/bro2020/acestream-appimage/releases/download/v2.5/AceStream-3.2.3-v2.5.AppImage",
+    "description": "AppImage з AceStream Media"
+  },
+  {
+    "pkg": "acreom",
+    "site": "Acreom/releases",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/acreom",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/acreom",
+    "version_raw": "https://github.com/Acreom/releases/releases/download/v1.20.2/acreom-1.20.2.AppImage",
+    "description": "Acreom desktop app releases"
+  },
+  {
+    "pkg": "actual",
+    "site": "actualbudget/releases",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/actual",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/actual",
+    "version_raw": "https://github.com/actualbudget/releases/releases/download/0.0.148/Actual-0.0.148-x86_64.AppImage",
+    "description": "A super fast privacy-focused app for managing your finances"
+  },
+  {
+    "pkg": "adb",
+    "site": "https://developer.android.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/adb",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/adb",
+    "version_raw": "36.0.0",
+    "description": "Android Debug Bridge, a command line utility to handle Android devices. This script installs the full platform-tools suite"
+  },
+  {
     "pkg": "advanced-passgen",
     "site": "CodeDead/Advanced-PassGen",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/advanced-passgen",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/advanced-passgen",
     "version_raw": "https://github.com/CodeDead/Advanced-PassGen/releases/download/v2.5.2/advanced-passgen_2.5.2_amd64.AppImage",
     "description": "Advanced Password Generator"
+  },
+  {
+    "pkg": "advanced-rest-client",
+    "site": "advanced-rest-client/arc-electron",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/advanced-rest-client",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/advanced-rest-client",
+    "version_raw": "https://github.com/advanced-rest-client/arc-electron/releases/download/v17.0.9/arc-linux-17.0.9-x86_64.AppImage",
+    "description": "Advanced REST Client and API console, by Mulesoft"
   },
   {
     "pkg": "afetch",
@@ -24,12 +144,68 @@
     "description": "A CLI system information tool written in Rust"
   },
   {
+    "pkg": "affine",
+    "site": "toeverything/AFFiNE",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine",
+    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v0.24.1/affine-0.24.1-stable-linux-x64.appimage",
+    "description": "Next-gen knowledge base that brings planning, sorting and creating"
+  },
+  {
+    "pkg": "affine-beta",
+    "site": "toeverything/AFFiNE",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine-beta",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine-beta",
+    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v0.24.1-beta.1/affine-0.24.1-beta.1-beta-linux-x64.appimage",
+    "description": "Next-gen knowledge base that brings planning, sorting and creating"
+  },
+  {
     "pkg": "affine-canary",
     "site": "toeverything/AFFiNE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine-canary",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine-canary",
     "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2025.9.2-canary.904/affine-2025.9.2-canary.904-canary-linux-x64.appimage",
     "description": "Next-gen knowledge base that brings planning/sorting/creating"
+  },
+  {
+    "pkg": "agregore",
+    "site": "AgregoreWeb/agregore-browser",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/agregore",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/agregore",
+    "version_raw": "https://github.com/AgregoreWeb/agregore-browser/releases/download/v2.17.1/agregore-browser-2.17.1-linux-x86_64.AppImage",
+    "description": "A minimal browser for the distributed web, Desktop version"
+  },
+  {
+    "pkg": "ai-bot-workspace",
+    "site": "jmerle/ai-bot-workspace",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ai-bot-workspace",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ai-bot-workspace",
+    "version_raw": "https://github.com/jmerle/ai-bot-workspace/releases/download/v2.4.3/ai-bot-workspace-2.4.3-x86_64.AppImage",
+    "description": "Electron app including testing workspaces"
+  },
+  {
+    "pkg": "aichat",
+    "site": "sigoden/aichat",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aichat",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aichat",
+    "version_raw": "https://github.com/sigoden/aichat/releases/download/v0.30.0/aichat-v0.30.0-x86_64-unknown-linux-musl.tar.gz",
+    "description": "AIO AI CLI tool integrating 20+ AI platforms, including OpenAI"
+  },
+  {
+    "pkg": "aidm",
+    "site": "Alexsussa/AIDM",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aidm",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aidm",
+    "version_raw": "https://github.com/Alexsussa/AIDM/releases/download/v0.3/AppImage_Desktop_Maker_v0.3_x86_64.AppImage",
+    "description": "AppImage Desktop Maker"
+  },
+  {
+    "pkg": "aillio-ts",
+    "site": "roastworld/roast-time-release",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aillio-ts",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aillio-ts",
+    "version_raw": "https://github.com/roastworld/roast-time-release/releases/download/v1.1.2/aillio-ts-1.1.2-x86_64.AppImage",
+    "description": "The desktop application for Aillio Bullet R1"
   },
   {
     "pkg": "aim",
@@ -40,12 +216,236 @@
     "description": "A command line download/upload tool with resume"
   },
   {
+    "pkg": "aiming-pro",
+    "site": "https://aiming.pro",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aiming-pro",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aiming-pro",
+    "version_raw": "https://aiming.pro/",
+    "description": "Aim trainer to practice, train and improve their FPS aim skills"
+  },
+  {
+    "pkg": "air-controller-desktop",
+    "site": "air-controller/air-controller-desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/air-controller-desktop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/air-controller-desktop",
+    "version_raw": "https://github.com/air-controller/air-controller-desktop/releases/download/0.4.0/AirController_0.4.0.AppImage",
+    "description": "Android phone assistant,powered by Flutter"
+  },
+  {
+    "pkg": "airspaces",
+    "site": "foucdeg/x-plane-map-electron",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/airspaces",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/airspaces",
+    "version_raw": "https://github.com/foucdeg/x-plane-map-electron/releases/download/v2.6.0/airspaces-electron-2.6.0-x86_64.AppImage",
+    "description": "An online map for your X-Plane flight sessions"
+  },
+  {
+    "pkg": "aisap",
+    "site": "mgord9518/aisap",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aisap",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aisap",
+    "version_raw": "https://github.com/mgord9518/aisap/releases/download/continuous/aisap-0.10.5-alpha-x86_64.AppImage",
+    "description": "Tool to make sandboxing AppImages easy through bwrap/bubblewrap"
+  },
+  {
+    "pkg": "aisleriot",
+    "site": "ivan-hc/Aisleriot-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aisleriot",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aisleriot",
+    "version_raw": "https://github.com/ivan-hc/Aisleriot-appimage/releases/download/continuous/AisleRiot-Solitaire_3.22.35-1-archimage4.3-x86_64.AppImage",
+    "description": "Unofficial. A card game featuring over 80 different solitaire-type card games"
+  },
+  {
+    "pkg": "akasha",
+    "site": "AkashaProject/Community",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/akasha",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/akasha",
+    "version_raw": "https://github.com/AKASHAorg/Community/releases/download/0.7.2/AKASHA-0.7.2-x86_64.AppImage",
+    "description": "AKASHA community client"
+  },
+  {
+    "pkg": "akuse",
+    "site": "akuse-app/akuse",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/akuse",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/akuse",
+    "version_raw": "https://github.com/akuse-app/akuse/releases/download/1.10.1/linux-akuse-1.10.1.AppImage",
+    "description": "Simple and easy to use anime streaming desktop app without ads"
+  },
+  {
+    "pkg": "alacritty",
+    "site": "pkgforge-dev/alacritty-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alacritty",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alacritty",
+    "version_raw": "https://github.com/pkgforge-dev/alacritty-AppImage/releases/download/v0.16.0-rc1%402025-09-02_1756847428/alacritty-v0.16.0-rc1-anylinux-x86_64.AppImage",
+    "description": "Unofficial. A modern terminal emulator that comes with sensible defaults, but allows for extensive configuration"
+  },
+  {
+    "pkg": "albafetch",
+    "site": "alba4k/albafetch",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/albafetch",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/albafetch",
+    "version_raw": "https://github.com/alba4k/albafetch/releases/download/v4.2.1/albafetch-linux-x64-static.zip",
+    "description": "CLI, faster neofetch alternative, written in C. Still improving"
+  },
+  {
+    "pkg": "alduin",
+    "site": "Xstoudi/alduin",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alduin",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alduin",
+    "version_raw": "https://github.com/AlduinApp/alduin/releases/download/v3.2.0/alduin_3.2.0_amd64.AppImage",
+    "description": "An Atom and RSS feed aggregator"
+  },
+  {
+    "pkg": "alephium-wallet",
+    "site": "alephium/desktop-wallet",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alephium-wallet",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alephium-wallet",
+    "version_raw": "https://github.com/alephium/desktop-wallet/releases/download/v2.2.0/Alephium-2.2.0.AppImage",
+    "description": "The official Alephium wallet for desktop"
+  },
+  {
+    "pkg": "alexandria",
+    "site": "btpf/Alexandria",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alexandria",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alexandria",
+    "version_raw": "https://github.com/btpf/Alexandria/releases/download/v0.13.1/alexandria_0.13.1_amd64.AppImage",
+    "description": "eBook reader built with Tauri, Epub.js, and Typescript"
+  },
+  {
+    "pkg": "alien-tec-ui",
+    "site": "https://sourceforge.net/projects/alien-tec-ui/",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alien-tec-ui",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alien-tec-ui",
+    "version_raw": "https://sourceforge.net/projects/alien-tec-ui/files/Alien-Tec-UI-Linux-x86_64.AppImage/download",
+    "description": "Alien-Tec Tron Matrix Like Shell Terminal User Interface"
+  },
+  {
+    "pkg": "allusion",
+    "site": "allusion-app/Allusion",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/allusion",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/allusion",
+    "version_raw": "https://github.com/allusion-app/Allusion/releases/download/v1.0.0-rc.10/Allusion-1.0.0-rc.10.AppImage",
+    "description": "A desktop application for managing your visual library"
+  },
+  {
+    "pkg": "alpine-flatimage",
+    "site": "ruanformigoni/flatimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alpine-flatimage",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alpine-flatimage",
+    "version_raw": "https://github.com/flatimage/flatimage/releases/download/v1.0.8/alpine.flatimage",
+    "description": "A hybrid of Flatpak sandboxing with AppImage portability"
+  },
+  {
+    "pkg": "alr2appimage",
+    "site": "mgrojo/alr2appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alr2appimage",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alr2appimage",
+    "version_raw": "https://github.com/mgrojo/alr2appimage/releases/download/continuous/alr2appimage-1.0.0-x86_64.AppImage",
+    "description": "Tool for building an AppImage from an Alire crate"
+  },
+  {
+    "pkg": "altair",
+    "site": "altair-graphql/altair",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/altair",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/altair",
+    "version_raw": "https://github.com/altair-graphql/altair/releases/download/v8.2.5/altair_8.2.5_x86_64_linux.AppImage",
+    "description": "The best graphQL client you will ever need"
+  },
+  {
+    "pkg": "altitude",
+    "site": "TheLindaProjectInc/Altitude",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/altitude",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/altitude",
+    "version_raw": "https://github.com/TheLindaProjectInc/Altitude/releases/download/3.4.2/Altitude-Metrix-Wallet-linux-x64.AppImage",
+    "description": "The Altitude wallet by Linda Project Inc"
+  },
+  {
+    "pkg": "altus",
+    "site": "amanharwara/altus",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/altus",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/altus",
+    "version_raw": "https://github.com/amanharwara/altus/releases/download/5.7.1/Altus-5.7.1.AppImage",
+    "description": "Client for WhatsApp Web with themes & multiple account support"
+  },
+  {
+    "pkg": "alvr",
+    "site": "elpinguinoopensource/alvr-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alvr",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alvr",
+    "version_raw": "https://github.com/elpinguinoopensource/alvr-appimage/releases/download/v18.2.6/ALVR-x86_64.AppImage",
+    "description": "Stream VR games from your PC to your headset via Wi-Fi"
+  },
+  {
+    "pkg": "amarok",
+    "site": "ivan-hc/Amarok-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/amarok",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/amarok",
+    "version_raw": "https://github.com/ivan-hc/Amarok-appimage/releases/download/continuous/Amarok_3.3.1-1-archimage4.3-x86_64.AppImage",
+    "description": "Unofficial. The powerful music player for KDE"
+  },
+  {
+    "pkg": "amazingmarvin",
+    "site": "https://amazingmarvin.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/amazingmarvin",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/amazingmarvin",
+    "version_raw": "https://s3.amazonaws.com/amazingmarvin/Marvin-1.68.0.AppImage",
+    "description": "Incorporates principles from behavioral psychology"
+  },
+  {
+    "pkg": "amazon-q",
+    "site": "https://aws.amazon.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/amazon-q",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/amazon-q",
+    "version_raw": "https://desktop-release.q.us-east-1.amazonaws.com/latest/amazon-q.appimage",
+    "description": "Amazon Q Developer, a generative AI powered conversational assistant to understand, build, extend and operate AWS applications"
+  },
+  {
+    "pkg": "ambermoon.net",
+    "site": "Pyrdacor/Ambermoon.net",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ambermoon.net",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ambermoon.net",
+    "version_raw": "https://github.com/Pyrdacor/Ambermoon.net/releases/download/v1.11.4/Ambermoon.net-Linux.tar.gz",
+    "description": "Ambermoon rewrite in C#"
+  },
+  {
+    "pkg": "amdgpu_top",
+    "site": "Umio-Yasuno/amdgpu_top",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/amdgpu_top",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/amdgpu_top",
+    "version_raw": "https://github.com/Umio-Yasuno/amdgpu_top/releases/download/v0.11.0/amdgpu_top-aarch64.AppImage",
+    "description": "Tool to display AMDGPU usage"
+  },
+  {
     "pkg": "amfora",
     "site": "makew0rld/amfora",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/amfora",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/amfora",
     "version_raw": "https://github.com/makew0rld/amfora/releases/download/v1.11.0/amfora_1.11.0_linux_64-bit",
     "description": "A fancy terminal browser for the Gemini protocol"
+  },
+  {
+    "pkg": "amusiz",
+    "site": "mirkobrombin/Amusiz",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/amusiz",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/amusiz",
+    "version_raw": "https://github.com/mirkobrombin/Amusiz/releases/download/1.3.4/Amusiz-1.3.3-x86_64.AppImage",
+    "description": "Unofficial and unpretentious Amazon Music client"
+  },
+  {
+    "pkg": "anavis",
+    "site": "learningmedia/anavis",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anavis",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anavis",
+    "version_raw": "https://github.com/learningmedia/anavis/releases/download/v2.0.0-beta.20/anavis-2.0.0-beta.20-linux-x86_64.AppImage",
+    "description": "Tool to visualize musical form"
+  },
+  {
+    "pkg": "anchor",
+    "site": "greymass/anchor",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anchor",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anchor",
+    "version_raw": "https://github.com/greymass/anchor/releases/download/v1.3.12/linux-anchor-wallet-1.3.12-x86_64.AppImage",
+    "description": "An EOSIO Light Wallet with simple and advanced tools"
   },
   {
     "pkg": "android-messages-desktop",
@@ -64,6 +464,78 @@
     "description": "Unofficial. Android Studio as AppImages, stable"
   },
   {
+    "pkg": "android-studio-latest",
+    "site": "zyrouge/android-studio-appimages",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/android-studio-latest",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/android-studio-latest",
+    "version_raw": "https://github.com/zyrouge/android-studio-appimages/releases/download/v2025.1.3.6/android-studio-beta-2025.1.3.6-x86_64.AppImage",
+    "description": "Unofficial. Android Studio as AppImages, release"
+  },
+  {
+    "pkg": "android-tools",
+    "site": "Samueru-sama/android-tools-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/android-tools",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/android-tools",
+    "version_raw": "",
+    "description": "Unofficial AppImage for the Android Platform tools, adb, fastboot, etc"
+  },
+  {
+    "pkg": "ani-cli",
+    "site": "pystardust/ani-cli",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ani-cli",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ani-cli",
+    "version_raw": "https://github.com/pystardust/ani-cli/releases/download/v4.10/ani-cli",
+    "description": "A cli tool to browse and play anime"
+  },
+  {
+    "pkg": "animashooter-junior",
+    "site": "http://www.animashooter.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/animashooter-junior",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/animashooter-junior",
+    "version_raw": "https://www.animatech.ru/download/AnimaShooterJunior-3.9.9.7-x86_64.AppImage",
+    "description": "User-friendly Stop-Motion Animation Software, FREE"
+  },
+  {
+    "pkg": "animashooter-pioneer",
+    "site": "http://www.animashooter.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/animashooter-pioneer",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/animashooter-pioneer",
+    "version_raw": "https://www.animatech.ru/download/AnimaShooterPioneer-3.9.9.7-x86_64.AppImage",
+    "description": "User-friendly Stop-Motion Animation Software, PRO"
+  },
+  {
+    "pkg": "animos",
+    "site": "keerthivasansa/animos",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/animos",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/animos",
+    "version_raw": "https://github.com/keerthivasansa/animos/releases/download/v0.5.8/Animos-0.5.8.AppImage",
+    "description": "Anime-streaming desktop application without any ads"
+  },
+  {
+    "pkg": "aniship",
+    "site": "progzone122/AniShip",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aniship",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aniship",
+    "version_raw": "https://github.com/progzone122/AniShip/releases/download/v0.0.4.2night/setup-0.0.4-2.AppImage",
+    "description": "Allows for easy viewing of anime on PCs and laptops"
+  },
+  {
+    "pkg": "ankama-launcher",
+    "site": "https://ankama.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ankama-launcher",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ankama-launcher",
+    "version_raw": "",
+    "description": "Ankama is an entertainment and digital creation group"
+  },
+  {
+    "pkg": "anki",
+    "site": "ivan-hc/Database-of-pkg2appimaged-packages",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anki",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anki",
+    "version_raw": "https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/anki/Anki_25.07.5-1-archimage4.3-x86_64.AppImage",
+    "description": "Unofficial, Anki's shared backend and web components, and the Qt frontend"
+  },
+  {
     "pkg": "anklang",
     "site": "tim-janik/anklang",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anklang",
@@ -78,6 +550,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/another-redis-desktop-manager",
     "version_raw": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.7.1/Another-Redis-Desktop-Manager-linux-1.7.1-x86_64.AppImage",
     "description": "Faster and better redis desktop manager"
+  },
+  {
+    "pkg": "ansel",
+    "site": "aurelienpierreeng/ansel",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ansel",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ansel",
+    "version_raw": "https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/Ansel-0.0.0%2B1996.gb51cfa38-x86_64.AppImage",
+    "description": "An open-source photo-editing software for digital artists, designed to help you achieve your own interpretation of raw digital photographs"
   },
   {
     "pkg": "ant-downloader",
@@ -104,6 +584,110 @@
     "description": "Cleans up your $HOME from those pesky dotfiles"
   },
   {
+    "pkg": "antimicrox",
+    "site": "AntiMicroX/antimicrox",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/antimicrox",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/antimicrox",
+    "version_raw": "https://github.com/AntiMicroX/antimicrox/releases/download/3.5.1/AntiMicroX-debug-x86_64.AppImage",
+    "description": "Use a gamepad to control a variety of programs"
+  },
+  {
+    "pkg": "anydesk",
+    "site": "ivan-hc/Anydesk-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anydesk",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anydesk",
+    "version_raw": "https://github.com/ivan-hc/Anydesk-appimage/releases/download/continuous/Anydesk_7.0.2-x86_64.AppImage",
+    "description": "Unofficial. Remote desktop application distributed"
+  },
+  {
+    "pkg": "anything-llm",
+    "site": "Mintplex-Labs/anything-llm",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anything-llm",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anything-llm",
+    "version_raw": "v1.8.5",
+    "description": "AI business intelligence tool. Any LLM, any document"
+  },
+  {
+    "pkg": "anytype",
+    "site": "anyproto/anytype-ts",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anytype",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anytype",
+    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.49.26-alpha/Anytype-0.49.26-alpha.AppImage",
+    "description": "The everything app for those who celebrate trust & autonomy"
+  },
+  {
+    "pkg": "anzeigenchef",
+    "site": "https://anzeigenchef.roundcube.de",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anzeigenchef",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anzeigenchef",
+    "version_raw": "https://anzeigenchef.roundcubes.de/downloads/linux/AnzeigenChef-x86_64.AppImage",
+    "description": "AdsChef manages your classified ads"
+  },
+  {
+    "pkg": "aphelion-wallet",
+    "site": "aphtoken/aph-wallet-gui",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aphelion-wallet",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aphelion-wallet",
+    "version_raw": "https://github.com/aphtoken/aph-wallet-gui/releases/download/4.1.0/Aphelion_Wallet-4.1.0-lin.AppImage",
+    "description": "Aphelion desktop wallet application built with Electron"
+  },
+  {
+    "pkg": "aphototoollibre",
+    "site": "aphototool/A-Photo-Tool-Libre",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aphototoollibre",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aphototoollibre",
+    "version_raw": "https://github.com/aphototool/A-Photo-Tool-Libre/releases/download/v1.0.7-1/aphototoollibre_1.0.7-1_x86_64.AppImage",
+    "description": "Photo editing app for GNU/Linux"
+  },
+  {
+    "pkg": "apifox",
+    "site": "https://apifox.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/apifox",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/apifox",
+    "version_raw": "",
+    "description": "API manager, in chinese. 文档、API 调试、API Mock、API 自动化测试"
+  },
+  {
+    "pkg": "apk-editor-studio",
+    "site": "kefir500/apk-editor-studio",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/apk-editor-studio",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/apk-editor-studio",
+    "version_raw": "https://github.com/kefir500/apk-editor-studio/releases/download/v1.7.2/apk-editor-studio_linux_1.7.2.AppImage",
+    "description": "Easy to use APK, Android reverse-engineering tool"
+  },
+  {
+    "pkg": "apla",
+    "site": "AplaProject/apla-front",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/apla",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/apla",
+    "version_raw": "https://github.com/AplaProject/apla-front/releases/download/v2.2.1/apla-front-2.2.1-x86_64.AppImage",
+    "description": "Project was bootstrapped with Create React App"
+  },
+  {
+    "pkg": "app-outlet",
+    "site": "AppOutlet/AppOutlet",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/app-outlet",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/app-outlet",
+    "version_raw": "https://github.com/AppOutlet/AppOutlet/releases/download/v2.1.0/App.Outlet-2.1.0.AppImage",
+    "description": "A Universal linux app store for Flatpak/Snap/AppImage"
+  },
+  {
+    "pkg": "appflowy",
+    "site": "AppFlowy-IO/AppFlowy",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appflowy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appflowy",
+    "version_raw": "https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.9.8/AppFlowy-0.9.8-linux-x86_64.AppImage",
+    "description": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative"
+  },
+  {
+    "pkg": "apphub",
+    "site": "francesco-gaglione/AppHub",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/apphub",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/apphub",
+    "version_raw": "https://github.com/cosmic-utils/app-hub/releases/download/v0.2.0-beta.1/app-hub_0.2.0-beta.1_amd64.AppImage",
+    "description": "App that simplifies installation/management of .appImage packages"
+  },
+  {
     "pkg": "appimage-builder",
     "site": "AppImageCrafters/appimage-builder",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimage-builder",
@@ -120,12 +704,84 @@
     "description": "GUI for easily generating AppImage packages on Linux"
   },
   {
+    "pkg": "appimagecraft",
+    "site": "TheAssassin/appimagecraft",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimagecraft",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimagecraft",
+    "version_raw": "https://github.com/TheAssassin/appimagecraft/releases/download/continuous/appimagecraft-x86_64.AppImage",
+    "description": "Powerful build script generator with a focus on AppImages"
+  },
+  {
+    "pkg": "appimagehelper",
+    "site": "https://gitlab.com/posktomten/appimagehelper",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimagehelper",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimagehelper",
+    "version_raw": "2022-11-06",
+    "description": "Create and organize shortcuts for AppImages"
+  },
+  {
+    "pkg": "appimagelauncher",
+    "site": "TheAssassin/AppImageLauncher",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimagelauncher",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimagelauncher",
+    "version_raw": "https://github.com/TheAssassin/AppImageLauncher/releases/download/continuous/appimagelauncher-lite-3.0.0-alpha-4-gha274-x86_64.AppImage",
+    "description": "CLI helper for running and integrating AppImages"
+  },
+  {
+    "pkg": "appimagelint",
+    "site": "TheAssassin/appimagelint",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimagelint",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimagelint",
+    "version_raw": "https://github.com/TheAssassin/appimagelint/releases/download/continuous/appimagelint-x86_64.AppImage",
+    "description": "Check AppImages for compatibility, best practices etc"
+  },
+  {
+    "pkg": "appimagen",
+    "site": "ivan-hc/AppImaGen",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimagen",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimagen",
+    "version_raw": "https://github.com/ivan-hc/AppImaGen/releases/download/3.0/appimagen",
+    "description": "A script that generates a custom AppImage from a PPA"
+  },
+  {
     "pkg": "appimagepool",
     "site": "prateekmedia/appimagepool",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimagepool",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimagepool",
     "version_raw": "https://github.com/prateekmedia/appimagepool/releases/download/5.1.0/appimagepool-5.1.0-x86_64.AppImage",
     "description": "A simple, modern AppImageHub Client, powered by flutter"
+  },
+  {
+    "pkg": "appimagetool",
+    "site": "AppImage/appimagetool",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimagetool",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimagetool",
+    "version_raw": "https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-x86_64.AppImage",
+    "description": "Tool to generate an AppImage from an existing AppDir"
+  },
+  {
+    "pkg": "appimageupdate",
+    "site": "AppImage/AppImageUpdate",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimageupdate",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimageupdate",
+    "version_raw": "https://github.com/AppImageCommunity/AppImageUpdate/releases/download/continuous/AppImageUpdate-x86_64.AppImage",
+    "description": "Tool to update an AppImage using embedded information"
+  },
+  {
+    "pkg": "appimageupdater",
+    "site": "antony-jr/AppImageUpdater",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimageupdater",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimageupdater",
+    "version_raw": "https://github.com/antony-jr/AppImageUpdater/releases/download/v2.0.0/AppImageUpdater-v2.0.0-x86_64.AppImage",
+    "description": "AppImage Updater for Humans built with QML/C++ with Qt5"
+  },
+  {
+    "pkg": "appinstall",
+    "site": "Drosaca/appImageInstaller",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appinstall",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appinstall",
+    "version_raw": "https://github.com/Drosaca/appImageInstaller/releases/download/v1.0/appinstall",
+    "description": "AppImage Installer, a tool integrate AppImages to a linux desktop environment"
   },
   {
     "pkg": "appium-inspector",
@@ -1060,7 +1716,7 @@
     "site": "ivan-hc/Blender-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blender-rc",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blender-rc",
-    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-candidate/Blender_Release_Candidate-4.5.3-candidate%2Bv45.625888e5156b-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-candidate/Blender_Release_Candidate-4.5.3-candidate%2Bv45.0efd2f9169d4-x86_64.AppImage",
     "description": "Very fast and versatile 3D modeller/renderer, Release Candidate"
   },
   {
@@ -5396,7 +6052,7 @@
     "site": "ChurchApps/FreeShow",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/freeshow",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/freeshow",
-    "version_raw": "https://github.com/ChurchApps/FreeShow/releases/download/v1.4.9/FreeShow-1.4.9-x86_64.AppImage",
+    "version_raw": "https://github.com/ChurchApps/FreeShow/releases/download/v1.5.0-beta.1/FreeShow-1.5.0-beta.1-x86_64.AppImage",
     "description": "User-friendly presenter software"
   },
   {
@@ -8684,7 +9340,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.5.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -17852,7 +18508,7 @@
     "site": "pkgforge-dev/UnleashedRecomp-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/unleashedrecomp",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/unleashedrecomp",
-    "version_raw": "https://github.com/pkgforge-dev/UnleashedRecomp-AppImage/releases/download/1.0.3-1%402025-09-01_1756743685/UnleashedRecomp-1.0.3-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/UnleashedRecomp-AppImage/releases/download/1.0.3-1%402025-09-03_1756881226/UnleashedRecomp-1.0.3-1-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of UnleashedRecomp (Sonic Unleashed port)"
   },
   {
@@ -18668,7 +19324,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "54169074475",
+    "version_raw": "54172163765",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
