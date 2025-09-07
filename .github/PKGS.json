@@ -164,7 +164,7 @@
     "site": "toeverything/AFFiNE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine-canary",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine-canary",
-    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2025.9.6-canary.903/affine-2025.9.6-canary.903-canary-linux-x64.appimage",
+    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2025.9.7-canary.903/affine-2025.9.7-canary.903-canary-linux-x64.appimage",
     "description": "Next-gen knowledge base that brings planning/sorting/creating"
   },
   {
@@ -6172,7 +6172,7 @@
     "site": "antonmedv/fx",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fx",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fx",
-    "version_raw": "https://github.com/antonmedv/fx/releases/download/39.0.4/fx_linux_amd64",
+    "version_raw": "https://github.com/antonmedv/fx/releases/download/39.1.0/fx_linux_amd64",
     "description": "Terminal JSON viewer & processor"
   },
   {
@@ -10044,7 +10044,7 @@
     "site": "andrew-ld/lutris-gamepad-ui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lutris-gamepad-ui",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lutris-gamepad-ui",
-    "version_raw": "https://github.com/andrew-ld/lutris-gamepad-ui/releases/download/v0.1.16/lutris-gamepad-ui-x64.AppImage",
+    "version_raw": "https://github.com/andrew-ld/lutris-gamepad-ui/releases/download/v0.1.17/lutris-gamepad-ui-x64.AppImage",
     "description": "A simple, TV-friendly, gamepad-navigable frontend for the Lutris game launcher on Linux"
   },
   {
@@ -10660,7 +10660,7 @@
     "site": "ivan-hc/MS-Edge-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/microsoft-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/microsoft-edge",
-    "version_raw": "",
+    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-stable-140.0.3485.54-1-x86_64.AppImage",
     "description": "Web Browser provided by Microsoft, Stable Edition"
   },
   {
@@ -10668,7 +10668,7 @@
     "site": "ivan-hc/MS-Edge-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/microsoft-edge-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/microsoft-edge-beta",
-    "version_raw": "",
+    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-beta-140.0.3485.54-1-x86_64.AppImage",
     "description": "Web Browser provided by Microsoft, Beta Edition"
   },
   {
@@ -10676,7 +10676,7 @@
     "site": "ivan-hc/MS-Edge-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/microsoft-edge-dev",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/microsoft-edge-dev",
-    "version_raw": "",
+    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-dev-141.0.3525.0-1-x86_64.AppImage",
     "description": "Web Browser provided by Microsoft, Developer Edition"
   },
   {
@@ -12824,6 +12824,14 @@
     "description": "Perspective views from panoramic images"
   },
   {
+    "pkg": "pano-scrobbler",
+    "site": "kawaiiDango/pano-scrobbler",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pano-scrobbler",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pano-scrobbler",
+    "version_raw": "https://github.com/kawaiiDango/pano-scrobbler/releases/download/412/pano-scrobbler-linux-x64.AppImage",
+    "description": "Feature packed cross-platform music tracker for Last.fm, ListenBrainz, Libre.fm, Pleroma and other compatible services"
+  },
+  {
     "pkg": "panwriter",
     "site": "mb21/panwriter",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/panwriter",
@@ -14872,6 +14880,14 @@
     "description": "Simple cross platform GUI for rclone"
   },
   {
+    "pkg": "rclone-gui-manager",
+    "site": "madroots/rclone-gui-manager",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rclone-gui-manager",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rclone-gui-manager",
+    "version_raw": "https://github.com/madroots/rclone-gui-manager/releases/download/v1.0.2/rclone-gui-manager-x86_64.AppImage",
+    "description": "A simple, modern graphical user interface for managing rclone remotes for Linux"
+  },
+  {
     "pkg": "rclone-ui",
     "site": "rclone-ui/rclone-ui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rclone-ui",
@@ -16724,7 +16740,7 @@
     "site": "sqlitebrowser/sqlitebrowser",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sqlitebrowser",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sqlitebrowser",
-    "version_raw": "https://github.com/sqlitebrowser/sqlitebrowser/releases/download/nightly/DB.Browser.for.SQLCipher-20250907-x86.64.AppImage",
+    "version_raw": "https://github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLCipher-dev-43be51a-x86.64.AppImage",
     "description": "DB Browser is a light GUI editor for SQLite databases"
   },
   {
@@ -19316,7 +19332,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "54352141498",
+    "version_raw": "54352943526",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -20340,7 +20356,7 @@
     "site": "ZoneMinder/zmNinja",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zmninja",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zmninja",
-    "version_raw": "",
+    "version_raw": "https://github.com/ZoneMinder/zmNinja/releases/download/v1.7.008/zmninja-1.7.8-linux-x86_64.AppImage",
     "description": "Ionic app for Home/Commerical Security Surveillance"
   },
   {
