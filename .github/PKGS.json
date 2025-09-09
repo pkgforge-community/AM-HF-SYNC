@@ -276,7 +276,7 @@
     "site": "pkgforge-dev/alacritty-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alacritty",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alacritty",
-    "version_raw": "https://github.com/pkgforge-dev/alacritty-AppImage/releases/download/v0.16.0-rc1%402025-09-08_1757302583/alacritty-v0.16.0-rc1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/alacritty-AppImage/releases/download/v0.16.0-rc1%402025-09-09_1757390030/alacritty-v0.16.0-rc1-anylinux-x86_64.AppImage",
     "description": "Unofficial. A modern terminal emulator that comes with sensible defaults, but allows for extensive configuration"
   },
   {
@@ -1700,7 +1700,7 @@
     "site": "ivan-hc/Blender-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blender-alpha",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blender-alpha",
-    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.0.0-alpha%2Bmain.34feb2cefd68-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.0.0-alpha%2Bmain.75bca47553ac-x86_64.AppImage",
     "description": "Very fast and versatile 3D modeller/renderer, Alpha"
   },
   {
@@ -4364,7 +4364,7 @@
     "site": "stenzek/duckstation",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/duckstation",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/duckstation",
-    "version_raw": "https://api.github.com/repos/stenzek/duckstation/releases/245515530",
+    "version_raw": "https://api.github.com/repos/stenzek/duckstation/releases/245711324",
     "description": "PlayStation 1, aka PSX games Emulator"
   },
   {
@@ -6188,7 +6188,7 @@
     "site": "gaiasky/gaiasky",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gaiasky",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gaiasky",
-    "version_raw": "",
+    "version_raw": "https://codeberg.org/gaiasky/gaiasky/releases/download/3.6.7/gaiasky_3.6.7.5160f2cfe_x86_64.appimage",
     "description": "Gaia Sky, a real-time 3D space simulator & astronomy visualisation"
   },
   {
@@ -9740,7 +9740,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -16468,7 +16468,7 @@
     "site": "sonusmix/sonusmix",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sonusmix",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sonusmix",
-    "version_raw": "",
+    "version_raw": "https://codeberg.org/sonusmix/sonusmix/releases/download/v0.1.1/org.sonusmix.Sonusmix-0.1.1.AppImage",
     "description": "Next-gen Pipewire audio routing tool"
   },
   {
@@ -17660,7 +17660,7 @@
     "site": "tenacityteam/tenacity",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tenacity",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tenacity",
-    "version_raw": "",
+    "version_raw": "https://codeberg.org/tenacityteam/tenacity/releases/download/v1.3.4/tenacity-linux-v1.3.4.AppImage",
     "description": "An easy-to-use, cross-platform multi-track audio editor/recorder"
   },
   {
@@ -18996,7 +18996,7 @@
     "site": "ivan-hc/VLC-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vlc-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vlc-git",
-    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r34503.ge182a252bd73-1-archimage4.3-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r34515.g48fbe9bcd3e5-1-archimage4.3-x86_64.AppImage",
     "description": "Unofficial. Free and Open Source Video & Media player, GIT version"
   },
   {
@@ -19324,7 +19324,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "54396531798",
+    "version_raw": "54400565081",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
