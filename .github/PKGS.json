@@ -3684,7 +3684,7 @@
     "site": "darktable-org/darktable",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/darktable-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/darktable-nightly",
-    "version_raw": "https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.3.0%2B307.gcbd7fc468d-x86_64.AppImage",
+    "version_raw": "https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.3.0%2B313.gd01da6c920-x86_64.AppImage",
     "description": "Photography workflow app and raw developer, nightly"
   },
   {
@@ -4116,7 +4116,7 @@
     "site": "srevinsaju/discord-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/discord",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/discord",
-    "version_raw": "https://github.com/srevinsaju/discord-appimage/releases/download/stable/Discord-0.0.108-x86_64.AppImage",
+    "version_raw": "https://github.com/srevinsaju/discord-appimage/releases/download/stable/Discord-0.0.109-x86_64.AppImage",
     "description": "Unofficial. All-in-one voice and text chat for gamers"
   },
   {
@@ -6484,7 +6484,7 @@
     "site": "pkgforge-dev/ghostty-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ghostty-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ghostty-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.1.4-main%2Bcd6820e-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.1.4-main%2B0dc3246-x86_64.AppImage",
     "description": "Unoffical, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (Tip, Nightly)"
   },
   {
@@ -7030,6 +7030,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/goverlay",
     "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-7fbfa264c-anylinux-x86_64.AppImage",
     "description": "An opensource project that aims to create a Graphical UI to help manage Linux overlays"
+  },
+  {
+    "pkg": "gozen",
+    "site": "VoylinsGamedevJourney/gozen",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gozen",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gozen",
+    "version_raw": "https://github.com/VoylinsGamedevJourney/gozen/releases/download/v0.4.0-alpha/GoZen_Linux_AppImage_v0.4.0-alpha.zip",
+    "description": "A lightweight, stable, minimalistic and performant video editor with simplicity in mind"
   },
   {
     "pkg": "gpg-tui",
@@ -9340,7 +9348,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.5.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -9748,7 +9756,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250724_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -10140,7 +10148,7 @@
     "site": "Manager-io/Manager",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/manager-io",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/manager-io",
-    "version_raw": "https://github.com/Manager-io/Manager/releases/download/25.9.10.2757/Manager-x86_64.AppImage",
+    "version_raw": "https://github.com/Manager-io/Manager/releases/download/25.9.10.2761/Manager-x86_64.AppImage",
     "description": "Free Accounting Software for Linux, Server"
   },
   {
@@ -12892,7 +12900,7 @@
     "site": "Scille/parsec-cloud",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parsec",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parsec",
-    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.5.0-a.6.dev.20339%2Bd8c497e_linux_x86_64.unsigned.AppImage",
+    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.5.0-a.6.dev.20340%2Bae3eecc_linux_x86_64.unsigned.AppImage",
     "description": "Open source Dropbox-like file sharing with full client encryption"
   },
   {
@@ -18532,7 +18540,7 @@
     "site": "GiovanH/unofficial-homestuck-collection",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/unofficial-homestuck-collection",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/unofficial-homestuck-collection",
-    "version_raw": "https://github.com/GiovanH/unofficial-homestuck-collection/releases/download/v2.7.2/The-Unofficial-Homestuck-Collection-2.7.2.AppImage",
+    "version_raw": "https://github.com/GiovanH/unofficial-homestuck-collection/releases/download/v2.7.3/The-Unofficial-Homestuck-Collection-2.7.3.AppImage",
     "description": "An offline collection of Homestuck and its related works"
   },
   {
@@ -19340,7 +19348,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "54461954248",
+    "version_raw": "54463265595",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
