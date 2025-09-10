@@ -72,6 +72,14 @@
     "description": "A nonlinear puzzle platformer, game"
   },
   {
+    "pkg": "ab-download-manager",
+    "site": "amir1376/ab-download-manager",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ab-download-manager",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ab-download-manager",
+    "version_raw": "https://github.com/amir1376/ab-download-manager/releases/download/v1.6.11/ABDownloadManager_1.6.11_linux_x64.tar.gz",
+    "description": "A Download Manager that speeds up your downloads"
+  },
+  {
     "pkg": "abiword",
     "site": "ivan-hc/Abiword-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/abiword",
@@ -140,7 +148,7 @@
     "site": "Asthowen/AFetch",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/afetch",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/afetch",
-    "version_raw": "",
+    "version_raw": "https://github.com/Asthowen/AFetch/releases/download/0.0.7/afetch-0.0.7-x86_64-unknown-linux-gnu",
     "description": "A CLI system information tool written in Rust"
   },
   {
@@ -148,7 +156,7 @@
     "site": "toeverything/AFFiNE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine",
-    "version_raw": "",
+    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v0.24.1/affine-0.24.1-stable-linux-x64.appimage",
     "description": "Next-gen knowledge base that brings planning, sorting and creating"
   },
   {
@@ -172,7 +180,7 @@
     "site": "AgregoreWeb/agregore-browser",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/agregore",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/agregore",
-    "version_raw": "https://github.com/AgregoreWeb/agregore-browser/releases/download/v2.17.1/agregore-browser-2.17.1-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/AgregoreWeb/agregore-browser/releases/download/v2.18.0/agregore-browser-2.18.0-linux-x86_64.AppImage",
     "description": "A minimal browser for the distributed web, Desktop version"
   },
   {
@@ -332,7 +340,7 @@
     "site": "ruanformigoni/flatimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alpine-flatimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alpine-flatimage",
-    "version_raw": "",
+    "version_raw": "https://github.com/flatimage/flatimage/releases/download/v1.0.8/alpine.flatimage",
     "description": "A hybrid of Flatpak sandboxing with AppImage portability"
   },
   {
@@ -420,7 +428,7 @@
     "site": "makew0rld/amfora",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/amfora",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/amfora",
-    "version_raw": "",
+    "version_raw": "https://github.com/makew0rld/amfora/releases/download/v1.11.0/amfora_1.11.0_linux_64-bit",
     "description": "A fancy terminal browser for the Gemini protocol"
   },
   {
@@ -612,7 +620,7 @@
     "site": "anyproto/anytype-ts",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anytype",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anytype",
-    "version_raw": "",
+    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.49.37-alpha/Anytype-0.49.37-alpha.AppImage",
     "description": "The everything app for those who celebrate trust & autonomy"
   },
   {
@@ -988,7 +996,7 @@
     "site": "artisan-roaster-scope/artisan",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artisan",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artisan",
-    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/v3.2.0/artisan-linux-3.2.0.AppImage",
+    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/continuous/artisan-linux-3.2.1.AppImage",
     "description": "Visualizes the coffee roasting process"
   },
   {
@@ -1036,7 +1044,7 @@
     "site": "vleeuwenmenno/AstroShutter",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/astroshutter",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/astroshutter",
-    "version_raw": "",
+    "version_raw": "https://github.com/vleeuwenmenno/AstroShutter/releases/download/v0.0.3/AstroShutter-x86_64.AppImage",
     "description": "Ui to control your camera for astrophotography"
   },
   {
@@ -1348,7 +1356,7 @@
     "site": "bdash-app/bdash",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bdash",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bdash",
-    "version_raw": "",
+    "version_raw": "https://github.com/bdash-app/bdash/releases/download/v1.20.0/Bdash-1.20.0.AppImage",
     "description": "A simple business intelligence application"
   },
   {
@@ -4524,7 +4532,7 @@
     "site": "pflyly/eden-nightly",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eden-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eden-nightly",
-    "version_raw": "https://github.com/pflyly/eden-nightly/releases/download/2025-09-08-27680/Eden-27680-Common-x86_64_v3.AppImage",
+    "version_raw": "https://github.com/pflyly/eden-nightly/releases/download/2025-09-10-27684/Eden-27684-Common-x86_64_v3.AppImage",
     "description": "Unofficial, an experimental open-source emulator for Nintendo Switch (yuzu fork, nightly builds)"
   },
   {
@@ -5812,7 +5820,7 @@
     "site": "superfly/flyctl",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flyctl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/flyctl",
-    "version_raw": "https://github.com/superfly/flyctl/releases/download/v0.3.177/flyctl_0.3.177_Linux_x86_64.tar.gz",
+    "version_raw": "https://github.com/superfly/flyctl/releases/download/v0.3.178/flyctl_0.3.178_Linux_x86_64.tar.gz",
     "description": "Command line tools for fly.io services"
   },
   {
@@ -6580,7 +6588,7 @@
     "site": "https://gitbutler.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gitbutler",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gitbutler",
-    "version_raw": "https://releases.gitbutler.com/releases/release/0.15.18-2373/linux/x86_64/GitButler_0.15.18_amd64.AppImage.tar.gz",
+    "version_raw": "https://releases.gitbutler.com/releases/release/0.15.19-2385/linux/x86_64/GitButler_0.15.19_amd64.AppImage.tar.gz",
     "description": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte"
   },
   {
@@ -9348,7 +9356,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.5.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -9756,7 +9764,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -10156,7 +10164,7 @@
     "site": "buddhi1980/mandelbulber2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mandelbulber2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mandelbulber2",
-    "version_raw": "https://github.com/buddhi1980/mandelbulber2/releases/download/continuous/Mandelbulber_v2-ab44281-x86_64.AppImage",
+    "version_raw": "https://github.com/buddhi1980/mandelbulber2/releases/download/continuous/Mandelbulber_v2-d3eb900-x86_64.AppImage",
     "description": "Explore trigonometric, hyper-complex and other 3D fractals"
   },
   {
@@ -11748,7 +11756,7 @@
     "site": "https://nodejs.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/node",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/node",
-    "version_raw": "https://nodejs.org/dist/latest/node-v24.7.0-linux-x64.tar.gz",
+    "version_raw": "https://nodejs.org/dist/latest/node-v24.8.0-linux-x64.tar.gz",
     "description": "This is the official suite of Node.js tools, also known as NodeJS, a JavaScript runtime built on Chrome's V8 JavaScript engine"
   },
   {
@@ -11908,7 +11916,7 @@
     "site": "https://nodejs.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/npm",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/npm",
-    "version_raw": "https://nodejs.org/dist/latest/node-v24.7.0-linux-x64.tar.gz",
+    "version_raw": "https://nodejs.org/dist/latest/node-v24.8.0-linux-x64.tar.gz",
     "description": "Package manager for Node.js. This script installs the full node suite"
   },
   {
@@ -13924,7 +13932,7 @@
     "site": "ivan-hc/PowerShell-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/powershell",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/powershell",
-    "version_raw": "https://github.com/ivan-hc/PowerShell-appimage/releases/download/continuous/PowerShell-v7.5.2-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/PowerShell-appimage/releases/download/continuous/PowerShell-v7.5.3-x86_64.AppImage",
     "description": "Microsoft PowerShell"
   },
   {
@@ -16980,7 +16988,7 @@
     "site": "Inventitech/strans",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/strans",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/strans",
-    "version_raw": "",
+    "version_raw": "https://github.com/Inventitech/strans/releases/download/v0.0.5/strans-linux.AppImage",
     "description": "A powerful command-line utility"
   },
   {
@@ -19108,7 +19116,7 @@
     "site": "directvt/vtm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vtm",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vtm",
-    "version_raw": "https://github.com/directvt/vtm/releases/download/v2025.09.08/vtm_linux_x86_64.zip",
+    "version_raw": "https://github.com/directvt/vtm/releases/download/v2025.09.10/vtm_linux_x86_64.zip",
     "description": "Text-based desktop environment"
   },
   {
@@ -19356,7 +19364,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "54520560034",
+    "version_raw": "54523016524",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
