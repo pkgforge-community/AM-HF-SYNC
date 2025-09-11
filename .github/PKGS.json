@@ -720,14 +720,6 @@
     "description": "Powerful build script generator with a focus on AppImages"
   },
   {
-    "pkg": "appimagehelper",
-    "site": "https://gitlab.com/posktomten/appimagehelper",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimagehelper",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimagehelper",
-    "version_raw": "2022-11-06",
-    "description": "Create and organize shortcuts for AppImages"
-  },
-  {
     "pkg": "appimagelauncher",
     "site": "TheAssassin/AppImageLauncher",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimagelauncher",
@@ -3452,7 +3444,7 @@
     "site": "crypto-com/chain-desktop-wallet",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cro-chain-desktop-bin",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cro-chain-desktop-bin",
-    "version_raw": "https://github.com/crypto-com/chain-desktop-wallet/releases/download/v1.5.1/Crypto.com-DeFi-Desktop-Wallet-1.5.1.AppImage",
+    "version_raw": "",
     "description": "Crypto.com DeFi Desktop Wallet, AppImage version"
   },
   {
@@ -3668,7 +3660,7 @@
     "site": "qarmin/czkawka",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/czkawka",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/czkawka",
-    "version_raw": "https://github.com/qarmin/czkawka/releases/download/9.0.0/linux_czkawka_gui.AppImage",
+    "version_raw": "",
     "description": "App to find duplicates, empty folders, similar images etc"
   },
   {
@@ -6932,7 +6924,7 @@
     "site": "ivan-hc/Chrome-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/google-chrome-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/google-chrome-beta",
-    "version_raw": "https://github.com/ivan-hc/Chrome-appimage/releases/download/continuous/Google-Chrome-beta-141.0.7390.7-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Chrome-appimage/releases/download/continuous/Google-Chrome-beta-141.0.7390.16-1-x86_64.AppImage",
     "description": "Unofficial, Web Browser, Beta version"
   },
   {
@@ -9356,7 +9348,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.5.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
