@@ -2756,7 +2756,7 @@
     "site": "pkgforge-dev/Citron-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/citron",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/citron",
-    "version_raw": "https://github.com/pkgforge-dev/Citron-AppImage/releases/download/0.7.0-2%402025-09-10_1757484849/Citron-0.7.0-2-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Citron-AppImage/releases/download/0.7.0-3%402025-09-13_1757747522/Citron-0.7.0-3-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of Citron (fork of yuzu), with optimized builds for modern cpus"
   },
   {
@@ -6108,7 +6108,7 @@
     "site": "tlecomte/friture",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/friture",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/friture",
-    "version_raw": "https://github.com/tlecomte/friture/releases/download/v0.51/friture-0.51-20240722.AppImage",
+    "version_raw": "https://github.com/tlecomte/friture/releases/download/v0.53/friture-0.53-20250908.AppImage",
     "description": "Real-time audio visualizations, spectrum, spectrogram, etc"
   },
   {
@@ -9756,7 +9756,7 @@
     "site": "psygreg/linuxtoys",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxtoys",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxtoys",
-    "version_raw": "",
+    "version_raw": "https://github.com/psygreg/linuxtoys/releases/download/4.3/LinuxToys_-x86_64.AppImage",
     "description": "A collection of tools for Linux in a user-friendly way"
   },
   {
@@ -10134,6 +10134,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/malice",
     "version_raw": "https://github.com/AUCOHL/Malice/releases/download/continuous/Malice_x86_64.AppImage",
     "description": "GUI Programming Tool for iCE40"
+  },
+  {
+    "pkg": "mame",
+    "site": "pkgforge-dev/MAME-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mame",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mame",
+    "version_raw": "https://github.com/pkgforge-dev/MAME-AppImage/releases/download/0.280-1%402025-09-11_1757570953/MAME-0.280-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of MAME emulator"
   },
   {
     "pkg": "manager-io",
@@ -19348,7 +19356,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "54628742703",
+    "version_raw": "54631289552",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
