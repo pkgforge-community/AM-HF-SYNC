@@ -1780,7 +1780,7 @@
     "site": "JannisX11/blockbench",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blockbench",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blockbench",
-    "version_raw": "https://github.com/JannisX11/blockbench/releases/download/v5.0.0-beta.1/Blockbench_5.0.0-beta.1.AppImage",
+    "version_raw": "https://github.com/JannisX11/blockbench/releases/download/v5.0.0-beta.2/Blockbench_5.0.0-beta.2.AppImage",
     "description": "Editor for boxy models and pixel art textures like Minecraft"
   },
   {
@@ -9392,6 +9392,14 @@
     "description": "Data Visualization and Analysis software accessible to everyone and trusted by professionals"
   },
   {
+    "pkg": "ladybird",
+    "site": "pkgforge-dev/ladybird-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ladybird",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ladybird",
+    "version_raw": "https://github.com/pkgforge-dev/ladybird-appimage/releases/download/snapshot/Ladybird-r71658.b3e8784f925-1-x86_64.AppImage",
+    "description": "A truly independent web browser, using a novel engine based on web standards"
+  },
+  {
     "pkg": "lagrange",
     "site": "skyjake/lagrange",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lagrange",
@@ -9764,7 +9772,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -19372,7 +19380,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "54664712934",
+    "version_raw": "54666450519",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
