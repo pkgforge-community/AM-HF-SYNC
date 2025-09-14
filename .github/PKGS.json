@@ -2816,6 +2816,14 @@
     "description": "Desktop application to manage your Cleep devices"
   },
   {
+    "pkg": "clementine",
+    "site": "pkgforge-dev/Clementine-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clementine",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/clementine",
+    "version_raw": "https://github.com/pkgforge-dev/Clementine-AppImage/releases/download/1.4.1%2B47%2Bg488b6416e-1%402025-09-14_1757841319/Clementine-1.4.1%2B47%2Bg488b6416e-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of the Clementine music player"
+  },
+  {
     "pkg": "clementineremote",
     "site": "mbruel/ClementineRemote",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clementineremote",
@@ -6782,6 +6790,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gnome-pomodoro",
     "version_raw": "https://github.com/pkgforge-dev/gnome-pomodoro-appimage/releases/download/0.27.0/Gnome-Pomodoro-0.27.0-x86_64.AppImage",
     "description": "A productivity tool designed to help you manage your time effectively using the Pomodoro Technique"
+  },
+  {
+    "pkg": "gnome-text-editor",
+    "site": "pkgforge-dev/Gnome-Text-Editor-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gnome-text-editor",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gnome-text-editor",
+    "version_raw": "https://github.com/pkgforge-dev/Gnome-Text-Editor-AppImage/releases/download/48.3-1%402025-09-14_1757845002/gnome-text-editor-48.3-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of the Gnome's Text Editor application"
   },
   {
     "pkg": "gnome-tweaks",
@@ -15268,7 +15284,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-6106e8f79f021764f9feca56ee5541bdef8128db/rpcs3-v0.0.37-18139-6106e8f7_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-0daa6d6fb085fbcedc97dd9b1b2827c9f4741715/rpcs3-v0.0.37-18140-0daa6d6f_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -19356,7 +19372,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "54657807546",
+    "version_raw": "54660521284",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
