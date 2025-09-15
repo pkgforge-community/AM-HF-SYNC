@@ -980,7 +980,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "",
+    "version_raw": "1.0.4",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -6692,7 +6692,7 @@
     "site": "https://gitlab.com/gitlab-org/cli",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/glab",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/glab",
-    "version_raw": "https://gitlab.com/gitlab-org/cli/-/releases/v1.68.0/downloads/glab_1.68.0_linux_amd64.tar.gz",
+    "version_raw": "https://gitlab.com/gitlab-org/cli/-/releases/v1.70.0/downloads/glab_1.70.0_linux_386.tar.gz",
     "description": "A GitLab CLI tool bringing GitLab to your command line"
   },
   {
@@ -7092,7 +7092,7 @@
     "site": "pkgforge-dev/gpu-screen-recorder-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gpu-screen-recorder",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gpu-screen-recorder",
-    "version_raw": "https://github.com/pkgforge-dev/gpu-screen-recorder-AppImage/releases/download/r1158.fcb45b8-1%402025-09-06_1757185412/gpu-screen-recorder-r1158.fcb45b8-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/gpu-screen-recorder-AppImage/releases/download/r1164.71234c6-1%402025-09-15_1757953953/gpu-screen-recorder-r1164.71234c6-1-anylinux-x86_64.AppImage",
     "description": "Unofficial, AppImage of GPU Screen Recorder"
   },
   {
@@ -7356,7 +7356,7 @@
     "site": "https://gitlab.com/posktomten/hashsum",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hashsum",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hashsum",
-    "version_raw": "",
+    "version_raw": "2025.05.26",
     "description": "A universal tool for finding file duplicates and modified files"
   },
   {
@@ -9356,7 +9356,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.5.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -9772,7 +9772,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -12176,14 +12176,6 @@
     "description": "A new Unix shell"
   },
   {
-    "pkg": "oh-my-git",
-    "site": "https://ohmygit.org",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/oh-my-git",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/oh-my-git",
-    "version_raw": "",
-    "description": "An open source game about learning Git!"
-  },
-  {
     "pkg": "oh-mymd",
     "site": "virtua1thread/support.ohmymd.app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/oh-mymd",
@@ -12212,7 +12204,7 @@
     "site": "ollama/ollama",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ollama",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ollama",
-    "version_raw": "https://github.com/ollama/ollama/releases/download/v0.11.11-rc3/ollama-linux-amd64.tgz",
+    "version_raw": "https://github.com/ollama/ollama/releases/download/v0.11.11/ollama-linux-amd64.tgz",
     "description": "Get up and running with Llama 3, Mistral, Gemma, and other LLMs"
   },
   {
