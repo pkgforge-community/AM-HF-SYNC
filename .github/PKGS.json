@@ -2644,7 +2644,7 @@
     "site": "giuspen/cherrytree",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cherrytree",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cherrytree",
-    "version_raw": "https://github.com/giuspen/cherrytree/releases/download/v1.6.1/CherryTree-1.6.1-x86_64.AppImage",
+    "version_raw": "https://github.com/giuspen/cherrytree/releases/download/v1.6.2/CherryTree-1.6.2-x86_64.AppImage",
     "description": "A hierarchical note taking application"
   },
   {
@@ -2668,7 +2668,7 @@
     "site": "ivan-hc/Chromium-Web-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chromium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chromium",
-    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-stable-140.0.7339.127-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-stable-140.0.7339.185-x86_64.AppImage",
     "description": "Unofficial. FOSS Web Browser, base of Google Chrome, Edge and Brave, stable"
   },
   {
@@ -2700,7 +2700,7 @@
     "site": "ivan-hc/Chromium-Web-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chromium-rc",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chromium-rc",
-    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-candidate-140.0.7339.127-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-candidate-140.0.7339.185-x86_64.AppImage",
     "description": "Unofficial. FOSS Web Browser, base of Google Chrome, release candidate"
   },
   {
@@ -4292,7 +4292,7 @@
     "site": "drawpile/Drawpile",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/drawpile",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/drawpile",
-    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.3.0-beta.3-69-gb89d66178-x86_64.AppImage",
+    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.3.0-beta.3-83-g4339ce038-x86_64.AppImage",
     "description": "Drawing program to sketch on the same canvas simultaneously"
   },
   {
@@ -6580,7 +6580,7 @@
     "site": "https://gitbutler.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gitbutler",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gitbutler",
-    "version_raw": "https://releases.gitbutler.com/releases/release/0.16.4-2417/linux/x86_64/GitButler_0.16.4_amd64.AppImage.tar.gz",
+    "version_raw": "https://releases.gitbutler.com/releases/release/0.16.5-2422/linux/x86_64/GitButler_0.16.5_amd64.AppImage.tar.gz",
     "description": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte"
   },
   {
@@ -10032,6 +10032,14 @@
     "description": "Unofficial, Fun and engaging card game for two players. This script installs the full kdegames suite"
   },
   {
+    "pkg": "ludo",
+    "site": "lucasmz1/Ludo-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ludo",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ludo",
+    "version_raw": "https://github.com/lucasmz1/Ludo-AppImage/releases/download/continuous-universal/Ludo-x86_64.AppImage",
+    "description": "Ludo is a work in progress libretro frontend written in go"
+  },
+  {
     "pkg": "lumi",
     "site": "lumieducation/lumi",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lumi",
@@ -10356,7 +10364,7 @@
     "site": "Materialious/Materialious",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/materialious",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/materialious",
-    "version_raw": "https://github.com/Materialious/Materialious/releases/download/1.10.9/Materialious-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/Materialious/Materialious/releases/download/1.10.10/Materialious-linux-x86_64.AppImage",
     "description": "Modern material design for Invidious"
   },
   {
@@ -10876,7 +10884,7 @@
     "site": "hockyy/miteiru",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/miteiru",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/miteiru",
-    "version_raw": "https://github.com/hockyy/miteiru/releases/download/v2.2.0/miteiru-2.2.0-linux-22.04-x86_64.AppImage",
+    "version_raw": "",
     "description": "An open source Electron video player to learn Japanese"
   },
   {
@@ -14764,7 +14772,7 @@
     "site": "ebkr/r2modmanPlus",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/r2modman",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/r2modman",
-    "version_raw": "https://github.com/ebkr/r2modmanPlus/releases/download/v3.2.5/r2modman-3.2.5.AppImage",
+    "version_raw": "https://github.com/ebkr/r2modmanPlus/releases/download/v3.2.6/r2modman-3.2.6.AppImage",
     "description": "Mod manager for several Unity games using Thunderstore"
   },
   {
@@ -15508,7 +15516,7 @@
     "site": "PaulCombal/SamRewritten",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/samrewritten",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/samrewritten",
-    "version_raw": "https://github.com/PaulCombal/SamRewritten/releases/download/20250802.1/samrewritten-adw.AppImage",
+    "version_raw": "https://github.com/PaulCombal/SamRewritten/releases/download/20250919.1/samrewritten-adw.AppImage",
     "description": "Steam Achievement Manager For Linux. Rewritten in C++"
   },
   {
@@ -15900,7 +15908,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4-nightly",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-09-19-be80276ec3ca6801cf1912ce09da08e574939749/shadps4-linux-sdl-2025-09-19-be80276.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-09-19-fa489c023ee2583935024357fd853c07bb9857d9/shadps4-linux-sdl-2025-09-19-fa489c0.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -16220,7 +16228,7 @@
     "site": "siyuan-note/siyuan",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/siyuan",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/siyuan",
-    "version_raw": "https://github.com/siyuan-note/siyuan/releases/download/v3.3.3-dev4/siyuan-v202509171222-linux.AppImage",
+    "version_raw": "https://github.com/siyuan-note/siyuan/releases/download/v3.3.3-dev5/siyuan-v202509200022-linux.AppImage",
     "description": "A local-first personal knowledge management system"
   },
   {
@@ -19052,7 +19060,7 @@
     "site": "ivan-hc/VLC-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vlc-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vlc-git",
-    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r34684.g777a8a09171d-1-archimage4.3-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous/VLC-media-player_3.0.21-28-archimage4.3-x86_64.AppImage",
     "description": "Unofficial. Free and Open Source Video & Media player, GIT version"
   },
   {
@@ -19380,7 +19388,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "54918846653",
+    "version_raw": "54924848712",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -20156,7 +20164,7 @@
     "site": "Siriusmart/youtube-tui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/youtube-tui",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/youtube-tui",
-    "version_raw": "https://github.com/Siriusmart/youtube-tui/releases/download/v0.9.1/youtube-tui-full_arch-x86_64",
+    "version_raw": "https://github.com/Siriusmart/youtube-tui/releases/download/v0.9.2/youtube-tui-full_arch-x86_64",
     "description": "An aesthetically pleasing YouTube TUI CLI written in Rust"
   },
   {
