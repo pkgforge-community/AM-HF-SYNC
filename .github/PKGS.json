@@ -3776,6 +3776,14 @@
     "description": "Opensource database administration tool"
   },
   {
+    "pkg": "dbgate-premium",
+    "site": "dbgate/dbgate",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dbgate-premium",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dbgate-premium",
+    "version_raw": "https://github.com/dbgate/dbgate/releases/download/v6.6.4-premium-beta.9/dbgate-premium-6.6.4-premium-beta.9-linux_x86_64.AppImage",
+    "description": "Opensource database administration tool (premium version)"
+  },
+  {
     "pkg": "dbin",
     "site": "xplshn/dbin",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dbin",
@@ -6788,7 +6796,7 @@
     "site": "pkgforge-dev/Gnome-Calculator-Appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gnome-calculator",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gnome-calculator",
-    "version_raw": "https://github.com/pkgforge-dev/Gnome-Calculator-AppImage/releases/download/48.1-2%402025-09-22_1758525648/gnome-calculator-48.1-2-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Gnome-Calculator-AppImage/releases/download/48.1-2%402025-09-27_1758956402/gnome-calculator-49.0.1-1-anylinux-x86_64.AppImage",
     "description": "Unofficial, Perform arithmetic, scientific or financial calculations"
   },
   {
@@ -9372,7 +9380,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.5.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -9788,7 +9796,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -10196,7 +10204,7 @@
     "site": "Manager-io/Manager",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/manager-io",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/manager-io",
-    "version_raw": "https://github.com/Manager-io/Manager/releases/download/25.9.27.2820/Manager-x86_64.AppImage",
+    "version_raw": "https://github.com/Manager-io/Manager/releases/download/25.9.27.2822/Manager-x86_64.AppImage",
     "description": "Free Accounting Software for Linux, Server"
   },
   {
@@ -17348,7 +17356,7 @@
     "site": "surrealdb/surrealist",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/surrealist",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/surrealist",
-    "version_raw": "https://github.com/surrealdb/surrealist/releases/download/surrealist-v3.5.5/Surrealist_3.5.5_amd64.AppImage",
+    "version_raw": "https://github.com/surrealdb/surrealist/releases/download/surrealist-v3.5.6/Surrealist_3.5.6_amd64.AppImage",
     "description": "Surrealist is the ultimate way to visually manage your SurrealDB database"
   },
   {
