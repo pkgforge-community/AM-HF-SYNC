@@ -3596,7 +3596,7 @@
     "site": "https://cudatext.github.io",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cudatext",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cudatext",
-    "version_raw": "1.228.1.0",
+    "version_raw": "1.228.3.0",
     "description": "A cross-platform text editor, written in Object Pascal"
   },
   {
@@ -3628,7 +3628,7 @@
     "site": "https://www.cursor.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cursor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cursor",
-    "version_raw": "https://downloads.cursor.com/production/5069385c5a69db511722405ab5aeadc01579afd8/linux/x64/Cursor-1.7.23-x86_64.AppImage",
+    "version_raw": "https://downloads.cursor.com/production/429604585b94ab2b96a4dabff4660f41d5b7fb8f/linux/x64/Cursor-1.7.25-x86_64.AppImage",
     "description": "Built to make you extraordinarily productive, Cursor is the best way to code with AI"
   },
   {
@@ -5148,7 +5148,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "25.34.6",
+    "version_raw": "25.40.5",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -5684,7 +5684,7 @@
     "site": "fish-shell/fish-shell",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fish",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fish",
-    "version_raw": "https://github.com/fish-shell/fish-shell/releases/download/4.1.0/fish-4.1.0-linux-x86_64.tar.xz",
+    "version_raw": "https://github.com/fish-shell/fish-shell/releases/download/4.1.1/fish-4.1.1-linux-x86_64.tar.xz",
     "description": "The user-friendly command line shell"
   },
   {
@@ -7396,7 +7396,7 @@
     "site": "retoaccess1/haveno-reto",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/haveno-reto",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/haveno-reto",
-    "version_raw": "https://github.com/retoaccess1/haveno-reto/releases/download/1.2.1-reto/haveno-v1.2.1-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/retoaccess1/haveno-reto/releases/download/1.2.2-reto/haveno-v1.2.2-linux-x86_64.AppImage",
     "description": "Decentralized P2P exchange built on Monero and Tor"
   },
   {
@@ -9796,7 +9796,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -11420,7 +11420,7 @@
     "site": "mytonwalletorg/mytonwallet",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mytonwallet",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mytonwallet",
-    "version_raw": "https://github.com/mytonwallet-org/mytonwallet/releases/download/v4.2.1/MyTonWallet-x86_64.AppImage",
+    "version_raw": "https://github.com/mytonwallet-org/mytonwallet/releases/download/v4.2.2/MyTonWallet-x86_64.AppImage",
     "description": "Feature-rich web wallet and browser extension for TON Network"
   },
   {
@@ -14276,7 +14276,7 @@
     "site": "https://www.pureref.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pureref",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pureref",
-    "version_raw": "2.0.3",
+    "version_raw": "",
     "description": "All your reference images in one place"
   },
   {
@@ -14862,6 +14862,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rare",
     "version_raw": "https://github.com/RareDevs/Rare/releases/download/1.11.3.143/Rare-1.11.3.143.AppImage",
     "description": "GUI for legendary. An Epic Games Launcher open source alternative"
+  },
+  {
+    "pkg": "raspberry-pi-imager",
+    "site": "raspberrypi/rpi-imager",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/raspberry-pi-imager",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/raspberry-pi-imager",
+    "version_raw": "https://github.com/raspberrypi/rpi-imager/releases/download/v1.9.6/Raspberry_Pi_Imager-1.9.6-x86_64.AppImage",
+    "description": "The home of Raspberry Pi Imager, a user-friendly tool for creating bootable media for Raspberry Pi devices"
   },
   {
     "pkg": "raspirus",
@@ -19404,7 +19412,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "55413179997",
+    "version_raw": "55414687618",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
