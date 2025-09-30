@@ -980,7 +980,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "1.0.4",
+    "version_raw": "",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -6552,14 +6552,6 @@
     "description": "The open-source, Haskell-built video editor for GIF makers"
   },
   {
-    "pkg": "gimp-dev",
-    "site": "ivan-hc/GIMP-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gimp-dev",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gimp-dev",
-    "version_raw": "https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-dev/GNU-Image-Manipulation-Program_DEV_3.0.0rc3-1-archimage3.5-x86_64.AppImage",
-    "description": "Unofficial, Cross-platform image and photo editor, Developer Edition"
-  },
-  {
     "pkg": "gimp-git",
     "site": "ivan-hc/GIMP-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gimp-git",
@@ -9804,7 +9796,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -19028,7 +19020,7 @@
     "site": "ivan-hc/Vivaldi-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vivaldi-snapshot",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vivaldi-snapshot",
-    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-snapshot-7.7.3820.3-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-snapshot-7.7.3822.3-1-x86_64.AppImage",
     "description": "Unofficial. Advanced Web Browser, Testing Version"
   },
   {
@@ -19080,19 +19072,11 @@
     "description": "Unofficial. Free and Open Source Video & Media player for Audio, streaming and more"
   },
   {
-    "pkg": "vlc+",
-    "site": "ivan-hc/VLC-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vlc+",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vlc+",
-    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/20250929-184035/VLC-media-player_3.0.21-29-jre8-with-plugins-archimage4.3-x86_64.AppImage",
-    "description": "Unofficial. Video & Media player for Audio, streaming and more, with JAVA support"
-  },
-  {
     "pkg": "vlc-git",
     "site": "ivan-hc/VLC-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vlc-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vlc-git",
-    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r34794.gf3ddea086467-1-archimage4.3-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous/VLC-media-player_3.0.21-29-archimage4.3-x86_64.AppImage",
     "description": "Unofficial. Free and Open Source Video & Media player, GIT version"
   },
   {
@@ -19420,7 +19404,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "55367968658",
+    "version_raw": "55373931773",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
