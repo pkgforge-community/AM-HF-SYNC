@@ -988,7 +988,7 @@
     "site": "artisan-roaster-scope/artisan",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artisan",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artisan",
-    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/continuous/artisan-linux-3.2.1.AppImage",
+    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/v3.2.0/artisan-linux-3.2.0.AppImage",
     "description": "Visualizes the coffee roasting process"
   },
   {
@@ -3612,7 +3612,7 @@
     "site": "Ultimaker/Cura",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cura-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cura-beta",
-    "version_raw": "https://github.com/Ultimaker/Cura/releases/download/5.10.0-beta.1/UltiMaker-Cura-5.10.0-beta.1-linux-X64.AppImage",
+    "version_raw": "https://github.com/Ultimaker/Cura/releases/download/5.11.0-beta.1/UltiMaker-Cura-5.11.0-beta.1-linux-X64.AppImage",
     "description": "An open source slicing application for 3D printers, beta"
   },
   {
@@ -7456,6 +7456,14 @@
     "description": "Custom launcher for modded minecraft written in Electron"
   },
   {
+    "pkg": "helium",
+    "site": "imputnet/helium-linux",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/helium",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/helium",
+    "version_raw": "https://github.com/imputnet/helium-linux/releases/download/0.4.12.1/helium-0.4.12.1-x86_64.AppImage",
+    "description": "Private, fast, and honest Chromium-based web browser made for people"
+  },
+  {
     "pkg": "helix",
     "site": "helix-editor/helix",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/helix",
@@ -7572,7 +7580,7 @@
     "site": "HMCL-dev/HMCL",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hmcl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hmcl",
-    "version_raw": "https://github.com/HMCL-dev/HMCL/releases/download/v3.7.0.298/HMCL-3.7.0.298.sh",
+    "version_raw": "https://github.com/HMCL-dev/HMCL/releases/download/v3.7.0.300/HMCL-3.7.0.300.sh",
     "description": "A Minecraft Launcher which is multi-functional, cross-platform and popular"
   },
   {
@@ -9380,7 +9388,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.5.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -9796,7 +9804,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250724_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -15356,7 +15364,7 @@
     "site": "martinrotter/rssguard",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rssguard",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rssguard",
-    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-4a1458db8-qt6-linux64.AppImage",
+    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-f99a7c076-qt6-linux64.AppImage",
     "description": "Feed reader which supports RSS/ATOM/JSON, no-webengine version"
   },
   {
