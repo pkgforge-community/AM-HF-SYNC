@@ -980,7 +980,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "1.0.4",
+    "version_raw": "",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -3980,7 +3980,7 @@
     "site": "pkgforge-dev/DeSmuME-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/desmume",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/desmume",
-    "version_raw": "https://github.com/pkgforge-dev/DeSmuME-AppImage/releases/download/0.9.13-1%402025-09-28_1759069122/desmume-0.9.13-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/DeSmuME-AppImage/releases/download/0.9.13-1%402025-10-05_1759673986/desmume-0.9.13-1-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of the DeSmuME emulator"
   },
   {
@@ -7380,7 +7380,7 @@
     "site": "https://gitlab.com/posktomten/hashsum",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hashsum",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hashsum",
-    "version_raw": "2025.05.26",
+    "version_raw": "",
     "description": "A universal tool for finding file duplicates and modified files"
   },
   {
@@ -7844,7 +7844,7 @@
     "site": "ImageMagick/ImageMagick",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/imagemagick-clang",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/imagemagick-clang",
-    "version_raw": "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-3/ImageMagick-147bc9c-clang-x86_64.AppImage",
+    "version_raw": "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-4/ImageMagick-d20215e-clang-x86_64.AppImage",
     "description": "CLI to create, edit, compose, or convert digital images"
   },
   {
@@ -7852,7 +7852,7 @@
     "site": "ImageMagick/ImageMagick",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/imagemagick-gcc",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/imagemagick-gcc",
-    "version_raw": "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-3/ImageMagick-147bc9c-gcc-x86_64.AppImage",
+    "version_raw": "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-4/ImageMagick-d20215e-gcc-x86_64.AppImage",
     "description": "CLI to create, edit, compose, or convert digital images"
   },
   {
@@ -9388,7 +9388,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.5.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -10220,7 +10220,7 @@
     "site": "buddhi1980/mandelbulber2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mandelbulber2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mandelbulber2",
-    "version_raw": "https://github.com/buddhi1980/mandelbulber2/releases/download/continuous/Mandelbulber_v2-109fd69-x86_64.AppImage",
+    "version_raw": "https://github.com/buddhi1980/mandelbulber2/releases/download/2.34/Mandelbulber_v2-2.34-x86_64.AppImage",
     "description": "Explore trigonometric, hyper-complex and other 3D fractals"
   },
   {
@@ -15940,7 +15940,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4-nightly",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-10-04-e7194af881c24f1cdaa1e9de4fbe235053ee4f80/shadps4-linux-sdl-2025-10-04-e7194af.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-10-05-11229c1dc02fcb6380ac0225c340baa30d9cd891/shadps4-linux-sdl-2025-10-05-11229c1.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -17624,14 +17624,6 @@
     "description": "A clean and powerful open source notes app"
   },
   {
-    "pkg": "task",
-    "site": "00sapo/taskwarrior-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/task",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/task",
-    "version_raw": "",
-    "description": "Unofficial AppImage for Taskwarrior, a powerful and open source CLI for todo"
-  },
-  {
     "pkg": "taskade",
     "site": "https://www.taskade.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/taskade",
@@ -17956,7 +17948,7 @@
     "site": "edrlab/thorium-reader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium-reader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium-reader",
-    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.0-alpha.1.18259619903.AppImage",
+    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.0-alpha.1.18261086807.AppImage",
     "description": "Desktop application to read ebooks"
   },
   {
@@ -19412,7 +19404,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "55615777893",
+    "version_raw": "55618153532",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
