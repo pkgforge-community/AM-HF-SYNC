@@ -2596,7 +2596,7 @@
     "site": "Chatterino/chatterino2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chatterino2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chatterino2",
-    "version_raw": "https://github.com/Chatterino/chatterino2/releases/download/nightly-build/Chatterino-x86_64.AppImage",
+    "version_raw": "https://github.com/Chatterino/chatterino2/releases/download/v2.5.4/Chatterino-x86_64.AppImage",
     "description": "Second installment of the Twitch chat client"
   },
   {
@@ -2604,7 +2604,7 @@
     "site": "Chatterino/chatterino2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chatterino2-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chatterino2-nightly",
-    "version_raw": "https://github.com/Chatterino/chatterino2/releases/download/nightly-build/Chatterino-x86_64.AppImage",
+    "version_raw": "https://github.com/Chatterino/chatterino2/releases/download/v2.5.4/Chatterino-x86_64.AppImage",
     "description": "Second installment of the Twitch chat client"
   },
   {
@@ -4230,6 +4230,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dopamine-preview",
     "version_raw": "https://github.com/digimezzo/dopamine/releases/download/v3.0.0-preview.40/Dopamine-3.0.0-preview.40.AppImage",
     "description": "The audio player that keeps it simple"
+  },
+  {
+    "pkg": "dorion",
+    "site": "SpikeHD/Dorion",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dorion",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dorion",
+    "version_raw": "https://github.com/SpikeHD/Dorion/releases/download/v6.10.0/Dorion_6.10.0_amd64.AppImage",
+    "description": "Tiny alternative Discord client with a smaller footprint, snappier startup, themes, plugins and more!"
   },
   {
     "pkg": "dosemu",
@@ -9804,7 +9812,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -15940,7 +15948,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4-nightly",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-10-05-11229c1dc02fcb6380ac0225c340baa30d9cd891/shadps4-linux-sdl-2025-10-05-11229c1.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-10-05-4fa435490c4e771cd16067c8a6163add79cca2fe/shadps4-linux-sdl-2025-10-05-4fa4354.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -16932,7 +16940,7 @@
     "site": "FrogTheFrog/steam-rom-manager",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/steam-rom-manager",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/steam-rom-manager",
-    "version_raw": "https://github.com/SteamGridDB/steam-rom-manager/releases/download/v2.5.29/Steam-ROM-Manager-2.5.29.AppImage",
+    "version_raw": "https://github.com/SteamGridDB/steam-rom-manager/releases/download/v2.5.30/Steam-ROM-Manager-2.5.30.AppImage",
     "description": "An app for managing ROMs in Steam"
   },
   {
@@ -17252,7 +17260,7 @@
     "site": "LizardByte/Sunshine",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sunshine",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sunshine",
-    "version_raw": "https://github.com/LizardByte/Sunshine/releases/download/v2025.930.130407/sunshine.AppImage",
+    "version_raw": "https://github.com/LizardByte/Sunshine/releases/download/v2025.1005.140530/sunshine.AppImage",
     "description": "Sunshine is a Gamestream host for Moonlight"
   },
   {
@@ -19404,7 +19412,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "55618153532",
+    "version_raw": "55620187288",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
