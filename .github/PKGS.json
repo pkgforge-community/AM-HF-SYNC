@@ -980,7 +980,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "",
+    "version_raw": "1.0.4",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -4324,7 +4324,7 @@
     "site": "drawpile/Drawpile",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/drawpile",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/drawpile",
-    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.3.0-beta.3-163-g614930cce-x86_64.AppImage",
+    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.3.0-beta.3-175-gcb620d8e3-x86_64.AppImage",
     "description": "Drawing program to sketch on the same canvas simultaneously"
   },
   {
@@ -6564,7 +6564,7 @@
     "site": "ivan-hc/GIMP-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gimp-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gimp-git",
-    "version_raw": "https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_55909.8b20b522986-1-archimage4.3-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_55921.becd6623151-1-archimage4.3-x86_64.AppImage",
     "description": "Unofficial, Cross-platform image and photo editor, built from GIT"
   },
   {
@@ -6964,7 +6964,7 @@
     "site": "ivan-hc/Chrome-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/google-chrome-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/google-chrome-beta",
-    "version_raw": "https://github.com/ivan-hc/Chrome-appimage/releases/download/continuous/Google-Chrome-beta-142.0.7444.3-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Chrome-appimage/releases/download/continuous/Google-Chrome-beta-142.0.7444.23-1-x86_64.AppImage",
     "description": "Unofficial, Web Browser, Beta version"
   },
   {
@@ -8742,6 +8742,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kdenlive-daily",
     "version_raw": "https://cdn.kde.org/ci-builds/multimedia/kdenlive/master/linux/",
     "description": "A powerful Video Editor provided by KDE (daily builds)"
+  },
+  {
+    "pkg": "kdenlive-enhanced",
+    "site": "pkgforge-dev/kdenlive-AppImage-Enhanced",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kdenlive-enhanced",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kdenlive-enhanced",
+    "version_raw": "https://github.com/pkgforge-dev/kdenlive-AppImage-Enhanced/releases/download/25.08.1-1%402025-10-09_1759972705/kdenlive-25.08.1-2-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Kdenlive Video Editor which is able to work on any linux distro"
   },
   {
     "pkg": "kdeutils",
@@ -20092,7 +20100,7 @@
     "site": "ivan-hc/Yandex-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yandex-browser",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yandex-browser",
-    "version_raw": "https://github.com/ivan-hc/Yandex-Browser-appimage/releases/download/continuous/Yandex-Browser-beta-25.8.1.846-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Yandex-Browser-appimage/releases/download/continuous/Yandex-Browser-beta-25.8.5.834-1-x86_64.AppImage",
     "description": "Unofficial Yandex Browser AppImage, Stable"
   },
   {
@@ -20100,7 +20108,7 @@
     "site": "ivan-hc/Yandex-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yandex-browser-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yandex-browser-beta",
-    "version_raw": "https://github.com/ivan-hc/Yandex-Browser-appimage/releases/download/continuous/Yandex-Browser-beta-25.8.1.846-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Yandex-Browser-appimage/releases/download/continuous/Yandex-Browser-beta-25.8.5.834-1-x86_64.AppImage",
     "description": "Unofficial Yandex Browser AppImage, Beta"
   },
   {
@@ -20348,7 +20356,7 @@
     "site": "AdelKS/ZeGrapher",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zegrapher",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zegrapher",
-    "version_raw": "https://github.com/AdelKS/ZeGrapher/releases/download/v3.1.1/ZeGrapher_v3.1.1_Linux_64bit.AppImage",
+    "version_raw": "",
     "description": "Math graphing software"
   },
   {
