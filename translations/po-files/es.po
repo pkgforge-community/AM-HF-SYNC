@@ -288,7 +288,7 @@ msgstr ""
 msgid "Related extension"
 msgstr ""
 
-#: APP-MANAGER:621 APP-MANAGER:1718
+#: APP-MANAGER:621
 msgid "PROGRAM"
 msgstr ""
 
@@ -701,12 +701,16 @@ msgstr ""
 msgid "OPTIONS"
 msgstr ""
 
-#: APP-MANAGER:1719
+#: APP-MANAGER:1718
 msgid "THIRD-PARTY FLAGS"
 msgstr ""
 
-#: APP-MANAGER:1720
+#: APP-MANAGER:1719
 msgid "Third-party databases"
+msgstr ""
+
+#: APP-MANAGER:1720
+msgid "SITES"
 msgstr ""
 
 #: APP-MANAGER:1723
@@ -1274,8 +1278,10 @@ msgid " ◆ $APPNAME IS PART OF \\\"$LASTDIR\\\", ALREADY INSTALLED"
 msgstr " ◆ $APPNAME ES PARTE DE \\\"$LASTDIR\\\", YA INSTALADO"
 
 #: modules/install.am:124
-msgid "%b%b"
-msgstr "%b%b"
+msgid ""
+" ${RED}WARNING: \\\"$arg\\\" does not have a transparent build process! "
+"\\033[0m\\n"
+msgstr ""
 
 #: modules/install.am:125
 msgid ""
@@ -1977,3 +1983,6 @@ msgstr " ◆ URL DE LA APLICACIÓN WEB: "
 #: modules/template.am:496
 msgid "\\n No valid argument was chosen: process aborted! \\n"
 msgstr "\\n No se eligió ningún argumento válido: ¡proceso abortado! \\n"
+
+#~ msgid "%b%b"
+#~ msgstr "%b%b"
