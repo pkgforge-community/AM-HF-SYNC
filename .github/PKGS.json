@@ -2244,7 +2244,7 @@
     "site": "cables-gl/cables_electron",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cables-gl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cables-gl",
-    "version_raw": "https://github.com/cables-gl/cables_electron/releases/download/v0.7.1/cables-0.7.1-linux-x64.AppImage",
+    "version_raw": "https://github.com/cables-gl/cables_electron/releases/download/v0.7.2/cables-0.7.2-linux-x64.AppImage",
     "description": "A tool for creating beautiful interactive content. With an easy to navigate interface and real time visuals"
   },
   {
@@ -6948,7 +6948,7 @@
     "site": "Milkshiift/GoofCord",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/goofcord",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/goofcord",
-    "version_raw": "https://github.com/Milkshiift/GoofCord/releases/download/v1.10.3/GoofCord-1.10.3-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/Milkshiift/GoofCord/releases/download/v1.11.0/GoofCord-1.11.0-linux-x86_64.AppImage",
     "description": "Take control of your Discord experience with GoofCord"
   },
   {
@@ -9812,7 +9812,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
+    "version_raw": "",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -10684,7 +10684,7 @@
     "site": "ragnar-lodbrok/meow-sql",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/meow-sql",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/meow-sql",
-    "version_raw": "",
+    "version_raw": "https://github.com/ragnar-lodbrok/meow-sql/releases/download/v0.4.18-alpha/Linux_MeowSQL_0.4.18-x86_64.AppImage",
     "description": "An attempt to port HeidiSQL to C++/Qt"
   },
   {
@@ -10740,7 +10740,7 @@
     "site": "ivan-hc/MS-Edge-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/microsoft-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/microsoft-edge",
-    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/20251010-102509/Microsoft-Edge-stable-141.0.3537.71-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-stable-141.0.3537.71-1-x86_64.AppImage",
     "description": "Web Browser provided by Microsoft, Stable Edition"
   },
   {
@@ -10756,7 +10756,7 @@
     "site": "ivan-hc/MS-Edge-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/microsoft-edge-dev",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/microsoft-edge-dev",
-    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/20251010-102509/Microsoft-Edge-dev-142.0.3595.7-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-dev-142.0.3595.7-1-x86_64.AppImage",
     "description": "Web Browser provided by Microsoft, Developer Edition"
   },
   {
@@ -11854,14 +11854,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nora",
     "version_raw": "https://github.com/Sandakan/Nora/releases/download/v3.1.0-stable/Nora.v3.1.0-stable-linux-x86_64.AppImage",
     "description": "An elegant music player built using Electron and React"
-  },
-  {
-    "pkg": "nordvpn-appimage",
-    "site": "martijnmichel/nordvpn-linux",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nordvpn-appimage",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nordvpn-appimage",
-    "version_raw": "https://github.com/martijnmichel/nordvpn-linux/releases/download/v0.6.0/NordVPN.for.Linux-0.6.0.AppImage",
-    "description": "Unofficial. A nicer way to connect to NordVPN, in electron"
   },
   {
     "pkg": "normcap",
@@ -15356,7 +15348,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-43c4947cb90624b674a32b220581a7c9a895c0a4/rpcs3-v0.0.38-18180-43c4947c_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-9e49b9100fab7293c5f616f6aebc91799461c26c/rpcs3-v0.0.38-18185-9e49b910_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -17964,7 +17956,7 @@
     "site": "edrlab/thorium-reader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium-reader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium-reader",
-    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.0-alpha.1.18400910363.AppImage",
+    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.0-alpha.1.18406047295.AppImage",
     "description": "Desktop application to read ebooks"
   },
   {
@@ -19044,7 +19036,7 @@
     "site": "ivan-hc/Vivaldi-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vivaldi-snapshot",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vivaldi-snapshot",
-    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-snapshot-7.7.3829.3-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-snapshot-7.7.3832.3-1-x86_64.AppImage",
     "description": "Unofficial. Advanced Web Browser, Testing Version"
   },
   {
@@ -19428,7 +19420,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "55858364691",
+    "version_raw": "55859526802",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
