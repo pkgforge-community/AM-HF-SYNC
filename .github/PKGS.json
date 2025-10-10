@@ -1716,7 +1716,7 @@
     "site": "ivan-hc/Blender-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blender-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blender-beta",
-    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-beta/Blender_Beta-5.0.0-beta%2Bv50.2998b97d5e14-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-beta/Blender_Beta-5.0.0-beta%2Bv50.43654059ba71-x86_64.AppImage",
     "description": "Very fast and versatile 3D modeller/renderer, Beta"
   },
   {
@@ -13092,7 +13092,7 @@
     "site": "PCSX2/pcsx2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcsx2",
-    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.5.214/pcsx2-v2.5.214-linux-appimage-x64-Qt.AppImage",
+    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.5.215/pcsx2-v2.5.215-linux-appimage-x64-Qt.AppImage",
     "description": "The Playstation 2 Emulator"
   },
   {
@@ -18966,6 +18966,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vircadia",
     "version_raw": "https://github.com/vircadia/vircadia-native-core/releases/download/2022.1.1/Vircadia-2022.1.1-Selene.AppImage",
     "description": "Open Source continuation of the High Fidelity metaverse"
+  },
+  {
+    "pkg": "virt-manager",
+    "site": "pkgforge-dev/virt-manager-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/virt-manager",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/virt-manager",
+    "version_raw": "https://github.com/pkgforge-dev/virt-manager-AppImage/releases/download/5.1.0-1%402025-10-09_1759991775/virt-manager-5.1.0-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of virt-manager, interface for managing virtual machines"
   },
   {
     "pkg": "virtscreen",
