@@ -3700,7 +3700,7 @@
     "site": "darktable-org/darktable",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/darktable-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/darktable-nightly",
-    "version_raw": "https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.3.0%2B559.g6be0dc9a6a-x86_64.AppImage",
+    "version_raw": "https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.3.0%2B564.gb47393f28c-x86_64.AppImage",
     "description": "Photography workflow app and raw developer, nightly"
   },
   {
@@ -7420,7 +7420,7 @@
     "site": "hayase-app/ui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hayase",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hayase",
-    "version_raw": "https://github.com/hayase-app/ui/releases/download/v6.4.33/linux-hayase-6.4.33-linux.AppImage",
+    "version_raw": "https://github.com/hayase-app/ui/releases/download/v6.4.34/linux-hayase-6.4.34-linux.AppImage",
     "description": "Torrent streaming made simple. Watch anime torrents, real-time with no waiting for downloads"
   },
   {
@@ -10228,7 +10228,7 @@
     "site": "Manager-io/Manager",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/manager-io",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/manager-io",
-    "version_raw": "https://github.com/Manager-io/Manager/releases/download/25.10.12.2961/Manager-x86_64.AppImage",
+    "version_raw": "https://github.com/Manager-io/Manager/releases/download/25.10.12.2967/Manager-x86_64.AppImage",
     "description": "Free Accounting Software for Linux, Server"
   },
   {
@@ -12972,7 +12972,7 @@
     "site": "Scille/parsec-cloud",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parsec",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parsec",
-    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/v3.5.1-rc.0/Parsec_3.5.1-rc.0_linux_x86_64.unsigned.AppImage",
+    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.5.1-a.0.dev.20372%2B6378ac2_linux_x86_64.unsigned.AppImage",
     "description": "Open source Dropbox-like file sharing with full client encryption"
   },
   {
@@ -16036,7 +16036,7 @@
     "site": "mltframework/shotcut",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shotcut",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shotcut",
-    "version_raw": "https://github.com/mltframework/shotcut/releases/download/v25.10.9/shotcut-linux-x86_64-25.10.10.AppImage",
+    "version_raw": "https://github.com/mltframework/shotcut/releases/download/v25.10.9/shotcut-linux-x86_64-25.10.11.AppImage",
     "description": "A powerful Video Editor"
   },
   {
@@ -17964,7 +17964,7 @@
     "site": "edrlab/thorium-reader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium-reader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium-reader",
-    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.0-alpha.1.18412893239.AppImage",
+    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.0-alpha.1.18436343362.AppImage",
     "description": "Desktop application to read ebooks"
   },
   {
@@ -19088,6 +19088,14 @@
     "description": "Listen to the music from VK"
   },
   {
+    "pkg": "vkquake",
+    "site": "Novum/vkQuake",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vkquake",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vkquake",
+    "version_raw": "https://github.com/Novum/vkQuake/releases/download/1.32.3.1/vkQuake-1.32.3_linux64.tar.gz",
+    "description": "Vulkan Quake game port based on QuakeSpasm"
+  },
+  {
     "pkg": "vlc",
     "site": "ivan-hc/VLC-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vlc",
@@ -19428,7 +19436,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "55934260456",
+    "version_raw": "3985292777",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
