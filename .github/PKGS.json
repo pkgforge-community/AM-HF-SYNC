@@ -172,7 +172,7 @@
     "site": "toeverything/AFFiNE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine-canary",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine-canary",
-    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2025.10.14-canary.904/affine-2025.10.14-canary.904-canary-linux-x64.appimage",
+    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2025.10.16-canary.904/affine-2025.10.16-canary.904-canary-linux-x64.appimage",
     "description": "Next-gen knowledge base that brings planning/sorting/creating"
   },
   {
@@ -332,7 +332,7 @@
     "site": "allusion-app/Allusion",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/allusion",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/allusion",
-    "version_raw": "",
+    "version_raw": "https://github.com/allusion-app/Allusion/releases/download/v1.0.0-rc.10/Allusion-1.0.0-rc.10.AppImage",
     "description": "A desktop application for managing your visual library"
   },
   {
@@ -1788,7 +1788,7 @@
     "site": "JannisX11/blockbench",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blockbench",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blockbench",
-    "version_raw": "https://github.com/JannisX11/blockbench/releases/download/v5.0.1/Blockbench_5.0.1.AppImage",
+    "version_raw": "https://github.com/JannisX11/blockbench/releases/download/v5.0.2/Blockbench_5.0.2.AppImage",
     "description": "Editor for boxy models and pixel art textures like Minecraft"
   },
   {
@@ -2518,6 +2518,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cemu",
     "version_raw": "",
     "description": "A Nintendo Wii U emulator that is able to run most Wii U games"
+  },
+  {
+    "pkg": "cemu-enhanced",
+    "site": "pkgforge-dev/Cemu-AppImage-Enhanced",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cemu-enhanced",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cemu-enhanced",
+    "version_raw": "https://github.com/pkgforge-dev/Cemu-AppImage-Enhanced/releases/download/2.6-4%402025-10-16_1760575921/Cemu-2.6-4-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Cemu, Nintendo Wii U emulator that is able to run most Wii U games, which is able to work on any linux distro"
   },
   {
     "pkg": "cerebral-debugger",
@@ -3340,7 +3348,7 @@
     "site": "cosmonium/cosmonium",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cosmonium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cosmonium",
-    "version_raw": "",
+    "version_raw": "https://github.com/cosmonium/cosmonium/releases/download/v0.3.0.dev876/cosmonium-0.3.0.dev876_manylinux2014_x86_64.tar.gz",
     "description": "3D astronomy and space exploration program"
   },
   {
@@ -5020,7 +5028,7 @@
     "site": "xushengfeng/eSearch",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/esearch",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/esearch",
-    "version_raw": "",
+    "version_raw": "https://github.com/xushengfeng/eSearch/releases/download/15.2.1/eSearch-15.2.1-linux-x64.AppImage",
     "description": "Screenshot OCR search translate search for picture paste"
   },
   {
@@ -8772,7 +8780,7 @@
     "site": "ivan-hc/KDE-utils-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kdeutils",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kdeutils",
-    "version_raw": "",
+    "version_raw": "https://github.com/ivan-hc/KDE-utils-appimage/releases/download/continuous/KDE-utils_25.08-1-archimage4.3-x86_64.AppImage",
     "description": "Unofficial, Full & updatable KDE Utils suite, metapackage"
   },
   {
@@ -9828,7 +9836,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250724_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -10468,7 +10476,7 @@
     "site": "cantino/mcfly",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mcfly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mcfly",
-    "version_raw": "",
+    "version_raw": "https://github.com/cantino/mcfly/releases/download/v0.9.3/mcfly-v0.9.3-x86_64-unknown-linux-musl.tar.gz",
     "description": "Fly through your shell history. Great Scott!"
   },
   {
@@ -10772,7 +10780,7 @@
     "site": "ivan-hc/MS-Edge-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/microsoft-edge-dev",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/microsoft-edge-dev",
-    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-dev-142.0.3595.7-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-dev-143.0.3614.1-1-x86_64.AppImage",
     "description": "Web Browser provided by Microsoft, Developer Edition"
   },
   {
@@ -15388,7 +15396,7 @@
     "site": "martinrotter/rssguard",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rssguard",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rssguard",
-    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-cdc630839-qt5-linux64.AppImage",
+    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-450d67f11-qt5-linux64.AppImage",
     "description": "Feed reader which supports RSS/ATOM/JSON, no-webengine version"
   },
   {
@@ -17972,7 +17980,7 @@
     "site": "edrlab/thorium-reader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium-reader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium-reader",
-    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.0-alpha.1.18539658451.AppImage",
+    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.0-alpha.1.18558089650.AppImage",
     "description": "Desktop application to read ebooks"
   },
   {
@@ -19444,7 +19452,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4070532205",
+    "version_raw": "56141640485",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
