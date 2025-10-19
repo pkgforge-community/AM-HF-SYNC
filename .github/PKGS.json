@@ -2780,7 +2780,7 @@
     "site": "pkgforge-dev/Citron-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/citron-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/citron-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/Citron-AppImage/releases/download/nightly/Citron-ab18e750d-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Citron-AppImage/releases/download/nightly/Citron-b85fd5fc7-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of Citron (fork of yuzu), with optimized builds for modern cpus (nightly builds)"
   },
   {
@@ -3996,7 +3996,7 @@
     "site": "pkgforge-dev/DeSmuME-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/desmume",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/desmume",
-    "version_raw": "https://github.com/pkgforge-dev/DeSmuME-AppImage/releases/download/0.9.13-1%402025-10-12_1760278817/desmume-0.9.13-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/DeSmuME-AppImage/releases/download/0.9.13-1%402025-10-19_1760883620/desmume-0.9.13-1-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of the DeSmuME emulator"
   },
   {
@@ -7108,7 +7108,7 @@
     "site": "saturneric/GpgFrontend",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gpgfrontend",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gpgfrontend",
-    "version_raw": "https://github.com/saturneric/GpgFrontend/releases/download/nightly/Gpg_Frontend-97e8aa9-x86_64.AppImage",
+    "version_raw": "https://github.com/saturneric/GpgFrontend/releases/download/nightly/Gpg_Frontend-11f3c4a-x86_64.AppImage",
     "description": "A Cross-Platform OpenPGP Frontend Software"
   },
   {
@@ -7404,7 +7404,7 @@
     "site": "https://gitlab.com/posktomten/hashsum",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hashsum",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hashsum",
-    "version_raw": "2025.05.26",
+    "version_raw": "",
     "description": "A universal tool for finding file duplicates and modified files"
   },
   {
@@ -8572,7 +8572,7 @@
     "site": "kando-menu/kando",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kando",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kando",
-    "version_raw": "https://github.com/kando-menu/kando/releases/download/v2.1.0-rc.1/Kando-2.1.0-rc.1-x86_64.AppImage",
+    "version_raw": "https://github.com/kando-menu/kando/releases/download/v2.1.0/Kando-2.1.0-x86_64.AppImage",
     "description": "The Cross-Platform Pie Menu"
   },
   {
@@ -9828,7 +9828,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -15140,7 +15140,7 @@
     "site": "repath-project/repath-studio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/repath-studio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/repath-studio",
-    "version_raw": "https://github.com/repath-project/repath-studio/releases/download/v0.4.9/repath-studio-linux.AppImage",
+    "version_raw": "https://github.com/repath-project/repath-studio/releases/download/v0.4.10/repath-studio-linux.AppImage",
     "description": "A cross-platform vector graphics editor"
   },
   {
@@ -15284,7 +15284,7 @@
     "site": "Rosalie241/RMG",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rmg",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rmg",
-    "version_raw": "https://github.com/Rosalie241/RMG/releases/download/v0.8.5/RMG-Portable-Linux64-v0.8.5.AppImage",
+    "version_raw": "https://github.com/Rosalie241/RMG/releases/download/v0.8.6/RMG-Portable-Linux64-v0.8.6.AppImage",
     "description": "Rosalie's Mupen GUI"
   },
   {
@@ -18528,6 +18528,14 @@
     "description": "GUI Rust wrapper for ADB to debloat non-rooted Android devices"
   },
   {
+    "pkg": "uad-ng-appimage",
+    "site": "pkgforge-dev/uad-ng-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uad-ng-appimage",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uad-ng-appimage",
+    "version_raw": "https://github.com/pkgforge-dev/uad-ng-AppImage/releases/download/v1.1.2%402025-10-19_1760887648/uad-ng-v1.1.2-anylinux-x86_64.AppImage",
+    "description": "Unofficial, GUI Rust wrapper for ADB to debloat non-rooted Android devices"
+  },
+  {
     "pkg": "ubiquity",
     "site": "opensourcecheemsburgers/ubiquity",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ubiquity",
@@ -19468,7 +19476,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4123885276",
+    "version_raw": "4124200519",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
