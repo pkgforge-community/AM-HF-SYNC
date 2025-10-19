@@ -980,7 +980,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "",
+    "version_raw": "1.0.4",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -7396,7 +7396,7 @@
     "site": "Yvee1/hascard",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hascard",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hascard",
-    "version_raw": "",
+    "version_raw": "https://github.com/Yvee1/hascard/releases/download/v0.6.0.2/hascard-v0.6.0.2-linux.tar.gz",
     "description": "Flashcard TUI CLI with markdown cards"
   },
   {
@@ -7404,7 +7404,7 @@
     "site": "https://gitlab.com/posktomten/hashsum",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hashsum",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hashsum",
-    "version_raw": "",
+    "version_raw": "2025.05.26",
     "description": "A universal tool for finding file duplicates and modified files"
   },
   {
@@ -9412,7 +9412,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.5.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -12164,7 +12164,7 @@
     "site": "mrjackwills/obliqoro",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/obliqoro",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/obliqoro",
-    "version_raw": "",
+    "version_raw": "https://github.com/mrjackwills/obliqoro/releases/download/v0.3.2/Obliqoro_linux_x86_64.AppImage",
     "description": "A cross-platform tauri gui where Oblique Strategies meets Pomodoro"
   },
   {
@@ -15784,6 +15784,22 @@
     "description": "Intuitive find & replace CLI, sed alternative"
   },
   {
+    "pkg": "seafile",
+    "site": "haiwen/seafile-client",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/seafile",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/seafile",
+    "version_raw": "https://github.com/haiwen/seafile-client/releases/download/v9.0.15/Seafile-x86_64.AppImage",
+    "description": "Seafile GUI version. Beyond just syncing and sharing files, it lets you add custom file properties and organize your files in different views. With AI-powered automation for generating properties, Seafile offers a smarter, more efficient way to manage your files"
+  },
+  {
+    "pkg": "seafile-cli",
+    "site": "haiwen/seafile-client",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/seafile-cli",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/seafile-cli",
+    "version_raw": "https://github.com/haiwen/seafile-client/releases/download/v9.0.15/Seafile-cli-x86_64.AppImage",
+    "description": "Seafile CLI version. Beyond just syncing and sharing files, it lets you add custom file properties and organize your files in different views. With AI-powered automation for generating properties, Seafile offers a smarter, more efficient way to manage your files"
+  },
+  {
     "pkg": "secops",
     "site": "KunalSin9h/secops",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/secops",
@@ -18864,6 +18880,14 @@
     "description": "Proprietary cross-platform IM and VoIP software"
   },
   {
+    "pkg": "vicinae",
+    "site": "vicinaehq/vicinae",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vicinae",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vicinae",
+    "version_raw": "https://github.com/vicinaehq/vicinae/releases/download/v0.15.0/Vicinae-5e07e606e-x86_64.AppImage",
+    "description": "A high-performance, native launcher for your desktop built with C++ and Qt. Native, fast, extensible"
+  },
+  {
     "pkg": "vicut",
     "site": "km-clay/vicut",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vicut",
@@ -19180,7 +19204,7 @@
     "site": "VSCodium/vscodium",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vscodium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vscodium",
-    "version_raw": "https://github.com/VSCodium/vscodium/releases/download/1.105.16999/VSCodium-1.105.16999.glibc2.29-x86_64.AppImage",
+    "version_raw": "https://github.com/VSCodium/vscodium/releases/download/1.105.17017/VSCodium-1.105.17017.glibc2.29-x86_64.AppImage",
     "description": "Community-driven, freely-licensed binary distribution of MS VSCode"
   },
   {
@@ -19444,7 +19468,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4122743643",
+    "version_raw": "4122914722",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
