@@ -5132,7 +5132,7 @@
     "site": "evoplex/evoplex",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/evoplex",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/evoplex",
-    "version_raw": "",
+    "version_raw": "https://github.com/evoplex/evoplex/releases/download/v0.2.1/evoplex-0.2.1.x86_64.AppImage",
     "description": "Agent-based modeling"
   },
   {
@@ -7556,7 +7556,7 @@
     "site": "heyman/heynote",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/heynote",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/heynote",
-    "version_raw": "https://github.com/heyman/heynote/releases/download/v2.6.1/Heynote_2.6.1_x86_64.AppImage",
+    "version_raw": "https://github.com/heyman/heynote/releases/download/v2.6.2-beta/Heynote_2.6.2-beta_x86_64.AppImage",
     "description": "A dedicated scratchpad for developers"
   },
   {
@@ -10980,7 +10980,7 @@
     "site": "MUME/MMapper",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mmapper",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mmapper",
-    "version_raw": "https://github.com/MUME/MMapper/releases/download/beta/MMapper-25.07.0-29-gecf5691b-x86_64.AppImage",
+    "version_raw": "https://github.com/MUME/MMapper/releases/download/beta/MMapper-25.07.0-30-ga3732721-x86_64.AppImage",
     "description": "Graphical MUD client for the game MUME"
   },
   {
@@ -12140,7 +12140,7 @@
     "site": "nymtech/nym-vpn-client",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nym-vpn",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nym-vpn",
-    "version_raw": "https://github.com/nymtech/nym-vpn-client/releases/download/nym-vpn-app-v1.17.0/NymVPN_1.17.0_x64.AppImage",
+    "version_raw": "https://github.com/nymtech/nym-vpn-client/releases/download/nym-vpn-app-v1.17.1/NymVPN_1.17.1_x64.AppImage",
     "description": "Cross-platform open source VPN client built in Rust, with mixnet anonymity and WireGuard speed. Protects metadata, not just IP addresses. Zero-knowledge payments for unlinkable online activities"
   },
   {
@@ -15112,14 +15112,6 @@
     "description": "Toggleable cron reminders app"
   },
   {
-    "pkg": "remnote",
-    "site": "https://www.remnote.com",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/remnote",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/remnote",
-    "version_raw": "",
-    "description": "Build your Knowledge Base anywhere and without distractions"
-  },
-  {
     "pkg": "rendertune",
     "site": "MartinBarker/RenderTune",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rendertune",
@@ -15388,7 +15380,7 @@
     "site": "martinrotter/rssguard",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rssguard",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rssguard",
-    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-e00681ae0-qt5-linux64.AppImage",
+    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-ff04b02f7-qt5-linux64.AppImage",
     "description": "Feed reader which supports RSS/ATOM/JSON, no-webengine version"
   },
   {
@@ -15980,7 +15972,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4-nightly",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-10-14-db9921baf2e345fed15e6cbb95731088c5fbddf2/shadps4-linux-sdl-2025-10-14-db9921b.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-10-20-2d17ab8e4bac0b2a626ab23e0ebc62b8edb6059f/shadps4-linux-sdl-2025-10-20-2d17ab8.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -17988,7 +17980,7 @@
     "site": "edrlab/thorium-reader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium-reader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium-reader",
-    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.0-alpha.1.18620475796.AppImage",
+    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.0-alpha.1.18652011933.AppImage",
     "description": "Desktop application to read ebooks"
   },
   {
@@ -19484,7 +19476,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4131547748",
+    "version_raw": "4136959385",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
