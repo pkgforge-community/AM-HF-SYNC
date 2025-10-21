@@ -3788,7 +3788,7 @@
     "site": "dbgate/dbgate",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dbgate",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dbgate",
-    "version_raw": "https://github.com/dbgate/dbgate/releases/download/v6.6.5/dbgate-6.6.5-linux_x86_64.AppImage",
+    "version_raw": "https://github.com/dbgate/dbgate/releases/download/v6.6.6-premium-beta.2/dbgate-premium-6.6.6-premium-beta.2-linux_x86_64.AppImage",
     "description": "Opensource database administration tool"
   },
   {
@@ -3796,7 +3796,7 @@
     "site": "dbgate/dbgate",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dbgate-premium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dbgate-premium",
-    "version_raw": "https://github.com/dbgate/dbgate/releases/download/v6.6.5/dbgate-6.6.5-linux_x86_64.AppImage",
+    "version_raw": "https://github.com/dbgate/dbgate/releases/download/v6.6.6-premium-beta.2/dbgate-premium-6.6.6-premium-beta.2-linux_x86_64.AppImage",
     "description": "Opensource database administration tool (premium version)"
   },
   {
@@ -4340,7 +4340,7 @@
     "site": "drawpile/Drawpile",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/drawpile",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/drawpile",
-    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.3.0-beta.4-12-g93c7cdc55-x86_64.AppImage",
+    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.3.0-beta.4-13-gcb3a13a2a-x86_64.AppImage",
     "description": "Drawing program to sketch on the same canvas simultaneously"
   },
   {
@@ -7604,7 +7604,7 @@
     "site": "HMCL-dev/HMCL",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hmcl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hmcl",
-    "version_raw": "https://github.com/HMCL-dev/HMCL/releases/download/v3.8.0.303/HMCL-3.8.0.303.sh",
+    "version_raw": "https://github.com/HMCL-dev/HMCL/releases/download/v3.7.2/HMCL-3.7.2.sh",
     "description": "A Minecraft Launcher which is multi-functional, cross-platform and popular"
   },
   {
@@ -15896,6 +15896,14 @@
     "description": "Game engine for Serious Sam Classic, Vulkan support, TSE"
   },
   {
+    "pkg": "servo",
+    "site": "pkgforge-dev/servo-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/servo",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/servo",
+    "version_raw": "https://github.com/pkgforge-dev/servo-AppImage/releases/download/v0.0.1%402025-10-21_1761031275/servo-v0.0.1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage builds of the Servo web browser engine"
+  },
+  {
     "pkg": "session-desktop",
     "site": "oxen-io/session-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/session-desktop",
@@ -16852,7 +16860,7 @@
     "site": "sqlitebrowser/sqlitebrowser",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sqlitebrowser",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sqlitebrowser",
-    "version_raw": "https://github.com/sqlitebrowser/sqlitebrowser/releases/download/nightly/DB.Browser.for.SQLCipher-20250908-x86.64.AppImage",
+    "version_raw": "https://github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLCipher-dev-bb490e0-x86.64.AppImage",
     "description": "DB Browser is a light GUI editor for SQLite databases"
   },
   {
@@ -17980,7 +17988,7 @@
     "site": "edrlab/thorium-reader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium-reader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium-reader",
-    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.0-alpha.1.18656262079.AppImage",
+    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.0-alpha.1.18676687222.AppImage",
     "description": "Desktop application to read ebooks"
   },
   {
@@ -18572,7 +18580,7 @@
     "site": "CESNET/UltraGrid",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ultragrid",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ultragrid",
-    "version_raw": "https://github.com/CESNET/UltraGrid/releases/download/continuous/UltraGrid-continuous-x86_64.AppImage",
+    "version_raw": "https://github.com/CESNET/UltraGrid/releases/download/v1.9.12/UltraGrid-1.9.12-x86_64.AppImage",
     "description": "UltraGrid low-latency audio/video network transmission system"
   },
   {
