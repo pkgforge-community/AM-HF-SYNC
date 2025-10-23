@@ -6348,7 +6348,7 @@
     "site": "4ian/GDevelop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gdevelop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gdevelop",
-    "version_raw": "https://github.com/4ian/GDevelop/releases/download/v5.5.243/GDevelop-5-5.5.243.AppImage",
+    "version_raw": "https://github.com/4ian/GDevelop/releases/download/v5.5.244/GDevelop-5-5.5.244.AppImage",
     "description": "Cross-platform game engine designed to be used by everyone"
   },
   {
@@ -7972,7 +7972,7 @@
     "site": "https://infra.app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/infra-app",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/infra-app",
-    "version_raw": "0.47.0",
+    "version_raw": "",
     "description": "Infra App for Linux"
   },
   {
@@ -8888,6 +8888,14 @@
     "description": "One-stop certificate app and certificate key management"
   },
   {
+    "pkg": "keyrier-json",
+    "site": "magoo-magoo/keyrier-json",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/keyrier-json",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/keyrier-json",
+    "version_raw": "https://github.com/magoo-magoo/keyrier-json/releases/download/v1.2.1/Keyrier.JSON-1.1.38.AppImage",
+    "description": "A CLI/library/webapp to perfom SQL queries on JSON & CSV"
+  },
+  {
     "pkg": "keys",
     "site": "keys-pub/app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/keys",
@@ -9404,7 +9412,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.5.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -9820,7 +9828,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250724_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -15364,7 +15372,7 @@
     "site": "martinrotter/rssguard",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rssguard",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rssguard",
-    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-28029c40f-qt5-linux64.AppImage",
+    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-898c4b0fa-qt5-linux64.AppImage",
     "description": "Feed reader which supports RSS/ATOM/JSON, no-webengine version"
   },
   {
@@ -15964,7 +15972,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4-nightly",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-10-20-2d17ab8e4bac0b2a626ab23e0ebc62b8edb6059f/shadps4-linux-sdl-2025-10-20-2d17ab8.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-10-23-bf34665a8faaa073370871745e6f0cdde40b4a06/shadps4-linux-sdl-2025-10-23-bf34665.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -19468,7 +19476,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4204142747",
+    "version_raw": "4206189407",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -19684,7 +19692,7 @@
     "site": "https://www.wiz.cn",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wiznote",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wiznote",
-    "version_raw": "",
+    "version_raw": "0.1.107",
     "description": "Create a powerful knowledge graph from personal notes to team wiki"
   },
   {
