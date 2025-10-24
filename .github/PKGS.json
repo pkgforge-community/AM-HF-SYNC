@@ -7416,14 +7416,6 @@
     "description": "Decentralized P2P exchange built on Monero and Tor"
   },
   {
-    "pkg": "hayase",
-    "site": "hayase-app/ui",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hayase",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hayase",
-    "version_raw": "",
-    "description": "Torrent streaming made simple. Watch anime torrents, real-time with no waiting for downloads"
-  },
-  {
     "pkg": "hctl",
     "site": "xx4h/hctl",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hctl",
@@ -9404,7 +9396,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.5.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -9444,7 +9436,7 @@
     "site": "pkgforge-dev/ladybird-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ladybird",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ladybird",
-    "version_raw": "https://github.com/pkgforge-dev/ladybird-appimage/releases/download/snapshot/Ladybird-r72336.865699066ef-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ladybird-appimage/releases/download/snapshot/Ladybird-r72352.8417d743285-1-anylinux-x86_64.AppImage",
     "description": "A truly independent web browser, using a novel engine based on web standards"
   },
   {
@@ -13932,7 +13924,7 @@
     "site": "showcheap/postman-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/postman",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/postman",
-    "version_raw": "https://github.com/suciptoid/postman-appimage/releases/download/continous/Postman-11.68.0-x86_64.AppImage",
+    "version_raw": "https://github.com/suciptoid/postman-appimage/releases/download/continous/Postman-11.68.4-x86_64.AppImage",
     "description": "API platform for building and using APIs, AppImage"
   },
   {
