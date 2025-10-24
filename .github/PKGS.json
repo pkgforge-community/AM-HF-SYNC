@@ -112,6 +112,14 @@
     "description": "Acreom desktop app releases"
   },
   {
+    "pkg": "actiona",
+    "site": "Jmgr/actiona",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/actiona",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/actiona",
+    "version_raw": "https://github.com/Jmgr/actiona/releases/download/v3.11.1/actiona-3.11.1-x86_64.AppImage",
+    "description": "Actiona is an automation tool that allows you to execute many actions on your computer such as emulating mouse clicks, key presses, showing message boxes, editing text files, etc"
+  },
+  {
     "pkg": "actual",
     "site": "actualbudget/releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/actual",
@@ -2684,7 +2692,7 @@
     "site": "ivan-hc/Chromium-Web-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chromium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chromium",
-    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/20251024-142320/Chromium-stable-141.0.7390.54-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-stable-141.0.7390.54-x86_64.AppImage",
     "description": "Unofficial. FOSS Web Browser, base of Google Chrome, Edge and Brave, stable"
   },
   {
@@ -2708,7 +2716,7 @@
     "site": "ivan-hc/Chromium-Web-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chromium-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chromium-edge",
-    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/20251024-142320/Chromium-edge-143.0.7461.2-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-edge-143.0.7461.2-x86_64.AppImage",
     "description": "Unofficial. FOSS Web Browser, base of Google Chrome, edge edition"
   },
   {
@@ -6916,7 +6924,7 @@
     "site": "https://www.jetbrains.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/goland",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/goland",
-    "version_raw": "2025.2.3",
+    "version_raw": "2025.2.4",
     "description": "Capable and Ergonomic Go IDE"
   },
   {
@@ -9812,7 +9820,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -17836,7 +17844,7 @@
     "site": "texstudio-org/texstudio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/texstudio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/texstudio",
-    "version_raw": "https://github.com/texstudio-org/texstudio/releases/download/4.9.0beta4/texstudio-4.9.0beta4-x86_64.AppImage",
+    "version_raw": "https://github.com/texstudio-org/texstudio/releases/download/4.9.0beta5/texstudio-4.9.0beta5-x86_64.AppImage",
     "description": "LaTeX development environment"
   },
   {
@@ -19204,7 +19212,7 @@
     "site": "directvt/vtm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vtm",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vtm",
-    "version_raw": "https://github.com/directvt/vtm/releases/download/v2025.10.13/vtm_linux_x86_64.zip",
+    "version_raw": "",
     "description": "Text-based desktop environment"
   },
   {
@@ -19452,7 +19460,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm",
-    "version_raw": "https://github.com/wezterm/wezterm/releases/download/20240203-110809-5046fc22/WezTerm-20240203-110809-5046fc22-Ubuntu20.04.AppImage",
+    "version_raw": "",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -19460,7 +19468,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4241660232",
+    "version_raw": "4243425367",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
