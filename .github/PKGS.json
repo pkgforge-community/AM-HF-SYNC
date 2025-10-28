@@ -988,7 +988,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "",
+    "version_raw": "1.0.4",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -2028,7 +2028,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave-beta",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20251027-203313/Brave-Web-Browser-beta-1.85.89-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20251028-203558/Brave-Web-Browser-beta-1.85.90-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the beta release"
   },
   {
@@ -2036,7 +2036,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave-nightly",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20251027-203313/Brave-Web-Browser-nightly-1.86.12-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20251028-203558/Brave-Web-Browser-nightly-1.86.16-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the nightly release"
   },
   {
@@ -4268,7 +4268,7 @@
     "site": "probonopd/doesemu2-factory",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dosemu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dosemu",
-    "version_raw": "",
+    "version_raw": "https://github.com/probonopd/doesemu2-factory/releases/download/continuous/dosemu2-58bf3c115-x86_64.AppImage",
     "description": "Run DOS programs under linux"
   },
   {
@@ -4281,18 +4281,18 @@
   },
   {
     "pkg": "doublecmd-gtk",
-    "site": "https://rsync.opensuse.org/repositories/home:/Alexx2000",
+    "site": "doublecmd/doublecmd",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/doublecmd-gtk",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/doublecmd-gtk",
-    "version_raw": "https://rsync.opensuse.org/repositories/home:/Alexx2000/AppImage/",
+    "version_raw": "https://github.com/doublecmd/doublecmd/releases/tag/v1.1.29",
     "description": "Two-panel file manager, also known as Double Commander"
   },
   {
     "pkg": "doublecmd-qt",
-    "site": "https://rsync.opensuse.org/repositories/home:/Alexx2000",
+    "site": "doublecmd/doublecmd",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/doublecmd-qt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/doublecmd-qt",
-    "version_raw": "https://rsync.opensuse.org/repositories/home:/Alexx2000/AppImage/",
+    "version_raw": "https://github.com/doublecmd/doublecmd/releases/tag/v1.1.29",
     "description": "Two-panel file manager, also known as Double Commander"
   },
   {
@@ -9828,7 +9828,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -10236,7 +10236,7 @@
     "site": "Manager-io/Manager",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/manager-io",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/manager-io",
-    "version_raw": "https://github.com/Manager-io/Manager/releases/download/25.10.28.3058/Manager-x86_64.AppImage",
+    "version_raw": "https://github.com/Manager-io/Manager/releases/download/25.10.29.3060/Manager-x86_64.AppImage",
     "description": "Free Accounting Software for Linux, Server"
   },
   {
@@ -12628,7 +12628,7 @@
     "site": "ivan-hc/Opera-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/opera",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/opera",
-    "version_raw": "https://github.com/ivan-hc/Opera-appimage/releases/download/continuous/Opera-Web-Browser-stable-122.0.5643.142-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Opera-appimage/releases/download/continuous/Opera-Web-Browser-stable-123.0.5669.23-x86_64.AppImage",
     "description": "Unofficial. Fast and secure web browser, Stable version"
   },
   {
@@ -14988,7 +14988,7 @@
     "site": "rclone-ui/rclone-ui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rclone-ui",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rclone-ui",
-    "version_raw": "https://github.com/rclone-ui/rclone-ui/releases/download/v2.7.12/Rclone.UI_amd64.AppImage",
+    "version_raw": "https://github.com/rclone-ui/rclone-ui/releases/download/v2.7.13/Rclone.UI_amd64.AppImage",
     "description": "The cross-platform desktop GUI for rclone & S3"
   },
   {
@@ -15348,7 +15348,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-3c401e7b3dee35cffeef464f66ddf1afa93cacc3/rpcs3-v0.0.38-18263-3c401e7b_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-3f797b2de383416be1e321145ddc3b0f266b927d/rpcs3-v0.0.38-18273-3f797b2d_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -17092,7 +17092,7 @@
     "site": "Samueru-sama/strawberry-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/strawberry",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/strawberry",
-    "version_raw": "https://github.com/pkgforge-dev/strawberry-AppImage/releases/download/1.2.13-1%402025-10-25_1761356338/strawberry-1.2.13-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/strawberry-AppImage/releases/download/1.2.14-1%402025-10-28_1761688049/strawberry-1.2.14-1-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of the strawberry music player"
   },
   {
@@ -19044,7 +19044,7 @@
     "site": "Jisco/VisualFamilyTree",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/visualfamilytree",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/visualfamilytree",
-    "version_raw": "",
+    "version_raw": "https://github.com/Jisco/VisualFamilyTree/releases/download/v1.4.0/VisualFamilyTree.1.4.0.AppImage",
     "description": "Create a family tree with information and pictures"
   },
   {
