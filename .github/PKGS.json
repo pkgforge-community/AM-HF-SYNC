@@ -4948,7 +4948,7 @@
     "site": "ente-io/photos-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ente-photos",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ente-photos",
-    "version_raw": "https://github.com/ente-io/photos-desktop/releases/download/v1.7.15-beta/ente-1.7.15-beta-x86_64.AppImage",
+    "version_raw": "https://github.com/ente-io/photos-desktop/releases/download/v1.7.16-beta/ente-1.7.16-beta-x86_64.AppImage",
     "description": "Binary releases of the Ente Photos desktop app"
   },
   {
@@ -5668,7 +5668,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-beta-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-beta-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251028-202458/Firefox-beta-145.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251029-120313/Firefox-beta-145.0-x86_64.AppImage",
     "description": "Unofficial, AppImage of the Web Browser, Beta"
   },
   {
@@ -5676,7 +5676,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-devedition-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-devedition-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251028-202458/Firefox-devedition-145.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251029-120313/Firefox-devedition-145.0-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, Dev"
   },
   {
@@ -5684,7 +5684,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-esr-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-esr-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251028-202458/Firefox-esr-140.4.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251029-120313/Firefox-esr-140.4.0-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, ESR"
   },
   {
@@ -5692,7 +5692,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-nightly-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-nightly-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251028-202458/Firefox-nightly-146.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251029-120313/Firefox-nightly-146.0a1-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, Nightly"
   },
   {
@@ -5980,7 +5980,7 @@
     "site": "mmtrt/foobar2000_AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/foobar2000",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/foobar2000",
-    "version_raw": "https://github.com/mmtrt/foobar2000_AppImage/releases/download/stable64/foobar2000-x64-2.25.2-x86_64.AppImage",
+    "version_raw": "https://github.com/mmtrt/foobar2000_AppImage/releases/download/stable64/foobar2000-x64-2.25.3-x86_64.AppImage",
     "description": "Unofficial, an advanced freeware audio player for Windows, includes WINE"
   },
   {
@@ -6622,6 +6622,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/git-cliff",
     "version_raw": "https://github.com/orhun/git-cliff/releases/download/v2.10.1/git-cliff-2.10.1-x86_64-unknown-linux-gnu.tar.gz",
     "description": "A highly customizable Changelog Generator that follows Conventional Commit specifications"
+  },
+  {
+    "pkg": "git-credential-oauth",
+    "site": "hickford/git-credential-oauth",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/git-credential-oauth",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/git-credential-oauth",
+    "version_raw": "https://github.com/hickford/git-credential-oauth/releases/download/v0.16.0/git-credential-oauth_0.16.0_linux_amd64.tar.gz",
+    "description": "A Git credential helper that securely authenticates to GitHub, GitLab and BitBucket using OAuth"
   },
   {
     "pkg": "git-good",
@@ -9412,7 +9420,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.5.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -9828,7 +9836,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250724_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -12724,7 +12732,7 @@
     "site": "ppy/osu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/osu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/osu",
-    "version_raw": "https://github.com/ppy/osu/releases/download/2025.1029.0-tachyon/osu.AppImage",
+    "version_raw": "https://github.com/ppy/osu/releases/download/2025.1029.1-lazer/osu.AppImage",
     "description": "A free-to-win rhythm game. Rhythm is just a click away!"
   },
   {
@@ -14988,7 +14996,7 @@
     "site": "rclone-ui/rclone-ui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rclone-ui",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rclone-ui",
-    "version_raw": "https://github.com/rclone-ui/rclone-ui/releases/download/v2.7.13/Rclone.UI_amd64.AppImage",
+    "version_raw": "https://github.com/rclone-ui/rclone-ui/releases/download/v2.7.14/Rclone.UI_amd64.AppImage",
     "description": "The cross-platform desktop GUI for rclone & S3"
   },
   {
@@ -15372,7 +15380,7 @@
     "site": "martinrotter/rssguard",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rssguard",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rssguard",
-    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-f6953e0b7-qt5-linux64.AppImage",
+    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-6b4462cc1-qt5-linux64.AppImage",
     "description": "Feed reader which supports RSS/ATOM/JSON, no-webengine version"
   },
   {
@@ -16928,6 +16936,14 @@
     "description": "Story Architect, reinventing the screenwriting software"
   },
   {
+    "pkg": "starship",
+    "site": "starship/starship",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/starship",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/starship",
+    "version_raw": "https://github.com/starship/starship/releases/download/v1.24.0/starship-x86_64-unknown-linux-musl.tar.gz",
+    "description": "The minimal, blazing-fast, and infinitely customizable prompt for any shell"
+  },
+  {
     "pkg": "stash-electron",
     "site": "Doccrazy/stash-electron",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/stash-electron",
@@ -18004,7 +18020,7 @@
     "site": "ivan-hc/Thunderbird-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-beta-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-beta-appimage",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20251028-202653/Thunderbird-beta-145.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20251029-120244/Thunderbird-beta-145.0-x86_64.AppImage",
     "description": "Unofficial. Free and open source eMail client, Beta Edition"
   },
   {
@@ -18012,7 +18028,7 @@
     "site": "ivan-hc/Thunderbird-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-nightly-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-nightly-appimage",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20251028-202653/Thunderbird-nightly-146.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20251029-120244/Thunderbird-nightly-146.0a1-x86_64.AppImage",
     "description": "Unofficial. Free and open source eMail client, Nightly Edition"
   },
   {
@@ -19484,7 +19500,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4329878164",
+    "version_raw": "4331859245",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
