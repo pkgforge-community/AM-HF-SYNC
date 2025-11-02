@@ -392,14 +392,6 @@
     "description": "Stream VR games from your PC to your headset via Wi-Fi"
   },
   {
-    "pkg": "amarok",
-    "site": "ivan-hc/Amarok-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/amarok",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/amarok",
-    "version_raw": "https://github.com/ivan-hc/Amarok-appimage/releases/download/continuous/Amarok_3.3.1-2-archimage4.9-x86_64.AppImage",
-    "description": "Unofficial. The powerful music player for KDE"
-  },
-  {
     "pkg": "amazingmarvin",
     "site": "https://amazingmarvin.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/amazingmarvin",
@@ -476,7 +468,7 @@
     "site": "zyrouge/android-studio-appimages",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/android-studio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/android-studio",
-    "version_raw": "https://github.com/zyrouge/android-studio-appimages/releases/download/v2025.1.4.8/android-studio-2025.1.4.8-x86_64.AppImage",
+    "version_raw": "https://github.com/zyrouge/android-studio-appimages/releases/download/v2025.2.1.7/android-studio-2025.2.1.7-x86_64.AppImage",
     "description": "Unofficial. Android Studio as AppImages, stable"
   },
   {
@@ -484,7 +476,7 @@
     "site": "zyrouge/android-studio-appimages",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/android-studio-latest",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/android-studio-latest",
-    "version_raw": "https://github.com/zyrouge/android-studio-appimages/releases/download/v2025.2.1.6/android-studio-beta-2025.2.1.6-x86_64.AppImage",
+    "version_raw": "https://github.com/zyrouge/android-studio-appimages/releases/download/v2025.2.1.7/android-studio-2025.2.1.7-x86_64.AppImage",
     "description": "Unofficial. Android Studio as AppImages, release"
   },
   {
@@ -2348,7 +2340,7 @@
     "site": "ivan-hc/Database-of-pkg2appimaged-packages",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/capbattleship",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/capbattleship",
-    "version_raw": "https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/webcamoid/Webcamoid_9.3.0-2-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/kwave/Kwave-Sound-Editor_25.08.2-1-archimage5.0-x86_64.AppImage",
     "description": "Battleship game with a pirate theme"
   },
   {
@@ -3996,7 +3988,7 @@
     "site": "pavlobu/deskreen",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/deskreen",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/deskreen",
-    "version_raw": "https://github.com/pavlobu/deskreen/releases/download/v3.0.3/deskreen-ce-3.0.3-x86_64.AppImage",
+    "version_raw": "https://github.com/pavlobu/deskreen/releases/download/v3.0.4/deskreen-ce-3.0.4-x86_64.AppImage",
     "description": "Turns any device with a web browser into a secondary screen"
   },
   {
@@ -9452,7 +9444,7 @@
     "site": "ivan-hc/Database-of-pkg2appimaged-packages",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kwave",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kwave",
-    "version_raw": "https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/kwave/Kwave_25.08.2-1-archimage4.9-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/kwave/Kwave-Sound-Editor_25.08.2-1-archimage5.0-x86_64.AppImage",
     "description": "A sound & audio editor designed for the KDE Desktop Environment"
   },
   {
@@ -9860,7 +9852,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -10268,7 +10260,7 @@
     "site": "Manager-io/Manager",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/manager-io",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/manager-io",
-    "version_raw": "https://github.com/Manager-io/Manager/releases/download/25.11.2.3090/Manager-x86_64.AppImage",
+    "version_raw": "https://github.com/Manager-io/Manager/releases/download/25.11.2.3091/Manager-x86_64.AppImage",
     "description": "Free Accounting Software for Linux, Server"
   },
   {
@@ -16172,7 +16164,7 @@
     "site": "karo-solutions/Signal-Desktop-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/signal",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/signal",
-    "version_raw": "https://github.com/karo-solutions/Signal-Desktop-AppImage/releases/download/v7.76.0/Signal-v7.76.0-x86_64.AppImage",
+    "version_raw": "https://github.com/karo-solutions/Signal-Desktop-AppImage/releases/download/v7.77.1/Signal-v7.77.1-x86_64.AppImage",
     "description": "Unofficial AppImage package for Signal (communication)"
   },
   {
@@ -20220,7 +20212,7 @@
     "site": "ivan-hc/Yandex-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yandex-browser",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yandex-browser",
-    "version_raw": "https://github.com/ivan-hc/Yandex-Browser-appimage/releases/download/continuous/Yandex-Browser-beta-25.8.5.865-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Yandex-Browser-appimage/releases/download/continuous/Yandex-Browser-beta-25.8.5.992-1-x86_64.AppImage",
     "description": "Unofficial Yandex Browser AppImage, Stable"
   },
   {
@@ -20228,7 +20220,7 @@
     "site": "ivan-hc/Yandex-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yandex-browser-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yandex-browser-beta",
-    "version_raw": "https://github.com/ivan-hc/Yandex-Browser-appimage/releases/download/continuous/Yandex-Browser-beta-25.8.5.865-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Yandex-Browser-appimage/releases/download/continuous/Yandex-Browser-beta-25.8.5.992-1-x86_64.AppImage",
     "description": "Unofficial Yandex Browser AppImage, Beta"
   },
   {
