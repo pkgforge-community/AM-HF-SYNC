@@ -988,7 +988,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "1.0.4",
+    "version_raw": "",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -9420,7 +9420,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.5.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -9836,7 +9836,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250724_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -15118,6 +15118,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/remind-me-again",
     "version_raw": "https://github.com/probablykasper/remind-me-again/releases/download/v1.2.2/remind-me-again_1.2.2_amd64.AppImage",
     "description": "Toggleable cron reminders app"
+  },
+  {
+    "pkg": "remnote",
+    "site": "https://www.remnote.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/remnote",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/remnote",
+    "version_raw": "https://download2.remnote.io/remnote-desktop2/RemNote-1.22.0.AppImage",
+    "description": "Make flashcards in your notes. Cut study time in half. Use evidence-based memory techniques to create flashcards that resurface at the best time for retention"
   },
   {
     "pkg": "rendertune",
