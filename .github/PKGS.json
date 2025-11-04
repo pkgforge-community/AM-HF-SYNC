@@ -3817,35 +3817,19 @@
   },
   {
     "pkg": "deadbeef",
-    "site": "https://deadbeef.sourceforge.io",
+    "site": "pkgforge-dev/DeaDBeeF-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/deadbeef",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/deadbeef",
-    "version_raw": "https://sourceforge.net/projects/deadbeef/files/travis/linux/1.10.0/deadbeef-static_1.10.0-1_x86_64.tar.bz2/download",
-    "description": "A modular cross-platform audio player"
-  },
-  {
-    "pkg": "deadbeef-appimage",
-    "site": "Samueru-sama/DeaDBeef-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/deadbeef-appimage",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/deadbeef-appimage",
     "version_raw": "https://github.com/pkgforge-dev/DeaDBeeF-AppImage/releases/download/1.10.0-1%402025-11-01_1761983370/DeaDBeeF-1.10.0-1-anylinux-x86_64.AppImage",
-    "description": "Unofficial AppImage of the DeaDBeeF music player. Stable build"
+    "description": "Unofficial AppImage of the DeaDBeeF music player (Stable version)"
   },
   {
     "pkg": "deadbeef-nightly",
-    "site": "https://deadbeef.sourceforge.io",
+    "site": "pkgforge-dev/DeaDBeeF-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/deadbeef-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/deadbeef-nightly",
-    "version_raw": "",
-    "description": "A modular cross-platform audio player. Nightly build"
-  },
-  {
-    "pkg": "deadbeef-nightly-appimage",
-    "site": "Samueru-sama/DeaDBeef-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/deadbeef-nightly-appimage",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/deadbeef-nightly-appimage",
     "version_raw": "https://github.com/pkgforge-dev/DeaDBeeF-AppImage/releases/download/nightly/DeaDBeeF_Nightly-2025-10-31-anylinux-x86_64.AppImage",
-    "description": "Unofficial AppImage of the DeaDBeeF music player. Nightly build"
+    "description": "Unofficial AppImage of the DeaDBeeF music player (Nightly version)"
   },
   {
     "pkg": "deadgame-2048",
@@ -9852,7 +9836,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250724_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -15404,7 +15388,7 @@
     "site": "martinrotter/rssguard",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rssguard",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rssguard",
-    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-1594aa701-qt5-linux64.AppImage",
+    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-18c4ad1f3-qt5-linux64.AppImage",
     "description": "Feed reader which supports RSS/ATOM/JSON, no-webengine version"
   },
   {
@@ -18036,7 +18020,7 @@
     "site": "edrlab/thorium-reader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium-reader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium-reader",
-    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.0-alpha.1.19044061173.AppImage",
+    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.0-alpha.1.19066667613.AppImage",
     "description": "Desktop application to read ebooks"
   },
   {
@@ -20044,7 +20028,7 @@
     "site": "has207/xenia-edge",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xenia-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xenia-edge",
-    "version_raw": "https://github.com/has207/xenia-edge/releases/download/46bb931/xenia_edge_linux.AppImage",
+    "version_raw": "https://github.com/has207/xenia-edge/releases/download/dc2985f/xenia_edge_linux.AppImage",
     "description": "Xbox 360 Emulator Research Project, fork of the Xenia emulator, with the aim of quicker iteration and improvements to Vulkan backend"
   },
   {
