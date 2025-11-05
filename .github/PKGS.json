@@ -980,7 +980,7 @@
     "site": "ArmCord/ArmCord",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/armcord",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/armcord",
-    "version_raw": "https://github.com/Legcord/Legcord/releases/download/v1.1.5/Legcord-1.1.5-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/Legcord/Legcord/releases/download/v1.1.6/Legcord-1.1.6-linux-x86_64.AppImage",
     "description": "Custom client designed to enhance your Discord experience"
   },
   {
@@ -988,7 +988,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "1.0.4",
+    "version_raw": "",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -2806,6 +2806,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/clamtk",
     "version_raw": "https://github.com/dave-theunsub/clamtk/releases/download/v6.18/clamtk-6.18.tar.xz",
     "description": "An easy to use, light-weight, on-demand virus scanner for Linux systems"
+  },
+  {
+    "pkg": "clapper",
+    "site": "pkgforge-dev/Clapper-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clapper",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/clapper",
+    "version_raw": "https://github.com/pkgforge-dev/Clapper-AppImage/releases/download/0.8.0-1%402025-11-05_1762340325/clapper-0.8.0-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial. A modern media player designed for simplicity and ease of use"
   },
   {
     "pkg": "clash-verge",
@@ -9620,7 +9628,7 @@
     "site": "Legcord/Legcord",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/legcord",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/legcord",
-    "version_raw": "https://github.com/Legcord/Legcord/releases/download/v1.1.5/Legcord-1.1.5-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/Legcord/Legcord/releases/download/v1.1.6/Legcord-1.1.6-linux-x86_64.AppImage",
     "description": "Legcord is a custom client designed to enhance your Discord experience while keeping everything lightweight"
   },
   {
@@ -10764,7 +10772,7 @@
     "site": "ivan-hc/MS-Edge-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/microsoft-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/microsoft-edge",
-    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/20251105-102751/Microsoft-Edge-stable-142.0.3595.53-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-stable-142.0.3595.53-1-x86_64.AppImage",
     "description": "Web Browser provided by Microsoft, Stable Edition"
   },
   {
@@ -10772,7 +10780,7 @@
     "site": "ivan-hc/MS-Edge-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/microsoft-edge-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/microsoft-edge-beta",
-    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/20251105-102751/Microsoft-Edge-beta-142.0.3595.53-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-beta-142.0.3595.53-1-x86_64.AppImage",
     "description": "Web Browser provided by Microsoft, Beta Edition"
   },
   {
@@ -10780,7 +10788,7 @@
     "site": "ivan-hc/MS-Edge-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/microsoft-edge-dev",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/microsoft-edge-dev",
-    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-dev-143.0.3638.1-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-dev-143.0.3650.3-1-x86_64.AppImage",
     "description": "Web Browser provided by Microsoft, Developer Edition"
   },
   {
@@ -12988,7 +12996,7 @@
     "site": "Scille/parsec-cloud",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parsec",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parsec",
-    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/v3.6.0-rc.2/Parsec_3.6.0-rc.2_linux_x86_64.unsigned.AppImage",
+    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/v3.6.0-rc.3/Parsec_3.6.0-rc.3_linux_x86_64.unsigned.AppImage",
     "description": "Open source Dropbox-like file sharing with full client encryption"
   },
   {
@@ -19524,7 +19532,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4473738189",
+    "version_raw": "4476950835",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -20036,7 +20044,7 @@
     "site": "has207/xenia-edge",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xenia-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xenia-edge",
-    "version_raw": "https://github.com/has207/xenia-edge/releases/download/dc2985f/xenia_edge_linux.AppImage",
+    "version_raw": "https://github.com/has207/xenia-edge/releases/download/d5887f2/xenia_edge_linux.AppImage",
     "description": "Xbox 360 Emulator Research Project, fork of the Xenia emulator, with the aim of quicker iteration and improvements to Vulkan backend"
   },
   {
