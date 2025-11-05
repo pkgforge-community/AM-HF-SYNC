@@ -1716,7 +1716,7 @@
     "site": "ivan-hc/Blender-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blender-alpha",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blender-alpha",
-    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.1.0-alpha%2Bmain.a5a4e75aa7d3-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.1.0-alpha%2Bmain.d68143615034-x86_64.AppImage",
     "description": "Very fast and versatile 3D modeller/renderer, Alpha"
   },
   {
@@ -3652,7 +3652,7 @@
     "site": "https://www.cursor.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cursor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cursor",
-    "version_raw": "https://downloads.cursor.com/production/eb037ef2bfba33ac568b0da614cb1c7b738455d6/linux/x64/Cursor-2.0.57-x86_64.AppImage",
+    "version_raw": "https://downloads.cursor.com/production/c6d93c13f57509f77eb65783b28e75a857b74c03/linux/x64/Cursor-2.0.60-x86_64.AppImage",
     "description": "Built to make you extraordinarily productive, Cursor is the best way to code with AI"
   },
   {
@@ -6588,7 +6588,7 @@
     "site": "ivan-hc/GIMP-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gimp-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gimp-git",
-    "version_raw": "https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_56187.13d96117199-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_56189.705b0527b3c-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial, Cross-platform image and photo editor, built from GIT"
   },
   {
@@ -12148,7 +12148,7 @@
     "site": "nymtech/nym-vpn-client",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nym-vpn",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nym-vpn",
-    "version_raw": "https://github.com/nymtech/nym-vpn-client/releases/download/nym-vpn-app-v1.18.0/NymVPN_1.18.0_x64.AppImage",
+    "version_raw": "https://github.com/nymtech/nym-vpn-client/releases/download/nym-vpn-app-nightly/NymVPN_1.19.0-dev_x64.AppImage",
     "description": "Cross-platform open source VPN client built in Rust, with mixnet anonymity and WireGuard speed. Protects metadata, not just IP addresses. Zero-knowledge payments for unlinkable online activities"
   },
   {
@@ -12864,6 +12864,14 @@
     "description": "Network utility for sending/receiving TCP/UDP/SSL/HTTP"
   },
   {
+    "pkg": "packsquash",
+    "site": "ComunidadAylas/PackSquash",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/packsquash",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/packsquash",
+    "version_raw": "https://github.com/ComunidadAylas/PackSquash/releases/download/v0.3.1/PackSquash-v0.3.1-x86_64.AppImage",
+    "description": "A Minecraft Java Edition resource and data pack optimizer"
+  },
+  {
     "pkg": "paclear",
     "site": "orangekame3/paclear",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/paclear",
@@ -13064,6 +13072,14 @@
     "description": "Qt port of pavucontrol Pulseaudio mixer, unofficial AppImage"
   },
   {
+    "pkg": "pay-respects",
+    "site": "iffse/pay-respects",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pay-respects",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pay-respects",
+    "version_raw": "https://github.com/iffse/pay-respects/releases/download/v0.5.12/pay-respects-ubuntu-latest.zip",
+    "description": "Terminal command correction, alternative to thefuck written in Rust"
+  },
+  {
     "pkg": "pb-for-desktop",
     "site": "sidneys/pb-for-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pb-for-desktop",
@@ -13096,6 +13112,14 @@
     "description": "The PCSX-Redux project is a collection of tools, research, hardware design, and libraries aiming at development and reverse engineering on the PlayStation 1. The core product itself, PCSX-Redux, is yet another fork of the Playstation emulator, PCSX"
   },
   {
+    "pkg": "pcsx2",
+    "site": "PCSX2/pcsx2",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx2",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcsx2",
+    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.5.274/pcsx2-v2.5.274-linux-appimage-x64-Qt.AppImage",
+    "description": "The Playstation 2 Emulator"
+  },
+  {
     "pkg": "pdf-diff",
     "site": "serhack/pdf-diff",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pdf-diff",
@@ -13110,6 +13134,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pdf-sync",
     "version_raw": "https://github.com/sherylynn/pdf-sync/releases/download/v0.0.14/pdf-sync-0.0.14-x86_64.AppImage",
     "description": "PDF Reader in JavaScript with Sync"
+  },
+  {
+    "pkg": "pdf2htmlex",
+    "site": "pdf2htmlEX/pdf2htmlEX",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pdf2htmlex",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pdf2htmlex",
+    "version_raw": "https://github.com/pdf2htmlEX/pdf2htmlEX/releases/download/v0.18.8.rc1/pdf2htmlEX-0.18.8.rc1-master-20200630-Ubuntu-bionic-x86_64.AppImage",
+    "description": "Convert PDF to HTML without losing text or format"
   },
   {
     "pkg": "pdf4qt",
@@ -13128,6 +13160,30 @@
     "description": "A utility to compress PDF documentas based on Ghostscript and YAD"
   },
   {
+    "pkg": "pdfcrackgui",
+    "site": "https://sourceforge.net/projects/pdfcrackgui/",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pdfcrackgui",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pdfcrackgui",
+    "version_raw": "https://sourceforge.net/projects/pdfcrackgui/files/pdfcrackgui/PDFCrackGUI-v1.1-Linux.zip/download",
+    "description": "GUI overlay for the popular and highly regarded pdfcrack"
+  },
+  {
+    "pkg": "pdfquirk",
+    "site": "dragotin/pdfquirk",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pdfquirk",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pdfquirk",
+    "version_raw": "https://github.com/dragotin/pdfquirk/releases/download/continuous/PDFQuirk-continuous-8-g8b46963-x86_64.AppImage",
+    "description": "Creating PDFs from images or scanner made easy"
+  },
+  {
+    "pkg": "pdmaner",
+    "site": "zxp19821005/My_AUR_Files",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pdmaner",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pdmaner",
+    "version_raw": "https://github.com/zxp19821005/My_AUR_Files/releases/download/CloudDM3.0.7/CloudDM-v3.0.7.AppImage",
+    "description": "A relational database modeling tool"
+  },
+  {
     "pkg": "peazip",
     "site": "ferion11/PeaZip_Appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/peazip",
@@ -13142,6 +13198,750 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/peep",
     "version_raw": "https://github.com/ryochack/peep/releases/download/v0.1.6/peep-v0.1.6-x86_64-unknown-linux-musl.zip",
     "description": "The CLI text viewer tool that works like less command on small pane within the terminal window"
+  },
+  {
+    "pkg": "pelusica",
+    "site": "VitoVan/pelusica",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pelusica",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pelusica",
+    "version_raw": "https://github.com/VitoVan/pelusica/releases/download/1.1.0/Pelusica.AppImage",
+    "description": "Action game, control the blue dot with your keyboard/create music"
+  },
+  {
+    "pkg": "pencil",
+    "site": "pencil2d/pencil",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pencil",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pencil",
+    "version_raw": "https://github.com/pencil2d/pencil/releases/download/v0.7.0/pencil2d-linux-amd64-0.7.0.AppImage",
+    "description": "Pencil2D is an easy, intuitive tool to make 2D hand-drawn animations"
+  },
+  {
+    "pkg": "pennywise",
+    "site": "kamranahmedse/pennywise",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pennywise",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pennywise",
+    "version_raw": "https://github.com/kamranahmedse/pennywise/releases/download/v0.8.0/pennywise-0.8.0-x86_64.AppImage",
+    "description": "Open any website or media in a floating window"
+  },
+  {
+    "pkg": "perl-executing-browser",
+    "site": "ddmitov/perl-executing-browser",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/perl-executing-browser",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/perl-executing-browser",
+    "version_raw": "https://github.com/ddmitov/perl-executing-browser/releases/download/1.1.1/peb-demo-v1.1.1-qt5.2.1-perl5.26.2-x86_64.AppImage",
+    "description": "HTML5 user interface for Perl 5 desktop apps"
+  },
+  {
+    "pkg": "permastead",
+    "site": "curvedspace/Permastead",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/permastead",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/permastead",
+    "version_raw": "https://github.com/curvedspace/Permastead/releases/download/v0.0.6-alpha/Permastead-x86_64.AppImage",
+    "description": "Desktop software for managing a homestead using permaculture design"
+  },
+  {
+    "pkg": "pet",
+    "site": "knqyf263/pet",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pet",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pet",
+    "version_raw": "https://github.com/knqyf263/pet/releases/download/v1.0.1/pet_1.0.1_linux_amd64.tar.gz",
+    "description": "Simple command-line snippet manager"
+  },
+  {
+    "pkg": "pext",
+    "site": "Pext/Pext",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pext",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pext",
+    "version_raw": "https://github.com/Pext/Pext/releases/download/continuous/Pext-0.35.dev32%2Bge44d374-x86_64.AppImage",
+    "description": "Python-based extendable tool"
+  },
+  {
+    "pkg": "pfetch-rs",
+    "site": "Gobidev/pfetch-rs",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pfetch-rs",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pfetch-rs",
+    "version_raw": "https://github.com/Gobidev/pfetch-rs/releases/download/v2.11.1/pfetch-linux-musl-aarch64.tar.gz",
+    "description": "A rewrite of the pfetch system information tool in Rust"
+  },
+  {
+    "pkg": "pget",
+    "site": "Code-Hex/pget",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pget",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pget",
+    "version_raw": "https://github.com/Code-Hex/pget/releases/download/v0.2.1/pget_.0.2.1_Linux_x86_64.tar.gz",
+    "description": "The fastest, resumable file download CLI client"
+  },
+  {
+    "pkg": "phinch",
+    "site": "PhinchApp/Phinch",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/phinch",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/phinch",
+    "version_raw": "https://github.com/PhinchApp/Phinch/releases/download/v2.0.1/Linux.Phinch-2.0.1-x86_64.AppImage",
+    "description": "Phinch is a framework for visualizing biological data"
+  },
+  {
+    "pkg": "pho",
+    "site": "zyrouge/pho",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pho",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pho",
+    "version_raw": "https://github.com/zyrouge/pho/releases/download/v0.1.12/pho-amd64",
+    "description": "The AppImage Manager that Linux always deserved"
+  },
+  {
+    "pkg": "photocrea",
+    "site": "vikdevelop/photopea_app",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/photocrea",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/photocrea",
+    "version_raw": "https://github.com/vikdevelop/photopea_app/releases/download/2.3.8/photopea_build-electron-238.tar.xz",
+    "description": "Unofficial Photopea wrapper, image editor that includes all the familiar features like layers, filters, magic wand selection, etc"
+  },
+  {
+    "pkg": "photoflare",
+    "site": "PhotoFlare/photoflare",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/photoflare",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/photoflare",
+    "version_raw": "https://github.com/PhotoFlare/photoflare/releases/download/continuous/PhotoFlare-60a9d87-x86_64.AppImage",
+    "description": "A simple but featureful image editor"
+  },
+  {
+    "pkg": "photoflow",
+    "site": "aferrero2707/PhotoFlow",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/photoflow",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/photoflow",
+    "version_raw": "https://github.com/aferrero2707/PhotoFlow/releases/download/continuous/PhotoFlow_git_stable_linux_20200804_2036_00b2c.AppImage",
+    "description": "Edit images from digital cameras"
+  },
+  {
+    "pkg": "photogimp",
+    "site": "sudo-give-me-coffee/PhotoGIMP",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/photogimp",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/photogimp",
+    "version_raw": "https://github.com/sudo-give-me-coffee/PhotoMP/releases/download/continuous/PhotoGIMP-2.10.21-20200820-x86_64.AppImage",
+    "description": "A patched version of GIMP for Adobe Photoshop users"
+  },
+  {
+    "pkg": "photon",
+    "site": "abhi16180/photon",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/photon",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/photon",
+    "version_raw": "https://github.com/abhi16180/photon/releases/download/v3.0.0/photon-linux-release-v3.0.0.zip",
+    "description": "Cross-platform file-transfer application built using flutter. It uses http to transfer files between devices"
+  },
+  {
+    "pkg": "photoname",
+    "site": "dino-/photoname",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/photoname",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/photoname",
+    "version_raw": "https://github.com/dino-/photoname/releases/download/5.4/photoname-5.4-x86_64.AppImage",
+    "description": "Rename photo image files based on EXIF shoot date"
+  },
+  {
+    "pkg": "photopealoader",
+    "site": "yikuansun/photopealoader",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/photopealoader",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/photopealoader",
+    "version_raw": "https://github.com/yikuansun/photopealoader/releases/download/v2.0.0/Photopea-2.0.0.AppImage",
+    "description": "Photopea desktop app that loads local files and plugins"
+  },
+  {
+    "pkg": "photoqt",
+    "site": "https://photoqt.org",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/photoqt",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/photoqt",
+    "version_raw": "https://photoqt.org/downloads/appimages/PhotoQt-4.9.2.AppImage",
+    "description": "View and manage images"
+  },
+  {
+    "pkg": "photoquick",
+    "site": "ksharindam/photoquick",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/photoquick",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/photoquick",
+    "version_raw": "https://github.com/ksharindam/photoquick/releases/download/v4.20.1/PhotoQuick-x86_64.AppImage",
+    "description": "Light-weight image viewer, resize, collage, filters"
+  },
+  {
+    "pkg": "phototeleport",
+    "site": "https://phototeleport.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/phototeleport",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/phototeleport",
+    "version_raw": "https://phototeleport.com/",
+    "description": "Upload your photos to multiple services at once"
+  },
+  {
+    "pkg": "phreshplayer",
+    "site": "Phreshhh/PhreshPlayer",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/phreshplayer",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/phreshplayer",
+    "version_raw": "https://github.com/Phreshhh/PhreshPlayer/releases/download/v1.1.3/phreshplayer-1.1.3-x86_64.AppImage",
+    "description": "Electron based media player app"
+  },
+  {
+    "pkg": "pia",
+    "site": "LINCnil/pia-app",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pia",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pia",
+    "version_raw": "https://github.com/LINCnil/pia-app/releases/download/v2.3.0/PIA-2.3.0.AppImage",
+    "description": "Version Portable Outil PIA"
+  },
+  {
+    "pkg": "picacg-qt",
+    "site": "tonquer/picacg-qt",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/picacg-qt",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/picacg-qt",
+    "version_raw": "https://github.com/tonquer/picacg-qt/releases/download/v1.5.3/bika_v1.5.3_linux_glibc2.28.AppImage",
+    "description": "PicACG Comic PC Client For Linux"
+  },
+  {
+    "pkg": "picard-daily",
+    "site": "phw/picard-daily",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/picard-daily",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/picard-daily",
+    "version_raw": "https://github.com/phw/picard-daily/releases/download/continuous/MusicBrainz-Picard-daily-x86_64.AppImage",
+    "description": "Inofficial daily development builds for MusicBrainz Picard"
+  },
+  {
+    "pkg": "picgo",
+    "site": "Molunerfinn/PicGo",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/picgo",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/picgo",
+    "version_raw": "https://github.com/Molunerfinn/PicGo/releases/download/v2.4.0-beta.10/PicGo-2.4.0-beta.10.AppImage",
+    "description": "Easy to upload your pic & copy to write"
+  },
+  {
+    "pkg": "piclist",
+    "site": "Kuingsmile/PicList",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/piclist",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/piclist",
+    "version_raw": "https://github.com/Kuingsmile/PicList/releases/download/v3.0.5/PicList-3.0.5.AppImage",
+    "description": "Cloud storage platform management & file upload tool based on PicGo"
+  },
+  {
+    "pkg": "picmi",
+    "site": "ivan-hc/KDE-games-suite-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/picmi",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/picmi",
+    "version_raw": "https://github.com/ivan-hc/KDE-games-suite-appimage/releases/download/continuous/KDE-games-suite_25.08-1-archimage4.9-x86_64.AppImage",
+    "description": "Single player logic-based puzzle game. This script installs the full kdegames suite"
+  },
+  {
+    "pkg": "picocrypt",
+    "site": "HACKERALERT/Picocrypt",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/picocrypt",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/picocrypt",
+    "version_raw": "https://github.com/HACKERALERT/Picocrypt/releases/download/1.33/Picocrypt.AppImage",
+    "description": "A very small, very simple, yet very secure encryption tool"
+  },
+  {
+    "pkg": "picocrypt-ng",
+    "site": "Picocrypt-NG/Picocrypt-NG",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/picocrypt-ng",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/picocrypt-ng",
+    "version_raw": "https://github.com/Picocrypt-NG/Picocrypt-NG/releases/download/2.00/Picocrypt-NG",
+    "description": "A very small, very simple, yet very secure encryption tool"
+  },
+  {
+    "pkg": "picsimlab",
+    "site": "lcgamboa/picsimlab",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/picsimlab",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/picsimlab",
+    "version_raw": "https://github.com/lcgamboa/picsimlab/releases/download/v0.9.2/PICSimLab-0.9.2_241005_Ubuntu_20.04.6_LTS_x86_64.AppImage",
+    "description": "PICsimLab - Programmable IC Simulator Laboratory"
+  },
+  {
+    "pkg": "picterm",
+    "site": "ksk001100/picterm",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/picterm",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/picterm",
+    "version_raw": "https://github.com/ksk001100/picterm/releases/download/v0.0.13/picterm_v0.0.13_x86_64-unknown-linux-musl.tar.gz",
+    "description": "CLI, TUI image viewer"
+  },
+  {
+    "pkg": "picturama",
+    "site": "picturama/picturama",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/picturama",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/picturama",
+    "version_raw": "https://github.com/picturama/picturama/releases/download/v1.3.0/Picturama-1.3.1.AppImage",
+    "description": "Digital image organizer powered by the web"
+  },
+  {
+    "pkg": "pigs-n-cows",
+    "site": "themarlboroman/pigs-n-cows",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pigs-n-cows",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pigs-n-cows",
+    "version_raw": "https://github.com/TheMarlboroMan/pigs-n-cows/releases/download/v1.1.0/Pigs_and_Cows-x86_64.AppImage",
+    "description": "A relaxing game for children and adults alike"
+  },
+  {
+    "pkg": "pile",
+    "site": "mtobeiyf/pile",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pile",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pile",
+    "version_raw": "https://github.com/imfing/pile/releases/download/v0.3.2/pile-0.3.2-x86_64.AppImage",
+    "description": "App to organize your piled work at one place"
+  },
+  {
+    "pkg": "pince",
+    "site": "korcankaraokcu/PINCE",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pince",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pince",
+    "version_raw": "https://github.com/korcankaraokcu/PINCE/releases/download/v0.4.5/PINCE-x86_64.AppImage",
+    "description": "Reverse engineering tool for linux games"
+  },
+  {
+    "pkg": "pingendo",
+    "site": "Pingendo/pingendo",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pingendo",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pingendo",
+    "version_raw": "https://github.com/Pingendo/pingendo/releases/download/v4.3.2/Pingendo-4.3.2-x86_64.AppImage",
+    "description": "No Description Provided"
+  },
+  {
+    "pkg": "pingnoo",
+    "site": "fizzyade/pingnoo",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pingnoo",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pingnoo",
+    "version_raw": "https://github.com/nedrysoft/pingnoo/releases/download/2021.04.30-develop/Pingnoo.2021.04.30-develop.x86_64.AppImage",
+    "description": "An open source network ping analyser"
+  },
+  {
+    "pkg": "pingu",
+    "site": "sheepla/pingu",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pingu",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pingu",
+    "version_raw": "https://github.com/sheepla/pingu/releases/download/v0.0.5/pingu_0.0.5_Linux_x86_64.tar.gz",
+    "description": "CLI, ping command but with pingu"
+  },
+  {
+    "pkg": "pingviewer",
+    "site": "bluerobotics/ping-viewer",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pingviewer",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pingviewer",
+    "version_raw": "https://github.com/bluerobotics/ping-viewer/releases/download/v2.6.0/pingviewer-Release.AppImage",
+    "description": "Ping viewer interface"
+  },
+  {
+    "pkg": "pinokio",
+    "site": "pinokiocomputer/pinokio",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pinokio",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pinokio",
+    "version_raw": "https://github.com/pinokiocomputer/pinokio/releases/download/3.9.0/Pinokio-3.9.0.AppImage",
+    "description": "AI Browser"
+  },
+  {
+    "pkg": "pinta-dev",
+    "site": "PintaProject/Pinta",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pinta-dev",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pinta-dev",
+    "version_raw": "https://github.com/PintaProject/Pinta/releases/download/dev-preview-builds/Pinta-2.2-dev2022.zip",
+    "description": "Simple GTK Paint Program (developer edition)"
+  },
+  {
+    "pkg": "pipes-rs",
+    "site": "lhvy/pipes-rs",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pipes-rs",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pipes-rs",
+    "version_raw": "https://github.com/lhvy/pipes-rs/releases/download/v1.6.4/pipes-rs-linux-x86_64.tar.gz",
+    "description": "An over-engineered rewrite of pipes.sh in Rust. CLI"
+  },
+  {
+    "pkg": "pixelhopper",
+    "site": "tomas/pixelhopper",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pixelhopper",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pixelhopper",
+    "version_raw": "https://github.com/tomas/pixelhopper/releases/download/0.0.2/Pixelhopper-x86_64.AppImage",
+    "description": "Animated GIF player for Linux (X11)"
+  },
+  {
+    "pkg": "pixelorama",
+    "site": "orama-interactive/pixelorama",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pixelorama",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pixelorama",
+    "version_raw": "https://github.com/Orama-Interactive/Pixelorama/releases/download/v1.1.6/Pixelorama-Linux-64bit.tar.gz",
+    "description": "A powerful and accessible open-source pixel art multitool. Whether you want to create sprites, tiles, animations, or just express yourself in the language of pixel art"
+  },
+  {
+    "pkg": "pixfetch",
+    "site": "RubixDev/pixfetch",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pixfetch",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pixfetch",
+    "version_raw": "https://github.com/RubixDev/pixfetch/releases/download/v1.0.0/pixfetch-1.0.0-x86_64-unknown-linux-musl.tar.gz",
+    "description": "Another CLI fetch program with pixelized images written in Rust"
+  },
+  {
+    "pkg": "pixsrt",
+    "site": "thorpelawrence/pixsrt",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pixsrt",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pixsrt",
+    "version_raw": "https://github.com/thorpelawrence/pixsrt/releases/download/1.6/pixsrt-1.6-linux-64-desktopintegration.AppImage",
+    "description": "Pixel sorter"
+  },
+  {
+    "pkg": "pizarra",
+    "site": "https://pizarra.categulario.xyz",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pizarra",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pizarra",
+    "version_raw": "https://pizarra.categulario.xyz/releases/any-linux/",
+    "description": "A digital, vectorial and infinite chalkboard"
+  },
+  {
+    "pkg": "pkg2appimage",
+    "site": "AppImageCommunity/pkg2appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pkg2appimage",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pkg2appimage",
+    "version_raw": "https://github.com/AppImageCommunity/pkg2appimage/releases/download/continuous/pkg2appimage-1eceb30-x86_64.AppImage",
+    "description": "Utility to convert .yml recipes to AppDir, see appimagetool"
+  },
+  {
+    "pkg": "plagpatrol",
+    "site": "josemmo/plagpatrol",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/plagpatrol",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/plagpatrol",
+    "version_raw": "https://github.com/josemmo/plagpatrol/releases/download/v0.0.9/plagpatrol-setup-linux-x86_64-0.0.9.AppImage",
+    "description": "Detecting documents tampered to bypass plagiarism detectors"
+  },
+  {
+    "pkg": "planes",
+    "site": "xxxcucus/planes",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/planes",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/planes",
+    "version_raw": "https://github.com/xxxcucus/planes/releases/download/v0.4.1.1/Planes-Multiplayer-0.4.1.1-x86_64.AppImage",
+    "description": "Variant of battleships game"
+  },
+  {
+    "pkg": "planet-blupi",
+    "site": "blupi-games/planetblupi-dev",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/planet-blupi",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/planet-blupi",
+    "version_raw": "https://github.com/blupi-games/planetblupi-dev/releases/download/v1.15.1/planetblupi-1.15.1.AppImage",
+    "description": "A delirious spell-binding game"
+  },
+  {
+    "pkg": "platform-tools",
+    "site": "https://developer.android.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/platform-tools",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/platform-tools",
+    "version_raw": "36.0.0",
+    "description": "Official Suite of command line utilities to manage Android devices"
+  },
+  {
+    "pkg": "platinum-md",
+    "site": "gavinbenda/platinum-md",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/platinum-md",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/platinum-md",
+    "version_raw": "https://github.com/gavinbenda/platinum-md/releases/download/v1.2.1/platinum-md-1.2.1.AppImage",
+    "description": "Graphical MiniDisc NetMD conversion and upload"
+  },
+  {
+    "pkg": "play-2048",
+    "site": "mgrojo/play_2048",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/play-2048",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/play-2048",
+    "version_raw": "https://github.com/mgrojo/play_2048/releases/download/v0.9.10/Play_2048-v0.9.10-x86_64.AppImage",
+    "description": "Another implementation of the 2048 game"
+  },
+  {
+    "pkg": "playback",
+    "site": "https://www.epilogue.co",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/playback",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/playback",
+    "version_raw": "https://epilogue.nyc3.cdn.digitaloceanspaces.com/releases/software/Playback/version/1.8.0/release/linux/Playback.AppImage",
+    "description": "Play and manage your cartridges and replay your childhood games"
+  },
+  {
+    "pkg": "playbox",
+    "site": "cjdenio/playbox",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/playbox",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/playbox",
+    "version_raw": "https://github.com/cjdenio/playbox/releases/download/v0.2.1/Playbox.0.2.1.AppImage",
+    "description": "An audio playback system for the live production industry"
+  },
+  {
+    "pkg": "playerctl",
+    "site": "Samueru-sama/playerctl-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/playerctl",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/playerctl",
+    "version_raw": "",
+    "description": "Unofficial, MPRIS media player command-line controller"
+  },
+  {
+    "pkg": "playit",
+    "site": "playit-cloud/playit-agent",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/playit",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/playit",
+    "version_raw": "https://github.com/playit-cloud/playit-agent/releases/download/v0.16.3-hack/playit-linux-amd64",
+    "description": "Want to run an online game server? playit.gg is a global proxy that allows anyone to host a server without port forwarding"
+  },
+  {
+    "pkg": "playme",
+    "site": "filipuic/playme",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/playme",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/playme",
+    "version_raw": "https://github.com/lamazingco/playme/releases/download/v1.0.3/playme-1.0.3-x86_64.AppImage",
+    "description": "Elegant YouTube Music desktop app"
+  },
+  {
+    "pkg": "playyourdamnturn",
+    "site": "pydt/client",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/playyourdamnturn",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/playyourdamnturn",
+    "version_raw": "https://github.com/pydt/client/releases/download/v2.1.9/playyourdamnturn-linux-2.1.9-x86_64.AppImage",
+    "description": "Desktop Client to assist with playing your damn turns"
+  },
+  {
+    "pkg": "plex",
+    "site": "knapsu/plex-media-player-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/plex",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/plex",
+    "version_raw": "https://github.com/knapsu/plex-media-player-appimage/releases/download/v2.58.1-ae73e074/Plex_Media_Player_2.58.1-ae73e074_x64.AppImage",
+    "description": "The ultimate home theater experience"
+  },
+  {
+    "pkg": "plexamp",
+    "site": "https://plexamp.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/plexamp",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/plexamp",
+    "version_raw": "https://plexamp.plex.tv/plexamp.plex.tv/desktop/Plexamp-4.12.4.AppImage",
+    "description": "The best little audio player on the planet"
+  },
+  {
+    "pkg": "plotjuggler",
+    "site": "facontidavide/PlotJuggler",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/plotjuggler",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/plotjuggler",
+    "version_raw": "https://github.com/facontidavide/PlotJuggler/releases/download/3.13.2/PlotJuggler-x86_64.AppImage",
+    "description": "The Time Series Visualization Tool that you deserve"
+  },
+  {
+    "pkg": "plotly-orca",
+    "site": "plotly/orca",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/plotly-orca",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/plotly-orca",
+    "version_raw": "https://github.com/plotly/orca/releases/download/v1.3.1/orca-1.3.1.AppImage",
+    "description": "CLI generating static images of interactive charts"
+  },
+  {
+    "pkg": "plover",
+    "site": "openstenoproject/plover",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/plover",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/plover",
+    "version_raw": "https://github.com/openstenoproject/plover/releases/download/v5.1.0/plover-5.1.0-x86_64.AppImage",
+    "description": "Stenographic input and translation"
+  },
+  {
+    "pkg": "plume",
+    "site": "nuttyartist/plume-public",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/plume",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/plume",
+    "version_raw": "https://github.com/nuttyartist/plume-public/releases/download/v0.9.9/Plume_0.9.9-Qt6.7.0-x86_64.AppImage",
+    "description": "A note-taking app written in Qt C++ and QML"
+  },
+  {
+    "pkg": "png2svg",
+    "site": "xyproto/png2svg",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/png2svg",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/png2svg",
+    "version_raw": "https://github.com/xyproto/png2svg/releases/download/v1.7.0/png2svg-1.7.0-linux.tar.xz",
+    "description": "CLI, convert small PNG images to SVG Tiny 1.2"
+  },
+  {
+    "pkg": "pnpm",
+    "site": "simnalamburt/pnpm.appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pnpm",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pnpm",
+    "version_raw": "https://github.com/simnalamburt/pnpm.appimage/releases/download/v10.13.1/pnpm-x86_64.AppImage",
+    "description": "A single file, powered by AppImage"
+  },
+  {
+    "pkg": "pocket-browser",
+    "site": "PocketStudios/Pocket-Browser",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pocket-browser",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pocket-browser",
+    "version_raw": "https://github.com/PocketStudios/Pocket-Browser/releases/download/v1.8.0/pocket-browser-1.8.0.AppImage",
+    "description": "A FOSS browser made for privacy and going towards security"
+  },
+  {
+    "pkg": "pocketcasts-electron",
+    "site": "davegallant/pocketcasts-electron",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pocketcasts-electron",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pocketcasts-electron",
+    "version_raw": "https://github.com/davegallant/pocketcasts-electron/releases/download/v0.4.1/pocketcasts-electron-0.4.1.AppImage",
+    "description": "Pocket Casts wrapper with mapped media keys"
+  },
+  {
+    "pkg": "poddr",
+    "site": "Sn8z/Poddr",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/poddr",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/poddr",
+    "version_raw": "https://github.com/Sn8z/Poddr/releases/download/v2.1.0/Poddr-2.1.0.AppImage",
+    "description": "Podcast client that uses iTunes RSS feeds and Search API"
+  },
+  {
+    "pkg": "podium",
+    "site": "beeware/podium",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/podium",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/podium",
+    "version_raw": "https://github.com/beeware/podium/releases/download/v0.2/Podium-0.2-x86_64.AppImage",
+    "description": "A Markdown-based native presentation tool"
+  },
+  {
+    "pkg": "podman",
+    "site": "containers/podman",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/podman",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/podman",
+    "version_raw": "https://github.com/containers/podman/releases/download/v5.7.0-rc2/podman-remote-static-linux_amd64.tar.gz",
+    "description": "Free & open source tool to manage containers, pods, and images"
+  },
+  {
+    "pkg": "podman-desktop-companion",
+    "site": "iongion/container-desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/podman-desktop-companion",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/podman-desktop-companion",
+    "version_raw": "https://github.com/iongion/container-desktop/releases/download/5.2.13/container-desktop-x86_64-5.2.13.AppImage",
+    "description": "Podman command line interface"
+  },
+  {
+    "pkg": "poe-ladder",
+    "site": "darteil/POELadder",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/poe-ladder",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/poe-ladder",
+    "version_raw": "https://github.com/darteil/POELadder/releases/download/1.0.10/PoeLadder-1.0.10.AppImage",
+    "description": "Path of Exile ladder viewer"
+  },
+  {
+    "pkg": "poedit",
+    "site": "ivan-hc/Database-of-pkg2appimaged-packages",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/poedit",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/poedit",
+    "version_raw": "https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/poedit/Poedit_3.8-1-archimage5.0-x86_64.AppImage",
+    "description": "Unofficial. Powerful and intuitive translation editor"
+  },
+  {
+    "pkg": "poi",
+    "site": "poooi/poi",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/poi",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/poi",
+    "version_raw": "https://github.com/poooi/poi/releases/download/v11.0.0-win7/poi-11.0.0-win7.AppImage",
+    "description": "Scalable KanColle browser and tool"
+  },
+  {
+    "pkg": "pointless",
+    "site": "kkoomen/pointless",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pointless",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pointless",
+    "version_raw": "https://github.com/kkoomen/pointless/releases/download/v1.11.0/pointless_1.11.0_amd64.AppImage",
+    "description": "An endless drawing canvas desktop app made with Tauri (Rust) and React"
+  },
+  {
+    "pkg": "pokeget-rs",
+    "site": "talwat/pokeget-rs",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pokeget-rs",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pokeget-rs",
+    "version_raw": "https://github.com/talwat/pokeget-rs/releases/download/1.6.7/pokeget-Linux-x86_64.tar.gz",
+    "description": "A better rust version of pokeget. CLI"
+  },
+  {
+    "pkg": "pokego",
+    "site": "rubiin/pokego",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pokego",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pokego",
+    "version_raw": "https://github.com/rubiin/pokego/releases/download/v0.5.2/pokego_Linux_x86_64.tar.gz",
+    "description": "Command-line tool that lets you display Pokémon sprites in color directly in your terminal"
+  },
+  {
+    "pkg": "pokete",
+    "site": "lxgr-linux/pokete",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pokete",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pokete",
+    "version_raw": "https://github.com/lxgr-linux/pokete/releases/download/0.9.2/Pokete-0.9.2-x86_64.AppImage",
+    "description": "A terminal based Pokemon like game"
+  },
+  {
+    "pkg": "polar",
+    "site": "jamaljsr/polar",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/polar",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/polar",
+    "version_raw": "https://github.com/jamaljsr/polar/releases/download/v3.3.0/polar-linux-x86_64-v3.3.0.AppImage",
+    "description": "One-click Bitcoin Lightning networks for local app development"
+  },
+  {
+    "pkg": "polar-bookshelf",
+    "site": "burtonator/polar-app-public",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/polar-bookshelf",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/polar-bookshelf",
+    "version_raw": "https://github.com/burtonator/polar-app-public/releases/download/v2.0.0-beta.11/polar-desktop-app-2.0.0-beta.11-x86_64.AppImage",
+    "description": "Personal knowledge repository for PDF and web content"
+  },
+  {
+    "pkg": "polkakey",
+    "site": "w3finance/PolkaKey",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/polkakey",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/polkakey",
+    "version_raw": "https://github.com/w3finance/PolkaKey/releases/download/v0.8.0/PolkaKey-v0.8.0-x86_64.AppImage",
+    "description": "A secure way to generate Polkadot/Kusama/Edgeware address"
+  },
+  {
+    "pkg": "polybar",
+    "site": "Samueru-sama/polybar-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/polybar",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/polybar",
+    "version_raw": "",
+    "description": "Unofficial AppImage of polybar. A fast easy-to-use status bar"
+  },
+  {
+    "pkg": "polypane",
+    "site": "firstversionist/polypane",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/polypane",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/polypane",
+    "version_raw": "https://github.com/firstversionist/polypane/releases/download/v26.0.1/Polypane-26.0.1.AppImage",
+    "description": "Browser for web developers"
+  },
+  {
+    "pkg": "pomatez",
+    "site": "zidoro/pomatez",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pomatez",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pomatez",
+    "version_raw": "https://github.com/zidoro/pomatez/releases/download/v1.8.0/Pomatez-v1.8.0-linux-x86_64.AppImage",
+    "description": "Stay Focused. Take a Break"
+  },
+  {
+    "pkg": "pomodorolm",
+    "site": "vjousse/pomodorolm",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pomodorolm",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pomodorolm",
+    "version_raw": "https://github.com/vjousse/pomodorolm/releases/download/app-v0.6.1/pomodorolm_0.6.1_amd64.AppImage",
+    "description": "A simple, good looking and multi-platform pomodoro tracker"
+  },
+  {
+    "pkg": "pomotroid",
+    "site": "Splode/pomotroid",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pomotroid",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pomotroid",
+    "version_raw": "https://github.com/Splode/pomotroid/releases/download/v0.13.0/pomotroid-0.13.0-linux.AppImage",
+    "description": "Simple and visually-pleasing Pomodoro timer"
+  },
+  {
+    "pkg": "pop",
+    "site": "charmbracelet/pop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pop",
+    "version_raw": "https://github.com/charmbracelet/pop/releases/download/v0.2.0/pop_0.2.0_Linux_x86_64.tar.gz",
+    "description": "Send emails from your terminal"
+  },
+  {
+    "pkg": "popsicle",
+    "site": "pop-os/popsicle",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/popsicle",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/popsicle",
+    "version_raw": "https://github.com/pop-os/popsicle/releases/download/1.3.3/Popsicle_USB_Flasher-1.3.3-x86_64.AppImage",
+    "description": "Multiple USB File Flasher"
+  },
+  {
+    "pkg": "positron",
+    "site": "arjunindia/positron",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/positron",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/positron",
+    "version_raw": "https://github.com/arjunindia/positron/releases/download/v0.0.3/positron-1.0.0.AppImage",
+    "description": "Manage your movie and show watchlist"
   },
   {
     "pkg": "postcat",
@@ -18388,7 +19188,7 @@
     "site": "ivan-hc/VLC-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vlc-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vlc-git",
-    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r35083.g3d619de-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r35088.g017e5bc-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial. Free and Open Source Video & Media player, GIT version"
   },
   {
@@ -19492,7 +20292,7 @@
     "site": "StrikerX3/Ymir",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ymir-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ymir-nightly",
-    "version_raw": "https://github.com/StrikerX3/Ymir/releases/download/latest-nightly/ymir-linux-x86_64-AVX2-v0.2.1-dev_472f287e.tar.xz",
+    "version_raw": "https://github.com/StrikerX3/Ymir/releases/download/latest-nightly/ymir-linux-x86_64-AVX2-v0.2.1-dev_d554909e.tar.xz",
     "description": "Sega Saturn emulator (Nightly builds)"
   },
   {
