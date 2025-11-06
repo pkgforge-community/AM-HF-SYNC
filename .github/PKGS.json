@@ -3732,7 +3732,7 @@
     "site": "darktable-org/darktable",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/darktable-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/darktable-nightly",
-    "version_raw": "https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.3.0%2B749.g84b0327b8f-x86_64.AppImage",
+    "version_raw": "https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.3.0%2B773.g945df9e183-x86_64.AppImage",
     "description": "Photography workflow app and raw developer, nightly"
   },
   {
@@ -4588,7 +4588,7 @@
     "site": "pflyly/eden-nightly",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eden-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eden-nightly",
-    "version_raw": "https://github.com/pflyly/eden-nightly/releases/download/2025-11-05-27964/Eden-27964-Common-PGO-x86_64.AppImage",
+    "version_raw": "https://github.com/pflyly/eden-nightly/releases/download/2025-11-06-27965/Eden-27965-Steamdeck-x86_64.AppImage",
     "description": "Unofficial, an experimental open-source emulator for Nintendo Switch (yuzu fork, nightly builds)"
   },
   {
@@ -6548,7 +6548,7 @@
     "site": "pkgforge-dev/ghostty-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ghostty-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ghostty-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.0-main%2Bbbaee5e-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.0-main%2B923bde7-x86_64.AppImage",
     "description": "Unoffical, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (Tip, Nightly)"
   },
   {
@@ -6812,7 +6812,7 @@
     "site": "timche/gmail-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gmail-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gmail-desktop",
-    "version_raw": "https://github.com/zoidsh/meru/releases/download/v3.15.0/Meru-3.15.0.AppImage",
+    "version_raw": "https://github.com/zoidsh/meru/releases/download/v3.15.1/Meru-3.15.1.AppImage",
     "description": "Unofficial. Nifty Gmail desktop app"
   },
   {
@@ -10252,7 +10252,7 @@
     "site": "Manager-io/Manager",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/manager-io",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/manager-io",
-    "version_raw": "https://github.com/Manager-io/Manager/releases/download/25.11.5.3094/Manager-x86_64.AppImage",
+    "version_raw": "https://github.com/Manager-io/Manager/releases/download/25.11.6.3096/Manager-x86_64.AppImage",
     "description": "Free Accounting Software for Linux, Server"
   },
   {
@@ -15380,7 +15380,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-2667d5de0f1b12b6d3c52d98ecfc2b6b10f9d2d1/rpcs3-v0.0.38-18297-2667d5de_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-50eb46d29428165ecfae5c64144fe44c5d49632e/rpcs3-v0.0.38-18309-50eb46d2_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -16012,7 +16012,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4-nightly",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-11-05-7031f5968e2d76b469f6ff2265d64e73f3feaacb/shadps4-linux-sdl-2025-11-05-7031f59.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-11-06-19e974bf21bc1d5ac9483c5db382bca72a7545d4/shadps4-linux-sdl-2025-11-06-19e974b.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -18304,6 +18304,14 @@
     "description": "Unofficial AppImage of Torzu (fork of yuzu), with optimized builds for modern cpus"
   },
   {
+    "pkg": "touchhle",
+    "site": "pkgforge-dev/TouchHLE-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/touchhle",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/touchhle",
+    "version_raw": "https://github.com/pkgforge-dev/TouchHLE-AppImage/releases/download/0.2.2-3%402025-11-05_1762378351/TouchHLE-0.2.2-3-anylinux-x86_64.AppImage",
+    "description": "Unofficial, High-level emulator for iPhone OS apps"
+  },
+  {
     "pkg": "trackaudio",
     "site": "pierr3/TrackAudio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trackaudio",
@@ -18654,6 +18662,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uncov",
     "version_raw": "https://github.com/xaizek/uncov/releases/download/v0.5/uncov-0.5-x86_64.AppImage",
     "description": "A tool that collects and processes code coverage reports"
+  },
+  {
+    "pkg": "undertaker141",
+    "site": "AbdelrhmanNile/UnderTaker141",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/undertaker141",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/undertaker141",
+    "version_raw": "https://github.com/AbdelrhmanNile/UnderTaker141/releases/download/latest/UnderTaker141.AppImage",
+    "description": "A free and open-source game-center for linux. Pre-configured Wine and Native Games for Linux"
   },
   {
     "pkg": "unetbootin",
@@ -19532,7 +19548,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4488875201",
+    "version_raw": "4491992494",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
