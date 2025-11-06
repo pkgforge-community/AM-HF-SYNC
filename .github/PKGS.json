@@ -4588,7 +4588,7 @@
     "site": "pflyly/eden-nightly",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eden-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eden-nightly",
-    "version_raw": "https://github.com/pflyly/eden-nightly/releases/download/2025-11-06-27965/Eden-27965-Steamdeck-x86_64.AppImage",
+    "version_raw": "https://github.com/pflyly/eden-nightly/releases/download/2025-11-06-27965/Eden-27965-Common-PGO-x86_64.AppImage",
     "description": "Unofficial, an experimental open-source emulator for Nintendo Switch (yuzu fork, nightly builds)"
   },
   {
@@ -9468,7 +9468,7 @@
     "site": "pkgforge-dev/ladybird-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ladybird",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ladybird",
-    "version_raw": "https://github.com/pkgforge-dev/ladybird-appimage/releases/download/snapshot/Ladybird-r72663.74940726d0b-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ladybird-appimage/releases/download/snapshot/Ladybird-r72686.8d814215264-1-anylinux-x86_64.AppImage",
     "description": "A truly independent web browser, using a novel engine based on web standards"
   },
   {
@@ -9844,7 +9844,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250724_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -11198,6 +11198,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mp4grep",
     "version_raw": "https://github.com/o-oconnell/mp4grep/releases/download/0.1.5-linux-x86/binary-mp4grep-0.1.5-linux-x86.zip",
     "description": "CLI for transcribing and searching audio/video files"
+  },
+  {
+    "pkg": "mpc-qt",
+    "site": "mpc-qt/mpc-qt",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mpc-qt",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mpc-qt",
+    "version_raw": "https://github.com/mpc-qt/mpc-qt/releases/download/v25.07/mpc-qt-linux-x64-25.07.AppImage",
+    "description": "Media Player Classic Qute Theater"
   },
   {
     "pkg": "mqtt-explorer",
@@ -13980,7 +13988,7 @@
     "site": "mvdicarlo/postybirb-plus",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/postybirb-plus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/postybirb-plus",
-    "version_raw": "https://github.com/mvdicarlo/postybirb-plus/releases/download/v3.1.62/postybirb-plus-3.1.62-x86_64.AppImage",
+    "version_raw": "https://github.com/mvdicarlo/postybirb-plus/releases/download/v3.1.65/postybirb-plus-3.1.65-x86_64.AppImage",
     "description": "Helps artists post art to multiple websites more quickly"
   },
   {
@@ -15118,6 +15126,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/redis-viewer",
     "version_raw": "https://github.com/redisviewer/RedisViewer/releases/download/v2.4.9/Redis.Viewer-2.4.9-linux.AppImage",
     "description": "A Redis visualization client tool"
+  },
+  {
+    "pkg": "rehex",
+    "site": "solemnwarning/rehex",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rehex",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rehex",
+    "version_raw": "https://github.com/solemnwarning/rehex/releases/download/0.63.3/rehex-0.63.3-linux-generic-x86_64.AppImage",
+    "description": "Reverse Engineers' Hex Editor"
   },
   {
     "pkg": "remind-me-again",
@@ -19548,7 +19564,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4491992494",
+    "version_raw": "4493188428",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
