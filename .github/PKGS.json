@@ -628,7 +628,7 @@
     "site": "anyproto/anytype-ts",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anytype",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anytype",
-    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.50.34-alpha/Anytype-0.50.34-alpha.AppImage",
+    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.50.35-alpha/Anytype-0.50.35-alpha.AppImage",
     "description": "The everything app for those who celebrate trust & autonomy"
   },
   {
@@ -4340,7 +4340,7 @@
     "site": "drawpile/Drawpile",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/drawpile",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/drawpile",
-    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.3.0-beta.4-36-g0b2be6298-x86_64.AppImage",
+    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.3.0-beta.4-57-g6d0c2168e-x86_64.AppImage",
     "description": "Drawing program to sketch on the same canvas simultaneously"
   },
   {
@@ -9428,7 +9428,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -9844,7 +9844,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250724_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -13464,6 +13464,14 @@
     "description": "PICsimLab - Programmable IC Simulator Laboratory"
   },
   {
+    "pkg": "picterm",
+    "site": "ksk001100/picterm",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/picterm",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/picterm",
+    "version_raw": "https://github.com/ksk001100/picterm/releases/download/v0.0.13/picterm_v0.0.13_x86_64-unknown-linux-musl.tar.gz",
+    "description": "CLI, TUI image viewer"
+  },
+  {
     "pkg": "picturama",
     "site": "picturama/picturama",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/picturama",
@@ -14472,6 +14480,14 @@
     "description": "Ground control for unmanned vehicles"
   },
   {
+    "pkg": "qikqr",
+    "site": "deep5050/qikQR",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qikqr",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qikqr",
+    "version_raw": "https://github.com/deep5050/qikQR/releases/download/v1.0.0/qikqr-1.0.0.AppImage",
+    "description": "Minimal desktop app to create QR codes"
+  },
+  {
     "pkg": "qmasterpassword",
     "site": "bkueng/qMasterPassword",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qmasterpassword",
@@ -14752,6 +14768,14 @@
     "description": "QuickNote helps to paste some random text or take some notes right from your taskbar!"
   },
   {
+    "pkg": "quickredis",
+    "site": "quick123official/quick_redis_blog",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quickredis",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quickredis",
+    "version_raw": "https://github.com/quick123official/quick_redis_blog/releases/download/v2.7.1/QuickRedis-2.7.1-linux-x86_64.AppImage",
+    "description": "A free Redis Desktop manager"
+  },
+  {
     "pkg": "quicktwitch",
     "site": "mhmiles/QuickTwitch",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quicktwitch",
@@ -14800,12 +14824,788 @@
     "description": "Cross-platform v2ray GUI Client in Qt"
   },
   {
+    "pkg": "qview",
+    "site": "jurplel/qView",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qview",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qview",
+    "version_raw": "https://github.com/jurplel/qView/releases/download/7.1/qView-7.1-x86_64.AppImage",
+    "description": "Practical and minimal image viewer"
+  },
+  {
+    "pkg": "qxgedit",
+    "site": "https://sourceforge.net/projects/qxgedit",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qxgedit",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qxgedit",
+    "version_raw": "https://sourceforge.net/projects/qxgedit/files/qxgedit/1.0.1/qxgedit-1.0.1-2.1.x86_64.AppImage/download",
+    "description": "QXGEdit is a Qt GUI XG editor application"
+  },
+  {
+    "pkg": "r2modman",
+    "site": "ebkr/r2modmanPlus",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/r2modman",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/r2modman",
+    "version_raw": "https://github.com/ebkr/r2modmanPlus/releases/download/v3.2.9/r2modman-3.2.9.AppImage",
+    "description": "Mod manager for several Unity games using Thunderstore"
+  },
+  {
+    "pkg": "r3play",
+    "site": "qier222/YesPlayMusic",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/r3play",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/r3play",
+    "version_raw": "https://github.com/qier222/YesPlayMusic/releases/download/v0.4.10/YesPlayMusic-0.4.10.AppImage",
+    "description": "High-value third-party Netease cloud player, chinese"
+  },
+  {
+    "pkg": "rabix-composer",
+    "site": "rabix/composer",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rabix-composer",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rabix-composer",
+    "version_raw": "https://github.com/rabix/composer/releases/download/1.5.0-rc.2/rabix-composer-linux-1.5.0-rc2.AppImage",
+    "description": "A desktop IDE for working with Common Workflow Language"
+  },
+  {
+    "pkg": "radioit",
+    "site": "blackPantherOS/radioit",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/radioit",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/radioit",
+    "version_raw": "https://github.com/blackPantherOS/radioit/releases/download/1.0beta1/RadioIt-x86_64.AppImage",
+    "description": "Automation software for Radios"
+  },
+  {
+    "pkg": "radix-wallet",
+    "site": "radixdlt/desktop-wallet",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/radix-wallet",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/radix-wallet",
+    "version_raw": "https://github.com/radixdlt/desktop-wallet/releases/download/1.4.0-beta/Radix.Wallet.1.4.0-beta.AppImage",
+    "description": "Radix DLT desktop wallet"
+  },
+  {
+    "pkg": "rainbow-board",
+    "site": "harshkhandeparkar/rainbow-board",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rainbow-board",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rainbow-board",
+    "version_raw": "https://github.com/harshkhandeparkar/rainbow-board/releases/download/v0.8.1/Rainbow-Board-0.8.1.AppImage",
+    "description": "22nd Century Whiteboard App"
+  },
+  {
+    "pkg": "rambox",
+    "site": "ramboxapp/download",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rambox",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rambox",
+    "version_raw": "https://github.com/ramboxapp/download/releases/download/v2.5.2-beta.2/Rambox-2.5.2-beta.2-linux-x64.AppImage",
+    "description": "Free and Open Source messaging and emailing app"
+  },
+  {
+    "pkg": "rapidraw",
+    "site": "CyberTimon/RapidRAW",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rapidraw",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rapidraw",
+    "version_raw": "https://github.com/CyberTimon/RapidRAW/releases/download/v1.4.4/03_RapidRAW_v1.4.4_ubuntu-22.04_amd64.AppImage",
+    "description": "A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind"
+  },
+  {
+    "pkg": "rare",
+    "site": "Dummerle/Rare",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rare",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rare",
+    "version_raw": "https://github.com/RareDevs/Rare/releases/download/1.11.3.255/Rare-1.11.3.255.AppImage",
+    "description": "GUI for legendary. An Epic Games Launcher open source alternative"
+  },
+  {
+    "pkg": "raspberry-pi-imager",
+    "site": "raspberrypi/rpi-imager",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/raspberry-pi-imager",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/raspberry-pi-imager",
+    "version_raw": "https://github.com/raspberrypi/rpi-imager/releases/download/v1.9.6/Raspberry_Pi_Imager-1.9.6-x86_64.AppImage",
+    "description": "The home of Raspberry Pi Imager, a user-friendly tool for creating bootable media for Raspberry Pi devices"
+  },
+  {
     "pkg": "raspirus",
     "site": "Raspirus/Raspirus",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/raspirus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/raspirus",
     "version_raw": "https://github.com/Raspirus/raspirus/releases/download/v2.2.0/raspirus_2.2.0_x86_64.AppImage",
     "description": "A user and resources-friendly signatures-based malware scanner"
+  },
+  {
+    "pkg": "rasterdraw",
+    "site": "humble-barnacle001/qt-raster-lines",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rasterdraw",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rasterdraw",
+    "version_raw": "https://github.com/humble-barnacle001/qt-raster-lines/releases/download/latest/RasterDraw-Linux-latest-x86_64.AppImage",
+    "description": "Simple shape drawn using rasterisation"
+  },
+  {
+    "pkg": "rasterview",
+    "site": "KurtPfeifle/rasterview",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rasterview",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rasterview",
+    "version_raw": "https://github.com/pdfkungfoo/rasterview/releases/download/continuous/rasterview-v1.6-travisbuild.52-travisbranch.master-git.9ff98c7-x86_64.AppImage",
+    "description": "Raster Viewer for CUPS-Raster, Apple-Raster and PWG-Raster"
+  },
+  {
+    "pkg": "rats-search",
+    "site": "DEgITx/rats-search",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rats-search",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rats-search",
+    "version_raw": "https://github.com/librats/rats-search/releases/download/v1.11.0/rats-search-1.11.0-x86_64.AppImage",
+    "description": "P2P BitTorrent search engine"
+  },
+  {
+    "pkg": "raven-reader",
+    "site": "mrgodhani/raven-reader",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/raven-reader",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/raven-reader",
+    "version_raw": "https://github.com/hello-efficiency-inc/raven-reader/releases/download/v1.0.80/Raven-Reader-1.0.80.AppImage",
+    "description": "Simple Desktop RSS Reader made using VueJS"
+  },
+  {
+    "pkg": "rawtherapee",
+    "site": "https://rawtherapee.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rawtherapee",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rawtherapee",
+    "version_raw": "https://rawtherapee.com/shared/builds/linux/",
+    "description": "An advanced raw photo development program"
+  },
+  {
+    "pkg": "rbdl-toolkit",
+    "site": "ORB-HD/rbdl-toolkit",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rbdl-toolkit",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rbdl-toolkit",
+    "version_raw": "https://github.com/rbdl/rbdl-toolkit/releases/download/v1.1.4/rbdl-toolkit-x86_64.AppImage",
+    "description": "Application for visualizing and working with rbdl models"
+  },
+  {
+    "pkg": "rbdoom-3",
+    "site": "mantralunar/RBDOOM-3-BFG",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rbdoom-3",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rbdoom-3",
+    "version_raw": "https://github.com/mantralunar/RBDOOM-3-BFG/releases/download/RBDOOM-3-BFG-0a1a591-x86_64/RBDOOM-3-BFG-x86_64.AppImage",
+    "description": "Doom 3 BFG Edition source port with updated DX12/Vulkan renderer"
+  },
+  {
+    "pkg": "rbw",
+    "site": "doy/rbw",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rbw",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rbw",
+    "version_raw": "https://github.com/doy/rbw/releases/download/1.14.1/rbw_1.14.1_linux_amd64.tar.gz",
+    "description": "Unofficial Bitwarden password manager cli"
+  },
+  {
+    "pkg": "rclone",
+    "site": "rclone/rclone",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rclone",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rclone",
+    "version_raw": "https://github.com/rclone/rclone/releases/download/v1.71.2/rclone-v1.71.2-linux-amd64.zip",
+    "description": "rsync for cloud storage, CLI that supports Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files"
+  },
+  {
+    "pkg": "rclone-browser",
+    "site": "kapitainsky/RcloneBrowser",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rclone-browser",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rclone-browser",
+    "version_raw": "https://github.com/kapitainsky/RcloneBrowser/releases/download/1.8.0/rclone-browser-1.8.0-a0b66c6-linux-x86_64.AppImage",
+    "description": "Simple cross platform GUI for rclone"
+  },
+  {
+    "pkg": "rclone-gui-manager",
+    "site": "madroots/rclone-gui-manager",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rclone-gui-manager",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rclone-gui-manager",
+    "version_raw": "https://github.com/madroots/rclone-gui-manager/releases/download/v1.0.2/rclone-gui-manager-x86_64.AppImage",
+    "description": "A simple, modern graphical user interface for managing rclone remotes for Linux"
+  },
+  {
+    "pkg": "rclone-ui",
+    "site": "rclone-ui/rclone-ui",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rclone-ui",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rclone-ui",
+    "version_raw": "https://github.com/rclone-ui/rclone-ui/releases/download/v2.8.0/Rclone.UI_amd64.AppImage",
+    "description": "The cross-platform desktop GUI for rclone & S3"
+  },
+  {
+    "pkg": "reactotron",
+    "site": "infinitered/reactotron",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/reactotron",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/reactotron",
+    "version_raw": "https://github.com/infinitered/reactotron/releases/download/reactotron-app%403.8.2/Reactotron-3.8.2.AppImage",
+    "description": "Reactotron desktop mode engage"
+  },
+  {
+    "pkg": "real-video-enhancer",
+    "site": "TNTwise/REAL-Video-Enhancer",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/real-video-enhancer",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/real-video-enhancer",
+    "version_raw": "https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/1.2.0/REAL-Video-Enhancer-NCNN-Linux-x86_64.AppImage",
+    "description": "Interpolate and Upscale easily"
+  },
+  {
+    "pkg": "realm-studio",
+    "site": "realm/realm-studio",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/realm-studio",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/realm-studio",
+    "version_raw": "https://github.com/realm/realm-studio/releases/download/v20.0.0/Realm.Studio-20.0.0.AppImage",
+    "description": "A tool for everything Realm"
+  },
+  {
+    "pkg": "reaper",
+    "site": "https://reaper.fm",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/reaper",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/reaper",
+    "version_raw": "https://www.reaper.fm/",
+    "description": "A complete digital audio production app, offering a full multitrack audio and MIDI recording, editing, processing, mixing and mastering toolset"
+  },
+  {
+    "pkg": "rebaslight",
+    "site": "rebaslight/rebaslight",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rebaslight",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rebaslight",
+    "version_raw": "https://github.com/rebaslight/rebaslight/releases/download/v3.7.3/rebaslight-3.7.3.tar.bz2",
+    "description": "An easy to use special effects video editor"
+  },
+  {
+    "pkg": "rebos",
+    "site": "https://gitlab.com/Oglo12/rebos",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rebos",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rebos",
+    "version_raw": "r97.4818a33",
+    "description": "Rebos is a tool that aims at mimicking what NixOS does (repeatability), for any Linux distribution"
+  },
+  {
+    "pkg": "recoll",
+    "site": "https://www.recoll.org",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/recoll",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/recoll",
+    "version_raw": "",
+    "description": "Full-text search for your desktop"
+  },
+  {
+    "pkg": "record-compare",
+    "site": "paustint/record-compare",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/record-compare",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/record-compare",
+    "version_raw": "https://github.com/paustint/record-compare/releases/download/v0.1.2/Record.Compare.0.1.2.AppImage",
+    "description": "Record Compare"
+  },
+  {
+    "pkg": "recordscript",
+    "site": "Recordscript/recordscript",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/recordscript",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/recordscript",
+    "version_raw": "https://github.com/Recordscript/recordscript/releases/download/v0.1.2/recordscript_0.0.1_amd64.AppImage",
+    "description": "Cross-platform screen recorder, transcript, subtitle"
+  },
+  {
+    "pkg": "redact",
+    "site": "https://redact.dev",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/redact",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/redact",
+    "version_raw": "https://update-desktop.redact.dev/build/Redact-0.20.2.AppImage",
+    "description": "Application to mass delete your account posts from different social media"
+  },
+  {
+    "pkg": "redeclipse",
+    "site": "redeclipse/deploy",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/redeclipse",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/redeclipse",
+    "version_raw": "https://github.com/redeclipse/deploy/releases/download/appimage_continuous_stable/redeclipse-server-stable-x86_64.AppImage",
+    "description": "A great first person 3D arena shooter with online support, game"
+  },
+  {
+    "pkg": "redis-gui",
+    "site": "ekvedaras/redis-gui",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/redis-gui",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/redis-gui",
+    "version_raw": "https://github.com/ekvedaras/redis-gui/releases/download/v2.3.0/redis-gui-2.3.0.AppImage",
+    "description": "Modern graphical user interface to peek into redis DB"
+  },
+  {
+    "pkg": "redis-viewer",
+    "site": "redisviewer/RedisViewer",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/redis-viewer",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/redis-viewer",
+    "version_raw": "https://github.com/redisviewer/RedisViewer/releases/download/v2.4.9/Redis.Viewer-2.4.9-linux.AppImage",
+    "description": "A Redis visualization client tool"
+  },
+  {
+    "pkg": "rehex",
+    "site": "solemnwarning/rehex",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rehex",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rehex",
+    "version_raw": "https://github.com/solemnwarning/rehex/releases/download/0.63.3/rehex-0.63.3-linux-generic-x86_64.AppImage",
+    "description": "Reverse Engineers' Hex Editor"
+  },
+  {
+    "pkg": "remind-me-again",
+    "site": "probablykasper/remind-me-again",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/remind-me-again",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/remind-me-again",
+    "version_raw": "https://github.com/probablykasper/remind-me-again/releases/download/v1.2.2/remind-me-again_1.2.2_amd64.AppImage",
+    "description": "Toggleable cron reminders app"
+  },
+  {
+    "pkg": "remnote",
+    "site": "https://www.remnote.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/remnote",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/remnote",
+    "version_raw": "https://download2.remnote.io/remnote-desktop2/RemNote-1.22.0.AppImage",
+    "description": "Make flashcards in your notes. Cut study time in half. Use evidence-based memory techniques to create flashcards that resurface at the best time for retention"
+  },
+  {
+    "pkg": "rendertune",
+    "site": "MartinBarker/RenderTune",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rendertune",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rendertune",
+    "version_raw": "https://github.com/MartinBarker/RenderTune/releases/download/v2.0.12/RenderTune-linux-x86_64.AppImage",
+    "description": "Electron app that uses ffmpeg to combine audio.+image files into video files"
+  },
+  {
+    "pkg": "reor",
+    "site": "reorproject/reor",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/reor",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/reor",
+    "version_raw": "https://github.com/reorproject/reor/releases/download/v0.2.26/Reor_0.2.26.AppImage",
+    "description": "AI note-taking app that runs models locally"
+  },
+  {
+    "pkg": "repath-studio",
+    "site": "repath-project/repath-studio",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/repath-studio",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/repath-studio",
+    "version_raw": "https://github.com/repath-studio/repath-studio/releases/download/v0.4.10/repath-studio-linux.AppImage",
+    "description": "A cross-platform vector graphics editor"
+  },
+  {
+    "pkg": "reqable",
+    "site": "reqable/reqable-app",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/reqable",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/reqable",
+    "version_raw": "https://github.com/reqable/reqable-app/releases/download/3.0.22/reqable-app-linux-x86_64.AppImage",
+    "description": "Advanced API Debugging Proxy and REST Client"
+  },
+  {
+    "pkg": "responsively",
+    "site": "responsively-org/responsively-app-releases",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/responsively",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/responsively",
+    "version_raw": "https://github.com/responsively-org/responsively-app-releases/releases/download/v1.17.1/ResponsivelyApp-1.17.1.AppImage",
+    "description": "A browser for developing responsive web apps"
+  },
+  {
+    "pkg": "retroarch",
+    "site": "https://retroarch.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/retroarch",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/retroarch",
+    "version_raw": "",
+    "description": "Frontend for emulators, game engines and media players"
+  },
+  {
+    "pkg": "retrom",
+    "site": "JMBeresford/retrom",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/retrom",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/retrom",
+    "version_raw": "https://github.com/JMBeresford/retrom/releases/download/v0.7.42/Retrom_0.7.42_amd64_linux.AppImage",
+    "description": "A centralized game library/collection management service with a focus on emulation"
+  },
+  {
+    "pkg": "retroshare",
+    "site": "RetroShare/RetroShare",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/retroshare",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/retroshare",
+    "version_raw": "https://github.com/RetroShare/RetroShare/releases/download/v0.6.7.2/RetroShare-0.6.7-2.glibc2.29-x86_64.AppImage",
+    "description": "Securely share files with your friends"
+  },
+  {
+    "pkg": "revealgo",
+    "site": "yusukebe/revealgo",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/revealgo",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/revealgo",
+    "version_raw": "https://github.com/yusukebe/revealgo/releases/download/v1.2.2/revealgo_1.2.2_Linux-64bit.tar.gz",
+    "description": "Markdown driven presentation tool written in Go!"
+  },
+  {
+    "pkg": "revolt",
+    "site": "revoltchat/desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/revolt",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/revolt",
+    "version_raw": "https://github.com/revoltchat/desktop/releases/download/v1.0.8/Revolt-1.0.8.AppImage",
+    "description": "Revolt Desktop App"
+  },
+  {
+    "pkg": "rhb",
+    "site": "NicolaOrritos/rhb",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rhb",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rhb",
+    "version_raw": "https://github.com/NicolaOrritos/rhb/releases/download/0.6.4/RHB-0.6.4-x86_64.AppImage",
+    "description": "Rapid HTML Builder/Prototyper"
+  },
+  {
+    "pkg": "rhythmbox",
+    "site": "ivan-hc/Rhythmbox-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rhythmbox",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rhythmbox",
+    "version_raw": "https://github.com/ivan-hc/Rhythmbox-appimage/releases/download/continuous/Rhythmbox_3.4.8-4-archimage5.0-x86_64.AppImage",
+    "description": "The popular Audio Player Rhythmbox"
+  },
+  {
+    "pkg": "ricochet",
+    "site": "blueprint-freespeech/ricochet-refresh",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ricochet",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ricochet",
+    "version_raw": "https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.38-release/ricochet-refresh-3.0.38-x86_64.appimage",
+    "description": "Anonymous peer-to-peer instant messaging"
+  },
+  {
+    "pkg": "ricochlime",
+    "site": "adil192/ricochlime",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ricochlime",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ricochlime",
+    "version_raw": "https://github.com/adil192/ricochlime/releases/download/v1.11.11/Ricochlime-1.11.11-x86_64.AppImage",
+    "description": "Satisfying slime shooter"
+  },
+  {
+    "pkg": "ridereceipts",
+    "site": "ridereceipts/ridereceipts",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ridereceipts",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ridereceipts",
+    "version_raw": "https://github.com/hello-efficiency-inc/ridereceipts/releases/download/v1.5.5/ridereceipts-1.5.5-x86_64.AppImage",
+    "description": "Automation app to download and organize your tax invoices"
+  },
+  {
+    "pkg": "rimage",
+    "site": "SalOne22/rimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rimage",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rimage",
+    "version_raw": "https://github.com/SalOne22/rimage/releases/download/v0.12.1/rimage-0.12.1-x86_64-unknown-linux-musl.tar.gz",
+    "description": "This is CLI tool inspired by squoosh"
+  },
+  {
+    "pkg": "ripcord",
+    "site": "https://cancel.fm/ripcord",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ripcord",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ripcord",
+    "version_raw": "https://cancel.fm/dl/Ripcord-0.4.29-x86_64.AppImage",
+    "description": "Chat client for group-centric services like Slack and Discord"
+  },
+  {
+    "pkg": "ripes",
+    "site": "mortbopet/Ripes",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ripes",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ripes",
+    "version_raw": "https://github.com/mortbopet/Ripes/releases/download/continuous/Ripes-v2.2.6-71-g06cc83a-linux-x86_64.AppImage",
+    "description": "Graphical processor simulator and assembly editor for the RISC-V ISA"
+  },
+  {
+    "pkg": "ripgrep",
+    "site": "BurntSushi/ripgrep",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ripgrep",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ripgrep",
+    "version_raw": "",
+    "description": "Search directories for regex pattern while respecting gitignore"
+  },
+  {
+    "pkg": "ripgrep-all",
+    "site": "phiresky/ripgrep-all",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ripgrep-all",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ripgrep-all",
+    "version_raw": "",
+    "description": "A ripgrep version to also search in documents and archives"
+  },
+  {
+    "pkg": "rmg",
+    "site": "Rosalie241/RMG",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rmg",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rmg",
+    "version_raw": "https://github.com/Rosalie241/RMG/releases/download/v0.8.7/RMG-Portable-Linux64-v0.8.7.AppImage",
+    "description": "Rosalie's Mupen GUI"
+  },
+  {
+    "pkg": "rmw",
+    "site": "theimpossibleastronaut/rmw",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rmw",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rmw",
+    "version_raw": "https://github.com/theimpossibleastronaut/rmw/releases/download/v0.9.4/rmw-0.9.4-x86_64.AppImage",
+    "description": "A safe-remove utility for the command line"
+  },
+  {
+    "pkg": "rnote",
+    "site": "pkgforge-dev/Rnote-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rnote",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rnote",
+    "version_raw": "https://github.com/pkgforge-dev/Rnote-AppImage/releases/download/0.13.1-1%402025-11-01_1761982358/rnote-0.13.1-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, Rnote is a vector-based drawing app for sketching, handwritten notes and to annotate documents and pictures"
+  },
+  {
+    "pkg": "roborock-control-center",
+    "site": "LazyT/rrcc",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/roborock-control-center",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/roborock-control-center",
+    "version_raw": "https://github.com/LazyT/rrcc/releases/download/0.8.8/rrcc-088.AppImage",
+    "description": "Control Your Xiaomi Vacuum"
+  },
+  {
+    "pkg": "rock.so",
+    "site": "https://www.rock.so/",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rock.so",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rock.so",
+    "version_raw": "1.2.1",
+    "description": "Messaging + Tasks"
+  },
+  {
+    "pkg": "rocketfetch",
+    "site": "devanlooches/rocketfetch",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rocketfetch",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rocketfetch",
+    "version_raw": "https://github.com/devanlooches/rocketfetch/releases/download/v0.7.5/rocketfetch-x86_64-unknown-linux-gnu-v0.7.5.tar.gz",
+    "description": "A WIP command line system information tool written with multithreading in rust for performance with toml file configuration"
+  },
+  {
+    "pkg": "rofi",
+    "site": "Samueru-sama/rofi-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rofi",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rofi",
+    "version_raw": "https://github.com/pkgforge-dev/rofi-AppImage/releases/download/63b74c7%402025-11-01_1761983710/rofi-63b74c7-anylinux-x86_64.AppImage",
+    "description": "Unofficial, A window switcher, runs dialogs, dmenu like, etc"
+  },
+  {
+    "pkg": "roloviewer",
+    "site": "rosenloecher-it/roloviewer",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/roloviewer",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/roloviewer",
+    "version_raw": "https://github.com/rosenloecher-it/roloviewer/releases/download/1.0.1/roloviewer-1.0.1-x86_64.AppImage",
+    "description": "Image slideshow viewer"
+  },
+  {
+    "pkg": "rotki",
+    "site": "rotki/rotki",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rotki",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rotki",
+    "version_raw": "https://github.com/rotki/rotki/releases/download/v1.41.0/rotki-linux_x86_64-v1.41.0.AppImage",
+    "description": "A portfolio tracking, asset analytics and tax reporting app"
+  },
+  {
+    "pkg": "rpan-studio",
+    "site": "reddit/rpan-studio",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpan-studio",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpan-studio",
+    "version_raw": "https://github.com/reddit/rpan-studio/releases/download/26.0.2.1-rpan/rpan-studio-26.0.2.1-linux.AppImage",
+    "description": "OBS Studio with RPAN integration"
+  },
+  {
+    "pkg": "rpcs3",
+    "site": "RPCS3/rpcs3-binaries-linux",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-3df0c8caef464cd1da8a8b41deaaae4f1ed0f57b/rpcs3-v0.0.38-18310-3df0c8ca_linux64.AppImage",
+    "description": "An open-source PlayStation 3 emulator/debugger written in C++"
+  },
+  {
+    "pkg": "rquickshare",
+    "site": "Martichou/rquickshare",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rquickshare",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rquickshare",
+    "version_raw": "https://github.com/Martichou/rquickshare/releases/download/v0.11.5/r-quick-share-legacy_v0.11.5_glibc-2.31_amd64.AppImage",
+    "description": "Rust implementation of NearbyShare/QuickShare from Android"
+  },
+  {
+    "pkg": "rrip",
+    "site": "mahesh-hegde/rrip",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rrip",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rrip",
+    "version_raw": "https://github.com/mahesh-hegde/rrip/releases/download/release-10b48cd/rrip_linux_amd64.tar.xz",
+    "description": "Bulk image downloader for reddit"
+  },
+  {
+    "pkg": "rssguard",
+    "site": "martinrotter/rssguard",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rssguard",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rssguard",
+    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-54c10f59f-qt5-linux64.AppImage",
+    "description": "Feed reader which supports RSS/ATOM/JSON, no-webengine version"
+  },
+  {
+    "pkg": "rstudio",
+    "site": "https://posit.co",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rstudio",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rstudio",
+    "version_raw": "https://download1.rstudio.org/electron/jammy/amd64/rstudio-2025.09.2-418-amd64-debian.tar.gz",
+    "description": "RStudio is an integrated development environment, IDE for R"
+  },
+  {
+    "pkg": "rtneuron",
+    "site": "BlueBrain/RTNeuron",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rtneuron",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rtneuron",
+    "version_raw": "https://github.com/BlueBrain/RTNeuron/releases/download/3.0.0-rc1/rtneuron_x86_64.AppImage",
+    "description": "Framework for geometrically detailed neuron simulations"
+  },
+  {
+    "pkg": "rubikscube",
+    "site": "theoden8/rubikscube",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rubikscube",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rubikscube",
+    "version_raw": "https://github.com/theoden8/rubikscube/releases/download/0.1.0/RubiksCube-0.1.0-x86_64.AppImage",
+    "description": "Rubik's cube in OpenGL"
+  },
+  {
+    "pkg": "rucola",
+    "site": "Linus-Mussmaecher/rucola",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rucola",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rucola",
+    "version_raw": "https://github.com/Linus-Mussmaecher/rucola/releases/download/v0.7.0/rucola-notes-x86_64-unknown-linux-gnu.tar.xz",
+    "description": "Terminal-based markdown note manager"
+  },
+  {
+    "pkg": "ruffle",
+    "site": "Portable-Linux-Apps/ruffle-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ruffle",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ruffle",
+    "version_raw": "https://github.com/Portable-Linux-Apps/ruffle-AppImage/releases/download/nightly-2025-11-01%402025-11-01_1762013896/Ruffle-nightly-2025-11-01-x86_64.AppImage",
+    "description": "A Flash Player emulator written in Rust"
+  },
+  {
+    "pkg": "runanode",
+    "site": "cennznet/cennz-node-release",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/runanode",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/runanode",
+    "version_raw": "https://github.com/cennznet/cennz-node-release/releases/download/v0.13.5/runanode-0.13.5-linux-x86_64.AppImage",
+    "description": "Lets run a node"
+  },
+  {
+    "pkg": "runelite",
+    "site": "runelite/launcher",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/runelite",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/runelite",
+    "version_raw": "https://github.com/runelite/launcher/releases/download/2.7.5/RuneLite.AppImage",
+    "description": "Open source Old School RuneScape client"
+  },
+  {
+    "pkg": "runjs",
+    "site": "lukehaas/RunJS",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/runjs",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/runjs",
+    "version_raw": "https://github.com/lukehaas/RunJS/releases/download/v3.2.2/RunJS-3.2.2.AppImage",
+    "description": "JavaScript playground. Write code with Node.js & browser APIs access"
+  },
+  {
+    "pkg": "running-dinner-tool",
+    "site": "john-kloss/Running-Dinner-Tool",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/running-dinner-tool",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/running-dinner-tool",
+    "version_raw": "https://github.com/john-kloss/Running-Dinner-Tool/releases/download/v2.3.2/running-dinner-tool-2.3.2-x86_64.AppImage",
+    "description": "Running Dinner Tool"
+  },
+  {
+    "pkg": "rustdesk",
+    "site": "rustdesk/rustdesk",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rustdesk",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rustdesk",
+    "version_raw": "https://github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-1.4.4-x86_64.AppImage",
+    "description": "Virtual/remote desktop infrastructure, like TeamViewer/Citrix"
+  },
+  {
+    "pkg": "rustdict",
+    "site": "Idontknow13/rustdict",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rustdict",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rustdict",
+    "version_raw": "https://github.com/Idontknow13/rustdict/releases/download/v1.0.1/rdict",
+    "description": "A dictionary CLI tool in Rust inspired by BetaPictoris's dict"
+  },
+  {
+    "pkg": "rusty-rain",
+    "site": "cowboy8625/rusty-rain",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rusty-rain",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rusty-rain",
+    "version_raw": "https://github.com/cowboy8625/rusty-rain/releases/download/v0.3.6/rusty-rain-0.3.6-x86_64.AppImage",
+    "description": "CLI, a cross platform matrix rain made with Rust"
+  },
+  {
+    "pkg": "rustypaste",
+    "site": "orhun/rustypaste",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rustypaste",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rustypaste",
+    "version_raw": "https://github.com/orhun/rustypaste/releases/download/v0.16.1/rustypaste-0.16.1-x86_64-unknown-linux-gnu.tar.gz",
+    "description": "A minimal file upload/pastebin service"
+  },
+  {
+    "pkg": "rx-bin",
+    "site": "cloudhead/rx",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rx-bin",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rx-bin",
+    "version_raw": "https://github.com/cloudhead/rx/releases/download/v0.5.2/rx-0.5.2-x86_64.AppImage",
+    "description": "A modern and extensible pixel editor implemented in Rust"
+  },
+  {
+    "pkg": "ryowallet",
+    "site": "ryo-currency/ryo-wallet",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ryowallet",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ryowallet",
+    "version_raw": "https://github.com/ryo-currency/ryo-wallet/releases/download/1.5.0/ryo-wallet-linux-x64-1.5.0-0.6.0.0.AppImage",
+    "description": "Modern GUI interface for Ryo Currency"
+  },
+  {
+    "pkg": "ryujinx",
+    "site": "https://ryujinx.app/",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ryujinx",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ryujinx",
+    "version_raw": "1.3.3",
+    "description": "An open-source Nintendo Switch emulator, originally created by gdkchan, written in C#"
+  },
+  {
+    "pkg": "s",
+    "site": "zquestz/s",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/s",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/s",
+    "version_raw": "https://github.com/zquestz/s/releases/download/v0.7.4/s-linux_amd64.zip",
+    "description": "Open a web search in your terminal"
+  },
+  {
+    "pkg": "s3drive",
+    "site": "s3drive/app",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/s3drive",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/s3drive",
+    "version_raw": "https://github.com/s3drive/app/releases/download/1.7.4/S3Drive-x86_64.AppImage",
+    "description": "Convert S3, SFTP, WebDAV or Rclone back-end into your encrypted storage"
+  },
+  {
+    "pkg": "sabaki",
+    "site": "yishn/Sabaki",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sabaki",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sabaki",
+    "version_raw": "https://github.com/SabakiHQ/Sabaki/releases/download/v0.52.2/sabaki-v0.52.2-linux-x64.AppImage",
+    "description": "Modern, elegant, cross-platform Go/Baduk/Weiqi game board"
+  },
+  {
+    "pkg": "saber",
+    "site": "adil192/saber",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/saber",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/saber",
+    "version_raw": "https://github.com/saber-notes/saber/releases/download/v1.27.1/Saber-1.27.1-x86_64.AppImage",
+    "description": "A work-in-progress cross-platform libre handwritten notes app"
+  },
+  {
+    "pkg": "safe-multisig",
+    "site": "gnosis/safe-react",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/safe-multisig",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/safe-multisig",
+    "version_raw": "https://github.com/5afe/safe-react/releases/download/v3.33.2%2Bdesktop/Safe-3.33.2.AppImage",
+    "description": "Allowing crypto users manage funds in a safer way"
+  },
+  {
+    "pkg": "samira",
+    "site": "jsnli/Samira",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/samira",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/samira",
+    "version_raw": "https://github.com/jsnli/Samira/releases/download/v0.5.1/samira_0.5.1_amd64.AppImage",
+    "description": "Steam achievement manager for Linux written with Tauri and Rust"
+  },
+  {
+    "pkg": "samrewritten",
+    "site": "PaulCombal/SamRewritten",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/samrewritten",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/samrewritten",
+    "version_raw": "https://github.com/PaulCombal/SamRewritten/releases/download/20250919.1/samrewritten-adw.AppImage",
+    "description": "Steam Achievement Manager For Linux. Rewritten in C++"
   },
   {
     "pkg": "saphyr",
@@ -18764,7 +19564,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4528103828",
+    "version_raw": "4530947312",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
