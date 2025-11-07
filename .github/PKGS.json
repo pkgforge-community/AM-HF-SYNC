@@ -924,7 +924,7 @@
     "site": "bmsuseluda/ares-emu-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ares",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ares",
-    "version_raw": "https://github.com/pkgforge-dev/ares-emu-appimage/releases/download/v146%402025-11-01_1761982050/ares-v146-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ares-emu-appimage/releases/download/nightly/ares-35671b2f8-anylinux-x86_64.AppImage",
     "description": "AppImage for the ares emulator"
   },
   {
@@ -12532,7 +12532,7 @@
     "site": "OpenMW/openmw",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openmw",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openmw",
-    "version_raw": "https://github.com/OpenMW/openmw/releases/download/openmw-50-rc2/openmw-0.50.0-Linux-64BitRC2-debug.tar.gz",
+    "version_raw": "https://github.com/OpenMW/openmw/releases/download/openmw-0.50.0/openmw-0.50.0-Linux-64Bit-debug.tar.gz",
     "description": "OpenMW is an open-source open-world RPG game engine that supports playing Morrowind"
   },
   {
@@ -16020,14 +16020,6 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "",
-    "description": "An early PlayStation 4 emulator written in C++"
-  },
-  {
-    "pkg": "shadps4-nightly",
-    "site": "shadps4-emu/shadPS4",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4-nightly",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4-nightly",
     "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/v.0.12.5/shadps4-linux-sdl-0.12.5.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
