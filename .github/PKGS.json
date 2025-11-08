@@ -628,7 +628,7 @@
     "site": "anyproto/anytype-ts",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anytype",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anytype",
-    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.50.40-alpha/Anytype-0.50.40-alpha.AppImage",
+    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.50.41-alpha/Anytype-0.50.41-alpha.AppImage",
     "description": "The everything app for those who celebrate trust & autonomy"
   },
   {
@@ -5668,7 +5668,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-beta-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-beta-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251107-202209/Firefox-beta-145.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251108-201953/Firefox-beta-145.0-x86_64.AppImage",
     "description": "Unofficial, AppImage of the Web Browser, Beta"
   },
   {
@@ -5676,7 +5676,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-devedition-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-devedition-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251107-202209/Firefox-devedition-145.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251108-201953/Firefox-devedition-145.0-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, Dev"
   },
   {
@@ -5684,7 +5684,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-esr-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-esr-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251107-202209/Firefox-esr-140.4.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251108-201953/Firefox-esr-140.4.0-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, ESR"
   },
   {
@@ -5692,7 +5692,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-nightly-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-nightly-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251107-202209/Firefox-nightly-146.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251108-201953/Firefox-nightly-146.0a1-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, Nightly"
   },
   {
@@ -8254,6 +8254,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/jdnbtexplorer",
     "version_raw": "https://sourceforge.net/projects/jdnbtexplorer/files/3.0/jdNBTExplorer-3.0-Linux.AppImage/download",
     "description": "A Editor for Minecraft NBT files"
+  },
+  {
+    "pkg": "jdownloader2",
+    "site": "Shikakiben/JDownloader2-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/jdownloader2",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/jdownloader2",
+    "version_raw": "https://github.com/Shikakiben/JDownloader2-AppImage/releases/download/25.11.08%402025-11-08_1762629384/JDownloader2-25.11.08-x86_64.AppImage",
+    "description": "JDownloader is a free download management tool with a huge community that makes downloading as easy and fast as it should be"
   },
   {
     "pkg": "jdreplace",
@@ -14684,7 +14692,7 @@
     "site": "coozoo/qtrfpowermeter",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qtrfpowermeter",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qtrfpowermeter",
-    "version_raw": "https://github.com/coozoo/qtrfpowermeter/releases/download/0.46-202511061512_refs/heads/main/qtrfpowermeter-x86_64.AppImage",
+    "version_raw": "https://github.com/coozoo/qtrfpowermeter/releases/download/0.47-202511081854_refs/heads/main/qtrfpowermeter-x86_64.AppImage",
     "description": "Improve usage of chinese RF power meter RF8000"
   },
   {
@@ -18068,7 +18076,7 @@
     "site": "ivan-hc/Thunderbird-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-beta-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-beta-appimage",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20251107-202037/Thunderbird-beta-145.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20251108-202008/Thunderbird-beta-145.0-x86_64.AppImage",
     "description": "Unofficial. Free and open source eMail client, Beta Edition"
   },
   {
@@ -18076,7 +18084,7 @@
     "site": "ivan-hc/Thunderbird-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-nightly-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-nightly-appimage",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20251107-202037/Thunderbird-nightly-146.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20251108-202008/Thunderbird-nightly-146.0a1-x86_64.AppImage",
     "description": "Unofficial. Free and open source eMail client, Nightly Edition"
   },
   {
@@ -19564,7 +19572,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4552376850",
+    "version_raw": "4552797328",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
