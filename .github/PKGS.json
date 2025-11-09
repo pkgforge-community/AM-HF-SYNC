@@ -9444,7 +9444,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -16048,6 +16048,14 @@
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
+    "pkg": "shadps4-qtlauncher",
+    "site": "shadps4-emu/shadps4-qtlauncher",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4-qtlauncher",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4-qtlauncher",
+    "version_raw": "https://github.com/shadps4-emu/shadps4-qtlauncher/releases/download/shadPS4QtLauncher-2025-11-06-d0c3bd6491f07d11b5b6a334ed540b57d767d1c2/shadPS4QtLauncher-linux-qt-2025-11-06-d0c3bd6.zip",
+    "description": "The official Qt launcher for shadps4 PlayStation 4 emulator"
+  },
+  {
     "pkg": "shannon-calculator",
     "site": "kuiperzone/Shannon-Calculator",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shannon-calculator",
@@ -17188,7 +17196,7 @@
     "site": "https://gitlab.com/posktomten/streamcapture2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/streamcapture2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/streamcapture2",
-    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=VblWMlmGp",
+    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=HbwMNPKpJ",
     "description": "Download video streams"
   },
   {
