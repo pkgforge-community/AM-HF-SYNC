@@ -988,7 +988,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "1.0.4",
+    "version_raw": "",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -2620,7 +2620,7 @@
     "site": "Chatterino/chatterino2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chatterino2-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chatterino2-nightly",
-    "version_raw": "https://github.com/Chatterino/chatterino2/releases/download/v2.5.4/Chatterino-x86_64.AppImage",
+    "version_raw": "https://github.com/Chatterino/chatterino2/releases/download/v2.5.3-beta.1/Chatterino-x86_64.AppImage",
     "description": "Second installment of the Twitch chat client"
   },
   {
@@ -3732,7 +3732,7 @@
     "site": "darktable-org/darktable",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/darktable-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/darktable-nightly",
-    "version_raw": "https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.3.0%2B788.gfc1af3b6af-x86_64.AppImage",
+    "version_raw": "https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.3.0%2B805.gb982017164-x86_64.AppImage",
     "description": "Photography workflow app and raw developer, nightly"
   },
   {
@@ -3828,7 +3828,7 @@
     "site": "pkgforge-dev/DeaDBeeF-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/deadbeef",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/deadbeef",
-    "version_raw": "https://github.com/pkgforge-dev/DeaDBeeF-AppImage/releases/download/1.10.0-1%402025-11-09_1762681473/DeaDBeeF-1.10.0-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/DeaDBeeF-AppImage/releases/download/1.10.0-1%402025-11-01_1761983370/DeaDBeeF-1.10.0-1-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of the DeaDBeeF music player (Stable version)"
   },
   {
@@ -6168,6 +6168,14 @@
     "description": "An alternative to Neofetch in Rust with a focus on customization"
   },
   {
+    "pkg": "fretboard",
+    "site": "pkgforge-dev/Fretboard-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fretboard",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fretboard",
+    "version_raw": "https://github.com/pkgforge-dev/Fretboard-AppImage/releases/download/9.1-2%402025-11-09_1762729518/Fretboard-9.1-2-anylinux-x86_64.AppImage",
+    "description": "Unofficial. Application which helps you find your favorite guitar chord"
+  },
+  {
     "pkg": "friction",
     "site": "friction2d/friction",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/friction",
@@ -6548,7 +6556,7 @@
     "site": "pkgforge-dev/ghostty-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ghostty-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ghostty-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.0-main%2B0d5ecc7-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.0-main%2B1e7b8f6-x86_64.AppImage",
     "description": "Unoffical, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (Tip, Nightly)"
   },
   {
@@ -8268,7 +8276,7 @@
     "site": "Shikakiben/JDownloader2-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/jdownloader2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/jdownloader2",
-    "version_raw": "https://github.com/Shikakiben/JDownloader2-AppImage/releases/download/25.11.09%402025-11-09_1762689588/JDownloader2-25.11.09-x86_64.AppImage",
+    "version_raw": "https://github.com/Shikakiben/JDownloader2-AppImage/releases/download/25.11.10%402025-11-10_1762736692/JDownloader2-25.11.10-x86_64.AppImage",
     "description": "JDownloader is a free download management tool with a huge community that makes downloading as easy and fast as it should be"
   },
   {
@@ -9444,7 +9452,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -9860,7 +9868,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250724_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -10268,7 +10276,7 @@
     "site": "Manager-io/Manager",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/manager-io",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/manager-io",
-    "version_raw": "https://github.com/Manager-io/Manager/releases/download/25.11.9.3101/Manager-x86_64.AppImage",
+    "version_raw": "https://github.com/Manager-io/Manager/releases/download/25.11.10.3103/Manager-x86_64.AppImage",
     "description": "Free Accounting Software for Linux, Server"
   },
   {
@@ -11702,6 +11710,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/newlogic",
     "version_raw": "https://github.com/ericm/newlogic/releases/download/v0.1.5-beta/newlogic-0.1.5-beta-x86_64.AppImage",
     "description": "A circuit builder"
+  },
+  {
+    "pkg": "newsflash",
+    "site": "pkgforge-dev/NewsFlash-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/newsflash",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/newsflash",
+    "version_raw": "https://github.com/pkgforge-dev/NewsFlash-AppImage/releases/download/4.1.4-1%402025-11-09_1762720584/NewsFlash-4.1.4-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial. RSS reader with support for local and web RSS feed"
   },
   {
     "pkg": "newton-adventure",
@@ -15228,7 +15244,7 @@
     "site": "JMBeresford/retrom",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/retrom",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/retrom",
-    "version_raw": "https://github.com/JMBeresford/retrom/releases/download/v0.7.42/Retrom_0.7.42_amd64_linux.AppImage",
+    "version_raw": "https://github.com/JMBeresford/retrom/releases/download/v0.7.43/Retrom_0.7.43_amd64_linux.AppImage",
     "description": "A centralized game library/collection management service with a focus on emulation"
   },
   {
@@ -19588,7 +19604,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4561541762",
+    "version_raw": "4562654477",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
