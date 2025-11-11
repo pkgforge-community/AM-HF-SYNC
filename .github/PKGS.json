@@ -892,7 +892,7 @@
     "site": "JustArchiNET/ArchiSteamFarm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/archisteamfarm",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/archisteamfarm",
-    "version_raw": "https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/6.2.4.0/ASF-linux-x64.zip",
+    "version_raw": "https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/6.3.0.0/ASF-linux-x64.zip",
     "description": "C# application with primary purpose of farming Steam cards from multiple accounts simultaneously"
   },
   {
@@ -5188,7 +5188,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "25.40.6",
+    "version_raw": "25.46.3",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -6870,6 +6870,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gnome-pomodoro",
     "version_raw": "https://github.com/pkgforge-dev/gnome-pomodoro-appimage/releases/download/0.27.0/Gnome-Pomodoro-0.27.0-x86_64.AppImage",
     "description": "A productivity tool designed to help you manage your time effectively using the Pomodoro Technique"
+  },
+  {
+    "pkg": "gnome-system-monitor",
+    "site": "pkgforge-dev/Gnome-System-Monitor-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gnome-system-monitor",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gnome-system-monitor",
+    "version_raw": "https://github.com/pkgforge-dev/Gnome-System-Monitor-AppImage/releases/download/49.1-1%402025-11-11_1762875836/Gnome-System-Monitor-49.1-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial. View current processes and monitor system state"
   },
   {
     "pkg": "gnome-text-editor",
@@ -10208,14 +10216,6 @@
     "description": "A simple, TV-friendly, gamepad-navigable frontend for the Lutris game launcher on Linux"
   },
   {
-    "pkg": "lux",
-    "site": "https://bitbucket.org",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lux",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lux",
-    "version_raw": "1.2.2",
-    "description": "A free open source image and panorama viewer"
-  },
-  {
     "pkg": "lx-music-desktop",
     "site": "lyswhut/lx-music-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lx-music-desktop",
@@ -12260,7 +12260,7 @@
     "site": "obsidianmd/obsidian-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/obsidian",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/obsidian",
-    "version_raw": "https://github.com/obsidianmd/obsidian-releases/releases/download/v1.9.14/Obsidian-1.9.14.AppImage",
+    "version_raw": "https://github.com/obsidianmd/obsidian-releases/releases/download/v1.10.3/Obsidian-1.10.3.AppImage",
     "description": "A powerful knowledge base, plain text Markdown files"
   },
   {
