@@ -628,7 +628,7 @@
     "site": "anyproto/anytype-ts",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anytype",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anytype",
-    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.50.49-alpha/Anytype-0.50.49-alpha.AppImage",
+    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.50.50-alpha/Anytype-0.50.50-alpha.AppImage",
     "description": "The everything app for those who celebrate trust & autonomy"
   },
   {
@@ -988,7 +988,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "",
+    "version_raw": "1.0.4",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -2708,7 +2708,7 @@
     "site": "ivan-hc/Chromium-Web-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chromium-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chromium-beta",
-    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-beta-143.0.7499.4-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-beta-143.0.7499.17-x86_64.AppImage",
     "description": "Unofficial. FOSS Web Browser, base of Google Chrome, beta edition"
   },
   {
@@ -2724,7 +2724,7 @@
     "site": "ivan-hc/Chromium-Web-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chromium-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chromium-edge",
-    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-edge-144.0.7500.2-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-edge-144.0.7512.1-x86_64.AppImage",
     "description": "Unofficial. FOSS Web Browser, base of Google Chrome, edge edition"
   },
   {
@@ -3006,6 +3006,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/coinstac",
     "version_raw": "https://github.com/trendscenter/coinstac/releases/download/v6.9.8/COINSTAC-6.9.8-linux.AppImage",
     "description": "Collaborative Informatics and Neuroimaging Suite Toolkit"
+  },
+  {
+    "pkg": "collision",
+    "site": "pkgforge-dev/Collision-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/collision",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/collision",
+    "version_raw": "https://github.com/pkgforge-dev/Collision-AppImage/releases/download/3.11.0-1%402025-11-12_1762950811/Collision-3.11.0-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial. Verify the checksum/hash validity of files"
   },
   {
     "pkg": "colobot",
@@ -5532,7 +5540,7 @@
     "site": "https://www.telerik.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fiddler-everywhere",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fiddler-everywhere",
-    "version_raw": "7.4.0",
+    "version_raw": "",
     "description": "Debug your network traffic to deliver high-quality products"
   },
   {
@@ -7880,6 +7888,14 @@
     "description": "A real gamechanger in the world of Open Source FPGAs"
   },
   {
+    "pkg": "identity",
+    "site": "pkgforge-dev/Identity-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/identity",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/identity",
+    "version_raw": "https://github.com/pkgforge-dev/Identity-AppImage/releases/download/25.10.1-1%402025-11-12_1762954360/Identity-25.10.1-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial. Compare images and videos with one another to check for differences"
+  },
+  {
     "pkg": "igdm",
     "site": "ifedapoolarewaju/igdm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/igdm",
@@ -9484,7 +9500,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -15476,7 +15492,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-0bf9ee9fa57e1c9e42ee28c0430be86f5d9e5518/rpcs3-v0.0.38-18327-0bf9ee9f_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-e48ba283d82ec66072596b13f4d8522d0cf4961f/rpcs3-v0.0.38-18328-e48ba283_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -15500,7 +15516,7 @@
     "site": "martinrotter/rssguard",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rssguard",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rssguard",
-    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-0e7513c0b-qt5-linux64.AppImage",
+    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-d3e3537dd-qt5-linux64.AppImage",
     "description": "Feed reader which supports RSS/ATOM/JSON, no-webengine version"
   },
   {
@@ -16212,7 +16228,7 @@
     "site": "https://www.shutterencoder.com/",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shutter-encoder",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shutter-encoder",
-    "version_raw": "https://www.shutterencoder.com/Shutter%20Encoder%2019.5%20Linux%2064bits.AppImage",
+    "version_raw": "https://www.shutterencoder.com/Shutter%20Encoder%2019.6%20Linux%2064bits.AppImage",
     "description": "Professional converter & compression tool designed by video editors"
   },
   {
