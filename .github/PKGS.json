@@ -988,7 +988,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "",
+    "version_raw": "1.0.4",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -6132,7 +6132,7 @@
     "site": "ChurchApps/FreeShow",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/freeshow",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/freeshow",
-    "version_raw": "https://github.com/ChurchApps/FreeShow/releases/download/v1.5.2/FreeShow-1.5.2-x86_64.AppImage",
+    "version_raw": "https://github.com/ChurchApps/FreeShow/releases/download/v1.5.3-beta.1/FreeShow-1.5.3-beta.1-x86_64.AppImage",
     "description": "User-friendly presenter software"
   },
   {
@@ -11216,6 +11216,14 @@
     "description": "A full-featured download manager"
   },
   {
+    "pkg": "mousai",
+    "site": "pkgforge-dev/Mousai-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mousai",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mousai",
+    "version_raw": "https://github.com/pkgforge-dev/Mousai-AppImage/releases/download/0.7.9-1%402025-11-12_1762940970/Mousai-0.7.9-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial. Application for identifying songs using libre utilities"
+  },
+  {
     "pkg": "movie-monad",
     "site": "lettier/movie-monad",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/movie-monad",
@@ -14780,7 +14788,7 @@
     "site": "quarto-dev/quarto-cli",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quarto-cli",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quarto-cli",
-    "version_raw": "https://github.com/quarto-dev/quarto-cli/releases/download/v1.9.10/quarto-1.9.10-linux-amd64.tar.gz",
+    "version_raw": "https://github.com/quarto-dev/quarto-cli/releases/download/v1.8.26/quarto-1.8.26-linux-amd64.tar.gz",
     "description": "Scientific and technical publishing system built on Pandoc"
   },
   {
@@ -15492,7 +15500,7 @@
     "site": "martinrotter/rssguard",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rssguard",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rssguard",
-    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-3cee12923-qt5-linux64.AppImage",
+    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-dc145b0a6-qt5-linux64.AppImage",
     "description": "Feed reader which supports RSS/ATOM/JSON, no-webengine version"
   },
   {
@@ -19052,7 +19060,7 @@
     "site": "vicinaehq/vicinae",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vicinae",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vicinae",
-    "version_raw": "https://github.com/vicinaehq/vicinae/releases/download/v0.16.4/Vicinae-1e393acd0-x86_64.AppImage",
+    "version_raw": "https://github.com/vicinaehq/vicinae/releases/download/v0.16.5/Vicinae-576ea047d-x86_64.AppImage",
     "description": "A high-performance, native launcher for your desktop built with C++ and Qt. Native, fast, extensible"
   },
   {
@@ -19244,7 +19252,7 @@
     "site": "ivan-hc/Vivaldi-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vivaldi-snapshot",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vivaldi-snapshot",
-    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-snapshot-7.7.3851.36-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-snapshot-7.7.3851.44-1-x86_64.AppImage",
     "description": "Unofficial. Advanced Web Browser, Testing Version"
   },
   {
@@ -19652,7 +19660,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4616099287",
+    "version_raw": "4625119476",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -20588,7 +20596,7 @@
     "site": "rafatosta/zapzap",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zapzap",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zapzap",
-    "version_raw": "https://github.com/rafatosta/zapzap/releases/download/6.2.3.1/ZapZap-x86_64.AppImage",
+    "version_raw": "https://github.com/rafatosta/zapzap/releases/download/6.2.4/ZapZap-x86_64.AppImage",
     "description": "WhatsApp desktop application written in Pyqt6 + PyQt6-WebEngine"
   },
   {
