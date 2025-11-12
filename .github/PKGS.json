@@ -292,7 +292,7 @@
     "site": "pkgforge-dev/alacritty-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alacritty",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alacritty",
-    "version_raw": "https://github.com/pkgforge-dev/alacritty-AppImage/releases/download/v0.16.1%402025-11-06_1762424957/alacritty-v0.16.1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/alacritty-AppImage/releases/download/v0.16.1%402025-11-12_1762909030/alacritty-v0.16.1-anylinux-x86_64.AppImage",
     "description": "Unofficial. A modern terminal emulator that comes with sensible defaults, but allows for extensive configuration"
   },
   {
@@ -988,7 +988,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "1.0.4",
+    "version_raw": "",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -1596,7 +1596,7 @@
     "site": "aquasecurity/binfinder",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/binfinder",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/binfinder",
-    "version_raw": "",
+    "version_raw": "https://github.com/aquasecurity/binfinder/releases/download/v0.2.0/binfinder_0.2.0_Linux_amd64.tar.gz",
     "description": "Find binary files not installed through package manager"
   },
   {
@@ -6572,7 +6572,7 @@
     "site": "pkgforge-dev/ghostty-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ghostty-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ghostty-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.0-main%2Bbed219c-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.0-main%2B05b5809-x86_64.AppImage",
     "description": "Unoffical, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (Tip, Nightly)"
   },
   {
@@ -6780,7 +6780,7 @@
     "site": "https://gitlab.com/gitlab-org/cli",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/glab",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/glab",
-    "version_raw": "https://gitlab.com/gitlab-org/cli/-/releases/v1.76.2/downloads/glab_1.76.2_linux_386.tar.gz",
+    "version_raw": "https://gitlab.com/gitlab-org/cli/-/releases/v1.77.0/downloads/glab_1.77.0_linux_386.tar.gz",
     "description": "A GitLab CLI tool bringing GitLab to your command line"
   },
   {
@@ -11916,7 +11916,7 @@
     "site": "https://nodejs.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/node",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/node",
-    "version_raw": "https://nodejs.org/dist/latest/node-v25.1.0-linux-x64.tar.gz",
+    "version_raw": "https://nodejs.org/dist/latest/node-v25.2.0-linux-x64.tar.gz",
     "description": "This is the official suite of Node.js tools, also known as NodeJS, a JavaScript runtime built on Chrome's V8 JavaScript engine"
   },
   {
@@ -12068,7 +12068,7 @@
     "site": "https://nodejs.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/npm",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/npm",
-    "version_raw": "https://nodejs.org/dist/latest/node-v25.1.0-linux-x64.tar.gz",
+    "version_raw": "https://nodejs.org/dist/latest/node-v25.2.0-linux-x64.tar.gz",
     "description": "Package manager for Node.js. This script installs the full node suite"
   },
   {
@@ -16836,7 +16836,7 @@
     "site": "https://www.speed-dreams.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/speed-dreams",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/speed-dreams",
-    "version_raw": "",
+    "version_raw": "2.4.2",
     "description": "A Torcs fork, 3d motorsport simulation and race cars game"
   },
   {
@@ -17532,7 +17532,7 @@
     "site": "ivan-hc/SuperTuxKart-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/supertuxkart",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/supertuxkart",
-    "version_raw": "https://github.com/ivan-hc/SuperTuxKart-appimage/releases/download/continuous-stable/SuperTuxKart_1.5-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/SuperTuxKart-appimage/releases/download/1.5/SuperTuxKart_1.5-x86_64.AppImage",
     "description": "Free kart racing game focused on Fun!"
   },
   {
@@ -19052,7 +19052,7 @@
     "site": "vicinaehq/vicinae",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vicinae",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vicinae",
-    "version_raw": "https://github.com/vicinaehq/vicinae/releases/download/v0.16.3/Vicinae-57b1b70ad-x86_64.AppImage",
+    "version_raw": "https://github.com/vicinaehq/vicinae/releases/download/v0.16.4/Vicinae-1e393acd0-x86_64.AppImage",
     "description": "A high-performance, native launcher for your desktop built with C++ and Qt. Native, fast, extensible"
   },
   {
@@ -19652,7 +19652,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4610746032",
+    "version_raw": "4614547140",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
