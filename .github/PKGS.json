@@ -180,7 +180,7 @@
     "site": "toeverything/AFFiNE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine-canary",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine-canary",
-    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2025.11.2-canary.903/affine-2025.11.2-canary.903-canary-linux-x64.appimage",
+    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2025.11.13-canary.904/affine-2025.11.13-canary.904-canary-linux-x64.appimage",
     "description": "Next-gen knowledge base that brings planning/sorting/creating"
   },
   {
@@ -988,7 +988,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "1.0.4",
+    "version_raw": "",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -1094,6 +1094,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/audapolis",
     "version_raw": "https://github.com/bugbakery/audapolis/releases/download/v0.3.0/audapolis-linux-x86_64-0.3.0_4.AppImage",
     "description": "An editor for spoken-word audio with automatic transcription"
+  },
+  {
+    "pkg": "audio-sharing",
+    "site": "pkgforge-dev/Audio-Sharing-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/audio-sharing",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/audio-sharing",
+    "version_raw": "https://github.com/pkgforge-dev/Audio-Sharing-AppImage/releases/download/0.2.4-3%402025-11-13_1763018191/Audio-Sharing-0.2.4-3-anylinux-x86_64.AppImage",
+    "description": "Unofficial. Share audio from the desktop on local network using RTSP protocol"
   },
   {
     "pkg": "audiomoth",
@@ -4656,6 +4664,14 @@
     "description": "Bomberman game made with Godot under BSD3"
   },
   {
+    "pkg": "elastic",
+    "site": "pkgforge-dev/Elastic-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/elastic",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/elastic",
+    "version_raw": "https://github.com/pkgforge-dev/Elastic-AppImage/releases/download/1.0.1-1%402025-11-13_1763030142/Elastic-1.0.1-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial. Visualize and design physics-based animation of objects"
+  },
+  {
     "pkg": "elcalc",
     "site": "elcalc/elcalc",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/elcalc",
@@ -5246,6 +5262,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/extremetuxracer",
     "version_raw": "https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/extremetuxracer/Extreme_Tux_Racer-0.8.2-1-x86_64.AppImage",
     "description": "Unofficial. 3D racing game with Tux, the Linux penguin"
+  },
+  {
+    "pkg": "eyedropper",
+    "site": "pkgforge-dev/Eyedropper-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eyedropper",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eyedropper",
+    "version_raw": "https://github.com/pkgforge-dev/Eyedropper-AppImage/releases/download/2.1.0-3%402025-11-13_1763043982/Eyedropper-2.1.0-3-anylinux-x86_64.AppImage",
+    "description": "Unofficial. Simple color picker, with support for various color palettes"
   },
   {
     "pkg": "eyestalker",
@@ -6532,7 +6556,7 @@
     "site": "cli/cli",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gh",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gh",
-    "version_raw": "https://github.com/cli/cli/releases/download/v2.83.0/gh_2.83.0_linux_amd64.tar.gz",
+    "version_raw": "https://github.com/cli/cli/releases/download/v2.83.1/gh_2.83.1_linux_amd64.tar.gz",
     "description": "GitHub’s official command line tool"
   },
   {
@@ -6844,7 +6868,7 @@
     "site": "timche/gmail-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gmail-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gmail-desktop",
-    "version_raw": "https://github.com/zoidsh/meru/releases/download/v3.17.0/Meru-3.17.0.AppImage",
+    "version_raw": "https://github.com/zoidsh/meru/releases/download/v3.18.0/Meru-3.18.0.AppImage",
     "description": "Unofficial. Nifty Gmail desktop app"
   },
   {
@@ -7084,7 +7108,7 @@
     "site": "gopasspw/gopass",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gopass",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gopass",
-    "version_raw": "https://github.com/gopasspw/gopass/releases/download/v1.15.18/gopass-1.15.18-linux-amd64.tar.gz",
+    "version_raw": "https://github.com/gopasspw/gopass/releases/download/v1.16.0/gopass-1.16.0-linux-amd64.tar.gz",
     "description": "The slightly more awesome standard unix password manager for teams"
   },
   {
@@ -9500,7 +9524,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -9916,7 +9940,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -20004,7 +20028,7 @@
     "site": "workflowy/desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/workflowy",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/workflowy",
-    "version_raw": "https://github.com/workflowy/desktop/releases/download/v4.3.2511111146/WorkFlowy-x86_64.AppImage",
+    "version_raw": "https://github.com/workflowy/desktop/releases/download/v4.3.2511130909/WorkFlowy-x86_64.AppImage",
     "description": "A notetaking tool"
   },
   {
