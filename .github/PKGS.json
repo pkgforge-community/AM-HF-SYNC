@@ -180,7 +180,7 @@
     "site": "toeverything/AFFiNE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine-canary",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine-canary",
-    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2025.10.16-canary.904/affine-2025.10.16-canary.904-canary-linux-x64.appimage",
+    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2025.10.11-canary.903/affine-2025.10.11-canary.903-canary-linux-x64.appimage",
     "description": "Next-gen knowledge base that brings planning/sorting/creating"
   },
   {
@@ -4368,6 +4368,14 @@
     "description": "Drawing program to sketch on the same canvas simultaneously"
   },
   {
+    "pkg": "drawy",
+    "site": "Prayag2/drawy",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/drawy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/drawy",
+    "version_raw": "https://github.com/Prayag2/drawy/releases/download/1.0.0-alpha/Drawy-47b7552-x86_64.AppImage",
+    "description": "Your handy, infinite, brainstorming tool"
+  },
+  {
     "pkg": "drill",
     "site": "yatima1460/Drill",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/drill",
@@ -5212,7 +5220,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-25.46.5.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -6868,7 +6876,7 @@
     "site": "timche/gmail-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gmail-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gmail-desktop",
-    "version_raw": "https://github.com/zoidsh/meru/releases/download/v3.19.0/Meru-3.19.0.AppImage",
+    "version_raw": "https://github.com/zoidsh/meru/releases/download/3.19.1/Meru-3.19.1.AppImage",
     "description": "Unofficial. Nifty Gmail desktop app"
   },
   {
@@ -7220,7 +7228,7 @@
     "site": "pkgforge-dev/gpu-screen-recorder-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gpu-screen-recorder",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gpu-screen-recorder",
-    "version_raw": "https://github.com/pkgforge-dev/gpu-screen-recorder-AppImage/releases/download/r1191.96c62f2-1%402025-11-10_1762811794/gpu-screen-recorder-r1191.96c62f2-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/gpu-screen-recorder-AppImage/releases/download/r1196.d34a103-1%402025-11-15_1763224229/gpu-screen-recorder-r1196.d34a103-1-anylinux-x86_64.AppImage",
     "description": "Unofficial, AppImage of GPU Screen Recorder"
   },
   {
@@ -9940,7 +9948,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -11996,7 +12004,7 @@
     "site": "Sandakan/Nora",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nora",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nora",
-    "version_raw": "https://github.com/Sandakan/Nora/releases/download/v3.1.0-stable/Nora.v3.1.0-stable-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/Sandakan/Nora/releases/download/v4.0.0-alpha.1/Nora.v4.0.0-alpha.1-linux-x86_64.AppImage",
     "description": "An elegant music player built using Electron and React"
   },
   {
@@ -13036,7 +13044,7 @@
     "site": "Portable-Linux-Apps/palemoon-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/palemoon",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/palemoon",
-    "version_raw": "https://github.com/Portable-Linux-Apps/palemoon-AppImage/releases/download/33.9.1%402025-11-08_1762619263/Pale_Moon-33.9.1-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/palemoon-AppImage/releases/download/33.9.1%402025-11-15_1763224040/Pale_Moon-33.9.1-x86_64.AppImage",
     "description": "Web browser, a Firefox fork with a classic UI and modern APIs"
   },
   {
@@ -15516,7 +15524,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-18111ac8bc18dc4ce43357bb7c0b2d485e125f3f/rpcs3-v0.0.38-18336-18111ac8_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-ec70c9691fd29c36f2841af9cb2b8053907dc21e/rpcs3-v0.0.38-18337-ec70c969_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -19700,7 +19708,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4698702401",
+    "version_raw": "4699521057",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
