@@ -408,14 +408,6 @@
     "description": "Incorporates principles from behavioral psychology"
   },
   {
-    "pkg": "amazon-q",
-    "site": "https://aws.amazon.com",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/amazon-q",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/amazon-q",
-    "version_raw": "",
-    "description": "Amazon Q Developer, a generative AI powered conversational assistant to understand, build, extend and operate AWS applications"
-  },
-  {
     "pkg": "ambermoon.net",
     "site": "Pyrdacor/Ambermoon.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ambermoon.net",
@@ -1004,7 +996,7 @@
     "site": "artisan-roaster-scope/artisan",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artisan",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artisan",
-    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/continuous/artisan-linux-3.4.1.AppImage",
+    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/v3.4.0/artisan-linux-3.4.0.AppImage",
     "description": "Visualizes the coffee roasting process"
   },
   {
@@ -4628,7 +4620,7 @@
     "site": "pflyly/eden-nightly",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eden-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eden-nightly",
-    "version_raw": "https://github.com/pflyly/eden-nightly/releases/download/2025-11-09-27982/Eden-27982-Common-Normal-x86_64.AppImage",
+    "version_raw": "https://github.com/pflyly/eden-nightly/releases/download/2025-11-18-28022/Eden-28022-Common-Normal-x86_64.AppImage",
     "description": "Unofficial, an experimental open-source emulator for Nintendo Switch (yuzu fork, nightly builds)"
   },
   {
@@ -5228,7 +5220,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-25.46.5.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -10772,7 +10764,7 @@
     "site": "melonDS-emu/melonDS",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/melonds",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/melonds",
-    "version_raw": "https://github.com/melonDS-emu/melonDS/releases/download/1.0/melonDS-appimage-x86_64.zip",
+    "version_raw": "https://github.com/melonDS-emu/melonDS/releases/download/1.1/melonDS-1.1-appimage-x86_64.zip",
     "description": "DS emulator, sorta"
   },
   {
@@ -14332,7 +14324,7 @@
     "site": "julian-alarcon/prospect-mail",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/prospect-mail",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/prospect-mail",
-    "version_raw": "https://github.com/julian-alarcon/prospect-mail/releases/download/v0.6.0-beta1/Prospect-Mail-0.6.0-beta1.AppImage",
+    "version_raw": "",
     "description": "An Outlook mail desktop client powered by Electron"
   },
   {
@@ -17840,6 +17832,14 @@
     "description": "Tag Editor, supports MP4, ID3, Vorbis, Opus, FLAC and Matroska"
   },
   {
+    "pkg": "tagger",
+    "site": "pkgforge-dev/Tagger-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tagger",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tagger",
+    "version_raw": "https://github.com/pkgforge-dev/Tagger-AppImage/releases/download/2024.6.0-3%402025-11-17_1763372254/Tagger-2024.6.0-3-anylinux-x86_64.AppImage",
+    "description": "Unofficial. Simple audio tagger with support for various audio formats"
+  },
+  {
     "pkg": "tagspaces",
     "site": "tagspaces/tagspaces",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tagspaces",
@@ -18332,7 +18332,7 @@
     "site": "MayGo/tockler",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tockler",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tockler",
-    "version_raw": "https://github.com/MayGo/tockler/releases/download/v4.0.22/Tockler-4.0.22.AppImage",
+    "version_raw": "",
     "description": "An application that tracks your time by monitoring"
   },
   {
@@ -19152,6 +19152,14 @@
     "description": "A fastest way to browse and search for videos on your computer"
   },
   {
+    "pkg": "video-trimmer",
+    "site": "pkgforge-dev/Video-Trimmer-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/video-trimmer",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/video-trimmer",
+    "version_raw": "https://github.com/pkgforge-dev/Video-Trimmer-AppImage/releases/download/25.03-2%402025-11-18_1763456394/Video_Trimmer-25.03-2-anylinux-x86_64.AppImage",
+    "description": "Unofficial. Simple video trimming, with option to trim precisely or to trim without loosing video quality"
+  },
+  {
     "pkg": "videomass",
     "site": "jeanslack/Videomass",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/videomass",
@@ -19316,7 +19324,7 @@
     "site": "ivan-hc/Vivaldi-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vivaldi-stable",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vivaldi-stable",
-    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-stable-7.7.3851.48-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-stable-7.7.3851.52-1-x86_64.AppImage",
     "description": "Unofficial. Advanced Web Browser, Stable Version"
   },
   {
@@ -19716,7 +19724,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4748485308",
+    "version_raw": "4749514913",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -20652,7 +20660,7 @@
     "site": "rafatosta/zapzap",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zapzap",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zapzap",
-    "version_raw": "https://github.com/rafatosta/zapzap/releases/download/6.2.4/ZapZap-x86_64.AppImage",
+    "version_raw": "https://github.com/rafatosta/zapzap/releases/download/6.2.4/ZapZap-x86_64-fix-vulkan.AppImage",
     "description": "WhatsApp desktop application written in Pyqt6 + PyQt6-WebEngine"
   },
   {
