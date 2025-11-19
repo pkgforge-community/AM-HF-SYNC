@@ -1356,7 +1356,7 @@
     "site": "Dygmalab/Bazecor",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bazecor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bazecor",
-    "version_raw": "https://github.com/Dygmalab/Bazecor/releases/download/v1.8.0/Bazecor-1.8.0-x64.AppImage",
+    "version_raw": "https://github.com/Dygmalab/Bazecor/releases/download/v1.8.1/Bazecor-1.8.1-x64.AppImage",
     "description": "Graphical configurator for Dygma Raise"
   },
   {
@@ -1572,7 +1572,7 @@
     "site": "ivan-hc/Database-of-pkg2appimaged-packages",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/billard-gl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/billard-gl",
-    "version_raw": "https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/billard-gl/Billard-GL-1.75-17-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/billard-gl/Billard-GL-1.75-17%2Bb1-x86_64.AppImage",
     "description": "Unofficial. 3D billiards game, play a game of 8-ball or 9-ball"
   },
   {
@@ -2352,14 +2352,6 @@
     "description": "Candy Crisis source port for modern operating systems"
   },
   {
-    "pkg": "capbattleship",
-    "site": "ivan-hc/Database-of-pkg2appimaged-packages",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/capbattleship",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/capbattleship",
-    "version_raw": "https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/capbattleship/CAP_Pirate_Battleship-x86_64.AppImage",
-    "description": "Battleship game with a pirate theme"
-  },
-  {
     "pkg": "caprine",
     "site": "sindresorhus/caprine",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/caprine",
@@ -2708,7 +2700,7 @@
     "site": "ivan-hc/Chromium-Web-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chromium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chromium",
-    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-stable-142.0.7444.162-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/20251119-142310/Chromium-stable-142.0.7444.162-x86_64.AppImage",
     "description": "Unofficial. FOSS Web Browser, base of Google Chrome, Edge and Brave, stable"
   },
   {
@@ -2716,7 +2708,7 @@
     "site": "ivan-hc/Chromium-Web-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chromium-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chromium-beta",
-    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-beta-143.0.7499.17-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/20251119-142310/Chromium-beta-143.0.7499.17-x86_64.AppImage",
     "description": "Unofficial. FOSS Web Browser, base of Google Chrome, beta edition"
   },
   {
@@ -2732,7 +2724,7 @@
     "site": "ivan-hc/Chromium-Web-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chromium-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chromium-edge",
-    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-edge-144.0.7524.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/20251119-142310/Chromium-edge-144.0.7524.0-x86_64.AppImage",
     "description": "Unofficial. FOSS Web Browser, base of Google Chrome, edge edition"
   },
   {
@@ -2740,7 +2732,7 @@
     "site": "ivan-hc/Chromium-Web-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chromium-rc",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chromium-rc",
-    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-candidate-142.0.7444.162-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/20251119-142310/Chromium-candidate-142.0.7444.175-x86_64.AppImage",
     "description": "Unofficial. FOSS Web Browser, base of Google Chrome, release candidate"
   },
   {
@@ -3828,7 +3820,7 @@
     "site": "dbgate/dbgate",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dbgate",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dbgate",
-    "version_raw": "https://github.com/dbgate/dbgate/releases/download/v6.6.14-beta.6/dbgate-6.6.14-beta.6-linux_x86_64.AppImage",
+    "version_raw": "https://github.com/dbgate/dbgate/releases/download/v6.7.0/dbgate-6.7.0-linux_x86_64.AppImage",
     "description": "Opensource database administration tool"
   },
   {
@@ -3836,7 +3828,7 @@
     "site": "dbgate/dbgate",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dbgate-premium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dbgate-premium",
-    "version_raw": "https://github.com/dbgate/dbgate/releases/download/v6.6.14-beta.6/dbgate-6.6.14-beta.6-linux_x86_64.AppImage",
+    "version_raw": "https://github.com/dbgate/dbgate/releases/download/v6.7.0/dbgate-6.7.0-linux_x86_64.AppImage",
     "description": "Opensource database administration tool (premium version)"
   },
   {
@@ -5268,7 +5260,7 @@
     "site": "ivan-hc/Database-of-pkg2appimaged-packages",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/extremetuxracer",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/extremetuxracer",
-    "version_raw": "https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/extremetuxracer/Extreme_Tux_Racer-0.8.2-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/extremetuxracer/Extreme_Tux_Racer-0.8.4-1-x86_64.AppImage",
     "description": "Unofficial. 3D racing game with Tux, the Linux penguin"
   },
   {
@@ -7468,7 +7460,7 @@
     "site": "hugetiny/Hapee",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hapee",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hapee",
-    "version_raw": "https://github.com/hugetiny/Hapee/releases/download/v0.3.0/Negibox-0.3.0.AppImage",
+    "version_raw": "https://github.com/hugetiny/webox/releases/download/v0.3.0/Negibox-0.3.0.AppImage",
     "description": "Best cross-platform downloader ever"
   },
   {
@@ -9540,7 +9532,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -10532,7 +10524,7 @@
     "site": "ivan-hc/Database-of-pkg2appimaged-packages",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mate-system-monitor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mate-system-monitor",
-    "version_raw": "https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/mate-system-monitor/MATE_System_Monitor-171-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/mate-system-monitor/MATE_System_Monitor-1.26.0-x86_64.AppImage",
     "description": "Unofficial, Process viewer and system resource monitor, from MATE"
   },
   {
@@ -12412,7 +12404,7 @@
     "site": "ollama/ollama",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ollama",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ollama",
-    "version_raw": "https://github.com/ollama/ollama/releases/download/v0.12.11/ollama-linux-amd64.tgz",
+    "version_raw": "https://github.com/ollama/ollama/releases/download/v0.13.0-rc0/ollama-linux-amd64.tgz",
     "description": "Get up and running with Llama 3, Mistral, Gemma, and other LLMs"
   },
   {
@@ -13252,7 +13244,7 @@
     "site": "PCSX2/pcsx2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcsx2",
-    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.5.310/pcsx2-v2.5.310-linux-appimage-x64-Qt.AppImage",
+    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.5.313/pcsx2-v2.5.313-linux-appimage-x64-Qt.AppImage",
     "description": "The Playstation 2 Emulator"
   },
   {
@@ -16060,7 +16052,7 @@
     "site": "https://hackaday.io",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/serialplot",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/serialplot",
-    "version_raw": "https://github.com/hyOzd/serialplot/releases/download/v0.13.0/SerialPlot-ae7e3dc-x86_64.AppImage",
+    "version_raw": "",
     "description": "Small and simple software for plotting data from serial port"
   },
   {
@@ -16246,14 +16238,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shipwright",
     "version_raw": "https://github.com/mantralunar/Shipwright/releases/download/soh-8fdee66-x86_64/soh-x86_64.AppImage",
     "description": "Ship of Harkinian"
-  },
-  {
-    "pkg": "shiru",
-    "site": "RockinChaos/Shiru",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shiru",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shiru",
-    "version_raw": "",
-    "description": "BitTorrent streaming software with no paws in the way—watch anime in real-time, no waiting for downloads!"
   },
   {
     "pkg": "shotcut",
@@ -17532,7 +17516,7 @@
     "site": "superbacked/superbacked",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/superbacked",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/superbacked",
-    "version_raw": "https://github.com/superbacked/superbacked/releases/download/v1.8.0/superbacked-x64-1.8.0.AppImage",
+    "version_raw": "https://github.com/superbacked/superbacked/releases/download/v1.9.0-rc.1/superbacked-x64-1.9.0-rc.1.AppImage",
     "description": "Don’t lose your secrets. A secret management platform used to back up and pass on sensitive data from one generation to the next"
   },
   {
@@ -19748,7 +19732,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4777911364",
+    "version_raw": "4780888955",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
