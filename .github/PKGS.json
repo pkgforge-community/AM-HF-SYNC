@@ -2044,7 +2044,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave-beta",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20251118-203710/Brave-Web-Browser-beta-1.85.105-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20251119-203122/Brave-Web-Browser-beta-1.85.106-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the beta release"
   },
   {
@@ -2052,7 +2052,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave-nightly",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20251118-203710/Brave-Web-Browser-nightly-1.86.89-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20251119-203122/Brave-Web-Browser-nightly-1.86.95-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the nightly release"
   },
   {
@@ -6440,6 +6440,14 @@
     "description": "Unofficial, a fast and lightweight IDE"
   },
   {
+    "pkg": "gearlever",
+    "site": "ivan-hc/gearlever-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gearlever",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gearlever",
+    "version_raw": "https://github.com/ivan-hc/gearlever-appimage/releases/download/continuous/Gear-Lever_3.4.7-1-archimage5.0-x86_64.AppImage",
+    "description": "Unofficial. An utility to organize and manage AppImage files for you, generate desktop entries and app metadata, update apps in-place or keep multiple versions side-by-side"
+  },
+  {
     "pkg": "gedit",
     "site": "ivan-hc/Gedit-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gedit",
@@ -6748,7 +6756,7 @@
     "site": "gitleaks/gitleaks",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gitleaks",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gitleaks",
-    "version_raw": "https://github.com/gitleaks/gitleaks/releases/download/v8.29.0/gitleaks_8.29.0_linux_x64.tar.gz",
+    "version_raw": "https://github.com/gitleaks/gitleaks/releases/download/v8.29.1/gitleaks_8.29.1_linux_x64.tar.gz",
     "description": "Protect and discover secrets using Gitleaks"
   },
   {
@@ -9532,7 +9540,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -9948,7 +9956,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -11844,7 +11852,7 @@
     "site": "https://www.wakdev.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nfctools",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nfctools",
-    "version_raw": "https://apps.wakdev.com/ntgui/releases/linux/nfctools-latest.AppImage",
+    "version_raw": "",
     "description": "A library which allows userspace application access to NFC devices"
   },
   {
@@ -12404,7 +12412,7 @@
     "site": "ollama/ollama",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ollama",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ollama",
-    "version_raw": "https://github.com/ollama/ollama/releases/download/v0.13.0-rc0/ollama-linux-amd64.tgz",
+    "version_raw": "https://github.com/ollama/ollama/releases/download/v0.13.0/ollama-linux-amd64.tgz",
     "description": "Get up and running with Llama 3, Mistral, Gemma, and other LLMs"
   },
   {
@@ -16892,7 +16900,7 @@
     "site": "https://www.speed-dreams.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/speed-dreams",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/speed-dreams",
-    "version_raw": "",
+    "version_raw": "2.4.2",
     "description": "A Torcs fork, 3d motorsport simulation and race cars game"
   },
   {
@@ -19740,7 +19748,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4786924801",
+    "version_raw": "4791975012",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
