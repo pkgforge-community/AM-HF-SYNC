@@ -9540,7 +9540,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -9580,7 +9580,7 @@
     "site": "pkgforge-dev/ladybird-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ladybird",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ladybird",
-    "version_raw": "https://github.com/pkgforge-dev/ladybird-appimage/releases/download/snapshot/Ladybird-r72899.597fe8288cd-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ladybird-appimage/releases/download/snapshot/Ladybird-r72928.bcd01da91d3-1-anylinux-x86_64.AppImage",
     "description": "A truly independent web browser, using a novel engine based on web standards"
   },
   {
@@ -9956,7 +9956,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -13606,6 +13606,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pigs-n-cows",
     "version_raw": "https://github.com/TheMarlboroMan/pigs-n-cows/releases/download/v1.1.0/Pigs_and_Cows-x86_64.AppImage",
     "description": "A relaxing game for children and adults alike"
+  },
+  {
+    "pkg": "pika-backup",
+    "site": "Shikakiben/pika-backup-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pika-backup",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pika-backup",
+    "version_raw": "https://github.com/Shikakiben/pika-backup-AppImage/releases/download/0.7.5-1%402025-11-20_1763654895/Pika_Backup-0.7.5-1-anylinux-x86_64.AppImage",
+    "description": "Doing backups the easy way. Plugin your USB drive and let the Pika do the rest for you"
   },
   {
     "pkg": "pile",
@@ -19748,7 +19756,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4812063054",
+    "version_raw": "4812854477",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -20716,7 +20724,7 @@
     "site": "zen-browser/desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zen-browser",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zen-browser",
-    "version_raw": "https://github.com/zen-browser/desktop/releases/download/1.17.7b/zen-x86_64.AppImage",
+    "version_raw": "https://github.com/zen-browser/desktop/releases/download/1.17.8b/zen-x86_64.AppImage",
     "description": "Experience tranquillity while browsing the web without tracking"
   },
   {
