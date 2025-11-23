@@ -364,7 +364,7 @@
     "site": "tonyantony300/alt-sendme",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alt-sendme",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alt-sendme",
-    "version_raw": "https://github.com/tonyantony300/alt-sendme/releases/download/v0.2.3/AltSendme_0.2.3_amd64.AppImage",
+    "version_raw": "https://github.com/tonyantony300/alt-sendme/releases/download/v0.2.4/AltSendme_0.2.4_amd64.AppImage",
     "description": "Share files and directories anywhere - Local or Global"
   },
   {
@@ -628,7 +628,7 @@
     "site": "anyproto/anytype-ts",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anytype",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anytype",
-    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.50.73-alpha/Anytype-0.50.73-alpha.AppImage",
+    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.50.74-alpha/Anytype-0.50.74-alpha.AppImage",
     "description": "The everything app for those who celebrate trust & autonomy"
   },
   {
@@ -3188,7 +3188,7 @@
     "site": "ferraridamiano/ConverterNOW",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/converternow",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/converternow",
-    "version_raw": "https://github.com/ferraridamiano/ConverterNOW/releases/download/v4.4.0/converternow-x86_64.AppImage",
+    "version_raw": "https://github.com/ferraridamiano/ConverterNOW/releases/download/v4.5.0/converternow-x86_64.AppImage",
     "description": "The Unit Converter app. Easy, immediate and multi-platform"
   },
   {
@@ -5220,7 +5220,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-25.46.5.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -5246,6 +5246,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exsplode.re",
     "version_raw": "https://github.com/AmarOk1412/Eksplode.re/releases/download/v0.0.0/Eksplode.re-x86_64.AppImage",
     "description": "A Bomberman game made with Godot under BSD3"
+  },
+  {
+    "pkg": "extension-manager",
+    "site": "Shikakiben/Extension-Manager-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/extension-manager",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/extension-manager",
+    "version_raw": "https://github.com/Shikakiben/Extension-Manager-AppImage/releases/download/0.6.5-1%402025-11-22_1763845387/Extension_Manager-0.6.5-1-anylinux-x86_64.AppImage",
+    "description": "A native tool for browsing, installing, and managing GNOME Shell Extensions"
   },
   {
     "pkg": "extraterm",
@@ -6452,7 +6460,7 @@
     "site": "pkgforge-dev/Gear-Lever-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gearlever",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gearlever",
-    "version_raw": "https://github.com/pkgforge-dev/Gear-Lever-AppImage/releases/download/3.4.7-1%402025-11-23_1763912493/Gear_Lever-3.4.7-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Gear-Lever-AppImage/releases/download/3.4.7-1%402025-11-23_1763920316/Gear_Lever-3.4.7-1-anylinux-x86_64.AppImage",
     "description": "Unofficial. An utility to organize and manage AppImage files for you, generate desktop entries and app metadata, update apps in-place or keep multiple versions side-by-side"
   },
   {
@@ -17892,7 +17900,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.0-beta.1.AppImage",
+    "version_raw": "",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -19684,7 +19692,7 @@
     "site": "https://webcatalog.io",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/webcatalog",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/webcatalog",
-    "version_raw": "https://cdn-2.webcatalog.io/webcatalog/WebCatalog-70.0.1.AppImage",
+    "version_raw": "",
     "description": "App store for web apps. Find the right software and services"
   },
   {
