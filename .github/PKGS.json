@@ -628,7 +628,7 @@
     "site": "anyproto/anytype-ts",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anytype",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anytype",
-    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.50.76-beta/Anytype-0.50.76-beta.AppImage",
+    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.50.77-alpha/Anytype-0.50.77-alpha.AppImage",
     "description": "The everything app for those who celebrate trust & autonomy"
   },
   {
@@ -1100,7 +1100,7 @@
     "site": "pkgforge-dev/Audio-Sharing-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/audio-sharing",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/audio-sharing",
-    "version_raw": "https://github.com/pkgforge-dev/Audio-Sharing-AppImage/releases/download/0.2.4-3%402025-11-22_1763795161/Audio_Sharing-0.2.4-3-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Audio-Sharing-AppImage/releases/download/0.2.4-3%402025-11-24_1763986459/Audio_Sharing-0.2.4-3-anylinux-x86_64.AppImage",
     "description": "Unofficial. Share audio from the desktop on local network using RTSP protocol"
   },
   {
@@ -5220,7 +5220,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-25.46.5.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -5252,7 +5252,7 @@
     "site": "Shikakiben/Extension-Manager-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/extension-manager",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/extension-manager",
-    "version_raw": "https://github.com/Shikakiben/Extension-Manager-AppImage/releases/download/0.6.5-1%402025-11-24_1763977561/Extension_Manager-0.6.5-1-anylinux-x86_64.AppImage",
+    "version_raw": "",
     "description": "A native tool for browsing, installing, and managing GNOME Shell Extensions"
   },
   {
@@ -5636,7 +5636,7 @@
     "site": "pkgforge-dev/filelight-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/filelight",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/filelight",
-    "version_raw": "https://github.com/pkgforge-dev/filelight-AppImage/releases/download/25.08.3-1%402025-11-24_1763945677/Filelight-25.08.3-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/filelight-AppImage/releases/download/25.08.3-1%402025-11-24_1763986407/Filelight-25.08.3-1-anylinux-x86_64.AppImage",
     "description": "Unofficial. View disk usage information, by KDE"
   },
   {
@@ -6460,7 +6460,7 @@
     "site": "pkgforge-dev/Gear-Lever-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gearlever",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gearlever",
-    "version_raw": "https://github.com/pkgforge-dev/Gear-Lever-AppImage/releases/download/3.4.7-1%402025-11-23_1763933936/Gear_Lever-3.4.7-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Gear-Lever-AppImage/releases/download/3.4.7-1%402025-11-24_1763987432/Gear_Lever-3.4.7-1-anylinux-x86_64.AppImage",
     "description": "Unofficial. An utility to organize and manage AppImage files for you, generate desktop entries and app metadata, update apps in-place or keep multiple versions side-by-side"
   },
   {
@@ -9564,7 +9564,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -9950,6 +9950,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linked",
     "version_raw": "https://github.com/lostdesign/linked/releases/download/v1.5.2/linked-1.5.2.AppImage",
     "description": "Daily journaling without distraction"
+  },
+  {
+    "pkg": "linkora",
+    "site": "LinkoraApp/Linkora",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linkora",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linkora",
+    "version_raw": "https://github.com/LinkoraApp/Linkora/releases/download/release-v0.14.0/Linkora.AppImage",
+    "description": "Link organizer for Android and desktop with self-hosted sync"
   },
   {
     "pkg": "linphone",
@@ -14076,7 +14084,7 @@
     "site": "firstversionist/polypane",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/polypane",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/polypane",
-    "version_raw": "https://github.com/firstversionist/polypane/releases/download/v27.0.1/Polypane-27.0.1.AppImage",
+    "version_raw": "https://github.com/firstversionist/polypane/releases/download/v27.0.2/Polypane-27.0.2.AppImage",
     "description": "Browser for web developers"
   },
   {
@@ -14444,7 +14452,7 @@
     "site": "pkgforge-dev/puddletag-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/puddletag",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/puddletag",
-    "version_raw": "https://github.com/pkgforge-dev/puddletag-AppImage/releases/download/%402025-11-24_1763944457/puddletag-2.5.0.r28.g8279496-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/puddletag-AppImage/releases/download/%402025-11-24_1763986728/puddletag-2.5.0.r28.g8279496-1-anylinux-x86_64.AppImage",
     "description": "Unofficial, Powerful, simple, audio tag editor for GNU/Linux"
   },
   {
@@ -16212,7 +16220,7 @@
     "site": "shadps4-emu/shadps4-qtlauncher",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4-qtlauncher",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4-qtlauncher",
-    "version_raw": "https://github.com/shadps4-emu/shadps4-qtlauncher/releases/download/shadPS4QtLauncher-2025-11-19-9ef32fa7f171c5b5e4aa4c67fb92388a7e93bbb9/shadPS4QtLauncher-linux-qt-2025-11-19-9ef32fa.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadps4-qtlauncher/releases/download/shadPS4QtLauncher-2025-11-24-e123aa853bc6adda5a2485a9e33874541acdc067/shadPS4QtLauncher-linux-qt-2025-11-24-e123aa8.zip",
     "description": "The official Qt launcher for shadps4 PlayStation 4 emulator"
   },
   {
@@ -17750,6 +17758,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/swish",
     "version_raw": "https://github.com/Blutsh/Swish/releases/download/1.0.2/swish-1.0.2-x86_64-unknown-linux-musl.tar.gz",
     "description": "Command Line Interface for Swisstransfer Infomaniak's free service"
+  },
+  {
+    "pkg": "switchcraft",
+    "site": "kem-a/switchcraft",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/switchcraft",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/switchcraft",
+    "version_raw": "https://github.com/kem-a/switchcraft/releases/download/v1.2.0/switchcraft-1.2.0.AppImage",
+    "description": "Switchcraft watches GNOME's light/dark preference and runs your shell commands when the theme changes"
   },
   {
     "pkg": "switchhosts",
@@ -19604,7 +19620,7 @@
     "site": "https://www.warp.dev",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/warp-terminal",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/warp-terminal",
-    "version_raw": "0.2025.09.24.08.11.stable_03",
+    "version_raw": "0.2025.11.19.08.12.stable_03",
     "description": "Terminal reimagined with AI and collaborative tools"
   },
   {
@@ -19700,7 +19716,7 @@
     "site": "https://webcatalog.io",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/webcatalog",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/webcatalog",
-    "version_raw": "https://cdn-2.webcatalog.io/webcatalog/WebCatalog-70.0.1.AppImage",
+    "version_raw": "https://cdn-2.webcatalog.io/webcatalog/WebCatalog-70.0.2.AppImage",
     "description": "App store for web apps. Find the right software and services"
   },
   {
@@ -19788,7 +19804,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4869981576",
+    "version_raw": "4872361136",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -20364,7 +20380,7 @@
     "site": "xonsh/xonsh",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xonsh",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xonsh",
-    "version_raw": "https://github.com/xonsh/xonsh/releases/download/0.19.4/xonsh-x86_64.AppImage",
+    "version_raw": "https://github.com/xonsh/xonsh/releases/download/0.20.0/xonsh-x86_64.AppImage",
     "description": "Python-powered, cross-platform, Unix-gazing shell"
   },
   {
