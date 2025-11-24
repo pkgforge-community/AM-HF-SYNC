@@ -412,7 +412,7 @@
     "site": "Pyrdacor/Ambermoon.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ambermoon.net",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ambermoon.net",
-    "version_raw": "https://github.com/Pyrdacor/Ambermoon.net/releases/download/v1.11.6/Ambermoon.net-Linux.tar.gz",
+    "version_raw": "https://github.com/Pyrdacor/Ambermoon.net/releases/download/v1.12.0/Ambermoon.net-Linux.tar.gz",
     "description": "Ambermoon rewrite in C#"
   },
   {
@@ -1820,7 +1820,7 @@
     "site": "Blockstream/green_qt",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blockstream-green",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blockstream-green",
-    "version_raw": "https://github.com/Blockstream/green_qt/releases/download/release_2.0.30/Blockstream-x86_64.AppImage",
+    "version_raw": "https://github.com/Blockstream/green_qt/releases/download/release_2.0.31-rc3/Blockstream-x86_64.AppImage",
     "description": "Bitcoin wallet compatible with Blockstream Jade"
   },
   {
@@ -3612,7 +3612,7 @@
     "site": "cryptomator/cryptomator",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cryptomator",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cryptomator",
-    "version_raw": "https://github.com/cryptomator/cryptomator/releases/download/1.19.0-alpha1/cryptomator-1.19.0-alpha1-x86_64.AppImage",
+    "version_raw": "https://github.com/cryptomator/cryptomator/releases/download/1.18.0/cryptomator-1.18.0-x86_64.AppImage",
     "description": "Cloud Storage Encryption Utility"
   },
   {
@@ -5220,7 +5220,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-25.46.5.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -5724,7 +5724,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-beta-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-beta-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251123-202148/Firefox-beta-146.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251124-202310/Firefox-beta-146.0-x86_64.AppImage",
     "description": "Unofficial, AppImage of the Web Browser, Beta"
   },
   {
@@ -5732,7 +5732,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-devedition-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-devedition-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251123-202148/Firefox-devedition-146.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251124-202310/Firefox-devedition-146.0-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, Dev"
   },
   {
@@ -5740,7 +5740,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-esr-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-esr-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251123-202148/Firefox-esr-140.5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251124-202310/Firefox-esr-140.5.0-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, ESR"
   },
   {
@@ -5748,7 +5748,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-nightly-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-nightly-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251123-202148/Firefox-nightly-147.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251124-202310/Firefox-nightly-147.0a1-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, Nightly"
   },
   {
@@ -5940,7 +5940,7 @@
     "site": "superfly/flyctl",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flyctl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/flyctl",
-    "version_raw": "https://github.com/superfly/flyctl/releases/download/v0.3.221/flyctl_0.3.221_Linux_x86_64.tar.gz",
+    "version_raw": "https://github.com/superfly/flyctl/releases/download/v0.3.222/flyctl_0.3.222_Linux_x86_64.tar.gz",
     "description": "Command line tools for fly.io services"
   },
   {
@@ -9988,7 +9988,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250724_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -15324,7 +15324,7 @@
     "site": "https://www.remnote.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/remnote",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/remnote",
-    "version_raw": "https://download2.remnote.io/remnote-desktop2/RemNote-1.22.16.AppImage",
+    "version_raw": "https://download2.remnote.io/remnote-desktop2/RemNote-1.22.17.AppImage",
     "description": "Make flashcards in your notes. Cut study time in half. Use evidence-based memory techniques to create flashcards that resurface at the best time for retention"
   },
   {
@@ -15580,7 +15580,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-6a398f994793d6d74d649ec7989d621627e547e1/rpcs3-v0.0.38-18396-6a398f99_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-5a9083e4fc0bfb73b09c4c436d8f5e78f8c2702a/rpcs3-v0.0.38-18397-5a9083e4_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -15604,7 +15604,7 @@
     "site": "martinrotter/rssguard",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rssguard",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rssguard",
-    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-018b8ce2f-qt5-linux64.AppImage",
+    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-6ee3da0ea-qt5-linux64.AppImage",
     "description": "Feed reader which supports RSS/ATOM/JSON, no-webengine version"
   },
   {
@@ -17924,7 +17924,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.0-beta.1.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.10.3.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -18268,7 +18268,7 @@
     "site": "ivan-hc/Thunderbird-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-beta-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-beta-appimage",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20251123-202215/Thunderbird-beta-146.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20251124-202416/Thunderbird-beta-146.0-x86_64.AppImage",
     "description": "Unofficial. Free and open source eMail client, Beta Edition"
   },
   {
@@ -18276,7 +18276,7 @@
     "site": "ivan-hc/Thunderbird-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-nightly-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-nightly-appimage",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20251123-202215/Thunderbird-nightly-147.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20251124-202416/Thunderbird-nightly-147.0a1-x86_64.AppImage",
     "description": "Unofficial. Free and open source eMail client, Nightly Edition"
   },
   {
@@ -19804,7 +19804,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4880038647",
+    "version_raw": "4883387938",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -20412,7 +20412,7 @@
     "site": "xpipe-io/xpipe",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xpipe",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xpipe",
-    "version_raw": "https://github.com/xpipe-io/xpipe/releases/download/19.2/xpipe-portable-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/xpipe-io/xpipe/releases/download/19.3/xpipe-portable-linux-x86_64.AppImage",
     "description": "Your entire server infrastructure at your fingertips. Manage all your servers from your local desktop. No remote setup required"
   },
   {
@@ -20772,7 +20772,7 @@
     "site": "zen-browser/desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zen-browser",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zen-browser",
-    "version_raw": "https://github.com/zen-browser/desktop/releases/download/1.17.8b/zen-x86_64.AppImage",
+    "version_raw": "https://github.com/zen-browser/desktop/releases/download/1.17.9b/zen-x86_64.AppImage",
     "description": "Experience tranquillity while browsing the web without tracking"
   },
   {
