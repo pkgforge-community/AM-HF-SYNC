@@ -892,7 +892,7 @@
     "site": "JustArchiNET/ArchiSteamFarm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/archisteamfarm",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/archisteamfarm",
-    "version_raw": "https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/6.3.0.1/ASF-linux-x64.zip",
+    "version_raw": "https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/6.3.0.2/ASF-linux-x64.zip",
     "description": "C# application with primary purpose of farming Steam cards from multiple accounts simultaneously"
   },
   {
@@ -3756,7 +3756,7 @@
     "site": "darktable-org/darktable",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/darktable-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/darktable-nightly",
-    "version_raw": "https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.3.0%2B921.g390afff5ef-x86_64.AppImage",
+    "version_raw": "https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.3.0%2B929.ge4f2c82e72-x86_64.AppImage",
     "description": "Photography workflow app and raw developer, nightly"
   },
   {
@@ -5633,11 +5633,11 @@
   },
   {
     "pkg": "filelight",
-    "site": "ivan-hc/KDE-utils-appimage",
+    "site": "pkgforge-dev/filelight-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/filelight",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/filelight",
-    "version_raw": "https://github.com/ivan-hc/KDE-utils-appimage/releases/download/continuous/KDE-utils_25.08-1-archimage5.0-x86_64.AppImage",
-    "description": "Unofficial. View disk usage information. This script installs the full kdeutils suite"
+    "version_raw": "https://github.com/pkgforge-dev/filelight-AppImage/releases/download/25.08.3-1%402025-11-24_1763945677/Filelight-25.08.3-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial. View disk usage information, by KDE"
   },
   {
     "pkg": "filen",
@@ -7944,6 +7944,14 @@
     "description": "Unofficial. Compare images and videos with one another to check for differences"
   },
   {
+    "pkg": "idescriptor",
+    "site": "iDescriptor/iDescriptor",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/idescriptor",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/idescriptor",
+    "version_raw": "https://github.com/iDescriptor/iDescriptor/releases/download/v0.1.0/iDescriptor-v0.1.0-Linux_x86_64.AppImage.zip",
+    "description": "A free, open-source, and cross-platform iDevice management tool"
+  },
+  {
     "pkg": "igdm",
     "site": "ifedapoolarewaju/igdm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/igdm",
@@ -8956,7 +8964,7 @@
     "site": "keepassxreboot/keepassxc",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/keepassxc",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/keepassxc",
-    "version_raw": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.10/KeePassXC-2.7.10-x86_64.AppImage",
+    "version_raw": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.11/KeePassXC-2.7.11-x86_64.AppImage",
     "description": "Port of the Windows application “Keepass Password Safe”"
   },
   {
@@ -11036,7 +11044,7 @@
     "site": "MiniZinc/MiniZincIDE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/minizinc-ide",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/minizinc-ide",
-    "version_raw": "https://github.com/MiniZinc/MiniZincIDE/releases/download/edge/MiniZincIDE-build2171356164-x86_64.AppImage",
+    "version_raw": "https://github.com/MiniZinc/MiniZincIDE/releases/download/edge/MiniZincIDE-build2174876870-x86_64.AppImage",
     "description": "A free and open-source constraint modeling language"
   },
   {
@@ -13140,7 +13148,7 @@
     "site": "Scille/parsec-cloud",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parsec",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parsec",
-    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.6.2-a.0.dev.20414%2B2abed6f_linux_x86_64.unsigned.AppImage",
+    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.6.2-a.0.dev.20415%2B2abed6f_linux_x86_64.unsigned.AppImage",
     "description": "Open source Dropbox-like file sharing with full client encryption"
   },
   {
@@ -14436,7 +14444,7 @@
     "site": "pkgforge-dev/puddletag-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/puddletag",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/puddletag",
-    "version_raw": "https://github.com/pkgforge-dev/puddletag-AppImage/releases/download/2.5.0%402025-11-15_1763190831/puddletag-2.5.0-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/puddletag-AppImage/releases/download/%402025-11-24_1763944457/puddletag-2.5.0.r28.g8279496-1-anylinux-x86_64.AppImage",
     "description": "Unofficial, Powerful, simple, audio tag editor for GNU/Linux"
   },
   {
@@ -15364,7 +15372,7 @@
     "site": "JMBeresford/retrom",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/retrom",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/retrom",
-    "version_raw": "https://github.com/JMBeresford/retrom/releases/download/v0.7.43/Retrom_0.7.43_amd64_linux.AppImage",
+    "version_raw": "https://github.com/JMBeresford/retrom/releases/download/v0.7.44/Retrom_0.7.44_amd64.AppImage",
     "description": "A centralized game library/collection management service with a focus on emulation"
   },
   {
@@ -19780,7 +19788,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4860058681",
+    "version_raw": "4861153179",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -19852,7 +19860,7 @@
     "site": "TibixDev/winboat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/winboat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/winboat",
-    "version_raw": "https://github.com/TibixDev/winboat/releases/download/v0.9.0-alpha2/winboat-0.9.0-alpha-x86_64.AppImage",
+    "version_raw": "https://github.com/TibixDev/winboat/releases/download/v0.9.0/winboat-0.9.0-x86_64.AppImage",
     "description": "Run Windows apps on 🐧 Linux with ✨ seamless integration"
   },
   {
@@ -19964,7 +19972,7 @@
     "site": "ryuuzaki42/Wireshark_AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wireshark",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wireshark",
-    "version_raw": "https://github.com/ryuuzaki42/Wireshark_AppImage/releases/download/4.6.0/Wireshark-4.6.0.glibc2.34-x86_64-1_JB.AppImage",
+    "version_raw": "https://github.com/ryuuzaki42/Wireshark_AppImage/releases/download/4.6.1/Wireshark-4.6.1.glibc2.34-x86_64-1_JB.AppImage",
     "description": "Unofficial, the world's most popular network protocol analyze"
   },
   {
