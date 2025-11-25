@@ -988,7 +988,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "",
+    "version_raw": "1.0.4",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -5220,7 +5220,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-25.46.5.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -9564,7 +9564,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -9604,7 +9604,7 @@
     "site": "pkgforge-dev/ladybird-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ladybird",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ladybird",
-    "version_raw": "https://github.com/pkgforge-dev/ladybird-appimage/releases/download/snapshot/Ladybird-r72979.46acdbd10a6-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ladybird-appimage/releases/download/snapshot/Ladybird-r72984.a0dbae02c8d-1-anylinux-x86_64.AppImage",
     "description": "A truly independent web browser, using a novel engine based on web standards"
   },
   {
@@ -9988,7 +9988,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250724_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -16532,7 +16532,7 @@
     "site": "siyuan-note/siyuan",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/siyuan",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/siyuan",
-    "version_raw": "https://github.com/siyuan-note/siyuan/releases/download/v3.4.1-dev2/siyuan-v202511241245-linux.AppImage",
+    "version_raw": "https://github.com/siyuan-note/siyuan/releases/download/v3.4.1/siyuan-3.4.1-linux.AppImage",
     "description": "A local-first personal knowledge management system"
   },
   {
@@ -17924,7 +17924,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.10.3.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.0-beta.1.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -19072,6 +19072,14 @@
     "description": "An alternative open source Steam client"
   },
   {
+    "pkg": "varia",
+    "site": "pkgforge-dev/Varia-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/varia",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/varia",
+    "version_raw": "https://github.com/pkgforge-dev/Varia-AppImage/releases/download/2025.10.14-1%402025-11-24_1764020944/Varia-2025.10.14-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial. Aria2-based advanced download manager with support for downloading files, torrents, video and audio + support for Chromium and Firefox extension"
+  },
+  {
     "pkg": "vcloudcam",
     "site": "quocson95/vCloudcam",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vcloudcam",
@@ -19804,7 +19812,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4886294692",
+    "version_raw": "4888653928",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
