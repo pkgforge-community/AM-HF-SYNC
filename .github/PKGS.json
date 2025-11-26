@@ -988,7 +988,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "1.0.4",
+    "version_raw": "",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -4185,11 +4185,11 @@
   },
   {
     "pkg": "discord",
-    "site": "srevinsaju/discord-appimage",
+    "site": "ivan-hc/Discord-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/discord",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/discord",
-    "version_raw": "",
-    "description": "Unofficial. All-in-one voice and text chat for gamers"
+    "version_raw": "https://github.com/ivan-hc/Discord-appimage/releases/download/continuous/Discord_0.0.116-x86_64.AppImage",
+    "description": "Unofficial. All-in-one voice and text chat for gamers that's free, secure, and works on both your desktop and phone"
   },
   {
     "pkg": "discord-qt",
@@ -6044,7 +6044,7 @@
     "site": "forkgram/tdesktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/forkgram",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/forkgram",
-    "version_raw": "https://github.com/forkgram/tdesktop/releases/download/v6.3.2/Telegram.tar.xz",
+    "version_raw": "https://github.com/forkgram/tdesktop/releases/download/v6.3.4/Telegram.tar.xz",
     "description": "Fork of Telegram Desktop messaging app"
   },
   {
@@ -6428,7 +6428,7 @@
     "site": "4ian/GDevelop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gdevelop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gdevelop",
-    "version_raw": "https://github.com/4ian/GDevelop/releases/download/v5.5.245/GDevelop-5-5.5.245.AppImage",
+    "version_raw": "https://github.com/4ian/GDevelop/releases/download/v5.5.246/GDevelop-5-5.5.246.AppImage",
     "description": "Cross-platform game engine designed to be used by everyone"
   },
   {
@@ -9572,7 +9572,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -9996,7 +9996,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -17996,7 +17996,7 @@
     "site": "IsmaelMartinez/teams-for-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/teams",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/teams",
-    "version_raw": "https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.6.16/teams-for-linux-2.6.16.AppImage",
+    "version_raw": "https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.6.17/teams-for-linux-2.6.17.AppImage",
     "description": "Unofficial, Business communication platform developed by Microsoft"
   },
   {
@@ -19036,7 +19036,7 @@
     "site": "astral-sh/uv",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uv",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uv",
-    "version_raw": "https://github.com/astral-sh/uv/releases/download/0.9.12/uv-x86_64-unknown-linux-musl.tar.gz",
+    "version_raw": "https://github.com/astral-sh/uv/releases/download/0.9.13/uv-x86_64-unknown-linux-musl.tar.gz",
     "description": "An extremely fast Python package and project manager, written in Rust"
   },
   {
@@ -19820,7 +19820,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4928228887",
+    "version_raw": "4931170453",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
