@@ -2676,7 +2676,7 @@
     "site": "kangfenmao/cherry-studio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cherry-studio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cherry-studio",
-    "version_raw": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.7.0-rc.2/Cherry-Studio-1.7.0-rc.2-x86_64.AppImage",
+    "version_raw": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.7.0-rc.3/Cherry-Studio-1.7.0-rc.3-x86_64.AppImage",
     "description": "Cherry Studio is a desktop client that supports for multiple LLM providers"
   },
   {
@@ -7480,6 +7480,14 @@
     "description": "fork of the original handlr, with support for regular expressions"
   },
   {
+    "pkg": "handy",
+    "site": "cjpais/Handy",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/handy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/handy",
+    "version_raw": "https://github.com/cjpais/Handy/releases/download/v0.6.2/Handy_0.6.2_amd64.AppImage",
+    "description": "A free, open source, and extensible speech-to-text application that works completely offline"
+  },
+  {
     "pkg": "hapee",
     "site": "hugetiny/Hapee",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hapee",
@@ -9452,7 +9460,7 @@
     "site": "DamirPorobic/ksnip",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ksnip",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ksnip",
-    "version_raw": "",
+    "version_raw": "https://github.com/ksnip/ksnip/releases/download/continuous/ksnip-1.11.0-continuous-x86_64.AppImage",
     "description": "Screenshot tool inspired by Windows Snipping Tool and made with Qt"
   },
   {
@@ -9564,7 +9572,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -9988,7 +9996,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.21_251114_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -15580,7 +15588,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-6ebdb0c0c15e6d2d5bf0aa3a0833b2a641f252b8/rpcs3-v0.0.38-18401-6ebdb0c0_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-41aaa912e789db481a163b9d6eb8c49e43db97fc/rpcs3-v0.0.38-18402-41aaa912_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -17924,7 +17932,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.10.3.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.0-beta.1.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -18484,7 +18492,7 @@
     "site": "topgrade-rs/topgrade",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/topgrade",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/topgrade",
-    "version_raw": "https://github.com/topgrade-rs/topgrade/releases/download/v16.4.2/topgrade-v16.4.2-x86_64-unknown-linux-gnu.tar.gz",
+    "version_raw": "https://github.com/topgrade-rs/topgrade/releases/download/v16.5.0/topgrade-v16.5.0-x86_64-unknown-linux-gnu.tar.gz",
     "description": "Upgrade all the things, this is the universal upgrade manager"
   },
   {
@@ -19812,7 +19820,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4927029194",
+    "version_raw": "4928228887",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -20780,7 +20788,7 @@
     "site": "zen-browser/desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zen-browser",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zen-browser",
-    "version_raw": "https://github.com/zen-browser/desktop/releases/download/1.17.9b/zen-x86_64.AppImage",
+    "version_raw": "https://github.com/zen-browser/desktop/releases/download/1.17.10b/zen-x86_64.AppImage",
     "description": "Experience tranquillity while browsing the web without tracking"
   },
   {
