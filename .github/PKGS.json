@@ -628,7 +628,7 @@
     "site": "anyproto/anytype-ts",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anytype",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anytype",
-    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.51.3-alpha/Anytype-0.51.3-alpha.AppImage",
+    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.51.6-alpha/Anytype-0.51.6-alpha.AppImage",
     "description": "The everything app for those who celebrate trust & autonomy"
   },
   {
@@ -988,7 +988,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "",
+    "version_raw": "1.0.4",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -1092,7 +1092,7 @@
     "site": "bugbakery/audapolis",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/audapolis",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/audapolis",
-    "version_raw": "https://github.com/bugbakery/audapolis/releases/download/v0.3.0/audapolis-linux-x86_64-0.3.0_4.AppImage",
+    "version_raw": "https://github.com/bugbakery/audapolis/releases/download/v0.3.1/audapolis-linux-x86_64-0.3.1.AppImage",
     "description": "An editor for spoken-word audio with automatic transcription"
   },
   {
@@ -6772,7 +6772,7 @@
     "site": "gitleaks/gitleaks",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gitleaks",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gitleaks",
-    "version_raw": "https://github.com/gitleaks/gitleaks/releases/download/v8.29.1/gitleaks_8.29.1_linux_x64.tar.gz",
+    "version_raw": "https://github.com/gitleaks/gitleaks/releases/download/v8.30.0/gitleaks_8.30.0_linux_x64.tar.gz",
     "description": "Protect and discover secrets using Gitleaks"
   },
   {
@@ -12596,7 +12596,7 @@
     "site": "nextai-translator/nextai-translator",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/open-ai-translator",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/open-ai-translator",
-    "version_raw": "https://github.com/nextai-translator/nextai-translator/releases/download/v0.6.4/NextAI.Translator_0.6.4_amd64.AppImage",
+    "version_raw": "https://github.com/nextai-translator/nextai-translator/releases/download/v0.6.5/NextAI.Translator_0.6.5_amd64.AppImage",
     "description": "Browser extension for translation based on ChatGPT API"
   },
   {
@@ -18748,7 +18748,7 @@
     "site": "https://mail.tutanota.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tutanota",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tutanota",
-    "version_raw": "314.251111.0",
+    "version_raw": "315.251125.0",
     "description": "The world's most secure email service, easy to use and private"
   },
   {
@@ -19126,6 +19126,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ventoy",
     "version_raw": "https://github.com/ventoy/Ventoy/releases/download/v1.1.07/ventoy-1.1.07-linux.tar.gz",
     "description": "Tool to create bootable USB drive for ISO/WIM/IMG/VHDx/EFI files"
+  },
+  {
+    "pkg": "veracrypt",
+    "site": "https://veracrypt.io",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/veracrypt",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/veracrypt",
+    "version_raw": "https://launchpad.net/veracrypt/trunk/1.26.24/+download/VeraCrypt-1.26.24-x86_64.AppImage",
+    "description": "VeraCrypt is a free open source disk encryption software"
   },
   {
     "pkg": "verto",
@@ -19820,7 +19828,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4931170453",
+    "version_raw": "4934982416",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -20756,7 +20764,7 @@
     "site": "zed-industries/zed",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zed",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zed",
-    "version_raw": "https://github.com/zed-industries/zed/releases/download/v0.214.5-pre/zed-linux-x86_64.tar.gz",
+    "version_raw": "https://github.com/zed-industries/zed/releases/download/v0.214.5/zed-linux-x86_64.tar.gz",
     "description": "High-performance, multiplayer code editor from the creators of Atom"
   },
   {
