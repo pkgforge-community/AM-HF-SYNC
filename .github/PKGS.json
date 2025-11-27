@@ -4364,7 +4364,7 @@
     "site": "drawpile/Drawpile",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/drawpile",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/drawpile",
-    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.3.0-15-g175c7ef1a-x86_64.AppImage",
+    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.3.0-17-g1a9e5aad1-x86_64.AppImage",
     "description": "Drawing program to sketch on the same canvas simultaneously"
   },
   {
@@ -4940,7 +4940,7 @@
     "site": "franciscoBSalgueiro/en-croissant",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/en-croissant",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/en-croissant",
-    "version_raw": "https://github.com/franciscoBSalgueiro/en-croissant/releases/download/v0.12.0/en-croissant_0.12.0_amd64.AppImage",
+    "version_raw": "https://github.com/franciscoBSalgueiro/en-croissant/releases/download/v0.12.1/en-croissant_0.12.1_amd64.AppImage",
     "description": "The Ultimate Chess Toolkit"
   },
   {
@@ -6628,7 +6628,7 @@
     "site": "pkgforge-dev/ghostty-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ghostty-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ghostty-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.0-main%2B14abc6a-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.0-main%2Bc199a8f-x86_64.AppImage",
     "description": "Unoffical, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (Tip, Nightly)"
   },
   {
@@ -9572,7 +9572,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -10396,7 +10396,7 @@
     "site": "pkgforge-dev/MAME-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mame",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mame",
-    "version_raw": "https://github.com/pkgforge-dev/MAME-AppImage/releases/download/0.281-1%402025-10-22_1761125073/MAME-0.281-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/MAME-AppImage/releases/download/0.282-1%402025-11-27_1764204921/MAME-0.282-1-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of MAME emulator"
   },
   {
@@ -12968,6 +12968,14 @@
     "description": "A modern, open-source, and free voice chat overlay for Discord"
   },
   {
+    "pkg": "oversteer",
+    "site": "pkgforge-dev/Oversteer-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/oversteer",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/oversteer",
+    "version_raw": "https://github.com/pkgforge-dev/Oversteer-AppImage/releases/download/0.8.3-2%402025-11-27_1764202178/Oversteer-0.8.3-2-anylinux-x86_64.AppImage",
+    "description": "Unofficial, Steering Wheel Manager for Linux"
+  },
+  {
     "pkg": "overte",
     "site": "overte-org/overte",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/overte",
@@ -13164,7 +13172,7 @@
     "site": "Scille/parsec-cloud",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parsec",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parsec",
-    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.6.2-a.0.dev.20417%2B8e7ed5b_linux_x86_64.unsigned.AppImage",
+    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.6.2-a.0.dev.20418%2Bff2cc5e_linux_x86_64.unsigned.AppImage",
     "description": "Open source Dropbox-like file sharing with full client encryption"
   },
   {
@@ -15588,7 +15596,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-41aaa912e789db481a163b9d6eb8c49e43db97fc/rpcs3-v0.0.38-18402-41aaa912_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-a442cb91a101bf19b1b0912db7fb071d62360369/rpcs3-v0.0.38-18403-a442cb91_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -17932,7 +17940,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.0-beta.1.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.10.3.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -19548,7 +19556,7 @@
     "site": "VSCodium/vscodium",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vscodium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vscodium",
-    "version_raw": "https://github.com/VSCodium/vscodium/releases/download/1.106.37938/VSCodium-1.106.37938.glibc2.30-x86_64.AppImage",
+    "version_raw": "https://github.com/VSCodium/vscodium/releases/download/1.106.37943/VSCodium-1.106.37943.glibc2.30-x86_64.AppImage",
     "description": "Community-driven, freely-licensed binary distribution of MS VSCode"
   },
   {
@@ -19828,7 +19836,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4937860559",
+    "version_raw": "4939638568",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -20764,7 +20772,7 @@
     "site": "zed-industries/zed",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zed",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zed",
-    "version_raw": "https://github.com/zed-industries/zed/releases/download/v0.215.0-pre/zed-linux-x86_64.tar.gz",
+    "version_raw": "https://github.com/zed-industries/zed/releases/download/v0.215.2-pre/zed-linux-x86_64.tar.gz",
     "description": "High-performance, multiplayer code editor from the creators of Atom"
   },
   {
