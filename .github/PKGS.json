@@ -4200,6 +4200,14 @@
     "description": "Unofficial. Discord client powered by Node.JS and Qt Widgets"
   },
   {
+    "pkg": "diskfmt",
+    "site": "MoAlyousef/diskfmt",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/diskfmt",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/diskfmt",
+    "version_raw": "https://github.com/MoAlyousef/diskfmt/releases/download/v0.1.2/diskfmt.AppImage",
+    "description": "A disk formatting utility for linux that is similar to the windows format utility"
+  },
+  {
     "pkg": "diskonaut",
     "site": "imsnif/diskonaut",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/diskonaut",
@@ -5916,7 +5924,7 @@
     "site": "krille-chan/fluffychat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fluffychat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fluffychat",
-    "version_raw": "",
+    "version_raw": "https://github.com/krille-chan/fluffychat/releases/download/v2.3.1/fluffychat-linux-x64.tar.gz",
     "description": "The cutest instant messenger in the matrix"
   },
   {
@@ -6302,6 +6310,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/funterm",
     "version_raw": "https://github.com/zhangfuwen/FunTerm/releases/download/v0.1/FunTerm-a764287-x86_64.AppImage",
     "description": "A Linux Terminal Emulator"
+  },
+  {
+    "pkg": "furnace",
+    "site": "tildearrow/furnace",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/furnace",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/furnace",
+    "version_raw": "https://github.com/tildearrow/furnace/releases/download/v0.6.8.3/Furnace-0.6.8.3-x86_64.AppImage",
+    "description": "A multi-system chiptune tracker compatible with DefleMask modules"
   },
   {
     "pkg": "fx",
@@ -12452,7 +12468,7 @@
     "site": "ollama/ollama",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ollama",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ollama",
-    "version_raw": "https://github.com/ollama/ollama/releases/download/v0.13.0/ollama-linux-amd64.tgz",
+    "version_raw": "https://github.com/ollama/ollama/releases/download/v0.13.1-rc0/ollama-linux-amd64.tgz",
     "description": "Get up and running with Llama 3, Mistral, Gemma, and other LLMs"
   },
   {
@@ -15368,6 +15384,14 @@
     "description": "A cross-platform vector graphics editor"
   },
   {
+    "pkg": "repetier-host",
+    "site": "https://www.repetier.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/repetier-host",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/repetier-host",
+    "version_raw": "https://download3.repetier.com/files/host/linux/Repetier-Host-x86_64-2.3.2.AppImage",
+    "description": "Repetier-Host is a 3D printing application developed by Hot-World GmbH & Co. KG"
+  },
+  {
     "pkg": "reqable",
     "site": "reqable/reqable-app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/reqable",
@@ -17984,6 +18008,14 @@
     "description": "Tasks, boards & notes for the command-line habitat"
   },
   {
+    "pkg": "tbc-video-export",
+    "site": "JuniorIsAJitterbug/tbc-video-export",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tbc-video-export",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tbc-video-export",
+    "version_raw": "https://github.com/JuniorIsAJitterbug/tbc-video-export/releases/download/v0.1.8/tbc-video-export.AppImage",
+    "description": "Tool for exporting S-Video and CVBS-type TBCs to video files"
+  },
+  {
     "pkg": "tc",
     "site": "mccxiv/tc",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tc",
@@ -20428,7 +20460,7 @@
     "site": "xournalpp/xournalpp",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xournal++nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xournal++nightly",
-    "version_raw": "https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-1.2.8%2Bdev-nightly-20251126-x86_64.AppImage",
+    "version_raw": "https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-1.2.8%2Bdev-nightly-20251127-x86_64.AppImage",
     "description": "C++ notetaking software with PDF annotation support, DEV"
   },
   {
@@ -20516,7 +20548,7 @@
     "site": "ivan-hc/Yandex-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yandex-browser",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yandex-browser",
-    "version_raw": "https://github.com/ivan-hc/Yandex-Browser-appimage/releases/download/continuous/Yandex-Browser-stable-25.8.5.993-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Yandex-Browser-appimage/releases/download/continuous/Yandex-Browser-stable-25.10.1.1173-1-x86_64.AppImage",
     "description": "Unofficial Yandex Browser AppImage, Stable"
   },
   {
