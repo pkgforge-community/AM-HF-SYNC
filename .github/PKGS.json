@@ -185,7 +185,7 @@
   },
   {
     "pkg": "affinity",
-    "site": "https://github.com/ryzendew/AffinityOnLinux",
+    "site": "ryzendew/AffinityOnLinux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affinity",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affinity",
     "version_raw": "https://github.com/ryzendew/AffinityOnLinux/releases/download/Affinity-wine-10.10-Appimage/Affinity-3-x86_64.AppImage",
@@ -5236,7 +5236,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-25.46.6.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -9320,14 +9320,6 @@
     "description": "Unofficial, Chess interface for the KDE Platform. This script installs the full kdegames suite"
   },
   {
-    "pkg": "knowledge",
-    "site": "KnowledgeCanvas/knowledge",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/knowledge",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/knowledge",
-    "version_raw": "",
-    "description": "Save/search/access/explore all your favorite websites and files"
-  },
-  {
     "pkg": "knowte",
     "site": "digimezzo/knowte-electron",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/knowte",
@@ -9604,7 +9596,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -10028,7 +10020,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250724_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -11364,7 +11356,7 @@
     "site": "trueleaf/moyu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/moyu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/moyu",
-    "version_raw": "https://github.com/trueleaf/apiflow/releases/download/0.8.0-beta/moyu-0.8.0.AppImage",
+    "version_raw": "https://github.com/trueleaf/apiflow/releases/download/main/Apiflow-0.9.0-x86_64.AppImage",
     "description": "An online collaborative api interface management tool"
   },
   {
@@ -15676,7 +15668,7 @@
     "site": "martinrotter/rssguard",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rssguard",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rssguard",
-    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-35dcd9c1d-qt5-linux64.AppImage",
+    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-a0620dd5c-qt5-linux64.AppImage",
     "description": "Feed reader which supports RSS/ATOM/JSON, no-webengine version"
   },
   {
@@ -19516,7 +19508,7 @@
     "site": "ivan-hc/Vivaldi-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vivaldi-stable",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vivaldi-stable",
-    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-stable-7.7.3851.54-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-stable-7.7.3851.56-1-x86_64.AppImage",
     "description": "Unofficial. Advanced Web Browser, Stable Version"
   },
   {
@@ -19916,7 +19908,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4970153137",
+    "version_raw": "4972579495",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -20892,7 +20884,7 @@
     "site": "d0ksan8/zen-app-manager",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zen-app-manager",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zen-app-manager",
-    "version_raw": "https://github.com/d0ksan8/zen-app-manager/releases/download/v0.2.2/zen-app-manager_0.2.2_amd64.AppImage",
+    "version_raw": "https://github.com/d0ksan8/zen-app-manager/releases/download/v0.3.0/zen-app-manager_0.3.0_amd64.AppImage",
     "description": "Zen App Manager is a modern and lightweight startup manager that lets you manage startup applications from a single location"
   },
   {
