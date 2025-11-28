@@ -5236,7 +5236,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-25.46.6.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -10028,7 +10028,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -10612,7 +10612,7 @@
     "site": "Materialious/Materialious",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/materialious",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/materialious",
-    "version_raw": "https://github.com/Materialious/Materialious/releases/download/1.11.9/Materialious-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/Materialious/Materialious/releases/download/1.11.10/Materialious-linux-x86_64.AppImage",
     "description": "Modern material design for Invidious"
   },
   {
@@ -19916,7 +19916,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4961390989",
+    "version_raw": "4964469886",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -20886,6 +20886,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zellij",
     "version_raw": "",
     "description": "A terminal workspace with batteries included"
+  },
+  {
+    "pkg": "zen-app-manager",
+    "site": "d0ksan8/zen-app-manager",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zen-app-manager",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zen-app-manager",
+    "version_raw": "https://github.com/d0ksan8/zen-app-manager/releases/download/v0.2.2/zen-app-manager_0.2.2_amd64.AppImage",
+    "description": "Zen App Manager is a modern and lightweight startup manager that lets you manage startup applications from a single location"
   },
   {
     "pkg": "zen-browser",
