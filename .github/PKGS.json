@@ -184,6 +184,14 @@
     "description": "Next-gen knowledge base that brings planning/sorting/creating"
   },
   {
+    "pkg": "affinity",
+    "site": "https://github.com/ryzendew/AffinityOnLinux",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affinity",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affinity",
+    "version_raw": "https://github.com/ryzendew/AffinityOnLinux/releases/download/10.4-Wine-Affinity/Affinity-x86_64-For-older-cpu.s-only.AppImage",
+    "description": "Affinity is a suite of professional graphic design, photo editing, and desktop publishing software. It's a common alternative to software from the Adobe Suite such as for Adobe Photoshop, Adobe Illustrator, Adobe InDesign"
+  },
+  {
     "pkg": "agregore",
     "site": "AgregoreWeb/agregore-browser",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/agregore",
@@ -7452,7 +7460,7 @@
     "site": "vim/vim-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gvim",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gvim",
-    "version_raw": "https://github.com/vim/vim-appimage/releases/download/v9.1.1930/GVim-v9.1.1930.glibc2.34-x86_64.AppImage",
+    "version_raw": "https://github.com/vim/vim-appimage/releases/download/v9.1.1933/GVim-v9.1.1933.glibc2.34-x86_64.AppImage",
     "description": "Edit text files"
   },
   {
@@ -9636,7 +9644,7 @@
     "site": "pkgforge-dev/ladybird-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ladybird",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ladybird",
-    "version_raw": "https://github.com/pkgforge-dev/ladybird-appimage/releases/download/snapshot/Ladybird-r72993.fab987d9372-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ladybird-appimage/releases/download/snapshot/Ladybird-r73056.c790de24ddc-1-anylinux-x86_64.AppImage",
     "description": "A truly independent web browser, using a novel engine based on web standards"
   },
   {
@@ -10020,7 +10028,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -14204,7 +14212,7 @@
     "site": "showcheap/postman-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/postman",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/postman",
-    "version_raw": "https://github.com/suciptoid/postman-appimage/releases/download/continous/Postman-11.73.3-x86_64.AppImage",
+    "version_raw": "https://github.com/suciptoid/postman-appimage/releases/download/continous/Postman-11.73.4-x86_64.AppImage",
     "description": "API platform for building and using APIs, AppImage"
   },
   {
@@ -18004,7 +18012,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.0-beta.1.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.10.3.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -20476,7 +20484,7 @@
     "site": "https://www.xnview.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xnviewmp",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xnviewmp",
-    "version_raw": "1.9.5",
+    "version_raw": "",
     "description": "Graphic viewer, browser, converter"
   },
   {
