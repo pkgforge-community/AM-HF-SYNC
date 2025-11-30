@@ -1740,7 +1740,7 @@
     "site": "ivan-hc/Blender-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blender-alpha",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blender-alpha",
-    "version_raw": "",
+    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.1.0-alpha%2Bmain.0d542c69b3f8-x86_64.AppImage",
     "description": "Very fast and versatile 3D modeller/renderer, Alpha"
   },
   {
@@ -5244,7 +5244,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-25.46.6.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -5830,6 +5830,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fixit",
     "version_raw": "",
     "description": "A utility to fix mistakes in your commands"
+  },
+  {
+    "pkg": "fjordlauncher",
+    "site": "unmojang/FjordLauncher",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fjordlauncher",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fjordlauncher",
+    "version_raw": "https://github.com/unmojang/FjordLauncher/releases/download/9.4.2/FjordLauncher-Linux-x86_64.AppImage",
+    "description": "Prism Launcher fork with support for alternative auth servers"
   },
   {
     "pkg": "flacon",
@@ -9604,7 +9612,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -10028,7 +10036,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250724_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -13348,7 +13356,7 @@
     "site": "PCSX2/pcsx2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcsx2",
-    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.5.347/pcsx2-v2.5.347-linux-appimage-x64-Qt.AppImage",
+    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.5.348/pcsx2-v2.5.348-linux-appimage-x64-Qt.AppImage",
     "description": "The Playstation 2 Emulator"
   },
   {
@@ -14788,7 +14796,7 @@
     "site": "pbek/QOwnNotes",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qownnotes",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qownnotes",
-    "version_raw": "https://github.com/pbek/QOwnNotes/releases/download/v25.11.5/QOwnNotes-x86_64-Qt6-experimental.AppImage",
+    "version_raw": "https://github.com/pbek/QOwnNotes/releases/download/v25.12.0/QOwnNotes-x86_64-Qt6-experimental.AppImage",
     "description": "Plain text notepad and todo list manager"
   },
   {
@@ -15140,7 +15148,7 @@
     "site": "CyberTimon/RapidRAW",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rapidraw",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rapidraw",
-    "version_raw": "https://github.com/CyberTimon/RapidRAW/releases/download/v1.4.5/03_RapidRAW_v1.4.5_ubuntu-22.04_amd64.AppImage",
+    "version_raw": "https://github.com/CyberTimon/RapidRAW/releases/download/v1.4.6/03_RapidRAW_v1.4.6_ubuntu-22.04_amd64.AppImage",
     "description": "A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind"
   },
   {
@@ -15660,7 +15668,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-c80aba2342a95a84d44cc5559276bf4609924c72/rpcs3-v0.0.38-18422-c80aba23_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-4bda2f9b0f81557386ff935c944a596e3c5c1ae1/rpcs3-v0.0.38-18426-4bda2f9b_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -16308,7 +16316,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-11-29-78e301c3db87cf517a4bde5542e397ff803859ce/shadps4-linux-sdl-2025-11-29-78e301c.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-11-30-052f3260f391491c29caac6133c2eeb8c236437f/shadps4-linux-sdl-2025-11-30-052f326.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -19932,7 +19940,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4991817166",
+    "version_raw": "4992215742",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
