@@ -1844,7 +1844,7 @@
     "site": "HemantKArya/BloomeeTunes",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bloomee",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bloomee",
-    "version_raw": "https://github.com/HemantKArya/BloomeeTunes/releases/download/v2.13.0%2B184/bloomee_tunes_linux_v2.13.0%2B181.zip",
+    "version_raw": "https://github.com/HemantKArya/BloomeeTunes/releases/download/v2.13.1%2B185/bloomee_tunes_linux_v2.13.1%2B185.zip",
     "description": "Music app designed to bring you ad-free tunes from various sources"
   },
   {
@@ -4036,7 +4036,7 @@
     "site": "pkgforge-dev/DeSmuME-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/desmume",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/desmume",
-    "version_raw": "https://github.com/pkgforge-dev/DeSmuME-AppImage/releases/download/0.9.13-1%402025-11-23_1763907684/desmume-0.9.13-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/DeSmuME-AppImage/releases/download/0.9.13-1%402025-11-30_1764512537/desmume-0.9.13-1-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of the DeSmuME emulator"
   },
   {
@@ -5244,7 +5244,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-25.46.6.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -5868,7 +5868,7 @@
     "site": "https://flashpointarchive.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flashpoint",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/flashpoint",
-    "version_raw": "https://download.flashpointarchive.org/upload/fp14.0.3_lin_20251129.7z",
+    "version_raw": "https://download.flashpointarchive.org/upload/fp14.0.3_lin_20251130.7z",
     "description": "Flashpoint Archive is a community effort to preserve games and animations from the web"
   },
   {
@@ -7852,7 +7852,7 @@
     "site": "hydralauncher/hydra",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hydra",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hydra",
-    "version_raw": "https://github.com/hydralauncher/hydra/releases/download/v3.7.4/hydralauncher-3.7.4.AppImage",
+    "version_raw": "https://github.com/hydralauncher/hydra/releases/download/v3.7.5/hydralauncher-3.7.5.AppImage",
     "description": "Game launcher with its own embedded bittorrent client"
   },
   {
@@ -8364,7 +8364,7 @@
     "site": "janhq/jan",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/jan",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/jan",
-    "version_raw": "https://github.com/janhq/jan/releases/download/v0.7.3/Jan_0.7.3_amd64.AppImage",
+    "version_raw": "https://github.com/janhq/jan/releases/download/v0.7.4/Jan_0.7.4_amd64.AppImage",
     "description": "FOSS Alternative to ChatGPT that runs 100% offline on your computer"
   },
   {
@@ -10028,7 +10028,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250724_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -18960,14 +18960,6 @@
     "description": "Fork of the Veonim Neovim GUI"
   },
   {
-    "pkg": "ultimmc",
-    "site": "UltimMC/Launcher",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ultimmc",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ultimmc",
-    "version_raw": "c95dfe8",
-    "description": "Offline Minecraft launcher"
-  },
-  {
     "pkg": "ultragrid",
     "site": "CESNET/UltraGrid",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ultragrid",
@@ -19158,6 +19150,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uyou",
     "version_raw": "https://github.com/tonylu110/uyou-todo-electron/releases/download/3.1.2/uyou.ToDo-3.1.2.AppImage",
     "description": "This is a todo list with electron"
+  },
+  {
+    "pkg": "uzdoom",
+    "site": "UZDoom/UZDoom",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uzdoom",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uzdoom",
+    "version_raw": "https://github.com/UZDoom/UZDoom/releases/download/4.14.3/Linux-Legacy-UZDoom-4.14.3.AppImage",
+    "description": "UZDoom is a feature centric port for all Doom engine games, based on GZDoom, adding an advanced renderer and powerful scripting capabilities"
   },
   {
     "pkg": "v2ray-desktop",
@@ -19932,7 +19932,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "4989403871",
+    "version_raw": "4991817166",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
