@@ -996,7 +996,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "",
+    "version_raw": "1.0.4",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -4020,7 +4020,7 @@
     "site": "pavlobu/deskreen",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/deskreen",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/deskreen",
-    "version_raw": "https://github.com/pavlobu/deskreen/releases/download/v3.1.14/deskreen-ce-3.1.14-x86_64.AppImage",
+    "version_raw": "https://github.com/pavlobu/deskreen/releases/download/v3.1.15/deskreen-ce-3.1.15-x86_64.AppImage",
     "description": "Turns any device with a web browser into a secondary screen"
   },
   {
@@ -5876,7 +5876,7 @@
     "site": "https://flashpointarchive.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flashpoint",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/flashpoint",
-    "version_raw": "https://download.flashpointarchive.org/upload/fp14.0.3_lin_20251130.7z",
+    "version_raw": "https://download.flashpointarchive.org/upload/fp14.0.3_lin_20251201.7z",
     "description": "Flashpoint Archive is a community effort to preserve games and animations from the web"
   },
   {
@@ -7292,7 +7292,7 @@
     "site": "pkgforge-dev/gpu-screen-recorder-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gpu-screen-recorder",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gpu-screen-recorder",
-    "version_raw": "https://github.com/pkgforge-dev/gpu-screen-recorder-AppImage/releases/download/r1196.d34a103-1%402025-11-15_1763224229/gpu-screen-recorder-r1196.d34a103-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/gpu-screen-recorder-AppImage/releases/download/r1216.059e3db-1%402025-12-01_1764607111/gpu-screen-recorder-r1216.059e3db-1-anylinux-x86_64.AppImage",
     "description": "Unofficial, AppImage of GPU Screen Recorder"
   },
   {
@@ -9464,6 +9464,14 @@
     "description": "A professional FREE open source painting program, dev-edition"
   },
   {
+    "pkg": "kronos",
+    "site": "pkgforge-dev/Kronos-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kronos",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kronos",
+    "version_raw": "https://github.com/pkgforge-dev/Kronos-AppImage/releases/download/2.7.0-2%402025-12-01_1764576907/Kronos-2.7.0-2-anylinux-x86_64.AppImage",
+    "description": "Unofficial, Sega Saturn emulator"
+  },
+  {
     "pkg": "krunker",
     "site": "https://krunker.io",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/krunker",
@@ -9612,7 +9620,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -10036,7 +10044,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250724_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -11860,7 +11868,7 @@
     "site": "tareqimbasher/NetPad",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/netpad",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/netpad",
-    "version_raw": "https://github.com/tareqimbasher/NetPad/releases/download/v0.10.0/netpad-0.10.0-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/tareqimbasher/NetPad/releases/download/v0.11.0/netpad-0.11.0-linux-x86_64.AppImage",
     "description": "A cross-platform C# editor and playground"
   },
   {
@@ -13156,7 +13164,7 @@
     "site": "Portable-Linux-Apps/palemoon-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/palemoon",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/palemoon",
-    "version_raw": "https://github.com/Portable-Linux-Apps/palemoon-AppImage/releases/download/33.9.1%402025-11-29_1764433788/Pale_Moon-33.9.1-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/palemoon-AppImage/releases/download/33.9.1%402025-12-01_1764606941/Pale_Moon-33.9.1-x86_64.AppImage",
     "description": "Web browser, a Firefox fork with a classic UI and modern APIs"
   },
   {
@@ -15412,7 +15420,7 @@
     "site": "https://www.remnote.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/remnote",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/remnote",
-    "version_raw": "https://download2.remnote.io/remnote-desktop2/RemNote-1.22.23.AppImage",
+    "version_raw": "https://download2.remnote.io/remnote-desktop2/RemNote-1.22.27.AppImage",
     "description": "Make flashcards in your notes. Cut study time in half. Use evidence-based memory techniques to create flashcards that resurface at the best time for retention"
   },
   {
@@ -15676,7 +15684,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-25badf9534440e7a723aa14a0f16ddd5aa24b793/rpcs3-v0.0.38-18429-25badf95_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-7e8ed5ecc102609fa0fc80d6a5ffe78d5c21e61e/rpcs3-v0.0.38-18431-7e8ed5ec_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -18036,7 +18044,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.0-beta.1.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.10.3.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -19140,7 +19148,7 @@
     "site": "astral-sh/uv",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uv",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uv",
-    "version_raw": "https://github.com/astral-sh/uv/releases/download/0.9.13/uv-x86_64-unknown-linux-musl.tar.gz",
+    "version_raw": "https://github.com/astral-sh/uv/releases/download/0.9.14/uv-x86_64-unknown-linux-musl.tar.gz",
     "description": "An extremely fast Python package and project manager, written in Rust"
   },
   {
@@ -19940,7 +19948,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5012551006",
+    "version_raw": "5017975676",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
