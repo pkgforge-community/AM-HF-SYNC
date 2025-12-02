@@ -792,6 +792,14 @@
     "description": "AppImage Updater for Humans built with QML/C++ with Qt5"
   },
   {
+    "pkg": "appimg",
+    "site": "pmnzt/appimage-manager",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimg",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimg",
+    "version_raw": "https://github.com/pmnzt/appimage-manager/releases/download/v0.1.1/appimg",
+    "description": "Appimg is a lightweight command-line tool that helps you manage AppImage files on Linux"
+  },
+  {
     "pkg": "appinstall",
     "site": "Drosaca/appImageInstaller",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appinstall",
@@ -1030,6 +1038,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/asgardex",
     "version_raw": "https://github.com/asgardex/asgardex-desktop/releases/download/v1.41.4/ASGARDEX-1.41.4-linux.AppImage",
     "description": "Thorchain wallet desktop app"
+  },
+  {
+    "pkg": "aspect",
+    "site": "https://aspect.bildhuus.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aspect",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aspect",
+    "version_raw": "https://download.bildhuus.com/packages/aspect/aspect-1.0.0-rc.40-x86_64.AppImage",
+    "description": "Photo organization application with support for peer-to-peer based synchronization across devices"
   },
   {
     "pkg": "astroffers",
@@ -1556,7 +1572,7 @@
     "site": "msojocs/bilibili-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bilibili",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bilibili",
-    "version_raw": "https://github.com/msojocs/bilibili-linux/releases/download/v1.17.3-2/bilibili-1.17.3-x86_64.AppImage",
+    "version_raw": "https://github.com/msojocs/bilibili-linux/releases/download/v1.17.4-1/bilibili-1.17.4-x86_64.AppImage",
     "description": "Bilibili official desktop client"
   },
   {
@@ -1996,7 +2012,7 @@
     "site": "ivan-hc/Bottles-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bottles",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bottles",
-    "version_raw": "https://github.com/ivan-hc/Bottles-appimage/releases/download/60.0-1/Bottles_60.0-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Bottles-appimage/releases/download/20251202-151838/Bottles_60.0-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial. Manage wine prefixes and run Windows software & games in a new way"
   },
   {
@@ -2710,6 +2726,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cherrytree",
     "version_raw": "https://github.com/giuspen/cherrytree/releases/download/v1.6.2/CherryTree-1.6.2-x86_64.AppImage",
     "description": "A hierarchical note taking application"
+  },
+  {
+    "pkg": "chessmd",
+    "site": "ChessMD/ChessMD",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chessmd",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chessmd",
+    "version_raw": "https://github.com/ChessMD/ChessMD/releases/download/v1.0/ChessMD.tar.gz",
+    "description": "Open source chess training software. Play against bots, analyze with engines, explore chess openings, and more"
   },
   {
     "pkg": "chimeradesk",
@@ -4392,6 +4416,14 @@
     "description": "draw.io desktop"
   },
   {
+    "pkg": "drawish",
+    "site": "nikkNizz/Drawish",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/drawish",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/drawish",
+    "version_raw": "https://github.com/nikkNizz/Drawish/releases/download/v2.5/Drawish_Linux_2.5.AppImage",
+    "description": "Simple, yet complete drawing program"
+  },
+  {
     "pkg": "drawpile",
     "site": "drawpile/Drawpile",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/drawpile",
@@ -5260,7 +5292,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-25.46.7.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -6492,7 +6524,7 @@
     "site": "4ian/GDevelop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gdevelop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gdevelop",
-    "version_raw": "https://github.com/4ian/GDevelop/releases/download/v5.5.248/GDevelop-5-5.5.248.AppImage",
+    "version_raw": "https://github.com/4ian/GDevelop/releases/download/v5.6.249/GDevelop-5-5.6.249.AppImage",
     "description": "Cross-platform game engine designed to be used by everyone"
   },
   {
@@ -9644,7 +9676,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -10076,7 +10108,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250724_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -11716,7 +11748,7 @@
     "site": "mytonwalletorg/mytonwallet",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mytonwallet",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mytonwallet",
-    "version_raw": "https://github.com/mytonwallet-org/mytonwallet/releases/download/v4.4.1/MyTonWallet-x86_64.AppImage",
+    "version_raw": "https://github.com/mytonwallet-org/mytonwallet/releases/download/v4.4.2/MyTonWallet-x86_64.AppImage",
     "description": "Feature-rich web wallet and browser extension for TON Network"
   },
   {
@@ -13112,6 +13144,14 @@
     "description": "A comprehensive Ontology desktop wallet"
   },
   {
+    "pkg": "owncloud",
+    "site": "https://owncloud.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/owncloud",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/owncloud",
+    "version_raw": "https://download.owncloud.com/desktop/ownCloud/stable/6.0.2.17506/linux-appimage/ownCloud-6.0.2.17506-x86_64.AppImage",
+    "description": "Desktop Syncing Client for ownCloud. ownCloud, a Kiteworks Company, offers file sharing and collaboration trusted by 200+ million users worldwide regardless of device or location"
+  },
+  {
     "pkg": "oxen-gui-wallet",
     "site": "oxen-io/oxen-electron-gui-wallet",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/oxen-gui-wallet",
@@ -13284,7 +13324,7 @@
     "site": "Scille/parsec-cloud",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parsec",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parsec",
-    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.7.1-a.0.dev.20423%2Bbe8d1ce_linux_x86_64.unsigned.AppImage",
+    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/v3.7.1-rc.0/Parsec_3.7.1-rc.0_linux_x86_64.unsigned.AppImage",
     "description": "Open source Dropbox-like file sharing with full client encryption"
   },
   {
@@ -14228,7 +14268,7 @@
     "site": "zidoro/pomatez",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pomatez",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pomatez",
-    "version_raw": "https://github.com/zidoro/pomatez/releases/download/v1.8.0/Pomatez-v1.8.0-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/zidoro/pomatez/releases/download/v1.9.0/Pomatez-v1.9.0-linux-x86_64.AppImage",
     "description": "Stay Focused. Take a Break"
   },
   {
@@ -15484,7 +15524,7 @@
     "site": "https://www.remnote.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/remnote",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/remnote",
-    "version_raw": "https://download2.remnote.io/remnote-desktop2/RemNote-1.22.27.AppImage",
+    "version_raw": "https://download2.remnote.io/remnote-desktop2/RemNote-1.22.28.AppImage",
     "description": "Make flashcards in your notes. Cut study time in half. Use evidence-based memory techniques to create flashcards that resurface at the best time for retention"
   },
   {
@@ -18332,7 +18372,7 @@
     "site": "texstudio-org/texstudio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/texstudio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/texstudio",
-    "version_raw": "https://github.com/texstudio-org/texstudio/releases/download/4.9.0/texstudio-4.9.0-x86_64.AppImage",
+    "version_raw": "https://github.com/texstudio-org/texstudio/releases/download/4.9.1beta1/texstudio-4.9.1beta1-x86_64.AppImage",
     "description": "LaTeX development environment"
   },
   {
@@ -18574,6 +18614,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tlock",
     "version_raw": "https://github.com/eklairs/tlock/releases/download/v1.0.0/tlock-v1.0.0-linux-amd64.tar.gz",
     "description": "Two-Factor Authentication Tokens Manager in Terminal"
+  },
+  {
+    "pkg": "tlum",
+    "site": "lyskouski/app-language",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tlum",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tlum",
+    "version_raw": "https://github.com/lyskouski/app-language/releases/download/v0.0.11/tlum_LinuxAppImage.AppImage",
+    "description": "Tlum - open-source cross-platform language learning application leverages the power of natural language processing to pinpoint pronunciation gaps and enhance articulation, machine learning to boost vocabulary proficiency"
   },
   {
     "pkg": "tmon",
@@ -20044,7 +20092,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5039162959",
+    "version_raw": "5043797538",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -20580,7 +20628,7 @@
     "site": "smeighan/xLights",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xlights",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xlights",
-    "version_raw": "https://github.com/xLightsSequencer/xLights/releases/download/2025.12/xLights-2025.12-x86_64.AppImage",
+    "version_raw": "https://github.com/xLightsSequencer/xLights/releases/download/2025.13/xLights-2025.13-x86_64.AppImage",
     "description": "A sequencer for Lights and sequences manager"
   },
   {
