@@ -996,7 +996,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "",
+    "version_raw": "1.0.4",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -3700,7 +3700,7 @@
     "site": "https://www.cursor.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cursor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cursor",
-    "version_raw": "https://downloads.cursor.com/production/2e353c5f5b30150ff7b874dee5a87660693d9de6/linux/x64/Cursor-2.1.42-x86_64.AppImage",
+    "version_raw": "https://downloads.cursor.com/production/f6a8593b2b7c61c2063c79d5a8fcd248c9db458a/linux/x64/Cursor-2.1.44-x86_64.AppImage",
     "description": "Built to make you extraordinarily productive, Cursor is the best way to code with AI"
   },
   {
@@ -8372,7 +8372,7 @@
     "site": "janhq/jan",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/jan",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/jan",
-    "version_raw": "https://github.com/janhq/jan/releases/download/v0.7.4/Jan_0.7.4_amd64.AppImage",
+    "version_raw": "https://github.com/janhq/jan/releases/download/v0.7.3/Jan_0.7.3_amd64.AppImage",
     "description": "FOSS Alternative to ChatGPT that runs 100% offline on your computer"
   },
   {
@@ -10044,7 +10044,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250724_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -14744,6 +14744,14 @@
     "description": "Minimal desktop app to create QR codes"
   },
   {
+    "pkg": "qimgv",
+    "site": "pkgforge-dev/Qimgv-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qimgv",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qimgv",
+    "version_raw": "https://github.com/pkgforge-dev/Qimgv-AppImage/releases/download/1.0.2.r183.g6bdfad1-1.4%402025-12-02_1764638140/qimgv-1.0.2.r183.g6bdfad1-1.4-anylinux-x86_64.AppImage",
+    "description": "Unofficial, Image viewer. Fast, easy to use. Optional video support"
+  },
+  {
     "pkg": "qmasterpassword",
     "site": "bkueng/qMasterPassword",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qmasterpassword",
@@ -18044,7 +18052,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.10.3.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.0-beta.1.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -19948,7 +19956,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5027107367",
+    "version_raw": "5028321812",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -20452,7 +20460,7 @@
     "site": "has207/xenia-edge",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xenia-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xenia-edge",
-    "version_raw": "https://github.com/has207/xenia-edge/releases/download/f62a420/xenia_edge_linux.AppImage",
+    "version_raw": "https://github.com/has207/xenia-edge/releases/download/e3a1f92/xenia_edge_linux.AppImage",
     "description": "Xbox 360 Emulator Research Project, fork of the Xenia emulator, with the aim of quicker iteration and improvements to Vulkan backend"
   },
   {
