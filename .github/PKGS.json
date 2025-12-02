@@ -208,6 +208,14 @@
     "description": "Electron app including testing workspaces"
   },
   {
+    "pkg": "ai-gate",
+    "site": "https://sourceforge.net/p/ai-gate",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ai-gate",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ai-gate",
+    "version_raw": "https://sourceforge.net/projects/ai-gate/files/v4.0.1/Linux/AI.Gate-4.0.1-Linux.AppImage/download",
+    "description": "A Desktop app which brings access of popular AI apps to your desktop"
+  },
+  {
     "pkg": "aichat",
     "site": "sigoden/aichat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aichat",
@@ -1152,6 +1160,14 @@
     "description": "Augur Desktop Application"
   },
   {
+    "pkg": "aurora",
+    "site": "legacyO7/Aurora",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aurora",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aurora",
+    "version_raw": "https://github.com/legacyO7/Aurora/releases/download/3.10.13-beta%2B1/aurora-linux-3.10.13-beta%2B1.AppImage",
+    "description": "A utility to control RGB keyboard back-light and charging threshold for Asus TUF-gaming laptops"
+  },
+  {
     "pkg": "auryo",
     "site": "Superjo149/auryo",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/auryo",
@@ -1286,6 +1302,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bambustudio",
     "version_raw": "https://github.com/bambulab/BambuStudio/releases/download/v02.04.00.70/Bambu_Studio_linux_fedora-v02.04.00.70.AppImage",
     "description": "PC Software for BambuLab's 3D printers"
+  },
+  {
+    "pkg": "bananas",
+    "site": "mistweaverco/bananas",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bananas",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bananas",
+    "version_raw": "https://github.com/mistweaverco/bananas/releases/download/v0.0.22/bananas_x86_64.AppImage",
+    "description": "Bananas, Cross-Platform screen sharing made simple"
   },
   {
     "pkg": "banban",
@@ -1486,6 +1510,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bench-cli",
     "version_raw": "https://github.com/Lateralus138/bench-cli/releases/download/Continuous/bench-x86_64.AppImage",
     "description": "CLI tool to benchmark commands, written in `Fortran`"
+  },
+  {
+    "pkg": "berserkerquake2",
+    "site": "tx00100xt/BerserkerQuake2",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/berserkerquake2",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/berserkerquake2",
+    "version_raw": "https://github.com/tx00100xt/BerserkerQuake2/releases/download/1.45.1/BerserkerQuake2-1.45.1-glibc-2.23-x86_64.AppImage",
+    "description": "Berserker@Quake2 game engine, ported to SDL2 library"
   },
   {
     "pkg": "better-osu-skills",
@@ -3216,6 +3248,14 @@
     "description": "Easy to use unprivileged and portable Arch Linux container"
   },
   {
+    "pkg": "converse-desktop",
+    "site": "conversejs/converse-desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/converse-desktop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/converse-desktop",
+    "version_raw": "https://github.com/conversejs/converse-desktop/releases/download/v12.0.0/converse_desktop-12.0.0_x86_64.AppImage",
+    "description": "Electron-based Desktop client for Converse.js"
+  },
+  {
     "pkg": "converseen",
     "site": "Faster3ck/Converseen",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/converseen",
@@ -3846,6 +3886,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dawnlightsearch",
     "version_raw": "https://github.com/chg-hou/DawnlightSearch/releases/download/v0.1.2.6a/DawnlightSearch-0.1.2.6-x86_64.AppImage",
     "description": "A Linux version of Everything Search Engine"
+  },
+  {
+    "pkg": "dayon",
+    "site": "RetGal/Dayon",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dayon",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dayon",
+    "version_raw": "https://github.com/RetGal/Dayon/releases/download/v17.0.0/dayon-x86_64.AppImage",
+    "description": "Dayon! - A cross-platform remote desktop assistance solution for your family and friends"
   },
   {
     "pkg": "dbeaver-ce",
@@ -5004,7 +5052,7 @@
     "site": "yphil-dev/Emulsion",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/emulsion",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/emulsion",
-    "version_raw": "https://github.com/yphil-dev/Emulsion/releases/download/0.10.11/Emulsion-0.10.11-x86_64.AppImage",
+    "version_raw": "https://github.com/yphil-dev/Emulsion/releases/download/0.10.13/Emulsion-0.10.13-x86_64.AppImage",
     "description": "Better gaming through chemistry"
   },
   {
@@ -5796,7 +5844,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-beta-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-beta-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251201-202220/Firefox-beta-146.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251202-202458/Firefox-beta-146.0-x86_64.AppImage",
     "description": "Unofficial, AppImage of the Web Browser, Beta"
   },
   {
@@ -5804,7 +5852,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-devedition-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-devedition-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251201-202220/Firefox-devedition-146.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251202-202458/Firefox-devedition-146.0-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, Dev"
   },
   {
@@ -5812,7 +5860,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-esr-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-esr-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251201-202220/Firefox-esr-140.5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251202-202458/Firefox-esr-140.5.0-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, ESR"
   },
   {
@@ -5820,7 +5868,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-nightly-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-nightly-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251201-202220/Firefox-nightly-147.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251202-202458/Firefox-nightly-147.0a1-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, Nightly"
   },
   {
@@ -8352,6 +8400,14 @@
     "description": "Connect Four video game with a 3-Dimentional rendering"
   },
   {
+    "pkg": "iqpuzzle",
+    "site": "ElTh0r0/iqpuzzle",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/iqpuzzle",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/iqpuzzle",
+    "version_raw": "https://github.com/ElTh0r0/iqpuzzle/releases/download/v1.4.2/iQPuzzle-1.4.2-x86_64.AppImage",
+    "description": "A challenging pentomino puzzle"
+  },
+  {
     "pkg": "irccloud-desktop",
     "site": "irccloud/irccloud-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/irccloud-desktop",
@@ -8828,7 +8884,7 @@
     "site": "kando-menu/kando",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kando",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kando",
-    "version_raw": "https://github.com/kando-menu/kando/releases/download/v2.1.1/Kando-2.1.1-x86_64.AppImage",
+    "version_raw": "https://github.com/kando-menu/kando/releases/download/v2.1.2/Kando-2.1.2-x86_64.AppImage",
     "description": "The Cross-Platform Pie Menu"
   },
   {
@@ -9676,7 +9732,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -10108,7 +10164,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250724_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -10486,6 +10542,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/makagiga",
     "version_raw": "https://sourceforge.net/projects/makagiga/files/Makagiga%206.x/6.32/Makagiga.AppImage/download",
     "description": "To-do manager, notepad, RSS reader and much more"
+  },
+  {
+    "pkg": "makhber",
+    "site": "Makhber/makhber",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/makhber",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/makhber",
+    "version_raw": "https://github.com/Makhber/makhber/releases/download/0.9.8.3/Makhber-0.9.8.3-x86_64.AppImage",
+    "description": "Makhber is a free application for Visualization and Analysis of Scientific Data"
   },
   {
     "pkg": "makoureactor",
@@ -13584,6 +13648,14 @@
     "description": "Desktop software for managing a homestead using permaculture design"
   },
   {
+    "pkg": "perplexity-ai-app",
+    "site": "https://sourceforge.net/p/perplexity-ai-desktop-app",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/perplexity-ai-app",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/perplexity-ai-app",
+    "version_raw": "https://sourceforge.net/projects/perplexity-ai-desktop-app/files/v4.0.1/Linux/Perplexity-AI-4.0.1-Linux.AppImage/download",
+    "description": "Perplexity AI Desktop app eases the process to access Perplexity AI"
+  },
+  {
     "pkg": "pet",
     "site": "knqyf263/pet",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pet",
@@ -16392,6 +16464,14 @@
     "description": "Another way to set colors in Linux shells"
   },
   {
+    "pkg": "sevicebus-browser",
+    "site": "mligtenberg/ServicebusBrowser",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sevicebus-browser",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sevicebus-browser",
+    "version_raw": "https://github.com/mligtenberg/ServicebusBrowser/releases/download/1.0.0/servicebus-browser-linux.AppImage",
+    "description": "A cross platform tool to manage your Azure Service Bus instances"
+  },
+  {
     "pkg": "sf-tube",
     "site": "prateekmedia/sftube",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sf-tube",
@@ -16726,6 +16806,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/simplex-chat",
     "version_raw": "https://github.com/simplex-chat/simplex-chat/releases/download/v6.5.0-beta.1/simplex-desktop-x86_64.AppImage",
     "description": "First messaging platform operating without user identifiers"
+  },
+  {
+    "pkg": "simplex-solver",
+    "site": "xeland314/simplex",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/simplex-solver",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/simplex-solver",
+    "version_raw": "https://github.com/xeland314/simplex/releases/download/v0.1.1/SimplexSolver-x86_64.AppImage",
+    "description": "Simplex for optimization problems"
   },
   {
     "pkg": "simtoolkitpro",
@@ -17518,6 +17606,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/stellarium",
     "version_raw": "https://github.com/Stellarium/stellarium/releases/download/v25.3/Stellarium-25.3-qt5-x86_64.AppImage",
     "description": "Planetarium that shows a realistic sky in 3D"
+  },
+  {
+    "pkg": "stellarmaps",
+    "site": "oatmealproblem/stellarmaps",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/stellarmaps",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/stellarmaps",
+    "version_raw": "https://github.com/oatmealproblem/stellarmaps/releases/download/stellarmaps-v0.12.7/StellarMaps_0.12.7_Linux.AppImage",
+    "description": "Stylized maps from Stellaris saves"
   },
   {
     "pkg": "stew",
@@ -18500,7 +18596,7 @@
     "site": "edrlab/thorium-reader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium-reader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium-reader",
-    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.0-alpha.1.19851652223.AppImage",
+    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.0-alpha.1.19872259615.AppImage",
     "description": "Desktop application to read ebooks"
   },
   {
@@ -18516,7 +18612,7 @@
     "site": "ivan-hc/Thunderbird-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-beta-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-beta-appimage",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20251201-202220/Thunderbird-beta-146.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20251202-202602/Thunderbird-beta-146.0-x86_64.AppImage",
     "description": "Unofficial. Free and open source eMail client, Beta Edition"
   },
   {
@@ -18524,7 +18620,7 @@
     "site": "ivan-hc/Thunderbird-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-nightly-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-nightly-appimage",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20251201-202220/Thunderbird-nightly-147.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20251202-202602/Thunderbird-nightly-147.0a1-x86_64.AppImage",
     "description": "Unofficial. Free and open source eMail client, Nightly Edition"
   },
   {
@@ -20092,7 +20188,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5045990652",
+    "version_raw": "5048443409",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
