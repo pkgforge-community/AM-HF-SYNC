@@ -1740,7 +1740,7 @@
     "site": "ivan-hc/Blender-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blender-alpha",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blender-alpha",
-    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.1.0-alpha%2Bmain.b5fd02b5ccec-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.1.0-alpha%2Bmain.dcbd5b433a8e-x86_64.AppImage",
     "description": "Very fast and versatile 3D modeller/renderer, Alpha"
   },
   {
@@ -2262,6 +2262,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bytespeichertrayicon",
     "version_raw": "https://github.com/Bytespeicher/BytespeicherTrayIcon/releases/download/20190425140011/byteicon-d94707a-x86_64.AppImage",
     "description": "Bytespeicher Status App"
+  },
+  {
+    "pkg": "c-evo",
+    "site": "http://c-evo.org",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/c-evo",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/c-evo",
+    "version_raw": "https://svn.zdechov.net/c-evo/bin/appimage/C-evo-nh-1.3.8-x86_64.AppImage",
+    "description": "C-evo is an empire building game based on Civilization II, but with a different focus. It aims to be a pure game with all players playing to win"
   },
   {
     "pkg": "cabal-desktop",
@@ -4268,7 +4276,7 @@
     "site": "pkgforge-dev/Dolphin-emu-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dolphin-emu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dolphin-emu",
-    "version_raw": "https://github.com/pkgforge-dev/Dolphin-emu-AppImage/releases/download/2509%402025-10-01_1759304685/Dolphin_Emulator-2509-anylinux.dwarfs-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Dolphin-emu-AppImage/releases/download/2509%402025-12-02_1764646513/Dolphin_Emulator-2509-anylinux.dwarfs-x86_64.AppImage",
     "description": "Unofficial, GameCube/Nintento Wii emulator with improvements"
   },
   {
@@ -4958,6 +4966,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/emudeck",
     "version_raw": "https://github.com/EmuDeck/emudeck-electron/releases/download/v2.5.0/EmuDeck-2.5.0.AppImage",
     "description": "EmuDeck Desktop Electron Wrapper"
+  },
+  {
+    "pkg": "emulsion",
+    "site": "yphil-dev/Emulsion",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/emulsion",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/emulsion",
+    "version_raw": "https://github.com/yphil-dev/Emulsion/releases/download/0.10.11/Emulsion-0.10.11-x86_64.AppImage",
+    "description": "Better gaming through chemistry"
   },
   {
     "pkg": "en-croissant",
@@ -5774,6 +5790,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-nightly-appimage",
     "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20251201-202220/Firefox-nightly-147.0a1-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, Nightly"
+  },
+  {
+    "pkg": "fireminipro",
+    "site": "Jartza/fireminipro",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fireminipro",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fireminipro",
+    "version_raw": "https://github.com/Jartza/fireminipro/releases/download/v0.1.0/FireMinipro-0.1.0-x86_64.AppImage",
+    "description": "GUI for minipro CLI"
   },
   {
     "pkg": "firetail",
@@ -6724,7 +6748,7 @@
     "site": "ivan-hc/GIMP-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gimp-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gimp-git",
-    "version_raw": "https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_56408.792c52e04f3-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_56411.eb4dd8d4614-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial, Cross-platform image and photo editor, built from GIT"
   },
   {
@@ -9752,6 +9776,14 @@
     "description": "Generic application's launcher"
   },
   {
+    "pkg": "lazpaint",
+    "site": "bgrabitmap/lazpaint",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lazpaint",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lazpaint",
+    "version_raw": "https://github.com/bgrabitmap/lazpaint/releases/download/v7.3/lazpaint7.3_x86_64.AppImage",
+    "description": "Cross-platform image editor with raster and vector layers similar to Paint.Net written in Lazarus (Free Pascal)"
+  },
+  {
     "pkg": "lazygit",
     "site": "jesseduffield/lazygit",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lazygit",
@@ -10606,6 +10638,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/marvin",
     "version_raw": "https://github.com/rolandbernard/marvin/releases/download/v0.4.9/Marvin-0.4.9.AppImage",
     "description": "Open Source record and playback test automation for the web"
+  },
+  {
+    "pkg": "master-pdf-editor",
+    "site": "https://code-industry.net",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/master-pdf-editor",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/master-pdf-editor",
+    "version_raw": "https://code-industry.net/public/Master_PDF_Editor_5.9.94-x86_64.AppImage",
+    "description": "Master PDF Editor allows you to create, edit, preview, encrypt, sign and print PDF documents"
   },
   {
     "pkg": "mastervyrn",
@@ -13136,6 +13176,14 @@
     "description": "Electron Wrapper for Padloc app"
   },
   {
+    "pkg": "pageedit",
+    "site": "Sigil-Ebook/PageEdit",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pageedit",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pageedit",
+    "version_raw": "https://github.com/Sigil-Ebook/PageEdit/releases/download/2.7.0/PageEdit-2.7.0-x86_64.AppImage",
+    "description": "EPub XHTML Visual Editor"
+  },
+  {
     "pkg": "painel-web",
     "site": "novosga/painel-web",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/painel-web",
@@ -13462,6 +13510,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pencil",
     "version_raw": "https://github.com/pencil2d/pencil/releases/download/v0.7.0/pencil2d-linux-amd64-0.7.0.AppImage",
     "description": "Pencil2D is an easy, intuitive tool to make 2D hand-drawn animations"
+  },
+  {
+    "pkg": "penguins-eggs",
+    "site": "pieroproietti/penguins-eggs",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/penguins-eggs",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/penguins-eggs",
+    "version_raw": "https://github.com/pieroproietti/penguins-eggs/releases/download/v25.11.29/penguins-eggs-25.11.29-1-x86_64.AppImage",
+    "description": "A professional and universal remastering tool for all major distributions"
   },
   {
     "pkg": "pennywise",
@@ -16472,6 +16528,14 @@
     "description": "Signal analyzer, using Suscan core and Sigutils DSP library"
   },
   {
+    "pkg": "sigil",
+    "site": "Sigil-Ebook/Sigil",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sigil",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sigil",
+    "version_raw": "https://github.com/Sigil-Ebook/Sigil/releases/download/2.7.0/Sigil-2.7.0-x86_64.AppImage",
+    "description": "Sigil is a multi-platform EPUB ebook editor"
+  },
+  {
     "pkg": "sigma-file-manager",
     "site": "aleksey-hoffman/sigma-file-manager",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sigma-file-manager",
@@ -18052,7 +18116,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.0-beta.1.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.10.3.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -19216,6 +19280,14 @@
     "description": "Unofficial. Aria2-based advanced download manager with support for downloading files, torrents, video and audio + support for Chromium and Firefox extension"
   },
   {
+    "pkg": "vcard-studio",
+    "site": "https://app.zdechov.net/vcard-studio",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vcard-studio",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vcard-studio",
+    "version_raw": "https://svn.zdechov.net/vcard-studio/bin/appimage/vCardStudio-1.5.0-x86_64.AppImage",
+    "description": "A contact management application with support for vCard file format (.vcf)"
+  },
+  {
     "pkg": "vcloudcam",
     "site": "quocson95/vCloudcam",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vcloudcam",
@@ -19512,6 +19584,14 @@
     "description": "Editor for CDISC Define-XML standard"
   },
   {
+    "pkg": "visual-lvm",
+    "site": "welees/visual-lvm",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/visual-lvm",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/visual-lvm",
+    "version_raw": "https://github.com/welees/visual-lvm/releases/download/v5.6.1408/visual-lvm-remote_5.6.1408_x86_64.AppImage",
+    "description": "Visual LVM the remote gui lvm manager for all linux platform"
+  },
+  {
     "pkg": "visualfamilytree",
     "site": "Jisco/VisualFamilyTree",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/visualfamilytree",
@@ -19612,7 +19692,7 @@
     "site": "ivan-hc/VLC-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vlc-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vlc-git",
-    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r35341.g7775fc1-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r35364.ga0b766e-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial. Free and Open Source Video & Media player, GIT version"
   },
   {
@@ -19956,7 +20036,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5028321812",
+    "version_raw": "5028923518",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
