@@ -536,6 +536,14 @@
     "description": "User-friendly Stop-Motion Animation Software, PRO"
   },
   {
+    "pkg": "animecoin",
+    "site": "Animecointeam/Animecoin",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/animecoin",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/animecoin",
+    "version_raw": "https://github.com/Animecointeam/Animecoin/releases/download/0.10.2-beta2/Animecoin-0.10.2beta2-x86_64.AppImage",
+    "description": "Animecoin is a free open source peer-to-peer electronic cash system that is completely decentralized, without the need for a central server or trusted parties. Users hold the crypto keys to their own money and transact directly with each other, with the help of a P2P network to check for double-spending"
+  },
+  {
     "pkg": "animos",
     "site": "keerthivasansa/animos",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/animos",
@@ -1414,6 +1422,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bbg",
     "version_raw": "https://github.com/bbg-contributors/bbg/releases/download/20250929/bbg-20250929-x86_64.AppImage",
     "description": "A static blog generator based on Electron Technology"
+  },
+  {
+    "pkg": "bchat-desktop",
+    "site": "Beldex-Coin/bchat-desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bchat-desktop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bchat-desktop",
+    "version_raw": "https://github.com/Beldex-Coin/bchat-desktop/releases/download/v2.7.2/bchat-desktop-linux-x86_64-2.7.2.AppImage",
+    "description": "About A decentralized cionfidential messaging app that runs on Beldex network"
   },
   {
     "pkg": "bdash",
@@ -4356,7 +4372,7 @@
     "site": "pkgforge-dev/Dolphin-emu-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dolphin-emu-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dolphin-emu-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/Dolphin-emu-AppImage/releases/download/nightly/Dolphin_Emulator-f842af8b0-anylinux.dwarfs-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Dolphin-emu-AppImage/releases/download/nightly/Dolphin_Emulator-213dc1c9a-anylinux.dwarfs-x86_64.AppImage",
     "description": "Unofficial nightly AppImage of the Dolphin emulator"
   },
   {
@@ -4928,6 +4944,14 @@
     "description": "A simple, but powerful Litecoin wallet"
   },
   {
+    "pkg": "electrum-neurai",
+    "site": "NeuraiProject/electrum-neurai",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/electrum-neurai",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/electrum-neurai",
+    "version_raw": "https://github.com/NeuraiProject/electrum-neurai/releases/download/v0.2.2/electrum-neurai-v0.2.2-x86_64.AppImage",
+    "description": "Neurai is a decentralized open source protocol optimized to transfer cryptoassets from one party to another on Layer1. The project aims to integrate NFT and Tokens with IoT and artificial intelligence applications"
+  },
+  {
     "pkg": "electrum-ravencoin",
     "site": "Electrum-RVN-SIG/electrum-ravencoin",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/electrum-ravencoin",
@@ -4942,6 +4966,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/electrumfair",
     "version_raw": "https://github.com/faircoin/electrumfair/releases/download/3.3.4/ElectrumFair-3.3.4.AppImage",
     "description": "Lightweight FairCoin Client"
+  },
+  {
+    "pkg": "electrumsvp",
+    "site": "TruthMachine/ElectrumSVP",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/electrumsvp",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/electrumsvp",
+    "version_raw": "https://github.com/TruthMachine/ElectrumSVP/releases/download/v0.0.1-beta/ElectrumSVP-0.0.1-beta.AppImage",
+    "description": "Bitcoin BSV wallet, fork of ElectrumSV"
   },
   {
     "pkg": "element",
@@ -5676,7 +5708,7 @@
     "site": "RPGLogs/Uploaders-fflogs",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fflogs-uploader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fflogs-uploader",
-    "version_raw": "https://github.com/RPGLogs/Uploaders-fflogs/releases/download/v8.17.101/fflogs-v8.17.101.AppImage",
+    "version_raw": "https://github.com/RPGLogs/Uploaders-fflogs/releases/download/v8.17.115/fflogs-v8.17.115.AppImage",
     "description": "FFLogs Uploader appimage"
   },
   {
@@ -6308,7 +6340,7 @@
     "site": "hkneptune/FreeFileSync",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/freefilesync",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/freefilesync",
-    "version_raw": "https://github.com/hkneptune/FreeFileSync/releases/download/v14.5/FreeFileSync_14.5_Linux_i686.tar.gz",
+    "version_raw": "https://github.com/hkneptune/FreeFileSync/releases/download/v14.6/FreeFileSync_14.6_Linux_x86_64.tar.gz",
     "description": "folder comparison and synchronization software"
   },
   {
@@ -9740,7 +9772,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -10182,6 +10214,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxtoys",
     "version_raw": "https://github.com/psygreg/linuxtoys/releases/download/4.3/LinuxToys_-x86_64.AppImage",
     "description": "A collection of tools for Linux in a user-friendly way"
+  },
+  {
+    "pkg": "linuxwallpaper",
+    "site": "backspec3/LinuxBingWallpaper",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxwallpaper",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxwallpaper",
+    "version_raw": "https://github.com/backspec3/LinuxBingWallpaper/releases/download/v2.0/LinuxBingWallpaper.AppImage",
+    "description": "Bing wallpaper of the day"
   },
   {
     "pkg": "linwood-butterfly",
@@ -12052,7 +12092,7 @@
     "site": "nextcloud-releases/desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nextcloud",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nextcloud",
-    "version_raw": "https://github.com/nextcloud-releases/desktop/releases/download/v4.0.2/Nextcloud-4.0.2-x86_64.AppImage",
+    "version_raw": "https://github.com/nextcloud-releases/desktop/releases/download/v4.0.3/Nextcloud-4.0.3-x86_64.AppImage",
     "description": "Client-server software for creating & using file hosting services"
   },
   {
@@ -15876,7 +15916,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-2a6f1cf35c00e1edb5e8bed78b1ce7fa334b583e/rpcs3-v0.0.38-18440-2a6f1cf3_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-e3f5f2d14e44a44eec9f8c0f79f53893ff04fdbc/rpcs3-v0.0.38-18442-e3f5f2d1_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -17708,7 +17748,7 @@
     "site": "https://gitlab.com/posktomten/streamcapture2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/streamcapture2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/streamcapture2",
-    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=sXVJmZrbz",
+    "version_raw": "",
     "description": "Download video streams"
   },
   {
@@ -17876,7 +17916,7 @@
     "site": "https://sunsama.com/",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sunsama",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sunsama",
-    "version_raw": "3.2.4",
+    "version_raw": "3.2.5",
     "description": "The daily planner for elite professionals"
   },
   {
@@ -20196,7 +20236,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5067582482",
+    "version_raw": "5071403354",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -20846,6 +20886,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xxh",
     "version_raw": "https://github.com/xxh/xxh/releases/download/0.8.14/xxh-x86_64.AppImage",
     "description": "Bring your favorite shell wherever you go through the ssh"
+  },
+  {
+    "pkg": "xyce",
+    "site": "NyanCAD/Xyce-build",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xyce",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xyce",
+    "version_raw": "https://github.com/NyanCAD/Xyce-build/releases/download/v7.10.1/Xyce-1.0.0-x86_64.AppImage",
+    "description": "Xyce Parallel Electronic Simulator"
   },
   {
     "pkg": "yaf",
