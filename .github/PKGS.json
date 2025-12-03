@@ -3844,7 +3844,7 @@
     "site": "darktable-org/darktable",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/darktable-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/darktable-nightly",
-    "version_raw": "https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.3.0%2B953.g85371331a5-x86_64.AppImage",
+    "version_raw": "https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.3.0%2B957.g133159f39c-x86_64.AppImage",
     "description": "Photography workflow app and raw developer, nightly"
   },
   {
@@ -4350,6 +4350,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dolphin-emu",
     "version_raw": "https://github.com/pkgforge-dev/Dolphin-emu-AppImage/releases/download/2509%402025-12-02_1764646513/Dolphin_Emulator-2509-anylinux.dwarfs-x86_64.AppImage",
     "description": "Unofficial, GameCube/Nintento Wii emulator with improvements"
+  },
+  {
+    "pkg": "dolphin-emu-nightly",
+    "site": "pkgforge-dev/Dolphin-emu-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dolphin-emu-nightly",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dolphin-emu-nightly",
+    "version_raw": "https://github.com/pkgforge-dev/Dolphin-emu-AppImage/releases/download/nightly/Dolphin_Emulator-f842af8b0-anylinux.dwarfs-x86_64.AppImage",
+    "description": "Unofficial nightly AppImage of the Dolphin emulator"
   },
   {
     "pkg": "domterm",
@@ -5052,7 +5060,7 @@
     "site": "yphil-dev/Emulsion",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/emulsion",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/emulsion",
-    "version_raw": "https://github.com/yphil-dev/Emulsion/releases/download/0.10.13/Emulsion-0.10.13-x86_64.AppImage",
+    "version_raw": "https://github.com/yphil-dev/Emulsion/releases/download/0.10.15/Emulsion-0.10.15-x86_64.AppImage",
     "description": "Better gaming through chemistry"
   },
   {
@@ -6476,7 +6484,7 @@
     "site": "gaiasky/gaiasky",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gaiasky",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gaiasky",
-    "version_raw": "",
+    "version_raw": "https://codeberg.org/gaiasky/gaiasky/releases/download/3.6.7/gaiasky_3.6.7.5160f2cfe_x86_64.appimage",
     "description": "Gaia Sky, a real-time 3D space simulator & astronomy visualisation"
   },
   {
@@ -6780,7 +6788,7 @@
     "site": "pkgforge-dev/ghostty-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ghostty-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ghostty-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.0-main%2B5714ed0-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.0-main%2Bb4a4830-x86_64.AppImage",
     "description": "Unoffical, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (Tip, Nightly)"
   },
   {
@@ -8356,7 +8364,7 @@
     "site": "https://smxi.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/inxi",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/inxi",
-    "version_raw": "",
+    "version_raw": "6.1",
     "description": "A full featured CLI system information tool"
   },
   {
@@ -15868,7 +15876,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-6489fca16b81e4517a71ae7773819b1bbadd312f/rpcs3-v0.0.38-18435-6489fca1_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-613d428ced78c345fd5c0077b0e72d484bce10d5/rpcs3-v0.0.38-18436-613d428c_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -17156,7 +17164,7 @@
     "site": "sonusmix/sonusmix",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sonusmix",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sonusmix",
-    "version_raw": "",
+    "version_raw": "https://codeberg.org/sonusmix/sonusmix/releases/download/v0.1.1/org.sonusmix.Sonusmix-0.1.1.AppImage",
     "description": "Next-gen Pipewire audio routing tool"
   },
   {
@@ -18388,7 +18396,7 @@
     "site": "tenacityteam/tenacity",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tenacity",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tenacity",
-    "version_raw": "",
+    "version_raw": "https://codeberg.org/tenacityteam/tenacity/releases/download/v1.4-alpha1/tenacity-linux-1.4.0-x86_64.AppImage",
     "description": "An easy-to-use, cross-platform multi-track audio editor/recorder"
   },
   {
@@ -20188,7 +20196,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5050959248",
+    "version_raw": "5054185711",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -21068,7 +21076,7 @@
     "site": "Venipa/ytmdesktop2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ytmdesktop2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ytmdesktop2",
-    "version_raw": "https://github.com/Venipa/ytmdesktop2/releases/download/v0.17.10/YouTube-Music-for-Desktop-0.17.10.AppImage",
+    "version_raw": "https://github.com/Venipa/ytmdesktop2/releases/download/v0.17.11/YouTube-Music-for-Desktop-0.17.11.AppImage",
     "description": "Unofficial Youtube Music Desktop App, with LastFM support"
   },
   {
