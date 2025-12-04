@@ -2900,7 +2900,7 @@
     "site": "pkgforge-dev/Citron-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/citron-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/citron-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/Citron-AppImage/releases/download/nightly/Citron-32c4a9060-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Citron-AppImage/releases/download/nightly/Citron-d397f379f-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of Citron (fork of yuzu), with optimized builds for modern cpus (nightly builds)"
   },
   {
@@ -3572,7 +3572,7 @@
     "site": "CrealityOfficial/CrealityPrint",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/creality-print",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/creality-print",
-    "version_raw": "https://github.com/CrealityOfficial/CrealityPrint/releases/download/v6.3.1/CrealityPrint_Ubuntu2004-V6.3.1.3546-x86_64-Release.AppImage",
+    "version_raw": "https://github.com/CrealityOfficial/CrealityPrint/releases/download/v6.3.0/CrealityPrint_Ubuntu2004-V6.3.0.3420-x86_64-Release.AppImage",
     "description": "Creality Print is a slicer dedicated to FDM printers"
   },
   {
@@ -3788,7 +3788,7 @@
     "site": "https://www.cursor.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cursor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cursor",
-    "version_raw": "https://downloads.cursor.com/production/ab326d0767c02fb9847b342c43ea58275c4b1685/linux/x64/Cursor-2.1.46-x86_64.AppImage",
+    "version_raw": "https://downloads.cursor.com/production/2d3ce3499c15efd55b6b8538ea255eb7ba4266b2/linux/x64/Cursor-2.1.47-x86_64.AppImage",
     "description": "Built to make you extraordinarily productive, Cursor is the best way to code with AI"
   },
   {
@@ -5380,7 +5380,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-25.46.7.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -9772,7 +9772,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -10204,7 +10204,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250724_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -12124,7 +12124,7 @@
     "site": "https://www.wakdev.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nfctools",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nfctools",
-    "version_raw": "https://apps.wakdev.com/ntgui/releases/linux/nfctools-latest.AppImage",
+    "version_raw": "",
     "description": "A library which allows userspace application access to NFC devices"
   },
   {
@@ -13668,7 +13668,7 @@
     "site": "pieroproietti/penguins-eggs",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/penguins-eggs",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/penguins-eggs",
-    "version_raw": "https://github.com/pieroproietti/penguins-eggs/releases/download/v25.11.29/penguins-eggs-25.11.29-1-x86_64.AppImage",
+    "version_raw": "https://github.com/pieroproietti/penguins-eggs/releases/download/v25.12.3/penguins-eggs-25.12.3-1-x86_64.AppImage",
     "description": "A professional and universal remastering tool for all major distributions"
   },
   {
@@ -15940,7 +15940,7 @@
     "site": "martinrotter/rssguard",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rssguard",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rssguard",
-    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-826828b85-qt5-linux64.AppImage",
+    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-020451150-qt5-linux64.AppImage",
     "description": "Feed reader which supports RSS/ATOM/JSON, no-webengine version"
   },
   {
@@ -20236,7 +20236,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5085167510",
+    "version_raw": "5086788866",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
