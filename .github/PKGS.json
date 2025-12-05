@@ -716,7 +716,7 @@
     "site": "AppFlowy-IO/AppFlowy",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appflowy",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appflowy",
-    "version_raw": "https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.10.5/AppFlowy-0.10.5-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.10.6/AppFlowy-0.10.6-linux-x86_64.AppImage",
     "description": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative"
   },
   {
@@ -5092,7 +5092,7 @@
     "site": "yphil-dev/Emulsion",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/emulsion",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/emulsion",
-    "version_raw": "https://github.com/yphil-dev/Emulsion/releases/download/0.10.21/Emulsion-0.10.21-x86_64.AppImage",
+    "version_raw": "https://github.com/yphil-dev/Emulsion/releases/download/0.10.22/Emulsion-0.10.22-x86_64.AppImage",
     "description": "Better gaming through chemistry"
   },
   {
@@ -5380,7 +5380,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-25.46.7.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -8592,14 +8592,6 @@
     "description": "A Editor for Minecraft NBT files"
   },
   {
-    "pkg": "jdownloader2",
-    "site": "Shikakiben/JDownloader2-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/jdownloader2",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/jdownloader2",
-    "version_raw": "https://github.com/Shikakiben/JDownloader2-AppImage/releases/download/25.12.01%402025-12-01_1764574066/JDownloader2-25.12.01-anylinux-x86_64.AppImage",
-    "description": "JDownloader is a free download management tool with a huge community that makes downloading as easy and fast as it should be"
-  },
-  {
     "pkg": "jdreplace",
     "site": "https://sourceforge.net/p/jdreplace",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/jdreplace",
@@ -8856,14 +8848,6 @@
     "description": "Arch Linux based distro that runs rootless on any other Linux distro"
   },
   {
-    "pkg": "kade",
-    "site": "shawnbanasick/kade",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kade",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kade",
-    "version_raw": "https://github.com/shawnbanasick/kade/releases/download/v1.3.1/KADE-1.3.1.AppImage",
-    "description": "A desktop application for Q Methodology"
-  },
-  {
     "pkg": "kadium",
     "site": "probablykasper/kadium",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kadium",
@@ -8902,14 +8886,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kalba",
     "version_raw": "https://github.com/BrewingWeasel/Kalba/releases/download/kalba-v0.3.6/Kalba_0.3.6_amd64.AppImage",
     "description": "Sentence mining tool"
-  },
-  {
-    "pkg": "kalc",
-    "site": "bgkillas/kalc",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kalc",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kalc",
-    "version_raw": "https://github.com/bgkillas/kalc/releases/download/v1.5.0/kalc-x86_64-gnu",
-    "description": "Complex numbers, 2d/3d graphing, arbitrary precision cli calculator"
   },
   {
     "pkg": "kalker",
@@ -8984,14 +8960,6 @@
     "description": "Unofficial, A multi-document editor part of KDE. This script installs the full kdeutils suite"
   },
   {
-    "pkg": "katomic",
-    "site": "ivan-hc/KDE-games-suite-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/katomic",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/katomic",
-    "version_raw": "https://github.com/ivan-hc/KDE-games-suite-appimage/releases/download/continuous/KDE-games-suite_25.08-1-archimage5.0-x86_64.AppImage",
-    "description": "Edu. game based around molecular geometry. This script installs the full kdegames suite"
-  },
-  {
     "pkg": "katvan",
     "site": "IgKh/katvan",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/katvan",
@@ -9040,14 +9008,6 @@
     "description": "Unofficial, Fill the field game. This script installs the full kdegames suite"
   },
   {
-    "pkg": "kbreakout",
-    "site": "ivan-hc/KDE-games-suite-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kbreakout",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kbreakout",
-    "version_raw": "https://github.com/ivan-hc/KDE-games-suite-appimage/releases/download/continuous/KDE-games-suite_25.08-1-archimage5.0-x86_64.AppImage",
-    "description": "Unofficial, Destroy bricks without losing the ball. This script installs the full kdegames suite"
-  },
-  {
     "pkg": "kcalc",
     "site": "ivan-hc/KDE-utils-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kcalc",
@@ -9094,14 +9054,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kdeconnect",
     "version_raw": "https://github.com/pkgforge-dev/kdeconnect-AppImage/releases/download/25.08.3-2%402025-12-01_1764575274/KDE_Connect-25.08.3-2-anylinux-x86_64.AppImage",
     "description": "Unofficial, A project that enables all your Android devices to communicate with each other"
-  },
-  {
-    "pkg": "kdegames",
-    "site": "ivan-hc/KDE-games-suite-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kdegames",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kdegames",
-    "version_raw": "https://github.com/ivan-hc/KDE-games-suite-appimage/releases/download/continuous/KDE-games-suite_25.08-1-archimage5.0-x86_64.AppImage",
-    "description": "Unofficial, Full & updatable KDE Games suite, metapackage"
   },
   {
     "pkg": "kdenlive",
@@ -9160,14 +9112,6 @@
     "description": "Unofficial, Diamond game. This script installs the full kdegames suite"
   },
   {
-    "pkg": "kdiskmark",
-    "site": "JonMagon/KDiskMark",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kdiskmark",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kdiskmark",
-    "version_raw": "https://github.com/JonMagon/KDiskMark/releases/download/3.2.0/KDiskMark-3.2.0-fio-3.40-x86_64.AppImage",
-    "description": "A simple open-source disk benchmark tool for Linux distros"
-  },
-  {
     "pkg": "keditbookmarks",
     "site": "ivan-hc/KDE-utils-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/keditbookmarks",
@@ -9224,22 +9168,6 @@
     "description": "ZZT Editor"
   },
   {
-    "pkg": "keyboardclient",
-    "site": "chrisandreae/keyboard-firmware",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/keyboardclient",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/keyboardclient",
-    "version_raw": "https://github.com/chrisandreae/keyboard-firmware/releases/download/v1.1.3/KeyboardClient-f00ef2d-x86_64.AppImage",
-    "description": "Keyboard Settings Client"
-  },
-  {
-    "pkg": "keycombiner",
-    "site": "https://keycombiner.com",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/keycombiner",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/keycombiner",
-    "version_raw": "https://keycombiner.com/download/KeyCombiner-0.8.0.AppImage",
-    "description": "Learn exactly the keyboard shortcuts you need"
-  },
-  {
     "pkg": "keymanager",
     "site": "keymanager/keymanager",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/keymanager",
@@ -9272,22 +9200,6 @@
     "description": "Generates tokens for your two-factor logins. This script installs the full kdeutils suite"
   },
   {
-    "pkg": "kfind",
-    "site": "ivan-hc/KDE-utils-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kfind",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kfind",
-    "version_raw": "https://github.com/ivan-hc/KDE-utils-appimage/releases/download/continuous/KDE-utils_25.08-1-archimage5.0-x86_64.AppImage",
-    "description": "A search tool. This script installs the full kdeutils suite"
-  },
-  {
-    "pkg": "kfourinline",
-    "site": "ivan-hc/KDE-games-suite-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kfourinline",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kfourinline",
-    "version_raw": "https://github.com/ivan-hc/KDE-games-suite-appimage/releases/download/continuous/KDE-games-suite_25.08-1-archimage5.0-x86_64.AppImage",
-    "description": "Unofficial, 4 in row game. This script installs the full kdegames suite"
-  },
-  {
     "pkg": "kgoldrunner",
     "site": "ivan-hc/KDE-games-suite-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kgoldrunner",
@@ -9302,14 +9214,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kgpg",
     "version_raw": "https://github.com/ivan-hc/KDE-utils-appimage/releases/download/continuous/KDE-utils_25.08-1-archimage5.0-x86_64.AppImage",
     "description": "A GnuPG frontend. This script installs the full kdeutils suite"
-  },
-  {
-    "pkg": "kibi",
-    "site": "ilai-deutel/kibi",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kibi",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kibi",
-    "version_raw": "https://github.com/ilai-deutel/kibi/releases/download/v0.3.2/kibi-v0.3.2-x86_64-unknown-linux-gnu.tar.gz",
-    "description": "A text editor in ≤1024 lines of code, written in Rust"
   },
   {
     "pkg": "kicad",
@@ -9352,14 +9256,6 @@
     "description": "Unofficial, Port of the classic console game Robots. This script installs the full kdegames suite"
   },
   {
-    "pkg": "kimitzu-client",
-    "site": "kimitzu/kimitzu-client",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kimitzu-client",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kimitzu-client",
-    "version_raw": "https://github.com/kimitzu/kimitzu-client/releases/download/v0.4.1-beta/Kimitzu-Client-0.4.1-beta.AppImage",
-    "description": "Kimitzu Client"
-  },
-  {
     "pkg": "kinopio",
     "site": "https://kinopio.club",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kinopio",
@@ -9374,14 +9270,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kiriki",
     "version_raw": "https://github.com/ivan-hc/KDE-games-suite-appimage/releases/download/continuous/KDE-games-suite_25.08-1-archimage5.0-x86_64.AppImage",
     "description": "A dice game. This script installs the full kdegames suite"
-  },
-  {
-    "pkg": "kitty",
-    "site": "kovidgoyal/kitty",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kitty",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kitty",
-    "version_raw": "https://github.com/kovidgoyal/kitty/releases/download/v0.44.0/kitty-0.44.0-x86_64.txz",
-    "description": "Cross-platform, fast, feature-rich, GPU based terminal (also provides kitten CLI utility)"
   },
   {
     "pkg": "kitupiikki",
@@ -9440,14 +9328,6 @@
     "description": "Recorder and player of keyboard and mouse input (HID)"
   },
   {
-    "pkg": "kmahjongg",
-    "site": "ivan-hc/KDE-games-suite-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kmahjongg",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kmahjongg",
-    "version_raw": "https://github.com/ivan-hc/KDE-games-suite-appimage/releases/download/continuous/KDE-games-suite_25.08-1-archimage5.0-x86_64.AppImage",
-    "description": "Unofficial, Mahjongg game. This script installs the full kdegames suite"
-  },
-  {
     "pkg": "kmines",
     "site": "ivan-hc/KDE-games-suite-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kmines",
@@ -9478,14 +9358,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/knavalbattle",
     "version_raw": "https://github.com/ivan-hc/KDE-games-suite-appimage/releases/download/continuous/KDE-games-suite_25.08-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial, Battle Ship game. This script installs the full kdegames suite"
-  },
-  {
-    "pkg": "knetwalk",
-    "site": "ivan-hc/KDE-games-suite-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/knetwalk",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/knetwalk",
-    "version_raw": "https://github.com/ivan-hc/KDE-games-suite-appimage/releases/download/continuous/KDE-games-suite_25.08-1-archimage5.0-x86_64.AppImage",
-    "description": "Unofficial, Net constructing game. This script installs the full kdegames suite"
   },
   {
     "pkg": "knights",
@@ -9520,36 +9392,12 @@
     "description": "Launch Koishi from your desktop"
   },
   {
-    "pkg": "kolf",
-    "site": "ivan-hc/KDE-games-suite-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kolf",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kolf",
-    "version_raw": "https://github.com/ivan-hc/KDE-games-suite-appimage/releases/download/continuous/KDE-games-suite_25.08-1-archimage5.0-x86_64.AppImage",
-    "description": "Unofficial, Mini Golf game. This script installs the full kdegames suite"
-  },
-  {
     "pkg": "kollision",
     "site": "ivan-hc/KDE-games-suite-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kollision",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kollision",
     "version_raw": "https://github.com/ivan-hc/KDE-games-suite-appimage/releases/download/continuous/KDE-games-suite_25.08-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial, Dodge red balls in the field. This script installs the full kdegames suite"
-  },
-  {
-    "pkg": "kondo",
-    "site": "tbillington/kondo",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kondo",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kondo",
-    "version_raw": "https://github.com/tbillington/kondo/releases/download/v0.8/kondo-x86_64-unknown-linux-musl.tar.gz",
-    "description": "Cleans dependencies and build artifacts from your projects"
-  },
-  {
-    "pkg": "kongress",
-    "site": "ivan-hc/KDE-utils-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kongress",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kongress",
-    "version_raw": "https://github.com/ivan-hc/KDE-utils-appimage/releases/download/continuous/KDE-utils_25.08-1-archimage5.0-x86_64.AppImage",
-    "description": "Unofficial, A companion application for conferences. This script installs the full kdeutils suite"
   },
   {
     "pkg": "konquest",
@@ -9568,28 +9416,12 @@
     "description": "Modern ebook manager and reader with sync & backup capacities"
   },
   {
-    "pkg": "kopia",
-    "site": "kopia/kopia",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kopia",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kopia",
-    "version_raw": "https://github.com/kopia/kopia/releases/download/v0.22.3/KopiaUI-0.22.3.AppImage",
-    "description": "Cross-platform backup tool"
-  },
-  {
     "pkg": "koreader",
     "site": "koreader/koreader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/koreader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/koreader",
     "version_raw": "https://github.com/koreader/koreader/releases/download/v2025.10/koreader-appimage-x86_64-v2025.10.AppImage",
     "description": "A document viewer"
-  },
-  {
-    "pkg": "kpat",
-    "site": "ivan-hc/KDE-games-suite-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kpat",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kpat",
-    "version_raw": "https://github.com/ivan-hc/KDE-games-suite-appimage/releases/download/continuous/KDE-games-suite_25.08-1-archimage5.0-x86_64.AppImage",
-    "description": "Unofficial, Klondike, Spider, Free Cell and other Solitaire. This script installs the full kdegames suite"
   },
   {
     "pkg": "krecorder",
@@ -9646,14 +9478,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kshisen",
     "version_raw": "https://github.com/ivan-hc/KDE-games-suite-appimage/releases/download/continuous/KDE-games-suite_25.08-1-archimage5.0-x86_64.AppImage",
     "description": "A game similar to Mahjongg. This script installs the full kdegames suite"
-  },
-  {
-    "pkg": "ksirk",
-    "site": "ivan-hc/KDE-games-suite-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ksirk",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ksirk",
-    "version_raw": "https://github.com/ivan-hc/KDE-games-suite-appimage/releases/download/continuous/KDE-games-suite_25.08-1-archimage5.0-x86_64.AppImage",
-    "description": "A strategy board game. This script installs the full kdegames suite"
   },
   {
     "pkg": "ksnakeduel",
@@ -9752,22 +9576,6 @@
     "description": "Unofficial, A logic game based on Rubik's Cube. This script installs the full kdegames suite"
   },
   {
-    "pkg": "kunkun",
-    "site": "kunkunsh/kunkun",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kunkun",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kunkun",
-    "version_raw": "https://github.com/kunkunsh/kunkun/releases/download/Kunkun-v0.1.37/kunkun_0.1.37_amd64.AppImage",
-    "description": "An open source, cross-platform, extensible app launcher"
-  },
-  {
-    "pkg": "kure",
-    "site": "GGP1/kure",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kure",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kure",
-    "version_raw": "https://github.com/GGP1/kure/releases/download/v1.3.0/kure_v1.3.0_linux_amd64.tar.gz",
-    "description": "CLI password manager with sessions"
-  },
-  {
     "pkg": "kuro",
     "site": "davidsmorais/kuro",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kuro",
@@ -9780,7 +9588,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -9790,14 +9598,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kwave",
     "version_raw": "https://github.com/ivan-hc/kwave-appimage/releases/download/continuous/Kwave-Sound-Editor_25.08.3-1-archimage5.0-x86_64.AppImage",
     "description": "A sound & audio editor designed for the KDE Desktop Environment"
-  },
-  {
-    "pkg": "kweather",
-    "site": "ivan-hc/KDE-utils-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kweather",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kweather",
-    "version_raw": "https://github.com/ivan-hc/KDE-utils-appimage/releases/download/continuous/KDE-utils_25.08-1-archimage5.0-x86_64.AppImage",
-    "description": "A convergent weather application. This script installs the full kdeutils suite"
   },
   {
     "pkg": "kwrite",
@@ -9950,14 +9750,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ldtk",
     "version_raw": "https://github.com/deepnight/ldtk/releases/download/v1.5.3/ubuntu-distribution.zip",
     "description": "Modern and efficient 2D level editor"
-  },
-  {
-    "pkg": "leaflet",
-    "site": "PotatoProject/Leaflet",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/leaflet",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/leaflet",
-    "version_raw": "https://github.com/PotatoProject/Leaflet/releases/download/2.0.0%2B20/Leaflet-2.0.0-x86_64.AppImage",
-    "description": "POSP official notes application, written in flutter, beautiful, fast and secure"
   },
   {
     "pkg": "leapp",
@@ -10212,7 +10004,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250724_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -15164,7 +14956,7 @@
     "site": "coozoo/qtrfpowermeter",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qtrfpowermeter",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qtrfpowermeter",
-    "version_raw": "https://github.com/coozoo/qtrfpowermeter/releases/download/0.47-202511081854_refs/heads/main/qtrfpowermeter-x86_64.AppImage",
+    "version_raw": "https://github.com/coozoo/qtrfpowermeter/releases/download/0.48-202512050733_refs/heads/main/qtrfpowermeter-x86_64.AppImage",
     "description": "Improve usage of chinese RF power meter RF8000"
   },
   {
@@ -15948,7 +15740,7 @@
     "site": "martinrotter/rssguard",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rssguard",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rssguard",
-    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-6a0ab3838-qt5-linux64.AppImage",
+    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-384eac967-qt5-linux64.AppImage",
     "description": "Feed reader which supports RSS/ATOM/JSON, no-webengine version"
   },
   {
@@ -16460,7 +16252,7 @@
     "site": "https://hackaday.io",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/serialplot",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/serialplot",
-    "version_raw": "",
+    "version_raw": "https://github.com/hyOzd/serialplot/releases/download/v0.13.0/SerialPlot-ae7e3dc-x86_64.AppImage",
     "description": "Small and simple software for plotting data from serial port"
   },
   {
@@ -18756,7 +18548,7 @@
     "site": "https://tixati.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tixati",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tixati",
-    "version_raw": "3.41-1",
+    "version_raw": "3.42-1",
     "description": "A New and Powerful P2P System 100% Free, Simple and Easy to Use Bittorrent Client"
   },
   {
@@ -19308,7 +19100,7 @@
     "site": "ungoogled-software/ungoogled-chromium-portablelinux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ungoogled-chromium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ungoogled-chromium",
-    "version_raw": "https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/142.0.7444.175-1/ungoogled-chromium-142.0.7444.175-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/143.0.7499.40-1/ungoogled-chromium-143.0.7499.40-1-x86_64.AppImage",
     "description": "Chromium Web Browser without Google services"
   },
   {
@@ -20244,7 +20036,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5110648171",
+    "version_raw": "5113373280",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
