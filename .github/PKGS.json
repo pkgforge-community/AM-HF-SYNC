@@ -4500,7 +4500,7 @@
     "site": "drawpile/Drawpile",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/drawpile",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/drawpile",
-    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.3.0-21-g13e4a6c11-x86_64.AppImage",
+    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.3.0-22-g86f44ee77-x86_64.AppImage",
     "description": "Drawing program to sketch on the same canvas simultaneously"
   },
   {
@@ -9780,7 +9780,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -10444,7 +10444,7 @@
     "site": "talwat/lowfi",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lowfi",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lowfi",
-    "version_raw": "https://github.com/talwat/lowfi/releases/download/1.7.2/lowfi-linux-x86_64",
+    "version_raw": "https://github.com/talwat/lowfi/releases/download/2.0.0-dev/lowfi-linux-x86_64",
     "description": "An extremely simple lofi player. CLI"
   },
   {
@@ -11380,7 +11380,7 @@
     "site": "MUME/MMapper",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mmapper",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mmapper",
-    "version_raw": "https://github.com/MUME/MMapper/releases/download/beta/MMapper-25.07.0-46-g2b48f883-x86_64.AppImage",
+    "version_raw": "https://github.com/MUME/MMapper/releases/download/beta/MMapper-25.07.0-49-gc1cfae80-x86_64.AppImage",
     "description": "Graphical MUD client for the game MUME"
   },
   {
@@ -13560,14 +13560,6 @@
     "description": "pCloud Drive Client, cloud service, built using electron and node.js"
   },
   {
-    "pkg": "pcsx-redux",
-    "site": "grumpycoders/pcsx-redux",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx-redux",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcsx-redux",
-    "version_raw": "https://distrib.app",
-    "description": "The PCSX-Redux project is a collection of tools, research, hardware design, and libraries aiming at development and reverse engineering on the PlayStation 1. The core product itself, PCSX-Redux, is yet another fork of the Playstation emulator, PCSX"
-  },
-  {
     "pkg": "pcsx2",
     "site": "PCSX2/pcsx2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx2",
@@ -14204,7 +14196,7 @@
     "site": "facontidavide/PlotJuggler",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/plotjuggler",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/plotjuggler",
-    "version_raw": "https://github.com/facontidavide/PlotJuggler/releases/download/3.14.1/PlotJuggler-x86_64.AppImage",
+    "version_raw": "https://github.com/facontidavide/PlotJuggler/releases/download/3.14.2/PlotJuggler-x86_64.AppImage",
     "description": "The Time Series Visualization Tool that you deserve"
   },
   {
@@ -15220,7 +15212,7 @@
     "site": "ra3xdh/qucs_s",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qucs-s",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qucs-s",
-    "version_raw": "https://github.com/ra3xdh/qucs_s/releases/download/continuous_build/Qucs-S-25.2.99-568c79d-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/ra3xdh/qucs_s/releases/download/continuous_build/Qucs-S-25.2.99-979db0e-linux-x86_64.AppImage",
     "description": "An Universal GUI for Circuit Simulators"
   },
   {
@@ -15924,7 +15916,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-54206c62b3968273d927664876adfbd8c1bedfe5/rpcs3-v0.0.38-18449-54206c62_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-b76ca8807ff8e6a4f2c9eb37af5c3f30ca61bbe6/rpcs3-v0.0.38-18450-b76ca880_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -16372,7 +16364,7 @@
     "site": "5rahim/seanime",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/seanime",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/seanime",
-    "version_raw": "https://github.com/5rahim/seanime/releases/download/v3.0.8/seanime-denshi-3.0.8_Linux_x86_64.AppImage",
+    "version_raw": "https://github.com/5rahim/seanime/releases/download/v3.1.0/seanime-denshi-3.1.0_Linux_x86_64.AppImage",
     "description": "Open-source media server with a web interface and desktop app for anime and manga"
   },
   {
@@ -18316,7 +18308,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.0-beta.2.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.10.3.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -20244,7 +20236,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5136446061",
+    "version_raw": "5137601134",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -20748,7 +20740,7 @@
     "site": "has207/xenia-edge",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xenia-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xenia-edge",
-    "version_raw": "https://github.com/has207/xenia-edge/releases/download/c777013/xenia_edge_linux.AppImage",
+    "version_raw": "https://github.com/has207/xenia-edge/releases/download/dad12e6/xenia_edge_linux.AppImage",
     "description": "Xbox 360 Emulator Research Project, fork of the Xenia emulator, with the aim of quicker iteration and improvements to Vulkan backend"
   },
   {
