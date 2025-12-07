@@ -1020,7 +1020,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "1.0.4",
+    "version_raw": "",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -3788,8 +3788,16 @@
     "site": "https://www.cursor.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cursor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cursor",
-    "version_raw": "https://downloads.cursor.com/production/21a2ed198584d56a91c0b996d1a09c93f8538440/linux/x64/Cursor-2.1.49-x86_64.AppImage",
+    "version_raw": "https://downloads.cursor.com/production/56f0a83df8e9eb48585fcc4858a9440db4cc7771/linux/x64/Cursor-2.1.50-x86_64.AppImage",
     "description": "Built to make you extraordinarily productive, Cursor is the best way to code with AI"
+  },
+  {
+    "pkg": "cursor-cli",
+    "site": "pkgforge-dev/cursor-cli-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cursor-cli",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cursor-cli",
+    "version_raw": "https://github.com/pkgforge-dev/cursor-cli-AppImage/releases/download/1_2025.11.06.1.8fe8a63-1%402025-12-06_1765058410/cursor-agent-1_2025.11.06.1.8fe8a63-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, AI-assisted development CLI tool"
   },
   {
     "pkg": "customrpc",
@@ -3860,7 +3868,7 @@
     "site": "darktable-org/darktable",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/darktable-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/darktable-nightly",
-    "version_raw": "https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.3.0%2B965.gff94501d6a-x86_64.AppImage",
+    "version_raw": "https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.3.0%2B970.g5d23285b5b-x86_64.AppImage",
     "description": "Photography workflow app and raw developer, nightly"
   },
   {
@@ -5176,6 +5184,14 @@
     "description": "Sweet, simple epub reader"
   },
   {
+    "pkg": "epsxe",
+    "site": "pkgforge-dev/ePSXe-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/epsxe",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/epsxe",
+    "version_raw": "https://github.com/pkgforge-dev/ePSXe-AppImage/releases/download/2.0.5%402025-12-06_1765059422/ePSXe-2.0.5-anylinux-x86_64.AppImage",
+    "description": "Unofficial, enhanced PSX emulator"
+  },
+  {
     "pkg": "eqonomize",
     "site": "Eqonomize/Eqonomize",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eqonomize",
@@ -5380,7 +5396,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-25.46.7.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -8228,7 +8244,7 @@
     "site": "WerWolv/ImHex",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/imhex",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/imhex",
-    "version_raw": "https://github.com/WerWolv/ImHex/releases/download/nightly/imhex-1.38.0.WIP-x86_64.AppImage",
+    "version_raw": "https://github.com/WerWolv/ImHex/releases/download/v1.38.0/imhex-1.38.0-x86_64.AppImage",
     "description": "A Hex Editor for Reverse Engineers and Programmers"
   },
   {
@@ -9780,7 +9796,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -11380,7 +11396,7 @@
     "site": "MUME/MMapper",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mmapper",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mmapper",
-    "version_raw": "https://github.com/MUME/MMapper/releases/download/beta/MMapper-25.07.0-53-g91300fa7-x86_64.AppImage",
+    "version_raw": "https://github.com/MUME/MMapper/releases/download/beta/MMapper-25.07.0-54-g0072ce60-x86_64.AppImage",
     "description": "Graphical MUD client for the game MUME"
   },
   {
@@ -13444,7 +13460,7 @@
     "site": "Scille/parsec-cloud",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parsec",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parsec",
-    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.7.1-a.0.dev.20427%2B9fb05e0_linux_x86_64.unsigned.AppImage",
+    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.7.1-a.0.dev.20428%2B9fb05e0_linux_x86_64.unsigned.AppImage",
     "description": "Open source Dropbox-like file sharing with full client encryption"
   },
   {
@@ -16076,7 +16092,7 @@
     "site": "https://ryujinx.app/",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ryujinx-canary",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ryujinx-canary",
-    "version_raw": "1.3.231",
+    "version_raw": "1.3.232",
     "description": "An open-source Nintendo Switch emulator, originally created by gdkchan, written in C# (Canary builds)"
   },
   {
@@ -16572,7 +16588,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-12-04-5183cbe6867c241e75632afbfe6ea3438fcf1316/shadps4-linux-sdl-2025-12-04-5183cbe.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-12-06-d3ad728ac0ec033b13310b38269b2622f98b6697/shadps4-linux-sdl-2025-12-06-d3ad728.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -17924,7 +17940,7 @@
     "site": "LizardByte/Sunshine",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sunshine",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sunshine",
-    "version_raw": "https://github.com/LizardByte/Sunshine/releases/download/v2025.1201.3826/sunshine.AppImage",
+    "version_raw": "https://github.com/LizardByte/Sunshine/releases/download/v2025.1206.191054/sunshine.AppImage",
     "description": "Sunshine is a Gamestream host for Moonlight"
   },
   {
