@@ -5404,7 +5404,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-25.46.7.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -7564,7 +7564,7 @@
     "site": "gristlabs/grist-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/grist-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/grist-desktop",
-    "version_raw": "https://github.com/gristlabs/grist-desktop/releases/download/v0.3.6/grist-desktop-0.3.6-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/gristlabs/grist-desktop/releases/download/v0.3.7/grist-desktop-0.3.7-linux-x86_64.AppImage",
     "description": "Desktop Grist, packaged with Electron"
   },
   {
@@ -10236,7 +10236,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -11404,7 +11404,7 @@
     "site": "MUME/MMapper",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mmapper",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mmapper",
-    "version_raw": "https://github.com/MUME/MMapper/releases/download/beta/MMapper-25.07.0-64-g9b2a24cb-x86_64.AppImage",
+    "version_raw": "https://github.com/MUME/MMapper/releases/download/beta/MMapper-25.07.0-65-g3b9e8c00-x86_64.AppImage",
     "description": "Graphical MUD client for the game MUME"
   },
   {
@@ -12588,7 +12588,7 @@
     "site": "nymtech/nym-vpn-client",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nym-vpn",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nym-vpn",
-    "version_raw": "https://github.com/nymtech/nym-vpn-client/releases/download/nym-vpn-app-v1.20.2/NymVPN_1.20.2_x64.AppImage",
+    "version_raw": "https://github.com/nymtech/nym-vpn-client/releases/download/nym-vpn-app-v1.20.3/NymVPN_1.20.3_x64.AppImage",
     "description": "Cross-platform open source VPN client built in Rust, with mixnet anonymity and WireGuard speed. Protects metadata, not just IP addresses. Zero-knowledge payments for unlinkable online activities"
   },
   {
@@ -14852,7 +14852,7 @@
     "site": "pyfa-org/Pyfa",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pyfa",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pyfa",
-    "version_raw": "https://github.com/pyfa-org/Pyfa/releases/download/v2.65.0/pyfa-v2.65.0-linux.AppImage",
+    "version_raw": "https://github.com/pyfa-org/Pyfa/releases/download/v2.65.1/pyfa-v2.65.1-linux.AppImage",
     "description": "EVE Online Fitting Assistant"
   },
   {
@@ -14953,10 +14953,10 @@
   },
   {
     "pkg": "qflipper",
-    "site": "https://flipperzero.one",
+    "site": "flipperdevices/qFlipper",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qflipper",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qflipper",
-    "version_raw": "",
+    "version_raw": "1.3.3",
     "description": "Flipper Zero multitool for pentesters and geeks in a toy-like body"
   },
   {
@@ -15300,7 +15300,7 @@
     "site": "TryQuiet/quiet",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quiet",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quiet",
-    "version_raw": "https://github.com/TryQuiet/quiet/releases/download/%40quiet/desktop%406.4.0-alpha.7/Quiet-6.4.0-alpha.7.AppImage",
+    "version_raw": "https://github.com/TryQuiet/quiet/releases/download/%40quiet/desktop%406.4.0-alpha.9/Quiet-6.4.0-alpha.9.AppImage",
     "description": "A private, p2p alternative to Slack and Discord built on Tor & IPFS"
   },
   {
@@ -17572,7 +17572,7 @@
     "site": "story-apps/starc",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/starc",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/starc",
-    "version_raw": "https://github.com/story-apps/starc/releases/download/v0.7.8/starc-setup.AppImage",
+    "version_raw": "https://github.com/story-apps/starc/releases/download/v0.8.0/starc-setup-qt5.AppImage",
     "description": "Story Architect, reinventing the screenwriting software"
   },
   {
@@ -20268,7 +20268,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5190648991",
+    "version_raw": "5193665834",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -20276,7 +20276,7 @@
     "site": "h3poteto/whalebird-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/whalebird",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/whalebird",
-    "version_raw": "https://github.com/h3poteto/whalebird-desktop/releases/download/v6.2.6/Whalebird-6.2.6-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/h3poteto/whalebird-desktop/releases/download/v6.2.7/Whalebird-6.2.7-linux-x86_64.AppImage",
     "description": "An Electron based Mastodon client"
   },
   {
