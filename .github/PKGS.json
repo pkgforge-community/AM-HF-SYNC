@@ -2912,6 +2912,14 @@
     "description": "Hub into everything on City Chain/Smart City Platform"
   },
   {
+    "pkg": "clagrange",
+    "site": "skyjake/lagrange",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clagrange",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/clagrange",
+    "version_raw": "https://github.com/skyjake/lagrange/releases/download/v1.19.4/clagrange-1.19.4-x86_64.AppImage",
+    "description": "Lagrange is a cross-platform client for browsing Geminispace (CLI Version)"
+  },
+  {
     "pkg": "clamtk",
     "site": "dave-theunsub/clamtk",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clamtk",
@@ -6884,7 +6892,7 @@
     "site": "ivan-hc/GIMP-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gimp-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gimp-git",
-    "version_raw": "https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_56460.403c94213b7-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_56468.38c33eb6a07-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial, Cross-platform image and photo editor, built from GIT"
   },
   {
@@ -9844,8 +9852,8 @@
     "site": "skyjake/lagrange",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lagrange",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lagrange",
-    "version_raw": "https://github.com/skyjake/lagrange/releases/download/v1.19.4/clagrange-1.19.4-x86_64.AppImage",
-    "description": "A Beautiful Gemini Client"
+    "version_raw": "https://github.com/skyjake/lagrange/releases/download/v1.19.4/Lagrange-1.19.4-x86_64.AppImage",
+    "description": "Lagrange is a cross-platform client for browsing Geminispace (GUI Version)"
   },
   {
     "pkg": "laidout",
@@ -16468,7 +16476,7 @@
     "site": "https://hackaday.io",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/serialplot",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/serialplot",
-    "version_raw": "https://github.com/hyOzd/serialplot/releases/download/v0.13.0/SerialPlot-ae7e3dc-x86_64.AppImage",
+    "version_raw": "",
     "description": "Small and simple software for plotting data from serial port"
   },
   {
@@ -19528,6 +19536,14 @@
     "description": "A browser that empowers DApps on VeChain"
   },
   {
+    "pkg": "vector",
+    "site": "VectorPrivacy/Vector",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vector",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vector",
+    "version_raw": "https://github.com/VectorPrivacy/Vector/releases/download/v0.2.2/Vector_0.2.2_amd64.AppImage",
+    "description": "Vector is a decentralized communication platform built on the Nostr Protocol"
+  },
+  {
     "pkg": "vegeta",
     "site": "tsenart/vegeta",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vegeta",
@@ -19908,7 +19924,7 @@
     "site": "ivan-hc/VLC-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vlc-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vlc-git",
-    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r35473.g54ab5bd-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r35475.g3c8a649-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial. Free and Open Source Video & Media player, GIT version"
   },
   {
@@ -20252,7 +20268,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5176769708",
+    "version_raw": "5179123206",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
