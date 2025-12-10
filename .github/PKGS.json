@@ -180,7 +180,7 @@
     "site": "toeverything/AFFiNE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine-canary",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine-canary",
-    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2025.12.9-canary.430/affine-2025.12.9-canary.430-canary-linux-x64.appimage",
+    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2025.12.10-canary.919/affine-2025.12.10-canary.919-canary-linux-x64.appimage",
     "description": "Next-gen knowledge base that brings planning/sorting/creating"
   },
   {
@@ -6664,12 +6664,44 @@
     "description": "Unofficial, a fast and lightweight IDE"
   },
   {
+    "pkg": "gearboy",
+    "site": "drhelius/Gearboy",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gearboy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gearboy",
+    "version_raw": "https://github.com/drhelius/Gearboy/releases/download/3.7.5/Gearboy-3.7.5-ubuntu-22.04.zip",
+    "description": "Game Boy / Gameboy Color emulator"
+  },
+  {
+    "pkg": "gearcoleco",
+    "site": "drhelius/Gearcoleco",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gearcoleco",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gearcoleco",
+    "version_raw": "https://github.com/drhelius/Gearcoleco/releases/download/1.5.5/Gearcoleco-1.5.5-ubuntu-22.04.zip",
+    "description": "ColecoVision emulator"
+  },
+  {
+    "pkg": "geargrafx",
+    "site": "drhelius/Geargrafx",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/geargrafx",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/geargrafx",
+    "version_raw": "https://github.com/drhelius/Geargrafx/releases/download/1.6.5/Geargrafx-1.6.5-ubuntu-22.04.zip",
+    "description": "PC Engine / TurboGrafx-16 emulator and debugger"
+  },
+  {
     "pkg": "gearlever",
     "site": "pkgforge-dev/Gear-Lever-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gearlever",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gearlever",
     "version_raw": "https://github.com/pkgforge-dev/Gear-Lever-AppImage/releases/download/4.0.3-2%402025-12-01_1764574281/Gear_Lever-4.0.3-2-anylinux-x86_64.AppImage",
     "description": "Unofficial. An utility to organize and manage AppImage files for you, generate desktop entries and app metadata, update apps in-place or keep multiple versions side-by-side"
+  },
+  {
+    "pkg": "gearsystem",
+    "site": "drhelius/Gearsystem",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gearsystem",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gearsystem",
+    "version_raw": "https://github.com/drhelius/Gearsystem/releases/download/3.8.6/Gearsystem-3.8.6-ubuntu-22.04.zip",
+    "description": "Sega Master System / Game Gear / SG-1000 Emulator"
   },
   {
     "pkg": "gedit",
@@ -15940,7 +15972,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-aff645272fb51440276b07fac8d8c219eaee1772/rpcs3-v0.0.38-18457-aff64527_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-0f1eadcab038fa6f2d20cb639fe16d72b97f9b4a/rpcs3-v0.0.38-18493-0f1eadca_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -16476,7 +16508,7 @@
     "site": "https://hackaday.io",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/serialplot",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/serialplot",
-    "version_raw": "https://github.com/hyOzd/serialplot/releases/download/v0.13.0/SerialPlot-ae7e3dc-x86_64.AppImage",
+    "version_raw": "",
     "description": "Small and simple software for plotting data from serial port"
   },
   {
@@ -16604,7 +16636,7 @@
     "site": "shadps4-emu/shadps4-qtlauncher",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4-qtlauncher",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4-qtlauncher",
-    "version_raw": "https://github.com/shadps4-emu/shadps4-qtlauncher/releases/download/shadPS4QtLauncher-2025-12-09-7bed6653f1275421c4096f233fff451b970256e0/shadPS4QtLauncher-linux-qt-2025-12-09-7bed665.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadps4-qtlauncher/releases/download/shadPS4QtLauncher-2025-12-10-fa0c1f93c2894015214a666ac5bb3a8ea7f0c8c9/shadPS4QtLauncher-linux-qt-2025-12-10-fa0c1f9.zip",
     "description": "The official Qt launcher for shadps4 PlayStation 4 emulator"
   },
   {
@@ -17620,7 +17652,7 @@
     "site": "ivan-hc/Steam-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/steam",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/steam",
-    "version_raw": "https://github.com/ivan-hc/Steam-appimage/releases/download/1.0.0.85-1%402025-12-09_1765315668/Steam-1.0.0.85-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Steam-appimage/releases/download/1.0.0.85-1%402025-12-10_1765362949/Steam-1.0.0.85-1-anylinux-x86_64.AppImage",
     "description": "Unofficial. The ultimate destination for playing, discussing, and creating games"
   },
   {
@@ -19980,7 +20012,7 @@
     "site": "https://vrew.ai",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vrew",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vrew",
-    "version_raw": "3.4.1",
+    "version_raw": "3.5.0",
     "description": "Your first video editor, your easiest choice"
   },
   {
@@ -20268,7 +20300,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5209210788",
+    "version_raw": "5210755006",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
