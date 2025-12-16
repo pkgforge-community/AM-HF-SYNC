@@ -2804,7 +2804,7 @@
     "site": "ivan-hc/Chromium-Web-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chromium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chromium",
-    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-stable-143.0.7499.40-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-stable-143.0.7499.109-x86_64.AppImage",
     "description": "Unofficial. FOSS Web Browser, base of Google Chrome, Edge and Brave, stable"
   },
   {
@@ -2836,7 +2836,7 @@
     "site": "ivan-hc/Chromium-Web-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chromium-rc",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chromium-rc",
-    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-candidate-143.0.7499.40-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-candidate-143.0.7499.109-x86_64.AppImage",
     "description": "Unofficial. FOSS Web Browser, base of Google Chrome, release candidate"
   },
   {
@@ -16740,7 +16740,7 @@
     "site": "anordal/shellharden",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shellharden",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shellharden",
-    "version_raw": "https://github.com/anordal/shellharden/releases/download/v4.3.1/shellharden-x86_64-unknown-linux-gnu.tar.gz",
+    "version_raw": "",
     "description": "The corrective bash syntax highlighter"
   },
   {
@@ -16868,7 +16868,7 @@
     "site": "onli/simdock",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/simdock",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/simdock",
-    "version_raw": "https://github.com/onli/simdock/releases/download/continuous/Simdock--x86_64.AppImage",
+    "version_raw": "",
     "description": "Small dock with pseudo-transparency and good window handling"
   },
   {
@@ -19348,7 +19348,7 @@
     "site": "CESNET/UltraGrid",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ultragrid",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ultragrid",
-    "version_raw": "https://github.com/CESNET/UltraGrid/releases/download/v1.10.1/UltraGrid-1.10.1-x86_64.AppImage",
+    "version_raw": "https://github.com/CESNET/UltraGrid/releases/download/continuous/UltraGrid-continuous-x86_64.AppImage",
     "description": "UltraGrid low-latency audio/video network transmission system"
   },
   {
@@ -20348,7 +20348,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5334093995",
+    "version_raw": "5336682169",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
