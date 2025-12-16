@@ -1020,7 +1020,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "1.0.4",
+    "version_raw": "",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -4329,10 +4329,10 @@
   },
   {
     "pkg": "discord",
-    "site": "ivan-hc/Discord-appimage",
+    "site": "pkgforge-dev/Discord-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/discord",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/discord",
-    "version_raw": "https://github.com/ivan-hc/Discord-appimage/releases/download/continuous/Discord_0.0.118-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Discord-AppImage/releases/download/0.0.119-1%402025-12-16_1765851790/Discord-0.0.119-1-anylinux-x86_64.AppImage",
     "description": "Unofficial. All-in-one voice and text chat for gamers that's free, secure, and works on both your desktop and phone"
   },
   {
@@ -5420,7 +5420,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-25.46.7.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -6964,7 +6964,7 @@
     "site": "ivan-hc/GIMP-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gimp-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gimp-git",
-    "version_raw": "https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_56498.b80b1ae0d7c-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_56511.10cf3f05ee7-2-archimage5.0-x86_64.AppImage",
     "description": "Unofficial, Cross-platform image and photo editor, built from GIT"
   },
   {
@@ -9876,7 +9876,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -10308,7 +10308,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.22_251203_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -12788,7 +12788,7 @@
     "site": "ollama/ollama",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ollama",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ollama",
-    "version_raw": "https://github.com/ollama/ollama/releases/download/v0.13.4-rc1/ollama-linux-amd64.tgz",
+    "version_raw": "https://github.com/ollama/ollama/releases/download/v0.13.4-rc2/ollama-linux-amd64.tgz",
     "description": "Get up and running with Llama 3, Mistral, Gemma, and other LLMs"
   },
   {
@@ -18412,7 +18412,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.0-beta.2.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.10.3.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -19928,6 +19928,14 @@
     "description": "Terminal image viewer with native support for iTerm and Kitty"
   },
   {
+    "pkg": "vivadesigner",
+    "site": "https://viva.systems",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vivadesigner",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vivadesigner",
+    "version_raw": "",
+    "description": "VivaDesigner is an extremely easy-to-use AI-based design, publishing, layout, typesetting and illustration program that meets the highest design and typographic requirements"
+  },
+  {
     "pkg": "vivaldi-snapshot",
     "site": "ivan-hc/Vivaldi-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vivaldi-snapshot",
@@ -20340,7 +20348,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5321484079",
+    "version_raw": "5323990271",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -20852,7 +20860,7 @@
     "site": "has207/xenia-edge",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xenia-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xenia-edge",
-    "version_raw": "https://github.com/has207/xenia-edge/releases/download/7222930/xenia_edge_linux.AppImage",
+    "version_raw": "https://github.com/has207/xenia-edge/releases/download/4ffd5b5/xenia_edge_linux.AppImage",
     "description": "Xbox 360 Emulator Research Project, fork of the Xenia emulator, with the aim of quicker iteration and improvements to Vulkan backend"
   },
   {
