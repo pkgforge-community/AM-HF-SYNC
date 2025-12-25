@@ -2124,7 +2124,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave-beta",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20251224-203539/Brave-Web-Browser-beta-1.86.122-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20251225-204012/Brave-Web-Browser-beta-1.86.123-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the beta release"
   },
   {
@@ -2132,7 +2132,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave-nightly",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20251224-203539/Brave-Web-Browser-nightly-1.87.113-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20251225-204012/Brave-Web-Browser-nightly-1.87.117-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the nightly release"
   },
   {
@@ -12056,6 +12056,14 @@
     "description": "Official Nault AppImage client"
   },
   {
+    "pkg": "nauz-file-detector",
+    "site": "horsicq/Nauz-File-Detector",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nauz-file-detector",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nauz-file-detector",
+    "version_raw": "https://github.com/horsicq/Nauz-File-Detector/releases/download/0.09/NauzFileDetector-0.09-x86_64.AppImage",
+    "description": "Nauz File Detector is a portable linker/compiler/packer identifier utility"
+  },
+  {
     "pkg": "navi",
     "site": "denisidoro/navi",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/navi",
@@ -18468,7 +18476,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.10.3.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.0.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -19812,7 +19820,7 @@
     "site": "vicinaehq/vicinae",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vicinae",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vicinae",
-    "version_raw": "https://github.com/vicinaehq/vicinae/releases/download/v0.17.2/Vicinae-78ef504aa-x86_64.AppImage",
+    "version_raw": "https://github.com/vicinaehq/vicinae/releases/download/v0.17.3/Vicinae-e8e0c24ce-x86_64.AppImage",
     "description": "A high-performance, native launcher for your desktop built with C++ and Qt. Native, fast, extensible"
   },
   {
@@ -20436,7 +20444,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5497684005",
+    "version_raw": "5497840161",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -20872,6 +20880,14 @@
     "description": "CLI, pixiv downloader"
   },
   {
+    "pkg": "xapkdetector",
+    "site": "horsicq/XAPKDetector",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xapkdetector",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xapkdetector",
+    "version_raw": "https://github.com/horsicq/XAPKDetector/releases/download/0.03/XAPKDetector-0.03-x86_64.AppImage",
+    "description": "APK/DEX detector that shows an information about build tools, libraries and protection of APK/DEX files"
+  },
+  {
     "pkg": "xchat",
     "site": "probonopd/XChat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xchat",
@@ -20932,7 +20948,7 @@
     "site": "xemu-project/xemu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xemu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xemu",
-    "version_raw": "https://github.com/xemu-project/xemu/releases/download/v0.8.122/xemu-v0.8.122-x86_64.AppImage",
+    "version_raw": "https://github.com/xemu-project/xemu/releases/download/v0.8.123/xemu-v0.8.123-x86_64.AppImage",
     "description": "Original Xbox Emulator"
   },
   {
@@ -20992,6 +21008,14 @@
     "description": "PC-8801 emulator"
   },
   {
+    "pkg": "xmachoviewer",
+    "site": "horsicq/XMachOViewer",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xmachoviewer",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xmachoviewer",
+    "version_raw": "https://github.com/horsicq/XMachOViewer/releases/download/0.04/XMachOViewer-0.04-x86_64.AppImage",
+    "description": "XMachOViewer is a Mach-O viewer"
+  },
+  {
     "pkg": "xmedcon",
     "site": "https://sourceforge.net/p/xmedcon",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xmedcon",
@@ -21024,6 +21048,14 @@
     "description": "Python-powered, cross-platform, Unix-gazing shell"
   },
   {
+    "pkg": "xopcodecalc",
+    "site": "horsicq/XOpcodeCalc",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xopcodecalc",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xopcodecalc",
+    "version_raw": "https://github.com/horsicq/XOpcodeCalc/releases/download/0.05/XOpcodeCalc-0.05-x86_64.AppImage",
+    "description": "Opcode calculator / ASM calculator"
+  },
+  {
     "pkg": "xournal++",
     "site": "xournalpp/xournalpp",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xournal++",
@@ -21044,7 +21076,7 @@
     "site": "horsicq/XPEViewer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xpeviewer",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xpeviewer",
-    "version_raw": "https://github.com/horsicq/XPEViewer/releases/download/0.06/XPEViewer-0.06-x86_64.AppImage",
+    "version_raw": "https://github.com/horsicq/XPEViewer/releases/download/0.05/XPEViewer-0.05-x86_64.AppImage",
     "description": "PE file viewer/editor"
   },
   {
