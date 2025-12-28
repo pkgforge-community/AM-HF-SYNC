@@ -3812,7 +3812,7 @@
     "site": "https://www.cursor.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cursor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cursor",
-    "version_raw": "https://downloads.cursor.com/production/28e7b8993fa2568fb3cb377e67615eb068b893ec/linux/x64/Cursor-2.3.8-x86_64.AppImage",
+    "version_raw": "https://downloads.cursor.com/production/eecab7538820b6470389330d2cca30b703322294/linux/x64/Cursor-2.3.9-x86_64.AppImage",
     "description": "Built to make you extraordinarily productive, Cursor is the best way to code with AI"
   },
   {
@@ -4164,7 +4164,7 @@
     "site": "pkgforge-dev/DeSmuME-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/desmume",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/desmume",
-    "version_raw": "https://github.com/pkgforge-dev/DeSmuME-AppImage/releases/download/0.9.13-1%402025-12-21_1766326970/desmume-0.9.13-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/DeSmuME-AppImage/releases/download/0.9.13-1%402025-12-28_1766931834/desmume-0.9.13-1-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of the DeSmuME emulator"
   },
   {
@@ -5996,7 +5996,7 @@
     "site": "fish-shell/fish-shell",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fish",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fish",
-    "version_raw": "https://github.com/fish-shell/fish-shell/releases/download/4.3.0/fish-4.3.0-linux-x86_64.tar.xz",
+    "version_raw": "https://github.com/fish-shell/fish-shell/releases/download/4.3.1/fish-4.3.1-linux-x86_64.tar.xz",
     "description": "The user-friendly command line shell"
   },
   {
@@ -6980,7 +6980,7 @@
     "site": "ivan-hc/GIMP-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gimp-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gimp-git",
-    "version_raw": "https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_56586.4356895b73c-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_56601.a947031b233-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial, Cross-platform image and photo editor, built from GIT"
   },
   {
@@ -8292,7 +8292,7 @@
     "site": "ImageMagick/ImageMagick",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/imagemagick-clang",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/imagemagick-clang",
-    "version_raw": "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-11/ImageMagick-578d60d-clang-x86_64.AppImage",
+    "version_raw": "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-12/ImageMagick-bdd4fa5-clang-x86_64.AppImage",
     "description": "CLI to create, edit, compose, or convert digital images"
   },
   {
@@ -8300,7 +8300,7 @@
     "site": "ImageMagick/ImageMagick",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/imagemagick-gcc",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/imagemagick-gcc",
-    "version_raw": "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-11/ImageMagick-578d60d-gcc-x86_64.AppImage",
+    "version_raw": "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-12/ImageMagick-bdd4fa5-gcc-x86_64.AppImage",
     "description": "CLI to create, edit, compose, or convert digital images"
   },
   {
@@ -9900,7 +9900,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -10332,7 +10332,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -11176,6 +11176,14 @@
     "description": "DS emulator, sorta"
   },
   {
+    "pkg": "melonmix",
+    "site": "vitor251093/KHMelonMix",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/melonmix",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/melonmix",
+    "version_raw": "https://github.com/vitor251093/KHMelonMix/releases/download/v0.7.2/MelonMix-appimage-x86_64.zip",
+    "description": "KH Melon Mix (DS Emulator) DS emulator, sorta DS emulator, sorta"
+  },
+  {
     "pkg": "memento",
     "site": "ripose-jp/Memento",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/memento",
@@ -11692,7 +11700,7 @@
     "site": "trueleaf/moyu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/moyu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/moyu",
-    "version_raw": "https://github.com/trueleaf/apiflow/releases/download/0.8.0-beta/moyu-0.8.0.AppImage",
+    "version_raw": "https://github.com/trueleaf/apiflow/releases/download/v0.9.0-beta.1/app-linux-v0.9.0-beta.1.AppImage",
     "description": "An online collaborative api interface management tool"
   },
   {
@@ -11988,7 +11996,7 @@
     "site": "mytonwalletorg/mytonwallet",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mytonwallet",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mytonwallet",
-    "version_raw": "https://github.com/mytonwallet-org/mytonwallet/releases/download/v4.5.1/MyTonWallet-x86_64.AppImage",
+    "version_raw": "https://github.com/mytonwallet-org/mytonwallet/releases/download/v4.5.2/MyTonWallet-x86_64.AppImage",
     "description": "Feature-rich web wallet and browser extension for TON Network"
   },
   {
@@ -20116,7 +20124,7 @@
     "site": "ivan-hc/VLC-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vlc-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vlc-git",
-    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r35551.gb71bd03-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r35558.g36464b9-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial. Free and Open Source Video & Media player, GIT version"
   },
   {
@@ -20460,7 +20468,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5517048755",
+    "version_raw": "5517240441",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -21620,7 +21628,7 @@
     "site": "AppImageCommunity/zsync2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zsync2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zsync2",
-    "version_raw": "https://github.com/AppImageCommunity/zsync2/releases/download/2.0.0-alpha-1-20250926/zsync2-93-fc62ae7-x86_64.AppImage",
+    "version_raw": "",
     "description": "A rewrite of the advanced file download/sync tool zsync"
   },
   {
