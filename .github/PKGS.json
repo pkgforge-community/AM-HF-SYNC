@@ -516,7 +516,7 @@
     "site": "pkgforge-dev/android_translation_layer-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/android-translation-layer",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/android-translation-layer",
-    "version_raw": "https://github.com/pkgforge-dev/android_translation_layer-AppImage/releases/download/r998.44ba9ddd-1%402025-12-15_1765784376/Android_Translation_Layer-r998.44ba9ddd-1-anylinux-x86_64.AppImage",
+    "version_raw": "",
     "description": "Unofficial, A translation layer that allows running Android apps on a Linux system"
   },
   {
@@ -766,14 +766,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimagelauncher",
     "version_raw": "https://github.com/TheAssassin/AppImageLauncher/releases/download/continuous/appimagelauncher-lite-3.0.0-beta-2-gha298-x86_64.AppImage",
     "description": "CLI helper for running and integrating AppImages"
-  },
-  {
-    "pkg": "appimagelint",
-    "site": "TheAssassin/appimagelint",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimagelint",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimagelint",
-    "version_raw": "https://github.com/TheAssassin/appimagelint/releases/download/continuous/appimagelint-x86_64.AppImage",
-    "description": "Check AppImages for compatibility, best practices etc"
   },
   {
     "pkg": "appimagen",
@@ -2296,14 +2288,6 @@
     "description": "A small and fast tool for getting info about your system"
   },
   {
-    "pkg": "bunqdesktop",
-    "site": "BunqCommunity/BunqDesktop",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bunqdesktop",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bunqdesktop",
-    "version_raw": "https://github.com/bunqCommunity/bunqDesktop/releases/download/0.9.10/bunqDesktop-0.9.10-x86_64.AppImage",
-    "description": "A desktop implementation for the bunq API"
-  },
-  {
     "pkg": "burning-series",
     "site": "DATL4G/BurningSeries-Android",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/burning-series",
@@ -2908,7 +2892,7 @@
     "site": "pkgforge-dev/Citron-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/citron-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/citron-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/Citron-AppImage/releases/download/nightly/Citron-a672e86f8-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Citron-AppImage/releases/download/nightly/Citron-c5f35b071-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of Citron (fork of yuzu), with optimized builds for modern cpus (nightly builds)"
   },
   {
@@ -4412,7 +4396,7 @@
     "site": "pkgforge-dev/Dolphin-emu-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dolphin-emu-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dolphin-emu-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/Dolphin-emu-AppImage/releases/download/nightly/Dolphin_Emulator-4b086b125-anylinux.dwarfs-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Dolphin-emu-AppImage/releases/download/nightly/Dolphin_Emulator-aa1605e95-anylinux.dwarfs-x86_64.AppImage",
     "description": "Unofficial nightly AppImage of the Dolphin emulator"
   },
   {
@@ -5428,7 +5412,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-25.46.7.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -10332,7 +10316,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.22_251203_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -12518,14 +12502,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/noteshrink-qt",
     "version_raw": "https://github.com/clapautius/noteshrink-qt/releases/download/v11-beta/noteshrink-qt-v11-beta-linux-x86_64.AppImage",
     "description": "GUI for noteshrink.py with preview and pre-processing opt"
-  },
-  {
-    "pkg": "notesnook",
-    "site": "streetwriters/notesnook",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/notesnook",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/notesnook",
-    "version_raw": "https://github.com/streetwriters/notesnook/releases/download/v3.3.7/notesnook_linux_x86_64.AppImage",
-    "description": "Private note-taking app that encrypts everything on client side"
   },
   {
     "pkg": "novelwriter",
@@ -20180,7 +20156,7 @@
     "site": "VSCodium/vscodium",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vscodium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vscodium",
-    "version_raw": "https://github.com/VSCodium/vscodium/releases/download/1.107.18627/VSCodium-1.107.18627.glibc2.30-x86_64.AppImage",
+    "version_raw": "",
     "description": "Community-driven, freely-licensed binary distribution of MS VSCode"
   },
   {
@@ -20460,7 +20436,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5515047466",
+    "version_raw": "5515499597",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -20964,7 +20940,7 @@
     "site": "xemu-project/xemu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xemu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xemu",
-    "version_raw": "https://github.com/xemu-project/xemu/releases/download/v0.8.128/xemu-v0.8.128-x86_64.AppImage",
+    "version_raw": "https://github.com/xemu-project/xemu/releases/download/v0.8.129/xemu-v0.8.129-x86_64.AppImage",
     "description": "Original Xbox Emulator"
   },
   {
