@@ -188,7 +188,7 @@
     "site": "toeverything/AFFiNE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine-canary",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine-canary",
-    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2025.12.27-canary.904/affine-2025.12.27-canary.904-canary-linux-x64.appimage",
+    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2025.12.28-canary.904/affine-2025.12.28-canary.904-canary-linux-x64.appimage",
     "description": "Next-gen knowledge base that brings planning/sorting/creating"
   },
   {
@@ -516,7 +516,7 @@
     "site": "pkgforge-dev/android_translation_layer-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/android-translation-layer",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/android-translation-layer",
-    "version_raw": "",
+    "version_raw": "https://github.com/pkgforge-dev/android_translation_layer-AppImage/releases/download/r998.44ba9ddd-1%402025-12-15_1765784376/Android_Translation_Layer-r998.44ba9ddd-1-anylinux-x86_64.AppImage",
     "description": "Unofficial, A translation layer that allows running Android apps on a Linux system"
   },
   {
@@ -766,6 +766,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimagelauncher",
     "version_raw": "https://github.com/TheAssassin/AppImageLauncher/releases/download/continuous/appimagelauncher-lite-3.0.0-beta-2-gha298-x86_64.AppImage",
     "description": "CLI helper for running and integrating AppImages"
+  },
+  {
+    "pkg": "appimagelint",
+    "site": "TheAssassin/appimagelint",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimagelint",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimagelint",
+    "version_raw": "https://github.com/TheAssassin/appimagelint/releases/download/continuous/appimagelint-x86_64.AppImage",
+    "description": "Check AppImages for compatibility, best practices etc"
   },
   {
     "pkg": "appimagen",
@@ -2288,6 +2296,14 @@
     "description": "A small and fast tool for getting info about your system"
   },
   {
+    "pkg": "bunqdesktop",
+    "site": "BunqCommunity/BunqDesktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bunqdesktop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bunqdesktop",
+    "version_raw": "https://github.com/bunqCommunity/bunqDesktop/releases/download/0.9.10/bunqDesktop-0.9.10-x86_64.AppImage",
+    "description": "A desktop implementation for the bunq API"
+  },
+  {
     "pkg": "burning-series",
     "site": "DATL4G/BurningSeries-Android",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/burning-series",
@@ -2756,7 +2772,7 @@
     "site": "kangfenmao/cherry-studio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cherry-studio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cherry-studio",
-    "version_raw": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.7.7/Cherry-Studio-1.7.7-x86_64.AppImage",
+    "version_raw": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.7.8/Cherry-Studio-1.7.8-x86_64.AppImage",
     "description": "Cherry Studio is a desktop client that supports for multiple LLM providers"
   },
   {
@@ -5980,7 +5996,7 @@
     "site": "fish-shell/fish-shell",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fish",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fish",
-    "version_raw": "https://github.com/fish-shell/fish-shell/releases/download/4.2.1/fish-4.2.1-linux-x86_64.tar.xz",
+    "version_raw": "https://github.com/fish-shell/fish-shell/releases/download/4.3.0/fish-4.3.0-linux-x86_64.tar.xz",
     "description": "The user-friendly command line shell"
   },
   {
@@ -9884,7 +9900,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -10924,7 +10940,7 @@
     "site": "Materialious/Materialious",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/materialious",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/materialious",
-    "version_raw": "https://github.com/Materialious/Materialious/releases/download/1.12.9/Materialious-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/Materialious/Materialious/releases/download/1.12.10/Materialious-linux-x86_64.AppImage",
     "description": "Modern material design for Invidious"
   },
   {
@@ -12502,6 +12518,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/noteshrink-qt",
     "version_raw": "https://github.com/clapautius/noteshrink-qt/releases/download/v11-beta/noteshrink-qt-v11-beta-linux-x86_64.AppImage",
     "description": "GUI for noteshrink.py with preview and pre-processing opt"
+  },
+  {
+    "pkg": "notesnook",
+    "site": "streetwriters/notesnook",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/notesnook",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/notesnook",
+    "version_raw": "https://github.com/streetwriters/notesnook/releases/download/v3.3.7/notesnook_linux_x86_64.AppImage",
+    "description": "Private note-taking app that encrypts everything on client side"
   },
   {
     "pkg": "novelwriter",
@@ -20156,7 +20180,7 @@
     "site": "VSCodium/vscodium",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vscodium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vscodium",
-    "version_raw": "",
+    "version_raw": "https://github.com/VSCodium/vscodium/releases/download/1.107.18627/VSCodium-1.107.18627.glibc2.30-x86_64.AppImage",
     "description": "Community-driven, freely-licensed binary distribution of MS VSCode"
   },
   {
@@ -20956,7 +20980,7 @@
     "site": "has207/xenia-edge",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xenia-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xenia-edge",
-    "version_raw": "https://github.com/has207/xenia-edge/releases/download/f8d1510/xenia_edge_linux.AppImage",
+    "version_raw": "https://github.com/has207/xenia-edge/releases/download/00888ed/xenia_edge_linux.AppImage",
     "description": "Xbox 360 Emulator Research Project, fork of the Xenia emulator, with the aim of quicker iteration and improvements to Vulkan backend"
   },
   {
