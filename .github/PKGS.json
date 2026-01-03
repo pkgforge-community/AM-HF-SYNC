@@ -3788,7 +3788,7 @@
     "site": "https://sourceforge.net/p/cudatext",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cudatext",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cudatext",
-    "version_raw": "https://sourceforge.net/projects/cudatext/files/release/1.231.2.0/cudatext-linux-qt6-amd64-1.231.2.0.tar.xz/download",
+    "version_raw": "https://sourceforge.net/projects/cudatext/files/release/1.231.5.0/cudatext-linux-qt6-amd64-1.231.5.0.tar.xz/download",
     "description": "A cross-platform text editor, written in Object Pascal"
   },
   {
@@ -5940,7 +5940,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-beta-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-beta-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260102-202255/Firefox-beta-147.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260103-202311/Firefox-beta-147.0-x86_64.AppImage",
     "description": "Unofficial, AppImage of the Web Browser, Beta"
   },
   {
@@ -5948,7 +5948,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-devedition-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-devedition-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260102-202255/Firefox-devedition-147.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260103-202311/Firefox-devedition-147.0-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, Dev"
   },
   {
@@ -5956,7 +5956,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-esr-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-esr-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260102-202255/Firefox-esr-140.6.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260103-202311/Firefox-esr-140.6.0-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, ESR"
   },
   {
@@ -5964,7 +5964,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-nightly-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-nightly-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260102-202255/Firefox-nightly-148.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260103-202311/Firefox-nightly-148.0a1-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, Nightly"
   },
   {
@@ -10060,7 +10060,7 @@
     "site": "jesseduffield/lazygit",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lazygit",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lazygit",
-    "version_raw": "https://github.com/jesseduffield/lazygit/releases/download/v0.57.0/lazygit_0.57.0_linux_x86_64.tar.gz",
+    "version_raw": "https://github.com/jesseduffield/lazygit/releases/download/v0.58.0/lazygit_0.58.0_linux_x86_64.tar.gz",
     "description": "Simple terminal UI for git commands"
   },
   {
@@ -10348,7 +10348,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -13998,14 +13998,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/photoquick",
     "version_raw": "https://github.com/ksharindam/photoquick/releases/download/v4.20.1/PhotoQuick-x86_64.AppImage",
     "description": "Light-weight image viewer, resize, collage, filters"
-  },
-  {
-    "pkg": "phototeleport",
-    "site": "https://phototeleport.com",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/phototeleport",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/phototeleport",
-    "version_raw": "https://phototeleport.com/",
-    "description": "Upload your photos to multiple services at once"
   },
   {
     "pkg": "phreshplayer",
@@ -18272,14 +18264,6 @@
     "description": "A rewrite of Tachiyomi for the Desktop"
   },
   {
-    "pkg": "suyu",
-    "site": "https://git.suyu.dev/suyu/suyu",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/suyu",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/suyu",
-    "version_raw": "",
-    "description": "Open-source, Nintendo Switch emulator, continuation of yuzu"
-  },
-  {
     "pkg": "svelte-electron",
     "site": "ptkdev-boilerplate/svelte-electron-boilerplate",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/svelte-electron",
@@ -18892,7 +18876,7 @@
     "site": "ivan-hc/Thunderbird-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-beta-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-beta-appimage",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260102-202331/Thunderbird-beta-147.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260103-202345/Thunderbird-beta-147.0-x86_64.AppImage",
     "description": "Unofficial. Free and open source eMail client, Beta Edition"
   },
   {
@@ -18900,7 +18884,7 @@
     "site": "ivan-hc/Thunderbird-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-nightly-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-nightly-appimage",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260102-202331/Thunderbird-nightly-148.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260103-202345/Thunderbird-nightly-148.0a1-x86_64.AppImage",
     "description": "Unofficial. Free and open source eMail client, Nightly Edition"
   },
   {
