@@ -424,6 +424,14 @@
     "description": "Stream VR games from your PC to your headset via Wi-Fi"
   },
   {
+    "pkg": "am-gui",
+    "site": "Shikakiben/AM-GUI",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/am-gui",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/am-gui",
+    "version_raw": "https://github.com/Shikakiben/AM-GUI/releases/download/beta-0.67%402026-01-04_1767555453/AM-GUI-beta-0.67-anylinux-x86_64.AppImage",
+    "description": "AM-GUI is a graphical Front for AM"
+  },
+  {
     "pkg": "amazingmarvin",
     "site": "https://amazingmarvin.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/amazingmarvin",
@@ -2124,7 +2132,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave-beta",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260103-203559/Brave-Web-Browser-beta-1.86.129-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260104-204031/Brave-Web-Browser-beta-1.86.129-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the beta release"
   },
   {
@@ -2132,7 +2140,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave-nightly",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260103-203559/Brave-Web-Browser-nightly-1.87.141-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260104-204031/Brave-Web-Browser-nightly-1.87.142-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the nightly release"
   },
   {
@@ -4228,7 +4236,7 @@
     "site": "docmirror/dev-sidecar",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/devsidecar",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/devsidecar",
-    "version_raw": "https://github.com/docmirror/dev-sidecar/releases/download/release-2.0.1/DevSidecar-2.0.1-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/docmirror/dev-sidecar/releases/download/v2.0.1/DevSidecar-2.0.1-linux-x86_64.AppImage",
     "description": "Dev sidecar/github/git/stackoverflow acceleration, in chinese"
   },
   {
@@ -5436,7 +5444,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-25.46.7.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -8436,7 +8444,7 @@
     "site": "ivan-hc/Inkscape-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/inkscape",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/inkscape",
-    "version_raw": "https://github.com/ivan-hc/Inkscape-appimage/releases/download/continuous/Inkscape_1.4.2-12-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Inkscape-appimage/releases/download/continuous/Inkscape_1.4.3-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial. Vector-based drawing program and graphics editor for both artistic and technical illustrations. It can import and export various file formats, including SVG, AI, EPS, PDF, AutoCAD, PS and PNG"
   },
   {
@@ -10348,7 +10356,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -16316,7 +16324,7 @@
     "site": "PaulCombal/SamRewritten",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/samrewritten",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/samrewritten",
-    "version_raw": "https://github.com/PaulCombal/SamRewritten/releases/download/v1.0.0-beta1/samrewritten-adw.AppImage",
+    "version_raw": "https://github.com/PaulCombal/SamRewritten/releases/download/v1.0.0-beta2/samrewritten-adw.AppImage",
     "description": "Steam Achievement Manager For Linux. Rewritten in C++"
   },
   {
@@ -16764,7 +16772,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-01-04-975b1d312ad9145a13b10e9bbc99a3f7728a18d8/shadps4-linux-sdl-2026-01-04-975b1d3.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-01-04-35da0506b6c74669ec4378cd0e4d9684d5400d4e/shadps4-linux-sdl-2026-01-04-35da050.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -20500,7 +20508,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5595335431",
+    "version_raw": "5596263579",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
