@@ -1036,7 +1036,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "",
+    "version_raw": "1.0.4",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -5444,7 +5444,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-25.46.7.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -7926,6 +7926,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/helix",
     "version_raw": "https://github.com/helix-editor/helix/releases/download/25.07.1/helix-25.07.1-x86_64.AppImage",
     "description": "A post-modern modal text editor"
+  },
+  {
+    "pkg": "hellium",
+    "site": "imputnet/helium-linux",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hellium",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hellium",
+    "version_raw": "https://github.com/imputnet/helium-linux/releases/download/0.7.9.1/helium-0.7.9.1-x86_64.AppImage",
+    "description": "The Chromium-based web browser made for people, with love. Best privacy by default, unbiased ad-blocking, no bloat and no noise"
   },
   {
     "pkg": "henson",
@@ -10964,7 +10972,7 @@
     "site": "Materialious/Materialious",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/materialious",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/materialious",
-    "version_raw": "https://github.com/Materialious/Materialious/releases/download/1.12.11/Materialious-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/Materialious/Materialious/releases/download/1.13.0/Materialious-linux-x86_64.AppImage",
     "description": "Modern material design for Invidious"
   },
   {
@@ -11724,7 +11732,7 @@
     "site": "trueleaf/moyu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/moyu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/moyu",
-    "version_raw": "https://github.com/trueleaf/apiflow/releases/download/v0.9.1-beta.8/Apiflow-0.9.1-beta.8-x86_64.AppImage",
+    "version_raw": "https://github.com/trueleaf/apiflow/releases/download/v0.9.1-beta.9/Apiflow-0.9.1-beta.9-x86_64.AppImage",
     "description": "An online collaborative api interface management tool"
   },
   {
@@ -17964,7 +17972,7 @@
     "site": "https://gitlab.com/posktomten/streamcapture2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/streamcapture2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/streamcapture2",
-    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=zVZtzrwX",
+    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=xFpffMnbG",
     "description": "Download video streams"
   },
   {
@@ -20508,7 +20516,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5598405701",
+    "version_raw": "5600222977",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
