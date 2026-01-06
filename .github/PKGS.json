@@ -16,6 +16,14 @@
     "description": "Unofficial. FOSS historical Real Time Strategy, RTS game of ancient warfare (Pre-release)"
   },
   {
+    "pkg": "12to11",
+    "site": "pkgforge-dev/12to11-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/12to11",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/12to11",
+    "version_raw": "https://github.com/pkgforge-dev/12to11-AppImage/releases/download/510a27f%402026-01-06_1767711172/12to11-510a27f-anylinux-x86_64.AppImage",
+    "description": "Unofficial, tool for running Wayland applications on an X server"
+  },
+  {
     "pkg": "2ship",
     "site": "HarbourMasters/2ship2harkinian",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/2ship",
@@ -5444,7 +5452,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-25.46.7.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -9924,7 +9932,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -10356,7 +10364,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250724_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -11724,7 +11732,7 @@
     "site": "trueleaf/moyu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/moyu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/moyu",
-    "version_raw": "https://github.com/trueleaf/apiflow/releases/download/v0.9.1-beta.9/Apiflow-0.9.1-beta.9-x86_64.AppImage",
+    "version_raw": "https://github.com/trueleaf/apiflow/releases/download/v0.9.1-beta.10/ApiFlow-0.9.1-beta.10-x86_64.AppImage",
     "description": "An online collaborative api interface management tool"
   },
   {
@@ -14524,7 +14532,7 @@
     "site": "jamaljsr/polar",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/polar",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/polar",
-    "version_raw": "https://github.com/jamaljsr/polar/releases/download/v3.3.0/polar-linux-x86_64-v3.3.0.AppImage",
+    "version_raw": "https://github.com/jamaljsr/polar/releases/download/v4.0.0/polar-linux-x86_64-v4.0.0.AppImage",
     "description": "One-click Bitcoin Lightning networks for local app development"
   },
   {
@@ -16108,7 +16116,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-9fb7c8f52c81e8ed0da55cf9816890bacbf4de04/rpcs3-v0.0.39-18613-9fb7c8f5_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-90df8baa5f296120b1fa02bda6df2f3e33cbc72d/rpcs3-v0.0.39-18615-90df8baa_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -18153,11 +18161,11 @@
   },
   {
     "pkg": "sunvox",
-    "site": "ivan-hc/Database-of-pkg2appimaged-packages",
+    "site": "ivan-hc/sunvox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sunvox",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sunvox",
-    "version_raw": "https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/sunvox/Sunvox_2.1.4d-x86_64.AppImage",
-    "description": "Small, fast and powerful modular synthesizer with pattern-based sequencer (tracker)"
+    "version_raw": "https://github.com/ivan-hc/sunvox-appimage/releases/download/continuous/Sunvox_2.1.4.d-1-archimage5.0-x86_64.AppImage",
+    "description": "Unofficial. Small, fast and powerful modular synthesizer with pattern-based sequencer (tracker)"
   },
   {
     "pkg": "sup",
@@ -19044,7 +19052,7 @@
     "site": "https://www.todesktop.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/todesktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/todesktop",
-    "version_raw": "todesktop-desktop-app-0.36.0-x86_64.AppImage",
+    "version_raw": "todesktop-desktop-app-0.36.1-x86_64.AppImage",
     "description": "Take your web app codebase and transform it into a cross platform desktop app with native functionality"
   },
   {
@@ -20033,10 +20041,10 @@
   },
   {
     "pkg": "visipics",
-    "site": "ivan-hc/Database-of-pkg2appimaged-packages",
+    "site": "ivan-hc/visipics-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/visipics",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/visipics",
-    "version_raw": "https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/visipics/VisiPics-1.3-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/visipics-appimage/releases/download/1.3/VisiPics-1.3-x86_64.AppImage",
     "description": "Windows software to find and remove duplicate pictures. Unofficial AppImage built using wine32-deploy and powered by wine"
   },
   {
@@ -20508,7 +20516,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5632420714",
+    "version_raw": "5634653197",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
