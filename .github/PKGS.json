@@ -2216,6 +2216,14 @@
     "description": "BrightScript Emulator, runs on browsers and Electron apps"
   },
   {
+    "pkg": "bruno",
+    "site": "usebruno/bruno",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bruno",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bruno",
+    "version_raw": "https://github.com/usebruno/bruno/releases/download/v3.0.2/bruno_3.0.2_x86_64_linux.AppImage",
+    "description": "An Opensource API Collection Collaboration Suite"
+  },
+  {
     "pkg": "brutespray",
     "site": "x90skysn3k/brutespray",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brutespray",
@@ -8676,7 +8684,7 @@
     "site": "deathkiller/jazz2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/jazz2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/jazz2",
-    "version_raw": "https://github.com/deathkiller/jazz2/releases/download/3.4.0/Jazz2_3.4.0_Linux.zip",
+    "version_raw": "https://github.com/deathkiller/jazz2/releases/download/3.5.0/Jazz2_3.5.0_Linux.zip",
     "description": "Open-source reimplementation of Jazz Jackrabbit 2"
   },
   {
@@ -10812,7 +10820,7 @@
     "site": "kodjodevf/mangayomi",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mangayomi",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mangayomi",
-    "version_raw": "https://github.com/kodjodevf/mangayomi/releases/download/v0.6.90/Mangayomi-v0.6.90-linux.AppImage",
+    "version_raw": "https://github.com/kodjodevf/mangayomi/releases/download/v0.6.95/Mangayomi-v0.6.95-linux.AppImage",
     "description": "Free and open source application for reading manga, novels, and watching animes available"
   },
   {
@@ -16100,7 +16108,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-c22d2b51bbaed3d4d504fb8bf5602c6758c2827f/rpcs3-v0.0.39-18622-c22d2b51_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-ef5a4bf7e4cd6dddc3dbf10782eba5925b8bd981/rpcs3-v0.0.39-18623-ef5a4bf7_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -18524,7 +18532,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.2.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.4.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -20500,7 +20508,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5680073521",
+    "version_raw": "5682316375",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
