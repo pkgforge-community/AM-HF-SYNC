@@ -8060,7 +8060,7 @@
     "site": "HMCL-dev/HMCL",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hmcl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hmcl",
-    "version_raw": "https://github.com/HMCL-dev/HMCL/releases/download/v3.10.0.317/HMCL-3.10.0.317.sh",
+    "version_raw": "https://github.com/HMCL-dev/HMCL/releases/download/v3.10.0.318/HMCL-3.10.0.318.sh",
     "description": "A Minecraft Launcher which is multi-functional, cross-platform and popular"
   },
   {
@@ -9948,7 +9948,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -10260,7 +10260,7 @@
     "site": "LibreCAD/LibreCAD",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/librecad",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/librecad",
-    "version_raw": "https://github.com/LibreCAD/LibreCAD/releases/download/2.2.1.3_rc-latest/LibreCAD-v2.2.1.2-23-g2fdb611b0-x86_64.AppImage",
+    "version_raw": "https://github.com/LibreCAD/LibreCAD/releases/download/2.2.1.3_rc-latest/LibreCAD-v2.2.1.3-1-g37cccfbf8-x86_64.AppImage",
     "description": "2D CAD program written in C++11 using the Qt framework"
   },
   {
@@ -10380,7 +10380,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -16132,7 +16132,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-cd6dfc82a27844860d3596f5e031214ef354d849/rpcs3-v0.0.39-18668-cd6dfc82_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-9781690918e5e8fffb8d1af7d999239dd8aa0d59/rpcs3-v0.0.39-18669-97816909_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -18246,6 +18246,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/superslicer-prerelease-bin",
     "version_raw": "https://github.com/supermerill/SuperSlicer/releases/download/2.7.62.0-beta2/SuperSlicer-ubuntu_22.04-2.7.62.0.AppImage",
     "description": "G-code generator for 3D printers"
+  },
+  {
+    "pkg": "supersonic",
+    "site": "dweymouth/supersonic",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/supersonic",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/supersonic",
+    "version_raw": "https://github.com/dweymouth/supersonic/releases/download/v0.20.0/Supersonic-0.20.0-linux-x64.AppImage",
+    "description": "A lightweight and full-featured cross-platform desktop client for self-hosted music servers"
   },
   {
     "pkg": "supertag",
@@ -20524,7 +20532,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5731880690",
+    "version_raw": "5732227699",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
