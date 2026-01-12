@@ -1052,7 +1052,7 @@
     "site": "artisan-roaster-scope/artisan",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artisan",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artisan",
-    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/v3.6-beta/artisan-linux-3.4.1.AppImage",
+    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/continuous/artisan-linux-3.4.1.AppImage",
     "description": "Visualizes the coffee roasting process"
   },
   {
@@ -3408,14 +3408,6 @@
     "description": "A side bar for showing widgets for CuboCore Application Suite"
   },
   {
-    "pkg": "corearchiver",
-    "site": "https://cubocore.org",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/corearchiver",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/corearchiver",
-    "version_raw": "https://gitlab.com/cubocore/packages/-/raw/main/appimages/v3.0.0LTS/CoreArchiver-d5f6110-x86_64.AppImage",
-    "description": "Archive manager for CuboCore Application Suite"
-  },
-  {
     "pkg": "corefm",
     "site": "https://cubocore.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/corefm",
@@ -5468,7 +5460,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.1.5.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -10380,7 +10372,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.18_250710_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -11748,7 +11740,7 @@
     "site": "trueleaf/moyu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/moyu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/moyu",
-    "version_raw": "https://github.com/trueleaf/apiflow/releases/download/v0.9.1-beta.11/ApiFlow-0.9.1-beta.11-x86_64.AppImage",
+    "version_raw": "https://github.com/trueleaf/apiflow/releases/download/v0.9.2/ApiFlow-0.9.2-x86_64.AppImage",
     "description": "An online collaborative api interface management tool"
   },
   {
@@ -14068,7 +14060,7 @@
     "site": "Molunerfinn/PicGo",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/picgo",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/picgo",
-    "version_raw": "https://github.com/Molunerfinn/PicGo/releases/download/v2.4.2/PicGo-2.4.2-x86_64.AppImage",
+    "version_raw": "https://github.com/Molunerfinn/PicGo/releases/download/v2.4.3/PicGo-2.4.3-x86_64.AppImage",
     "description": "Easy to upload your pic & copy to write"
   },
   {
@@ -20540,7 +20532,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5748479419",
+    "version_raw": "5749649795",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
