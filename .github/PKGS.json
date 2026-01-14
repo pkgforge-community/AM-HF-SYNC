@@ -380,7 +380,7 @@
     "site": "ruanformigoni/flatimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alpine-flatimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alpine-flatimage",
-    "version_raw": "https://github.com/flatimage/flatimage/releases/download/v2.0.0/alpine-x86_64.flatimage",
+    "version_raw": "https://github.com/flatimage/flatimage/releases/download/v2.0.1/alpine-x86_64.flatimage",
     "description": "A hybrid of Flatpak sandboxing with AppImage portability"
   },
   {
@@ -620,7 +620,7 @@
     "site": "aurelienpierreeng/ansel",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ansel",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ansel",
-    "version_raw": "https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/Ansel-0.0.0%2B2070.g1d3af0ff6-x86_64.AppImage",
+    "version_raw": "https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/Ansel-0.0.0%2B2073.gb2158be86-x86_64.AppImage",
     "description": "An open-source photo-editing software for digital artists, designed to help you achieve your own interpretation of raw digital photographs"
   },
   {
@@ -908,7 +908,7 @@
     "site": "ruanformigoni/flatimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/arch-flatimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/arch-flatimage",
-    "version_raw": "https://github.com/flatimage/flatimage/releases/download/v2.0.0/arch-x86_64.flatimage",
+    "version_raw": "https://github.com/flatimage/flatimage/releases/download/v2.0.1/arch-x86_64.flatimage",
     "description": "A hybrid of Flatpak sandboxing with AppImage portability"
   },
   {
@@ -2692,7 +2692,7 @@
     "site": "cerebroapp/cerebro",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cerebro",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cerebro",
-    "version_raw": "https://github.com/cerebroapp/cerebro/releases/download/v0.11.0/Cerebro-0.11.0.AppImage",
+    "version_raw": "",
     "description": "Open-source productivity booster with a brain"
   },
   {
@@ -3932,7 +3932,7 @@
     "site": "darktable-org/darktable",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/darktable-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/darktable-nightly",
-    "version_raw": "https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.5.0%2B89.gca35370023-x86_64.AppImage",
+    "version_raw": "https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.5.0%2B92.g522c2998f5-x86_64.AppImage",
     "description": "Photography workflow app and raw developer, nightly"
   },
   {
@@ -4540,7 +4540,7 @@
     "site": "fernzi/dragdrop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dragdrop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dragdrop",
-    "version_raw": "https://github.com/fernzi/dragdrop/releases/download/v1.1.0/DragDrop-1.1.0-x86_64.AppImage",
+    "version_raw": "",
     "description": "Small drag-and-drop file source for the command line"
   },
   {
@@ -5468,7 +5468,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.1.5.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -6302,6 +6302,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/foobar2000",
     "version_raw": "https://github.com/mmtrt/foobar2000_AppImage/releases/download/stable64/foobar2000-x64-2.25.3-x86_64.AppImage",
     "description": "Unofficial, an advanced freeware audio player for Windows, includes WINE"
+  },
+  {
+    "pkg": "foot",
+    "site": "pkgforge-dev/foot-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/foot",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/foot",
+    "version_raw": "https://github.com/pkgforge-dev/foot-AppImage/releases/download/1.25.0-1%402026-01-10_1768033003/Foot-1.25.0-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial. Fast, lightweight, and minimalistic Wayland terminal emulator"
   },
   {
     "pkg": "forkgram",
@@ -9948,7 +9956,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -10292,7 +10300,7 @@
     "site": "https://librewolf.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/librewolf",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/librewolf",
-    "version_raw": "https://gitlab.com/api/v4/projects/24386000/packages/generic/librewolf/146.0.1-1/LibreWolf.x86_64.AppImage",
+    "version_raw": "https://gitlab.com/api/v4/projects/24386000/packages/generic/librewolf/147.0-1/LibreWolf.x86_64.AppImage",
     "description": "Firefox-based Web Browser focused on privacy, security, freedom"
   },
   {
@@ -11748,7 +11756,7 @@
     "site": "trueleaf/moyu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/moyu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/moyu",
-    "version_raw": "https://github.com/trueleaf/apiflow/releases/download/v0.9.3/ApiFlow-0.9.3-x86_64.AppImage",
+    "version_raw": "https://github.com/trueleaf/apiflow/releases/download/v0.9.4-beta.1/ApiFlow-0.9.4-beta.1-x86_64.AppImage",
     "description": "An online collaborative api interface management tool"
   },
   {
@@ -12556,7 +12564,7 @@
     "site": "nuttyartist/notes",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/notes",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/notes",
-    "version_raw": "",
+    "version_raw": "https://github.com/nuttyartist/notes/releases/download/v2.3.1/Notes_2.3.1-Qt5.15.2-x86_64.AppImage",
     "description": "Note-taking application, write down your thoughts"
   },
   {
@@ -13636,7 +13644,7 @@
     "site": "paritytech/fether",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parity-fether",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parity-fether",
-    "version_raw": "",
+    "version_raw": "https://github.com/openethereum/fether/releases/download/v0.4.3-beta/Parity-Fether-0.4.3.AppImage",
     "description": "Fether Wallet"
   },
   {
@@ -13764,7 +13772,7 @@
     "site": "PCSX2/pcsx2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcsx2",
-    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.30/pcsx2-v2.7.30-linux-appimage-x64-Qt.AppImage",
+    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.37/pcsx2-v2.7.37-linux-appimage-x64-Qt.AppImage",
     "description": "The Playstation 2 Emulator"
   },
   {
@@ -14372,7 +14380,7 @@
     "site": "plebbit/5chan",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/plebchan",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/plebchan",
-    "version_raw": "https://github.com/plebbit/5chan/releases/download/v0.5.3/plebchan-0.5.3.AppImage",
+    "version_raw": "",
     "description": "A GUI for plebbit similar to 4chan"
   },
   {
@@ -16132,7 +16140,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-d656420cc4db15fd9def2fccd0beb87de48e102d/rpcs3-v0.0.39-18696-d656420c_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-a0f2f006b19f9727d882d92bc00446e15d40be3d/rpcs3-v0.0.39-18699-a0f2f006_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -19692,7 +19700,7 @@
     "site": "astral-sh/uv",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uv",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uv",
-    "version_raw": "https://github.com/astral-sh/uv/releases/download/0.9.24/uv-x86_64-unknown-linux-musl.tar.gz",
+    "version_raw": "https://github.com/astral-sh/uv/releases/download/0.9.25/uv-x86_64-unknown-linux-musl.tar.gz",
     "description": "An extremely fast Python package and project manager, written in Rust"
   },
   {
@@ -20540,7 +20548,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5791145685",
+    "version_raw": "5793579911",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
