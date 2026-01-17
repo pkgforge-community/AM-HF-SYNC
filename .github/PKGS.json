@@ -3736,6 +3736,14 @@
     "description": "Map Editor for CrossCode"
   },
   {
+    "pkg": "crossmacro",
+    "site": "alper-han/CrossMacro",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/crossmacro",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/crossmacro",
+    "version_raw": "https://github.com/alper-han/CrossMacro/releases/download/v0.9.0/CrossMacro-0.9.0-x86_64.AppImage",
+    "description": "A modern mouse and keyboard macro recording and playback application"
+  },
+  {
     "pkg": "crossmobile",
     "site": "crossmob/CrossMobile",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/crossmobile",
@@ -4676,7 +4684,7 @@
     "site": "stenzek/duckstation",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/duckstation",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/duckstation",
-    "version_raw": "https://api.github.com/repos/stenzek/duckstation/releases/277606407",
+    "version_raw": "https://api.github.com/repos/stenzek/duckstation/releases/277619191",
     "description": "PlayStation 1, aka PSX games Emulator"
   },
   {
@@ -5468,7 +5476,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.1.5.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -6300,7 +6308,7 @@
     "site": "mmtrt/foobar2000_AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/foobar2000",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/foobar2000",
-    "version_raw": "https://github.com/mmtrt/foobar2000_AppImage/releases/download/stable64/foobar2000-x64-2.25.3-x86_64.AppImage",
+    "version_raw": "https://github.com/mmtrt/foobar2000_AppImage/releases/download/stable64/foobar2000-x64-2.25.5-x86_64.AppImage",
     "description": "Unofficial, an advanced freeware audio player for Windows, includes WINE"
   },
   {
@@ -8908,7 +8916,7 @@
     "site": "laurent22/joplin",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/joplin",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/joplin",
-    "version_raw": "https://github.com/laurent22/joplin/releases/download/v3.5.11/Joplin-3.5.11.AppImage",
+    "version_raw": "https://github.com/laurent22/joplin/releases/download/v3.5.12/Joplin-3.5.12.AppImage",
     "description": "Note and to-do application with synchronization capabilities"
   },
   {
@@ -8916,7 +8924,7 @@
     "site": "laurent22/joplin",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/joplin-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/joplin-beta",
-    "version_raw": "https://github.com/laurent22/joplin/releases/download/v3.5.11/Joplin-3.5.11.AppImage",
+    "version_raw": "https://github.com/laurent22/joplin/releases/download/v3.6.1/Joplin-3.6.1.AppImage",
     "description": "A cross-platform note taking and to-do app"
   },
   {
@@ -9956,7 +9964,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -10388,7 +10396,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.22_251203_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.19_250820_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -15260,7 +15268,7 @@
     "site": "pbek/QOwnNotes",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qownnotes",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qownnotes",
-    "version_raw": "https://github.com/pbek/QOwnNotes/releases/download/v26.1.7/QOwnNotes-x86_64-Qt6-experimental.AppImage",
+    "version_raw": "https://github.com/pbek/QOwnNotes/releases/download/v26.1.8/QOwnNotes-x86_64-Qt6-experimental.AppImage",
     "description": "Plain text notepad and todo list manager"
   },
   {
@@ -19332,7 +19340,7 @@
     "site": "trzsz/trzsz-ssh",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tssh",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tssh",
-    "version_raw": "https://github.com/trzsz/trzsz-ssh/releases/download/v0.1.23/tssh_0.1.23_linux_aarch64.tar.gz",
+    "version_raw": "https://github.com/trzsz/trzsz-ssh/releases/download/v0.1.24/tssh_0.1.24_linux_aarch64.tar.gz",
     "description": "trzsz-ssh is an alternative to ssh client, offers additional features"
   },
   {
@@ -20556,7 +20564,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5876882682",
+    "version_raw": "5878945399",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -20904,6 +20912,14 @@
     "description": "WowUp the World of Warcraft addon updater"
   },
   {
+    "pkg": "wox",
+    "site": "Wox-launcher/Wox",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wox",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wox",
+    "version_raw": "https://github.com/Wox-launcher/Wox/releases/download/v2.0.0-beta.8/wox-linux-amd64.AppImage",
+    "description": "A cross-platform launcher that simply works"
+  },
+  {
     "pkg": "wps-office",
     "site": "ivan-hc/WPS-Office-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wps-office",
@@ -21068,7 +21084,7 @@
     "site": "has207/xenia-edge",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xenia-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xenia-edge",
-    "version_raw": "https://github.com/has207/xenia-edge/releases/download/73bcaa6/xenia_edge_linux.AppImage",
+    "version_raw": "https://github.com/has207/xenia-edge/releases/download/c9d07ab/xenia_edge_linux.AppImage",
     "description": "Xbox 360 Emulator Research Project, fork of the Xenia emulator, with the aim of quicker iteration and improvements to Vulkan backend"
   },
   {
