@@ -196,7 +196,7 @@
     "site": "toeverything/AFFiNE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine-canary",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine-canary",
-    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2026.1.17-canary.904/affine-2026.1.17-canary.904-canary-linux-x64.appimage",
+    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2026.1.18-canary.904/affine-2026.1.18-canary.904-canary-linux-x64.appimage",
     "description": "Next-gen knowledge base that brings planning/sorting/creating"
   },
   {
@@ -2998,6 +2998,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/classipod",
     "version_raw": "https://github.com/adeeteya/Classipod/releases/download/1.12.0/Classipod-Linux-AppImage.AppImage",
     "description": "A local music player app designed to capture the nostalgic essence of the iconic iPod Classic"
+  },
+  {
+    "pkg": "claude-desktop",
+    "site": "aaddrick/claude-desktop-debian",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/claude-desktop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/claude-desktop",
+    "version_raw": "https://github.com/aaddrick/claude-desktop-debian/releases/download/v1.2.1%2Bclaude1.1.351/claude-desktop-1.1.351-amd64.AppImage",
+    "description": "Claude Desktop for Debian-based Linux distributions"
   },
   {
     "pkg": "cleepdesktop",
@@ -6188,7 +6196,7 @@
     "site": "krille-chan/fluffychat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fluffychat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fluffychat",
-    "version_raw": "https://github.com/krille-chan/fluffychat/releases/download/rc2.4.0-0/fluffychat-linux-x64.tar.gz",
+    "version_raw": "https://github.com/krille-chan/fluffychat/releases/download/rc2.4.0-2/fluffychat-linux-x64.tar.gz",
     "description": "The cutest instant messenger in the matrix"
   },
   {
@@ -7572,7 +7580,7 @@
     "site": "saturneric/GpgFrontend",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gpgfrontend",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gpgfrontend",
-    "version_raw": "https://github.com/saturneric/GpgFrontend/releases/download/v2.1.10/GpgFrontend-2.1.10-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/saturneric/GpgFrontend/releases/download/nightly/Gpg_Frontend-53ca323-x86_64.AppImage",
     "description": "A Cross-Platform OpenPGP Frontend Software"
   },
   {
@@ -9964,7 +9972,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -12724,7 +12732,7 @@
     "site": "Syllo/nvtop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nvtop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nvtop",
-    "version_raw": "https://github.com/Syllo/nvtop/releases/download/3.3.0/nvtop-3.3.0-x86_64.AppImage",
+    "version_raw": "https://github.com/Syllo/nvtop/releases/download/3.3.1/nvtop-3.3.1-x86_64.AppImage",
     "description": "GPUs process monitoring for AMD, Intel and NVIDIA"
   },
   {
@@ -17780,7 +17788,7 @@
     "site": "babaissarkar/ssplot",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ssplot",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ssplot",
-    "version_raw": "https://github.com/babaissarkar/ssplot/releases/download/v2.3.2/SSPlot-x86_64.AppImage",
+    "version_raw": "https://github.com/babaissarkar/ssplot/releases/download/v2.3.3/SSPlot-x86_64.AppImage",
     "description": "A simple plotting utility for dynamical systems"
   },
   {
@@ -18260,7 +18268,7 @@
     "site": "johannesjo/super-productivity",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/superproductivity",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/superproductivity",
-    "version_raw": "https://github.com/super-productivity/super-productivity/releases/download/v17.0.0-RC.7/superProductivity-x86_64.AppImage",
+    "version_raw": "https://github.com/super-productivity/super-productivity/releases/download/v17.0.0-RC.12/superProductivity-x86_64.AppImage",
     "description": "An advanced todo list app with integrated Timeboxing"
   },
   {
@@ -20564,7 +20572,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5886620375",
+    "version_raw": "5887220460",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
