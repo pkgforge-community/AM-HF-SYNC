@@ -2148,7 +2148,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave-beta",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260119-203717/Brave-Web-Browser-beta-1.87.170-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260120-205113/Brave-Web-Browser-beta-1.87.171-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the beta release"
   },
   {
@@ -2156,7 +2156,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave-nightly",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260119-203717/Brave-Web-Browser-nightly-1.88.39-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260120-205113/Brave-Web-Browser-nightly-1.88.45-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the nightly release"
   },
   {
@@ -3868,7 +3868,7 @@
     "site": "https://www.cursor.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cursor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cursor",
-    "version_raw": "https://downloads.cursor.com/production/2ca326e0d1ce10956aea33d54c0e2d8c13c58a32/linux/x64/Cursor-2.3.41-x86_64.AppImage",
+    "version_raw": "https://downloads.cursor.com/production/ca0f9bf806f235ea014a22712cbcbf5e88ca77e9/linux/x64/Cursor-2.4.7-x86_64.AppImage",
     "description": "Built to make you extraordinarily productive, Cursor is the best way to code with AI"
   },
   {
@@ -5980,7 +5980,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-beta-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-beta-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260119-202446/Firefox-beta-148.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260120-204334/Firefox-beta-148.0-x86_64.AppImage",
     "description": "Unofficial, AppImage of the Web Browser, Beta"
   },
   {
@@ -5988,7 +5988,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-devedition-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-devedition-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260119-202446/Firefox-devedition-148.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260120-204334/Firefox-devedition-148.0-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, Dev"
   },
   {
@@ -5996,7 +5996,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-esr-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-esr-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260119-202446/Firefox-esr-140.7.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260120-204334/Firefox-esr-140.7.0-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, ESR"
   },
   {
@@ -6004,7 +6004,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-nightly-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-nightly-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260119-202446/Firefox-nightly-149.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260120-204334/Firefox-nightly-149.0a1-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, Nightly"
   },
   {
@@ -6325,7 +6325,7 @@
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/foot",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/foot",
     "version_raw": "https://github.com/pkgforge-dev/foot-AppImage/releases/download/1.25.0-1%402026-01-15_1768489807/Foot-1.25.0-1-anylinux-x86_64.AppImage",
-    "description": "Unofficial. Fast, lightweight, and minimalistic Wayland terminal emulator"
+    "description": "Unofficial, A fast, lightweight and minimalistic Wayland terminal emulator (This AppImage can work on x11 as well)"
   },
   {
     "pkg": "forkgram",
@@ -7374,6 +7374,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/godot",
     "version_raw": "https://github.com/godotengine/godot/releases/download/4.5.1-stable/Godot_v4.5.1-stable_linux.x86_64.zip",
     "description": "Multi-platform 2D and 3D game engine with a feature-rich editor"
+  },
+  {
+    "pkg": "godot-appimage",
+    "site": "pkgforge-dev/Godot-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/godot-appimage",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/godot-appimage",
+    "version_raw": "https://github.com/pkgforge-dev/Godot-AppImage/releases/download/4.5.1-1%402026-01-20_1768915703/Godot_Engine-4.5.1-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, Advanced cross-platform 2D and 3D game engine"
   },
   {
     "pkg": "gojq",
@@ -12496,6 +12504,14 @@
     "description": "an AI-enhanced, customizable browser designed to streamline your digital experience"
   },
   {
+    "pkg": "nomacs",
+    "site": "pkgforge-dev/Nomacs-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nomacs",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nomacs",
+    "version_raw": "https://github.com/pkgforge-dev/Nomacs-AppImage/releases/download/3.22.0-1%402026-01-19_1768854364/nomacs-3.22.0-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, nomacs is a free, open source image viewer, which supports multiple platforms"
+  },
+  {
     "pkg": "nootka",
     "site": "https://sourceforge.net/p/nootka",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nootka",
@@ -13796,7 +13812,7 @@
     "site": "PCSX2/pcsx2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcsx2",
-    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.55/pcsx2-v2.7.55-linux-appimage-x64-Qt.AppImage",
+    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.56/pcsx2-v2.7.56-linux-appimage-x64-Qt.AppImage",
     "description": "The Playstation 2 Emulator"
   },
   {
@@ -15096,6 +15112,14 @@
     "description": "Qt5 Gui app that helps you add AppImages and binary archives into your Desktop environment"
   },
   {
+    "pkg": "qarma",
+    "site": "pkgforge-dev/qarma-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qarma",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qarma",
+    "version_raw": "https://github.com/pkgforge-dev/qarma-AppImage/releases/download/r1.21eb8ef-1%402026-01-15_1768436849/qarma-r1.21eb8ef-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, Qarma is a tool to create dialog boxes, based on Qt. It's a clone of Zenity"
+  },
+  {
     "pkg": "qaterialgallery",
     "site": "OlivierLDff/QaterialGallery",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qaterialgallery",
@@ -16000,6 +16024,14 @@
     "description": "Revolt Desktop App"
   },
   {
+    "pkg": "rewaita",
+    "site": "pkgforge-dev/Rewaita-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rewaita",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rewaita",
+    "version_raw": "https://github.com/pkgforge-dev/Rewaita-AppImage/releases/download/1.1.1-1%402026-01-16_1768590536/Rewaita-1.1.1-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, rewaita gives your Adwaita apps a fresh look by tinting them with popular color schemes"
+  },
+  {
     "pkg": "rhb",
     "site": "NicolaOrritos/rhb",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rhb",
@@ -16044,7 +16076,7 @@
     "site": "SalOne22/rimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rimage",
-    "version_raw": "https://github.com/SalOne22/rimage/releases/download/v0.12.1/rimage-0.12.1-x86_64-unknown-linux-musl.tar.gz",
+    "version_raw": "https://github.com/SalOne22/rimage/releases/download/v0.12.2/rimage-0.12.2-x86_64-unknown-linux-musl.tar.gz",
     "description": "This is CLI tool inspired by squoosh"
   },
   {
@@ -19448,6 +19480,14 @@
     "description": "Unofficial AppImage for Tutanota, an email service with a strong focus on security and privacy that lets you encrypt emails, contacts and calendar entries on all your devices"
   },
   {
+    "pkg": "tuxfootball",
+    "site": "pkgforge-dev/Tux-Football-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tuxfootball",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tuxfootball",
+    "version_raw": "https://github.com/pkgforge-dev/Tux-Football-AppImage/releases/download/0.3.1-1%402026-01-20_1768939855/Tux_Football-0.3.1-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, is a great 2D football game for Windows and Linux"
+  },
+  {
     "pkg": "tuxplorer",
     "site": "Pand3ru/Tuxplorer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tuxplorer",
@@ -20572,7 +20612,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5938515165",
+    "version_raw": "5942144552",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
