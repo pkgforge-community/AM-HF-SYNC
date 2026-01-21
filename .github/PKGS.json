@@ -1756,7 +1756,7 @@
     "site": "digitalbitbox/bitbox-wallet-app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bitbox-wallet",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bitbox-wallet",
-    "version_raw": "https://github.com/BitBoxSwiss/bitbox-wallet-app/releases/download/v4.49.0/BitBox-4.49.0-x86_64.AppImage",
+    "version_raw": "https://github.com/BitBoxSwiss/bitbox-wallet-app/releases/download/v4.50.0/BitBox-4.50.0-x86_64.AppImage",
     "description": "Cryptocurrency hardware wallet desktop app"
   },
   {
@@ -2950,6 +2950,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/city-hub",
     "version_raw": "https://github.com/CityChainFoundation/city-hub/releases/download/v1.0.39/City.Hub-1.0.39-linux-x86_64.AppImage",
     "description": "Hub into everything on City Chain/Smart City Platform"
+  },
+  {
+    "pkg": "ciyue",
+    "site": "mumu-lhl/Ciyue",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ciyue",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ciyue",
+    "version_raw": "https://github.com/mumu-lhl/Ciyue/releases/download/v1.20.1/Ciyue-latest-x86_64.AppImage",
+    "description": "A simple mdict dictionary"
   },
   {
     "pkg": "clagrange",
@@ -5484,7 +5492,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.1.5.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -7252,7 +7260,7 @@
     "site": "timche/gmail-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gmail-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gmail-desktop",
-    "version_raw": "https://github.com/zoidsh/meru/releases/download/v3.26.0/Meru-3.26.0.AppImage",
+    "version_raw": "https://github.com/zoidsh/meru/releases/download/v3.27.0/Meru-3.27.0.AppImage",
     "description": "Unofficial. Nifty Gmail desktop app"
   },
   {
@@ -7972,7 +7980,7 @@
     "site": "imputnet/helium-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/helium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/helium",
-    "version_raw": "https://github.com/imputnet/helium-linux/releases/download/0.8.2.1/helium-0.8.2.1-x86_64.AppImage",
+    "version_raw": "https://github.com/imputnet/helium-linux/releases/download/0.8.3.1/helium-0.8.3.1-x86_64.AppImage",
     "description": "The Chromium-based web browser made for people, with love. Best privacy by default, unbiased ad-blocking, no bloat and no noise"
   },
   {
@@ -10092,7 +10100,7 @@
     "site": "Portable-Linux-Apps/lapce-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lapce",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lapce",
-    "version_raw": "https://github.com/Portable-Linux-Apps/lapce-AppImage/releases/download/v0.4.5%402026-01-01_1767284968/Lapce-v0.4.5-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/lapce-AppImage/releases/download/v0.4.5%402026-01-21_1769014404/Lapce-v0.4.5-x86_64.AppImage",
     "description": "Lightning-fast and Powerful Code Editor written in Rust"
   },
   {
@@ -15800,6 +15808,14 @@
     "description": "Reactotron desktop mode engage"
   },
   {
+    "pkg": "readest",
+    "site": "readest/readest",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/readest",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/readest",
+    "version_raw": "https://github.com/readest/readest/releases/download/v0.9.98/Readest_0.9.98_amd64.AppImage",
+    "description": "Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience"
+  },
+  {
     "pkg": "real-video-enhancer",
     "site": "TNTwise/REAL-Video-Enhancer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/real-video-enhancer",
@@ -16868,7 +16884,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-01-19-c898071b723d6e8b539d034d11d6f16b011cbee9/shadps4-linux-sdl-2026-01-19-c898071.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-01-21-3e1f5a0bfb402a5f175d84ac62ff5ff7b4687457/shadps4-linux-sdl-2026-01-21-3e1f5a0.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -18804,7 +18820,7 @@
     "site": "SquitchYT/Tess",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tess",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tess",
-    "version_raw": "https://github.com/Squitch1/Tess/releases/download/0.7.0-alpha.14/tess-x86_64-unknown-linux-gnu",
+    "version_raw": "https://github.com/Squitch1/Tess/releases/download/0.7.0-alpha.15/tess-x86_64-unknown-linux-gnu",
     "description": "A hackable, simple, rapid and beautiful terminal"
   },
   {
@@ -20140,7 +20156,7 @@
     "site": "ivan-hc/VirtualBox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/virtualbox",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/virtualbox",
-    "version_raw": "https://github.com/ivan-hc/VirtualBox-appimage/releases/download/20260116-035638/VirtualBox-KVM_7.2.4-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/VirtualBox-appimage/releases/download/20260121-144353/VirtualBox-KVM_7.2.4-archimage5.0-x86_64.AppImage",
     "description": "Powerful x86 virtualization for enterprise as well as home use"
   },
   {
@@ -20612,7 +20628,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "5957836926",
+    "version_raw": "5964384539",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -21044,7 +21060,7 @@
     "site": "Voxelum/x-minecraft-launcher",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/x-minecraft-launcher",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/x-minecraft-launcher",
-    "version_raw": "https://github.com/Voxelum/x-minecraft-launcher/releases/download/v0.53.3/xmcl-0.53.3-x86_64.AppImage",
+    "version_raw": "https://github.com/Voxelum/x-minecraft-launcher/releases/download/v0.54.0/xmcl-0.54.0-x86_64.AppImage",
     "description": "An Open Source Minecraft Launcher with Modern UX"
   },
   {
