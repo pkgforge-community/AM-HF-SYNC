@@ -4592,6 +4592,14 @@
     "description": "A static recompilation/native port of the game Dinosaur Planet"
   },
   {
+    "pkg": "dinox",
+    "site": "rallep71/dinox",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dinox",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dinox",
+    "version_raw": "https://github.com/rallep71/dinox/releases/download/v0.9.8.1/DinoX--x86_64.AppImage",
+    "description": "DinoX - Modern XMPP Chat Client with Video Calls, Voice Messages & OMEMO Encryption"
+  },
+  {
     "pkg": "dione",
     "site": "dioneapp/dioneapp",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dione",
@@ -5740,7 +5748,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.1.5.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -7572,7 +7580,7 @@
     "site": "timche/gmail-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gmail-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gmail-desktop",
-    "version_raw": "https://github.com/zoidsh/meru/releases/download/v3.29.1/Meru-3.29.1.AppImage",
+    "version_raw": "https://github.com/zoidsh/meru/releases/download/v3.29.2/Meru-3.29.2.AppImage",
     "description": "Unofficial. Nifty Gmail desktop app"
   },
   {
@@ -8396,7 +8404,7 @@
     "site": "heyman/heynote",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/heynote",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/heynote",
-    "version_raw": "https://github.com/heyman/heynote/releases/download/v2.8.0-beta.2/Heynote_2.8.0-beta.2_x86_64.AppImage",
+    "version_raw": "https://github.com/heyman/heynote/releases/download/v2.8.0-beta.3/Heynote_2.8.0-beta.3_x86_64.AppImage",
     "description": "A dedicated scratchpad for developers"
   },
   {
@@ -10412,7 +10420,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -10868,7 +10876,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.22_251203_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.23_260108_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -10980,7 +10988,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobe-chat/releases/download/v2.0.0-next.351/LobeHub-Beta-2.0.0-next.351.AppImage",
+    "version_raw": "https://github.com/lobehub/lobe-chat/releases/download/v2.0.0-next.354/LobeHub-Beta-2.0.0-next.354.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -16396,7 +16404,7 @@
     "site": "rclone-ui/rclone-ui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rclone-ui",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rclone-ui",
-    "version_raw": "https://github.com/rclone-ui/rclone-ui/releases/download/v3.2.2/Rclone.UI_amd64.AppImage",
+    "version_raw": "https://github.com/rclone-ui/rclone-ui/releases/download/v3.3.0/Rclone.UI_amd64.AppImage",
     "description": "The cross-platform desktop GUI for rclone & S3"
   },
   {
@@ -16764,7 +16772,7 @@
     "site": "pkgforge-dev/Rnote-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rnote",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rnote",
-    "version_raw": "https://github.com/pkgforge-dev/Rnote-AppImage/releases/download/0.13.1-1%402026-01-01_1767256089/Rnote-0.13.1-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Rnote-AppImage/releases/download/0.13.1-1%402026-01-23_1769179846/Rnote-0.13.1-1-anylinux-x86_64.AppImage",
     "description": "Unofficial, Rnote is a vector-based drawing app for sketching, handwritten notes and to annotate documents and pictures"
   },
   {
@@ -17204,7 +17212,7 @@
     "site": "analogdevicesinc/scopy",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/scopy",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/scopy",
-    "version_raw": "https://github.com/analogdevicesinc/scopy/releases/download/v2.1.0/Scopy-v2.1.0-Linux-armhf-AppImage.zip",
+    "version_raw": "https://github.com/analogdevicesinc/scopy/releases/download/v2.1.0/Scopy-v2.1.0-Linux-x86_64-AppImage.zip",
     "description": "A software oscilloscope and signal analysis toolset"
   },
   {
@@ -19860,7 +19868,7 @@
     "site": "https://www.todesktop.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/todesktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/todesktop",
-    "version_raw": "",
+    "version_raw": "todesktop-desktop-app-0.36.2-x86_64.AppImage",
     "description": "Take your web app codebase and transform it into a cross platform desktop app with native functionality"
   },
   {
@@ -20724,7 +20732,7 @@
     "site": "nexmoe/VidBee",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vidbee",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vidbee",
-    "version_raw": "https://github.com/nexmoe/VidBee/releases/download/v1.2.2/vidbee-1.2.2.AppImage",
+    "version_raw": "https://github.com/nexmoe/VidBee/releases/download/v1.2.3/vidbee-1.2.3.AppImage",
     "description": "Download videos from almost any website worldwide"
   },
   {
@@ -21356,7 +21364,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6019058771",
+    "version_raw": "6022240342",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
