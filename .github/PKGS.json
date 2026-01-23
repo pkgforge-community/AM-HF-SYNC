@@ -613,7 +613,7 @@
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/animeko",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/animeko",
     "version_raw": "https://github.com/open-ani/animeko/releases/download/v5.2.0/ani-5.2.0-linux-x86_64.appimage",
-    "description": "Bangumi)，离线缓存，BitTorrent，弹幕云过滤。100% Kotlin/Compose Multiplatform"
+    "description": "A one-stop platform for finding, following, and watching anime, featuring danmaku (bullet comments) and cloud-based collection synchronization (Bangumi), offline caching, BitTorrent, and cloud-based danmaku filtering"
   },
   {
     "pkg": "animos",
@@ -668,7 +668,7 @@
     "site": "aurelienpierreeng/ansel",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ansel",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ansel",
-    "version_raw": "https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/Ansel-0.0.0%2B2096.gce9701a34-x86_64.AppImage",
+    "version_raw": "https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/Ansel-0.0.0%2B2097.g107e02cb0-x86_64.AppImage",
     "description": "An open-source photo-editing software for digital artists, designed to help you achieve your own interpretation of raw digital photographs"
   },
   {
@@ -709,7 +709,7 @@
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/any-code",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/any-code",
     "version_raw": "https://github.com/anyme123/Any-code/releases/download/v5.18.6/any-code_5.18.6_amd64.AppImage",
-    "description": "Any Code 是一个为 AI 驱动的代码开发工作流量身打造的专业桌面应用，支持 Claude Code CLI、OpenAI Codex 和 Google Gemini CLI 三大 AI 引擎。"
+    "description": "Any Code is a professional desktop application tailored for AI-driven code development workflows, supporting three major AI engines: Claude Code CLI, OpenAI Codex, and Google Gemini CLI"
   },
   {
     "pkg": "anydesk",
@@ -1733,7 +1733,7 @@
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bili-liveluckdraw",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bili-liveluckdraw",
     "version_raw": "https://github.com/grtsinry43/Bili-LiveLuckDraw/releases/download/v1.0.5/Bili-LiveLuckDraw-Linux-v1.0.5.AppImage",
-    "description": "B站直播抽奖工具，通过获取弹幕关键词进行抽奖，使用Electron + React + Vite构建"
+    "description": "A Bilibili live stream lottery tool that draws winners based on keywords retrieved from the chat comments. It is built using Electron + React + Vite"
   },
   {
     "pkg": "bilibili",
@@ -3244,7 +3244,7 @@
     "site": "manaflow-ai/cmux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cmux",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cmux",
-    "version_raw": "https://github.com/manaflow-ai/cmux/releases/download/v1.0.246/cmux-1.0.246.AppImage",
+    "version_raw": "https://github.com/manaflow-ai/cmux/releases/download/v1.0.247/cmux-1.0.247.AppImage",
     "description": "Cmux/ManaflowX is an X feed for coding agents that lets you run + compare Claude Code, Codex CLI, Amp, Gemini CLI, Cursor CLI, Opencode, and other coding agent CLIs in parallel across multiple tasks"
   },
   {
@@ -4088,6 +4088,14 @@
     "description": "App to find duplicates, empty folders, similar images etc"
   },
   {
+    "pkg": "daisy",
+    "site": "niuhuan/daisy",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/daisy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/daisy",
+    "version_raw": "https://github.com/niuhuan/daisy/releases/download/v0.1.28/daisy-v0.1.28.AppImage",
+    "description": "A beautiful, easy-to-use, ad-free manga and light novel client that supports both. (Anime Home)"
+  },
+  {
     "pkg": "dana",
     "site": "b00f/dana",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dana",
@@ -4544,6 +4552,14 @@
     "description": "A static recompilation/native port of the game Dinosaur Planet"
   },
   {
+    "pkg": "dione",
+    "site": "dioneapp/dioneapp",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dione",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dione",
+    "version_raw": "https://github.com/dioneapp/dioneapp/releases/download/v1.1.1/Dione-1.1.1-Installer-Linux.AppImage",
+    "description": "Explore, Install, Innovate — in 1 Click"
+  },
+  {
     "pkg": "disass",
     "site": "Satharus/Disass",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/disass",
@@ -4558,6 +4574,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/discord",
     "version_raw": "https://github.com/pkgforge-dev/Discord-AppImage/releases/download/0.0.121-1%402026-01-22_1769071262/Discord-0.0.121-1-anylinux-x86_64.AppImage",
     "description": "Unofficial. All-in-one voice and text chat for gamers that's free, secure, and works on both your desktop and phone"
+  },
+  {
+    "pkg": "discord-bot-client",
+    "site": "aiko-chan-ai/DiscordBotClient",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/discord-bot-client",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/discord-bot-client",
+    "version_raw": "https://github.com/aiko-chan-ai/DiscordBotClient/releases/download/v3.8.2/DiscordBotClient-linux-x86_64.AppImage",
+    "description": "A patched version of discord, with bot login & Vencord support"
   },
   {
     "pkg": "discord-qt",
@@ -4630,6 +4654,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dolphin-emu-nightly",
     "version_raw": "https://github.com/pkgforge-dev/Dolphin-emu-AppImage/releases/download/nightly/Dolphin_Emulator-4dae6bf97-anylinux.dwarfs-x86_64.AppImage",
     "description": "Unofficial nightly AppImage of the Dolphin emulator"
+  },
+  {
+    "pkg": "dolt-workbench",
+    "site": "dolthub/dolt-workbench",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dolt-workbench",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dolt-workbench",
+    "version_raw": "https://github.com/dolthub/dolt-workbench/releases/download/v0.3.58/Dolt-Workbench-linux-x86_64.AppImage",
+    "description": "A modern, browser-based, open source SQL workbench for your MySQL and PostgreSQL compatible database with version control features when connected to Dolt"
   },
   {
     "pkg": "domterm",
@@ -4944,6 +4976,14 @@
     "description": "The AppImage of lnp-forge built LinuxDwarfPack"
   },
   {
+    "pkg": "dwarffortress",
+    "site": "McArcady/lnp-forge",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dwarffortress",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dwarffortress",
+    "version_raw": "https://github.com/McArcady/lnp-forge/releases/download/0.47.05-r8/Dwarf_Fortress-0.47.05-r8-x86_64.AppImage",
+    "description": "A Dwarf Fortress game. Build a fortress and try to help your dwarves survive against a deeply generated world"
+  },
+  {
     "pkg": "dwyco-phoo",
     "site": "blindchimp/dwyco",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dwyco-phoo",
@@ -5024,6 +5064,14 @@
     "description": "A cross-platform, customizable science fiction terminal emulator"
   },
   {
+    "pkg": "eez-studio",
+    "site": "eez-open/studio",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eez-studio",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eez-studio",
+    "version_raw": "https://github.com/eez-open/studio/releases/download/v0.25.1/EEZ-Studio-0.25.1.AppImage",
+    "description": "Cross-platform low-code GUI and automation"
+  },
+  {
     "pkg": "effer",
     "site": "Merkoba/Effer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/effer",
@@ -5046,6 +5094,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ehdev-shell",
     "version_raw": "https://github.com/EHDFE/ehdev-shell/releases/download/v0.6.1/ehdev-shell-0.6.1-x86_64.AppImage",
     "description": "An electron based developing tool for feds"
+  },
+  {
+    "pkg": "eiskaltdcpp",
+    "site": "https://sourceforge.net/p/eiskaltdcpp",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eiskaltdcpp",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eiskaltdcpp",
+    "version_raw": "https://sourceforge.net/projects/eiskaltdcpp/files/Linux/devel/eiskaltdcpp-qt-2.4.2-45-x86_64.AppImage/download",
+    "description": "Client for EiskaltDC++ core"
   },
   {
     "pkg": "eka2l1",
@@ -5644,7 +5700,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.1.5.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -5718,6 +5774,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eyestalker",
     "version_raw": "https://github.com/tbrouns/eyestalker/releases/download/v1.0.2/EyeStalker-x86_64.AppImage",
     "description": "Video-based eye tracking using recursive estimation of pupil"
+  },
+  {
+    "pkg": "ez-tree",
+    "site": "sinfulbobcat/ez-tree_electron_aur",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ez-tree",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ez-tree",
+    "version_raw": "https://github.com/sinfulbobcat/ez-tree_electron_aur/releases/download/1.0.1/EZTree-1.0.0.AppImage",
+    "description": "EZ Tree – Procedural tree generator"
   },
   {
     "pkg": "eza",
@@ -5854,6 +5918,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fbreader",
     "version_raw": "https://fbreader.org/static/packages/linux/FBReader_Book_Reader-x86_64-2.1.4.AppImage",
     "description": "Your Favourite eBook Reader"
+  },
+  {
+    "pkg": "fchat-horizon",
+    "site": "Fchat-Horizon/Horizon",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fchat-horizon",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fchat-horizon",
+    "version_raw": "https://github.com/Fchat-Horizon/Horizon/releases/download/v1.35.5/F-Chat.Horizon-linux-x86_64.AppImage",
+    "description": "The Best F-Chat 3.0 Client, No exceptions!"
   },
   {
     "pkg": "fcp",
@@ -6128,6 +6200,14 @@
     "description": "A Free and Multiplatform Digital Painting Software"
   },
   {
+    "pkg": "firecamp",
+    "site": "firecamp-dev/firecamp",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firecamp",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firecamp",
+    "version_raw": "https://github.com/firecamp-dev/firecamp/releases/download/v3.3.0-beta.3/Firecamp-3.3.0-beta.3.x86_64.AppImage",
+    "description": "Developer-first OpenSource API DevTool, Postman/Insomnia alternative"
+  },
+  {
     "pkg": "firedragon",
     "site": "https://firedragon.garudalinux.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firedragon",
@@ -6312,6 +6392,14 @@
     "description": "A beautiful Feature Rich Music Player and Downloader,cross platform"
   },
   {
+    "pkg": "flclash",
+    "site": "chen08209/FlClash",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flclash",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/flclash",
+    "version_raw": "https://github.com/chen08209/FlClash/releases/download/v0.8.91/FlClash-0.8.91-linux-amd64.AppImage",
+    "description": "A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free"
+  },
+  {
     "pkg": "flightcore",
     "site": "R2NorthstarTools/FlightCore",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flightcore",
@@ -6462,6 +6550,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/focuswriter",
     "version_raw": "https://github.com/probonopd/focuswriter/releases/download/continuous/FocusWriter-a9815c7-x86_64.AppImage",
     "description": "Simple fullscreen word processor"
+  },
+  {
+    "pkg": "folo",
+    "site": "RSSNext/Folo",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/folo",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/folo",
+    "version_raw": "https://github.com/RSSNext/Folo/releases/download/desktop/v1.2.6/Folo-1.2.6-linux-x64.AppImage",
+    "description": "Folo is the AI Reader"
   },
   {
     "pkg": "fontbase",
@@ -6806,6 +6902,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fzf",
     "version_raw": "",
     "description": "A command-line fuzzy finder"
+  },
+  {
+    "pkg": "g-v2ray",
+    "site": "almezali/g-v2ray",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/g-v2ray",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/g-v2ray",
+    "version_raw": "https://github.com/almezali/g-v2ray/releases/download/2.2/G2-V2Ray-2.2-x86_64.AppImage",
+    "description": "Advanced V2Ray/Xray GUI Client for Linux"
   },
   {
     "pkg": "gaiasky",
@@ -7432,6 +7536,14 @@
     "description": "Unofficial. Nifty Gmail desktop app"
   },
   {
+    "pkg": "gnatstudio",
+    "site": "AdaCore/gnatstudio",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gnatstudio",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gnatstudio",
+    "version_raw": "https://github.com/AdaCore/gnatstudio/releases/download/gnatstudio-cr-20240506/GNAT_Studio-x86_64.AppImage",
+    "description": "GNAT Studio is a powerful and lightweight IDE for Ada and SPARK"
+  },
+  {
     "pkg": "gncdu",
     "site": "bastengao/gncdu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gncdu",
@@ -7764,7 +7876,7 @@
     "site": "saturneric/GpgFrontend",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gpgfrontend",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gpgfrontend",
-    "version_raw": "https://github.com/saturneric/GpgFrontend/releases/download/nightly/Gpg_Frontend-53ca323-x86_64.AppImage",
+    "version_raw": "",
     "description": "A Cross-Platform OpenPGP Frontend Software"
   },
   {
@@ -7832,6 +7944,14 @@
     "description": "Bomberman clone. This script installs the full kdegames suite"
   },
   {
+    "pkg": "graphest",
+    "site": "Firestar-Reimu/graphest-Appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/graphest",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/graphest",
+    "version_raw": "https://github.com/Firestar-Reimu/graphest-Appimage/releases/download/v1.8.2/graphest-1.8.2.AppImage",
+    "description": "A faithful graphing calculator"
+  },
+  {
     "pkg": "graphql-playground",
     "site": "graphcool/graphql-playground",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/graphql-playground",
@@ -7878,6 +7998,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gridea",
     "version_raw": "https://github.com/getgridea/gridea/releases/download/v0.9.3/Gridea-0.9.3.AppImage",
     "description": "A static blog writing client, 一个静态博客写作客户端"
+  },
+  {
+    "pkg": "gridix",
+    "site": "MCB-SMART-BOY/Gridix",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gridix",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gridix",
+    "version_raw": "https://github.com/MCB-SMART-BOY/Gridix/releases/download/v2.0.1/gridix.AppImage",
+    "description": "A simple, fast, and secure cross-platform database management tool with Helix or Vim-style keybindings"
   },
   {
     "pkg": "gridplayer",
@@ -7950,6 +8078,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gsubs",
     "version_raw": "https://github.com/sanjevirau/gsubs/releases/download/v1.0.3/gSubs.1.0.3.AppImage",
     "description": "Finds you the perfect subtitle match"
+  },
+  {
+    "pkg": "guarda",
+    "site": "guardaco/guarda-desktop-releases",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/guarda",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/guarda",
+    "version_raw": "https://github.com/guardaco/guarda-desktop-releases/releases/download/v1.1.1/Guarda-1.1.1.AppImage",
+    "description": "A secure, easy-to-use open source multi-platform cryptocurrency wallet"
   },
   {
     "pkg": "guglielmo",
@@ -8248,6 +8384,14 @@
     "description": "Fractional scaling configuration on X11 desktops"
   },
   {
+    "pkg": "highlite",
+    "site": "Highl1te/HighliteDesktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/highlite",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/highlite",
+    "version_raw": "https://github.com/Highl1te/HighliteDesktop/releases/download/v3.0.0/HighLite-3.0.0.AppImage",
+    "description": "A RuneLite-esque Client for the game High Spell"
+  },
+  {
     "pkg": "hilbish",
     "site": "Rosettea/Hilbish",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hilbish",
@@ -8536,6 +8680,14 @@
     "description": "Election WebApp for iHeartRadio"
   },
   {
+    "pkg": "iloader",
+    "site": "nab138/iloader",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/iloader",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/iloader",
+    "version_raw": "https://github.com/nab138/iloader/releases/download/v1.1.6/iloader-linux-amd64.AppImage",
+    "description": "User friendly sideloader"
+  },
+  {
     "pkg": "imagemagick-clang",
     "site": "ImageMagick/ImageMagick",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/imagemagick-clang",
@@ -8574,6 +8726,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/imapsyncclient",
     "version_raw": "https://github.com/ridaamirini/ImapSyncClient/releases/download/v1.0.1/ImapSync-Client-1.0.1.AppImage",
     "description": "An electron-vue project"
+  },
+  {
+    "pkg": "imfile",
+    "site": "imfile-io/imfile-desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/imfile",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/imfile",
+    "version_raw": "https://github.com/imfile-io/imfile-desktop/releases/download/v1.1.2/imFile-1.1.2.AppImage",
+    "description": "A full-featured download manager"
   },
   {
     "pkg": "imgbrd-grabber",
@@ -8830,6 +8990,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/irscrutinizer",
     "version_raw": "https://github.com/bengtmartensson/IrScrutinizer/releases/download/ci-build/IrScrutinizer-2.4.3-SNAPSHOT-x86_64.AppImage",
     "description": "Capture/generate/analyze/import/export infrared signals"
+  },
+  {
+    "pkg": "isd",
+    "site": "kainctl/isd",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/isd",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/isd",
+    "version_raw": "https://github.com/kainctl/isd/releases/download/v0.6.1/isd.x86_64-linux.AppImage",
+    "description": "Isd (interactive systemd) – a better way to work with systemd units"
   },
   {
     "pkg": "isle-editor",
@@ -9916,7 +10084,7 @@
     "site": "tbillington/kondo",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kondo",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kondo",
-    "version_raw": "https://github.com/tbillington/kondo/releases/download/v0.8/kondo-x86_64-unknown-linux-musl.tar.gz",
+    "version_raw": "https://github.com/tbillington/kondo/releases/download/v0.9/kondo-x86_64-unknown-linux-musl.tar.gz",
     "description": "Cleans dependencies and build artifacts from your projects"
   },
   {
@@ -16308,7 +16476,7 @@
     "site": "Rosalie241/RMG",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rmg",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rmg",
-    "version_raw": "https://github.com/Rosalie241/RMG/releases/download/v0.8.8/RMG-Portable-Linux64-v0.8.8.AppImage",
+    "version_raw": "https://github.com/Rosalie241/RMG/releases/download/v0.8.9/RMG-Portable-Linux64-v0.8.9.AppImage",
     "description": "Rosalie's Mupen GUI"
   },
   {
@@ -16996,7 +17164,7 @@
     "site": "session-foundation/session-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/session-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/session-desktop",
-    "version_raw": "https://github.com/session-foundation/session-desktop/releases/download/v1.17.6/session-desktop-linux-x86_64-1.17.6.AppImage",
+    "version_raw": "https://github.com/session-foundation/session-desktop/releases/download/v1.17.7/session-desktop-linux-x86_64-1.17.7.AppImage",
     "description": "Onion routing based messenger"
   },
   {
@@ -18260,7 +18428,7 @@
     "site": "https://gitlab.com/posktomten/streamcapture2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/streamcapture2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/streamcapture2",
-    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=lDKSCGPzJ",
+    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=clgdQvMHKP",
     "description": "Download video streams"
   },
   {
@@ -18444,7 +18612,7 @@
     "site": "LizardByte/Sunshine",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sunshine",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sunshine",
-    "version_raw": "https://github.com/LizardByte/Sunshine/releases/download/v2026.122.133140/sunshine.AppImage",
+    "version_raw": "https://github.com/LizardByte/Sunshine/releases/download/v2026.123.3809/sunshine.AppImage",
     "description": "Sunshine is a Gamestream host for Moonlight"
   },
   {
@@ -19852,7 +20020,7 @@
     "site": "ungoogled-software/ungoogled-chromium-portablelinux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ungoogled-chromium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ungoogled-chromium",
-    "version_raw": "https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/144.0.7559.59-1/ungoogled-chromium-144.0.7559.59-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/144.0.7559.96-1/ungoogled-chromium-144.0.7559.96-1-x86_64.AppImage",
     "description": "Chromium Web Browser without Google services"
   },
   {
@@ -20812,7 +20980,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6007335815",
+    "version_raw": "6008590208",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
