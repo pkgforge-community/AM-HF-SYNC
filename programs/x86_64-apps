@@ -1115,6 +1115,7 @@
 ◆ imgcat : Display images and gifs in your terminal.
 ◆ imhex : A Hex Editor for Reverse Engineers and Programmers.
 ◆ impact : Music Management and Playback.
+◆ impactor : Feature rich iOS/tvOS sideloading application written in Rust. Formerly known as PlumeImpactor.
 ◆ implay : A Cross-Platform Desktop Media Player, built on top of mpv and ImGui.
 ◆ impposter : Post to my own development blog.
 ◆ impression : Unofficial. Simple USB image writer application.
@@ -1204,6 +1205,7 @@
 ◆ kalker : Scientific calculator with math syntax for user-defined variables.
 ◆ kalm : Unofficial, Teach you different breathing techniques. This script installs the full "kdeutils" suite.
 ◆ kando : The Cross-Platform Pie Menu.
+◆ kanji-dojo : A multi-platform application for memorizing Japanese language.
 ◆ kanon : Maturita GPJP designed for use with kanon web app.
 ◆ kanri : Modern offline Kanban board app. Built with simplicity and user experience in mind.
 ◆ kapman : Pac-Man clone. This script installs the full "kdegames" suite.
@@ -1236,6 +1238,7 @@
 ◆ keditbookmarks : Unofficial, Bookmarks editor. This script installs the full "kdeutils" suite.
 ◆ keepassxc : Port of the Windows application “Keepass Password Safe”.
 ◆ keepassxc-devel : Port of the Windows application “Keepass Password Safe”, dev-edition.
+◆ keepkey-desktop : An all-in-one suite for using your KeepKey hardware wallet.
 ◆ keeweb : Free cross-platform password manager compatible with KeePass.
 ◆ keibo-moneytracker-x86-64 : Track your income and expenses easily.
 ◆ kettleclient : Client for Kettle REST service.
@@ -1248,6 +1251,7 @@
 ◆ keysmith : Generates tokens for your two-factor logins. This script installs the full "kdeutils" suite.
 ◆ kfind : A search tool. This script installs the full "kdeutils" suite.
 ◆ kfourinline : Unofficial, 4 in row game. This script installs the full "kdegames" suite.
+◆ kftray : Kubectl port-forward manager and reverse tunnel (ngrok-like) for exposing local services publicly, with TLS termination, HTTP traffic inspection, UDP forwarding, multi-hop proxy routing through k8s clusters, stateful config via filesystem or git.
 ◆ kgoldrunner : Unofficial, A game with a runner and gold. This script installs the full "kdegames" suite.
 ◆ kgpg : A GnuPG frontend. This script installs the full "kdeutils" suite.
 ◆ kibi : A text editor in ≤1024 lines of code, written in Rust.
@@ -1258,7 +1262,9 @@
 ◆ killbots : Unofficial, Port of the classic console game Robots. This script installs the full "kdegames" suite.
 ◆ kimitzu-client : Kimitzu Client.
 ◆ kinopio : Thinking canvas for new ideas and hard problems.
+◆ kiri-moto : Browser-based Slicer for 3D Printing, CAM, Laser and mesh editor.
 ◆ kiriki : A dice game. This script installs the full "kdegames" suite.
+◆ kitsas : Finnish bookkeeping software for small organizations.
 ◆ kitty : Cross-platform, fast, feature-rich, GPU based terminal (also provides "kitten" CLI utility).
 ◆ kitupiikki : Bookkeeping software for small organizations.
 ◆ kiwix : An offline reader for Web content, primarily designed to make Wikipedia available offline. It reads archives in the ZIM file format, a highly compressed open format with additional metadata.
@@ -1328,6 +1334,7 @@
 ◆ launcher : Generic application's launcher.
 ◆ lazpaint : Cross-platform image editor with raster and vector layers similar to Paint.Net written in Lazarus (Free Pascal).
 ◆ lazygit : Simple terminal UI for git commands.
+◆ lazytyper : LazyTyper desktop client (repackaged from the official AppImage, including built-in dependencies).
 ◆ lbry-desktop : A browser and wallet for LBRY.
 ◆ lcedit : Editor, unknown.
 ◆ ldtk : Modern and efficient 2D level editor.
@@ -1363,11 +1370,13 @@
 ◆ linkora : Link organizer for Android and desktop with self-hosted sync.
 ◆ linphone : A libre SIP client.
 ◆ linux-intel-undervolt-gui : Undervolting GUI for Intel Linux Systems.
+◆ linuxaircombat : Free open source combat flight simulator.
 ◆ linuxdeployqt : Convert a linux program to an AppDir or an AppImage.
 ◆ linuxqq : New Linux QQ based on Electron.
 ◆ linuxtoys : A collection of tools for Linux in a user-friendly way.
 ◆ linuxwallpaper : Bing wallpaper of the day.
 ◆ linwood-butterfly : Powerful, minimalistic, cross-platform, note-taking app.
+◆ liquidlauncher : The official Minecraft launcher for LiquidBounce.
 ◆ lisk-desktop : Lisk graphical user interface for desktop.
 ◆ listen.moe : Official LISTEN.moe Desktop Client.
 ◆ listen1-desktop : One for all free music in China.
@@ -1377,6 +1386,7 @@
 ◆ liveme-pro-tools : Browse, search and manage accounts, replays and more.
 ◆ lmms : FL Studio® alternative that allows you to produce music with the PC.
 ◆ lmstudio : Experimenting with local and open-source Large Language Models.
+◆ lobe-chat : LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application.
 ◆ local-browser : Share your localhost in a unique way.
 ◆ localsend : An open source cross-platform alternative to AirDrop
 ◆ lockbook-cli : The private, polished note-taking platform, CLI.
@@ -1405,6 +1415,7 @@
 ◆ lunatask : All-in-one encrypted to-do list, notebook, habit and mood tracker.
 ◆ lutris : Unofficial. Install and play video games from all eras and from most gaming systems, by leveraging and combining existing emulators, WINE included.
 ◆ lutris-gamepad-ui : A simple, TV-friendly, gamepad-navigable frontend for the Lutris game launcher on Linux.
+◆ lvgl-editor : LVGL Pro is a complete toolkit to build, test, share and ship embedded UIs efficiently.
 ◆ lx-music-desktop : 一个基于electron的音乐软件.
 ◆ lxtask : Unofficial. A lightweight and desktop-independent task manager.
 ◆ lyricistant : A helpful writing assistant for lyricists.
@@ -1528,6 +1539,7 @@
 ◆ monoline : Your personal micro journal.
 ◆ mood-fi : App with 30+ lo-fi live streams between 8 different lo-fi types.
 ◆ moolticute : Mooltipass crossplatform daemon/tools.
+◆ moondeck-buddy : A server-side part of the MoonDeck plugin for the SteamDeck.
 ◆ moonfm : A modern, fully featured audio podcast player.
 ◆ moonlight : Stream games from your NVIDIA GameStream-enabled PC.
 ◆ moonplayer : AIO video player to play Youtube, Bilibili... and local videos.
@@ -1546,6 +1558,7 @@
 ◆ mqttx : MQTT 5.0 Desktop, CLI, and WebSocket client tools.
 ◆ mr.dclutterer : Minimal App To Aggregate And Rename Files In Bulk.
 ◆ mrcode : An opinionated editor based on VSCodium / VSCode.
+◆ mrrss : A modern, cross-platform, and free AI RSS reader.
 ◆ mrwriter : Notetaking and blackboard replacement application. Inspired by Xournal. Written in C++/Qt.
 ◆ ms-365-electron : Unofficial Microsoft 365 Desktop Wrapper made with Electron.
 ◆ mtcelledit : Lightweight spreadsheet program.
@@ -1578,6 +1591,7 @@
 ◆ n3h : Nodejs implementation of holochain networking / p2p backend process.
 ◆ naev : A 2d action/rpg space game that combines elements from the action.
 ◆ nami : A clean and tidy decentralized package manager.
+◆ nanokvm-usb : Finger-sized 4K USB KVM for Server/SBCs.
 ◆ nanosaur : Pangea Software’s game, adventure of a cybernetic dinosaur.
 ◆ nanosaur2 : Pangea Software’s Nanosaur II for modern systems.
 ◆ nanovault : Wallet for interacting with Nano.
@@ -1655,7 +1669,9 @@
 ◆ nuclear : Streaming music player that finds free music for you.
 ◆ nuclia : A low-code API to build an AI multi-language semantic search engine.
 ◆ nuclino : Bring knowledge, docs, and projects together in one place.
+◆ nudelta : Open source NuPhy Console alternative.
 ◆ numara : Simple notepad calculator built on Electron.
+◆ nunchuk : Desktop bitcoin wallet with multisig, hardware, nfc and air-gapped key support.
 ◆ nvim : NeoVim, Vim fork focused on extensibility and usability.
 ◆ nvim-nightly : NeoVim, Vim fork, the most recent development build.
 ◆ nvtop : GPUs process monitoring for AMD, Intel and NVIDIA.
@@ -1688,16 +1704,19 @@
 ◆ omnipull : Pull Everything. Everywhere. OmniPull is a powerful, cross-platform download manager.
 ◆ omnispeak : Re-implementation of "Commander Keen in Goodbye Galaxy".
 ◆ one-gpt : Aggregate ChatGPT official version, Wenxin Yiyan, Poe, chatchat.
+◆ oneanime : A clean, ad-free anime viewing app. A third-party client for Anime1 with subtitles and a Material You-compliant interface.
 ◆ onedrive-gui : Microsoft OneDrive Client GUI.
 ◆ onefetch : Command-line Git information tool.
 ◆ onekey-wallet : Open source crypto wallet.
 ◆ onenote : P3X Onenote Linux.
+◆ oneweb : OneWeb - free, private and secure web browser! POLSKA GUROM.
 ◆ onionmediax : OnionMedia X. Convert and download videos and music quickly and easily.
 ◆ onlyoffice : Office Suite with full support for MS Windows formats and cloud.
 ◆ onlyrefs : Organize all of your references, notes, bookmarks and more.
 ◆ onnx2bnn : Binary neural networks inference framework for mobile platform.
 ◆ onnx2daq : Wrapper of NNAPI, "DNNLibrary" is for "daquexian's NNAPI libs.
 ◆ onshape : Onshape desktop app, web application shell.
+◆ onthespot : A GUI music downloader for Apple Music, Bandcamp, Deezer, Qobuz, Spotify, Tidal, and More.
 ◆ onyx : Decentralized messaging application based on PSS.
 ◆ opal : Plays relaxing music in the background.
 ◆ open-ai-translator : Browser extension for translation based on ChatGPT API.
@@ -1726,6 +1745,7 @@
 ◆ openscreen : Create stunning screen recordings for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.
 ◆ openshot : A powerful Video Editor.
 ◆ openstream-music : The OpenStream Music source.
+◆ openterface-qt : Openterface Mini-KVM.
 ◆ opentodolist : A note and task managing application.
 ◆ opentrons : Opentrons desktop application.
 ◆ openxcom : Open-source clone of the original UFO: Enemy Unknown licensed under the GPL and written in C++ / SDL.
@@ -1735,6 +1755,7 @@
 ◆ opera-dev : Unofficial. Fast and secure web browser, Developer version.
 ◆ orange : Cross-platform local file search engine.
 ◆ oras : OCI registry client managing content like artifacts, images, packages.
+◆ orca-note : A note taking application that is good both for outlining and long-form writing.
 ◆ orcaslicer : G-code generator for 3D printers, Stable release.
 ◆ orcaslicer-any : G-code generator for 3D printers, the most recent release.
 ◆ orcaslicer-beta : G-code generator for 3D printers, Beta release.
@@ -1756,6 +1777,7 @@
 ◆ ow-mod-man : The mod manager for the Outer Wilds Mod Loader.
 ◆ owallet : A comprehensive Ontology desktop wallet.
 ◆ owncloud : Desktop Syncing Client for ownCloud. ownCloud, a Kiteworks Company, offers file sharing and collaboration trusted by 200+ million users worldwide regardless of device or location.
+◆ owte : Anime girl dancing on your screen.
 ◆ oxen-gui-wallet : Oxen electron GUI wallet.
 ◆ p2p-chat : P2P LAN chatting and file sharing tool.
 ◆ p2pderivatives : Enables users to enter into Discreet Log Contracts.
@@ -1774,6 +1796,7 @@
 ◆ panwriter : Markdown editor with pandoc integration.
 ◆ paper : A CLI Tool to set a random wallpaper from Unsplash.com.
 ◆ papercraft : A tool to unwrap 3D models.
+◆ paperlib : An open-source academic paper management tool.
 ◆ parallelcoin : Parallelcoin qt wallet appimage binary.
 ◆ parchment : A minimal minimal text editor written using web technologies.
 ◆ parity-fether : Fether Wallet.
@@ -1840,6 +1863,7 @@
 ◆ picturama : Digital image organizer powered by the web.
 ◆ pigs-n-cows : A relaxing game for children and adults alike.
 ◆ pika-backup : Doing backups the easy way. Plugin your USB drive and let the Pika do the rest for you.
+◆ pikapika : A comic browser.
 ◆ pile : App to organize your piled work at one place.
 ◆ pince : Reverse engineering tool for linux games.
 ◆ pingendo : ???
@@ -1885,8 +1909,10 @@
 ◆ podman-desktop-companion : Podman command line interface.
 ◆ poe-ladder : Path of Exile ladder viewer.
 ◆ poedit : Unofficial. Powerful and intuitive translation editor.
+◆ pog : A Kmk firmware flashing and configuration tool.
 ◆ poi : Scalable KanColle browser and tool.
 ◆ pointless : An endless drawing canvas desktop app made with Tauri (Rust) and React.
+◆ pokeclicker : PokéClicker with quality of life changes.
 ◆ pokeget-rs : A better rust version of pokeget. CLI.
 ◆ pokego : Command-line tool that lets you display Pokémon sprites in color directly in your terminal.
 ◆ pokete : A terminal based Pokemon like game.
@@ -1924,6 +1950,7 @@
 ◆ prismlauncher-qt5 : Launcher for Minecraft, manage multiple installations (Qt5 version).
 ◆ privacy.sexy : Tool to enforce privacy & security best-practices.
 ◆ privaxy : The next generation tracker and ads/advertisement blocker.
+◆ probe-desktop : The next generation OONI Probe desktop app.
 ◆ procdepmonitor : Obtaining information about loaded process dependencies.
 ◆ procs : A modern replacement for ps written in Rust.
 ◆ procspin : CLI to create a process/progress animation with text.
@@ -2138,6 +2165,8 @@
 ◆ schildichat : A Matrix Client.
 ◆ school-sections : This project was generated with Angular CLI v1.7.4.
 ◆ scilab : Scientific software package for numerical computations.
+◆ sciqlop : SciQLop is an ergonomic and efficient application to browse and label in situ plasma measurements from multi-mission satellite data.
+◆ scopy : A software oscilloscope and signal analysis toolset.
 ◆ scraper : Simple desktop scraper app.
 ◆ scratux : Linux client for scratch programming.
 ◆ scrcpy : Display and control your Android device.
@@ -2186,10 +2215,12 @@
 ◆ shellcheck : ShellCheck, a static analysis tool for shell scripts.
 ◆ shellharden : The corrective bash syntax highlighter.
 ◆ shipwright : Ship of Harkinian.
+◆ shoopdaloop : A (live) looping application with DAW elements.
 ◆ shotcut : A powerful Video Editor.
 ◆ shradiko : Make Portable AppImages from Distro Packages.
 ◆ shutter-encoder : Professional converter & compression tool designed by video editors.
 ◆ shuttle : The fastest access to your favorite applications.
+◆ shvspy : Qt GUI tool for shvbroker administration and browsing.
 ◆ sideka : Platform Tata Kelola Desa
 ◆ sidenote : A CLI tool that helps to manage plain text notes per working directory.
 ◆ sigdigger : Signal analyzer, using Suscan core and Sigutils DSP library.
@@ -2239,6 +2270,7 @@
 ◆ smuview : A Qt based source measure unit GUI for sigrok.
 ◆ snake-js : Canvas/JavaScript based Snake Game with support for controllers.
 ◆ snapclear : Remove Image Background with AI for Free Offline.
+◆ snapmaker-orca : G-code generator for 3D printers (Bambu, Prusa, Voron, VzBot, RatRig, Creality...).
 ◆ snapshot-slider : Present/print/email Snapshots of modern mathematics.
 ◆ snes9x : Snes9x - Portable Super Nintendo Entertainment System TM emulator.
 ◆ sniffnet : Sniffnet is a network monitoring tool to help you easily keep track of your Internet traffic. Whether you want to gather statistics, you’re curious to see who you are exchanging data with, or you need to inspect more in depth what's going on in your network, this app will get you covered.
@@ -2297,6 +2329,7 @@
 ◆ ssh-mitm : Server for security audits supporting public key authentication.
 ◆ ssplot : A simple plotting utility for dynamical systems.
 ◆ stacer : Linux System Optimizer and Monitoring.
+◆ stack-wallet : Stack Wallet, a multicoin, cryptocurrency wallet.
 ◆ stackandconquer : A challenging tower conquest board game "Mixtour" inspired.
 ◆ standard-notes : A simple and private place for your notes.
 ◆ starc : Story Architect, reinventing the screenwriting software.
@@ -2352,6 +2385,7 @@
 ◆ sunvox : Unofficial. Small, fast and powerful modular synthesizer with pattern-based sequencer (tracker).
 ◆ sup : A Slack client with WhatsApp like UI.
 ◆ superbacked : Don’t lose your secrets. A secret management platform used to back up and pass on sensitive data from one generation to the next.
+◆ supercell-wx : Supercell Wx is a free, open source advanced weather radar viewer.
 ◆ superfile : Pretty fancy and modern terminal file manager.
 ◆ supernotes : Enjoy efficient note-taking without the hassle.
 ◆ superpaper : A cross-platform multi monitor wallpaper manager.
@@ -2384,6 +2418,7 @@
 ◆ syncmyl2p : L2P synchronisation tool.
 ◆ syncplay : Synchronize video playback over network.
 ◆ syncthing-tray : Tray application for Syncthing.
+◆ synfig : Synfig Studio animation software.
 ◆ synthein : A space ship building and combat game.
 ◆ synthv1 : An old school polyphonic synthesizer.
 ◆ system-monitoring-center : Unofficial. Multi-featured system monitor.
@@ -2396,6 +2431,7 @@
 ◆ tagger : Unofficial. Simple audio tagger with support for various audio formats.
 ◆ tagspaces : An offline, open source, document manager with tagging support.
 ◆ tagtime-desktop : Time tracking for space cadets, desktop edition.
+◆ talktype : Linux speech to text app.
 ◆ tangent : A clean and powerful open source notes app.
 ◆ taskade : AI-Powered productivity.
 ◆ taskell : Command-line Kanban board/task manager with support for Trello boards and GitHub projects.
@@ -2415,6 +2451,7 @@
 ◆ tenacity : An easy-to-use, cross-platform multi-track audio editor/recorder.
 ◆ tere : Terminal file explorer.
 ◆ terminalos-sim : A terminalOS simulator.
+◆ termora : A terminal emulator and SSH client.
 ◆ termshot : Creates screenshots based on terminal command output.
 ◆ teslacam-browser : A minimal TeslaCam Browser.
 ◆ tesler : The Tesla Sentinel Viewer.
@@ -2456,6 +2493,7 @@
 ◆ timenaut : Desktop time tracking application.
 ◆ tipitaka-pali-reader : A Pali Reading app made in Flutter.
 ◆ tixati : A New and Powerful P2P System 100% Free, Simple and Easy to Use Bittorrent Client.
+◆ tkmm : TotK Mod Manager, a mod manager and merger for Tears of the Kingdom.
 ◆ tlock : Two-Factor Authentication Tokens Manager in Terminal.
 ◆ tlum : Tlum - open-source cross-platform language learning application leverages the power of natural language processing to pinpoint pronunciation gaps and enhance articulation, machine learning to boost vocabulary proficiency.
 ◆ tmon : A simple CLI tool for monitoring/reporting CPU temperatures.
@@ -2612,6 +2650,8 @@
 ◆ voicevox : Offical Frontend for the free VOICEVOX TTS Engine.
 ◆ volaris : Volaris-Gui is the wrapper for Volaris, a secure file encryption software.
 ◆ vpaint : Experimental vector graphics and 2D animation editor.
+◆ vrcft-avalonia : Cross-platform VRCFaceTracking made with Avalonia.
+◆ vrcx : Friendship management tool for VRChat.
 ◆ vrest-ng : Zero code API test automation solution.
 ◆ vrew : Your first video editor, your easiest choice.
 ◆ vscodium : Community-driven, freely-licensed binary distribution of MS VSCode.
@@ -2627,6 +2667,7 @@
 ◆ wallettech : BytechCoin GUI Wallet.
 ◆ warp : Unofficial. Fast and secure file transfer through internet or local network exchanging a word-based code.
 ◆ warp-terminal : Terminal reimagined with AI and collaborative tools.
+◆ warteschlangensimulator : A free, platform independent, discrete-event, stochastic simulator which allows to model queueing systems in form of flowcharts.
 ◆ wasistlos : Unofficial, WhatsApp Linux Client, formerly known as "whatsapp-for-linux".
 ◆ watched : A media player and a browser for Excellent entertainment.
 ◆ watchflower : Read and plot datas from your Xiaomi devices.
@@ -2680,10 +2721,12 @@
 ◆ wiznote : Create a powerful knowledge graph from personal notes to team wiki.
 ◆ wiznoteplus : The third party that supports the plug-in is Zhinote client.
 ◆ wkp : A CLI tool designed to fetch Wikipedia excerpts written in Rust.
+◆ wled-gui : Cross-platform desktop app for WLED.
 ◆ wlx-overlay-s : Access your Wayland/X11 desktop from Monado/WiVRn/SteamVR.
 ◆ wnr : Work/Rest Timer. Stricter. Prettier. More features.
 ◆ woke : A REST client with grand ambitions and limited scope.
 ◆ wolai : A new form of document/note/information system, in chinese.
+◆ wonderlab : A new generation Minecraft launcher.
 ◆ wonderwall : Wallpaper manager for Linux.
 ◆ woocommerce-pos : Electron Desktop App for WooCommerce POS
 ◆ woof-doom : Woof! is a continuation of the Boom/MBF bloodline of Doom source ports.
@@ -2699,6 +2742,7 @@
 ◆ wrapbox : An Electron wrapper for web pages.
 ◆ wsjtz : AppImage of WSJT-Z – fork of WSJT-X with automation features.
 ◆ wsocks : A light websocket based proxy.
+◆ wsrx : Controlled TCP-over-WebSocket forwarding tunnel.
 ◆ wtfutil : The personal information dashboard for your terminal.
 ◆ wthrr : Weather companion for the terminal.
 ◆ wxmaxima : A document based interface for the computer algebra system Maxima.
@@ -2707,6 +2751,7 @@
 ◆ x-minecraft-launcher : An Open Source Minecraft Launcher with Modern UX.
 ◆ x-pixiv : CLI, pixiv downloader.
 ◆ xapkdetector : APK/DEX detector that shows an information about build tools, libraries and protection of APK/DEX files.
+◆ xbydriver : Xiaobaiyang Cloud Drive - Powered by Alibaba Cloud Drive.
 ◆ xchat : Chat with other people using Internet Relay Chat.
 ◆ xcloud-desktop : An unoffical desktop app for the XCloud web beta.
 ◆ xde : The Expo Development Environment.
@@ -2734,11 +2779,15 @@
 ◆ xplist : Cross-platform Plist Editor.
 ◆ xplorer : Xplorer, a customizable, modern file manager.
 ◆ xtomarkdown : A cross-platform GUI application for converting documents to Markdown.
+◆ xtool : Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM.
 ◆ xtuber : Simple YouTube Downloader.
 ◆ xxh : Bring your favorite shell wherever you go through the ssh.
 ◆ xyce : Xyce Parallel Electronic Simulator.
+◆ yaak : The most intuitive desktop API client. Organize and execute REST, GraphQL, WebSockets, Server Sent Events, and gRPC.
 ◆ yaf : Yet another system CLI fetch that is minimal and customizable.
 ◆ yaka : No fuss todo-list manager with full keyboard navigation.
+◆ yakit : Cyber Security ALL-IN-ONE Platform.
+◆ yakit-legacy : Cyber Security ALL-IN-ONE Platform (legacy).
 ◆ yam : Unofficial Game Updater for the F95Zone platform.
 ◆ yana : Note-taking app with nested documents, text search/editor, code...
 ◆ yandex-browser : Unofficial Yandex Browser AppImage, Stable.
@@ -2752,6 +2801,7 @@
 ◆ ym-desktop : The YouTube music desktop app.
 ◆ ymir : Sega Saturn emulator
 ◆ ymir-nightly : Sega Saturn emulator (Nightly builds)
+◆ yolx : A modern download tool developed with Flutter, powered by Aria 2 at its core.
 ◆ youtube-download : GUI and CLI for downloading YouTube video/audio.
 ◆ youtube-downloader : Download video/audio from youtube (and instagram) videos.
 ◆ youtube-music : Unofficial. Amazing electron wrapper for YouTube Music featuring plugins.
@@ -2791,6 +2841,7 @@
 ◆ znax : Znax is a cross platform puzzle / arcade game using SDL2 libraries.
 ◆ znote : A Beautiful markdown editor inspired by Jupyter.
 ◆ zograscope : Syntax-aware diff that provides a number of additional tools.
+◆ zoo-design-studio : The Zoo Design Studio app.
 ◆ zoom : Unofficial. Video Conferencing and Web Conferencing Service.
 ◆ zotero : Collect, organize, cite, and share your research sources.
 ◆ zoxide : A smarter cd command. Supports all major shells.
@@ -2800,3 +2851,4 @@
 ◆ zx-poly : a multi-CPU ZX-Spectrum 128 concept platform.
 ◆ zxinfo-file-browser : Organize and manage your emulator files for ZX Spectrum.
 ◆ zy-player : Video resource player, simple, ad-free and high-value.
+◆ zyfun : ZyPlayer. Cross-platform desktop video player, free and visually appealing.
