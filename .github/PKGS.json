@@ -668,7 +668,7 @@
     "site": "aurelienpierreeng/ansel",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ansel",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ansel",
-    "version_raw": "https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/Ansel-0.0.0%2B2097.g107e02cb0-x86_64.AppImage",
+    "version_raw": "https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/Ansel-0.0.0%2B2101.ga8e4ff4a7-x86_64.AppImage",
     "description": "An open-source photo-editing software for digital artists, designed to help you achieve your own interpretation of raw digital photographs"
   },
   {
@@ -6228,7 +6228,7 @@
     "site": "ivan-hc/FileZilla-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/filezilla",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/filezilla",
-    "version_raw": "https://github.com/ivan-hc/FileZilla-appimage/releases/download/continuous/FileZilla_3.69.5-3-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/FileZilla-appimage/releases/download/continuous/FileZilla_3.69.5-4-archimage5.0-x86_64.AppImage",
     "description": "Unofficial. The free FTP solution with support for FTP over TLS and SFTP"
   },
   {
@@ -7908,7 +7908,7 @@
     "site": "benjamimgois/goverlay",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/goverlay",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/goverlay",
-    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-4562e7270-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-cb92180bf-anylinux-x86_64.AppImage",
     "description": "An opensource project that aims to create a Graphical UI to help manage Linux overlays"
   },
   {
@@ -8908,7 +8908,7 @@
     "site": "naoxio/inbreeze",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/innerbreeze",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/innerbreeze",
-    "version_raw": "https://github.com/daochinet/inbreeze/releases/download/1.4.0/InnerBreeze-x86_64.AppImage",
+    "version_raw": "https://github.com/kryonlabs/inbreeze/releases/download/1.4.0/InnerBreeze-x86_64.AppImage",
     "description": "Guided breathing meditation app based on the Wim Hof breathing method"
   },
   {
@@ -10884,7 +10884,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.22_251203_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.23_260108_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -12228,7 +12228,7 @@
     "site": "https://moon.fm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/moonfm",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/moonfm",
-    "version_raw": "https://moon.fm/dist/MoonFM-5.0.3-x86_64.AppImage",
+    "version_raw": "",
     "description": "A modern, fully featured audio podcast player"
   },
   {
@@ -13390,6 +13390,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/obsidian-cli",
     "version_raw": "https://github.com/Yakitrak/obsidian-cli/releases/download/v0.2.1/obsidian-cli_0.2.1_linux_amd64.tar.gz",
     "description": "Interact with Obsidian in the terminal. Open, search, create, update, move and delete notes!"
+  },
+  {
+    "pkg": "obsidianirc",
+    "site": "ObsidianIRC/ObsidianIRC",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/obsidianirc",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/obsidianirc",
+    "version_raw": "https://github.com/ObsidianIRC/ObsidianIRC/releases/download/v0.2.3/ObsidianIRC_0.2.3_amd64.AppImage",
+    "description": "Modern IRC Client for the web, desktop and mobile"
   },
   {
     "pkg": "ocat",
@@ -17532,7 +17540,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-01-23-46a7c4e1f55b819c4ddec2a853f3f89a83198d2f/shadps4-linux-sdl-2026-01-23-46a7c4e.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-01-24-c8b45e5ebc5b257e68d2413fd59276269564714e/shadps4-linux-sdl-2026-01-24-c8b45e5.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -18756,7 +18764,7 @@
     "site": "https://gitlab.com/posktomten/streamcapture2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/streamcapture2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/streamcapture2",
-    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=clgdQvMHKP",
+    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=dKCCGTRmvL",
     "description": "Download video streams"
   },
   {
@@ -20740,7 +20748,7 @@
     "site": "nexmoe/VidBee",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vidbee",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vidbee",
-    "version_raw": "https://github.com/nexmoe/VidBee/releases/download/v1.2.3/vidbee-1.2.3.AppImage",
+    "version_raw": "https://github.com/nexmoe/VidBee/releases/download/v1.2.4/vidbee-1.2.4.AppImage",
     "description": "Download videos from almost any website worldwide"
   },
   {
@@ -20876,7 +20884,7 @@
     "site": "ivan-hc/VirtualBox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/virtualbox",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/virtualbox",
-    "version_raw": "https://github.com/ivan-hc/VirtualBox-appimage/releases/download/20260121-144353/VirtualBox-KVM_7.2.4-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/VirtualBox-appimage/releases/download/20260124-061908/VirtualBox-KVM_7.2.4-archimage5.0-x86_64.AppImage",
     "description": "Powerful x86 virtualization for enterprise as well as home use"
   },
   {
