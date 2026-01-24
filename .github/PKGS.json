@@ -3188,7 +3188,7 @@
     "site": "aaddrick/claude-desktop-debian",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/claude-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/claude-desktop",
-    "version_raw": "https://github.com/aaddrick/claude-desktop-debian/releases/download/v1.3.2%2Bclaude1.1.799/claude-desktop-1.1.799-amd64.AppImage",
+    "version_raw": "https://github.com/aaddrick/claude-desktop-debian/releases/download/v1.3.8%2Bclaude1.1.799/claude-desktop-1.1.799-1.3.8-amd64.AppImage",
     "description": "Claude Desktop for Debian-based Linux distributions"
   },
   {
@@ -4876,7 +4876,7 @@
     "site": "ivan-hc/Dropbox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dropbox",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dropbox",
-    "version_raw": "https://github.com/ivan-hc/Dropbox-appimage/releases/download/continuous/Dropbox-239.4.8301-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Dropbox-appimage/releases/download/continuous/Dropbox-240.4.8493-1-x86_64.AppImage",
     "description": "A free cloud service, Unofficial AppImage"
   },
   {
@@ -6300,7 +6300,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-beta-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-beta-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260123-202658/Firefox-beta-148.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260124-202226/Firefox-beta-148.0-x86_64.AppImage",
     "description": "Unofficial, AppImage of the Web Browser, Beta"
   },
   {
@@ -6308,7 +6308,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-devedition-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-devedition-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260123-202658/Firefox-devedition-148.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260124-202226/Firefox-devedition-148.0-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, Dev"
   },
   {
@@ -6316,7 +6316,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-esr-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-esr-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260123-202658/Firefox-esr-140.7.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260124-202226/Firefox-esr-140.7.0-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, ESR"
   },
   {
@@ -6324,7 +6324,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-nightly-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-nightly-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260123-202658/Firefox-nightly-149.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260124-202226/Firefox-nightly-149.0a1-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, Nightly"
   },
   {
@@ -10444,7 +10444,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -13752,6 +13752,14 @@
     "description": "OpenLens Binary Build Repository"
   },
   {
+    "pkg": "openlibextended",
+    "site": "warreth/OpenlibExtended",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openlibextended",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openlibextended",
+    "version_raw": "https://github.com/warreth/OpenlibExtended/releases/download/v1.4/openlib-linux-x64-1.4.0.AppImage",
+    "description": "An Open source app to download and read books from shadow library (Anna’s Archive)"
+  },
+  {
     "pkg": "openmw",
     "site": "OpenMW/openmw",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openmw",
@@ -14428,7 +14436,7 @@
     "site": "PCSX2/pcsx2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcsx2",
-    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.60/pcsx2-v2.7.60-linux-appimage-x64-Qt.AppImage",
+    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.62/pcsx2-v2.7.62-linux-appimage-x64-Qt.AppImage",
     "description": "The Playstation 2 Emulator"
   },
   {
@@ -16860,7 +16868,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-ef9ff09e1798f0da892b5b6a2f74b20ee2eda46f/rpcs3-v0.0.39-18712-ef9ff09e_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-fbd5bbcfa32a83aea9823dae1a34e637f6e56d5e/rpcs3-v0.0.39-18718-fbd5bbcf_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -16884,7 +16892,7 @@
     "site": "martinrotter/rssguard",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rssguard",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rssguard",
-    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-8e25cf3c1-qt5-linux64.AppImage",
+    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-b5dd5d178-qt5-linux64.AppImage",
     "description": "Feed reader which supports RSS/ATOM/JSON, no-webengine version"
   },
   {
@@ -19716,7 +19724,7 @@
     "site": "ivan-hc/Thunderbird-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-beta-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-beta-appimage",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260123-202744/Thunderbird-beta-148.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260124-202259/Thunderbird-beta-148.0-x86_64.AppImage",
     "description": "Unofficial. Free and open source eMail client, Beta Edition"
   },
   {
@@ -19724,7 +19732,7 @@
     "site": "ivan-hc/Thunderbird-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-nightly-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-nightly-appimage",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260123-202744/Thunderbird-nightly-149.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260124-202259/Thunderbird-nightly-149.0a1-x86_64.AppImage",
     "description": "Unofficial. Free and open source eMail client, Nightly Edition"
   },
   {
