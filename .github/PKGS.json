@@ -5764,7 +5764,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.1.5.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -5988,7 +5988,7 @@
     "site": "Fchat-Horizon/Horizon",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fchat-horizon",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fchat-horizon",
-    "version_raw": "https://github.com/Fchat-Horizon/Horizon/releases/download/v1.35.5/F-Chat.Horizon-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/Fchat-Horizon/Horizon/releases/download/v1.35.6/F-Chat.Horizon-linux-x86_64.AppImage",
     "description": "The Best F-Chat 3.0 Client, No exceptions!"
   },
   {
@@ -6724,7 +6724,7 @@
     "site": "66HEX/frame",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/frame",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/frame",
-    "version_raw": "https://github.com/66HEX/frame/releases/download/0.2.3-beta.3/Frame_0.2.3-beta.3_amd64.AppImage",
+    "version_raw": "https://github.com/66HEX/frame/releases/download/0.3.1/Frame_0.3.1_amd64.AppImage",
     "description": "Fast FFmpeg GUI"
   },
   {
@@ -10444,7 +10444,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -11012,7 +11012,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobe-chat/releases/download/v2.0.0-next.376/LobeHub-Beta-2.0.0-next.376.AppImage",
+    "version_raw": "https://github.com/lobehub/lobe-chat/releases/download/v2.0.0-next.377/LobeHub-Beta-2.0.0-next.377.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -11236,7 +11236,7 @@
     "site": "andrew-ld/lutris-gamepad-ui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lutris-gamepad-ui",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lutris-gamepad-ui",
-    "version_raw": "https://github.com/andrew-ld/lutris-gamepad-ui/releases/download/v0.1.25/lutris-gamepad-ui-x64.AppImage",
+    "version_raw": "https://github.com/andrew-ld/lutris-gamepad-ui/releases/download/v0.1.28/lutris-gamepad-ui-x64.AppImage",
     "description": "A simple, TV-friendly, gamepad-navigable frontend for the Lutris game launcher on Linux"
   },
   {
@@ -15412,7 +15412,7 @@
     "site": "pragtical/pragtical",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pragtical",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pragtical",
-    "version_raw": "https://github.com/pragtical/pragtical/releases/download/v3.8.2/Pragtical-v3.8.2-x86_64.AppImage",
+    "version_raw": "https://github.com/pragtical/pragtical/releases/download/rolling/Pragtical-rolling-x86_64.AppImage",
     "description": "The practical and pragmatic code editor"
   },
   {
@@ -16892,7 +16892,7 @@
     "site": "martinrotter/rssguard",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rssguard",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rssguard",
-    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-c5922382e-qt5-linux64.AppImage",
+    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-24dea4f5e-qt5-linux64.AppImage",
     "description": "Feed reader which supports RSS/ATOM/JSON, no-webengine version"
   },
   {
@@ -19249,11 +19249,11 @@
   },
   {
     "pkg": "synfig",
-    "site": "synfig/synfig",
+    "site": "BobSynfig/synfig",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/synfig",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/synfig",
-    "version_raw": "https://github.com/synfig/synfig/releases/download/v1.5.4/SynfigStudio-1.5.4-2026.01.18-linux64-79417.appimage",
-    "description": "Synfig Studio animation software"
+    "version_raw": "https://github.com/BobSynfig/synfig/releases/download/UNOFFICIAL-1.5.4-2026.01.18/SynfigStudio-UNOFFICIAL-1.5.4-2026.01.18-linux64-d8951.AppImage",
+    "description": "Unofficial. Synfig Studio animation software"
   },
   {
     "pkg": "synthein",
@@ -21388,7 +21388,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6049726859",
+    "version_raw": "6050328509",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
