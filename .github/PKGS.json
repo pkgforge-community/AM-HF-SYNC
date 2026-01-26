@@ -5764,7 +5764,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.1.5.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -6628,7 +6628,7 @@
     "site": "https://fontba.se",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fontbase",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fontbase",
-    "version_raw": "https://releases.fontba.se/linux/FontBase-2.24.9.AppImage",
+    "version_raw": "https://releases.fontba.se/linux/FontBase-2.25.0.AppImage",
     "description": "A lightning fast, beautiful and free font manager for designers"
   },
   {
@@ -7448,12 +7448,12 @@
     "description": "Hoard git repositories with ease"
   },
   {
-    "pkg": "github-desktop",
-    "site": "shiftkey/desktop",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/github-desktop",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/github-desktop",
-    "version_raw": "https://github.com/shiftkey/desktop/releases/download/release-3.4.9-linux1/GitHubDesktop-linux-x86_64-3.4.9-linux1.AppImage",
-    "description": "Electron-based GitHub app"
+    "pkg": "github-desktop-plus",
+    "site": "pol-rivero/github-desktop-plus",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/github-desktop-plus",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/github-desktop-plus",
+    "version_raw": "https://github.com/pol-rivero/github-desktop-plus/releases/download/v3.5.5.6/GitHubDesktopPlus-v3.5.5.6-linux-x86_64.AppImage",
+    "description": "Electron-based GitHub Desktop fork with advanced functionality and Bitbucket, GitLab integration"
   },
   {
     "pkg": "gitify",
@@ -10444,7 +10444,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -11012,7 +11012,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobe-chat/releases/download/v2.0.0-next.382/LobeHub-Beta-2.0.0-next.382.AppImage",
+    "version_raw": "https://github.com/lobehub/lobe-chat/releases/download/v2.0.0-next.383/LobeHub-Beta-2.0.0-next.383.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -13348,7 +13348,7 @@
     "site": "nymtech/nym-vpn-client",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nym-vpn",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nym-vpn",
-    "version_raw": "https://github.com/nymtech/nym-vpn-client/releases/download/nym-vpn-app-nightly/NymVPN_1.23.0-dev_x64.AppImage",
+    "version_raw": "https://github.com/nymtech/nym-vpn-client/releases/download/nym-vpn-app-v1.23.0-rc1/NymVPN_1.23.0-rc1_x64.AppImage",
     "description": "Cross-platform open source VPN client built in Rust, with mixnet anonymity and WireGuard speed. Protects metadata, not just IP addresses. Zero-knowledge payments for unlinkable online activities"
   },
   {
@@ -14436,7 +14436,7 @@
     "site": "PCSX2/pcsx2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcsx2",
-    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.64/pcsx2-v2.7.64-linux-appimage-x64-Qt.AppImage",
+    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.65/pcsx2-v2.7.65-linux-appimage-x64-Qt.AppImage",
     "description": "The Playstation 2 Emulator"
   },
   {
@@ -15614,6 +15614,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/proxyman",
     "version_raw": "https://github.com/ProxymanApp/proxyman-windows-linux/releases/download/3.7.0/Proxyman-3.7.0.AppImage",
     "description": "Modern and Delightful HTTP Debugging Proxy"
+  },
+  {
+    "pkg": "proxypal",
+    "site": "heyhuynhgiabuu/proxypal",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/proxypal",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/proxypal",
+    "version_raw": "https://github.com/heyhuynhgiabuu/proxypal/releases/download/v0.3.80/ProxyPal_0.3.80_amd64.AppImage",
+    "description": "A desktop app that lets you use your AI subscriptions (Claude, ChatGPT, Gemini, GitHub Copilot) with any coding tool. Wraps CLIProxyAPI with a clean UI for managing connections and tracking usage"
   },
   {
     "pkg": "prusa-slicer",
@@ -17556,7 +17564,7 @@
     "site": "shadps4-emu/shadps4-qtlauncher",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4-qtlauncher",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4-qtlauncher",
-    "version_raw": "https://github.com/shadps4-emu/shadps4-qtlauncher/releases/download/shadPS4QtLauncher-2026-01-26-c0e4080db3a2779efa86f19ac4597daef27a3b08/shadPS4QtLauncher-linux-qt-2026-01-26-c0e4080.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadps4-qtlauncher/releases/download/shadPS4QtLauncher-2026-01-26-f8ebecb33a773821e5bf9d3d3e273d2a7f8f4744/shadPS4QtLauncher-linux-qt-2026-01-26-f8ebecb.zip",
     "description": "The official Qt launcher for shadps4 PlayStation 4 emulator"
   },
   {
@@ -19892,7 +19900,7 @@
     "site": "https://www.todesktop.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/todesktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/todesktop",
-    "version_raw": "",
+    "version_raw": "todesktop-desktop-app-0.36.2-x86_64.AppImage",
     "description": "Take your web app codebase and transform it into a cross platform desktop app with native functionality"
   },
   {
@@ -21388,7 +21396,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6061231120",
+    "version_raw": "6063563767",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
