@@ -1892,7 +1892,7 @@
     "site": "digitalbitbox/bitbox-wallet-app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bitbox-wallet",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bitbox-wallet",
-    "version_raw": "https://github.com/BitBoxSwiss/bitbox-wallet-app/releases/download/v4.50.0/BitBox-4.50.0-x86_64.AppImage",
+    "version_raw": "https://github.com/BitBoxSwiss/bitbox-wallet-app/releases/download/v4.50.1/BitBox-4.50.1-x86_64.AppImage",
     "description": "Cryptocurrency hardware wallet desktop app"
   },
   {
@@ -2572,8 +2572,16 @@
     "site": "ivan-hc/Calibre-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/calibre",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/calibre",
-    "version_raw": "https://github.com/ivan-hc/Calibre-appimage/releases/download/continuous/Calibre_8.16.2-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Calibre-appimage/releases/download/continuous-stable/Calibre-stable_8.16.2-x86_64.AppImage",
     "description": "Unofficial. The one stop solution to all your e-book needs"
+  },
+  {
+    "pkg": "calibre-beta",
+    "site": "ivan-hc/Calibre-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/calibre-beta",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/calibre-beta",
+    "version_raw": "https://github.com/ivan-hc/Calibre-appimage/releases/download/continuous-beta/Calibre-beta_8.99.12-x86_64.AppImage",
+    "description": "Unofficial. The one stop solution to all your e-book needs. Beta version"
   },
   {
     "pkg": "calligra",
@@ -4708,7 +4716,7 @@
     "site": "pkgforge-dev/Dolphin-emu-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dolphin-emu-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dolphin-emu-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/Dolphin-emu-AppImage/releases/download/nightly/Dolphin_Emulator-d474ae99f-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Dolphin-emu-AppImage/releases/download/nightly/Dolphin_Emulator-10b9da8cd-anylinux-x86_64.AppImage",
     "description": "Unofficial nightly AppImage of the Dolphin emulator"
   },
   {
@@ -6852,7 +6860,7 @@
     "site": "sinelaw/fresh",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fresh",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fresh",
-    "version_raw": "https://github.com/sinelaw/fresh/releases/download/v0.1.90/fresh-editor-0.1.90-x86_64.AppImage",
+    "version_raw": "https://github.com/sinelaw/fresh/releases/download/v0.1.93/fresh-editor-0.1.93-x86_64.AppImage",
     "description": "Text editor for your terminal: easy, powerful and fast"
   },
   {
@@ -8300,7 +8308,7 @@
     "site": "retoaccess1/haveno-reto",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/haveno-reto",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/haveno-reto",
-    "version_raw": "https://github.com/retoaccess1/haveno-reto/releases/download/1.2.2-reto-app/haveno-v1.2.2-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/retoaccess1/haveno-reto/releases/download/1.2.3-reto/haveno-v1.2.3-linux-x86_64.AppImage",
     "description": "Decentralized P2P exchange built on Monero and Tor"
   },
   {
@@ -10860,7 +10868,7 @@
     "site": "https://www.linphone.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linphone",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linphone",
-    "version_raw": "https://download.linphone.org/releases/linux/app/Linphone-6.0.1-CallEdition-x86_64.AppImage",
+    "version_raw": "https://download.linphone.org/releases/linux/app/Linphone-6.1.0-x86_64.AppImage",
     "description": "A libre SIP client"
   },
   {
@@ -11004,7 +11012,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.0.3/LobeHub-2.0.3.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.0.4/LobeHub-2.0.4.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -15332,7 +15340,7 @@
     "site": "mvdicarlo/postybirb",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/postybirb",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/postybirb",
-    "version_raw": "https://github.com/mvdicarlo/postybirb/releases/download/v4.0.6/PostyBirb-4.0.6-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/mvdicarlo/postybirb/releases/download/v4.0.8/PostyBirb-4.0.8-linux-x86_64.AppImage",
     "description": "Multimedia crossposter for multimedia websites"
   },
   {
@@ -16868,7 +16876,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-818b11fd2fa2607334f781213e26da5fbb8506b5/rpcs3-v0.0.39-18737-818b11fd_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-0e2584fc9f367c2d3cd3e0ce578fb81b0e74b6ce/rpcs3-v0.0.39-18738-0e2584fc_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -21388,7 +21396,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6096256614",
+    "version_raw": "6100168469",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -21948,7 +21956,7 @@
     "site": "has207/xenia-edge",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xenia-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xenia-edge",
-    "version_raw": "https://github.com/has207/xenia-edge/releases/download/4659d2b/xenia_edge_linux.AppImage",
+    "version_raw": "https://github.com/has207/xenia-edge/releases/download/ee78b65/xenia_edge_linux.AppImage",
     "description": "Xbox 360 Emulator Research Project, fork of the Xenia emulator, with the aim of quicker iteration and improvements to Vulkan backend"
   },
   {
