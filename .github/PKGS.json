@@ -2584,6 +2584,14 @@
     "description": "Unofficial. The one stop solution to all your e-book needs. Beta version"
   },
   {
+    "pkg": "calibre-preview",
+    "site": "ivan-hc/Calibre-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/calibre-preview",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/calibre-preview",
+    "version_raw": "https://github.com/ivan-hc/Calibre-appimage/releases/download/continuous-preview/Calibre-preview_8.16.100-x86_64.AppImage",
+    "description": "Unofficial. The one stop solution to all your e-book needs. Preview version"
+  },
+  {
     "pkg": "calligra",
     "site": "lucasmz1/Calligra-Office-Appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/calligra",
@@ -5772,7 +5780,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.1.5.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -6300,7 +6308,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/continuous-stable/Firefox-stable-147.0.1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/continuous-stable/Firefox-stable-147.0.2-x86_64.AppImage",
     "description": "Unofficial, AppImage of the Web Browser, Stable"
   },
   {
@@ -6308,7 +6316,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-beta-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-beta-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260126-202730/Firefox-beta-148.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260127-202331/Firefox-beta-148.0-x86_64.AppImage",
     "description": "Unofficial, AppImage of the Web Browser, Beta"
   },
   {
@@ -6316,7 +6324,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-devedition-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-devedition-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260126-202730/Firefox-devedition-148.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260127-202331/Firefox-devedition-148.0-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, Dev"
   },
   {
@@ -6324,7 +6332,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-esr-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-esr-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260126-202730/Firefox-esr-140.7.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260127-202331/Firefox-esr-140.7.0-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, ESR"
   },
   {
@@ -6332,7 +6340,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-nightly-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-nightly-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260126-202730/Firefox-nightly-149.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260127-202331/Firefox-nightly-149.0a1-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, Nightly"
   },
   {
@@ -6556,7 +6564,7 @@
     "site": "superfly/flyctl",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flyctl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/flyctl",
-    "version_raw": "https://github.com/superfly/flyctl/releases/download/v0.4.5/flyctl_0.4.5_Linux_x86_64.tar.gz",
+    "version_raw": "https://github.com/superfly/flyctl/releases/download/v0.4.6/flyctl_0.4.6_Linux_x86_64.tar.gz",
     "description": "Command line tools for fly.io services"
   },
   {
@@ -10804,7 +10812,7 @@
     "site": "https://librewolf.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/librewolf",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/librewolf",
-    "version_raw": "https://gitlab.com/api/v4/projects/24386000/packages/generic/librewolf/147.0-1/LibreWolf.x86_64.AppImage",
+    "version_raw": "https://gitlab.com/api/v4/projects/24386000/packages/generic/librewolf/147.0.2-1/LibreWolf.x86_64.AppImage",
     "description": "Firefox-based Web Browser focused on privacy, security, freedom"
   },
   {
@@ -10900,7 +10908,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.22_251203_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.23_260108_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -11012,7 +11020,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.0.4/LobeHub-2.0.4.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.0.6/LobeHub-2.0.6.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -11036,7 +11044,7 @@
     "site": "lockbook/lockbook",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lockbook-cli",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lockbook-cli",
-    "version_raw": "https://github.com/lockbook/lockbook/releases/download/26.1.13/lockbook-cli-linux",
+    "version_raw": "https://github.com/lockbook/lockbook/releases/download/26.1.27/lockbook-cli-linux",
     "description": "The private, polished note-taking platform, CLI"
   },
   {
@@ -11044,7 +11052,7 @@
     "site": "lockbook/lockbook",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lockbook-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lockbook-desktop",
-    "version_raw": "https://github.com/lockbook/lockbook/releases/download/26.1.13/lockbook-linux",
+    "version_raw": "https://github.com/lockbook/lockbook/releases/download/26.1.27/lockbook-linux",
     "description": "The private, polished note-taking platform"
   },
   {
@@ -14876,7 +14884,7 @@
     "site": "pinokiocomputer/pinokio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pinokio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pinokio",
-    "version_raw": "https://github.com/pinokiocomputer/pinokio/releases/download/v6.0.9/Pinokio-6.0.9.AppImage",
+    "version_raw": "https://github.com/pinokiocomputer/pinokio/releases/download/v6.0.10/Pinokio-6.0.10.AppImage",
     "description": "AI Browser"
   },
   {
@@ -15956,7 +15964,7 @@
     "site": "pbek/QOwnNotes",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qownnotes",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qownnotes",
-    "version_raw": "https://github.com/pbek/QOwnNotes/releases/download/v26.1.12/QOwnNotes-x86_64-Qt6-experimental.AppImage",
+    "version_raw": "https://github.com/pbek/QOwnNotes/releases/download/v26.1.13/QOwnNotes-x86_64-Qt6-experimental.AppImage",
     "description": "Plain text notepad and todo list manager"
   },
   {
@@ -17348,7 +17356,7 @@
     "site": "5rahim/seanime",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/seanime",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/seanime",
-    "version_raw": "https://github.com/5rahim/seanime/releases/download/v3.4.0/seanime-denshi-3.4.0_Linux_x86_64.AppImage",
+    "version_raw": "https://github.com/5rahim/seanime/releases/download/v3.4.1/seanime-denshi-3.4.1_Linux_x86_64.AppImage",
     "description": "Open-source media server with a web interface and desktop app for anime and manga"
   },
   {
@@ -19732,7 +19740,7 @@
     "site": "ivan-hc/Thunderbird-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-beta-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-beta-appimage",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260126-202902/Thunderbird-beta-148.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260127-202433/Thunderbird-beta-148.0-x86_64.AppImage",
     "description": "Unofficial. Free and open source eMail client, Beta Edition"
   },
   {
@@ -19740,7 +19748,7 @@
     "site": "ivan-hc/Thunderbird-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-nightly-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-nightly-appimage",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260126-202902/Thunderbird-nightly-149.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260127-202433/Thunderbird-nightly-149.0a1-x86_64.AppImage",
     "description": "Unofficial. Free and open source eMail client, Nightly Edition"
   },
   {
@@ -21396,7 +21404,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6102114677",
+    "version_raw": "6106043911",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -22460,7 +22468,7 @@
     "site": "zed-industries/zed",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zed",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zed",
-    "version_raw": "https://github.com/zed-industries/zed/releases/download/v0.221.3-pre/zed-linux-x86_64.tar.gz",
+    "version_raw": "https://github.com/zed-industries/zed/releases/download/v0.221.4-pre/zed-linux-x86_64.tar.gz",
     "description": "High-performance, multiplayer code editor from the creators of Atom"
   },
   {
