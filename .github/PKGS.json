@@ -396,7 +396,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.243/alma-0.0.243-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.244/alma-0.0.244-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -1116,7 +1116,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "",
+    "version_raw": "1.0.4",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -3200,6 +3200,14 @@
     "description": "A simple image viewer with some editing features"
   },
   {
+    "pkg": "classicube",
+    "site": "pkgforge-dev/ClassiCube-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/classicube",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/classicube",
+    "version_raw": "https://github.com/pkgforge-dev/ClassiCube-AppImage/releases/download/1.3.7.r845.gef27a00ab-1%402026-02-01_1769952764/ClassiCube-1.3.7.r845.gef27a00ab-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, Custom Minecraft Classic / ClassiCube client written in C from scratch"
+  },
+  {
     "pkg": "classipod",
     "site": "adeeteya/Classipod",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/classipod",
@@ -4400,6 +4408,14 @@
     "description": "DefiChain Wallet AppImage"
   },
   {
+    "pkg": "defold",
+    "site": "pkgforge-dev/Defold-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/defold",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/defold",
+    "version_raw": "https://github.com/pkgforge-dev/Defold-AppImage/releases/download/1.12.0.3206f69-1%402026-02-01_1769937045/Defold-1.12.0.3206f69-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, Defold is a completely free to use game engine for development of games"
+  },
+  {
     "pkg": "delta",
     "site": "dandavison/delta",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/delta",
@@ -4516,7 +4532,7 @@
     "site": "docmirror/dev-sidecar",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/devsidecar",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/devsidecar",
-    "version_raw": "https://github.com/docmirror/dev-sidecar/releases/download/v2.0.1/DevSidecar-2.0.1-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/docmirror/dev-sidecar/releases/download/release-2.0.0.3/DevSidecar-2.0.0-linux-x86_64.AppImage",
     "description": "Dev sidecar/github/git/stackoverflow acceleration, in chinese"
   },
   {
@@ -4918,6 +4934,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/drovp",
     "version_raw": "https://github.com/drovp/drovp/releases/download/0.8.2/Drovp-x64.AppImage",
     "description": "Desktop app for encoding, converting, upscaling, and much more"
+  },
+  {
+    "pkg": "drum-machine",
+    "site": "pkgforge-dev/Drum-Machine-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/drum-machine",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/drum-machine",
+    "version_raw": "https://github.com/pkgforge-dev/Drum-Machine-AppImage/releases/download/2.2.0-1%402026-01-23_1769210111/Drum_Machine-2.2.0-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, Application for managing and playing with drum patterns"
   },
   {
     "pkg": "dsda-doom",
@@ -6136,6 +6160,14 @@
     "description": "FFLogs Uploader appimage"
   },
   {
+    "pkg": "ffmpeg",
+    "site": "pkgforge-dev/FFmpeg-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ffmpeg",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ffmpeg",
+    "version_raw": "https://github.com/pkgforge-dev/ffmpeg-AppImage/releases/download/8.0.1-2%402026-02-01_1769936664/ffmpeg-8.0.1-2-anylinux-x86_64.AppImage",
+    "description": "Unofficial, A complete, cross-platform solution to record, convert and stream audio and video"
+  },
+  {
     "pkg": "ffsend",
     "site": "timvisee/ffsend",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ffsend",
@@ -6856,6 +6888,14 @@
     "description": "An Open Source YouTube app for privacy"
   },
   {
+    "pkg": "freetube-enhanced",
+    "site": "pkgforge-dev/FreeTube-Appimage-Enhanced",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/freetube-enhanced",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/freetube-enhanced",
+    "version_raw": "https://github.com/pkgforge-dev/FreeTube-Appimage-Enhanced/releases/download/0.23.13-beta%402026-02-02_1770003862/FreeTube-0.23.13-beta-anylinux-x86_64.AppImage",
+    "description": "Unofficial, An Open Source YouTube app for privacy"
+  },
+  {
     "pkg": "freeze",
     "site": "charmbracelet/freeze",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/freeze",
@@ -7336,6 +7376,14 @@
     "description": "A much more convenient way to download GitHub release binaries on the command line"
   },
   {
+    "pkg": "ghostship",
+    "site": "pkgforge-dev/Ghostship-AppImage-Enhanced",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ghostship",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ghostship",
+    "version_raw": "https://github.com/pkgforge-dev/Ghostship-AppImage-Enhanced/releases/download/1.0.2-1%402026-02-01_1769936893/Ghostship-1.0.2-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, Another definitive port of Super Mario 64"
+  },
+  {
     "pkg": "ghostty",
     "site": "pkgforge-dev/ghostty-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ghostty",
@@ -7808,6 +7856,14 @@
     "description": "A feature-rich dictionary lookup program"
   },
   {
+    "pkg": "goldendict-ng",
+    "site": "pkgforge-dev/GoldenDict-ng-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/goldendict-ng",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/goldendict-ng",
+    "version_raw": "https://github.com/pkgforge-dev/GoldenDict-ng-AppImage/releases/download/26.1.1-1%402026-01-28_1769621629/GoldenDict-ng-26.1.1-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, an advanced dictionary lookup program, supporting many formats"
+  },
+  {
     "pkg": "gooboxfileshare",
     "site": "GooBox/file-share-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gooboxfileshare",
@@ -8030,6 +8086,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/grabscr",
     "version_raw": "https://github.com/thepeshka/grabscr/releases/download/v0.0.7/GrabSCR-0.0.7-x86_64.AppImage",
     "description": "Yet another screenshot maker"
+  },
+  {
+    "pkg": "gradia",
+    "site": "pkgforge-dev/Gradia-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gradia",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gradia",
+    "version_raw": "https://github.com/pkgforge-dev/Gradia-AppImage/releases/download/1.11.3-3%402026-02-01_1769936869/Gradia-1.11.3-3-anylinux-x86_64.AppImage",
+    "description": "Unofficial, screenshot/picture editor and uploader"
   },
   {
     "pkg": "granatier",
@@ -8508,7 +8572,7 @@
     "site": "HMCL-dev/HMCL",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hmcl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hmcl",
-    "version_raw": "https://github.com/HMCL-dev/HMCL/releases/download/v3.10.2/HMCL-3.10.2.sh",
+    "version_raw": "https://github.com/HMCL-dev/HMCL/releases/download/v3.11.0.323/HMCL-3.11.0.323.sh",
     "description": "A Minecraft Launcher which is multi-functional, cross-platform and popular"
   },
   {
@@ -9110,6 +9174,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/isle-editor",
     "version_raw": "https://github.com/isle-project/isle-editor/releases/download/v0.76.23/isle-editor-0.76.23-x86_64.AppImage",
     "description": "Editor for Integrated Statistics Learning Environment lessons"
+  },
+  {
+    "pkg": "isle-portable",
+    "site": "pkgforge-dev/isle-portable-AppImage-Enhanced",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/isle-portable",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/isle-portable",
+    "version_raw": "https://github.com/pkgforge-dev/isle-portable-AppImage-Enhanced/releases/download/r2473.03cb4019-1%402026-02-01_1769934560/Isle_Portable-r2473.03cb4019-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, a portable version of LEGO Island (1997)"
   },
   {
     "pkg": "isoimagewriter",
@@ -9902,6 +9974,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/keymanager",
     "version_raw": "https://github.com/keymanager/keymanager/releases/download/v0.19.10/KeyManager-0.19.10-x86_64.AppImage",
     "description": "One-stop certificate app and certificate key management"
+  },
+  {
+    "pkg": "keypunch",
+    "site": "pkgforge-dev/Keypunch-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/keypunch",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/keypunch",
+    "version_raw": "https://github.com/pkgforge-dev/Keypunch-AppImage/releases/download/6.2.r17.g4ace366-1%402026-01-25_1769373052/Keypunch-6.2.r17.g4ace366-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, keyboard writing speed test application.　"
   },
   {
     "pkg": "keyrier-json",
@@ -10766,6 +10846,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/libassist",
     "version_raw": "https://github.com/danielnoon/libassist-client/releases/download/v1.0.0/libassist-1.0.0-x86_64.AppImage",
     "description": "Library Assistant"
+  },
+  {
+    "pkg": "libation",
+    "site": "pkgforge-dev/Libation-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/libation",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/libation",
+    "version_raw": "https://github.com/pkgforge-dev/Libation-AppImage/releases/download/13.1.4-1%402026-02-01_1769937037/Libation-13.1.4-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, application for downloading and managing your Audible audiobooks"
   },
   {
     "pkg": "libertem",
@@ -13744,6 +13832,14 @@
     "description": "Ultimate 2D side scrolling engine for beat em ups, shooters"
   },
   {
+    "pkg": "opencode",
+    "site": "pkgforge-dev/opencode-AppImage-Enhanced",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/opencode",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/opencode",
+    "version_raw": "https://github.com/pkgforge-dev/opencode-AppImage-Enhanced/releases/download/1.1.48-1%402026-02-01_1769936828/OpenCode-1.1.48-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, The open source coding agent"
+  },
+  {
     "pkg": "opencomic",
     "site": "ollm/OpenComic",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/opencomic",
@@ -15776,6 +15872,14 @@
     "description": "EVE Online Fitting Assistant"
   },
   {
+    "pkg": "pyglossary",
+    "site": "pkgforge-dev/PyGlossary-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pyglossary",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pyglossary",
+    "version_raw": "https://github.com/pkgforge-dev/PyGlossary-AppImage/releases/download/5.2.1-1%402026-02-01_1769937088/PyGlossary-5.2.1-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, A tool for converting dictionary files aka glossaries"
+  },
+  {
     "pkg": "python",
     "site": "niess/python-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/python",
@@ -16528,6 +16632,14 @@
     "description": "Rebos is a tool that aims at mimicking what NixOS does (repeatability), for any Linux distribution"
   },
   {
+    "pkg": "reco",
+    "site": "pkgforge-dev/Reco-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/reco",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/reco",
+    "version_raw": "https://github.com/pkgforge-dev/Reco-AppImage/releases/download/5.1.1-1%402026-02-01_1769936439/Reco-5.1.1-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, An audio recorder focused on being concise and simple to use"
+  },
+  {
     "pkg": "recoll",
     "site": "https://www.recoll.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/recoll",
@@ -16900,7 +17012,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-588cf69dad726a4485af945ba0507193c526ccf7/rpcs3-v0.0.39-18750-588cf69d_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-ad90f8b44bdf29ce55c6a9b9ad855bde8ce66752/rpcs3-v0.0.39-18751-ad90f8b4_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -17334,6 +17446,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/scrum-retroboard",
     "version_raw": "https://github.com/stefanDeveloper/scrum-retroboard/releases/download/v0.2.1/scrum-retroboard-0.2.1-x86_64.AppImage",
     "description": "Electron application based on React"
+  },
+  {
+    "pkg": "scummvm",
+    "site": "pkgforge-dev/ScummVM-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/scummvm",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/scummvm",
+    "version_raw": "https://github.com/pkgforge-dev/ScummVM-AppImage/releases/download/2026.1.0-1%402026-02-01_1769937060/ScummVM-2026.1.0-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, A 'virtual machine' for several classic graphical point-and-click adventure games"
   },
   {
     "pkg": "scytale",
@@ -18696,6 +18816,14 @@
     "description": "Kiosk app wrapper for museum media exhibits"
   },
   {
+    "pkg": "stella",
+    "site": "pkgforge-dev/Stella-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/stella",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/stella",
+    "version_raw": "https://github.com/pkgforge-dev/Stella-AppImage/releases/download/7.0-1%402026-02-01_1769936209/Stella-7.0-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, A multi-platform Atari 2600 Emulator"
+  },
+  {
     "pkg": "stellarium",
     "site": "Stellarium/stellarium",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/stellarium",
@@ -18804,7 +18932,7 @@
     "site": "https://gitlab.com/posktomten/streamcapture2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/streamcapture2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/streamcapture2",
-    "version_raw": "",
+    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=sPmkfXmc",
     "description": "Download video streams"
   },
   {
@@ -19398,6 +19526,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
     "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.6.AppImage",
     "description": "A clean and powerful open source notes app"
+  },
+  {
+    "pkg": "taradino",
+    "site": "pkgforge-dev/Taradino-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/taradino",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/taradino",
+    "version_raw": "https://github.com/pkgforge-dev/Taradino-AppImage/releases/download/20251222-1%402026-02-01_1769935600/Taradino-20251222-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, SDL2 port of Rise of the Triad"
   },
   {
     "pkg": "taskade",
@@ -20278,6 +20414,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tuxplorer",
     "version_raw": "https://github.com/Pand3ru/Tuxplorer/releases/download/v1.0.2/tuxplorer",
     "description": "Tuxplorer is a terminal based file explorer"
+  },
+  {
+    "pkg": "tuxpuck",
+    "site": "pkgforge-dev/Tuxpuck-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tuxpuck",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tuxpuck",
+    "version_raw": "https://github.com/pkgforge-dev/Tuxpuck-AppImage/releases/download/0.8.2-12%402026-02-01_1769936161/TuxPuck-0.8.2-12-anylinux-x86_64.AppImage",
+    "description": "Unofficial, hockey-like table game"
   },
   {
     "pkg": "twake",
@@ -21420,7 +21564,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6237602330",
+    "version_raw": "6244959248",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -22070,6 +22214,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xopcodecalc",
     "version_raw": "https://github.com/horsicq/XOpcodeCalc/releases/download/0.05/XOpcodeCalc-0.05-x86_64.AppImage",
     "description": "Opcode calculator / ASM calculator"
+  },
+  {
+    "pkg": "xoreos",
+    "site": "pkgforge-dev/xoreos-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xoreos",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xoreos",
+    "version_raw": "https://github.com/pkgforge-dev/xoreos-AppImage/releases/download/0.0.6.r235.gf36b681b2-1%402026-02-01_1769937479/xoreos-0.0.6.r235.gf36b681b2-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, A reimplementation of BioWare's Aurora engine"
   },
   {
     "pkg": "xournal++",
