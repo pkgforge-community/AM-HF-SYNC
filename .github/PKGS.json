@@ -80,6 +80,14 @@
     "description": "An actively maintained and cross platform remake of Touhou Relauncher"
   },
   {
+    "pkg": "aaaaxy",
+    "site": "divVerent/aaaaxy",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aaaaxy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aaaaxy",
+    "version_raw": "https://github.com/divVerent/aaaaxy/releases/download/v1.6.338/AAAAXY-x86_64.AppImage",
+    "description": "A nonlinear puzzle platformer, game"
+  },
+  {
     "pkg": "ab-download-manager",
     "site": "amir1376/ab-download-manager",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ab-download-manager",
@@ -192,6 +200,14 @@
     "description": "Next-gen knowledge base that brings planning, sorting and creating"
   },
   {
+    "pkg": "affine-canary",
+    "site": "toeverything/AFFiNE",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine-canary",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine-canary",
+    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2026.2.4-canary.914/affine-2026.2.4-canary.914-canary-linux-x64.appimage",
+    "description": "Next-gen knowledge base that brings planning/sorting/creating"
+  },
+  {
     "pkg": "affinity",
     "site": "ryzendew/Linux-Affinity-Installer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affinity",
@@ -230,6 +246,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ai-gate",
     "version_raw": "https://sourceforge.net/projects/ai-gate/files/v4.0.1/Linux/AI.Gate-4.0.1-Linux.AppImage/download",
     "description": "A Desktop app which brings access of popular AI apps to your desktop"
+  },
+  {
+    "pkg": "aichat",
+    "site": "sigoden/aichat",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aichat",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aichat",
+    "version_raw": "https://github.com/sigoden/aichat/releases/download/v0.30.0/aichat-v0.30.0-x86_64-unknown-linux-musl.tar.gz",
+    "description": "AIO AI CLI tool integrating 20+ AI platforms, including OpenAI"
   },
   {
     "pkg": "aidm",
@@ -318,6 +342,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alacritty",
     "version_raw": "https://github.com/pkgforge-dev/alacritty-AppImage/releases/download/v0.16.1%402026-02-01_1769935912/Alacritty-v0.16.1-anylinux-x86_64.AppImage",
     "description": "Unofficial. A modern terminal emulator that comes with sensible defaults, but allows for extensive configuration"
+  },
+  {
+    "pkg": "albafetch",
+    "site": "alba4k/albafetch",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/albafetch",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/albafetch",
+    "version_raw": "https://github.com/alba4k/albafetch/releases/download/v4.3/albafetch-linux-x64-static.zip",
+    "description": "CLI, faster neofetch alternative, written in C. Still improving"
   },
   {
     "pkg": "alduin",
@@ -656,6 +688,14 @@
     "description": "An useful SQL client based on Electron.js and Vue.js"
   },
   {
+    "pkg": "antidot",
+    "site": "doron-cohen/antidot",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/antidot",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/antidot",
+    "version_raw": "https://github.com/doron-cohen/antidot/releases/download/v0.6.3/antidot_0.6.3_Linux_x86_64",
+    "description": "Cleans up your $HOME from those pesky dotfiles"
+  },
+  {
     "pkg": "antimicrox",
     "site": "AntiMicroX/antimicrox",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/antimicrox",
@@ -760,6 +800,14 @@
     "description": "A Universal linux app store for Flatpak/Snap/AppImage"
   },
   {
+    "pkg": "appflowy",
+    "site": "AppFlowy-IO/AppFlowy",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appflowy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appflowy",
+    "version_raw": "https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.11.1/AppFlowy-0.11.1-linux-x86_64.AppImage",
+    "description": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative"
+  },
+  {
     "pkg": "apphub",
     "site": "francesco-gaglione/AppHub",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/apphub",
@@ -798,6 +846,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimagelauncher",
     "version_raw": "https://github.com/TheAssassin/AppImageLauncher/releases/download/continuous/appimagelauncher-lite-3.0.0-beta-2-gha298-x86_64.AppImage",
     "description": "CLI helper for running and integrating AppImages"
+  },
+  {
+    "pkg": "appimagelint",
+    "site": "TheAssassin/appimagelint",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimagelint",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimagelint",
+    "version_raw": "https://github.com/TheAssassin/appimagelint/releases/download/continuous/appimagelint-x86_64.AppImage",
+    "description": "Check AppImages for compatibility, best practices etc"
   },
   {
     "pkg": "appimagen",
@@ -11348,7 +11404,7 @@
     "site": "mlm-games/mages",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mages",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mages",
-    "version_raw": "https://github.com/mlm-games/Mages/releases/download/2.4.3/mages-2.4.3-x86_64.AppImage",
+    "version_raw": "https://github.com/mlm-games/Mages/releases/download/2.4.4/mages-2.4.4-x86_64.AppImage",
     "description": "Multiplatform Matrix chat client (experimental CMP+rust app)"
   },
   {
@@ -15524,7 +15580,7 @@
     "site": "https://printventory.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/printventory",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/printventory",
-    "version_raw": "https://printventory.techjeeper.com/printventory-2.0.9.AppImage",
+    "version_raw": "https://printventory.techjeeper.com/printventory-2.0.10.AppImage",
     "description": "The ultimate tool for managing your 3D printing collection with ease. Sort, tag, and track your models in one place"
   },
   {
@@ -16284,7 +16340,7 @@
     "site": "TryQuiet/quiet",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quiet",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quiet",
-    "version_raw": "https://github.com/TryQuiet/quiet/releases/download/%40quiet/desktop%406.5.1-alpha.7/Quiet-6.5.1-alpha.7.AppImage",
+    "version_raw": "https://github.com/TryQuiet/quiet/releases/download/%40quiet/desktop%406.5.1/Quiet-6.5.1.AppImage",
     "description": "A private, p2p alternative to Slack and Discord built on Tor & IPFS"
   },
   {
@@ -16716,7 +16772,7 @@
     "site": "https://requestly.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/requestly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/requestly",
-    "version_raw": "https://github.com/requestly/requestly-desktop-app/releases/download/v26.1.28/Requestly-26.1.28.AppImage",
+    "version_raw": "https://github.com/requestly/requestly-desktop-app/releases/download/v26.2.4/Requestly-26.2.4.AppImage",
     "description": "Free and open-source API Client & Interceptor"
   },
   {
@@ -18236,7 +18292,7 @@
     "site": "pkgforge/soar",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/soar",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/soar",
-    "version_raw": "https://github.com/pkgforge/soar/releases/download/v0.10.3/soar-x86_64-linux",
+    "version_raw": "https://github.com/pkgforge/soar/releases/download/v0.11.0/soar-x86_64-linux",
     "description": "A fast, modern package manager for Static Binaries, Portable Formats, AppImage, AppBundle, FlatImage, Runimage & More"
   },
   {
@@ -21516,7 +21572,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6314024562",
+    "version_raw": "6317328855",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -22588,7 +22644,7 @@
     "site": "zed-industries/zed",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zed",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zed",
-    "version_raw": "https://github.com/zed-industries/zed/releases/download/v0.222.1-pre/zed-linux-x86_64.tar.gz",
+    "version_raw": "https://github.com/zed-industries/zed/releases/download/v0.222.2/zed-linux-x86_64.tar.gz",
     "description": "High-performance, multiplayer code editor from the creators of Atom"
   },
   {
@@ -22732,7 +22788,7 @@
     "site": "KittyCAD/modeling-app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zoo-design-studio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zoo-design-studio",
-    "version_raw": "https://github.com/KittyCAD/modeling-app/releases/download/v1.1.9/Zoo.Design.Studio-1.1.9-x86_64-linux.AppImage",
+    "version_raw": "https://github.com/KittyCAD/modeling-app/releases/download/v1.1.10/Zoo.Design.Studio-1.1.10-x86_64-linux.AppImage",
     "description": "The Zoo Design Studio app"
   },
   {
