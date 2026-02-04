@@ -1124,7 +1124,7 @@
     "site": "artisan-roaster-scope/artisan",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artisan",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artisan",
-    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/continuous/artisan-linux-4.0.1.AppImage",
+    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/v4.0.0/artisan-linux-4.0.0.AppImage",
     "description": "Visualizes the coffee roasting process"
   },
   {
@@ -3776,6 +3776,14 @@
     "description": "Shows releated information of apps from CuboCore App Suite"
   },
   {
+    "pkg": "corsixth",
+    "site": "CorsixTH/CorsixTH",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/corsixth",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/corsixth",
+    "version_raw": "https://github.com/CorsixTH/CorsixTH/releases/download/v0.69.2/CorsixTH-v0.69.2-x86_64.AppImage",
+    "description": "Open source clone of Theme Hospital"
+  },
+  {
     "pkg": "cosmic-comics",
     "site": "Nytuo/CosmicComics",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cosmic-comics",
@@ -4100,7 +4108,7 @@
     "site": "https://www.cursor.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cursor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cursor",
-    "version_raw": "https://downloads.cursor.com/production/4f2b772756b8f609e1354b3063de282ccbe7a69b/linux/x64/Cursor-2.4.27-x86_64.AppImage",
+    "version_raw": "https://downloads.cursor.com/production/f3f5cec40024283013878b50c4f9be4002e0b587/linux/x64/Cursor-2.4.28-x86_64.AppImage",
     "description": "Built to make you extraordinarily productive, Cursor is the best way to code with AI"
   },
   {
@@ -6348,7 +6356,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/continuous-stable/Firefox-stable-147.0.2-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/continuous-stable/Firefox-stable-147.0.3-x86_64.AppImage",
     "description": "Unofficial, AppImage of the Web Browser, Stable"
   },
   {
@@ -6356,7 +6364,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-beta-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-beta-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260203-203603/Firefox-beta-148.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260204-203411/Firefox-beta-148.0-x86_64.AppImage",
     "description": "Unofficial, AppImage of the Web Browser, Beta"
   },
   {
@@ -6364,7 +6372,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-devedition-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-devedition-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260203-203603/Firefox-devedition-148.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260204-203411/Firefox-devedition-148.0-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, Dev"
   },
   {
@@ -6372,7 +6380,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-esr-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-esr-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260203-203603/Firefox-esr-140.7.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260204-203411/Firefox-esr-140.7.0-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, ESR"
   },
   {
@@ -6380,7 +6388,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-nightly-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-nightly-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260203-203603/Firefox-nightly-149.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260204-203411/Firefox-nightly-149.0a1-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, Nightly"
   },
   {
@@ -6604,7 +6612,7 @@
     "site": "superfly/flyctl",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flyctl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/flyctl",
-    "version_raw": "https://github.com/superfly/flyctl/releases/download/v0.4.6/flyctl_0.4.6_Linux_x86_64.tar.gz",
+    "version_raw": "https://github.com/superfly/flyctl/releases/download/v0.4.7/flyctl_0.4.7_Linux_x86_64.tar.gz",
     "description": "Command line tools for fly.io services"
   },
   {
@@ -10540,7 +10548,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -11004,7 +11012,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.23_260108_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.22_251203_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -11756,7 +11764,7 @@
     "site": "ORNL-AMO/AMO-Tools-Desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/measur",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/measur",
-    "version_raw": "https://github.com/ORNL-AMO/AMO-Tools-Desktop/releases/download/v1.6.7/MEASUR-1.6.7.AppImage",
+    "version_raw": "https://github.com/ORNL-AMO/AMO-Tools-Desktop/releases/download/v1.6.8/MEASUR-1.6.8.AppImage",
     "description": "Energy efficiency calculation app for use with industrial equipment"
   },
   {
@@ -15832,6 +15840,14 @@
     "description": "PulseView (sometimes abbreviated as PV) is a Qt based logic analyzer, oscilloscope and MSO GUI for sigrok"
   },
   {
+    "pkg": "punes",
+    "site": "punesemu/puNES",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/punes",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/punes",
+    "version_raw": "https://github.com/punesemu/puNES/releases/download/v0.111/puNES-0.111-x86_64.AppImage",
+    "description": "Qt-based Nintendo Entertaiment System emulator and NSF/NSF2/NSFe Music Player"
+  },
+  {
     "pkg": "puppetry",
     "site": "dsheiko/puppetry",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/puppetry",
@@ -17676,7 +17692,7 @@
     "site": "PhantomGamers/SFP",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sfp",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sfp",
-    "version_raw": "https://github.com/PhantomGamers/SFP/releases/download/0.0.60-beta1/SFP_UI-linux-x64-SelfContained.tar.gz",
+    "version_raw": "https://github.com/PhantomGamers/SFP/releases/download/0.0.61/SFP_UI-linux-x64-SelfContained.tar.gz",
     "description": "This utility is designed to allow you to apply skins to the modern Steam client"
   },
   {
@@ -18804,7 +18820,7 @@
     "site": "mmvanheusden/SteamDepotDownloaderGUI",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/steamdepotdownloadergui",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/steamdepotdownloadergui",
-    "version_raw": "https://github.com/mmvanheusden/SteamDepotDownloaderGUI/releases/download/v3.1.0/SteamDepotDownloaderGUI-Linux-v3.1.0-x64.AppImage",
+    "version_raw": "https://github.com/mmvanheusden/SteamDepotDownloaderGUI/releases/download/v3.2.0/SteamDepotDownloaderGUI-Linux-v3.2.0-x64.AppImage",
     "description": "Easily download older versions of games from Steam"
   },
   {
@@ -19188,7 +19204,7 @@
     "site": "johannesjo/super-productivity",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/superproductivity",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/superproductivity",
-    "version_raw": "https://github.com/super-productivity/super-productivity/releases/download/v17.0.12/superProductivity-x86_64.AppImage",
+    "version_raw": "https://github.com/super-productivity/super-productivity/releases/download/v17.1.0/superProductivity-x86_64.AppImage",
     "description": "An advanced todo list app with integrated Timeboxing"
   },
   {
@@ -19900,7 +19916,7 @@
     "site": "ivan-hc/Thunderbird-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-beta-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-beta-appimage",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260203-203718/Thunderbird-beta-148.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260204-203542/Thunderbird-beta-148.0-x86_64.AppImage",
     "description": "Unofficial. Free and open source eMail client, Beta Edition"
   },
   {
@@ -19908,7 +19924,7 @@
     "site": "ivan-hc/Thunderbird-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-nightly-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-nightly-appimage",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260203-203718/Thunderbird-nightly-149.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260204-203542/Thunderbird-nightly-149.0a1-x86_64.AppImage",
     "description": "Unofficial. Free and open source eMail client, Nightly Edition"
   },
   {
@@ -21572,7 +21588,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6317328855",
+    "version_raw": "6319199550",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -21740,7 +21756,7 @@
     "site": "ryuuzaki42/WinRAR_AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/winrar",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/winrar",
-    "version_raw": "https://github.com/ryuuzaki42/WinRAR_AppImage/releases/download/7.13/WinRAR-7.13-1_JB-x86_64.AppImage",
+    "version_raw": "https://github.com/ryuuzaki42/WinRAR_AppImage/releases/download/7.20/WinRAR-7.20-1_JB-x86_64.AppImage",
     "description": "Unofficial, data compression, encryption and archiving tool"
   },
   {
@@ -22324,7 +22340,7 @@
     "site": "mountain-loop/yaak",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yaak",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yaak",
-    "version_raw": "https://github.com/mountain-loop/yaak/releases/download/v2026.2.0-beta.8/yaak_2026.2.0-beta.8_amd64.AppImage",
+    "version_raw": "https://github.com/mountain-loop/yaak/releases/download/v2026.2.0-beta.9/yaak_2026.2.0-beta.9_amd64.AppImage",
     "description": "The most intuitive desktop API client. Organize and execute REST, GraphQL, WebSockets, Server Sent Events, and gRPC"
   },
   {
@@ -22644,7 +22660,7 @@
     "site": "zed-industries/zed",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zed",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zed",
-    "version_raw": "https://github.com/zed-industries/zed/releases/download/v0.222.2/zed-linux-x86_64.tar.gz",
+    "version_raw": "https://github.com/zed-industries/zed/releases/download/v0.223.0-pre/zed-linux-x86_64.tar.gz",
     "description": "High-performance, multiplayer code editor from the creators of Atom"
   },
   {
