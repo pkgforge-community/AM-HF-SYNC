@@ -80,14 +80,6 @@
     "description": "An actively maintained and cross platform remake of Touhou Relauncher"
   },
   {
-    "pkg": "aaaaxy",
-    "site": "divVerent/aaaaxy",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aaaaxy",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aaaaxy",
-    "version_raw": "https://github.com/divVerent/aaaaxy/releases/download/v1.6.338/AAAAXY-x86_64.AppImage",
-    "description": "A nonlinear puzzle platformer, game"
-  },
-  {
     "pkg": "ab-download-manager",
     "site": "amir1376/ab-download-manager",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ab-download-manager",
@@ -200,14 +192,6 @@
     "description": "Next-gen knowledge base that brings planning, sorting and creating"
   },
   {
-    "pkg": "affine-canary",
-    "site": "toeverything/AFFiNE",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine-canary",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine-canary",
-    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2026.2.4-canary.914/affine-2026.2.4-canary.914-canary-linux-x64.appimage",
-    "description": "Next-gen knowledge base that brings planning/sorting/creating"
-  },
-  {
     "pkg": "affinity",
     "site": "ryzendew/Linux-Affinity-Installer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affinity",
@@ -246,14 +230,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ai-gate",
     "version_raw": "https://sourceforge.net/projects/ai-gate/files/v4.0.1/Linux/AI.Gate-4.0.1-Linux.AppImage/download",
     "description": "A Desktop app which brings access of popular AI apps to your desktop"
-  },
-  {
-    "pkg": "aichat",
-    "site": "sigoden/aichat",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aichat",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aichat",
-    "version_raw": "https://github.com/sigoden/aichat/releases/download/v0.30.0/aichat-v0.30.0-x86_64-unknown-linux-musl.tar.gz",
-    "description": "AIO AI CLI tool integrating 20+ AI platforms, including OpenAI"
   },
   {
     "pkg": "aidm",
@@ -342,14 +318,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alacritty",
     "version_raw": "https://github.com/pkgforge-dev/alacritty-AppImage/releases/download/v0.16.1%402026-02-01_1769935912/Alacritty-v0.16.1-anylinux-x86_64.AppImage",
     "description": "Unofficial. A modern terminal emulator that comes with sensible defaults, but allows for extensive configuration"
-  },
-  {
-    "pkg": "albafetch",
-    "site": "alba4k/albafetch",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/albafetch",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/albafetch",
-    "version_raw": "https://github.com/alba4k/albafetch/releases/download/v4.3/albafetch-linux-x64-static.zip",
-    "description": "CLI, faster neofetch alternative, written in C. Still improving"
   },
   {
     "pkg": "alduin",
@@ -688,14 +656,6 @@
     "description": "An useful SQL client based on Electron.js and Vue.js"
   },
   {
-    "pkg": "antidot",
-    "site": "doron-cohen/antidot",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/antidot",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/antidot",
-    "version_raw": "https://github.com/doron-cohen/antidot/releases/download/v0.6.3/antidot_0.6.3_Linux_x86_64",
-    "description": "Cleans up your $HOME from those pesky dotfiles"
-  },
-  {
     "pkg": "antimicrox",
     "site": "AntiMicroX/antimicrox",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/antimicrox",
@@ -800,14 +760,6 @@
     "description": "A Universal linux app store for Flatpak/Snap/AppImage"
   },
   {
-    "pkg": "appflowy",
-    "site": "AppFlowy-IO/AppFlowy",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appflowy",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appflowy",
-    "version_raw": "https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.11.1/AppFlowy-0.11.1-linux-x86_64.AppImage",
-    "description": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative"
-  },
-  {
     "pkg": "apphub",
     "site": "francesco-gaglione/AppHub",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/apphub",
@@ -846,14 +798,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimagelauncher",
     "version_raw": "https://github.com/TheAssassin/AppImageLauncher/releases/download/continuous/appimagelauncher-lite-3.0.0-beta-2-gha298-x86_64.AppImage",
     "description": "CLI helper for running and integrating AppImages"
-  },
-  {
-    "pkg": "appimagelint",
-    "site": "TheAssassin/appimagelint",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimagelint",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimagelint",
-    "version_raw": "https://github.com/TheAssassin/appimagelint/releases/download/continuous/appimagelint-x86_64.AppImage",
-    "description": "Check AppImages for compatibility, best practices etc"
   },
   {
     "pkg": "appimagen",
@@ -1116,7 +1060,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "",
+    "version_raw": "1.0.4",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -3036,7 +2980,7 @@
     "site": "ivan-hc/Chromium-Web-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chromium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chromium",
-    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-stable-144.0.7559.96-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-stable-144.0.7559.109-x86_64.AppImage",
     "description": "Unofficial. FOSS Web Browser, base of Google Chrome, Edge and Brave, stable"
   },
   {
@@ -4276,7 +4220,7 @@
     "site": "dbgate/dbgate",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dbgate",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dbgate",
-    "version_raw": "https://github.com/dbgate/dbgate/releases/download/v7.0.1/dbgate-7.0.1-linux_x86_64.AppImage",
+    "version_raw": "https://github.com/dbgate/dbgate/releases/download/v7.0.2-premium-beta.3/dbgate-premium-7.0.2-premium-beta.3-linux_x86_64.AppImage",
     "description": "Opensource database administration tool"
   },
   {
@@ -4284,7 +4228,7 @@
     "site": "dbgate/dbgate",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dbgate-premium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dbgate-premium",
-    "version_raw": "https://github.com/dbgate/dbgate/releases/download/v7.0.1/dbgate-7.0.1-linux_x86_64.AppImage",
+    "version_raw": "https://github.com/dbgate/dbgate/releases/download/v7.0.2-premium-beta.3/dbgate-premium-7.0.2-premium-beta.3-linux_x86_64.AppImage",
     "description": "Opensource database administration tool (premium version)"
   },
   {
@@ -5180,7 +5124,7 @@
     "site": "eez-open/studio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eez-studio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eez-studio",
-    "version_raw": "https://github.com/eez-open/studio/releases/download/v0.25.1/EEZ-Studio-0.25.1.AppImage",
+    "version_raw": "https://github.com/eez-open/studio/releases/download/v0.26.0/EEZ-Studio-0.26.0.AppImage",
     "description": "Cross-platform low-code GUI and automation"
   },
   {
@@ -9364,7 +9308,7 @@
     "site": "jsgroth/jgenesis",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/jgenesis",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/jgenesis",
-    "version_raw": "https://github.com/jsgroth/jgenesis/releases/download/v0.11.0/jgenesis-gui_0.11.0_x86_64.AppImage",
+    "version_raw": "https://github.com/jsgroth/jgenesis/releases/download/v0.11.1/jgenesis-gui_0.11.1_x86_64.AppImage",
     "description": "Sega Genesis, Sega CD, SNES, Master System, Game Gear emulator (GUI)"
   },
   {
@@ -9372,7 +9316,7 @@
     "site": "jsgroth/jgenesis",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/jgenesis-cli",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/jgenesis-cli",
-    "version_raw": "https://github.com/jsgroth/jgenesis/releases/download/v0.11.0/jgenesis-cli_0.11.0_x86_64.AppImage",
+    "version_raw": "https://github.com/jsgroth/jgenesis/releases/download/v0.11.1/jgenesis-cli_0.11.1_x86_64.AppImage",
     "description": "Sega Genesis, Sega CD, SNES, Master System, Game Gear emulator (CLI)"
   },
   {
@@ -9404,7 +9348,7 @@
     "site": "jitsi/jitsi-meet-electron",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/jitsi-meet",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/jitsi-meet",
-    "version_raw": "https://github.com/jitsi/jitsi-meet-electron/releases/download/v2025.10.0/jitsi-meet-x86_64.AppImage",
+    "version_raw": "https://github.com/jitsi/jitsi-meet-electron/releases/download/v2026.1.0/jitsi-meet-x86_64.AppImage",
     "description": "Jitsi Meet Desktop App"
   },
   {
@@ -10540,7 +10484,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -10860,7 +10804,7 @@
     "site": "LiberTEM/LiberTEM",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/libertem",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/libertem",
-    "version_raw": "https://github.com/LiberTEM/LiberTEM/releases/download/continuous/LiberTEM-60eb353-x86_64.AppImage",
+    "version_raw": "https://github.com/LiberTEM/LiberTEM/releases/download/continuous/LiberTEM-5171f20-x86_64.AppImage",
     "description": "Pixelated scanning transmission electron microscopy"
   },
   {
@@ -11004,7 +10948,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.22_251203_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.23_260108_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -11116,7 +11060,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.1.16/LobeHub-2.1.16.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.1.18/LobeHub-2.1.18.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -21572,7 +21516,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6307722393",
+    "version_raw": "6314024562",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -22212,7 +22156,7 @@
     "site": "xonsh/xonsh",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xonsh",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xonsh",
-    "version_raw": "https://github.com/xonsh/xonsh/releases/download/0.22.2/xonsh-x86_64.AppImage",
+    "version_raw": "https://github.com/xonsh/xonsh/releases/download/0.22.3/xonsh-x86_64.AppImage",
     "description": "Python-powered, cross-platform, Unix-gazing shell"
   },
   {
