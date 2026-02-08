@@ -204,7 +204,7 @@
     "site": "toeverything/AFFiNE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine-canary",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine-canary",
-    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2026.2.6-canary.916/affine-2026.2.6-canary.916-canary-linux-x64.appimage",
+    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2026.2.8-canary.1625/affine-2026.2.8-canary.1625-canary-linux-x64.appimage",
     "description": "Next-gen knowledge base that brings planning/sorting/creating"
   },
   {
@@ -924,7 +924,7 @@
     "site": "kem-a/AppManager",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appmanager",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appmanager",
-    "version_raw": "https://github.com/kem-a/AppManager/releases/download/v3.1.0/AppManager-3.1.0-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/kem-a/AppManager/releases/download/v3.0.1/AppManager-3.0.1-x86_64.AppImage",
     "description": "MacOS style AppImage installer and management application"
   },
   {
@@ -3180,7 +3180,7 @@
     "site": "libnyanpasu/clash-nyanpasu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clash-nyanpasu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/clash-nyanpasu",
-    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha%2Baf53baf_amd64.AppImage",
+    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/v1.6.1/clash-nyanpasu_1.6.1_amd64.AppImage",
     "description": "A Clash GUI based on tauri"
   },
   {
@@ -3220,7 +3220,7 @@
     "site": "aaddrick/claude-desktop-debian",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/claude-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/claude-desktop",
-    "version_raw": "https://github.com/aaddrick/claude-desktop-debian/releases/download/v1.3.8%2Bclaude1.1.2321/claude-desktop-1.1.2321-1.3.8-amd64.AppImage",
+    "version_raw": "https://github.com/aaddrick/claude-desktop-debian/releases/download/v1.3.9%2Bclaude1.1.2321/claude-desktop-1.1.2321-1.3.9-amd64.AppImage",
     "description": "Claude Desktop for Debian-based Linux distributions"
   },
   {
@@ -4652,7 +4652,7 @@
     "site": "rallep71/dinox",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dinox",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dinox",
-    "version_raw": "https://github.com/rallep71/dinox/releases/download/v0.9.8.4/DinoX--x86_64.AppImage",
+    "version_raw": "https://github.com/rallep71/dinox/releases/download/v0.9.8.5/DinoX--x86_64.AppImage",
     "description": "DinoX - Modern XMPP Chat Client with Video Calls, Voice Messages & OMEMO Encryption"
   },
   {
@@ -5820,7 +5820,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.2.4.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -7076,7 +7076,7 @@
     "site": "mikf/gallery-dl",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gallery-dl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gallery-dl",
-    "version_raw": "https://github.com/mikf/gallery-dl/releases/download/v1.31.5/gallery-dl.bin",
+    "version_raw": "https://github.com/mikf/gallery-dl/releases/download/v1.31.6/gallery-dl.bin",
     "description": "Command-line program to download image galleries and collections"
   },
   {
@@ -10349,7 +10349,15 @@
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/koreader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/koreader",
     "version_raw": "https://github.com/koreader/koreader/releases/download/v2025.10/koreader-appimage-x86_64-v2025.10.AppImage",
-    "description": "A document viewer"
+    "description": "A document viewer for E Ink devices. Supported fileformats include EPUB, PDF, DjVu, XPS, CBT, CBZ, FB2, PDB, TXT, HTML, RTF, CHM, DOC, MOBI and ZIP files. It’s available for Kindle, Kobo, PocketBook, Android and desktop Linux"
+  },
+  {
+    "pkg": "koreader-nightly",
+    "site": "http://koreader.rocks",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/koreader-nightly",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/koreader-nightly",
+    "version_raw": "https://build.koreader.rocks/download/nightly//",
+    "description": "A document viewer for E Ink devices. Supported fileformats include EPUB, PDF, DjVu, XPS, CBT, CBZ, FB2, PDB, TXT, HTML, RTF, CHM, DOC, MOBI and ZIP files. It’s available for Kindle, Kobo, PocketBook, Android and desktop Linux. Nightly build"
   },
   {
     "pkg": "kpat",
@@ -11124,7 +11132,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.1.21/LobeHub-2.1.21.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.1.22/LobeHub-2.1.22.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -12900,7 +12908,7 @@
     "site": "Nerimity/nerimity-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nerimity-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nerimity-desktop",
-    "version_raw": "https://github.com/Nerimity/nerimity-desktop/releases/download/v1.9.1/Nerimity-1.9.1.AppImage",
+    "version_raw": "https://github.com/Nerimity/nerimity-desktop/releases/download/v2.0.0/Nerimity-2.0.0.AppImage",
     "description": "Electron desktop app for Nerimity"
   },
   {
@@ -13412,7 +13420,7 @@
     "site": "Syllo/nvtop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nvtop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nvtop",
-    "version_raw": "https://github.com/Syllo/nvtop/releases/download/3.3.1/nvtop-3.3.1-x86_64.AppImage",
+    "version_raw": "https://github.com/Syllo/nvtop/releases/download/3.3.2/nvtop-3.3.2-x86_64.AppImage",
     "description": "GPUs process monitoring for AMD, Intel and NVIDIA"
   },
   {
@@ -14364,7 +14372,7 @@
     "site": "Portable-Linux-Apps/palemoon-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/palemoon",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/palemoon",
-    "version_raw": "https://github.com/Portable-Linux-Apps/palemoon-AppImage/releases/download/34.0.1%402026-02-01_1769963822/Pale_Moon-34.0.1-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/palemoon-AppImage/releases/download/34.0.1%402026-02-08_1770568689/Pale_Moon-34.0.1-x86_64.AppImage",
     "description": "Web browser, a Firefox fork with a classic UI and modern APIs"
   },
   {
@@ -15756,7 +15764,7 @@
     "site": "heyhuynhgiabuu/proxypal",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/proxypal",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/proxypal",
-    "version_raw": "https://github.com/heyhuynhgiabuu/proxypal/releases/download/v0.3.110/ProxyPal_0.3.110_amd64.AppImage",
+    "version_raw": "https://github.com/heyhuynhgiabuu/proxypal/releases/download/v0.3.111/ProxyPal_0.3.111_amd64.AppImage",
     "description": "A desktop app that lets you use your AI subscriptions (Claude, ChatGPT, Gemini, GitHub Copilot) with any coding tool. Wraps CLIProxyAPI with a clean UI for managing connections and tracking usage"
   },
   {
@@ -17724,7 +17732,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-02-08-b44ad1e087eb6131b6b169dfc22cc5df3194bd98/shadps4-linux-sdl-2026-02-08-b44ad1e.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-02-08-2a61851a8865c9fef15c78f7b06fc7417f7018ac/shadps4-linux-sdl-2026-02-08-2a61851.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -19204,7 +19212,7 @@
     "site": "johannesjo/super-productivity",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/superproductivity",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/superproductivity",
-    "version_raw": "https://github.com/super-productivity/super-productivity/releases/download/v17.1.3/superProductivity-x86_64.AppImage",
+    "version_raw": "https://github.com/super-productivity/super-productivity/releases/download/v17.1.5/superProductivity-x86_64.AppImage",
     "description": "An advanced todo list app with integrated Timeboxing"
   },
   {
@@ -21404,7 +21412,7 @@
     "site": "A-Herzog/Warteschlangensimulator",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/warteschlangensimulator",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/warteschlangensimulator",
-    "version_raw": "",
+    "version_raw": "https://github.com/A-Herzog/Warteschlangensimulator/releases/download/5.9.0/Warteschlangensimulator-x86_64.AppImage",
     "description": "A free, platform independent, discrete-event, stochastic simulator which allows to model queueing systems in form of flowcharts"
   },
   {
@@ -21436,7 +21444,7 @@
     "site": "ZorrillosDev/watchit-app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/watchit",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/watchit",
-    "version_raw": "",
+    "version_raw": "https://github.com/WatchItDev/watchit-app/releases/download/v1.0.0-beta.0/watchit-1.0.0-beta.0.AppImage",
     "description": "Open movies everywhere"
   },
   {
@@ -21444,7 +21452,7 @@
     "site": "Portable-Linux-Apps/Waterfox-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/waterfox",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/waterfox",
-    "version_raw": "",
+    "version_raw": "https://github.com/Portable-Linux-Apps/Waterfox-AppImage/releases/download/140.6.0%402026-01-01_1767284621/Waterfox-140.6.0-x86_64.AppImage",
     "description": "A privacy-focused web browser engineered to give you speed, control, and peace of mind on the internet"
   },
   {
@@ -21468,7 +21476,7 @@
     "site": "WeakAuras/WeakAuras-Companion",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/weakauras",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/weakauras",
-    "version_raw": "https://github.com/WeakAuras/WeakAuras-Companion/releases/download/v5.3.0/WeakAuras-Companion-5.3.0.AppImage",
+    "version_raw": "https://github.com/WeakAuras/WeakAuras-Companion/releases/download/v5.3.1/WeakAuras-Companion-5.3.1.AppImage",
     "description": "App to provide missing link between Wago.io and World of Warcraft"
   },
   {
@@ -21476,7 +21484,7 @@
     "site": "luigifreitas/weatherdump-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/weatherdump",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/weatherdump",
-    "version_raw": "",
+    "version_raw": "https://github.com/luigifcruz/weatherdump-desktop/releases/download/v0.0.0-alpha.3/weatherdump-gui-0.0.0-alpha.3-linux-x86_64.AppImage",
     "description": "A WeatherDump GUI"
   },
   {
@@ -21508,7 +21516,7 @@
     "site": "SpacingBat3/WebCord",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/webcord",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/webcord",
-    "version_raw": "",
+    "version_raw": "https://github.com/SpacingBat3/WebCord/releases/download/v4.12.1/WebCord-4.12.1-x64.AppImage",
     "description": "A Discord and Fosscord client implemented without Discord API"
   },
   {
@@ -21532,7 +21540,7 @@
     "site": "webrecorder/webrecorder-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/webrecorder",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/webrecorder",
-    "version_raw": "",
+    "version_raw": "https://github.com/webrecorder/webrecorder-desktop/releases/download/v2.0.3/webrecorder-2.0.3.AppImage",
     "description": "A complete packaging of Webrecorder hosted service in Electron"
   },
   {
@@ -21548,7 +21556,7 @@
     "site": "WesterosCraftCode/ElectronLauncher",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/westeroscraftlauncher",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/westeroscraftlauncher",
-    "version_raw": "",
+    "version_raw": "https://github.com/WesterosCraft/ElectronLauncher/releases/download/v1.8.0/westeroscraftlauncher-1.8.0.AppImage",
     "description": "Custom launcher for modded Minecraft, game"
   },
   {
@@ -21556,7 +21564,7 @@
     "site": "risoflora/wethr",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wethr",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wethr",
-    "version_raw": "",
+    "version_raw": "https://github.com/risoflora/wethr/releases/download/v0.6.0/wethr-x86_64-unknown-linux-gnu.zip",
     "description": "Command line weather tool"
   },
   {
@@ -21564,7 +21572,7 @@
     "site": "trazyn/wewechat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wewechat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wewechat",
-    "version_raw": "",
+    "version_raw": "https://github.com/trazyn/weweChat/releases/download/v1.1.7/wewechat-1.1.7-linux-x86_64.AppImage",
     "description": "Unofficial WeChat client built with React, MobX and Electron"
   },
   {
@@ -21588,7 +21596,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6405367277",
+    "version_raw": "6407455803",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -21596,7 +21604,7 @@
     "site": "h3poteto/whalebird-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/whalebird",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/whalebird",
-    "version_raw": "",
+    "version_raw": "https://github.com/h3poteto/whalebird-desktop/releases/download/v6.2.7/Whalebird-6.2.7-linux-x86_64.AppImage",
     "description": "An Electron based Mastodon client"
   },
   {
@@ -21604,7 +21612,7 @@
     "site": "murilopereirame/Whatstron",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/whatstron",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/whatstron",
-    "version_raw": "",
+    "version_raw": "https://github.com/murilopereirame/Whatstron/releases/download/v1.0.1/Whatstron.AppImage",
     "description": "Unofficial WhatsApp desktop client for Linux"
   },
   {
@@ -21652,7 +21660,7 @@
     "site": "Xpl0itU/WiiUDownloader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wiiu-downloader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wiiu-downloader",
-    "version_raw": "",
+    "version_raw": "https://github.com/Xpl0itU/WiiUDownloader/releases/download/v2.75/WiiUDownloader-Linux-x86_64.AppImage",
     "description": "Allows to download encrypted wiiu files from nintendo's official servers"
   },
   {
@@ -21660,7 +21668,7 @@
     "site": "flamboyantpenguin/wikilynx",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wikilynx",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wikilynx",
-    "version_raw": "",
+    "version_raw": "https://github.com/flamboyantpenguin/wikilynx/releases/download/v1.5.6/wikiLYNX_1.5.6-3_amd64.AppImage",
     "description": "A simple game browser made using Qt C++ for playing wikipedia speed-runs the right way"
   },
   {
@@ -21668,7 +21676,7 @@
     "site": "gustavosett/Windows-11-Clipboard-History-For-Linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/win11-clipboard-history",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/win11-clipboard-history",
-    "version_raw": "",
+    "version_raw": "https://github.com/gustavosett/Windows-11-Clipboard-History-For-Linux/releases/download/v0.5.2/win11-clipboard-history_0.5.2_amd64.AppImage",
     "description": "A beautiful, Windows 11-style Clipboard History Manager for Linux"
   },
   {
@@ -21676,7 +21684,7 @@
     "site": "TibixDev/winboat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/winboat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/winboat",
-    "version_raw": "",
+    "version_raw": "https://github.com/TibixDev/winboat/releases/download/v0.9.0/winboat-0.9.0-x86_64.AppImage",
     "description": "Run Windows apps on 🐧 Linux with ✨ seamless integration"
   },
   {
@@ -21684,7 +21692,7 @@
     "site": "SeakMengs/WindowPet",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/window-pet",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/window-pet",
-    "version_raw": "",
+    "version_raw": "https://github.com/SeakMengs/WindowPet/releases/download/v0.0.9/window-pet_0.0.9_amd64.AppImage",
     "description": "Pet overlay app that lets you have adorable companion such as pets, anime characters on your screen"
   },
   {
@@ -21692,7 +21700,7 @@
     "site": "ValdikSS/windows2usb",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/windows2usb",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/windows2usb",
-    "version_raw": "",
+    "version_raw": "https://github.com/ValdikSS/windows2usb/releases/download/0.2.4/windows2usb-0.2.4-x86_64.AppImage",
     "description": "Flash Drive burning utility, MBR/GPT, BIOS/UEFI, FAT32/NTFS"
   },
   {
@@ -21700,7 +21708,7 @@
     "site": "felixrieseberg/windows95",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/windows95",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/windows95",
-    "version_raw": "",
+    "version_raw": "https://github.com/felixrieseberg/windows95/releases/download/v4.0.0/windows95_4.0.0_amd64.deb",
     "description": "Unofficial. Windows 95 in Electron"
   },
   {
@@ -21716,7 +21724,7 @@
     "site": "mmtrt/WINE_AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wine-devel",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wine-devel",
-    "version_raw": "",
+    "version_raw": "https://github.com/mmtrt/WINE_AppImage/releases/download/continuous-devel/wine-devel_11.2-x86_64.AppImage",
     "description": "Unofficial. Compatibility layer to run x86_64 Windows programs, Dev Edition"
   },
   {
@@ -21740,7 +21748,7 @@
     "site": "mmtrt/WINE_AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wine-staging-ge-proton",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wine-staging-ge-proton",
-    "version_raw": "",
+    "version_raw": "https://github.com/mmtrt/WINE_AppImage/releases/download/continuous-proton-exp/wine-proton-exp_10.0-1d3dc82-x86_64.AppImage",
     "description": "Unofficial. Run x86_64 Windows programs, Staging GE Proton"
   },
   {
@@ -21748,7 +21756,7 @@
     "site": "sudo-give-me-coffee/wine32-deploy",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wine32-deploy",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wine32-deploy",
-    "version_raw": "",
+    "version_raw": "https://github.com/sudo-give-me-coffee/wine32-deploy/releases/download/continuous/Wine-4.21-x86_64.AppImage",
     "description": "Tool for creating AppImages for 32-bit Microsoft Windows apps"
   },
   {
@@ -21756,7 +21764,7 @@
     "site": "ryuuzaki42/WinRAR_AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/winrar",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/winrar",
-    "version_raw": "",
+    "version_raw": "https://github.com/ryuuzaki42/WinRAR_AppImage/releases/download/7.20/WinRAR-7.20-1_JB-x86_64.AppImage",
     "description": "Unofficial, data compression, encryption and archiving tool"
   },
   {
@@ -21764,7 +21772,7 @@
     "site": "wireapp/wire-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wire",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wire",
-    "version_raw": "",
+    "version_raw": "https://github.com/wireapp/wire-desktop/releases/download/linux/3.40.3882/Wire-3.40.3882_x86_64.AppImage",
     "description": "The most secure collaboration platform"
   },
   {
@@ -21780,7 +21788,7 @@
     "site": "leon3s/wireguard-gui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wireguard-gui",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wireguard-gui",
-    "version_raw": "",
+    "version_raw": "https://github.com/0xle0ne/wireguard-gui/releases/download/0.1.8-stable/wireguard-gui_0.1.8_amd64.AppImage",
     "description": "A wireguard client GUI for Debian/Linux made with nextauri"
   },
   {
@@ -21796,7 +21804,7 @@
     "site": "julien-montmartin/statcl",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wishdemo",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wishdemo",
-    "version_raw": "",
+    "version_raw": "https://github.com/julien-montmartin/statcl/releases/download/8.6.9/WishDemo-x86_64.AppImage",
     "description": "A μ Tcl/Tk distribution statically linked, AppImage"
   },
   {
@@ -21804,7 +21812,7 @@
     "site": "KRTirtho/wives",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wives",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wives",
-    "version_raw": "",
+    "version_raw": "https://github.com/KRTirtho/wives/releases/download/nightly/Wives-linux-x86_64.AppImage",
     "description": "A beautiful, modern & feature-rich Terminal Emulator"
   },
   {
@@ -21820,7 +21828,7 @@
     "site": "altairwei/WizNotePlus",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wiznoteplus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wiznoteplus",
-    "version_raw": "",
+    "version_raw": "https://github.com/altairwei/WizNotePlus/releases/download/v2.12.0/WizNotePlus-linux-v2.12.0.AppImage",
     "description": "The third party that supports the plug-in is Zhinote client"
   },
   {
@@ -21828,7 +21836,7 @@
     "site": "Idontknow13/wkp",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wkp",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wkp",
-    "version_raw": "",
+    "version_raw": "https://api.github.com/repos/Idontknow13/wkp/releases/74578783",
     "description": "A CLI tool designed to fetch Wikipedia excerpts written in Rust"
   },
   {
@@ -21836,7 +21844,7 @@
     "site": "w00000dy/WLED-GUI",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wled-gui",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wled-gui",
-    "version_raw": "",
+    "version_raw": "https://github.com/w00000dy/WLED-GUI/releases/download/v0.7.1/WLED-0.7.1-Linux.AppImage",
     "description": "Cross-platform desktop app for WLED"
   },
   {
@@ -21844,7 +21852,7 @@
     "site": "galister/wlx-overlay-s",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wlx-overlay-s",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wlx-overlay-s",
-    "version_raw": "",
+    "version_raw": "https://github.com/wlx-team/wayvr/releases/download/v26.2.0/WayVR-v26.2.0-x86_64.AppImage",
     "description": "Access your Wayland/X11 desktop from Monado/WiVRn/SteamVR"
   },
   {
@@ -21852,7 +21860,7 @@
     "site": "RoderickQiu/wnr",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wnr",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wnr",
-    "version_raw": "",
+    "version_raw": "https://github.com/RoderickQiu/wnr/releases/download/v1.32.0/wnr-1.32.0-Linux.AppImage",
     "description": "Work/Rest Timer. Stricter. Prettier. More features"
   },
   {
@@ -21860,7 +21868,7 @@
     "site": "tmstieff/Woke",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/woke",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/woke",
-    "version_raw": "",
+    "version_raw": "https://github.com/tmstieff/Woke/releases/download/continuous/Woke-ad10d85-x86_64.AppImage",
     "description": "A REST client with grand ambitions and limited scope"
   },
   {
@@ -21876,7 +21884,7 @@
     "site": "Lunova-Studio/WonderLab.Override",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wonderlab",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wonderlab",
-    "version_raw": "",
+    "version_raw": "https://github.com/Lunova-Studio/WonderLab.Override/releases/download/v2.0.0.0825/WonderLab.linux.x64.AppImage",
     "description": "A new generation Minecraft launcher"
   },
   {
@@ -21884,7 +21892,7 @@
     "site": "keshavbhatt/WonderWall-Packaging",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wonderwall",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wonderwall",
-    "version_raw": "",
+    "version_raw": "https://github.com/keshavbhatt/WonderWall-Packaging/releases/download/v7.0/Wonderwall-x86_64.AppImage",
     "description": "Wallpaper manager for Linux"
   },
   {
@@ -21900,7 +21908,7 @@
     "site": "fabiangreffrath/woof",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/woof-doom",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/woof-doom",
-    "version_raw": "",
+    "version_raw": "https://github.com/fabiangreffrath/woof/releases/download/woof_15.3.0/Woof-15.3.0-Linux.appimage",
     "description": "Woof! is a continuation of the Boom/MBF bloodline of Doom source ports"
   },
   {
@@ -21908,7 +21916,7 @@
     "site": "WootingKb/wooting-macros",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wootility",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wootility",
-    "version_raw": "",
+    "version_raw": "https://github.com/WootingKb/wooting-macros/releases/download/v1.1.0/wootomation_1.1.0_amd64.AppImage",
     "description": "Utility for configuring Wooting keyboards"
   },
   {
@@ -21924,7 +21932,7 @@
     "site": "WootingKb/wooting-macros",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wootomation",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wootomation",
-    "version_raw": "",
+    "version_raw": "https://github.com/WootingKb/wooting-macros/releases/download/v1.1.0/wootomation_1.1.0_amd64.AppImage",
     "description": "The official Wooting Macros software"
   },
   {
@@ -21932,7 +21940,7 @@
     "site": "playwora/wora",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wora",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wora",
-    "version_raw": "",
+    "version_raw": "https://github.com/playwora/wora/releases/download/v0.4.0-beta2/Wora.v0.4.0-beta2.AppImage",
     "description": "A beautiful player for audiophiles"
   },
   {
@@ -21940,7 +21948,7 @@
     "site": "workflowy/desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/workflowy",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/workflowy",
-    "version_raw": "",
+    "version_raw": "https://github.com/workflowy/desktop/releases/download/v4.3.2602051132/WorkFlowy-x86_64.AppImage",
     "description": "A notetaking tool"
   },
   {
@@ -21948,7 +21956,7 @@
     "site": "dominiksta/wournal",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wournal",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wournal",
-    "version_raw": "",
+    "version_raw": "https://github.com/dominiksta/wournal/releases/download/0.0.8/Wournal-GNU-Linux-0.0.8.AppImage",
     "description": "Simple digitial paper for note taking and PDF annotation. Heavily inspired by Xournal"
   },
   {
@@ -21956,7 +21964,7 @@
     "site": "WowUp/WowUp",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wowup",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wowup",
-    "version_raw": "",
+    "version_raw": "https://github.com/WowUp/WowUp/releases/download/v2.22.1-beta.2/WowUp-2.22.1-beta.2.AppImage",
     "description": "WowUp the World of Warcraft addon updater"
   },
   {
@@ -21964,7 +21972,7 @@
     "site": "Wox-launcher/Wox",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wox",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wox",
-    "version_raw": "",
+    "version_raw": "https://github.com/Wox-launcher/Wox/releases/download/v2.0.0-beta.8/wox-linux-amd64.AppImage",
     "description": "A cross-platform launcher that simply works"
   },
   {
@@ -21972,7 +21980,7 @@
     "site": "ivan-hc/WPS-Office-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wps-office",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wps-office",
-    "version_raw": "",
+    "version_raw": "https://github.com/ivan-hc/WPS-Office-appimage/releases/download/continuous/WPS-Office_11.1.0.11723-x86_64.AppImage",
     "description": "Unofficial, Office suite built from the official .deb package"
   },
   {
@@ -22004,7 +22012,7 @@
     "site": "XDSEC/WebSocketReflectorX",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wsrx",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wsrx",
-    "version_raw": "",
+    "version_raw": "https://github.com/XDSEC/WebSocketReflectorX/releases/download/0.5.15/WebSocketReflectorX-0.5.15-linux-gnu-x86_64.AppImage",
     "description": "Controlled TCP-over-WebSocket forwarding tunnel"
   },
   {
@@ -22012,7 +22020,7 @@
     "site": "wtfutil/wtf",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wtfutil",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wtfutil",
-    "version_raw": "",
+    "version_raw": "https://github.com/wtfutil/wtf/releases/download/v0.48.0/wtf_0.48.0_linux_amd64.tar.gz",
     "description": "The personal information dashboard for your terminal"
   },
   {
@@ -22020,7 +22028,7 @@
     "site": "ttytm/wthrr-the-weathercrab",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wthrr",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wthrr",
-    "version_raw": "",
+    "version_raw": "https://github.com/ttytm/wthrr-the-weathercrab/releases/download/nightly/wthrr-linux-x86_64.AppImage",
     "description": "Weather companion for the terminal"
   },
   {
@@ -22036,7 +22044,7 @@
     "site": "VinnyVynce/wxMEdit.AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wxmedit",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wxmedit",
-    "version_raw": "",
+    "version_raw": "https://github.com/alotlikebeans/wxMEdit.AppImage/releases/download/3.1_FIX1-2/wxMEdit-3.1_FIX1-2.AppImage",
     "description": "A cross-platform Text/Hex Editor, an improved version of MadEdit"
   },
   {
@@ -22044,7 +22052,7 @@
     "site": "bguyl/x-loc",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/x-loc",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/x-loc",
-    "version_raw": "",
+    "version_raw": "https://github.com/bguyl/x-loc/releases/download/v1.3.5/x-loc-1.3.5-x86_64.AppImage",
     "description": "Extra localizations/translations manager for Stardew Valley"
   },
   {
@@ -22060,7 +22068,7 @@
     "site": "xiaoxigua-1/XPixiv",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/x-pixiv",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/x-pixiv",
-    "version_raw": "",
+    "version_raw": "https://github.com/xiaoxigua-1/XPixiv/releases/download/v.1.0.1/x-pixiv-1.0.1-x86_64-unknown-linux-gnu.tar.gz",
     "description": "CLI, pixiv downloader"
   },
   {
@@ -22068,7 +22076,7 @@
     "site": "horsicq/XAPKDetector",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xapkdetector",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xapkdetector",
-    "version_raw": "",
+    "version_raw": "https://github.com/horsicq/XAPKDetector/releases/download/0.03/XAPKDetector-0.03-x86_64.AppImage",
     "description": "APK/DEX detector that shows an information about build tools, libraries and protection of APK/DEX files"
   },
   {
@@ -22076,7 +22084,7 @@
     "site": "gaozhangmin/aliyunpan",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xbydriver",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xbydriver",
-    "version_raw": "",
+    "version_raw": "https://github.com/gaozhangmin/aliyunpan/releases/download/v3.13.5/XBYDriver-3.13.5-linux-x86_64.AppImage",
     "description": "Xiaobaiyang Cloud Drive - Powered by Alibaba Cloud Drive"
   },
   {
@@ -22084,7 +22092,7 @@
     "site": "probonopd/XChat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xchat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xchat",
-    "version_raw": "",
+    "version_raw": "https://github.com/probonopd/XChat/releases/download/continuous/XChat_IRC-5d0dbe1-x86_64.AppImage",
     "description": "Chat with other people using Internet Relay Chat"
   },
   {
@@ -22092,7 +22100,7 @@
     "site": "AAGaming00/xcloud-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xcloud-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xcloud-desktop",
-    "version_raw": "",
+    "version_raw": "https://github.com/AAGaming00/xcloud-desktop/releases/download/v1.0.9/XCloud-1.0.9.AppImage",
     "description": "An unoffical desktop app for the XCloud web beta"
   },
   {
@@ -22108,7 +22116,7 @@
     "site": "dan0v/xdelta3-cross-gui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xdelta3-cross-gui",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xdelta3-cross-gui",
-    "version_raw": "",
+    "version_raw": "https://github.com/dan0v/xdelta3-cross-gui/releases/download/1.7.1/xdelta3-cross-gui_linux_AppImage_x86_64.tar.gz",
     "description": "A cross-platform GUI for creating xDelta3 patches"
   },
   {
@@ -22124,7 +22132,7 @@
     "site": "horsicq/XELFViewer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xelfviewer",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xelfviewer",
-    "version_raw": "",
+    "version_raw": "https://github.com/horsicq/XELFViewer/releases/download/Beta/XELFViewer-0.06-x86_64.AppImage",
     "description": "A multiplatform ELF file viewer/editor"
   },
   {
@@ -22132,7 +22140,7 @@
     "site": "xemu-project/xemu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xemu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xemu",
-    "version_raw": "",
+    "version_raw": "https://github.com/xemu-project/xemu/releases/download/pre-release/xemu-0.8.133-47-g390458c9ac-x86_64.AppImage",
     "description": "Original Xbox Emulator"
   },
   {
@@ -22140,7 +22148,7 @@
     "site": "pkgforge-dev/xenia-canary-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xenia-canary",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xenia-canary",
-    "version_raw": "",
+    "version_raw": "https://github.com/pkgforge-dev/xenia-canary-AppImage/releases/download/ef65c67%402026-02-08_1770536282/Xenia_Canary-ef65c67-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of xenia-canary Xbox360 emulator"
   },
   {
@@ -22156,7 +22164,7 @@
     "site": "xgetter-team/xgetter",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xgetter",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xgetter",
-    "version_raw": "",
+    "version_raw": "https://github.com/xgetter-team/xgetter/releases/download/1.6.2/x-getter_1.6.2_amd64.AppImage",
     "description": "Download video on Youtube, Facebook, X(Twitter), Instagram, Tiktok, Bilibili, Douyin and more"
   },
   {
@@ -22164,7 +22172,7 @@
     "site": "XilinJia/Xilinota",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xilinota",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xilinota",
-    "version_raw": "",
+    "version_raw": "https://github.com/XilinJia/Xilinota/releases/download/v2.15.1/Xilinota-2.15.1.AppImage",
     "description": "Note-taking app boasting instant syncing among devices and direct keeping of markdown files"
   },
   {
@@ -22172,7 +22180,7 @@
     "site": "JacobDev1/xl-converter",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xl-converter",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xl-converter",
-    "version_raw": "",
+    "version_raw": "https://github.com/JacobDev1/xl-converter/releases/download/v1.2.3/xl-converter-linux-1.2.3-x86_64.AppImage",
     "description": "Powerful image converter with support for multithreading"
   },
   {
@@ -22228,7 +22236,7 @@
     "site": "xonsh/xonsh",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xonsh",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xonsh",
-    "version_raw": "",
+    "version_raw": "https://github.com/xonsh/xonsh/releases/download/0.22.3/xonsh-x86_64.AppImage",
     "description": "Python-powered, cross-platform, Unix-gazing shell"
   },
   {
@@ -22236,7 +22244,7 @@
     "site": "horsicq/XOpcodeCalc",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xopcodecalc",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xopcodecalc",
-    "version_raw": "",
+    "version_raw": "https://github.com/horsicq/XOpcodeCalc/releases/download/0.05/XOpcodeCalc-0.05-x86_64.AppImage",
     "description": "Opcode calculator / ASM calculator"
   },
   {
@@ -22252,7 +22260,7 @@
     "site": "xournalpp/xournalpp",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xournal++",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xournal++",
-    "version_raw": "",
+    "version_raw": "https://github.com/xournalpp/xournalpp/releases/download/v1.3.2/xournalpp-1.3.2-x86_64.AppImage",
     "description": "A C++ handwriting notetaking software with PDF annotation support"
   },
   {
@@ -22260,7 +22268,7 @@
     "site": "xournalpp/xournalpp",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xournal++nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xournal++nightly",
-    "version_raw": "",
+    "version_raw": "https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-1.3.2%2Bdev-nightly-20260207-x86_64.AppImage",
     "description": "C++ notetaking software with PDF annotation support, DEV"
   },
   {
@@ -22268,7 +22276,7 @@
     "site": "horsicq/XPEViewer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xpeviewer",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xpeviewer",
-    "version_raw": "",
+    "version_raw": "https://github.com/horsicq/XPEViewer/releases/download/0.05/XPEViewer-0.05-x86_64.AppImage",
     "description": "PE file viewer/editor"
   },
   {
@@ -22276,7 +22284,7 @@
     "site": "xpipe-io/xpipe",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xpipe",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xpipe",
-    "version_raw": "",
+    "version_raw": "https://github.com/xpipe-io/xpipe/releases/download/20.3/xpipe-portable-linux-x86_64.AppImage",
     "description": "Your entire server infrastructure at your fingertips. Manage all your servers from your local desktop. No remote setup required"
   },
   {
@@ -22308,7 +22316,7 @@
     "site": "xtool-org/xtool",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xtool",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xtool",
-    "version_raw": "",
+    "version_raw": "https://github.com/xtool-org/xtool/releases/download/1.16.1/xtool-x86_64.AppImage",
     "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM"
   },
   {
@@ -22316,7 +22324,7 @@
     "site": "chientrm/xtuber",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xtuber",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xtuber",
-    "version_raw": "",
+    "version_raw": "https://github.com/chientrm/xtuber/releases/download/1.3.4/x-tuber_1.3.4_amd64.AppImage",
     "description": "Simple YouTube Downloader"
   },
   {
@@ -22324,7 +22332,7 @@
     "site": "xxh/xxh",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xxh",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xxh",
-    "version_raw": "",
+    "version_raw": "https://github.com/xxh/xxh/releases/download/0.8.14/xxh-x86_64.AppImage",
     "description": "Bring your favorite shell wherever you go through the ssh"
   },
   {
@@ -22332,7 +22340,7 @@
     "site": "NyanCAD/Xyce-build",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xyce",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xyce",
-    "version_raw": "",
+    "version_raw": "https://github.com/NyanCAD/Xyce-build/releases/download/v7.10.1/Xyce-1.0.0-x86_64.AppImage",
     "description": "Xyce Parallel Electronic Simulator"
   },
   {
@@ -22364,7 +22372,7 @@
     "site": "yaklang/yakit",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yakit",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yakit",
-    "version_raw": "",
+    "version_raw": "https://github.com/yaklang/yakit/releases/download/v1.4.6-0206/Yakit-1.4.6-0206-linux-amd64.AppImage",
     "description": "Cyber Security ALL-IN-ONE Platform"
   },
   {
@@ -22380,7 +22388,7 @@
     "site": "MillenniumEarl/YAM",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yam",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yam",
-    "version_raw": "",
+    "version_raw": "https://github.com/MillenniumEarl/YAM/releases/download/v2.6.3/YAM-2.6.3.AppImage",
     "description": "Unofficial Game Updater for the F95Zone platform"
   },
   {
@@ -22412,7 +22420,7 @@
     "site": "ivan-hc/Yandex-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yandex-browser-corporate",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yandex-browser-corporate",
-    "version_raw": "",
+    "version_raw": "https://github.com/ivan-hc/Yandex-Browser-appimage/releases/download/continuous/Yandex-Browser-corporate-25.12.1.1303-1-x86_64.AppImage",
     "description": "Unofficial Yandex Browser AppImage, Corporate"
   },
   {
@@ -22420,7 +22428,7 @@
     "site": "mysteryx93/HanumanInstituteApps",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yangdownloader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yangdownloader",
-    "version_raw": "",
+    "version_raw": "https://github.com/mysteryx93/HanumanInstituteApps/releases/download/v3.3.2/Converter432Hz-3.3.2_Linux_x64.AppImage",
     "description": "Downloads best-quality audio and video from YouTube"
   },
   {
@@ -22428,7 +22436,7 @@
     "site": "purocean/yn",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yank-note",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yank-note",
-    "version_raw": "",
+    "version_raw": "https://github.com/purocean/yn/releases/download/v3.87.1/Yank-Note-linux-x86_64-3.87.1.AppImage",
     "description": "A Hackable Markdown Note Application for Programmers"
   },
   {
@@ -22436,7 +22444,7 @@
     "site": "trixon/yaya",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yaya",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yaya",
-    "version_raw": "",
+    "version_raw": "https://github.com/trixon/yaya/releases/download/v25.09/Yaya-25.09-x86_64.AppImage",
     "description": "Yet Another Yahtzee-esque Application"
   },
   {
@@ -22452,7 +22460,7 @@
     "site": "qier222/YesPlayMusic",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yesplaymusic",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yesplaymusic",
-    "version_raw": "",
+    "version_raw": "https://github.com/qier222/YesPlayMusic/releases/download/v0.4.10/YesPlayMusic-0.4.10.AppImage",
     "description": "A third party music player for Netease Music"
   },
   {
@@ -22468,7 +22476,7 @@
     "site": "binary-blazer/ym-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ym-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ym-desktop",
-    "version_raw": "",
+    "version_raw": "https://github.com/builtbyjonas/ym-desktop/releases/download/v1.5.0/Youtube-Music-Desktop-1.5.0.AppImage",
     "description": "The YouTube music desktop app"
   },
   {
@@ -22476,7 +22484,7 @@
     "site": "StrikerX3/Ymir",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ymir",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ymir",
-    "version_raw": "",
+    "version_raw": "https://github.com/StrikerX3/Ymir/releases/download/v0.2.1/ymir-linux-x86_64-AVX2-v0.2.1.tar.xz",
     "description": "Sega Saturn emulator"
   },
   {
@@ -22484,7 +22492,7 @@
     "site": "StrikerX3/Ymir",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ymir-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ymir-nightly",
-    "version_raw": "",
+    "version_raw": "https://github.com/StrikerX3/Ymir/releases/download/latest-nightly/ymir-linux-x86_64-AVX2-v0.3.0-dev_708eddc0.tar.xz",
     "description": "Sega Saturn emulator (Nightly builds)"
   },
   {
@@ -22492,7 +22500,7 @@
     "site": "uiYzzi/yolx",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yolx",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yolx",
-    "version_raw": "",
+    "version_raw": "https://github.com/uiYzzi/yolx/releases/download/0.3.9%2B1/yolx-linux-0.3.9%2B1.AppImage",
     "description": "A modern download tool developed with Flutter, powered by Aria 2 at its core"
   },
   {
@@ -22500,7 +22508,7 @@
     "site": "YouTubeDownload/YouTubeDownload",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/youtube-download",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/youtube-download",
-    "version_raw": "",
+    "version_raw": "https://github.com/YouTubeDownload/YouTubeDownload/releases/download/v2.2/YouTubeDownload-linux",
     "description": "GUI and CLI for downloading YouTube video/audio"
   },
   {
@@ -22508,7 +22516,7 @@
     "site": "AnthonyGress/Youtube-Downloader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/youtube-downloader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/youtube-downloader",
-    "version_raw": "",
+    "version_raw": "https://github.com/AnthonyGress/Youtube-Downloader/releases/download/v1.2.4/Youtube-Downloader-1.2.4.AppImage",
     "description": "Download video/audio from youtube (and instagram) videos"
   },
   {
@@ -22516,7 +22524,7 @@
     "site": "th-ch/youtube-music",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/youtube-music",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/youtube-music",
-    "version_raw": "",
+    "version_raw": "https://github.com/pear-devs/pear-desktop/releases/download/v3.11.0/YouTube-Music-3.11.0.AppImage",
     "description": "Unofficial. Amazing electron wrapper for YouTube Music featuring plugins"
   },
   {
@@ -22524,7 +22532,7 @@
     "site": "Siriusmart/youtube-tui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/youtube-tui",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/youtube-tui",
-    "version_raw": "",
+    "version_raw": "https://github.com/Siriusmart/youtube-tui/releases/download/v0.9.3/youtube-tui-full_arch-x86_64",
     "description": "An aesthetically pleasing YouTube TUI CLI written in Rust"
   },
   {
@@ -22532,7 +22540,7 @@
     "site": "claudemods/YoutubeAndDownloader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/youtubeanddownloader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/youtubeanddownloader",
-    "version_raw": "",
+    "version_raw": "https://github.com/claudemods/YoutubeAndDownloader/releases/download/v1.02/youtube_appimage-x86_64.AppImage",
     "description": "An app to use youtube and download videos as mp3s or mp4s"
   },
   {
@@ -22540,7 +22548,7 @@
     "site": "Lateralus138/YouTubeSearchFilter",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/youtubesearchfilter",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/youtubesearchfilter",
-    "version_raw": "",
+    "version_raw": "https://github.com/Lateralus138/YouTubeSearchFilter/releases/download/Continuous/ytsf-x86_64.AppImage",
     "description": "YouTube searches with/without a pre-filter from CLI"
   },
   {
@@ -22596,7 +22604,7 @@
     "site": "ytmdesktop/ytmdesktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ytmdesktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ytmdesktop",
-    "version_raw": "",
+    "version_raw": "https://github.com/ytmdesktop/ytmdesktop/releases/download/1.14.1/YouTube.Music.Desktop.App-1.14.1_Nightly.AppImage",
     "description": "A Desktop App for YouTube Music"
   },
   {
@@ -22604,7 +22612,7 @@
     "site": "Venipa/ytmdesktop2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ytmdesktop2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ytmdesktop2",
-    "version_raw": "",
+    "version_raw": "https://github.com/Venipa/ytmdesktop2/releases/download/v0.17.13/YouTube-Music-for-Desktop-0.17.13.AppImage",
     "description": "Unofficial Youtube Music Desktop App, with LastFM support"
   },
   {
@@ -22612,7 +22620,7 @@
     "site": "iambpn/YTS-Streaming",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yts-streaming",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yts-streaming",
-    "version_raw": "",
+    "version_raw": "https://github.com/iambpn/YTS-Streaming/releases/download/4.0.1/yts-streaming-4.0.0.AppImage",
     "description": "Stream or play yts and torrent movies"
   },
   {
@@ -22628,7 +22636,7 @@
     "site": "ericm/yup",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yup",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yup",
-    "version_raw": "",
+    "version_raw": "https://github.com/ericm/yup/releases/download/v1.1.8/yup",
     "description": "Arch Linux AUR Helper with ncurses functionality and better searching and sorting"
   },
   {
@@ -22652,7 +22660,7 @@
     "site": "LN-Zap/zap-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zapdesktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zapdesktop",
-    "version_raw": "",
+    "version_raw": "https://github.com/LN-Zap/zap-desktop/releases/download/v0.7.7-beta/Zap-linux-x86_64-v0.7.7-beta.AppImage",
     "description": "Desktop application for the lightning network"
   },
   {
@@ -22676,7 +22684,7 @@
     "site": "konradmb/zegarek",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zegarek",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zegarek",
-    "version_raw": "",
+    "version_raw": "https://github.com/konradmb/zegarek/releases/download/v0.4.5/Zegarek-0.4.5-x86_64.AppImage",
     "description": "A simple clock with millisecond resolution"
   },
   {
@@ -22764,7 +22772,7 @@
     "site": "zk-org/zk",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zk",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zk",
-    "version_raw": "",
+    "version_raw": "https://github.com/zk-org/zk/releases/download/v0.15.2/zk-v0.15.2-linux-amd64.tar.gz",
     "description": "A plain text note-taking assistant"
   },
   {
@@ -22780,7 +22788,7 @@
     "site": "ZoneMinder/zmNinja",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zmninja",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zmninja",
-    "version_raw": "",
+    "version_raw": "https://github.com/ZoneMinder/zmNinja/releases/download/v1.8.000/zmninja-1.8.0-linux-x86_64.AppImage",
     "description": "Ionic app for Home/Commerical Security Surveillance"
   },
   {
