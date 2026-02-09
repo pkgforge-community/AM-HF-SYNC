@@ -732,7 +732,7 @@
     "site": "anyproto/anytype-ts",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anytype",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anytype",
-    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.53.39-alpha/Anytype-0.53.39-alpha.AppImage",
+    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.53.41-alpha/Anytype-0.53.41-alpha.AppImage",
     "description": "The everything app for those who celebrate trust & autonomy"
   },
   {
@@ -3132,7 +3132,7 @@
     "site": "pkgforge-dev/Citron-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/citron-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/citron-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/Citron-AppImage/releases/download/nightly/Citron-29fcea053-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Citron-AppImage/releases/download/nightly/Citron-b04f92eda-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of Citron (fork of yuzu), with optimized builds for modern cpus (nightly builds)"
   },
   {
@@ -3180,7 +3180,7 @@
     "site": "libnyanpasu/clash-nyanpasu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clash-nyanpasu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/clash-nyanpasu",
-    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha%2B3cd68a1_amd64.AppImage",
+    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/v1.6.1/clash-nyanpasu_1.6.1_amd64.AppImage",
     "description": "A Clash GUI based on tauri"
   },
   {
@@ -3404,7 +3404,7 @@
     "site": "pkgforge-dev/Collision-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/collision",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/collision",
-    "version_raw": "https://github.com/pkgforge-dev/Collision-AppImage/releases/download/3.11.0-1%402026-02-07_1770465281/Collision-3.11.0-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Collision-AppImage/releases/download/3.11.0-1%402026-02-09_1770626584/Collision-3.11.0-1-anylinux-x86_64.AppImage",
     "description": "Unofficial. Verify the checksum/hash validity of files"
   },
   {
@@ -4652,7 +4652,7 @@
     "site": "rallep71/dinox",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dinox",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dinox",
-    "version_raw": "https://github.com/rallep71/dinox/releases/download/v0.9.8.8/DinoX-0.9.8.8-x86_64.AppImage",
+    "version_raw": "https://github.com/rallep71/dinox/releases/download/v0.9.8.9/DinoX-0.9.8.9-x86_64.AppImage",
     "description": "DinoX - Modern XMPP Chat Client with Video Calls, Voice Messages & OMEMO Encryption"
   },
   {
@@ -4892,7 +4892,7 @@
     "site": "drawpile/Drawpile",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/drawpile",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/drawpile",
-    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.3.0-133-gb26a9f70a-x86_64.AppImage",
+    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.3.0-136-g8e85febb1-x86_64.AppImage",
     "description": "Drawing program to sketch on the same canvas simultaneously"
   },
   {
@@ -5169,11 +5169,11 @@
   },
   {
     "pkg": "eden-nightly",
-    "site": "pflyly/eden-nightly",
+    "site": "Eden-CI/Nightly",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eden-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eden-nightly",
-    "version_raw": "https://github.com/pflyly/eden-nightly/releases/download/2026-01-30-28262/Eden-28262-Common-Normal-x86_64.AppImage",
-    "description": "Unofficial, an experimental open-source emulator for Nintendo Switch (yuzu fork, nightly builds)"
+    "version_raw": "https://github.com/Eden-CI/Nightly/releases/download/v1770575137.e544cb3cf6/Eden-Linux-e544cb3cf6-amd64-clang-pgo.AppImage",
+    "description": "An experimental open-source emulator for Nintendo Switch (yuzu fork, nightly builds)"
   },
   {
     "pkg": "edex-ui",
@@ -5820,7 +5820,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.2.4.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -6940,7 +6940,7 @@
     "site": "pkgforge-dev/Fretboard-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fretboard",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fretboard",
-    "version_raw": "https://github.com/pkgforge-dev/Fretboard-AppImage/releases/download/9.1-2%402026-02-07_1770464684/Fretboard-9.1-2-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Fretboard-AppImage/releases/download/9.1-2%402026-02-09_1770627014/Fretboard-9.1-2-anylinux-x86_64.AppImage",
     "description": "Unofficial. Application which helps you find your favorite guitar chord"
   },
   {
@@ -9988,7 +9988,7 @@
     "site": "pkgforge-dev/Keypunch-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/keypunch",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/keypunch",
-    "version_raw": "https://github.com/pkgforge-dev/Keypunch-AppImage/releases/download/6.2.r18.gd05913a-1%402026-02-07_1770462544/Keypunch-6.2.r18.gd05913a-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Keypunch-AppImage/releases/download/6.2.r18.gd05913a-1%402026-02-09_1770626931/Keypunch-6.2.r18.gd05913a-1-anylinux-x86_64.AppImage",
     "description": "Unofficial, keyboard writing speed test application.　"
   },
   {
@@ -17068,7 +17068,7 @@
     "site": "martinrotter/rssguard",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rssguard",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rssguard",
-    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-2e700a523-qt5-linux64.AppImage",
+    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-1f5e6a0ae-qt5-linux64.AppImage",
     "description": "Feed reader which supports RSS/ATOM/JSON, no-webengine version"
   },
   {
@@ -17740,7 +17740,7 @@
     "site": "shadps4-emu/shadps4-qtlauncher",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4-qtlauncher",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4-qtlauncher",
-    "version_raw": "https://github.com/shadps4-emu/shadps4-qtlauncher/releases/download/shadPS4QtLauncher-2026-02-08-2f10920dc0e24a6861827c0655fa51d33495d0cb/shadPS4QtLauncher-linux-qt-2026-02-08-2f10920.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadps4-qtlauncher/releases/download/shadPS4QtLauncher-2026-02-09-9d93c5728c5659e678ee10385282b947912535a6/shadPS4QtLauncher-linux-qt-2026-02-09-9d93c57.zip",
     "description": "The official Qt launcher for shadps4 PlayStation 4 emulator"
   },
   {
@@ -19148,7 +19148,7 @@
     "site": "LizardByte/Sunshine",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sunshine",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sunshine",
-    "version_raw": "https://github.com/LizardByte/Sunshine/releases/download/v2026.208.203040/sunshine.AppImage",
+    "version_raw": "https://github.com/LizardByte/Sunshine/releases/download/v2026.209.34151/sunshine.AppImage",
     "description": "Sunshine is a Gamestream host for Moonlight"
   },
   {
@@ -21596,7 +21596,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6415477347",
+    "version_raw": "6418813992",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
