@@ -396,7 +396,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.273/alma-0.0.273-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.274/alma-0.0.274-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -3212,7 +3212,7 @@
     "site": "pkgforge-dev/ClassiCube-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/classicube",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/classicube",
-    "version_raw": "https://github.com/pkgforge-dev/ClassiCube-AppImage/releases/download/cfa7b93f3%402026-02-04_1770205362/ClassiCube-cfa7b93f3-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ClassiCube-AppImage/releases/download/b6dc96b52%402026-02-10_1770737267/ClassiCube-b6dc96b52-anylinux-x86_64.AppImage",
     "description": "Unofficial, Custom Minecraft Classic / ClassiCube client written in C from scratch"
   },
   {
@@ -5828,7 +5828,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.2.4.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -8648,6 +8648,14 @@
     "description": "HTTPie for Desktop"
   },
   {
+    "pkg": "httptoolkit",
+    "site": "httptoolkit/httptoolkit-desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/httptoolkit",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/httptoolkit",
+    "version_raw": "https://github.com/httptoolkit/httptoolkit-desktop/releases/download/v1.24.4/HttpToolkit-1.24.4-x64.AppImage",
+    "description": "HTTP Toolkit is an open-source tool for debugging, testing and building with HTTP"
+  },
+  {
     "pkg": "hugin",
     "site": "aferrero2707/hugin-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hugin",
@@ -10564,7 +10572,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -11668,7 +11676,7 @@
     "site": "Materialious/Materialious",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/materialious",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/materialious",
-    "version_raw": "https://github.com/Materialious/Materialious/releases/download/1.13.16/Materialious-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/Materialious/Materialious/releases/download/1.13.17/Materialious-linux-x86_64.AppImage",
     "description": "Modern material design for Invidious"
   },
   {
@@ -18628,7 +18636,7 @@
     "site": "aome510/spotify-player",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/spotify-player",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/spotify-player",
-    "version_raw": "https://github.com/aome510/spotify-player/releases/download/v0.22.0/spotify_player-aarch64-unknown-linux-gnu.tar.gz",
+    "version_raw": "https://github.com/aome510/spotify-player/releases/download/v0.22.1/spotify_player-aarch64-unknown-linux-gnu.tar.gz",
     "description": "A Spotify player in the terminal with full feature parity"
   },
   {
@@ -21604,7 +21612,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6461987995",
+    "version_raw": "6466392353",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -22164,7 +22172,7 @@
     "site": "has207/xenia-edge",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xenia-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xenia-edge",
-    "version_raw": "https://github.com/has207/xenia-edge/releases/download/5362f09/xenia_edge_linux.AppImage",
+    "version_raw": "https://github.com/has207/xenia-edge/releases/download/b75ac29/xenia_edge_linux.AppImage",
     "description": "Xbox 360 Emulator Research Project, fork of the Xenia emulator, with the aim of quicker iteration and improvements to Vulkan backend"
   },
   {
