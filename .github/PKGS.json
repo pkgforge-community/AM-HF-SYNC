@@ -732,7 +732,7 @@
     "site": "anyproto/anytype-ts",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anytype",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anytype",
-    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.53.45-beta/Anytype-0.53.45-beta.AppImage",
+    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.53.46-alpha/Anytype-0.53.46-alpha.AppImage",
     "description": "The everything app for those who celebrate trust & autonomy"
   },
   {
@@ -2300,7 +2300,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave-beta",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260209-205656/Brave-Web-Browser-beta-1.88.103-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260210-210246/Brave-Web-Browser-beta-1.88.104-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the beta release"
   },
   {
@@ -2308,7 +2308,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave-nightly",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260209-205656/Brave-Web-Browser-nightly-1.89.14-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260210-210246/Brave-Web-Browser-nightly-1.89.19-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the nightly release"
   },
   {
@@ -3329,10 +3329,10 @@
   },
   {
     "pkg": "cmux",
-    "site": "manaflow-ai/cmux",
+    "site": "manaflow-ai/manaflow",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cmux",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cmux",
-    "version_raw": "",
+    "version_raw": "https://github.com/manaflow-ai/manaflow/releases/download/v1.0.263/cmux-1.0.263.AppImage",
     "description": "Cmux/ManaflowX is an X feed for coding agents that lets you run + compare Claude Code, Codex CLI, Amp, Gemini CLI, Cursor CLI, Opencode, and other coding agent CLIs in parallel across multiple tasks"
   },
   {
@@ -4660,7 +4660,7 @@
     "site": "rallep71/dinox",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dinox",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dinox",
-    "version_raw": "https://github.com/rallep71/dinox/releases/download/v0.9.9.2/DinoX-0.9.9.2-x86_64.AppImage",
+    "version_raw": "https://github.com/rallep71/dinox/releases/download/v0.9.9.3/DinoX-0.9.9.3-x86_64.AppImage",
     "description": "DinoX - Modern XMPP Chat Client with Video Calls, Voice Messages & OMEMO Encryption"
   },
   {
@@ -6932,7 +6932,7 @@
     "site": "sinelaw/fresh",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fresh",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fresh",
-    "version_raw": "https://github.com/sinelaw/fresh/releases/download/v0.2.1/fresh-editor-0.2.1-x86_64.AppImage",
+    "version_raw": "https://github.com/sinelaw/fresh/releases/download/v0.2.2/fresh-editor-0.2.2-x86_64.AppImage",
     "description": "Text editor for your terminal: easy, powerful and fast"
   },
   {
@@ -10572,7 +10572,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -14068,7 +14068,7 @@
     "site": "ivan-hc/Opera-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/opera",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/opera",
-    "version_raw": "https://github.com/ivan-hc/Opera-appimage/releases/download/continuous/Opera-Web-Browser-stable-127.0.5778.14-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Opera-appimage/releases/download/continuous/Opera-Web-Browser-stable-127.0.5778.45-x86_64.AppImage",
     "description": "Unofficial. Fast and secure web browser, Stable version"
   },
   {
@@ -14588,7 +14588,7 @@
     "site": "PCSX2/pcsx2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcsx2",
-    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.112/pcsx2-v2.7.112-linux-appimage-x64-Qt.AppImage",
+    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.113/pcsx2-v2.7.113-linux-appimage-x64-Qt.AppImage",
     "description": "The Playstation 2 Emulator"
   },
   {
@@ -17748,7 +17748,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-02-09-a706b325f42e362eb1f41a527d9967a3b38ef323/shadps4-linux-sdl-2026-02-09-a706b32.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-02-10-99661aa6b3ba7da57eec720d41bca55ae631f8c0/shadps4-linux-sdl-2026-02-10-99661aa.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -21612,7 +21612,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6472091135",
+    "version_raw": "6474392076",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -22708,7 +22708,7 @@
     "site": "AdelKS/ZeGrapher",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zegrapher",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zegrapher",
-    "version_raw": "https://github.com/AdelKS/ZeGrapher/releases/download/continuous-v3.1.1-rev558/ZeGrapher-Linux-x86_64-v3.1.1-r558.AppImage",
+    "version_raw": "https://github.com/AdelKS/ZeGrapher/releases/download/continuous-v3.1.1-rev560/ZeGrapher-Linux-x86_64-v3.1.1-r560.AppImage",
     "description": "Math graphing software"
   },
   {
@@ -22836,7 +22836,7 @@
     "site": "KittyCAD/modeling-app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zoo-design-studio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zoo-design-studio",
-    "version_raw": "https://github.com/KittyCAD/modeling-app/releases/download/v1.1.10/Zoo.Design.Studio-1.1.10-x86_64-linux.AppImage",
+    "version_raw": "https://github.com/KittyCAD/modeling-app/releases/download/v1.1.11/Zoo.Design.Studio-1.1.11-x86_64-linux.AppImage",
     "description": "The Zoo Design Studio app"
   },
   {
