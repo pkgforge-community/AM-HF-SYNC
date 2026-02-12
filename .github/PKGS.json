@@ -1156,7 +1156,7 @@
     "site": "https://aspect.bildhuus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aspect",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aspect",
-    "version_raw": "",
+    "version_raw": "https://download.bildhuus.com/packages/aspect/aspect-1.0.0-rc.45-x86_64.AppImage",
     "description": "Photo organization application with support for peer-to-peer based synchronization across devices"
   },
   {
@@ -2292,7 +2292,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-stable/Brave-Web-Browser-stable-1.86.148-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-stable/Brave-Web-Browser-stable-1.87.186-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the stable release"
   },
   {
@@ -2300,7 +2300,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave-beta",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260211-205617/Brave-Web-Browser-beta-1.88.105-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260212-205340/Brave-Web-Browser-beta-1.88.106-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the beta release"
   },
   {
@@ -2308,7 +2308,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave-nightly",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260211-205617/Brave-Web-Browser-nightly-1.89.24-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260212-205340/Brave-Web-Browser-nightly-1.89.28-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the nightly release"
   },
   {
@@ -4772,7 +4772,7 @@
     "site": "dolthub/dolt-workbench",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dolt-workbench",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dolt-workbench",
-    "version_raw": "https://github.com/dolthub/dolt-workbench/releases/download/v0.3.63/Dolt-Workbench-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/dolthub/dolt-workbench/releases/download/v0.3.65/Dolt-Workbench-linux-x86_64.AppImage",
     "description": "A modern, browser-based, open source SQL workbench for your MySQL and PostgreSQL compatible database with version control features when connected to Dolt"
   },
   {
@@ -6796,7 +6796,7 @@
     "site": "66HEX/frame",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/frame",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/frame",
-    "version_raw": "https://github.com/66HEX/frame/releases/download/0.22.0/Frame_0.22.0_amd64.AppImage",
+    "version_raw": "https://github.com/66HEX/frame/releases/download/0.23.0/Frame_0.23.0_amd64.AppImage",
     "description": "Fast FFmpeg GUI"
   },
   {
@@ -10572,7 +10572,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -17084,7 +17084,7 @@
     "site": "martinrotter/rssguard",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rssguard",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rssguard",
-    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-a04b42a33-qt5-linux64.AppImage",
+    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-6c6d9bb20-qt5-linux64.AppImage",
     "description": "Feed reader which supports RSS/ATOM/JSON, no-webengine version"
   },
   {
@@ -17748,7 +17748,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-02-12-b4daf3766227a79e54caa16a21eb085f86d96a32/shadps4-linux-sdl-2026-02-12-b4daf37.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-02-12-cdafdb744326f6aea32786d8df8d56cd1673c640/shadps4-linux-sdl-2026-02-12-cdafdb7.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -20628,7 +20628,7 @@
     "site": "ungoogled-software/ungoogled-chromium-portablelinux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ungoogled-chromium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ungoogled-chromium",
-    "version_raw": "https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/144.0.7559.132-1/ungoogled-chromium-144.0.7559.132-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/145.0.7632.45-1/ungoogled-chromium-145.0.7632.45-1-x86_64.AppImage",
     "description": "Chromium Web Browser without Google services"
   },
   {
@@ -21612,7 +21612,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6536227968",
+    "version_raw": "6539658369",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
