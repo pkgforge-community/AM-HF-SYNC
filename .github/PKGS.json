@@ -1020,7 +1020,7 @@
     "site": "JustArchiNET/ArchiSteamFarm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/archisteamfarm",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/archisteamfarm",
-    "version_raw": "https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/6.3.2.3/ASF-linux-x64.zip",
+    "version_raw": "https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/6.3.3.0/ASF-linux-x64.zip",
     "description": "C# application with primary purpose of farming Steam cards from multiple accounts simultaneously"
   },
   {
@@ -1156,7 +1156,7 @@
     "site": "https://aspect.bildhuus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aspect",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aspect",
-    "version_raw": "https://download.bildhuus.com/packages/aspect/aspect-1.0.0-rc.45-x86_64.AppImage",
+    "version_raw": "",
     "description": "Photo organization application with support for peer-to-peer based synchronization across devices"
   },
   {
@@ -3980,7 +3980,7 @@
     "site": "CCDirectLink/crosscode-map-editor",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/crosscode-map-editor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/crosscode-map-editor",
-    "version_raw": "https://github.com/CCDirectLink/crosscode-map-editor/releases/download/v1.8.2/cc-map-editor-1.8.2-linux.AppImage",
+    "version_raw": "https://github.com/CCDirectLink/crosscode-map-editor/releases/download/v2.0.0/cc-map-editor-2.0.0-linux.AppImage",
     "description": "Map Editor for CrossCode"
   },
   {
@@ -4660,7 +4660,7 @@
     "site": "rallep71/dinox",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dinox",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dinox",
-    "version_raw": "https://github.com/rallep71/dinox/releases/download/v0.9.9.7/DinoX-0.9.9.7-x86_64.AppImage",
+    "version_raw": "https://github.com/rallep71/dinox/releases/download/v0.9.9.8/DinoX-0.9.9.8-x86_64.AppImage",
     "description": "DinoX - Modern XMPP Chat Client with Video Calls, Voice Messages & OMEMO Encryption"
   },
   {
@@ -5180,7 +5180,7 @@
     "site": "Eden-CI/Nightly",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eden-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eden-nightly",
-    "version_raw": "https://github.com/Eden-CI/Nightly/releases/download/v1770836125.9c685c1449/Eden-Linux-9c685c1449-amd64-clang-pgo.AppImage",
+    "version_raw": "https://github.com/Eden-CI/Nightly/releases/download/v1770922391.c263b6af6f/Eden-Linux-c263b6af6f-amd64-clang-pgo.AppImage",
     "description": "An experimental open-source emulator for Nintendo Switch (yuzu fork, nightly builds)"
   },
   {
@@ -5828,7 +5828,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.2.4.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -6372,7 +6372,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-beta-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-beta-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260211-203842/Firefox-beta-148.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260212-203509/Firefox-beta-148.0-x86_64.AppImage",
     "description": "Unofficial, AppImage of the Web Browser, Beta"
   },
   {
@@ -6380,7 +6380,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-devedition-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-devedition-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260211-203842/Firefox-devedition-148.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260212-203509/Firefox-devedition-148.0-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, Dev"
   },
   {
@@ -6388,7 +6388,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-esr-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-esr-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260211-203842/Firefox-esr-140.7.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260212-203509/Firefox-esr-140.7.0-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, ESR"
   },
   {
@@ -6396,7 +6396,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-nightly-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-nightly-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260211-203842/Firefox-nightly-149.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260212-203509/Firefox-nightly-149.0a1-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, Nightly"
   },
   {
@@ -6620,7 +6620,7 @@
     "site": "superfly/flyctl",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flyctl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/flyctl",
-    "version_raw": "https://github.com/superfly/flyctl/releases/download/v0.4.10/flyctl_0.4.10_Linux_x86_64.tar.gz",
+    "version_raw": "https://github.com/superfly/flyctl/releases/download/v0.4.11/flyctl_0.4.11_Linux_x86_64.tar.gz",
     "description": "Command line tools for fly.io services"
   },
   {
@@ -7636,7 +7636,7 @@
     "site": "https://gitlab.com/gitlab-org/cli",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/glab",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/glab",
-    "version_raw": "https://gitlab.com/gitlab-org/cli/-/releases/v1.83.0/downloads/glab_1.83.0_linux_s390x.tar.gz",
+    "version_raw": "https://gitlab.com/gitlab-org/cli/-/releases/v1.84.0/downloads/glab_1.84.0_linux_386.tar.gz",
     "description": "A GitLab CLI tool bringing GitLab to your command line"
   },
   {
@@ -9116,7 +9116,7 @@
     "site": "https://smxi.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/inxi",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/inxi",
-    "version_raw": "",
+    "version_raw": "6.1",
     "description": "A full featured CLI system information tool"
   },
   {
@@ -13532,7 +13532,7 @@
     "site": "Yakitrak/obsidian-cli",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/obsidian-cli",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/obsidian-cli",
-    "version_raw": "https://github.com/Yakitrak/obsidian-cli/releases/download/v0.2.3/obsidian-cli_0.2.3_linux_amd64.tar.gz",
+    "version_raw": "https://github.com/Yakitrak/notesmd-cli/releases/download/v0.3.0/notesmd-cli_0.3.0_linux_amd64.tar.gz",
     "description": "Interact with Obsidian in the terminal. Open, search, create, update, move and delete notes!"
   },
   {
@@ -16132,7 +16132,7 @@
     "site": "pbek/QOwnNotes",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qownnotes",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qownnotes",
-    "version_raw": "https://github.com/pbek/QOwnNotes/releases/download/v26.2.3/QOwnNotes-x86_64-Qt6-experimental.AppImage",
+    "version_raw": "https://github.com/pbek/QOwnNotes/releases/download/v26.2.4/QOwnNotes-x86_64-Qt6-experimental.AppImage",
     "description": "Plain text notepad and todo list manager"
   },
   {
@@ -16764,7 +16764,7 @@
     "site": "https://www.remnote.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/remnote",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/remnote",
-    "version_raw": "https://download2.remnote.io/remnote-desktop2/RemNote-1.23.0.AppImage",
+    "version_raw": "https://download2.remnote.io/remnote-desktop2/RemNote-1.23.2.AppImage",
     "description": "Make flashcards in your notes. Cut study time in half. Use evidence-based memory techniques to create flashcards that resurface at the best time for retention"
   },
   {
@@ -18900,7 +18900,7 @@
     "site": "laggykiller/sticker-convert",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sticker-convert",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sticker-convert",
-    "version_raw": "https://github.com/laggykiller/sticker-convert/releases/download/v2.19.2.0/sticker-convert-x86_64.AppImage",
+    "version_raw": "https://github.com/laggykiller/sticker-convert/releases/download/v2.20.0.0/sticker-convert-x86_64.AppImage",
     "description": "Convert animated stickers"
   },
   {
@@ -19940,7 +19940,7 @@
     "site": "ivan-hc/Thunderbird-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-beta-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-beta-appimage",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260211-204011/Thunderbird-beta-148.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260212-203617/Thunderbird-beta-148.0-x86_64.AppImage",
     "description": "Unofficial. Free and open source eMail client, Beta Edition"
   },
   {
@@ -19948,7 +19948,7 @@
     "site": "ivan-hc/Thunderbird-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-nightly-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-nightly-appimage",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260211-204011/Thunderbird-nightly-149.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260212-203617/Thunderbird-nightly-149.0a1-x86_64.AppImage",
     "description": "Unofficial. Free and open source eMail client, Nightly Edition"
   },
   {
@@ -20300,7 +20300,7 @@
     "site": "trezor/trezor-suite",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trezor-suite",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/trezor-suite",
-    "version_raw": "https://github.com/trezor/trezor-suite/releases/download/v26.1.2/Trezor-Suite-26.1.2-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/trezor/trezor-suite/releases/download/v26.2.1/Trezor-Suite-26.2.1-linux-x86_64.AppImage",
     "description": "Trezor Suite desktop application"
   },
   {
