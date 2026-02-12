@@ -399,7 +399,7 @@ jobs:
 
       - name: Attest Build Provenance [${{ matrix.package.host }}<==>${{ matrix.package.runner }}] (${{ env.PKG_TYPE }})
         if: env.CONTINUE_GHRUN != 'FALSE'
-        uses: actions/attest-build-provenance@v2.4.0
+        uses: actions/attest-build-provenance@v3.2.0
         with:
           subject-name: "build-logs-${{ env.AM_PKG_NAME }}-${{ env.UTC_TIME }}"
           subject-path: "/tmp/BUILD.log"
