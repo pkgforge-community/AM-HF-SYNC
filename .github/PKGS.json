@@ -396,7 +396,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.381/alma-0.0.381-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.382/alma-0.0.382-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -4660,7 +4660,7 @@
     "site": "rallep71/dinox",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dinox",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dinox",
-    "version_raw": "https://github.com/rallep71/dinox/releases/download/v0.9.9.8/DinoX-0.9.9.8-x86_64.AppImage",
+    "version_raw": "https://github.com/rallep71/dinox/releases/download/v0.9.9.9/DinoX-0.9.9.9-x86_64.AppImage",
     "description": "DinoX - Modern XMPP Chat Client with Video Calls, Voice Messages & OMEMO Encryption"
   },
   {
@@ -7636,7 +7636,7 @@
     "site": "https://gitlab.com/gitlab-org/cli",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/glab",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/glab",
-    "version_raw": "https://gitlab.com/gitlab-org/cli/-/releases/v1.84.0/downloads/glab_1.84.0_linux_386.tar.gz",
+    "version_raw": "https://gitlab.com/gitlab-org/cli/-/releases/v1.85.0/downloads/glab_1.85.0_linux_386.tar.gz",
     "description": "A GitLab CLI tool bringing GitLab to your command line"
   },
   {
@@ -17084,7 +17084,7 @@
     "site": "martinrotter/rssguard",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rssguard",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rssguard",
-    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-bd0c1c298-qt5-linux64.AppImage",
+    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-bfecaf604-qt5-linux64.AppImage",
     "description": "Feed reader which supports RSS/ATOM/JSON, no-webengine version"
   },
   {
@@ -17932,7 +17932,7 @@
     "site": "silexlabs/silex-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/silex-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/silex-desktop",
-    "version_raw": "",
+    "version_raw": "https://github.com/silexlabs/silex-desktop/releases/download/v2.7.33/silex-desktop-2.7.33.AppImage",
     "description": "This is the official Silex desktop version"
   },
   {
@@ -18588,7 +18588,7 @@
     "site": "imsyy/SPlayer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/splayer",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/splayer",
-    "version_raw": "https://github.com/imsyy/SPlayer/releases/download/v3.0.0-nightly/splayer-3.0.0-nightly.20260211.2e0c288-x86_64.AppImage",
+    "version_raw": "https://github.com/imsyy/SPlayer/releases/download/v3.0.0-nightly/splayer-3.0.0-nightly.20260213.00143bd-x86_64.AppImage",
     "description": "A simple music player that supports word-by-word lyrics, song downloads, comment section display, music cloud storage and playlist management, music spectrum analysis, and basic mobile adaptation. NetEase Cloud Music"
   },
   {
@@ -18774,6 +18774,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/starship",
     "version_raw": "https://github.com/starship/starship/releases/download/v1.24.2/starship-x86_64-unknown-linux-musl.tar.gz",
     "description": "The minimal, blazing-fast, and infinitely customizable prompt for any shell"
+  },
+  {
+    "pkg": "starship-port",
+    "site": "HarbourMasters/Starship",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/starship-port",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/starship-port",
+    "version_raw": "https://github.com/HarbourMasters/Starship/releases/download/v2.0.0/Starship-Barnard-Alfa-Linux.zip",
+    "description": "SF64 PC Port"
   },
   {
     "pkg": "stash-electron",
@@ -19924,7 +19932,7 @@
     "site": "edrlab/thorium-reader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium-reader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium-reader",
-    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.1-beta.1.21980995545.AppImage",
+    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.1-beta.1.21984697926.AppImage",
     "description": "Desktop application to read ebooks"
   },
   {
@@ -21612,7 +21620,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6553757778",
+    "version_raw": "6557418381",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -21692,7 +21700,7 @@
     "site": "gustavosett/Windows-11-Clipboard-History-For-Linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/win11-clipboard-history",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/win11-clipboard-history",
-    "version_raw": "https://github.com/gustavosett/Windows-11-Clipboard-History-For-Linux/releases/download/v0.5.3/win11-clipboard-history_0.5.3_amd64.AppImage",
+    "version_raw": "https://github.com/gustavosett/Windows-11-Clipboard-History-For-Linux/releases/download/v0.5.5/win11-clipboard-history_0.5.5_amd64.AppImage",
     "description": "A beautiful, Windows 11-style Clipboard History Manager for Linux"
   },
   {
