@@ -404,7 +404,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.408/alma-0.0.408-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.413/alma-0.0.413-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -812,7 +812,7 @@
     "site": "AppFlowy-IO/AppFlowy",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appflowy",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appflowy",
-    "version_raw": "https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.11.1/AppFlowy-0.11.1-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.11.2/AppFlowy-0.11.2-linux-x86_64.AppImage",
     "description": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative"
   },
   {
@@ -4244,7 +4244,7 @@
     "site": "darktable-org/darktable",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/darktable-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/darktable-nightly",
-    "version_raw": "",
+    "version_raw": "https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.5.0%2B317.gf178621ac1-x86_64.AppImage",
     "description": "Photography workflow app and raw developer, nightly"
   },
   {
@@ -5900,7 +5900,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.2.4.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -6196,7 +6196,7 @@
     "site": "jeffvli/feishin",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/feishin",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/feishin",
-    "version_raw": "https://github.com/jeffvli/feishin/releases/download/v1.5.0/Feishin-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/jeffvli/feishin/releases/download/v1.6.0/Feishin-linux-x86_64.AppImage",
     "description": "Sonixd Rewrite, a desktop music player"
   },
   {
@@ -6348,7 +6348,7 @@
     "site": "filebrowser/filebrowser",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/filebrowser",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/filebrowser",
-    "version_raw": "https://github.com/filebrowser/filebrowser/releases/download/v2.57.1/linux-amd64-filebrowser.tar.gz",
+    "version_raw": "https://github.com/filebrowser/filebrowser/releases/download/v2.58.0/linux-amd64-filebrowser.tar.gz",
     "description": "Web File Browser"
   },
   {
@@ -21860,7 +21860,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6578476872",
+    "version_raw": "6578784760",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -22398,6 +22398,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xelfviewer",
     "version_raw": "https://github.com/horsicq/XELFViewer/releases/download/Beta/XELFViewer-0.06-x86_64.AppImage",
     "description": "A multiplatform ELF file viewer/editor"
+  },
+  {
+    "pkg": "xemu",
+    "site": "xemu-project/xemu",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xemu",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xemu",
+    "version_raw": "https://github.com/xemu-project/xemu/releases/download/pre-release/xemu-0.8.133-48-g84897fc270-x86_64.AppImage",
+    "description": "Original Xbox Emulator"
   },
   {
     "pkg": "xenia-canary",
