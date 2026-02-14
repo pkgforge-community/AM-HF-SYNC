@@ -404,7 +404,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.403/alma-0.0.403-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.408/alma-0.0.408-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -3020,7 +3020,7 @@
     "site": "CherryHQ/cherry-studio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cherry-studio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cherry-studio",
-    "version_raw": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.7.18/Cherry-Studio-1.7.18-x86_64.AppImage",
+    "version_raw": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.7.19/Cherry-Studio-1.7.19-x86_64.AppImage",
     "description": "Agentic AI desktop with autonomous coding, intelligent automation, and unified access to frontier LLMs"
   },
   {
@@ -5900,7 +5900,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.2.4.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -11140,7 +11140,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.22_251203_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.25_260205_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -17216,6 +17216,14 @@
     "description": "Image slideshow viewer"
   },
   {
+    "pkg": "root",
+    "site": "https://www.rootapp.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/root",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/root",
+    "version_raw": "",
+    "description": "Voice, video, and chat plus powerful apps that help your community organize, grow, and thrive. An alternative to Discord"
+  },
+  {
     "pkg": "rotki",
     "site": "rotki/rotki",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rotki",
@@ -19204,7 +19212,7 @@
     "site": "https://gitlab.com/posktomten/streamcapture2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/streamcapture2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/streamcapture2",
-    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=pnPLqTRv",
+    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=ZvsqFqZmDzc",
     "description": "Download video streams"
   },
   {
@@ -19388,7 +19396,7 @@
     "site": "LizardByte/Sunshine",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sunshine",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sunshine",
-    "version_raw": "https://github.com/LizardByte/Sunshine/releases/download/v2026.213.34323/sunshine.AppImage",
+    "version_raw": "https://github.com/LizardByte/Sunshine/releases/download/v2026.214.30634/sunshine.AppImage",
     "description": "Sunshine is a Gamestream host for Moonlight"
   },
   {
@@ -21852,7 +21860,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6577574482",
+    "version_raw": "6578233954",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
