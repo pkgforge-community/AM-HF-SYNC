@@ -8504,14 +8504,6 @@
     "description": "Decentralized P2P exchange built on Monero and Tor"
   },
   {
-    "pkg": "hctl",
-    "site": "xx4h/hctl",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hctl",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hctl",
-    "version_raw": "https://github.com/xx4h/hctl/releases/download/v0.7.0/hctl_linux_x86_64.tar.gz",
-    "description": "A tool to control your Home Assistant devices from the command-line"
-  },
-  {
     "pkg": "hdrmerge",
     "site": "jcelaya/hdrmerge",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hdrmerge",
@@ -8672,14 +8664,6 @@
     "description": "The Moon-powered shell! A comfy and extensible shell for Lua fans!"
   },
   {
-    "pkg": "himalaya",
-    "site": "pimalaya/himalaya",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/himalaya",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/himalaya",
-    "version_raw": "https://github.com/pimalaya/himalaya/releases/download/v1.0.0-beta.4/himalaya.x86_64-linux.zip",
-    "description": "CLI to manage emails"
-  },
-  {
     "pkg": "hmcl",
     "site": "HMCL-dev/HMCL",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hmcl",
@@ -8798,14 +8782,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hydra",
     "version_raw": "https://github.com/hydralauncher/hydra/releases/download/v3.8.3/hydralauncher-3.8.3.AppImage",
     "description": "Game launcher with its own embedded bittorrent client"
-  },
-  {
-    "pkg": "hydrogen-music",
-    "site": "hydrogen-music/hydrogen",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hydrogen-music",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hydrogen-music",
-    "version_raw": "https://github.com/hydrogen-music/hydrogen/releases/download/1.2.6/Hydrogen-1.2.6-x86_64.AppImage",
-    "description": "The advanced drum machine"
   },
   {
     "pkg": "hyper",
@@ -8936,14 +8912,6 @@
     "description": "Unofficial. Compare images and videos with one another to check for differences"
   },
   {
-    "pkg": "idescriptor",
-    "site": "iDescriptor/iDescriptor",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/idescriptor",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/idescriptor",
-    "version_raw": "https://github.com/iDescriptor/iDescriptor/releases/download/v0.2.0/iDescriptor-v0.2.0-Linux_x86_64.AppImage.zip",
-    "description": "A free, open-source, and cross-platform iDevice management tool"
-  },
-  {
     "pkg": "igdm",
     "site": "ifedapoolarewaju/igdm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/igdm",
@@ -9048,14 +9016,6 @@
     "description": "Music Management and Playback"
   },
   {
-    "pkg": "impactor",
-    "site": "khcrysalis/Impactor",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/impactor",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/impactor",
-    "version_raw": "https://github.com/khcrysalis/Impactor/releases/download/v2.0.3/Impactor-linux-x86_64.appimage",
-    "description": "Feature rich iOS/tvOS sideloading application written in Rust. Formerly known as PlumeImpactor"
-  },
-  {
     "pkg": "implay",
     "site": "tsl0922/ImPlay",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/implay",
@@ -9078,22 +9038,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/impression",
     "version_raw": "https://github.com/pkgforge-dev/Impression-AppImage/releases/download/3.5.6-1%402026-02-01_1769936346/Impression-3.5.6-1-anylinux-x86_64.AppImage",
     "description": "Unofficial. Simple USB image writer application"
-  },
-  {
-    "pkg": "inboxer",
-    "site": "denysdovhan/inboxer",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/inboxer",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/inboxer",
-    "version_raw": "https://github.com/denysdovhan/inboxer/releases/download/v1.3.2/inboxer-1.3.2-x86_64.AppImage",
-    "description": "Simple client for Google Inbox"
-  },
-  {
-    "pkg": "infection-monkey",
-    "site": "guardicore/monkey",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/infection-monkey",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/infection-monkey",
-    "version_raw": "https://github.com/guardicore/monkey/releases/download/v2.3.0/InfectionMonkey-v2.3.0.AppImage",
-    "description": "An automated penetration test tool, security"
   },
   {
     "pkg": "infinitex",
@@ -9728,14 +9672,6 @@
     "description": "Unofficial, An ancient Chinese board game for 4 players. This script installs the full kdegames suite"
   },
   {
-    "pkg": "kalba",
-    "site": "BrewingWeasel/Kalba",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kalba",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kalba",
-    "version_raw": "https://github.com/BrewingWeasel/Kalba/releases/download/kalba-v0.3.6/Kalba_0.3.6_amd64.AppImage",
-    "description": "Sentence mining tool"
-  },
-  {
     "pkg": "kalc",
     "site": "bgkillas/kalc",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kalc",
@@ -9878,14 +9814,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kbounce",
     "version_raw": "https://github.com/ivan-hc/KDE-games-suite-appimage/releases/download/continuous/KDE-games-suite_25.08-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial, Fill the field game. This script installs the full kdegames suite"
-  },
-  {
-    "pkg": "kbreakout",
-    "site": "ivan-hc/KDE-games-suite-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kbreakout",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kbreakout",
-    "version_raw": "https://github.com/ivan-hc/KDE-games-suite-appimage/releases/download/continuous/KDE-games-suite_25.08-1-archimage5.0-x86_64.AppImage",
-    "description": "Unofficial, Destroy bricks without losing the ball. This script installs the full kdegames suite"
   },
   {
     "pkg": "kcalc",
@@ -10080,14 +10008,6 @@
     "description": "Keyboard Settings Client"
   },
   {
-    "pkg": "keycombiner",
-    "site": "https://keycombiner.com",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/keycombiner",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/keycombiner",
-    "version_raw": "https://keycombiner.com/download/KeyCombiner-0.8.0.AppImage",
-    "description": "Learn exactly the keyboard shortcuts you need"
-  },
-  {
     "pkg": "keymanager",
     "site": "keymanager/keymanager",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/keymanager",
@@ -10110,14 +10030,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/keyrier-json",
     "version_raw": "https://github.com/magoo-magoo/keyrier-json/releases/download/v1.2.1/Keyrier.JSON-1.1.38.AppImage",
     "description": "A CLI/library/webapp to perfom SQL queries on JSON & CSV"
-  },
-  {
-    "pkg": "keys",
-    "site": "keys-pub/app",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/keys",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/keys",
-    "version_raw": "https://github.com/keys-pub/app/releases/download/v0.2.4/Keys-0.2.4.AppImage",
-    "description": "Key management, signing and encryption"
   },
   {
     "pkg": "keysmith",
@@ -10232,14 +10144,6 @@
     "description": "Thinking canvas for new ideas and hard problems"
   },
   {
-    "pkg": "kiri-moto",
-    "site": "GridSpace/grid-apps",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kiri-moto",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kiri-moto",
-    "version_raw": "https://github.com/GridSpace/grid-apps/releases/download/4.6.2/KiriMoto-linux-x86_64.AppImage",
-    "description": "Browser-based Slicer for 3D Printing, CAM, Laser and mesh editor"
-  },
-  {
     "pkg": "kiriki",
     "site": "ivan-hc/KDE-games-suite-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kiriki",
@@ -10286,14 +10190,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kjumpingcube",
     "version_raw": "https://github.com/ivan-hc/KDE-games-suite-appimage/releases/download/continuous/KDE-games-suite_25.08-1-archimage5.0-x86_64.AppImage",
     "description": "A game of dices on a board. This script installs the full kdegames suite"
-  },
-  {
-    "pkg": "klickety",
-    "site": "ivan-hc/KDE-games-suite-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/klickety",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/klickety",
-    "version_raw": "https://github.com/ivan-hc/KDE-games-suite-appimage/releases/download/continuous/KDE-games-suite_25.08-1-archimage5.0-x86_64.AppImage",
-    "description": "Color matching like SameGame. This script installs the full kdegames suite"
   },
   {
     "pkg": "klines",
@@ -10408,14 +10304,6 @@
     "description": "Unofficial, Mini Golf game. This script installs the full kdegames suite"
   },
   {
-    "pkg": "kollision",
-    "site": "ivan-hc/KDE-games-suite-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kollision",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kollision",
-    "version_raw": "https://github.com/ivan-hc/KDE-games-suite-appimage/releases/download/continuous/KDE-games-suite_25.08-1-archimage5.0-x86_64.AppImage",
-    "description": "Unofficial, Dodge red balls in the field. This script installs the full kdegames suite"
-  },
-  {
     "pkg": "kondo",
     "site": "tbillington/kondo",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kondo",
@@ -10454,14 +10342,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kopia",
     "version_raw": "https://github.com/kopia/kopia/releases/download/v0.22.3/KopiaUI-0.22.3.AppImage",
     "description": "Cross-platform backup tool"
-  },
-  {
-    "pkg": "koreader",
-    "site": "koreader/koreader",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/koreader",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/koreader",
-    "version_raw": "https://github.com/koreader/koreader/releases/download/v2025.10/koreader-appimage-x86_64-v2025.10.AppImage",
-    "description": "A document viewer for E Ink devices. Supported fileformats include EPUB, PDF, DjVu, XPS, CBT, CBZ, FB2, PDB, TXT, HTML, RTF, CHM, DOC, MOBI and ZIP files. It’s available for Kindle, Kobo, PocketBook, Android and desktop Linux"
   },
   {
     "pkg": "koreader-nightly",
@@ -10668,7 +10548,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -10960,14 +10840,6 @@
     "description": "Converts web pages on-the-fly to the gemtext format"
   },
   {
-    "pkg": "lexido",
-    "site": "micr0-dev/lexido",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lexido",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lexido",
-    "version_raw": "",
-    "description": "A terminal assistant, powered by Generative AI"
-  },
-  {
     "pkg": "lf",
     "site": "gokcehan/lf",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lf",
@@ -10990,14 +10862,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/libation",
     "version_raw": "https://github.com/pkgforge-dev/Libation-AppImage/releases/download/13.1.4-1%402026-02-01_1769937037/Libation-13.1.4-1-anylinux-x86_64.AppImage",
     "description": "Unofficial, application for downloading and managing your Audible audiobooks"
-  },
-  {
-    "pkg": "libertem",
-    "site": "LiberTEM/LiberTEM",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/libertem",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/libertem",
-    "version_raw": "https://github.com/LiberTEM/LiberTEM/releases/download/continuous/LiberTEM-7110169-x86_64.AppImage",
-    "description": "Pixelated scanning transmission electron microscopy"
   },
   {
     "pkg": "librecad",
@@ -11062,14 +10926,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lightning-peach-wallet",
     "version_raw": "https://github.com/LightningPeach/peach-wallet-desktop/releases/download/v0.5.0-mainnet-beta/peach-wallet-desktop-0.5.0-mainnet-beta-x86_64.AppImage",
     "description": "Wallet for lightning network"
-  },
-  {
-    "pkg": "liground",
-    "site": "ml-research/liground",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/liground",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/liground",
-    "version_raw": "https://github.com/ml-research/liground/releases/download/0.5.1/liground-0.5.1.AppImage",
-    "description": "A mordern Chess Variant Analysis GUI, game"
   },
   {
     "pkg": "liketaskmanager",
@@ -11142,14 +10998,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
     "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.22_251203_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
-  },
-  {
-    "pkg": "linuxtoys",
-    "site": "psygreg/linuxtoys",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxtoys",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxtoys",
-    "version_raw": "https://github.com/psygreg/linuxtoys/releases/download/4.3/LinuxToys_-x86_64.AppImage",
-    "description": "A collection of tools for Linux in a user-friendly way"
   },
   {
     "pkg": "linuxwallpaper",
@@ -11270,14 +11118,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/localsend",
     "version_raw": "https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-linux-x86-64.AppImage",
     "description": "An open source cross-platform alternative to AirDrop"
-  },
-  {
-    "pkg": "lockbook-cli",
-    "site": "lockbook/lockbook",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lockbook-cli",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lockbook-cli",
-    "version_raw": "https://github.com/lockbook/lockbook/releases/download/26.2.11/lockbook-cli-linux",
-    "description": "The private, polished note-taking platform, CLI"
   },
   {
     "pkg": "lockbook-desktop",
@@ -11592,14 +11432,6 @@
     "description": "Unofficial AppImage of MAME emulator"
   },
   {
-    "pkg": "manager-io",
-    "site": "Manager-io/Manager",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/manager-io",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/manager-io",
-    "version_raw": "https://github.com/Manager-io/Manager/releases/download/26.2.13.3181/Manager-x86_64.AppImage",
-    "description": "Free Accounting Software for Linux, Server"
-  },
-  {
     "pkg": "mandelbulber2",
     "site": "buddhi1980/mandelbulber2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mandelbulber2",
@@ -11640,14 +11472,6 @@
     "description": "Free and open source application for reading manga, novels, and watching animes available"
   },
   {
-    "pkg": "mangbandclient",
-    "site": "mangband/mangband",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mangbandclient",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mangbandclient",
-    "version_raw": "https://github.com/mangband/mangband/releases/download/v1.5.3/MAngbandClient-1.5.3-x86_64.AppImage",
-    "description": "A free online multi-player realtime roguelike game"
-  },
-  {
     "pkg": "mangojuice",
     "site": "radiolamp/mangojuice",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mangojuice",
@@ -11670,14 +11494,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/manta",
     "version_raw": "https://github.com/hql287/Manta/releases/download/v1.1.4/Manta-1.1.4-x86_64.AppImage",
     "description": "Flexible invoicing app with beautiful & customizable templates"
-  },
-  {
-    "pkg": "mapeo",
-    "site": "digidem/mapeo-desktop",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mapeo",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mapeo",
-    "version_raw": "https://github.com/digidem/mapeo-desktop/releases/download/v5.6.4/Install_Mapeo_v5.6.4_linux.AppImage",
-    "description": "Local-first mapping and monitoring in remote environments"
   },
   {
     "pkg": "mapollage",
@@ -11736,14 +11552,6 @@
     "description": "Configuration tool for Marlin project"
   },
   {
-    "pkg": "martian",
-    "site": "drex44/martian",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/martian",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/martian",
-    "version_raw": "https://github.com/drex44/martian/releases/download/v0.5.2/Martian-alpha.0.5.2.AppImage",
-    "description": "Websocket testing tool"
-  },
-  {
     "pkg": "marvin",
     "site": "rolandbernard/marvin",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/marvin",
@@ -11790,14 +11598,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mathcha-notebook",
     "version_raw": "1.0.450",
     "description": "Desktop version of Mathcha, built for your privacy"
-  },
-  {
-    "pkg": "matm",
-    "site": "crolbar/matm",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/matm",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/matm",
-    "version_raw": "https://github.com/crolbar/matm/releases/download/v2.3.1/matm_x86_64-unknown-linux-gnu.tar.gz",
-    "description": "Watch anime, movies, tv shows and read manga from comfort of the cli"
   },
   {
     "pkg": "mattermost-desktop",
@@ -11976,14 +11776,6 @@
     "description": "Searches the online media libraries of various broadcasters"
   },
   {
-    "pkg": "mednafen",
-    "site": "pkgforge-dev/mednafen-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mednafen",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mednafen",
-    "version_raw": "https://github.com/pkgforge-dev/mednafen-appimage/releases/download/1.32.1%402026-02-01_1769936975/mednafen-1.32.1-anylinux-x86_64.AppImage",
-    "description": "Unofficial AppImage. Mednafen is a portable, utilizing OpenGL and SDL, argument(command-line)-driven multi-system emulator"
-  },
-  {
     "pkg": "megaglest",
     "site": "MegaGlest/megaglest-source",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/megaglest",
@@ -12152,14 +11944,6 @@
     "description": "Web Browser provided by Microsoft, Developer Edition"
   },
   {
-    "pkg": "midori",
-    "site": "goastian/midori-desktop",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/midori",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/midori",
-    "version_raw": "https://github.com/goastian/midori-desktop/releases/download/v11.5/Midori-11.5.AppImage",
-    "description": "Surf lightly, quickly and safely with Midori Web Browser"
-  },
-  {
     "pkg": "miesimulatorgui",
     "site": "VirtualPhotonics/MieSimulatorGUI",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/miesimulatorgui",
@@ -12198,14 +11982,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mindmapp",
     "version_raw": "https://github.com/cedoor/mindmapp/releases/download/v0.7.16/Mindmapp-0.7.16.AppImage",
     "description": "Electron application to draw mind maps"
-  },
-  {
-    "pkg": "mine-craft.io",
-    "site": "https://mine-craft.io",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mine-craft.io",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mine-craft.io",
-    "version_raw": "https://mine-craft.io/games/litecraft.io/apps/mine-craft.io-linux.AppImage",
-    "description": "Minecraft and even more!"
   },
   {
     "pkg": "minecraft-launcher",
@@ -12296,14 +12072,6 @@
     "description": "Matrix chat client for encrypted and decentralized communication"
   },
   {
-    "pkg": "mission-center",
-    "site": "https://missioncenter.io",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mission-center",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mission-center",
-    "version_raw": "v1.1.0",
-    "description": "Monitor your CPU, Memory, Disk, Network and GPU usage"
-  },
-  {
     "pkg": "miteiru",
     "site": "hockyy/miteiru",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/miteiru",
@@ -12366,14 +12134,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mmseqs2-search",
     "version_raw": "https://github.com/soedinglab/MMseqs2-App/releases/download/v7-8e1704f/MMseqs2-Search-1.7.0.AppImage",
     "description": "MMseqs2 app to run on your workstation or servers"
-  },
-  {
-    "pkg": "moarperf",
-    "site": "timo/moarperf",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/moarperf",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/moarperf",
-    "version_raw": "https://github.com/timo/moarperf/releases/download/untagged-0e520c445f30a5ea4aae/MoarPerf-0.1.1.glibc2.15-x86_64.AppImage",
-    "description": "Front-end for MoarVM's / Rakudo's profilers"
   },
   {
     "pkg": "mob",
@@ -12680,14 +12440,6 @@
     "description": "A Tor-based Web Browser"
   },
   {
-    "pkg": "multimc",
-    "site": "https://multimc.org/#Download",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/multimc",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/multimc",
-    "version_raw": "",
-    "description": "A Minecraft launcher"
-  },
-  {
     "pkg": "munt",
     "site": "muntorg/munt-official",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/munt",
@@ -12718,14 +12470,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/museeks",
     "version_raw": "https://github.com/martpie/museeks/releases/download/0.23.2/Museeks_0.23.2_amd64.AppImage",
     "description": "A simple, clean and cross-platform music player"
-  },
-  {
-    "pkg": "musescore",
-    "site": "musescore/MuseScore",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/musescore",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/musescore",
-    "version_raw": "https://github.com/musescore/MuseScore/releases/download/v4.6.5/MuseScore-Studio-4.6.5.253511702-x86_64.AppImage",
-    "description": "An open source and free music notation software"
   },
   {
     "pkg": "music-assistant",
@@ -12830,14 +12574,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mycrypto",
     "version_raw": "",
     "description": "MyCrypto web and electron app"
-  },
-  {
-    "pkg": "mypaint",
-    "site": "mypaint/mypaint",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mypaint",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mypaint",
-    "version_raw": "https://github.com/mypaint/mypaint/releases/download/v2.0.1/MyPaint-v2.0.1-alt.AppImage",
-    "description": "Simple drawing and painting program, graphics"
   },
   {
     "pkg": "mystiq",
@@ -13248,14 +12984,6 @@
     "description": "NMEA sentence generator utility to broadcast via TCP"
   },
   {
-    "pkg": "nnn",
-    "site": "jarun/nnn",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nnn",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nnn",
-    "version_raw": "https://github.com/jarun/nnn/releases/download/v5.2/nnn-emoji-static-5.2.x86_64.tar.gz",
-    "description": "n³ The unorthodox terminal file manager"
-  },
-  {
     "pkg": "no-fwl",
     "site": "lencx/nofwl",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/no-fwl",
@@ -13398,14 +13126,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/notes",
     "version_raw": "https://github.com/nuttyartist/notes/releases/download/v2.3.1/Notes_2.3.1-Qt5.15.2-x86_64.AppImage",
     "description": "Note-taking application, write down your thoughts"
-  },
-  {
-    "pkg": "notes-nc",
-    "site": "mscharley/notes-nc",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/notes-nc",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/notes-nc",
-    "version_raw": "https://github.com/mscharley/notes-nc/releases/download/v0.8.0/Notes-0.8.0.AppImage",
-    "description": "Cross-platform Notes desktop application for markdown notes"
   },
   {
     "pkg": "noteshrink-qt",
@@ -13608,22 +13328,6 @@
     "description": "Cross-platform open source VPN client built in Rust, with mixnet anonymity and WireGuard speed. Protects metadata, not just IP addresses. Zero-knowledge payments for unlinkable online activities"
   },
   {
-    "pkg": "nym-wallet",
-    "site": "nymtech/nym",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nym-wallet",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nym-wallet",
-    "version_raw": "https://github.com/nymtech/nym/releases/download/nym-wallet-v1.2.19/NymWallet_1.2.19_amd64.AppImage",
-    "description": "Use the Nym network and take advantage of it"
-  },
-  {
-    "pkg": "nyrna",
-    "site": "Merrit/nyrna",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nyrna",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nyrna",
-    "version_raw": "https://github.com/Merrit/nyrna/releases/download/v2.25.0/Nyrna-Linux-Portable.tar.gz",
-    "description": "Suspend games and applications"
-  },
-  {
     "pkg": "obliqoro",
     "site": "mrjackwills/obliqoro",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/obliqoro",
@@ -13792,14 +13496,6 @@
     "description": "Aggregate ChatGPT official version, Wenxin Yiyan, Poe, chatchat"
   },
   {
-    "pkg": "oneanime",
-    "site": "Predidit/oneAnime",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/oneanime",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/oneanime",
-    "version_raw": "https://github.com/Predidit/oneAnime/releases/download/1.4.4/oneAnime_linux_1.4.4.AppImage",
-    "description": "A clean, ad-free anime viewing app. A third-party client for Anime1 with subtitles and a Material You-compliant interface"
-  },
-  {
     "pkg": "onedrive-gui",
     "site": "bpozdena/OneDriveGUI",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/onedrive-gui",
@@ -13814,14 +13510,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/onefetch",
     "version_raw": "https://github.com/o2sh/onefetch/releases/download/2.26.1/onefetch-linux.tar.gz",
     "description": "Command-line Git information tool"
-  },
-  {
-    "pkg": "onekey-wallet",
-    "site": "OneKeyHQ/app-monorepo",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/onekey-wallet",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/onekey-wallet",
-    "version_raw": "https://github.com/OneKeyHQ/app-monorepo/releases/download/v6.0.0/OneKey-Wallet-6.0.0-linux-x86_64.AppImage",
-    "description": "Open source crypto wallet"
   },
   {
     "pkg": "onenote",
@@ -14184,14 +13872,6 @@
     "description": "A note and task managing application"
   },
   {
-    "pkg": "opentrons",
-    "site": "Opentrons/opentrons",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/opentrons",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/opentrons",
-    "version_raw": "https://github.com/Opentrons/opentrons/releases/download/v9.0.0-alpha.8/Opentrons-v9.0.0-alpha.8-linux-b67202.AppImage",
-    "description": "Opentrons desktop application"
-  },
-  {
     "pkg": "opentyrian2000",
     "site": "pkgforge-dev/OpenTyrian2000-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/opentyrian2000",
@@ -14472,14 +14152,6 @@
     "description": "A very functional handy database GUI and works in your pocket"
   },
   {
-    "pkg": "packetsender",
-    "site": "dannagle/PacketSender",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/packetsender",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/packetsender",
-    "version_raw": "https://github.com/dannagle/PacketSender/releases/download/v8.9.1/Packet_Sender-v8.9.1-x86_64.AppImage",
-    "description": "Network utility for sending/receiving TCP/UDP/SSL/HTTP"
-  },
-  {
     "pkg": "packsquash",
     "site": "ComunidadAylas/PackSquash",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/packsquash",
@@ -14704,14 +14376,6 @@
     "description": "Qt port of pavucontrol Pulseaudio mixer, unofficial AppImage"
   },
   {
-    "pkg": "pay-respects",
-    "site": "iffse/pay-respects",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pay-respects",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pay-respects",
-    "version_raw": "https://github.com/iffse/pay-respects/releases/download/v0.5.12/pay-respects-ubuntu-latest.zip",
-    "description": "Terminal command correction, alternative to thefuck written in Rust"
-  },
-  {
     "pkg": "pb-for-desktop",
     "site": "sidneys/pb-for-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pb-for-desktop",
@@ -14744,14 +14408,6 @@
     "description": "pCloud Drive Client, cloud service, built using electron and node.js"
   },
   {
-    "pkg": "pcsx2",
-    "site": "PCSX2/pcsx2",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx2",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcsx2",
-    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.118/pcsx2-v2.7.118-linux-appimage-x64-Qt.AppImage",
-    "description": "The Playstation 2 Emulator"
-  },
-  {
     "pkg": "pdf-diff",
     "site": "serhack/pdf-diff",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pdf-diff",
@@ -14782,14 +14438,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pdf4qt",
     "version_raw": "https://github.com/JakubMelka/PDF4QT/releases/download/v1.5.3.1/PDF4QT-1.5.3.1-x86_64.AppImage",
     "description": "Open source PDF editor"
-  },
-  {
-    "pkg": "pdfcompress",
-    "site": "moonline/Utility.PdfCompress",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pdfcompress",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pdfcompress",
-    "version_raw": "https://github.com/moonline/Utility.PdfCompress/releases/download/1.0.0/pdfcompress-1.0.0-x86_64.AppImage",
-    "description": "A utility to compress PDF documentas based on Ghostscript and YAD"
   },
   {
     "pkg": "pdfcrackgui",
@@ -17624,14 +17272,6 @@
     "description": "Scientific software package for numerical computations"
   },
   {
-    "pkg": "sciqlop",
-    "site": "SciQLop/SciQLop",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sciqlop",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sciqlop",
-    "version_raw": "https://github.com/SciQLop/SciQLop/releases/download/v0.10.4/SciQLop-x86_64-v0.10.4.AppImage",
-    "description": "SciQLop is an ergonomic and efficient application to browse and label in situ plasma measurements from multi-mission satellite data"
-  },
-  {
     "pkg": "scopy",
     "site": "analogdevicesinc/scopy",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/scopy",
@@ -17872,14 +17512,6 @@
     "description": "Game engine for Serious Sam Classic, TSE"
   },
   {
-    "pkg": "serioussamtse-vk",
-    "site": "tx00100xt/SeriousSamClassic-VK",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/serioussamtse-vk",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/serioussamtse-vk",
-    "version_raw": "https://github.com/tx00100xt/SeriousSamClassic-VK/releases/download/1.10.7/SeriousSamTSE-Vk-1.10.7-glibc-2.23-x86_64.AppImage",
-    "description": "Game engine for Serious Sam Classic, Vulkan support, TSE"
-  },
-  {
     "pkg": "servo",
     "site": "pkgforge-dev/servo-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/servo",
@@ -17918,14 +17550,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sf-tube",
     "version_raw": "https://github.com/prateekmedia/pstube/releases/download/2.6.0/pstube-linux-2.6.0-x86_64.AppImage",
     "description": "Watch and download videos without ads"
-  },
-  {
-    "pkg": "sfbrename",
-    "site": "karwler/sfbrename",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sfbrename",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sfbrename",
-    "version_raw": "https://github.com/karwler/sfbrename/releases/download/v1.0.0/sfbrename-cli-1.0.0-x86_64.AppImage",
-    "description": "Bulk file renamer"
   },
   {
     "pkg": "sfp",
@@ -18408,14 +18032,6 @@
     "description": "A fast and easy to learn BASIC language interpreter"
   },
   {
-    "pkg": "smartgit",
-    "site": "ecmu/smartgit.AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/smartgit",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/smartgit",
-    "version_raw": "https://github.com/ecmu/smartgit.AppImage/releases/download/21.2.3/SmartGit-21.2.3-x86_64.AppImage",
-    "description": "A Git-Client"
-  },
-  {
     "pkg": "smartservogui",
     "site": "emericg/SmartServoFramework",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/smartservogui",
@@ -18542,14 +18158,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/soapy-sdr",
     "version_raw": "https://github.com/mryndzionek/composable-sdr/releases/download/v0.1.0-alpha/Soapy_SDR-x86_64.AppImage",
     "description": "I/Q recorder and processor using SoapySDR as backend"
-  },
-  {
-    "pkg": "soar",
-    "site": "pkgforge/soar",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/soar",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/soar",
-    "version_raw": "https://github.com/pkgforge/soar/releases/download/v0.11.0/soar-x86_64-linux",
-    "description": "A fast, modern package manager for Static Binaries, Portable Formats, AppImage, AppBundle, FlatImage, Runimage & More"
   },
   {
     "pkg": "socnetv",
@@ -18872,14 +18480,6 @@
     "description": "Lightweight Spotify client using Qt"
   },
   {
-    "pkg": "spotify-tui",
-    "site": "Rigellute/spotify-tui",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/spotify-tui",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/spotify-tui",
-    "version_raw": "https://docs.github.com/rest",
-    "description": "Spotify for the terminal written in Rust"
-  },
-  {
     "pkg": "spotube",
     "site": "KRTirtho/spotube",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/spotube",
@@ -18958,14 +18558,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/stacer",
     "version_raw": "https://github.com/oguzhaninan/Stacer/releases/download/v1.1.0/Stacer-1.1.0-x64.AppImage",
     "description": "Linux System Optimizer and Monitoring"
-  },
-  {
-    "pkg": "stack-wallet",
-    "site": "cypherstack/stack_wallet",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/stack-wallet",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/stack-wallet",
-    "version_raw": "https://github.com/cypherstack/stack_wallet/releases/download/build_301/sw-v2.4.4-linux.AppImage",
-    "description": "Stack Wallet, a multicoin, cryptocurrency wallet"
   },
   {
     "pkg": "stackandconquer",
