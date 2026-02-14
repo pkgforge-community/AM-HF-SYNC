@@ -1996,7 +1996,7 @@
     "site": "ivan-hc/Blender-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blender-alpha",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blender-alpha",
-    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.2.0-alpha%2Bmain.04388dd27e87-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.2.0-alpha%2Bmain.f1294b477006-x86_64.AppImage",
     "description": "Very fast and versatile 3D modeller/renderer, Alpha"
   },
   {
@@ -3164,7 +3164,7 @@
     "site": "Zephyron-Dev/Citron-CI",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/citron-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/citron-nightly",
-    "version_raw": "https://github.com/Zephyron-Dev/Citron-CI/releases/download/nightly-linux/citron_nightly-8218f84aa-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/Zephyron-Dev/Citron-CI/releases/download/nightly-linux/citron_nightly-4af75b754-linux-x86_64.AppImage",
     "description": "Citron (fork of yuzu), with optimized builds for modern cpus (nightly builds)"
   },
   {
@@ -3180,7 +3180,7 @@
     "site": "mumu-lhl/Ciyue",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ciyue",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ciyue",
-    "version_raw": "https://github.com/mumu-lhl/Ciyue/releases/download/v1.21.0/Ciyue-latest-x86_64.AppImage",
+    "version_raw": "https://github.com/mumu-lhl/Ciyue/releases/download/v1.22.0-beta.1/Ciyue-latest-x86_64.AppImage",
     "description": "A simple mdict dictionary"
   },
   {
@@ -6688,6 +6688,14 @@
     "description": "The cutest instant messenger in the matrix"
   },
   {
+    "pkg": "fluxer",
+    "site": "https://fluxer.app",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fluxer",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fluxer",
+    "version_raw": "https://api.fluxer.app/dl/desktop/stable/linux/x64/fluxer-stable-0.0.8-x86_64.AppImage",
+    "description": "A free and open source instant messaging and VoIP platform built for friends, groups, and communities"
+  },
+  {
     "pkg": "flycast",
     "site": "flyinghead/flycast",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flycast",
@@ -7564,7 +7572,7 @@
     "site": "ivan-hc/GIMP-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gimp-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gimp-git",
-    "version_raw": "https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_56847.31eb0d86cfd-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_56851.761e17347dc-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial, Cross-platform image and photo editor, built from GIT"
   },
   {
@@ -7996,7 +8004,7 @@
     "site": "ivan-hc/Chrome-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/google-chrome",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/google-chrome",
-    "version_raw": "https://github.com/ivan-hc/Chrome-appimage/releases/download/continuous/Google-Chrome-stable-145.0.7632.67-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Chrome-appimage/releases/download/continuous/Google-Chrome-stable-145.0.7632.75-1-x86_64.AppImage",
     "description": "Unofficial, Web Browser, Stable version"
   },
   {
@@ -10660,7 +10668,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -12348,7 +12356,7 @@
     "site": "MUME/MMapper",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mmapper",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mmapper",
-    "version_raw": "https://github.com/MUME/MMapper/releases/download/beta/MMapper-25.07.0-109-g4ea4bf55-x86_64.AppImage",
+    "version_raw": "https://github.com/MUME/MMapper/releases/download/beta/MMapper-25.07.0-111-gaa07211e-x86_64.AppImage",
     "description": "Graphical MUD client for the game MUME"
   },
   {
@@ -13244,7 +13252,7 @@
     "site": "jarun/nnn",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nnn",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nnn",
-    "version_raw": "https://github.com/jarun/nnn/releases/download/v5.1/nnn-emoji-static-5.1.x86_64.tar.gz",
+    "version_raw": "https://github.com/jarun/nnn/releases/download/v5.2/nnn-emoji-static-5.2.x86_64.tar.gz",
     "description": "n³ The unorthodox terminal file manager"
   },
   {
@@ -16692,7 +16700,7 @@
     "site": "DEgITx/rats-search",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rats-search",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rats-search",
-    "version_raw": "https://github.com/librats/rats-search/releases/download/v2.0.16/RatsSearch-Linux-x64-v2.0.16.AppImage",
+    "version_raw": "https://github.com/librats/rats-search/releases/download/v2.0.17/RatsSearch-Linux-x64-v2.0.17.AppImage",
     "description": "P2P BitTorrent search engine"
   },
   {
@@ -20996,7 +21004,7 @@
     "site": "tonylu110/uyou-todo-electron",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uyou",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uyou",
-    "version_raw": "https://github.com/tonylu110/uyou-todo-electron/releases/download/3.1.2/uyou.ToDo-3.1.2.AppImage",
+    "version_raw": "https://github.com/tonylu110/uyou-todo-electron/releases/download/3.2.0/uyou.ToDo-3.2.0.AppImage",
     "description": "This is a todo list with electron"
   },
   {
@@ -21476,7 +21484,7 @@
     "site": "ivan-hc/VLC-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vlc-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vlc-git",
-    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r35982.gee86205-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r36007.g79fc382-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial. Free and Open Source Video & Media player, GIT version"
   },
   {
@@ -21844,7 +21852,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6575723742",
+    "version_raw": "6577574482",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -21924,7 +21932,7 @@
     "site": "gustavosett/Windows-11-Clipboard-History-For-Linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/win11-clipboard-history",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/win11-clipboard-history",
-    "version_raw": "https://github.com/gustavosett/Windows-11-Clipboard-History-For-Linux/releases/download/v0.6.0/win11-clipboard-history_0.6.0_amd64.AppImage",
+    "version_raw": "https://github.com/gustavosett/Windows-11-Clipboard-History-For-Linux/releases/download/v0.6.1/win11-clipboard-history_0.6.1_amd64.AppImage",
     "description": "A beautiful, Windows 11-style Clipboard History Manager for Linux"
   },
   {
