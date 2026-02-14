@@ -2004,7 +2004,7 @@
     "site": "ivan-hc/Blender-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blender-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blender-beta",
-    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-beta/Blender_Beta-5.1.0-beta%2Bv51.0640836baa4e-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-beta/Blender_Beta-5.1.0-beta%2Bv51.e8bdbfb8c436-x86_64.AppImage",
     "description": "Very fast and versatile 3D modeller/renderer, Beta"
   },
   {
@@ -5900,7 +5900,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.2.4.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -11140,7 +11140,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.25_260205_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.22_251203_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -11252,7 +11252,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.0-canary.202602131631/LobeHub-Canary-2.2.0-canary.202602131631.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.0-nightly.202602140618/LobeHub-Nightly-2.2.0-nightly.202602140618.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -21860,7 +21860,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6578233954",
+    "version_raw": "6578476872",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -22398,14 +22398,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xelfviewer",
     "version_raw": "https://github.com/horsicq/XELFViewer/releases/download/Beta/XELFViewer-0.06-x86_64.AppImage",
     "description": "A multiplatform ELF file viewer/editor"
-  },
-  {
-    "pkg": "xemu",
-    "site": "xemu-project/xemu",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xemu",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xemu",
-    "version_raw": "https://github.com/xemu-project/xemu/releases/download/pre-release/xemu-0.8.133-48-g84897fc270-x86_64.AppImage",
-    "description": "Original Xbox Emulator"
   },
   {
     "pkg": "xenia-canary",
