@@ -404,7 +404,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.487/alma-0.0.487-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.490/alma-0.0.490-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -2308,7 +2308,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave-beta",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260214-204031/Brave-Web-Browser-beta-1.88.108-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260215-204427/Brave-Web-Browser-beta-1.88.108-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the beta release"
   },
   {
@@ -2316,7 +2316,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave-nightly",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260214-204031/Brave-Web-Browser-nightly-1.89.39-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260215-204427/Brave-Web-Browser-nightly-1.89.39-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the nightly release"
   },
   {
@@ -7382,6 +7382,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gemget",
     "version_raw": "https://github.com/makew0rld/gemget/releases/download/v1.9.0/gemget_1.9.0_linux_64-bit",
     "description": "Command line downloader for the Gemini protocol"
+  },
+  {
+    "pkg": "gemrb",
+    "site": "https://sourceforge.net/p/gemrb",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gemrb",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gemrb",
+    "version_raw": "https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/Linux/GemRB-2026-02-13-master-6dc128baf8-x86_64.AppImage/download",
+    "description": "GemRB is a portable open-source implementation of Bioware's Infinity Engine"
   },
   {
     "pkg": "genact",
@@ -14772,7 +14780,7 @@
     "site": "PCSX2/pcsx2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcsx2",
-    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.123/pcsx2-v2.7.123-linux-appimage-x64-Qt.AppImage",
+    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.124/pcsx2-v2.7.124-linux-appimage-x64-Qt.AppImage",
     "description": "The Playstation 2 Emulator"
   },
   {
@@ -19156,7 +19164,7 @@
     "site": "laggykiller/sticker-convert",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sticker-convert",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sticker-convert",
-    "version_raw": "https://github.com/laggykiller/sticker-convert/releases/download/v2.20.1.0/sticker-convert-x86_64.AppImage",
+    "version_raw": "https://github.com/laggykiller/sticker-convert/releases/download/v2.20.0.0/sticker-convert-x86_64.AppImage",
     "description": "Convert animated stickers"
   },
   {
@@ -20188,7 +20196,7 @@
     "site": "edrlab/thorium-reader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium-reader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium-reader",
-    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.1-beta.1.22040335110.AppImage",
+    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.1-beta.1.22042639810.AppImage",
     "description": "Desktop application to read ebooks"
   },
   {
@@ -21044,7 +21052,7 @@
     "site": "UZDoom/UZDoom",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uzdoom",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uzdoom",
-    "version_raw": "https://github.com/UZDoom/UZDoom/releases/download/4.14.3/Linux-Legacy-UZDoom-4.14.3.AppImage",
+    "version_raw": "https://github.com/UZDoom/UZDoom/releases/download/nightly/Linux-Legacy-UZDoom-Nightly.AppImage",
     "description": "UZDoom is a feature centric port for all Doom engine games, based on GZDoom, adding an advanced renderer and powerful scripting capabilities"
   },
   {
@@ -21884,7 +21892,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6597451817",
+    "version_raw": "6598620120",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
