@@ -404,7 +404,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.483/alma-0.0.478-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.486/alma-0.0.486-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -8176,6 +8176,14 @@
     "description": "Unofficial, AppImage of GPU Screen Recorder"
   },
   {
+    "pkg": "gpu-t",
+    "site": "lseurttyuu/GPU-T",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gpu-t",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gpu-t",
+    "version_raw": "https://github.com/lseurttyuu/GPU-T/releases/download/v0.1.0/GPU-T-0.1.0-x86_64.AppImage",
+    "description": "A comprehensive graphics card information utility for Linux"
+  },
+  {
     "pkg": "gpupad",
     "site": "houmain/gpupad",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gpupad",
@@ -10676,7 +10684,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -14556,7 +14564,7 @@
     "site": "Portable-Linux-Apps/palemoon-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/palemoon",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/palemoon",
-    "version_raw": "https://github.com/Portable-Linux-Apps/palemoon-AppImage/releases/download/34.0.1%402026-02-08_1770568689/Pale_Moon-34.0.1-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/palemoon-AppImage/releases/download/34.0.1%402026-02-15_1771173495/Pale_Moon-34.0.1-x86_64.AppImage",
     "description": "Web browser, a Firefox fork with a classic UI and modern APIs"
   },
   {
@@ -17268,7 +17276,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-ed3d2a096c5545d9a99ab47582eaec899dbbf8f3/rpcs3-v0.0.39-18791-ed3d2a09_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-b30a44c1367635af0675f61504e1ca45263655c6/rpcs3-v0.0.39-18794-b30a44c1_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -17616,20 +17624,12 @@
     "description": "Unity Roguelike tutorial, game"
   },
   {
-    "pkg": "schilbidi-chat",
-    "site": "SchildiChat/schildichat-desktop",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/schilbidi-chat",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/schilbidi-chat",
-    "version_raw": "https://github.com/SchildiChat/schildichat-desktop/releases/download/v1.11.109-sc.0.test.0/SchildiChatAlpha-1.11.109-sc.0.test.0.AppImage",
-    "description": "Matrix client / Element Web/Desktop fork"
-  },
-  {
-    "pkg": "schildichat",
-    "site": "SchildiChat/schildichat-desktop",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/schildichat",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/schildichat",
-    "version_raw": "https://github.com/SchildiChat/schildichat-desktop/releases/download/v1.11.109-sc.0.test.0/SchildiChatAlpha-1.11.109-sc.0.test.0.AppImage",
-    "description": "A Matrix Client"
+    "pkg": "schildi-revenge",
+    "site": "SchildiChat/schildi-revenge",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/schildi-revenge",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/schildi-revenge",
+    "version_raw": "https://github.com/SchildiChat/schildi-revenge/releases/download/v26.01.26/SchildiChatRevenge-x86_64-26.01.26.AppImage",
+    "description": "Matrix client for desktop written in Kotlin and using the Matrix Rust SDK"
   },
   {
     "pkg": "school-sections",
@@ -20188,7 +20188,7 @@
     "site": "edrlab/thorium-reader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium-reader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium-reader",
-    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.1-beta.1.22037690430.AppImage",
+    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.1-beta.1.22040335110.AppImage",
     "description": "Desktop application to read ebooks"
   },
   {
@@ -21884,7 +21884,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6595653220",
+    "version_raw": "6596490523",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -23100,7 +23100,7 @@
     "site": "alagrede/znote-app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/znote",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/znote",
-    "version_raw": "https://github.com/alagrede/znote-app/releases/download/v3.6.1/znote-3.6.1.AppImage",
+    "version_raw": "https://github.com/alagrede/znote-app/releases/download/v3.6.2/znote-3.6.2.AppImage",
     "description": "A Beautiful markdown editor inspired by Jupyter"
   },
   {
