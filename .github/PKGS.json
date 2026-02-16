@@ -404,7 +404,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.513/alma-0.0.513-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.516/alma-0.0.516-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -740,7 +740,7 @@
     "site": "anyproto/anytype-ts",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anytype",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anytype",
-    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.53.51-alpha/Anytype-0.53.51-alpha.AppImage",
+    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.54.0/Anytype-0.54.0.AppImage",
     "description": "The everything app for those who celebrate trust & autonomy"
   },
   {
@@ -1124,7 +1124,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "1.0.4",
+    "version_raw": "",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -1132,7 +1132,7 @@
     "site": "artisan-roaster-scope/artisan",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artisan",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artisan",
-    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/continuous/artisan-linux-4.0.2.AppImage",
+    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/continuous/artisan-linux-4.0.3.AppImage",
     "description": "Visualizes the coffee roasting process"
   },
   {
@@ -3153,18 +3153,18 @@
   },
   {
     "pkg": "citron",
-    "site": "Zephyron-Dev/Citron-CI",
+    "site": "pkgforge-dev/Citron-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/citron",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/citron",
-    "version_raw": "",
+    "version_raw": "https://github.com/pkgforge-dev/Citron-AppImage/releases/download/2026.02.1%402026-02-04_1770174862/Citron-2026.02.1-anylinux-x86_64.AppImage",
     "description": "Citron (fork of yuzu), with optimized builds for modern cpus"
   },
   {
     "pkg": "citron-nightly",
-    "site": "Zephyron-Dev/Citron-CI",
+    "site": "pkgforge-dev/Citron-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/citron-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/citron-nightly",
-    "version_raw": "",
+    "version_raw": "https://github.com/pkgforge-dev/Citron-AppImage/releases/download/nightly/Citron-637418dba-anylinux-x86_64.AppImage",
     "description": "Citron (fork of yuzu), with optimized builds for modern cpus (nightly builds)"
   },
   {
@@ -3902,6 +3902,22 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/crankshaft",
     "version_raw": "https://github.com/KraXen72/crankshaft/releases/download/1.11.1/crankshaft-portable-linux-x86_64.AppImage",
     "description": "A sensible krunker client written in typescript"
+  },
+  {
+    "pkg": "crawl-ncurses",
+    "site": "crawl/crawl",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/crawl-ncurses",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/crawl-ncurses",
+    "version_raw": "https://github.com/crawl/crawl/releases/download/0.34.0/dcss-0.34.0-linux-console.x86_64.AppImage",
+    "description": "Dungeon Crawl Stone Soup: open-source, single-player, role-playing roguelike game of exploration and treasure-hunting - ncurses version (terminal)"
+  },
+  {
+    "pkg": "crawl-tiles",
+    "site": "crawl/crawl",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/crawl-tiles",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/crawl-tiles",
+    "version_raw": "https://github.com/crawl/crawl/releases/download/0.34.0/dcss-0.34.0-linux-tiles.x86_64.AppImage",
+    "description": "Dungeon Crawl Stone Soup: open-source, single-player, role-playing roguelike game of exploration and treasure-hunting - graphical version (SDL)"
   },
   {
     "pkg": "creality-print",
@@ -4708,7 +4724,7 @@
     "site": "rallep71/dinox",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dinox",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dinox",
-    "version_raw": "https://github.com/rallep71/dinox/releases/download/v1.1.0.2/DinoX-1.1.0.2-x86_64.AppImage",
+    "version_raw": "https://github.com/rallep71/dinox/releases/download/v1.1.0.3/DinoX-1.1.0.3-x86_64.AppImage",
     "description": "DinoX - Modern XMPP Chat Client with Video Calls, Voice Messages & OMEMO Encryption"
   },
   {
@@ -5900,7 +5916,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.2.4.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -7348,7 +7364,7 @@
     "site": "BestImageViewer/geeqie",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/geeqie",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/geeqie",
-    "version_raw": "https://github.com/BestImageViewer/geeqie/releases/download/continuous/Geeqie-latest-x86_64.AppImage",
+    "version_raw": "https://github.com/BestImageViewer/geeqie/releases/download/v2.1/Geeqie-v2.1-x86_64.AppImage",
     "description": "Claiming to be the best image viewer and photo collection browser"
   },
   {
@@ -8558,6 +8574,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/helio",
     "version_raw": "https://ci.helio.fm/helio-3.17-x64.AppImage",
     "description": "One music sequencer for all major platforms, desktop and mobile"
+  },
+  {
+    "pkg": "helion",
+    "site": "Helion-Engine/Helion",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/helion",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/helion",
+    "version_raw": "https://github.com/Helion-Engine/Helion/releases/download/0.9.9.0/Helion.AppImage",
+    "description": "A modern fast paced Doom FPS engine"
   },
   {
     "pkg": "helioslauncher",
@@ -10692,7 +10716,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -20196,7 +20220,7 @@
     "site": "edrlab/thorium-reader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium-reader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium-reader",
-    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.1-beta.1.22067201414.AppImage",
+    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.1-beta.1.22071629398.AppImage",
     "description": "Desktop application to read ebooks"
   },
   {
@@ -21892,7 +21916,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6619907473",
+    "version_raw": "6622162992",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
