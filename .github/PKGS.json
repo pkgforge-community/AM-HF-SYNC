@@ -1124,7 +1124,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "1.0.4",
+    "version_raw": "",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -2004,7 +2004,7 @@
     "site": "ivan-hc/Blender-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blender-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blender-beta",
-    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-beta/Blender_Beta-5.1.0-beta%2Bv51.6b88959e17aa-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-beta/Blender_Beta-5.1.0-beta%2Bv51.a58d9bc9dcbc-x86_64.AppImage",
     "description": "Very fast and versatile 3D modeller/renderer, Beta"
   },
   {
@@ -10536,6 +10536,14 @@
     "description": "Unofficial, Klondike, Spider, Free Cell and other Solitaire. This script installs the full kdegames suite"
   },
   {
+    "pkg": "krecorder",
+    "site": "ivan-hc/KDE-utils-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/krecorder",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/krecorder",
+    "version_raw": "https://github.com/ivan-hc/KDE-utils-appimage/releases/download/continuous/KDE-utils_25.08-1-archimage5.0-x86_64.AppImage",
+    "description": "Unofficial, An audio recording application. This script installs the full kdeutils suite"
+  },
+  {
     "pkg": "kreversi",
     "site": "ivan-hc/KDE-games-suite-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kreversi",
@@ -10716,7 +10724,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
