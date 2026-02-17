@@ -196,7 +196,7 @@
     "site": "toeverything/AFFiNE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine",
-    "version_raw": "",
+    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v0.26.2/affine-0.26.2-stable-linux-x64.appimage",
     "description": "Next-gen knowledge base that brings planning, sorting and creating"
   },
   {
@@ -404,7 +404,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.538/alma-0.0.538-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.540/alma-0.0.540-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -3152,22 +3152,6 @@
     "description": "Helps newbies get into embedded programming"
   },
   {
-    "pkg": "citron",
-    "site": "pkgforge-dev/Citron-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/citron",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/citron",
-    "version_raw": "",
-    "description": "Citron (fork of yuzu), with optimized builds for modern cpus"
-  },
-  {
-    "pkg": "citron-nightly",
-    "site": "pkgforge-dev/Citron-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/citron-nightly",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/citron-nightly",
-    "version_raw": "",
-    "description": "Citron (fork of yuzu), with optimized builds for modern cpus (nightly builds)"
-  },
-  {
     "pkg": "city-hub",
     "site": "CityChainFoundation/city-hub",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/city-hub",
@@ -5260,7 +5244,7 @@
     "site": "Eden-CI/Nightly",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eden-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eden-nightly",
-    "version_raw": "https://github.com/Eden-CI/Nightly/releases/download/v1771266795.50ec0892c6/Eden-Linux-50ec0892c6-amd64-clang-pgo.AppImage",
+    "version_raw": "https://github.com/Eden-CI/Nightly/releases/download/v1771353957.72b3f3a8a5/Eden-Linux-72b3f3a8a5-amd64-clang-pgo.AppImage",
     "description": "An experimental open-source emulator for Nintendo Switch (yuzu fork, nightly builds)"
   },
   {
@@ -5916,7 +5900,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.2.4.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -6468,7 +6452,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-beta-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-beta-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260216-203113/Firefox-beta-148.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260217-203743/Firefox-beta-148.0-x86_64.AppImage",
     "description": "Unofficial, AppImage of the Web Browser, Beta"
   },
   {
@@ -6476,7 +6460,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-devedition-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-devedition-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260216-203113/Firefox-devedition-148.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260217-203743/Firefox-devedition-148.0-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, Dev"
   },
   {
@@ -6484,7 +6468,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-esr-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-esr-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260216-203113/Firefox-esr-140.7.1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260217-203743/Firefox-esr-140.7.1-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, ESR"
   },
   {
@@ -6492,7 +6476,7 @@
     "site": "ivan-hc/Firefox-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-nightly-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-nightly-appimage",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260216-203113/Firefox-nightly-149.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260217-203743/Firefox-nightly-149.0a1-x86_64.AppImage",
     "description": "Unofficial AppImage of the Web Browser, Nightly"
   },
   {
@@ -6732,7 +6716,7 @@
     "site": "superfly/flyctl",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flyctl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/flyctl",
-    "version_raw": "https://github.com/superfly/flyctl/releases/download/v0.4.12/flyctl_0.4.12_Linux_x86_64.tar.gz",
+    "version_raw": "https://github.com/superfly/flyctl/releases/download/v0.4.13/flyctl_0.4.13_Linux_x86_64.tar.gz",
     "description": "Command line tools for fly.io services"
   },
   {
@@ -7756,7 +7740,7 @@
     "site": "https://gitlab.com/gitlab-org/cli",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/glab",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/glab",
-    "version_raw": "https://gitlab.com/gitlab-org/cli/-/releases/v1.85.2/downloads/glab_1.85.2_linux_amd64.tar.gz",
+    "version_raw": "https://gitlab.com/gitlab-org/cli/-/releases/v1.85.3/downloads/glab_1.85.3_linux_386.tar.gz",
     "description": "A GitLab CLI tool bringing GitLab to your command line"
   },
   {
@@ -9012,7 +8996,7 @@
     "site": "nab138/iloader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/iloader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/iloader",
-    "version_raw": "https://github.com/nab138/iloader/releases/download/v1.1.6/iloader-linux-amd64.AppImage",
+    "version_raw": "https://github.com/nab138/iloader/releases/download/v2.0.0/iloader-linux-amd64.AppImage",
     "description": "User friendly sideloader"
   },
   {
@@ -10876,7 +10860,7 @@
     "site": "oldcai/LazyTyper-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lazytyper",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lazytyper",
-    "version_raw": "https://github.com/oldcai/LazyTyper-releases/releases/download/v1.8.7-nightly.5-linux/LazyTyper-x86_64.AppImage",
+    "version_raw": "https://github.com/oldcai/LazyTyper-releases/releases/download/v1.8.7-linux/LazyTyper-x86_64.AppImage",
     "description": "LazyTyper desktop client (repackaged from the official AppImage, including built-in dependencies)"
   },
   {
@@ -20244,7 +20228,7 @@
     "site": "ivan-hc/Thunderbird-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-beta-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-beta-appimage",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260216-203202/Thunderbird-beta-148.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260217-203856/Thunderbird-beta-148.0-x86_64.AppImage",
     "description": "Unofficial. Free and open source eMail client, Beta Edition"
   },
   {
@@ -20252,7 +20236,7 @@
     "site": "ivan-hc/Thunderbird-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-nightly-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-nightly-appimage",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260216-203202/Thunderbird-nightly-149.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260217-203856/Thunderbird-nightly-149.0a1-x86_64.AppImage",
     "description": "Unofficial. Free and open source eMail client, Nightly Edition"
   },
   {
@@ -21924,7 +21908,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6653189713",
+    "version_raw": "6655078170",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
