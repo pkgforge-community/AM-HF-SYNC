@@ -5780,7 +5780,7 @@
     "site": "https://low-hiss.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/espi",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/espi",
-    "version_raw": "",
+    "version_raw": "https://low-hiss.com/builds/linux/eSPi-2.0.0.AppImage",
     "description": "Software recreation of the SP-1200 drum machine"
   },
   {
@@ -8484,7 +8484,7 @@
     "site": "cjpais/Handy",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/handy",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/handy",
-    "version_raw": "https://github.com/cjpais/Handy/releases/download/v0.7.5/Handy_0.7.5_amd64.AppImage",
+    "version_raw": "https://github.com/cjpais/Handy/releases/download/v0.7.6/Handy_0.7.6_amd64.AppImage",
     "description": "A free, open source, and extensible speech-to-text application that works completely offline"
   },
   {
@@ -10536,14 +10536,6 @@
     "description": "Unofficial, Klondike, Spider, Free Cell and other Solitaire. This script installs the full kdegames suite"
   },
   {
-    "pkg": "krecorder",
-    "site": "ivan-hc/KDE-utils-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/krecorder",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/krecorder",
-    "version_raw": "https://github.com/ivan-hc/KDE-utils-appimage/releases/download/continuous/KDE-utils_25.08-1-archimage5.0-x86_64.AppImage",
-    "description": "Unofficial, An audio recording application. This script installs the full kdeutils suite"
-  },
-  {
     "pkg": "kreversi",
     "site": "ivan-hc/KDE-games-suite-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kreversi",
@@ -10724,7 +10716,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -19276,7 +19268,7 @@
     "site": "https://gitlab.com/posktomten/streamcapture2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/streamcapture2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/streamcapture2",
-    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=dWwZcBcmHcLq",
+    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=XLvthWgRl",
     "description": "Download video streams"
   },
   {
@@ -21180,7 +21172,7 @@
     "site": "https://veracrypt.io",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/veracrypt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/veracrypt",
-    "version_raw": "",
+    "version_raw": "https://launchpad.net/veracrypt/trunk/1.26.24/+download/VeraCrypt-1.26.24-x86_64.AppImage",
     "description": "VeraCrypt is a free open source disk encryption software"
   },
   {
@@ -21924,7 +21916,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6631461110",
+    "version_raw": "6632943204",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
