@@ -404,7 +404,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.541/alma-0.0.541-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.550/alma-0.0.550-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -5900,7 +5900,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.2.4.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -8600,6 +8600,14 @@
     "description": "A post-modern modal text editor"
   },
   {
+    "pkg": "helixnotes",
+    "site": "ArkHost/HelixNotes",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/helixnotes",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/helixnotes",
+    "version_raw": "https://download.helixnotes.com/releases/v1.1.2/HelixNotes_1.1.2_amd64.AppImage",
+    "description": "A local markdown note-taking app built with Tauri, SvelteKit, and Rust"
+  },
+  {
     "pkg": "henson",
     "site": "NotAName320/Henson",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/henson",
@@ -10708,7 +10716,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -14012,7 +14020,7 @@
     "site": "openaudible/openaudible",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openaudible",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openaudible",
-    "version_raw": "https://github.com/openaudible/openaudible/releases/download/v4.7.1/OpenAudible_4.7.1_x86_64.AppImage",
+    "version_raw": "https://github.com/openaudible/openaudible/releases/download/v4.7.2/OpenAudible_4.7.2_x86_64.AppImage",
     "description": "Download and manage your Audible audiobooks"
   },
   {
@@ -17340,7 +17348,7 @@
     "site": "martinrotter/rssguard",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rssguard",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rssguard",
-    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-dev-57bce8599-qt5-linux64.AppImage",
+    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-dev-1c3017b26-qt5-linux64.AppImage",
     "description": "Feed reader which supports RSS/ATOM/JSON, no-webengine version"
   },
   {
@@ -19260,7 +19268,7 @@
     "site": "https://gitlab.com/posktomten/streamcapture2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/streamcapture2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/streamcapture2",
-    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=XLvthWgRl",
+    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=CHQdMxbNH",
     "description": "Download video streams"
   },
   {
@@ -21916,7 +21924,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6664194111",
+    "version_raw": "6665698027",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
