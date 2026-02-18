@@ -404,7 +404,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.551/alma-0.0.551-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.554/alma-0.0.554-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -5060,7 +5060,7 @@
     "site": "stenzek/duckstation",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/duckstation",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/duckstation",
-    "version_raw": "https://api.github.com/repos/stenzek/duckstation/releases/283201069",
+    "version_raw": "https://api.github.com/repos/stenzek/duckstation/releases/287573501",
     "description": "PlayStation 1, aka PSX games Emulator"
   },
   {
@@ -6022,6 +6022,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/f1mv-lights-integration",
     "version_raw": "https://github.com/JustJoostNL/F1MV-Lights-Integration/releases/download/v3.4.0/F1MV-Lights-Integration-3.4.0.AppImage",
     "description": "Connect your smart home lights to MultiViewer"
+  },
+  {
+    "pkg": "fafarunner",
+    "site": "fafarunner/fafarunner",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fafarunner",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fafarunner",
+    "version_raw": "https://github.com/fafarunner/fafarunner/releases/download/v2.5.4%2B384/fafarunner-2.5.4.384-linux-amd64.AppImage",
+    "description": "A game developed using flutter and flame"
   },
   {
     "pkg": "fairshare",
@@ -10708,7 +10716,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -11820,7 +11828,7 @@
     "site": "Materialious/Materialious",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/materialious",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/materialious",
-    "version_raw": "https://github.com/Materialious/Materialious/releases/download/1.16.1/Materialious-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/Materialious/Materialious/releases/download/1.16.2/Materialious-linux-x86_64.AppImage",
     "description": "Modern material design for Invidious"
   },
   {
@@ -21916,7 +21924,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6666304571",
+    "version_raw": "6668262270",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
