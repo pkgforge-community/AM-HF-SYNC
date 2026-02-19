@@ -1,19 +1,19 @@
 [
   {
     "pkg": "0ad",
-    "site": "0ad-matters/0ad-appimage",
+    "site": "https://play0ad.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/0ad",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/0ad",
-    "version_raw": "https://github.com/0ad-matters/0ad-appimage/releases/download/v0.27.1/0ad-0.27.1-x86_64.AppImage",
-    "description": "Unofficial. FOSS historical Real Time Strategy, RTS game of ancient warfare"
+    "version_raw": "https://releases.wildfiregames.com/0ad-0.28.0-x86_64.AppImage",
+    "description": "FOSS historical Real Time Strategy, RTS game of ancient warfare"
   },
   {
     "pkg": "0ad-prerelease",
-    "site": "0ad-matters/0ad-appimage",
+    "site": "https://play0ad.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/0ad-prerelease",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/0ad-prerelease",
-    "version_raw": "https://github.com/0ad-matters/0ad-appimage/releases/download/v0.0.27-rc1-27645-alpha/0ad-0.0.27-rc1-27645-alpha-2306180725-focal-x86_64.AppImage",
-    "description": "Unofficial. FOSS historical Real Time Strategy, RTS game of ancient warfare (Pre-release)"
+    "version_raw": "https://releases.wildfiregames.com/rc/0ad-0.28.0-rc5-x86_64.AppImage",
+    "description": "FOSS historical Real Time Strategy, RTS game of ancient warfare (Pre-release)"
   },
   {
     "pkg": "12to11",
@@ -180,7 +180,7 @@
     "site": "pkgforge-dev/Aerofoil-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aerofoil",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aerofoil",
-    "version_raw": "https://github.com/pkgforge-dev/Aerofoil-AppImage/releases/download/1.1.2.r83.geccf2cf-1%402026-02-06_1770416348/Aerofoil-1.1.2.r83.geccf2cf-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Aerofoil-AppImage/releases/download/1.1.2.r83.geccf2cf-1%402026-02-19_1771482171/Aerofoil-1.1.2.r83.geccf2cf-1-anylinux-x86_64.AppImage",
     "description": "Multiplatform port of Glider PRO"
   },
   {
@@ -1996,7 +1996,7 @@
     "site": "ivan-hc/Blender-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blender-alpha",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blender-alpha",
-    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.2.0-alpha%2Bmain.1280201420ea-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.2.0-alpha%2Bmain.3bad587040f4-x86_64.AppImage",
     "description": "Very fast and versatile 3D modeller/renderer, Alpha"
   },
   {
@@ -2836,7 +2836,7 @@
     "site": "pkgforge-dev/CDogs-SDL-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cdogs-sdl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cdogs-sdl",
-    "version_raw": "https://github.com/pkgforge-dev/C-Dogs_SDL-AppImage/releases/download/2.3.2-1%402026-02-09_1770641530/C-Dogs_SDL-2.3.2-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/C-Dogs_SDL-AppImage/releases/download/2.3.2-1%402026-02-19_1771479898/C-Dogs_SDL-2.3.2-1-anylinux-x86_64.AppImage",
     "description": "Classic overhead run-and-gun game"
   },
   {
@@ -4228,7 +4228,7 @@
     "site": "pkgforge-dev/DarkPlaces-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/darkplaces",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/darkplaces",
-    "version_raw": "https://github.com/pkgforge-dev/DarkPlaces-AppImage/releases/download/r10781.d93f9c42-1%402026-02-09_1770637571/Darkplaces-r10781.d93f9c42-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/DarkPlaces-AppImage/releases/download/r10781.d93f9c42-1%402026-02-19_1771481134/Darkplaces-r10781.d93f9c42-1-anylinux-x86_64.AppImage",
     "description": "The DarkPlaces Quake engine, created by LadyHavoc"
   },
   {
@@ -4812,7 +4812,7 @@
     "site": "pkgforge-dev/Dolphin-emu-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dolphin-emu-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dolphin-emu-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/Dolphin-emu-AppImage/releases/download/nightly/Dolphin_Emulator_Nightly-d6b5af57d-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Dolphin-emu-AppImage/releases/download/nightly/Dolphin_Emulator_Nightly-9323074ad-anylinux-x86_64.AppImage",
     "description": "Unofficial nightly AppImage of the Dolphin emulator"
   },
   {
@@ -4900,7 +4900,7 @@
     "site": "pkgforge-dev/Dr-Robotniks-Ring-Racers-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dr-robotniks-ring-racers",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dr-robotniks-ring-racers",
-    "version_raw": "https://github.com/pkgforge-dev/Dr-Robotniks-Ring-Racers-AppImage/releases/download/2.4-2%402026-02-10_1770697626/Dr._Robotnik.s_Ring_Racers-2.4-2-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Dr-Robotniks-Ring-Racers-AppImage/releases/download/2.4-2%402026-02-19_1771479637/Dr._Robotnik.s_Ring_Racers-2.4-2-anylinux-x86_64.AppImage",
     "description": "Kart racing video game originally based on SRB2Kart"
   },
   {
@@ -5964,7 +5964,7 @@
     "site": "pkgforge-dev/Exult-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exult",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exult",
-    "version_raw": "https://github.com/pkgforge-dev/Exult-AppImage/releases/download/1.12.1-1%402026-02-09_1770647052/Exult-1.12.1-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Exult-AppImage/releases/download/1.12.1-1%402026-02-19_1771480345/Exult-1.12.1-1-anylinux-x86_64.AppImage",
     "description": "A project to recreate Ultima 7 for modern operating systems"
   },
   {
@@ -6164,7 +6164,7 @@
     "site": "https://www.freedownloadmanager.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fdm",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fdm",
-    "version_raw": "6.33",
+    "version_raw": "6.33.1",
     "description": "Free Download Manager, multiplatform powerful modern download accelerator and organizer"
   },
   {
@@ -7644,7 +7644,7 @@
     "site": "pol-rivero/github-desktop-plus",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/github-desktop-plus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/github-desktop-plus",
-    "version_raw": "https://github.com/pol-rivero/github-desktop-plus/releases/download/v3.5.5.11/GitHubDesktopPlus-v3.5.5.11-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/pol-rivero/github-desktop-plus/releases/download/v3.5.5.12/GitHubDesktopPlus-v3.5.5.12-linux-x86_64.AppImage",
     "description": "Electron-based GitHub Desktop fork with advanced functionality and Bitbucket, GitLab integration"
   },
   {
@@ -11804,7 +11804,7 @@
     "site": "https://code-industry.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/master-pdf-editor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/master-pdf-editor",
-    "version_raw": "https://code-industry.net/public/Master_PDF_Editor_5.9.90-x86_64.AppImage",
+    "version_raw": "https://code-industry.net/public/Master_PDF_Editor_5.9.94-x86_64.AppImage",
     "description": "Master PDF Editor allows you to create, edit, preview, encrypt, sign and print PDF documents"
   },
   {
@@ -12300,7 +12300,7 @@
     "site": "pkgforge-dev/Mini-vMac-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mini-vmac",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mini-vmac",
-    "version_raw": "https://github.com/pkgforge-dev/Mini-vMac-AppImage/releases/download/37.03-fa6dda82%402026-02-04_1770183591/Mini_vMac-37.03-fa6dda82-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Mini-vMac-AppImage/releases/download/37.03-fa6dda82%402026-02-19_1771482440/Mini_vMac-37.03-fa6dda82-anylinux-x86_64.AppImage",
     "description": "A miniature Macintosh 68K emulator"
   },
   {
@@ -15644,7 +15644,7 @@
     "site": "zidoro/pomatez",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pomatez",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pomatez",
-    "version_raw": "https://github.com/zidoro/pomatez/releases/download/v1.10.0/Pomatez-v1.10.0-linux-x86_64.AppImage",
+    "version_raw": "",
     "description": "Stay Focused. Take a Break"
   },
   {
@@ -17788,7 +17788,7 @@
     "site": "pkgforge-dev/SDLPoP-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sdlpop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sdlpop",
-    "version_raw": "https://github.com/pkgforge-dev/SDLPoP-AppImage/releases/download/1.24rc1-1%402026-02-06_1770419127/SDLPoP-1.24rc1-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/SDLPoP-AppImage/releases/download/1.24rc1-1%402026-02-19_1771481930/SDLPoP-1.24rc1-1-anylinux-x86_64.AppImage",
     "description": "An open-source port of Prince of Persia"
   },
   {
@@ -19164,7 +19164,7 @@
     "site": "pkgforge-dev/Stella-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/stella",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/stella",
-    "version_raw": "https://github.com/pkgforge-dev/Stella-AppImage/releases/download/7.0-1%402026-02-09_1770637152/Stella-7.0-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Stella-AppImage/releases/download/7.0-1%402026-02-19_1771481159/Stella-7.0-1-anylinux-x86_64.AppImage",
     "description": "Unofficial, A multi-platform Atari 2600 Emulator"
   },
   {
@@ -19276,7 +19276,7 @@
     "site": "https://gitlab.com/posktomten/streamcapture2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/streamcapture2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/streamcapture2",
-    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=CHQdMxbNH",
+    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=ZzcSspTqdfZ",
     "description": "Download video streams"
   },
   {
@@ -21940,7 +21940,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6696673900",
+    "version_raw": "6697788250",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -22508,7 +22508,7 @@
     "site": "xemu-project/xemu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xemu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xemu",
-    "version_raw": "https://github.com/xemu-project/xemu/releases/download/pre-release/xemu-0.8.133-60-g3b13aed14c-x86_64.AppImage",
+    "version_raw": "https://github.com/xemu-project/xemu/releases/download/pre-release/xemu-0.8.133-61-g06448d5ce5-x86_64.AppImage",
     "description": "Original Xbox Emulator"
   },
   {
@@ -22524,7 +22524,7 @@
     "site": "has207/xenia-edge",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xenia-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xenia-edge",
-    "version_raw": "https://github.com/has207/xenia-edge/releases/download/56bd73e/xenia_edge_linux.AppImage",
+    "version_raw": "https://github.com/has207/xenia-edge/releases/download/38e8775/xenia_edge_linux.AppImage",
     "description": "Xbox 360 Emulator Research Project, fork of the Xenia emulator, with the aim of quicker iteration and improvements to Vulkan backend"
   },
   {
@@ -22620,7 +22620,7 @@
     "site": "pkgforge-dev/xoreos-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xoreos",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xoreos",
-    "version_raw": "https://github.com/pkgforge-dev/xoreos-AppImage/releases/download/f36b681b2%402026-02-07_1770462066/xoreos-f36b681b2-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/xoreos-AppImage/releases/download/f36b681b2%402026-02-19_1771483384/xoreos-f36b681b2-anylinux-x86_64.AppImage",
     "description": "Unofficial, A reimplementation of BioWare's Aurora engine"
   },
   {
