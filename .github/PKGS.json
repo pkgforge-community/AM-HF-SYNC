@@ -136,14 +136,6 @@
     "description": "Actiona is an automation tool that allows you to execute many actions on your computer such as emulating mouse clicks, key presses, showing message boxes, editing text files, etc"
   },
   {
-    "pkg": "actual",
-    "site": "actualbudget/releases",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/actual",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/actual",
-    "version_raw": "https://github.com/actualbudget/releases/releases/download/0.0.148/Actual-0.0.148-x86_64.AppImage",
-    "description": "A super fast privacy-focused app for managing your finances"
-  },
-  {
     "pkg": "adb",
     "site": "https://developer.android.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/adb",
@@ -168,14 +160,6 @@
     "description": "Advanced REST Client and API console, by Mulesoft"
   },
   {
-    "pkg": "aegisub",
-    "site": "arch1t3cht/Aegisub",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aegisub",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aegisub",
-    "version_raw": "https://github.com/arch1t3cht/Aegisub/releases/download/lifesupport01/Ubuntu.AppImage.zip",
-    "description": "Cross-platform advanced subtitle editor, with new feature branches. Read the README on the feature branch. Cross-platform advanced subtitle editor Cross-platform advanced subtitle editor"
-  },
-  {
     "pkg": "aerofoil",
     "site": "pkgforge-dev/Aerofoil-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aerofoil",
@@ -190,14 +174,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/afetch",
     "version_raw": "https://github.com/Asthowen/AFetch/releases/download/0.0.7/afetch-0.0.7-x86_64-unknown-linux-gnu",
     "description": "A CLI system information tool written in Rust"
-  },
-  {
-    "pkg": "affine",
-    "site": "toeverything/AFFiNE",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine",
-    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v0.26.2/affine-0.26.2-stable-linux-x64.appimage",
-    "description": "Next-gen knowledge base that brings planning, sorting and creating"
   },
   {
     "pkg": "affine-beta",
@@ -1124,7 +1100,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "1.0.4",
+    "version_raw": "",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -2004,7 +1980,7 @@
     "site": "ivan-hc/Blender-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blender-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blender-beta",
-    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-beta/Blender_Beta-5.1.0-beta%2Bv51.ac17d71d27f9-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-beta/Blender_Beta-5.1.0-beta%2Bv51.84b3c201fb14-x86_64.AppImage",
     "description": "Very fast and versatile 3D modeller/renderer, Beta"
   },
   {
@@ -3656,14 +3632,6 @@
     "description": "Cord launcher based on Electron and Wep Application"
   },
   {
-    "pkg": "coreaction",
-    "site": "https://cubocore.org",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/coreaction",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/coreaction",
-    "version_raw": "https://gitlab.com/cubocore/packages/-/raw/main/appimages/v3.0.0LTS/CoreAction-d5f6110-x86_64.AppImage",
-    "description": "A side bar for showing widgets for CuboCore Application Suite"
-  },
-  {
     "pkg": "corearchiver",
     "site": "https://cubocore.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/corearchiver",
@@ -3814,14 +3782,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cosmic-comics",
     "version_raw": "https://github.com/Nytuo/CosmicComics/releases/download/v2.1.1/Cosmic-Comics_2.1.1_linux_x86_64.AppImage",
     "description": "Web Server based Comics / Manga Collectionner & viewer"
-  },
-  {
-    "pkg": "cosmonium",
-    "site": "cosmonium/cosmonium",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cosmonium",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cosmonium",
-    "version_raw": "https://github.com/cosmonium/cosmonium/releases/download/v0.3.0.dev876/cosmonium-0.3.0.dev876_manylinux2014_x86_64.tar.gz",
-    "description": "3D astronomy and space exploration program"
   },
   {
     "pkg": "cowitness",
@@ -4760,14 +4720,6 @@
     "description": "Unofficial. Discord client powered by Node.JS and Qt Widgets"
   },
   {
-    "pkg": "diskfmt",
-    "site": "MoAlyousef/diskfmt",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/diskfmt",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/diskfmt",
-    "version_raw": "https://github.com/MoAlyousef/diskfmt/releases/download/v0.1.3/diskfmt-0.1.3-x86_64.AppImage",
-    "description": "A disk formatting utility for linux that is similar to the windows format utility"
-  },
-  {
     "pkg": "diskonaut",
     "site": "imsnif/diskonaut",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/diskonaut",
@@ -4936,14 +4888,6 @@
     "description": "Free Stock Images on Steroids"
   },
   {
-    "pkg": "draw",
-    "site": "maaslalani/draw",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/draw",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/draw",
-    "version_raw": "https://github.com/maaslalani/draw/releases/download/v0.1.1/draw_0.1.1_linux_amd64.tar.gz",
-    "description": "Draw in your terminal"
-  },
-  {
     "pkg": "draw.io",
     "site": "jgraph/drawio-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/draw.io",
@@ -5088,14 +5032,6 @@
     "description": "Disk Usage/Free Utility, a better 'df' alternative"
   },
   {
-    "pkg": "dukto",
-    "site": "cpuuntery/dukto",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dukto",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dukto",
-    "version_raw": "https://github.com/cpuuntery/dukto/releases/download/Latest/dukto-6.0-1-x86_64.AppImage",
-    "description": "Easy and multi-platform file transfer tool"
-  },
-  {
     "pkg": "dune",
     "site": "adam-mcdaniel/dune",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dune",
@@ -5110,14 +5046,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dunst",
     "version_raw": "",
     "description": "Lightweight and customizable notification daemon"
-  },
-  {
-    "pkg": "duplicate-image-finder",
-    "site": "volatilflerovium/Duplicate_Image_Finder",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/duplicate-image-finder",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/duplicate-image-finder",
-    "version_raw": "https://github.com/volatilflerovium/Duplicate_Image_Finder/releases/download/v2.1.2/wxDuplicated_Image_Finder-x86_64.AppImage",
-    "description": "It is an application that can find duplicated images (jpg, png, bitmap, etc) in a collection"
   },
   {
     "pkg": "duskplayer",
@@ -5302,14 +5230,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ehdev-shell",
     "version_raw": "https://github.com/EHDFE/ehdev-shell/releases/download/v0.6.1/ehdev-shell-0.6.1-x86_64.AppImage",
     "description": "An electron based developing tool for feds"
-  },
-  {
-    "pkg": "eiskaltdcpp",
-    "site": "https://sourceforge.net/p/eiskaltdcpp",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eiskaltdcpp",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eiskaltdcpp",
-    "version_raw": "https://sourceforge.net/projects/eiskaltdcpp/files/Linux/devel/eiskaltdcpp-qt-2.4.2-45-x86_64.AppImage/download",
-    "description": "Client for EiskaltDC++ core"
   },
   {
     "pkg": "eka2l1",
@@ -5536,14 +5456,6 @@
     "description": "Explore Ancient Greece on Ellas-War"
   },
   {
-    "pkg": "elphyre-walletshell",
-    "site": "elphyrecoin/elphyre-wallet-electron",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/elphyre-walletshell",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/elphyre-walletshell",
-    "version_raw": "https://github.com/SpookyPool/elphyre-wallet-electron/releases/download/2.0.4/Elphyre-WalletShell-v2.0.4-linux.AppImage",
-    "description": "Elphyrecoin GUI Wallet"
-  },
-  {
     "pkg": "elvish",
     "site": "https://elv.sh",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/elvish",
@@ -5573,14 +5485,6 @@
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/emacs",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/emacs",
     "version_raw": "https://github.com/ivan-hc/Emacs-appimage/releases/download/continuous/Emacs_30.2-1-archimage5.0-x86_64.AppImage",
-    "description": "Unofficial. FOSS text editor for complete programming language"
-  },
-  {
-    "pkg": "emacs-nox",
-    "site": "blahgeek/emacs-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/emacs-nox",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/emacs-nox",
-    "version_raw": "https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-17008212441/Emacs-30.2-nox-x86_64.AppImage",
     "description": "Unofficial. FOSS text editor for complete programming language"
   },
   {
@@ -5824,14 +5728,6 @@
     "description": "Chinese app to learn english, listen statistics/note synch"
   },
   {
-    "pkg": "evalit",
-    "site": "MTDonovan/Evalit",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/evalit",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/evalit",
-    "version_raw": "https://github.com/MTDonovan/Evalit/releases/download/1.0.0/Evalit-1.0.0.AppImage",
-    "description": "A notepad calculator application with JavaScript configuration"
-  },
-  {
     "pkg": "everdo",
     "site": "https://everdo.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/everdo",
@@ -6030,14 +5926,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/f1mv-lights-integration",
     "version_raw": "https://github.com/JustJoostNL/F1MV-Lights-Integration/releases/download/v3.4.0/F1MV-Lights-Integration-3.4.0.AppImage",
     "description": "Connect your smart home lights to MultiViewer"
-  },
-  {
-    "pkg": "fafarunner",
-    "site": "fafarunner/fafarunner",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fafarunner",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fafarunner",
-    "version_raw": "https://github.com/fafarunner/fafarunner/releases/download/v2.5.4%2B384/fafarunner-2.5.4.384-linux-amd64.AppImage",
-    "description": "A game developed using flutter and flame"
   },
   {
     "pkg": "fairshare",
@@ -17356,7 +17244,7 @@
     "site": "martinrotter/rssguard",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rssguard",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rssguard",
-    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-dev-3e7bdfd58-qt5-linux64.AppImage",
+    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-dev-e953b1b06-qt5-linux64.AppImage",
     "description": "Feed reader which supports RSS/ATOM/JSON, no-webengine version"
   },
   {
