@@ -28,7 +28,7 @@
     "site": "HarbourMasters/2ship2harkinian",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/2ship",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/2ship",
-    "version_raw": "https://github.com/HarbourMasters/2ship2harkinian/releases/download/4.0.0/2Ship-Keiichi-Alfa-Linux.zip",
+    "version_raw": "https://github.com/HarbourMasters/2ship2harkinian/releases/download/4.0.1/2Ship-Keiichi-Bravo-Linux.zip",
     "description": "2 Ship 2 Harkinian game"
   },
   {
@@ -596,7 +596,7 @@
     "site": "http://www.animashooter.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/animashooter-junior",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/animashooter-junior",
-    "version_raw": "https://www.animatech.ru/download/AnimaShooterJunior-3.9.9.7-x86_64.AppImage",
+    "version_raw": "",
     "description": "User-friendly Stop-Motion Animation Software, FREE"
   },
   {
@@ -604,7 +604,7 @@
     "site": "http://www.animashooter.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/animashooter-pioneer",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/animashooter-pioneer",
-    "version_raw": "https://www.animatech.ru/download/AnimaShooterPioneer-3.9.9.7-x86_64.AppImage",
+    "version_raw": "",
     "description": "User-friendly Stop-Motion Animation Software, PRO"
   },
   {
@@ -1212,7 +1212,7 @@
     "site": "atuinsh/atuin",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/atuin",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/atuin",
-    "version_raw": "https://github.com/atuinsh/atuin/releases/download/v18.13.0-beta.1/atuin-ai-x86_64-unknown-linux-musl.tar.gz",
+    "version_raw": "https://github.com/atuinsh/atuin/releases/download/v18.13.0-beta.2/atuin-ai-x86_64-unknown-linux-musl.tar.gz",
     "description": "Magical shell history"
   },
   {
@@ -3204,7 +3204,7 @@
     "site": "libnyanpasu/clash-nyanpasu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clash-nyanpasu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/clash-nyanpasu",
-    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha%2Bdcdf73c_amd64.AppImage",
+    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha%2B9be07ff_amd64.AppImage",
     "description": "A Clash GUI based on tauri"
   },
   {
@@ -5932,7 +5932,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.2.4.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -7556,7 +7556,7 @@
     "site": "pkgforge-dev/ghostty-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ghostty-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ghostty-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.0-main%2Beb531ca-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.0-main%2B336ca18-x86_64.AppImage",
     "description": "Unoffical, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (Tip, Nightly)"
   },
   {
@@ -8156,7 +8156,7 @@
     "site": "benjamimgois/goverlay",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/goverlay",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/goverlay",
-    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-a6c7b5a40-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-eb67f7bb5-anylinux-x86_64.AppImage",
     "description": "An opensource project that aims to create a Graphical UI to help manage Linux overlays"
   },
   {
@@ -8636,7 +8636,7 @@
     "site": "ArkHost/HelixNotes",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/helixnotes",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/helixnotes",
-    "version_raw": "https://download.helixnotes.com/releases/v1.1.9/HelixNotes_1.1.9_amd64.AppImage",
+    "version_raw": "https://download.helixnotes.com/releases/v1.2.0/HelixNotes_1.2.0_amd64.AppImage",
     "description": "A local markdown note-taking app built with Tauri, SvelteKit, and Rust"
   },
   {
@@ -14756,7 +14756,7 @@
     "site": "Scille/parsec-cloud",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parsec",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parsec",
-    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.7.2-a.0.dev.20509%2B0ce7b47_linux_x86_64.unsigned.AppImage",
+    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.7.2-a.0.dev.20510%2B0ce7b47_linux_x86_64.unsigned.AppImage",
     "description": "Open source Dropbox-like file sharing with full client encryption"
   },
   {
@@ -17484,7 +17484,7 @@
     "site": "runelite/launcher",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/runelite",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/runelite",
-    "version_raw": "https://github.com/runelite/launcher/releases/download/2.7.6/RuneLite.AppImage",
+    "version_raw": "https://github.com/runelite/launcher/releases/download/2.7.7/RuneLite.AppImage",
     "description": "Open source Old School RuneScape client"
   },
   {
@@ -21380,7 +21380,7 @@
     "site": "pkgforge-dev/Viber-AppImage-Enhanced",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/viber-enhanced",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/viber-enhanced",
-    "version_raw": "https://github.com/pkgforge-dev/Viber-AppImage-Enhanced/releases/download/27.0.0.1-1%402026-01-12_1768238579/Viber-27.0.0.1-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Viber-AppImage-Enhanced/releases/download/27.3.0.2-1%402026-02-26_1772146155/Viber-27.3.0.2-1-anylinux-x86_64.AppImage",
     "description": "Unofficial. Enhanced AppImage of proprietary cross-platform IM and VoIP software"
   },
   {
@@ -22036,7 +22036,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6924913081",
+    "version_raw": "6928137938",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
