@@ -404,7 +404,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.649/alma-0.0.649-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.650/alma-0.0.650-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -2020,7 +2020,7 @@
     "site": "https://www.blensor.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blensor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blensor",
-    "version_raw": "",
+    "version_raw": "1.0.18",
     "description": "3D modeling, animation, rendering and post-production"
   },
   {
@@ -3132,7 +3132,7 @@
     "site": "https://cinelerra.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cinelerra",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cinelerra",
-    "version_raw": "https://download.cinelerra-gg.org/download.php?file=images%2FCinGG-20260228-x86_64.AppImage",
+    "version_raw": "https://download.cinelerra-gg.org/download.php?file=images%2FCinGG-20260228-x86_64-older-distros.AppImage",
     "description": "CINELERRA-GG is a software program NLE, Non-Linear Editor, that provides a way to edit, record, and play audio or video media. It can also be used to transcode media from one format to another or to correct and retouch photos"
   },
   {
@@ -13440,6 +13440,14 @@
     "description": "Unofficial, nomacs is a free, open source image viewer, which supports multiple platforms"
   },
   {
+    "pkg": "nootka",
+    "site": "https://sourceforge.net/p/nootka",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nootka",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nootka",
+    "version_raw": "https://sourceforge.net/projects/nootka/files/Testing/nootka-2.1.7-devel-b5193-Linux-x86_64.AppImage/download",
+    "description": "Application for learning musical score notation"
+  },
+  {
     "pkg": "nora",
     "site": "Sandakan/Nora",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nora",
@@ -15504,12 +15512,28 @@
     "description": "A GUI for plebbit similar to 4chan"
   },
   {
+    "pkg": "plex",
+    "site": "knapsu/plex-media-player-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/plex",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/plex",
+    "version_raw": "https://github.com/knapsu/plex-media-player-appimage/releases/download/v2.58.1-ae73e074/Plex_Media_Player_2.58.1-ae73e074_x64.AppImage",
+    "description": "The ultimate home theater experience"
+  },
+  {
     "pkg": "plexamp",
     "site": "https://plexamp.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/plexamp",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/plexamp",
     "version_raw": "https://plexamp.plex.tv/plexamp.plex.tv/desktop/Plexamp-4.12.4.AppImage",
     "description": "The best little audio player on the planet"
+  },
+  {
+    "pkg": "plotjuggler",
+    "site": "facontidavide/PlotJuggler",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/plotjuggler",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/plotjuggler",
+    "version_raw": "https://github.com/facontidavide/PlotJuggler/releases/download/3.15.0/PlotJuggler-3.15.0-x86_64.AppImage",
+    "description": "The Time Series Visualization Tool that you deserve"
   },
   {
     "pkg": "plotly-orca",
@@ -15542,6 +15566,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/png2svg",
     "version_raw": "https://github.com/xyproto/png2svg/releases/download/v1.7.0/png2svg-1.7.0-linux.tar.xz",
     "description": "CLI, convert small PNG images to SVG Tiny 1.2"
+  },
+  {
+    "pkg": "pnpm",
+    "site": "simnalamburt/pnpm.appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pnpm",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pnpm",
+    "version_raw": "",
+    "description": "A single file, powered by AppImage"
   },
   {
     "pkg": "pocket-browser",
@@ -15696,6 +15728,14 @@
     "description": "Browser for web developers"
   },
   {
+    "pkg": "pomatez",
+    "site": "zidoro/pomatez",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pomatez",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pomatez",
+    "version_raw": "https://github.com/zidoro/pomatez/releases/download/v1.10.0/Pomatez-v1.10.0-linux-x86_64.AppImage",
+    "description": "Stay Focused. Take a Break"
+  },
+  {
     "pkg": "pomodorolm",
     "site": "vjousse/pomodorolm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pomodorolm",
@@ -15808,6 +15848,14 @@
     "description": "Microsoft PowerShell"
   },
   {
+    "pkg": "ppet3",
+    "site": "zenghongtu/PPet",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ppet3",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ppet3",
+    "version_raw": "https://github.com/zenghongtu/PPet/releases/download/v3.3.0/PPet3-3.3.0.AppImage",
+    "description": "Put a cute girl on your desk for more fun"
+  },
+  {
     "pkg": "ppsspp",
     "site": "hrydgard/ppsspp",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ppsspp",
@@ -15902,6 +15950,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/privacy.sexy",
     "version_raw": "https://github.com/undergroundwires/privacy.sexy/releases/download/0.13.8/privacy.sexy-0.13.8.AppImage",
     "description": "Tool to enforce privacy & security best-practices"
+  },
+  {
+    "pkg": "privaxy",
+    "site": "Barre/privaxy",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/privaxy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/privaxy",
+    "version_raw": "https://github.com/Barre/privaxy/releases/download/v0.5.2/privaxy_0.5.2_amd64.AppImage",
+    "description": "The next generation tracker and ads/advertisement blocker"
   },
   {
     "pkg": "probe-desktop",
@@ -16120,6 +16176,14 @@
     "description": "Qt-based Nintendo Entertaiment System emulator and NSF/NSF2/NSFe Music Player"
   },
   {
+    "pkg": "puppetry",
+    "site": "dsheiko/puppetry",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/puppetry",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/puppetry",
+    "version_raw": "https://github.com/dsheiko/puppetry/releases/download/v3.2.6/puppetry-linux-v3.2.6-x86_64.AppImage",
+    "description": "Solution for non-developers on top of Puppeteer and Jest"
+  },
+  {
     "pkg": "pureref",
     "site": "https://www.pureref.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pureref",
@@ -16222,6 +16286,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qbittorrent",
     "version_raw": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-5.2.0beta1/qbittorrent-5.2.0beta1_x86_64.AppImage/download",
     "description": "A powerful QT-based Bittorrent Client, official AppImage"
+  },
+  {
+    "pkg": "qbittorrent-enhanced",
+    "site": "c0re100/qBittorrent-Enhanced-Edition",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qbittorrent-enhanced",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qbittorrent-enhanced",
+    "version_raw": "",
+    "description": "Unofficial qBittorrent Enhanced, based on qBittorrent"
   },
   {
     "pkg": "qdiskinfo",
@@ -16336,6 +16408,14 @@
     "description": "MIDI Network Gateway via UDP/IP Multicast"
   },
   {
+    "pkg": "qmplay2",
+    "site": "zaps166/QMPlay2",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qmplay2",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qmplay2",
+    "version_raw": "https://github.com/zaps166/QMPlay2/releases/download/25.09.11/QMPlay2-25.09.11-1-x86_64.AppImage",
+    "description": "Video and audio player whit support of most formats and codecs"
+  },
+  {
     "pkg": "qnapi",
     "site": "QNapi/qnapi",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qnapi",
@@ -16366,6 +16446,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qpdf",
     "version_raw": "https://github.com/qpdf/qpdf/releases/download/v12.3.2/qpdf-12.3.2-x86_64.AppImage",
     "description": "CLI tool to perform content-preserving transformations on PDF files"
+  },
+  {
+    "pkg": "qppcad",
+    "site": "nvpopov/qppcad",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qppcad",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qppcad",
+    "version_raw": "https://github.com/nvpopov/qppcad/releases/download/continuous/qppcad-x86_64.AppImage",
+    "description": "Molecule and crystal editor written in c++"
   },
   {
     "pkg": "qprompt",
@@ -16592,6 +16680,14 @@
     "description": "A image viewer application for folders/archives"
   },
   {
+    "pkg": "quiet",
+    "site": "TryQuiet/quiet",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quiet",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quiet",
+    "version_raw": "https://github.com/TryQuiet/quiet/releases/download/%40quiet/desktop%407.0.0/Quiet-7.0.0.AppImage",
+    "description": "A private, p2p alternative to Slack and Discord built on Tor & IPFS"
+  },
+  {
     "pkg": "quokkagit",
     "site": "ballessay/quokkagit",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quokkagit",
@@ -16736,6 +16832,14 @@
     "description": "Simple shape drawn using rasterisation"
   },
   {
+    "pkg": "rasterview",
+    "site": "KurtPfeifle/rasterview",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rasterview",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rasterview",
+    "version_raw": "https://github.com/pdfkungfoo/rasterview/releases/download/continuous/rasterview-v1.6-travisbuild.52-travisbranch.master-git.9ff98c7-x86_64.AppImage",
+    "description": "Raster Viewer for CUPS-Raster, Apple-Raster and PWG-Raster"
+  },
+  {
     "pkg": "rats-search",
     "site": "DEgITx/rats-search",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rats-search",
@@ -16792,6 +16896,14 @@
     "description": "Simple cross platform GUI for rclone"
   },
   {
+    "pkg": "rclone-gui-manager",
+    "site": "madroots/rclone-gui-manager",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rclone-gui-manager",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rclone-gui-manager",
+    "version_raw": "https://github.com/madroots/rclone-gui-manager/releases/download/v1.0.6/rclone-gui-manager-x86_64.AppImage",
+    "description": "A simple, modern graphical user interface for managing rclone remotes for Linux"
+  },
+  {
     "pkg": "rclone-ui",
     "site": "rclone-ui/rclone-ui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rclone-ui",
@@ -16814,6 +16926,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/reactotron",
     "version_raw": "https://github.com/infinitered/reactotron/releases/download/reactotron-app%403.8.2/Reactotron-3.8.2.AppImage",
     "description": "Reactotron desktop mode engage"
+  },
+  {
+    "pkg": "readest",
+    "site": "readest/readest",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/readest",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/readest",
+    "version_raw": "https://github.com/readest/readest/releases/download/v0.9.101/Readest_0.9.101_amd64.AppImage",
+    "description": "Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience"
   },
   {
     "pkg": "real-video-enhancer",
@@ -16854,6 +16974,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rebos",
     "version_raw": "r97.4818a33",
     "description": "Rebos is a tool that aims at mimicking what NixOS does (repeatability), for any Linux distribution"
+  },
+  {
+    "pkg": "reco",
+    "site": "pkgforge-dev/Reco-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/reco",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/reco",
+    "version_raw": "https://github.com/pkgforge-dev/Reco-AppImage/releases/download/5.1.1-1%402026-02-22_1771750688/Reco-5.1.1-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, An audio recorder focused on being concise and simple to use"
   },
   {
     "pkg": "recoll",
@@ -16950,6 +17078,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rendertune",
     "version_raw": "https://github.com/MartinBarker/RenderTune/releases/download/v2.0.12/RenderTune-linux-x86_64.AppImage",
     "description": "Electron app that uses ffmpeg to combine audio.+image files into video files"
+  },
+  {
+    "pkg": "reor",
+    "site": "reorproject/reor",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/reor",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/reor",
+    "version_raw": "https://github.com/reorproject/reor/releases/download/v0.2.26/Reor_0.2.26.AppImage",
+    "description": "AI note-taking app that runs models locally"
   },
   {
     "pkg": "repath-studio",
@@ -17246,6 +17382,22 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpan-studio",
     "version_raw": "https://github.com/reddit/rpan-studio/releases/download/26.0.2.1-rpan/rpan-studio-26.0.2.1-linux.AppImage",
     "description": "OBS Studio with RPAN integration"
+  },
+  {
+    "pkg": "rpcs3",
+    "site": "RPCS3/rpcs3-binaries-linux",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-df5b624e451e16e43016f267d7deeab415d66593/rpcs3-v0.0.39-18866-df5b624e_linux64.AppImage",
+    "description": "An open-source PlayStation 3 emulator/debugger written in C++"
+  },
+  {
+    "pkg": "rquickshare",
+    "site": "Martichou/rquickshare",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rquickshare",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rquickshare",
+    "version_raw": "https://github.com/Martichou/rquickshare/releases/download/v0.11.5/r-quick-share-legacy_v0.11.5_glibc-2.31_amd64.AppImage",
+    "description": "Rust implementation of NearbyShare/QuickShare from Android"
   },
   {
     "pkg": "rrip",
