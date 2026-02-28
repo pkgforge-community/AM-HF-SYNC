@@ -2004,7 +2004,7 @@
     "site": "ivan-hc/Blender-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blender-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blender-beta",
-    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-beta/Blender_Beta-5.1.0-beta%2Bv51.d36f33c46526-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-beta/Blender_Beta-5.1.0-beta%2Bv51.7f06a253941f-x86_64.AppImage",
     "description": "Very fast and versatile 3D modeller/renderer, Beta"
   },
   {
@@ -2020,7 +2020,7 @@
     "site": "https://www.blensor.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blensor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blensor",
-    "version_raw": "1.0.18",
+    "version_raw": "",
     "description": "3D modeling, animation, rendering and post-production"
   },
   {
@@ -4972,7 +4972,7 @@
     "site": "drawpile/Drawpile",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/drawpile",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/drawpile",
-    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.3.0-177-g7e3dd9e67-x86_64.AppImage",
+    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.3.0-184-g96b060ebe-x86_64.AppImage",
     "description": "Drawing program to sketch on the same canvas simultaneously"
   },
   {
@@ -10756,7 +10756,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -13268,7 +13268,7 @@
     "site": "https://www.wakdev.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nfctools",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nfctools",
-    "version_raw": "https://apps.wakdev.com/ntgui/releases/linux/nfctools-latest.AppImage",
+    "version_raw": "",
     "description": "A library which allows userspace application access to NFC devices"
   },
   {
@@ -15908,7 +15908,7 @@
     "site": "https://printventory.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/printventory",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/printventory",
-    "version_raw": "https://printventory.techjeeper.com/printventory-2.0.14.AppImage",
+    "version_raw": "https://printventory.techjeeper.com/",
     "description": "The ultimate tool for managing your 3D printing collection with ease. Sort, tag, and track your models in one place"
   },
   {
@@ -20172,7 +20172,7 @@
     "site": "https://www.cgsecurity.org/wiki/TestDisk_Download",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/testdisk",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/testdisk",
-    "version_raw": "https://www.cgsecurity.org/testdisk-7.3-WIP.linux26-x86_64.tar.bz2",
+    "version_raw": "",
     "description": "TestDisk & PhotoRec, tools to recover lost partitions and files"
   },
   {
@@ -21984,14 +21984,6 @@
     "description": "Custom launcher for modded Minecraft, game"
   },
   {
-    "pkg": "wethr",
-    "site": "risoflora/wethr",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wethr",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wethr",
-    "version_raw": "https://github.com/risoflora/wethr/releases/download/v0.6.0/wethr-x86_64-unknown-linux-gnu.zip",
-    "description": "Command line weather tool"
-  },
-  {
     "pkg": "wewechat",
     "site": "trazyn/wewechat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wewechat",
@@ -22020,7 +22012,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6961864347",
+    "version_raw": "6962514313",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -22272,22 +22264,6 @@
     "description": "Create a powerful knowledge graph from personal notes to team wiki"
   },
   {
-    "pkg": "wiznoteplus",
-    "site": "altairwei/WizNotePlus",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wiznoteplus",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wiznoteplus",
-    "version_raw": "https://github.com/altairwei/WizNotePlus/releases/download/v2.12.0/WizNotePlus-linux-v2.12.0.AppImage",
-    "description": "The third party that supports the plug-in is Zhinote client"
-  },
-  {
-    "pkg": "wkp",
-    "site": "Idontknow13/wkp",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wkp",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wkp",
-    "version_raw": "https://api.github.com/repos/Idontknow13/wkp/releases/74578783",
-    "description": "A CLI tool designed to fetch Wikipedia excerpts written in Rust"
-  },
-  {
     "pkg": "wled-gui",
     "site": "w00000dy/WLED-GUI",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wled-gui",
@@ -22512,14 +22488,6 @@
     "description": "An Open Source Minecraft Launcher with Modern UX"
   },
   {
-    "pkg": "x-pixiv",
-    "site": "xiaoxigua-1/XPixiv",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/x-pixiv",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/x-pixiv",
-    "version_raw": "https://github.com/xiaoxigua-1/XPixiv/releases/download/v.1.0.1/x-pixiv-1.0.1-x86_64-unknown-linux-gnu.tar.gz",
-    "description": "CLI, pixiv downloader"
-  },
-  {
     "pkg": "xapkdetector",
     "site": "horsicq/XAPKDetector",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xapkdetector",
@@ -22558,14 +22526,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xde",
     "version_raw": "https://github.com/expo/xde/releases/download/v2.25.0/xde-2.25.0-x86_64.AppImage",
     "description": "The Expo Development Environment"
-  },
-  {
-    "pkg": "xdelta3-cross-gui",
-    "site": "dan0v/xdelta3-cross-gui",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xdelta3-cross-gui",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xdelta3-cross-gui",
-    "version_raw": "https://github.com/dan0v/xdelta3-cross-gui/releases/download/1.7.1/xdelta3-cross-gui_linux_AppImage_x86_64.tar.gz",
-    "description": "A cross-platform GUI for creating xDelta3 patches"
   },
   {
     "pkg": "xdg-ninja",
@@ -22712,14 +22672,6 @@
     "description": "A C++ handwriting notetaking software with PDF annotation support"
   },
   {
-    "pkg": "xournal++nightly",
-    "site": "xournalpp/xournalpp",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xournal++nightly",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xournal++nightly",
-    "version_raw": "https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-1.3.2%2Bdev-nightly-20260228-x86_64.AppImage",
-    "description": "C++ notetaking software with PDF annotation support, DEV"
-  },
-  {
     "pkg": "xpeviewer",
     "site": "horsicq/XPEViewer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xpeviewer",
@@ -22782,14 +22734,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xxh",
     "version_raw": "https://github.com/xxh/xxh/releases/download/0.8.14/xxh-x86_64.AppImage",
     "description": "Bring your favorite shell wherever you go through the ssh"
-  },
-  {
-    "pkg": "xyce",
-    "site": "NyanCAD/Xyce-build",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xyce",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xyce",
-    "version_raw": "https://github.com/NyanCAD/Xyce-build/releases/download/v7.10.1/Xyce-1.0.0-x86_64.AppImage",
-    "description": "Xyce Parallel Electronic Simulator"
   },
   {
     "pkg": "yaak",
@@ -22870,14 +22814,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yandex-browser-beta",
     "version_raw": "https://github.com/ivan-hc/Yandex-Browser-appimage/releases/download/continuous/Yandex-Browser-beta-25.12.1.1317-1-x86_64.AppImage",
     "description": "Unofficial Yandex Browser AppImage, Beta"
-  },
-  {
-    "pkg": "yandex-browser-corporate",
-    "site": "ivan-hc/Yandex-Browser-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yandex-browser-corporate",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yandex-browser-corporate",
-    "version_raw": "https://github.com/ivan-hc/Yandex-Browser-appimage/releases/download/continuous/Yandex-Browser-corporate-25.12.4.1244-1-x86_64.AppImage",
-    "description": "Unofficial Yandex Browser AppImage, Corporate"
   },
   {
     "pkg": "yangdownloader",
@@ -23040,14 +22976,6 @@
     "description": "Garbage Youtube livestream downloader CLI"
   },
   {
-    "pkg": "ytdownloader",
-    "site": "aandrew-me/ytDownloader",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ytdownloader",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ytdownloader",
-    "version_raw": "https://github.com/aandrew-me/ytDownloader/releases/download/v3.20.2/YTDownloader_Linux.AppImage",
-    "description": "App for downloading Videos and Audios from hundreds of sites"
-  },
-  {
     "pkg": "ytermusic",
     "site": "ccgauche/ytermusic",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ytermusic",
@@ -23088,14 +23016,6 @@
     "description": "Configure your YubiKey over all USB transports"
   },
   {
-    "pkg": "yup",
-    "site": "ericm/yup",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yup",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yup",
-    "version_raw": "https://github.com/ericm/yup/releases/download/v1.1.8/yup",
-    "description": "Arch Linux AUR Helper with ncurses functionality and better searching and sorting"
-  },
-  {
     "pkg": "yuview",
     "site": "IENT/YUView",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yuview",
@@ -23118,14 +23038,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zapdesktop",
     "version_raw": "https://github.com/LN-Zap/zap-desktop/releases/download/v0.7.7-beta/Zap-linux-x86_64-v0.7.7-beta.AppImage",
     "description": "Desktop application for the lightning network"
-  },
-  {
-    "pkg": "zapzap",
-    "site": "rafatosta/zapzap",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zapzap",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zapzap",
-    "version_raw": "https://github.com/rafatosta/zapzap/releases/download/6.3/ZapZap-x86_64.AppImage",
-    "description": "WhatsApp desktop application written in Pyqt6 + PyQt6-WebEngine"
   },
   {
     "pkg": "zapzap-enhanced",
