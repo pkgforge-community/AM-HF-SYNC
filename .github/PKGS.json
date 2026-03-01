@@ -404,7 +404,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.650/alma-0.0.650-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.651/alma-0.0.651-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -4784,6 +4784,14 @@
     "description": "Desktop client for the Duolingo language learning application"
   },
   {
+    "pkg": "dlman",
+    "site": "novincode/dlman",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dlman",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dlman",
+    "version_raw": "https://github.com/novincode/dlman/releases/download/v1.9.2/DLMan_1.9.2_amd64.AppImage",
+    "description": "Free & fast modern download manager built with Rust for speed and reliability"
+  },
+  {
     "pkg": "dns-changer",
     "site": "DnsChanger/dnsChanger-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dns-changer",
@@ -5932,7 +5940,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.2.4.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -6132,7 +6140,7 @@
     "site": "Portable-Linux-Apps/fastfetch-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fastfetch",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fastfetch",
-    "version_raw": "https://github.com/Portable-Linux-Apps/fastfetch-AppImage/releases/download/2.59.0%402026-02-22_1771777129/fastfetch-2.59.0-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/fastfetch-AppImage/releases/download/2.59.0%402026-03-01_1772381831/fastfetch-2.59.0-x86_64.AppImage",
     "description": "Like neofetch, but much faster because written mostly in C"
   },
   {
@@ -8508,7 +8516,7 @@
     "site": "cjpais/Handy",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/handy",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/handy",
-    "version_raw": "https://github.com/cjpais/Handy/releases/download/v0.7.8/Handy_0.7.8_amd64.AppImage",
+    "version_raw": "https://github.com/cjpais/Handy/releases/download/v0.7.9/Handy_0.7.9_amd64.AppImage",
     "description": "A free, open source, and extensible speech-to-text application that works completely offline"
   },
   {
@@ -8764,7 +8772,7 @@
     "site": "HMCL-dev/HMCL",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hmcl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hmcl",
-    "version_raw": "https://github.com/HMCL-dev/HMCL/releases/download/v3.11.2/HMCL-3.11.2.sh",
+    "version_raw": "https://github.com/HMCL-dev/HMCL/releases/download/v3.12.0.330/HMCL-3.12.0.330.sh",
     "description": "A Minecraft Launcher which is multi-functional, cross-platform and popular"
   },
   {
@@ -8996,7 +9004,7 @@
     "site": "Portable-Linux-Apps/IceCat-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/icecat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/icecat",
-    "version_raw": "https://github.com/Portable-Linux-Apps/IceCat-AppImage/releases/download/128.14.0%402026-02-22_1771776861/IceCat-128.14.0-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/IceCat-AppImage/releases/download/128.14.0%402026-03-01_1772381606/IceCat-128.14.0-x86_64.AppImage",
     "description": "GNU IceCat is the GNU version of the Firefox web browser"
   },
   {
@@ -10876,7 +10884,7 @@
     "site": "Portable-Linux-Apps/lapce-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lapce",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lapce",
-    "version_raw": "https://github.com/Portable-Linux-Apps/lapce-AppImage/releases/download/v0.4.6%402026-02-21_1771691516/Lapce-v0.4.6-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/lapce-AppImage/releases/download/v0.4.6%402026-03-01_1772382660/Lapce-v0.4.6-x86_64.AppImage",
     "description": "Lightning-fast and Powerful Code Editor written in Rust"
   },
   {
@@ -11444,7 +11452,7 @@
     "site": "Portable-Linux-Apps/Lorien-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lorien",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lorien",
-    "version_raw": "https://github.com/Portable-Linux-Apps/Lorien-AppImage/releases/download/v0.6.0%402026-02-15_1771172314/Lorien-v0.6.0-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/Lorien-AppImage/releases/download/v0.6.0%402026-03-01_1772381829/Lorien-v0.6.0-x86_64.AppImage",
     "description": "Infinite canvas drawing/whiteboarding app"
   },
   {
@@ -12796,7 +12804,7 @@
     "site": "Portable-Linux-Apps/mullvad-browser-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mullvad-browser",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mullvad-browser",
-    "version_raw": "https://github.com/Portable-Linux-Apps/mullvad-browser-AppImage/releases/download/15.0.6%402026-02-22_1771778058/Mullvad_Browser-15.0.6-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/mullvad-browser-AppImage/releases/download/15.0.7%402026-03-01_1772382753/Mullvad_Browser-15.0.7-x86_64.AppImage",
     "description": "A Tor-based Web Browser"
   },
   {
@@ -17468,7 +17476,7 @@
     "site": "Portable-Linux-Apps/ruffle-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ruffle",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ruffle",
-    "version_raw": "https://github.com/Portable-Linux-Apps/ruffle-AppImage/releases/download/nightly-2026-02-22%402026-02-22_1771777607/Ruffle-nightly-2026-02-22-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/ruffle-AppImage/releases/download/nightly-2026-03-01%402026-03-01_1772382244/Ruffle-nightly-2026-03-01-x86_64.AppImage",
     "description": "A Flash Player emulator written in Rust"
   },
   {
@@ -17508,7 +17516,7 @@
     "site": "rustdesk/rustdesk",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rustdesk",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rustdesk",
-    "version_raw": "https://github.com/rustdesk/rustdesk/releases/download/1.4.5/rustdesk-1.4.5-x86_64.AppImage",
+    "version_raw": "https://github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-1.4.6-x86_64.AppImage",
     "description": "Virtual/remote desktop infrastructure, like TeamViewer/Citrix"
   },
   {
@@ -17988,7 +17996,7 @@
     "site": "https://hackaday.io",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/serialplot",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/serialplot",
-    "version_raw": "",
+    "version_raw": "https://github.com/hyOzd/serialplot/releases/download/v0.13.0/SerialPlot-ae7e3dc-x86_64.AppImage",
     "description": "Small and simple software for plotting data from serial port"
   },
   {
@@ -18364,7 +18372,7 @@
     "site": "mifi/SimpleInstaBot",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/simpleinstabot",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/simpleinstabot",
-    "version_raw": "https://github.com/mifi/SimpleInstaBot/releases/download/v1.11.7/SimpleInstaBot-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/mifi/SimpleInstaBot/releases/download/v1.11.8/SimpleInstaBot-linux-x86_64.AppImage",
     "description": "Simple Instagram bot"
   },
   {
@@ -20092,7 +20100,7 @@
     "site": "Portable-Linux-Apps/Telegram-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/telegram",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/telegram",
-    "version_raw": "https://github.com/Portable-Linux-Apps/Telegram-AppImage/releases/download/v6.5.1%402026-02-22_1771777232/Telegram-v6.5.1-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/Telegram-AppImage/releases/download/v6.5.1%402026-03-01_1772381935/Telegram-v6.5.1-x86_64.AppImage",
     "description": "Official desktop version of Telegram messaging app"
   },
   {
@@ -20332,7 +20340,7 @@
     "site": "edrlab/thorium-reader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium-reader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium-reader",
-    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.1-beta.1.22489642272.AppImage",
+    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.1-beta.1.22547194169.AppImage",
     "description": "Desktop application to read ebooks"
   },
   {
@@ -21884,7 +21892,7 @@
     "site": "Portable-Linux-Apps/Waterfox-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/waterfox",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/waterfox",
-    "version_raw": "https://github.com/Portable-Linux-Apps/Waterfox-AppImage/releases/download/140.8.0%402026-02-26_1772078686/Waterfox-140.8.0-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/Waterfox-AppImage/releases/download/140.8.0%402026-03-01_1772382269/Waterfox-140.8.0-x86_64.AppImage",
     "description": "A privacy-focused web browser engineered to give you speed, control, and peace of mind on the internet"
   },
   {
@@ -22028,7 +22036,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6980170096",
+    "version_raw": "6981929537",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -22612,7 +22620,7 @@
     "site": "has207/xenia-edge",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xenia-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xenia-edge",
-    "version_raw": "https://github.com/has207/xenia-edge/releases/download/2ea9004/xenia_edge_linux.AppImage",
+    "version_raw": "https://github.com/has207/xenia-edge/releases/download/f7b9a87/xenia_edge_linux.AppImage",
     "description": "Xbox 360 Emulator Research Project, fork of the Xenia emulator, with the aim of quicker iteration and improvements to Vulkan backend"
   },
   {
