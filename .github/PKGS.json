@@ -28,7 +28,7 @@
     "site": "HarbourMasters/2ship2harkinian",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/2ship",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/2ship",
-    "version_raw": "https://github.com/HarbourMasters/2ship2harkinian/releases/download/4.0.1/2Ship-Keiichi-Bravo-Linux.zip",
+    "version_raw": "https://github.com/HarbourMasters/2ship2harkinian/releases/download/4.0.2/2Ship-Keiichi-Charlie-Linux.zip",
     "description": "2 Ship 2 Harkinian game"
   },
   {
@@ -1468,7 +1468,7 @@
     "site": "Balatro-Multiplayer/Balatro-Multiplayer-Launcher",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/balatro-multiplayer",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/balatro-multiplayer",
-    "version_raw": "https://github.com/Balatro-Multiplayer/Balatro-Multiplayer-Launcher/releases/download/v1.0.15/balatro-multiplayer-launcher.AppImage",
+    "version_raw": "https://github.com/Balatro-Multiplayer/Balatro-Multiplayer-Launcher/releases/download/v1.0.16/balatro-multiplayer-launcher.AppImage",
     "description": "A Multiplayer Mod for Balatro"
   },
   {
@@ -1996,7 +1996,7 @@
     "site": "ivan-hc/Blender-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blender-alpha",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blender-alpha",
-    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.2.0-alpha%2Bmain.15ad0265b57b-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.2.0-alpha%2Bmain.6eefd13b2619-x86_64.AppImage",
     "description": "Very fast and versatile 3D modeller/renderer, Alpha"
   },
   {
@@ -7628,7 +7628,7 @@
     "site": "ivan-hc/GIMP-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gimp-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gimp-git",
-    "version_raw": "https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_56941.4c15be6a566-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_56951.9a2193bb93c-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial, Cross-platform image and photo editor, built from GIT"
   },
   {
@@ -7702,6 +7702,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/github-desktop-plus",
     "version_raw": "https://github.com/pol-rivero/github-desktop-plus/releases/download/v3.5.6.5/GitHubDesktopPlus-v3.5.6.5-linux-x86_64.AppImage",
     "description": "Electron-based GitHub Desktop fork with advanced functionality and Bitbucket, GitLab integration"
+  },
+  {
+    "pkg": "github-store",
+    "site": "rainxchzed/Github-Store",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/github-store",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/github-store",
+    "version_raw": "https://github.com/rainxchzed/Github-Store/releases/download/1.6.0/GitHub-Store-x86_64.AppImage",
+    "description": "A free, open-source app store for GitHub releases. Browse, discover, and install apps with one click. Powered by Kotlin and Compose Multiplatform for Android & Desktop"
   },
   {
     "pkg": "gitify",
@@ -14332,7 +14340,7 @@
     "site": "TechxArtisanStudio/Openterface_QT",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openterface-qt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openterface-qt",
-    "version_raw": "https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/0.5.15/openterfaceQT_linux_amd64.AppImage",
+    "version_raw": "https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/0.5.16/openterfaceQT_linux_amd64.AppImage",
     "description": "Openterface Mini-KVM"
   },
   {
@@ -14420,7 +14428,7 @@
     "site": "sethyuan/orca-note",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/orca-note",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/orca-note",
-    "version_raw": "https://github.com/sethyuan/orca-note/releases/download/v1.66.0/orcanote-linux-x86_64-1.66.0.AppImage",
+    "version_raw": "https://github.com/sethyuan/orca-note/releases/download/v1.67.0/orcanote-linux-x86_64-1.67.0.AppImage",
     "description": "A note taking application that is good both for outlining and long-form writing"
   },
   {
@@ -19884,7 +19892,7 @@
     "site": "pkgforge-dev/system-monitoring-center-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/system-monitoring-center",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/system-monitoring-center",
-    "version_raw": "https://github.com/pkgforge-dev/system-monitoring-center-AppImage/releases/download/2.26.3-1%402026-02-01_1769937115/System_Monitoring_Center-2.26.3-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/system-monitoring-center-AppImage/releases/download/3.1.0-1%402026-03-02_1772425575/System_Monitoring_Center-3.1.0-1-anylinux-x86_64.AppImage",
     "description": "Unofficial. Multi-featured system monitor"
   },
   {
@@ -21676,7 +21684,7 @@
     "site": "ivan-hc/VLC-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vlc-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vlc-git",
-    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r36120.g1499dac-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r36147.g0a4b3c6-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial. Free and Open Source Video & Media player, GIT version"
   },
   {
@@ -22044,7 +22052,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6988628855",
+    "version_raw": "6991387041",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
