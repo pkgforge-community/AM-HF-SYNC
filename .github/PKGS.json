@@ -1196,7 +1196,7 @@
     "site": "ivan-hc/asunder-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/asunder",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/asunder",
-    "version_raw": "https://github.com/ivan-hc/asunder-appimage/releases/download/continuous/Asunder-CD-Ripper_3.0.1-2-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/asunder-appimage/releases/download/continuous/Asunder-CD-Ripper_3.0.2-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial. Audio CD ripper and encoder, WAV, MP3, OGG, FLAC, Opus, AAC"
   },
   {
@@ -2020,7 +2020,7 @@
     "site": "https://www.blensor.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blensor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blensor",
-    "version_raw": "1.0.18",
+    "version_raw": "",
     "description": "3D modeling, animation, rendering and post-production"
   },
   {
@@ -2590,6 +2590,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/caesium",
     "version_raw": "https://github.com/larygwil/caesium-image-compressor/releases/download/v2.6.0/Caesium_Image_Compressor-x86_64_v2.6.0_ubu20_qt66.AppImage",
     "description": "Image compression software that helps you store, send and share digital pictures, supporting JPG, PNG, WebP and TIFF formats"
+  },
+  {
+    "pkg": "cake-wallet",
+    "site": "cake-tech/cake_wallet",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cake-wallet",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cake-wallet",
+    "version_raw": "https://github.com/cake-tech/cake_wallet/releases/download/v5.9.0/Cake_Wallet_v5.9.0_Linux.tar.xz",
+    "description": "Easily and safely store, send, receive, and exchange your cryptocurrency"
   },
   {
     "pkg": "calibre",
@@ -3204,7 +3212,7 @@
     "site": "libnyanpasu/clash-nyanpasu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clash-nyanpasu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/clash-nyanpasu",
-    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha%2B1a1dad6_amd64.AppImage",
+    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha%2Bfd41cb0_amd64.AppImage",
     "description": "A Clash GUI based on tauri"
   },
   {
@@ -3292,7 +3300,7 @@
     "site": "https://clipgrab.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clipgrab",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/clipgrab",
-    "version_raw": "https://download.clipgrab.org/ClipGrab-3.9.14-x86_64.AppImage",
+    "version_raw": "",
     "description": "Download and Convert Online Videos"
   },
   {
@@ -4300,7 +4308,7 @@
     "site": "valicm/dbeaver-ce-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dbeaver-ce",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dbeaver-ce",
-    "version_raw": "25.3.5",
+    "version_raw": "26.0.0",
     "description": "Unofficial, DBeaver Community is a free cross-platform database tool for developers, database administrators, analysts, and everyone working with data"
   },
   {
@@ -4980,7 +4988,7 @@
     "site": "drawpile/Drawpile",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/drawpile",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/drawpile",
-    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.3.0-186-g2d3581e80-x86_64.AppImage",
+    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.3.0-188-g7163d0374-x86_64.AppImage",
     "description": "Drawing program to sketch on the same canvas simultaneously"
   },
   {
@@ -5940,7 +5948,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.2.4.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -7572,7 +7580,7 @@
     "site": "pkgforge-dev/ghostty-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ghostty-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ghostty-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.0-main%2B1499491-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.0-main%2B2454642-x86_64.AppImage",
     "description": "Unoffical, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (Tip, Nightly)"
   },
   {
@@ -8780,7 +8788,7 @@
     "site": "KDAB/hotspot",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hotspot",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hotspot",
-    "version_raw": "https://github.com/KDAB/hotspot/releases/download/v1.5.1/hotspot-v1.5.1-x86_64.AppImage",
+    "version_raw": "https://github.com/KDAB/hotspot/releases/download/v1.6.0/hotspot-v1.6.0-x86_64.AppImage",
     "description": "The Linux perf GUI for performance analysis"
   },
   {
@@ -10780,7 +10788,7 @@
     "site": "ivan-hc/kwave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kwave",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kwave",
-    "version_raw": "https://github.com/ivan-hc/kwave-appimage/releases/download/continuous/Kwave-Sound-Editor_25.12.1-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/kwave-appimage/releases/download/continuous/Kwave-Sound-Editor_25.12.2-1-archimage5.0-x86_64.AppImage",
     "description": "A sound & audio editor designed for the KDE Desktop Environment"
   },
   {
@@ -12112,6 +12120,14 @@
     "description": "MegaGlest real-time strategy game engine (cross-platform, 3-d)"
   },
   {
+    "pkg": "meganimus",
+    "site": "Kyuyrii/Meganimus",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/meganimus",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/meganimus",
+    "version_raw": "https://github.com/Kyuyrii/Meganimus/releases/download/1.6.5/Meganimus-x86_64.AppImage",
+    "description": "A launcher for native and emulator games"
+  },
+  {
     "pkg": "mellowplayer",
     "site": "ColinDuquesnoy/MellowPlayer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mellowplayer",
@@ -13284,7 +13300,7 @@
     "site": "https://www.wakdev.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nfctools",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nfctools",
-    "version_raw": "https://apps.wakdev.com/ntgui/releases/linux/nfctools-latest.AppImage",
+    "version_raw": "",
     "description": "A library which allows userspace application access to NFC devices"
   },
   {
@@ -13628,7 +13644,7 @@
     "site": "nukeop/nuclear",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nuclear",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nuclear",
-    "version_raw": "https://github.com/nukeop/nuclear/releases/download/player%401.12.0/nuclear-music-player_1.12.0_amd64.AppImage",
+    "version_raw": "https://github.com/nukeop/nuclear/releases/download/player%401.13.0/nuclear-music-player_1.13.0_amd64.AppImage",
     "description": "Streaming music player that finds free music for you"
   },
   {
@@ -14140,7 +14156,7 @@
     "site": "pkgforge-dev/opencode-AppImage-Enhanced",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/opencode",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/opencode",
-    "version_raw": "https://github.com/pkgforge-dev/opencode-AppImage-Enhanced/releases/download/1.2.10-1%402026-02-22_1771750984/OpenCode-1.2.10-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/opencode-AppImage-Enhanced/releases/download/1.2.15-2%402026-03-02_1772414542/OpenCode-1.2.15-2-anylinux-x86_64.AppImage",
     "description": "Unofficial, The open source coding agent"
   },
   {
@@ -14409,35 +14425,19 @@
   },
   {
     "pkg": "orcaslicer",
-    "site": "SoftFever/OrcaSlicer",
+    "site": "OrcaSlicer/OrcaSlicer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/orcaslicer",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/orcaslicer",
-    "version_raw": "https://github.com/OrcaSlicer/OrcaSlicer/releases/download/v2.3.0/OrcaSlicer_Linux_AppImage_V2.3.0.AppImage",
+    "version_raw": "https://github.com/OrcaSlicer/OrcaSlicer/releases/download/v2.3.1/OrcaSlicer_Linux_AppImage_Ubuntu2404_V2.3.1.AppImage",
     "description": "G-code generator for 3D printers, Stable release"
   },
   {
-    "pkg": "orcaslicer-any",
-    "site": "SoftFever/OrcaSlicer",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/orcaslicer-any",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/orcaslicer-any",
-    "version_raw": "https://github.com/OrcaSlicer/OrcaSlicer/releases/download/v2.3.0/OrcaSlicer_Linux_AppImage_V2.3.0.AppImage",
-    "description": "G-code generator for 3D printers, the most recent release"
-  },
-  {
-    "pkg": "orcaslicer-beta",
-    "site": "SoftFever/OrcaSlicer",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/orcaslicer-beta",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/orcaslicer-beta",
-    "version_raw": "",
-    "description": "G-code generator for 3D printers, Beta release"
-  },
-  {
-    "pkg": "orcaslicer-rc",
-    "site": "SoftFever/OrcaSlicer",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/orcaslicer-rc",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/orcaslicer-rc",
-    "version_raw": "https://github.com/OrcaSlicer/OrcaSlicer/releases/download/v2.3.0-rc/OrcaSlicer_Linux_AppImage_V2.3.0-rc.AppImage",
-    "description": "G-code generator for 3D printers, Release Candidate"
+    "pkg": "orcaslicer-devel",
+    "site": "OrcaSlicer/OrcaSlicer",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/orcaslicer-devel",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/orcaslicer-devel",
+    "version_raw": "https://github.com/OrcaSlicer/OrcaSlicer/releases/download/v2.3.2-rc/ORCaSlicer_Linux_AppImage_Ubuntu2404_V2.3.2-RC.AppImage",
+    "description": "G-code generator for 3D printers, the most recent development build (nightly, alpha, beta, rc)"
   },
   {
     "pkg": "osrs-tools",
@@ -14764,7 +14764,7 @@
     "site": "Scille/parsec-cloud",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parsec",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parsec",
-    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.7.2-a.0.dev.20512%2B2c38e1a_linux_x86_64.unsigned.AppImage",
+    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.7.2-a.0.dev.20513%2B2c38e1a_linux_x86_64.unsigned.AppImage",
     "description": "Open source Dropbox-like file sharing with full client encryption"
   },
   {
@@ -15924,7 +15924,7 @@
     "site": "https://printventory.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/printventory",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/printventory",
-    "version_raw": "https://printventory.techjeeper.com/printventory-2.0.14.AppImage",
+    "version_raw": "https://printventory.techjeeper.com/printventory-2.0.15.AppImage",
     "description": "The ultimate tool for managing your 3D printing collection with ease. Sort, tag, and track your models in one place"
   },
   {
@@ -19880,6 +19880,14 @@
     "description": "An old school polyphonic synthesizer"
   },
   {
+    "pkg": "system-monitoring-center",
+    "site": "pkgforge-dev/system-monitoring-center-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/system-monitoring-center",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/system-monitoring-center",
+    "version_raw": "https://github.com/pkgforge-dev/system-monitoring-center-AppImage/releases/download/2.26.3-1%402026-02-01_1769937115/System_Monitoring_Center-2.26.3-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial. Multi-featured system monitor"
+  },
+  {
     "pkg": "sysz",
     "site": "joehillen/sysz",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sysz",
@@ -20188,7 +20196,7 @@
     "site": "https://www.cgsecurity.org/wiki/TestDisk_Download",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/testdisk",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/testdisk",
-    "version_raw": "https://www.cgsecurity.org/testdisk-7.3-WIP.linux26-x86_64.tar.bz2",
+    "version_raw": "",
     "description": "TestDisk & PhotoRec, tools to recover lost partitions and files"
   },
   {
@@ -22036,7 +22044,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "6985589702",
+    "version_raw": "6988628855",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
