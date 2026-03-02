@@ -644,7 +644,7 @@
     "site": "https://ankama.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ankama-launcher",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ankama-launcher",
-    "version_raw": "3.13.37",
+    "version_raw": "3.14.2",
     "description": "Ankama is an entertainment and digital creation group"
   },
   {
@@ -732,7 +732,7 @@
     "site": "Mintplex-Labs/anything-llm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anything-llm",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anything-llm",
-    "version_raw": "v1.11.0",
+    "version_raw": "v1.11.1",
     "description": "AI business intelligence tool. Any LLM, any document"
   },
   {
@@ -740,7 +740,7 @@
     "site": "anyproto/anytype-ts",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anytype",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anytype",
-    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.54.8-alpha/Anytype-0.54.8-alpha.AppImage",
+    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.54.9-alpha/Anytype-0.54.9-alpha.AppImage",
     "description": "The everything app for those who celebrate trust & autonomy"
   },
   {
@@ -1124,7 +1124,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "",
+    "version_raw": "1.0.4",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -1502,14 +1502,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bandwhich",
     "version_raw": "https://github.com/imsnif/bandwhich/releases/download/v0.23.1/bandwhich-v0.23.1-x86_64-unknown-linux-gnu.tar.gz",
     "description": "Terminal bandwidth utilization tool"
-  },
-  {
-    "pkg": "baobab-gtk3",
-    "site": "ivan-hc/GNOME3-appimages",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/baobab-gtk3",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/baobab-gtk3",
-    "version_raw": "https://github.com/ivan-hc/GNOME3-appimages/releases/download/baobab/Disk-Usage-Analyzer_3.38.0-1-x86_64.AppImage",
-    "description": "Unofficial. Disk Usage Analyser, version 3.38"
   },
   {
     "pkg": "barnacal",
@@ -2252,7 +2244,7 @@
     "site": "ivan-hc/Bottles-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bottles",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bottles",
-    "version_raw": "https://github.com/ivan-hc/Bottles-appimage/releases/download/20260202-153650/Bottles_61.1-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Bottles-appimage/releases/download/20260302-174701/Bottles_62.0-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial. Manage wine prefixes and run Windows software & games in a new way"
   },
   {
@@ -5712,14 +5704,6 @@
     "description": "EnvKey’s cross-platform native app"
   },
   {
-    "pkg": "eog-gtk3",
-    "site": "ivan-hc/GNOME3-appimages",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eog-gtk3",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eog-gtk3",
-    "version_raw": "https://github.com/ivan-hc/GNOME3-appimages/releases/download/eog/Image-Viewer_3.38.2-1-x86_64.AppImage",
-    "description": "Unofficial. Image Viewer, version 3.38.2"
-  },
-  {
     "pkg": "eosvc",
     "site": "bedrich-schindler/e-osvc",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eosvc",
@@ -6376,14 +6360,6 @@
     "description": "Convert between various file formats"
   },
   {
-    "pkg": "file-roller-gtk3",
-    "site": "ivan-hc/GNOME3-appimages",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/file-roller-gtk3",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/file-roller-gtk3",
-    "version_raw": "https://github.com/ivan-hc/GNOME3-appimages/releases/download/file-roller/Archive-Manager_3.38.1-1-x86_64.AppImage",
-    "description": "An archive manager that supports .zip/.tar/.rar/.iso/.ar/.exe and more, for the GNOME environment, version 3.38.1"
-  },
-  {
     "pkg": "file-to-c",
     "site": "Wallby/file-to-c",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/file-to-c",
@@ -6948,7 +6924,7 @@
     "site": "66HEX/frame",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/frame",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/frame",
-    "version_raw": "https://github.com/66HEX/frame/releases/download/0.25.2/Frame_0.25.2_amd64.AppImage",
+    "version_raw": "https://github.com/66HEX/frame/releases/download/0.25.3/Frame_0.25.3_amd64.AppImage",
     "description": "Fast FFmpeg GUI"
   },
   {
@@ -7812,7 +7788,7 @@
     "site": "https://gitlab.com/gitlab-org/cli",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/glab",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/glab",
-    "version_raw": "https://gitlab.com/gitlab-org/cli/-/releases/v1.86.0/downloads/glab_1.86.0_linux_386.tar.gz",
+    "version_raw": "https://gitlab.com/gitlab-org/cli/-/releases/v1.87.0/downloads/glab_1.87.0_linux_386.tar.gz",
     "description": "A GitLab CLI tool bringing GitLab to your command line"
   },
   {
@@ -7918,14 +7894,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gnome-system-monitor",
     "version_raw": "https://github.com/pkgforge-dev/Gnome-System-Monitor-AppImage/releases/download/49.1-1%402026-03-01_1772356769/System_Monitor-49.1-1-anylinux-x86_64.AppImage",
     "description": "Unofficial. View current processes and monitor system state"
-  },
-  {
-    "pkg": "gnome-system-monitor-gtk3",
-    "site": "ivan-hc/GNOME3-appimages",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gnome-system-monitor-gtk3",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gnome-system-monitor-gtk3",
-    "version_raw": "https://github.com/ivan-hc/GNOME3-appimages/releases/download/gnome-system-monitor/System-Monitor_3.38.0-1-x86_64.AppImage",
-    "description": "Unofficial, Version 3.38.0, for all those who hate GNOME4+ UIs"
   },
   {
     "pkg": "gnome-text-editor",
@@ -9700,7 +9668,7 @@
     "site": "laurent22/joplin",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/joplin-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/joplin-beta",
-    "version_raw": "https://github.com/laurent22/joplin/releases/download/v3.5.13/Joplin-3.5.13.AppImage",
+    "version_raw": "https://github.com/laurent22/joplin/releases/download/v3.6.3/Joplin-3.6.3.AppImage",
     "description": "A cross-platform note taking and to-do app"
   },
   {
@@ -10796,7 +10764,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -11676,7 +11644,7 @@
     "site": "mlm-games/mages",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mages",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mages",
-    "version_raw": "https://github.com/mlm-games/Mages/releases/download/3.2.1/mages-3.2.1-x86_64.AppImage",
+    "version_raw": "https://github.com/mlm-games/Mages/releases/download/4.0.1/mages-4.0.1-x86_64.AppImage",
     "description": "Multiplatform Matrix chat client (experimental CMP+rust app)"
   },
   {
@@ -13772,7 +13740,7 @@
     "site": "nymtech/nym-vpn-client",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nym-vpn",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nym-vpn",
-    "version_raw": "https://github.com/nymtech/nym-vpn-client/releases/download/nym-vpn-app-v1.25.0-rc1/NymVPN_1.25.0-rc1_x64.AppImage",
+    "version_raw": "https://github.com/nymtech/nym-vpn-client/releases/download/nym-vpn-app-v1.25.0/NymVPN_1.25.0_x64.AppImage",
     "description": "Cross-platform open source VPN client built in Rust, with mixnet anonymity and WireGuard speed. Protects metadata, not just IP addresses. Zero-knowledge payments for unlinkable online activities"
   },
   {
@@ -16108,7 +16076,7 @@
     "site": "heyhuynhgiabuu/proxypal",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/proxypal",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/proxypal",
-    "version_raw": "https://github.com/heyhuynhgiabuu/proxypal/releases/download/v0.4.6/ProxyPal_0.4.6_amd64.AppImage",
+    "version_raw": "https://github.com/heyhuynhgiabuu/proxypal/releases/download/v0.4.8/ProxyPal_0.4.8_amd64.AppImage",
     "description": "A desktop app that lets you use your AI subscriptions (Claude, ChatGPT, Gemini, GitHub Copilot) with any coding tool. Wraps CLIProxyAPI with a clean UI for managing connections and tracking usage"
   },
   {
@@ -16236,7 +16204,7 @@
     "site": "ryuuzaki42/PyCharm-community-edition_AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pycharm",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pycharm",
-    "version_raw": "https://github.com/ryuuzaki42/PyCharm_AppImage/releases/download/main-54365643/PyCharm-2025.3.3-1_JB-x86_64.AppImage",
+    "version_raw": "https://github.com/ryuuzaki42/PyCharm_AppImage/releases/download/2025.3.3/PyCharm-2025.3.3-1_JB-x86_64.AppImage",
     "description": "Unofficial, PyCharm-community-edition in AppImage"
   },
   {
@@ -16620,7 +16588,7 @@
     "site": "quarto-dev/quarto-cli",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quarto-cli",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quarto-cli",
-    "version_raw": "https://github.com/quarto-dev/quarto-cli/releases/download/v1.9.26/quarto-1.9.26-linux-amd64.tar.gz",
+    "version_raw": "https://github.com/quarto-dev/quarto-cli/releases/download/v1.9.27/quarto-1.9.27-linux-amd64.tar.gz",
     "description": "Scientific and technical publishing system built on Pandoc"
   },
   {
@@ -17036,7 +17004,7 @@
     "site": "https://redact.dev",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/redact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/redact",
-    "version_raw": "https://update-desktop.redact.dev/build/Redact-0.21.3.AppImage",
+    "version_raw": "https://update-desktop.redact.dev/build/Redact-0.21.4.AppImage",
     "description": "Application to mass delete your account posts from different social media"
   },
   {
@@ -18368,14 +18336,6 @@
     "description": "Easily uploading files and sharing links via AWS S3"
   },
   {
-    "pkg": "simple-scan-gtk3",
-    "site": "ivan-hc/GNOME3-appimages",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/simple-scan-gtk3",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/simple-scan-gtk3",
-    "version_raw": "https://github.com/ivan-hc/GNOME3-appimages/releases/download/simple-scan/Document-Scanner_3.38.1-1-x86_64.AppImage",
-    "description": "Unofficial. A simple document scanner, version 3.38.1"
-  },
-  {
     "pkg": "simple-timer",
     "site": "fliegwerk/simple-timer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/simple-timer",
@@ -19572,7 +19532,7 @@
     "site": "LizardByte/Sunshine",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sunshine",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sunshine",
-    "version_raw": "https://github.com/LizardByte/Sunshine/releases/download/v2026.228.232233/sunshine.AppImage",
+    "version_raw": "https://github.com/LizardByte/Sunshine/releases/download/v2026.302.133823/sunshine.AppImage",
     "description": "Sunshine is a Gamestream host for Moonlight"
   },
   {
@@ -20364,7 +20324,7 @@
     "site": "edrlab/thorium-reader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium-reader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium-reader",
-    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.1-beta.1.22575492310.AppImage",
+    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.1-beta.1.22587201260.AppImage",
     "description": "Desktop application to read ebooks"
   },
   {
@@ -23108,7 +23068,7 @@
     "site": "Venipa/ytmdesktop2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ytmdesktop2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ytmdesktop2",
-    "version_raw": "https://github.com/Venipa/ytmdesktop2/releases/download/v0.17.16/YouTube-Music-for-Desktop-0.17.16.AppImage",
+    "version_raw": "https://github.com/Venipa/ytmdesktop2/releases/download/v0.17.19/YouTube-Music-for-Desktop-0.17.19.AppImage",
     "description": "Unofficial Youtube Music Desktop App, with LastFM support"
   },
   {
