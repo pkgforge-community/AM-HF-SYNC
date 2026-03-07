@@ -2004,7 +2004,7 @@
     "site": "ivan-hc/Blender-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blender-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blender-beta",
-    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-beta/Blender_Beta-5.1.0-beta%2Bv51.a818b2d31e09-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-beta/Blender_Beta-5.1.0-beta%2Bv51.748b1754d82a-x86_64.AppImage",
     "description": "Very fast and versatile 3D modeller/renderer, Beta"
   },
   {
@@ -10796,7 +10796,7 @@
     "site": "DamirPorobic/ksnip",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ksnip",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ksnip",
-    "version_raw": "https://github.com/ksnip/ksnip/releases/download/v1.10.1/ksnip-1.10.1-x86_64.AppImage",
+    "version_raw": "https://github.com/ksnip/ksnip/releases/download/continuous/ksnip-1.11.0-continuous-x86_64.AppImage",
     "description": "Screenshot tool inspired by Windows Snipping Tool and made with Qt"
   },
   {
@@ -10908,7 +10908,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -14628,7 +14628,7 @@
     "site": "sethyuan/orca-note",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/orca-note",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/orca-note",
-    "version_raw": "https://github.com/sethyuan/orca-note/releases/download/v1.67.0/orcanote-linux-x86_64-1.67.0.AppImage",
+    "version_raw": "https://github.com/sethyuan/orca-note/releases/download/v1.68.0/orcanote-linux-x86_64-1.68.0.AppImage",
     "description": "A note taking application that is good both for outlining and long-form writing"
   },
   {
@@ -21288,6 +21288,14 @@
     "description": "Universal Media Server. A DLNA, UPnP and HTTP(S) Media Server"
   },
   {
+    "pkg": "uncov",
+    "site": "xaizek/uncov",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uncov",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uncov",
+    "version_raw": "https://github.com/xaizek/uncov/releases/download/v0.5/uncov-0.5-x86_64.AppImage",
+    "description": "A tool that collects and processes code coverage reports"
+  },
+  {
     "pkg": "undertaker141",
     "site": "AbdelrhmanNile/UnderTaker141",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/undertaker141",
@@ -22300,7 +22308,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "7170808011",
+    "version_raw": "7171336182",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -22310,6 +22318,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/whalebird",
     "version_raw": "https://github.com/h3poteto/whalebird-desktop/releases/download/v6.2.7/Whalebird-6.2.7-linux-x86_64.AppImage",
     "description": "An Electron based Mastodon client"
+  },
+  {
+    "pkg": "whatsdesk",
+    "site": "pkgforge-dev/WhatsDesk-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/whatsdesk",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/whatsdesk",
+    "version_raw": "https://github.com/pkgforge-dev/WhatsDesk-AppImage/releases/download/7261d7aee%402026-03-01_1772357556/whatsdesk-7261d7aee-anylinux-x86_64.AppImage",
+    "description": "Unofficial, An unofficial client of WhatsApp"
   },
   {
     "pkg": "whatstron",
