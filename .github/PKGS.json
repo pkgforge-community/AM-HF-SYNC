@@ -1116,7 +1116,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "1.0.4",
+    "version_raw": "",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -5364,7 +5364,7 @@
     "site": "Eden-CI/Nightly",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eden-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eden-nightly",
-    "version_raw": "https://github.com/Eden-CI/Nightly/releases/download/v1772907795.11ad71b1e7/Eden-Linux-11ad71b1e7-amd64-clang-pgo.AppImage",
+    "version_raw": "https://github.com/Eden-CI/Nightly/releases/download/v1772994196.7a17fd8c71/Eden-Linux-7a17fd8c71-amd64-clang-pgo.AppImage",
     "description": "An experimental open-source emulator for Nintendo Switch (yuzu fork, nightly builds)"
   },
   {
@@ -6740,7 +6740,7 @@
     "site": "https://flashpointarchive.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flashpoint",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/flashpoint",
-    "version_raw": "https://download.flashpointarchive.org/upload/fp14.0.3_lin_20251201.7z",
+    "version_raw": "",
     "description": "Flashpoint Archive is a community effort to preserve games and animations from the web"
   },
   {
@@ -10972,7 +10972,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -12956,7 +12956,7 @@
     "site": "zokugun/MrCode",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mrcode",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mrcode",
-    "version_raw": "https://github.com/zokugun/MrCode/releases/download/1.110.11625/MrCode-1.110.11625.glibc2.30-x86_64.AppImage",
+    "version_raw": "https://github.com/zokugun/MrCode/releases/download/1.110.11627/MrCode-1.110.11627.glibc2.30-x86_64.AppImage",
     "description": "An opinionated editor based on VSCodium / VSCode"
   },
   {
@@ -15172,7 +15172,7 @@
     "site": "PCSX2/pcsx2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcsx2",
-    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.167/pcsx2-v2.7.167-linux-appimage-x64-Qt.AppImage",
+    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.168/pcsx2-v2.7.168-linux-appimage-x64-Qt.AppImage",
     "description": "The Playstation 2 Emulator"
   },
   {
@@ -18452,7 +18452,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-03-07-014b11e9da8765b281b331a1edff15d12c365d7f/shadps4-linux-sdl-2026-03-07-014b11e.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-03-08-cc6af03adf6208974b0afcd7684358dd83fcfc8b/shadps4-linux-sdl-2026-03-08-cc6af03.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -18966,14 +18966,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/snapshot-slider",
     "version_raw": "https://github.com/IMAGINARY/snapshot-slider/releases/download/v1.1.1/snapshot-slider-1.1.1-x86_64.AppImage",
     "description": "Present/print/email Snapshots of modern mathematics"
-  },
-  {
-    "pkg": "snes9x",
-    "site": "snes9xgit/snes9x",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/snes9x",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/snes9x",
-    "version_raw": "https://github.com/snes9xgit/snes9x/releases/download/1.63/Snes9x-1.63-x86_64.AppImage",
-    "description": "Snes9x - Portable Super Nintendo Entertainment System TM emulator"
   },
   {
     "pkg": "snes9x-enhanced",
@@ -21272,14 +21264,6 @@
     "description": "Tweet quickly from the desktop without any distractions"
   },
   {
-    "pkg": "twetter",
-    "site": "NiewidzialnyCzlowiek/pubsub-webapp",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/twetter",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/twetter",
-    "version_raw": "https://github.com/NiewidzialnyCzlowiek/Twetter/releases/download/2.1.0/Twetter.64bit.2.1.0.AppImage",
-    "description": "Client for the pubsub app"
-  },
-  {
     "pkg": "twitch-wrapper",
     "site": "simoniz0r/twitch-wrapper",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/twitch-wrapper",
@@ -21672,14 +21656,6 @@
     "description": "Vesktop gives you the performance of web Discord"
   },
   {
-    "pkg": "vgmtrans",
-    "site": "vgmtrans/vgmtrans",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vgmtrans",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vgmtrans",
-    "version_raw": "https://github.com/vgmtrans/vgmtrans/releases/download/v1.1/vgmtrans-preview-v1.1.AppImage",
-    "description": "A tool to convert proprietary, sequenced videogame music"
-  },
-  {
     "pkg": "vhc-viewer-wayland",
     "site": "https://vulkan.gpuinfo.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vhc-viewer-wayland",
@@ -21744,14 +21720,6 @@
     "description": "Unofficial. Enhanced AppImage of proprietary cross-platform IM and VoIP software"
   },
   {
-    "pkg": "vicinae",
-    "site": "vicinaehq/vicinae",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vicinae",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vicinae",
-    "version_raw": "https://github.com/vicinaehq/vicinae/releases/download/v0.20.3/Vicinae-x86_64.AppImage",
-    "description": "A high-performance, native launcher for your desktop built with C++ and Qt. Native, fast, extensible"
-  },
-  {
     "pkg": "vicut",
     "site": "km-clay/vicut",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vicut",
@@ -21814,14 +21782,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vieb",
     "version_raw": "https://github.com/Jelmerro/Vieb/releases/download/12.7.0/Vieb-12.7.0.AppImage",
     "description": "Vim Inspired Electron Browser"
-  },
-  {
-    "pkg": "vifm",
-    "site": "vifm/vifm",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vifm",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vifm",
-    "version_raw": "https://github.com/vifm/vifm/releases/download/v0.14.3/vifm-v0.14.3-x86_64.AppImage",
-    "description": "File manager with curses interface providing Vim-like environment"
   },
   {
     "pkg": "vigad",
@@ -22404,7 +22364,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "7191128825",
+    "version_raw": "7192455499",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
