@@ -396,7 +396,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.675/alma-0.0.675-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.677/alma-0.0.677-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -1124,7 +1124,7 @@
     "site": "artisan-roaster-scope/artisan",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artisan",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artisan",
-    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/continuous/artisan-linux-4.0.3.AppImage",
+    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/v4.0.2/artisan-linux-4.0.2.AppImage",
     "description": "Visualizes the coffee roasting process"
   },
   {
@@ -7460,7 +7460,7 @@
     "site": "drhelius/Geargrafx",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/geargrafx",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/geargrafx",
-    "version_raw": "https://github.com/drhelius/Geargrafx/releases/download/1.7.0/Geargrafx-1.7.0-desktop-ubuntu22.04-x64.zip",
+    "version_raw": "https://github.com/drhelius/Geargrafx/releases/download/1.7.1/Geargrafx-1.7.1-desktop-ubuntu22.04-x64.zip",
     "description": "PC Engine / TurboGrafx-16 emulator and debugger"
   },
   {
@@ -7476,7 +7476,7 @@
     "site": "drhelius/Gearsystem",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gearsystem",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gearsystem",
-    "version_raw": "https://github.com/drhelius/Gearsystem/releases/download/3.8.6/Gearsystem-3.8.6-ubuntu-22.04.zip",
+    "version_raw": "https://github.com/drhelius/Gearsystem/releases/download/3.9.0/Gearsystem-3.9.0-desktop-ubuntu22.04-x64.zip",
     "description": "Sega Master System / Game Gear / SG-1000 Emulator"
   },
   {
@@ -8716,7 +8716,7 @@
     "site": "retoaccess1/haveno-reto",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/haveno-reto",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/haveno-reto",
-    "version_raw": "https://github.com/retoaccess1/haveno-reto/releases/download/1.2.3-reto/haveno-v1.2.3-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/retoaccess1/haveno-reto/releases/download/1.2.3.1-reto/haveno-v1.2.3-linux-x86_64.AppImage",
     "description": "Decentralized P2P exchange built on Monero and Tor"
   },
   {
@@ -12776,6 +12776,14 @@
     "description": "Mooltipass crossplatform daemon/tools"
   },
   {
+    "pkg": "moondeck-buddy",
+    "site": "FrogTheFrog/moondeck-buddy",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/moondeck-buddy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/moondeck-buddy",
+    "version_raw": "https://github.com/FrogTheFrog/moondeck-buddy/releases/download/v1.9.2/MoonDeckBuddy-1.9.2-x86_64.AppImage",
+    "description": "A server-side part of the MoonDeck plugin for the SteamDeck"
+  },
+  {
     "pkg": "moonlight",
     "site": "moonlight-stream/moonlight-qt",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/moonlight",
@@ -12798,6 +12806,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/moose",
     "version_raw": "https://github.com/ritz078/moose/releases/download/v0.6.2/moose-0.6.2.AppImage",
     "description": "An application to stream, cast and download torrents"
+  },
+  {
+    "pkg": "moosync",
+    "site": "Moosync/Moosync",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/moosync",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/moosync",
+    "version_raw": "https://github.com/Moosync/Moosync/releases/download/Moosync-v11.0.2/Moosync_11.0.2_amd64.AppImage",
+    "description": "Music player capable of playing local audio or from Youtube/Spotify"
   },
   {
     "pkg": "motrix",
@@ -13110,6 +13126,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mycrypto",
     "version_raw": "",
     "description": "MyCrypto web and electron app"
+  },
+  {
+    "pkg": "mypaint",
+    "site": "mypaint/mypaint",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mypaint",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mypaint",
+    "version_raw": "https://github.com/mypaint/mypaint/releases/download/v2.0.1/MyPaint-v2.0.1-alt.AppImage",
+    "description": "Simple drawing and painting program, graphics"
   },
   {
     "pkg": "mystiq",
@@ -13560,6 +13584,14 @@
     "description": "NMEA sentence generator utility to broadcast via TCP"
   },
   {
+    "pkg": "nnn",
+    "site": "jarun/nnn",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nnn",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nnn",
+    "version_raw": "https://github.com/jarun/nnn/releases/download/v5.2/nnn-emoji-static-5.2.x86_64.tar.gz",
+    "description": "n³ The unorthodox terminal file manager"
+  },
+  {
     "pkg": "no-fwl",
     "site": "lencx/nofwl",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/no-fwl",
@@ -13598,6 +13630,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/noi",
     "version_raw": "https://github.com/lencx/Noi/releases/download/v1.1.0/Noi-1.1.0-x64.AppImage",
     "description": "an AI-enhanced, customizable browser designed to streamline your digital experience"
+  },
+  {
+    "pkg": "nomacs",
+    "site": "pkgforge-dev/Nomacs-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nomacs",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nomacs",
+    "version_raw": "https://github.com/pkgforge-dev/Nomacs-AppImage/releases/download/3.22.0-1%402026-03-01_1772357192/nomacs-3.22.0-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, nomacs is a free, open source image viewer, which supports multiple platforms"
   },
   {
     "pkg": "nootka",
@@ -20996,7 +21036,7 @@
     "site": "zadam/trilium",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trilium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/trilium",
-    "version_raw": "https://github.com/TriliumNext/Trilium/releases/download/v0.102.0/TriliumNotes-Server-v0.102.0-linux-x64.tar.xz",
+    "version_raw": "https://github.com/TriliumNext/Trilium/releases/download/v0.102.1/TriliumNotes-Server-v0.102.1-linux-x64.tar.xz",
     "description": "Build your personal knowledge base with Trilium Notes"
   },
   {
@@ -22300,7 +22340,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "7186057832",
+    "version_raw": "7187111623",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
