@@ -396,7 +396,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.677/alma-0.0.677-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.679/alma-0.0.679-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -1116,7 +1116,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "",
+    "version_raw": "1.0.4",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -2372,7 +2372,7 @@
     "site": "Brisqi/releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brisqi",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brisqi",
-    "version_raw": "https://github.com/Brisqi/releases/releases/download/v0.21.1/Brisqi-setup-0.21.1-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/Brisqi/releases/releases/download/v0.22.0/Brisqi-setup-0.22.0-linux-x86_64.AppImage",
     "description": "Offline-first Personal Kanban app"
   },
   {
@@ -3276,7 +3276,7 @@
     "site": "aaddrick/claude-desktop-debian",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/claude-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/claude-desktop",
-    "version_raw": "https://github.com/aaddrick/claude-desktop-debian/releases/download/v1.3.17%2Bclaude1.1.5368/claude-desktop-1.1.5368-1.3.17-amd64.AppImage",
+    "version_raw": "https://github.com/aaddrick/claude-desktop-debian/releases/download/v1.3.17%2Bclaude1.1.5749/claude-desktop-1.1.5749-1.3.17-amd64.AppImage",
     "description": "Claude Desktop for Debian-based Linux distributions"
   },
   {
@@ -4888,6 +4888,14 @@
     "description": "An open-source DNS Changer app"
   },
   {
+    "pkg": "dnzhrecomp",
+    "site": "pkgforge-dev/DNZHRecomp-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dnzhrecomp",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dnzhrecomp",
+    "version_raw": "https://github.com/pkgforge-dev/DNZHRecomp-AppImage/releases/download/0.0.3%402026-03-09_1773020192/DNZH_Recompiled-0.0.3-anylinux-x86_64.AppImage",
+    "description": "Unofficial, a native port of Duke Nukem Zero Hour, statically recompiled"
+  },
+  {
     "pkg": "dockstation",
     "site": "DockStation/dockstation",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dockstation",
@@ -5076,7 +5084,7 @@
     "site": "drawpile/Drawpile",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/drawpile",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/drawpile",
-    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.3.0-211-g1c1f36844-x86_64.AppImage",
+    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.3.0-212-g6acd798e5-x86_64.AppImage",
     "description": "Drawing program to sketch on the same canvas simultaneously"
   },
   {
@@ -7756,7 +7764,7 @@
     "site": "ivan-hc/GIMP-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gimp-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gimp-git",
-    "version_raw": "https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_57022.3a16f12080b-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_57039.1b6bd945637-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial, Cross-platform image and photo editor, built from GIT"
   },
   {
@@ -11564,7 +11572,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.0-nightly.202603080617/LobeHub-Nightly-2.2.0-nightly.202603080617.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.1.39-canary.9/LobeHub-Canary-2.1.39-canary.9.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -11852,7 +11860,7 @@
     "site": "mlm-games/mages",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mages",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mages",
-    "version_raw": "https://github.com/mlm-games/Mages/releases/download/4.1.2/mages-4.1.2-x86_64.AppImage",
+    "version_raw": "https://github.com/mlm-games/Mages/releases/download/4.2.2/mages-4.2.2-x86_64.AppImage",
     "description": "Multiplatform Matrix chat client (experimental CMP+rust app)"
   },
   {
@@ -12014,6 +12022,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mapton",
     "version_raw": "https://github.com/trixon/mapton/releases/download/v26.03/Mapton-26.03-x86_64.AppImage",
     "description": "Some kind of map application"
+  },
+  {
+    "pkg": "mariokart64recomp",
+    "site": "pkgforge-dev/MarioKart64Recomp-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mariokart64recomp",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mariokart64recomp",
+    "version_raw": "https://github.com/pkgforge-dev/MarioKart64Recomp-AppImage/releases/download/0.9.2%402026-03-09_1773018163/MarioKart_64_Recompiled-0.9.2-anylinux-x86_64.AppImage",
+    "description": "Unofficial, a native port of MarioKart 64, statically recompiled"
   },
   {
     "pkg": "mark-mind",
@@ -17732,7 +17748,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-41db06b53f906fbe2941552008ea8b468fa38482/rpcs3-v0.0.40-18914-41db06b5_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-77cbdd82ab02d64bfe95048fcf8be3afd968bcc5/rpcs3-v0.0.40-18915-77cbdd82_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -19504,6 +19520,14 @@
     "description": "Story Architect, reinventing the screenwriting software"
   },
   {
+    "pkg": "starfox64recomp",
+    "site": "pkgforge-dev/Starfox64Recomp-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/starfox64recomp",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/starfox64recomp",
+    "version_raw": "https://github.com/pkgforge-dev/Starfox64Recomp-AppImage/releases/download/1.0.3%402026-03-09_1773021620/Starfox_64_Recompiled-1.0.3-anylinux-x86_64.AppImage",
+    "description": "Unofficial, a native port of Starfox 64, statically recompiled"
+  },
+  {
     "pkg": "starship",
     "site": "starship/starship",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/starship",
@@ -19948,7 +19972,7 @@
     "site": "pkgforge-dev/Supermodel-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/supermodel",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/supermodel",
-    "version_raw": "https://github.com/pkgforge-dev/Supermodel-AppImage/releases/download/r1276.d6dec3d-1%402026-03-01_1772357288/Supermodel-r1276.d6dec3d-1-anylinux-x86_64.AppImage",
+    "version_raw": "",
     "description": "Unofficial, Sega Model 3 arcade emulator"
   },
   {
@@ -20028,7 +20052,7 @@
     "site": "ivan-hc/SuperTuxKart-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/supertuxkart-dev",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/supertuxkart-dev",
-    "version_raw": "https://github.com/ivan-hc/SuperTuxKart-appimage/releases/download/continuous-dev/SuperTuxKart_DEV_1.5-x86_64.AppImage",
+    "version_raw": "",
     "description": "Free kart racing game focused on Fun! Pre-release"
   },
   {
@@ -20060,7 +20084,7 @@
     "site": "grimpirate/SVGWall",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/svgwall",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/svgwall",
-    "version_raw": "https://github.com/grimpirate/SVGWall/releases/download/v20251126.1/SVGWall-x86_64.AppImage",
+    "version_raw": "",
     "description": "SVG Wallpaper Utility for Xorg"
   },
   {
@@ -20084,7 +20108,7 @@
     "site": "Software-City/swc_mclauncher",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/swc-minecraft-launcher",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/swc-minecraft-launcher",
-    "version_raw": "https://github.com/Davis-Software/swc_mclauncher_old/releases/download/v1.0.8/SWC-Minecraft-Launcher-1.0.8.AppImage",
+    "version_raw": "",
     "description": "SWC Minecraft Launcher"
   },
   {
@@ -20108,7 +20132,7 @@
     "site": "getswell/getswell",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/swell",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/swell",
-    "version_raw": "https://github.com/open-source-labs/Swell/releases/download/v1.19.0/Swell-1.19.0.AppImage",
+    "version_raw": "",
     "description": "Testing for streaming APIs, right at your desktop"
   },
   {
@@ -20124,7 +20148,7 @@
     "site": "swiftyapp/swifty",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/swifty",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/swifty",
-    "version_raw": "https://github.com/swiftyapp/swifty/releases/download/v0.6.13/Swifty-0.6.13.AppImage",
+    "version_raw": "",
     "description": "Free Offline-first Password Manager"
   },
   {
@@ -20140,7 +20164,7 @@
     "site": "kem-a/switchcraft",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/switchcraft",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/switchcraft",
-    "version_raw": "https://github.com/kem-a/switchcraft/releases/download/v1.2.1/switchcraft-1.2.1.AppImage",
+    "version_raw": "",
     "description": "Switchcraft watches GNOME's light/dark preference and runs your shell commands when the theme changes"
   },
   {
@@ -20156,7 +20180,7 @@
     "site": "s00d/switchshuttle",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/switchshuttle",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/switchshuttle",
-    "version_raw": "https://github.com/s00d/switchshuttle/releases/download/app-v2.1.0/switch-shuttle_2.1.0_amd64.AppImage",
+    "version_raw": "",
     "description": "Run predefined commands in various terminal applications"
   },
   {
@@ -20164,7 +20188,7 @@
     "site": "JvanKatwijk/swradio-8",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/swradio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/swradio",
-    "version_raw": "https://github.com/JvanKatwijk/swradio-8/releases/download/9.1/swradio-x86_64.AppImage",
+    "version_raw": "",
     "description": "Shortwave receiver for use with sdrplay/hackrf/dabsticks/pmsdr"
   },
   {
@@ -20172,7 +20196,7 @@
     "site": "ttdm/Symphonium",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/symphonium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/symphonium",
-    "version_raw": "https://github.com/ttdm/Symphonium/releases/download/continuous/Symphonium-9d06c8e-x86_64.AppImage",
+    "version_raw": "",
     "description": "A tool to help when learning to play the piano"
   },
   {
@@ -20180,7 +20204,7 @@
     "site": "RobertKrajewski/Sync-my-L2P",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/syncmyl2p",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/syncmyl2p",
-    "version_raw": "https://github.com/RobertKrajewski/Sync-my-L2P/releases/download/v2.4.2/SyncMyL2P-2.4.2-linux.AppImage",
+    "version_raw": "",
     "description": "L2P synchronisation tool"
   },
   {
@@ -20188,7 +20212,7 @@
     "site": "Syncplay/syncplay",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/syncplay",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/syncplay",
-    "version_raw": "https://github.com/Syncplay/syncplay/releases/download/v1.7.0/Syncplay-1.7.0-x86_64.AppImage",
+    "version_raw": "",
     "description": "Synchronize video playback over network"
   },
   {
@@ -20236,7 +20260,7 @@
     "site": "pkgforge-dev/system-monitoring-center-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/system-monitoring-center",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/system-monitoring-center",
-    "version_raw": "https://github.com/pkgforge-dev/system-monitoring-center-AppImage/releases/download/3.1.0-1%402026-03-02_1772425575/System_Monitoring_Center-3.1.0-1-anylinux-x86_64.AppImage",
+    "version_raw": "",
     "description": "Unofficial. Multi-featured system monitor"
   },
   {
@@ -20252,7 +20276,7 @@
     "site": "qarmin/szyszka",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/szyszka",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/szyszka",
-    "version_raw": "https://github.com/qarmin/szyszka/releases/download/3.0.0/szyszka.AppImage",
+    "version_raw": "",
     "description": "Szyszka is fast and powerful file renamer"
   },
   {
@@ -20260,7 +20284,7 @@
     "site": "msaltnet/T.Viewer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/t.viewer",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/t.viewer",
-    "version_raw": "https://github.com/msaltnet/T.Viewer/releases/download/ver1.2.2/tviewer-1.2.2.AppImage",
+    "version_raw": "",
     "description": "Cross Platform Tizen Log Viewer"
   },
   {
@@ -20284,7 +20308,7 @@
     "site": "debba/tabularis",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tabularis",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tabularis",
-    "version_raw": "https://github.com/debba/tabularis/releases/download/v0.9.6/tabularis_0.9.6_amd64.AppImage",
+    "version_raw": "",
     "description": "A lightweight, developer-focused database management tool"
   },
   {
@@ -20300,7 +20324,7 @@
     "site": "pkgforge-dev/Tagger-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tagger",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tagger",
-    "version_raw": "https://github.com/pkgforge-dev/Tagger-AppImage/releases/download/2024.6.0-3%402026-03-01_1772357188/Tagger-2024.6.0-3-anylinux-x86_64.AppImage",
+    "version_raw": "",
     "description": "Unofficial. Simple audio tagger with support for various audio formats"
   },
   {
@@ -20308,7 +20332,7 @@
     "site": "tagspaces/tagspaces",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tagspaces",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tagspaces",
-    "version_raw": "https://github.com/tagspaces/tagspaces/releases/download/v6.10.0/tagspaces-linux-x86_64-6.10.0.AppImage",
+    "version_raw": "",
     "description": "An offline, open source, document manager with tagging support"
   },
   {
@@ -20316,7 +20340,7 @@
     "site": "mykter/TagTime-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tagtime-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tagtime-desktop",
-    "version_raw": "https://github.com/mykter/TagTime-desktop/releases/download/v0.7.1/TagTime-desktop-0.7.1-x86_64.AppImage",
+    "version_raw": "",
     "description": "Time tracking for space cadets, desktop edition"
   },
   {
@@ -20324,7 +20348,7 @@
     "site": "pkgforge-dev/Taisei-Project-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/taisei-project",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/taisei-project",
-    "version_raw": "https://github.com/pkgforge-dev/Taisei-Project-AppImage/releases/download/1.4.4-1%402026-03-01_1772352726/Taisei-1.4.4-1-anylinux-x86_64.AppImage",
+    "version_raw": "",
     "description": "Unofficial, A free and open-source Touhou Project fangame"
   },
   {
@@ -20332,7 +20356,7 @@
     "site": "ronb1964/TalkType",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/talktype",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/talktype",
-    "version_raw": "https://github.com/ronb1964/TalkType/releases/download/v0.5.13/TalkType-v0.5.13-x86_64.AppImage",
+    "version_raw": "",
     "description": "Linux speech to text app"
   },
   {
@@ -20348,7 +20372,7 @@
     "site": "pkgforge-dev/Taradino-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/taradino",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/taradino",
-    "version_raw": "https://github.com/pkgforge-dev/Taradino-AppImage/releases/download/8ac55a77f%402026-03-01_1772355673/Taradino-8ac55a77f-anylinux-x86_64.AppImage",
+    "version_raw": "",
     "description": "Unofficial, SDL2 port of Rise of the Triad"
   },
   {
@@ -20364,7 +20388,7 @@
     "site": "smallhadroncollider/taskell",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/taskell",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/taskell",
-    "version_raw": "https://github.com/smallhadroncollider/taskell/releases/download/1.11.4/taskell-1.11.4_x86-64-linux.tar.gz",
+    "version_raw": "",
     "description": "Command-line Kanban board/task manager with support for Trello boards and GitHub projects"
   },
   {
@@ -20372,7 +20396,7 @@
     "site": "SimonBrandner/TaskizerDesktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/taskizer",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/taskizer",
-    "version_raw": "https://github.com/SimonBrandner/TaskizerDesktop/releases/download/v2.0.0-rc.2/taskizer-2.0.0-rc.2-linux-x86_64.AppImage",
+    "version_raw": "",
     "description": "A task management app"
   },
   {
@@ -20380,7 +20404,7 @@
     "site": "tastee/tastee-ui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tastee-ui",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tastee-ui",
-    "version_raw": "https://github.com/tastee/tastee-ui/releases/download/0.9.6/tastee-ui-0.9.6-x86_64.AppImage",
+    "version_raw": "",
     "description": "Tool helping you write executable specifications in your lang"
   },
   {
@@ -20388,7 +20412,7 @@
     "site": "araaha/tb.go",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tb",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tb",
-    "version_raw": "https://github.com/araaha/tb.go/releases/download/v1.0.2-1/tb.go-1.0.2-1-linux_amd64.tar.gz",
+    "version_raw": "",
     "description": "Tasks, boards & notes for the command-line habitat"
   },
   {
@@ -20412,7 +20436,7 @@
     "site": "FedericoBruzzone/tdlib-rs",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tdlib-rs",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tdlib-rs",
-    "version_raw": "https://github.com/FedericoBruzzone/tdlib-rs/releases/download/v1.3.0/tdlib-1.8.61-linux-x86_64.zip",
+    "version_raw": "",
     "description": "Rust wrapper around the Telegram Database Library"
   },
   {
@@ -20420,7 +20444,7 @@
     "site": "IsmaelMartinez/teams-for-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/teams",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/teams",
-    "version_raw": "https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.7.10/teams-for-linux-2.7.10.AppImage",
+    "version_raw": "",
     "description": "Unofficial, Business communication platform developed by Microsoft"
   },
   {
@@ -20452,7 +20476,7 @@
     "site": "KhushrajRathod/TeleDrive",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/teledrive",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/teledrive",
-    "version_raw": "https://github.com/khrj/teledrive/releases/download/v1.2.0/TeleDrive-1.2.0-x86_64.AppImage",
+    "version_raw": "",
     "description": "Automatically backup Telegram Saved Messages"
   },
   {
@@ -20460,7 +20484,7 @@
     "site": "Portable-Linux-Apps/Telegram-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/telegram",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/telegram",
-    "version_raw": "https://github.com/Portable-Linux-Apps/Telegram-AppImage/releases/download/v6.5.1%402026-03-01_1772381935/Telegram-v6.5.1-x86_64.AppImage",
+    "version_raw": "",
     "description": "Official desktop version of Telegram messaging app"
   },
   {
@@ -20468,7 +20492,7 @@
     "site": "ivan-hc/KDE-utils-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/telly-skout",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/telly-skout",
-    "version_raw": "https://github.com/ivan-hc/KDE-utils-appimage/releases/download/continuous/KDE-utils_25.08-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "",
     "description": "A convergent Kirigami TV guide. This script installs the full kdeutils suite"
   },
   {
@@ -20484,7 +20508,7 @@
     "site": "mgunyho/tere",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tere",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tere",
-    "version_raw": "https://github.com/mgunyho/tere/releases/download/v1.6.0/tere-1.6.0-x86_64-unknown-linux-gnu.zip",
+    "version_raw": "",
     "description": "Terminal file explorer"
   },
   {
@@ -20492,7 +20516,7 @@
     "site": "justmaxcz/terminalOS-simulator",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/terminalos-sim",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/terminalos-sim",
-    "version_raw": "https://github.com/stuffbymax/terminalOS-simulator-archive/releases/download/v0.0.5/teminal-0_0_5-linux.AppImage",
+    "version_raw": "",
     "description": "A terminalOS simulator"
   },
   {
@@ -20500,7 +20524,7 @@
     "site": "TermoraDev/termora",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/termora",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/termora",
-    "version_raw": "https://github.com/TermoraDev/termora/releases/download/2.0.0-beta.15/termora-2.0.0-beta.15-linux-x86-64.AppImage",
+    "version_raw": "",
     "description": "A terminal emulator and SSH client"
   },
   {
@@ -20508,7 +20532,7 @@
     "site": "homeport/termshot",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/termshot",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/termshot",
-    "version_raw": "https://github.com/homeport/termshot/releases/download/v0.6.1/termshot_0.6.1_linux_amd64.tar.gz",
+    "version_raw": "",
     "description": "Creates screenshots based on terminal command output"
   },
   {
@@ -20524,7 +20548,7 @@
     "site": "j-catania/TeslaSentinelViewer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tesler",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tesler",
-    "version_raw": "https://github.com/j-catania/TeslaSentinelViewer/releases/download/v0.2.3/TesLEr-0.2.3.AppImage",
+    "version_raw": "",
     "description": "The Tesla Sentinel Viewer"
   },
   {
@@ -20532,7 +20556,7 @@
     "site": "SquitchYT/Tess",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tess",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tess",
-    "version_raw": "https://github.com/Squitch1/Tess/releases/download/0.7.0-alpha.15/tess-x86_64-unknown-linux-gnu",
+    "version_raw": "",
     "description": "A hackable, simple, rapid and beautiful terminal"
   },
   {
@@ -20540,7 +20564,7 @@
     "site": "AlexanderP/tesseract-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tesseract",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tesseract",
-    "version_raw": "https://github.com/AlexanderP/tesseract-appimage/releases/download/v5.5.2/tesseract-5.5.2-x86_64.AppImage",
+    "version_raw": "",
     "description": "Tesseract Open Source OCR Engine AppImage"
   },
   {
@@ -20556,7 +20580,7 @@
     "site": "lukexor/tetanes",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tetanes",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tetanes",
-    "version_raw": "https://github.com/lukexor/tetanes/releases/download/tetanes-v0.13.0/tetanes-0.13.0-x86_64.AppImage",
+    "version_raw": "",
     "description": "A cross-platform NES emulator written in Rust using wgpu"
   },
   {
@@ -20572,7 +20596,7 @@
     "site": "texstudio-org/texstudio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/texstudio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/texstudio",
-    "version_raw": "https://github.com/texstudio-org/texstudio/releases/download/4.9.2/texstudio-4.9.2-x86_64.AppImage",
+    "version_raw": "",
     "description": "LaTeX development environment"
   },
   {
@@ -20580,7 +20604,7 @@
     "site": "dkaslovsky/textnote",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/textnote",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/textnote",
-    "version_raw": "https://github.com/dkaslovsky/textnote/releases/download/v1.3.2/textnote_linux_amd64",
+    "version_raw": "",
     "description": "Simple tool for creating and organizing daily notes on the command line"
   },
   {
@@ -20604,7 +20628,7 @@
     "site": "out-of-cheese-error/the-way",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/the-way",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/the-way",
-    "version_raw": "https://github.com/out-of-cheese-error/the-way/releases/download/v0.20.3/the-way-linux.tar.gz",
+    "version_raw": "",
     "description": "A code snippets manager for your terminal"
   },
   {
@@ -20620,7 +20644,7 @@
     "site": "vicr123/theFrame",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/theframe",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/theframe",
-    "version_raw": "https://github.com/vicr123/theFrame/releases/download/continuous/theframe-linux.AppImage",
+    "version_raw": "",
     "description": "Animation tool"
   },
   {
@@ -20636,7 +20660,7 @@
     "site": "yschutz/ThermusQt",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thermusqt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thermusqt",
-    "version_raw": "https://github.com/yschutz/ThermusQt/releases/download/continuous/ThermusQt-x86_64.AppImage",
+    "version_raw": "",
     "description": "Calculate particle composition of hadronic state"
   },
   {
@@ -20644,7 +20668,7 @@
     "site": "vicr123/theweb",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/theweb",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/theweb",
-    "version_raw": "https://github.com/vicr123/theweb/releases/download/continuous/theWeb-linux.AppImage",
+    "version_raw": "",
     "description": "Web Browser"
   },
   {
@@ -20652,7 +20676,7 @@
     "site": "cteamx/Thief",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thief",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thief",
-    "version_raw": "https://github.com/cteamx/Thief/releases/download/4.0.0/thief-4.0.0-linux64.AppImage",
+    "version_raw": "",
     "description": "An innovative cross-platform fishing tool, in chinese"
   },
   {
@@ -20660,7 +20684,7 @@
     "site": "thinreports/thinreports-section-editor",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thinreports-section-editor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thinreports-section-editor",
-    "version_raw": "https://github.com/thinreports/thinreports-section-editor/releases/download/v1.0.0-dev/thinreports-section-editor-1.0.0-dev-linux-20240116-67b3e2.AppImage",
+    "version_raw": "",
     "description": "A template editor for Thinreports"
   },
   {
@@ -20668,7 +20692,7 @@
     "site": "weilinfox/youmu-thlink",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thlink",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thlink",
-    "version_raw": "https://github.com/weilinfox/youmu-thlink/releases/download/v0.0.12/thlink-client-gtk-v0.0.12-amd64-linux.AppImage",
+    "version_raw": "",
     "description": "Touhou Project Game Netplay Tool"
   },
   {
@@ -20676,7 +20700,7 @@
     "site": "kkdops/thoptv",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thoptv",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thoptv",
-    "version_raw": "https://github.com/kkdops/thoptv/releases/download/46.3.0/thoptv.46.3.0.AppImage",
+    "version_raw": "",
     "description": "Enjoy Ultimate Movies, sports Matches, IPL and Latest Shows"
   },
   {
@@ -20684,7 +20708,7 @@
     "site": "Alex313031/thorium",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium",
-    "version_raw": "https://github.com/Alex313031/thorium/releases/download/M138.0.7204.303/Thorium_Browser_138.0.7204.303_AVX.AppImage",
+    "version_raw": "",
     "description": "Web Browser, a Chromium fork including Widevine and FFmpeg support"
   },
   {
@@ -20708,7 +20732,7 @@
     "site": "ivan-hc/Thunderbird-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-appimage",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/continuous-stable/Thunderbird-stable-148.0-x86_64.AppImage",
+    "version_raw": "",
     "description": "Unofficial. Free and open source eMail client, Stable"
   },
   {
@@ -20716,7 +20740,7 @@
     "site": "ivan-hc/Thunderbird-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-beta-appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-beta-appimage",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260308-203415/Thunderbird-beta-149.0-x86_64.AppImage",
+    "version_raw": "",
     "description": "Unofficial. Free and open source eMail client, Beta Edition"
   },
   {
@@ -20732,7 +20756,7 @@
     "site": "achannarasappa/ticker",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ticker",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ticker",
-    "version_raw": "https://github.com/achannarasappa/ticker/releases/download/v5.2.0/ticker-5.2.0-linux-amd64.tar.gz",
+    "version_raw": "",
     "description": "Terminal stock ticker with live updates and position tracking"
   },
   {
@@ -20748,7 +20772,7 @@
     "site": "Mastermindzh/tidal-hifi",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tidal-hifi",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tidal-hifi",
-    "version_raw": "https://github.com/Mastermindzh/tidal-hifi/releases/download/6.2.0/tidal-hifi-6.2.0.AppImage",
+    "version_raw": "",
     "description": "The web version of listen.tidal.com running in electron"
   },
   {
@@ -20756,7 +20780,7 @@
     "site": "Veda-Swaroop/TidyBit",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tidybit",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tidybit",
-    "version_raw": "https://github.com/Veda-Swaroop/TidyBit/releases/download/v1.3.4/TidyBit-x86_64.AppImage",
+    "version_raw": "",
     "description": "TidyBit is a simple handy tool that can organize messy collection of files and move them to a chosen folder"
   },
   {
@@ -20804,7 +20828,7 @@
     "site": "bksubhuti/tipitaka-pali-reader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tipitaka-pali-reader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tipitaka-pali-reader",
-    "version_raw": "https://github.com/bksubhuti/tipitaka-pali-reader/releases/download/2.7.2%2B99/tipitaka_pali_reader.AppImage",
+    "version_raw": "",
     "description": "A Pali Reading app made in Flutter"
   },
   {
@@ -20836,7 +20860,7 @@
     "site": "lyskouski/app-language",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tlum",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tlum",
-    "version_raw": "https://github.com/lyskouski/app-language/releases/download/v0.0.11/tlum_LinuxAppImage.AppImage",
+    "version_raw": "",
     "description": "Tlum - open-source cross-platform language learning application leverages the power of natural language processing to pinpoint pronunciation gaps and enhance articulation, machine learning to boost vocabulary proficiency"
   },
   {
@@ -20844,7 +20868,7 @@
     "site": "gmagno/tmon",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tmon",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tmon",
-    "version_raw": "https://github.com/gmagno/tmon/releases/download/v0.4.0/tmon-466ae00-x86_64.AppImage",
+    "version_raw": "",
     "description": "A simple CLI tool for monitoring/reporting CPU temperatures"
   },
   {
@@ -20852,7 +20876,7 @@
     "site": "nelsonenzo/tmux-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tmux",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tmux",
-    "version_raw": "https://github.com/nelsonenzo/tmux-appimage/releases/download/3.5a/tmux.appimage",
+    "version_raw": "",
     "description": "Tmux AppImage build via Docker"
   },
   {
@@ -20860,7 +20884,7 @@
     "site": "foolo/tnt",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tnt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tnt",
-    "version_raw": "https://github.com/foolo/tnt/releases/download/0.3/tnt-0.3-linux-x64.AppImage",
+    "version_raw": "",
     "description": "A computer-assisted translation tool"
   },
   {
@@ -20868,7 +20892,7 @@
     "site": "MayGo/tockler",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tockler",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tockler",
-    "version_raw": "https://github.com/MayGo/tockler/releases/download/v4.0.22/Tockler-4.0.22.AppImage",
+    "version_raw": "",
     "description": "An application that tracks your time by monitoring"
   },
   {
@@ -20876,7 +20900,7 @@
     "site": "alanvardy/tod",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tod",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tod",
-    "version_raw": "https://github.com/tod-org/tod/releases/download/v0.6.28/tod-0.6.28-x86_64.tar.gz",
+    "version_raw": "",
     "description": "An unofficial Todoist command line client written in Rust"
   },
   {
@@ -20908,7 +20932,7 @@
     "site": "backmeupplz/todorant-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/todorant",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/todorant",
-    "version_raw": "https://github.com/backmeupplz/todorant-releases/releases/download/v1.0.14/todorant-1.0.14-linux-x86_64.AppImage",
+    "version_raw": "",
     "description": "Todorant releases"
   },
   {
@@ -20924,7 +20948,7 @@
     "site": "acarl005/toerings",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/toerings",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/toerings",
-    "version_raw": "https://github.com/acarl005/toerings/releases/download/v0.0.0/toe-rings_0.0.0_amd64.AppImage",
+    "version_raw": "",
     "description": "A clone of Conky Seamod using Tauri"
   },
   {
@@ -20940,7 +20964,7 @@
     "site": "yanjiaxuan/TOMATOX",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tomatox",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tomatox",
-    "version_raw": "https://github.com/FreeIess/TOMATOX/releases/download/v2.0.2/TOMATOX-2.0.2.AppImage",
+    "version_raw": "",
     "description": "An online free VIP video analysis player, in chinese"
   },
   {
@@ -20948,7 +20972,7 @@
     "site": "raph-ael/tonuino-toolbox",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tonuino-toolbox",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tonuino-toolbox",
-    "version_raw": "https://github.com/raph-ael/tonuino-toolbox/releases/download/v1.1.9/tonuino-toolbox-1.1.9-linux-x86_64.AppImage",
+    "version_raw": "",
     "description": "SD card manager for your Tonuino"
   },
   {
@@ -20964,7 +20988,7 @@
     "site": "ivan-hc/Torcs-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/torcs",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/torcs",
-    "version_raw": "https://github.com/ivan-hc/Torcs-appimage/releases/download/continuous/TORCS_1.3.8-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "",
     "description": "The 3D Open Racing Car Game and Simulator"
   },
   {
@@ -21012,7 +21036,7 @@
     "site": "pierr3/TrackAudio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trackaudio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/trackaudio",
-    "version_raw": "https://github.com/pierr3/TrackAudio/releases/download/1.4.0-beta.4/trackaudio-1.4.0-beta.4-x86_64.AppImage",
+    "version_raw": "",
     "description": "A next generation Audio-For-VATSIM ATC Client"
   },
   {
@@ -21020,7 +21044,7 @@
     "site": "soimort/translate-shell",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trans",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/trans",
-    "version_raw": "v0.9.7.1",
+    "version_raw": "",
     "description": "CLI translator using Google/Bing/Yandex Translate, etc"
   },
   {
@@ -21036,7 +21060,7 @@
     "site": "atomery/translatium",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/translatium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/translatium",
-    "version_raw": "https://github.com/webcatalog/translatium-legacy/releases/download/v20.4.0/Translatium-20.4.0.AppImage",
+    "version_raw": "",
     "description": "Translate Any Languages like a Pro"
   },
   {
@@ -21052,7 +21076,7 @@
     "site": "pkgforge-dev/transmission-qt-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/transmission-qt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/transmission-qt",
-    "version_raw": "https://github.com/pkgforge-dev/transmission-qt-AppImage/releases/download/4.1.1-1%402026-03-01_1772357529/Transmission_Qt-4.1.1-1-anylinux-x86_64.AppImage",
+    "version_raw": "",
     "description": "Unofficial, Fast, easy, and free BitTorrent client, Qt GUI"
   },
   {
@@ -21060,7 +21084,7 @@
     "site": "6c65726f79/Transmissionic",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/transmissionic",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/transmissionic",
-    "version_raw": "https://github.com/6c65726f79/Transmissionic/releases/download/v1.8.0/Transmissionic-linux-x86_64-v1.8.0.AppImage",
+    "version_raw": "",
     "description": "Remote for Transmission Daemon"
   },
   {
@@ -21068,7 +21092,7 @@
     "site": "kduske/TrenchBroom",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trenchbroom",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/trenchbroom",
-    "version_raw": "https://github.com/TrenchBroom/TrenchBroom/releases/download/v2025.1/TrenchBroom-Linux-x86_64-v2025.1-Release.AppImage",
+    "version_raw": "",
     "description": "A modern, cross-platform level editor for Quake engine based games"
   },
   {
@@ -21076,7 +21100,7 @@
     "site": "trezor/trezor-suite",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trezor-suite",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/trezor-suite",
-    "version_raw": "https://github.com/trezor/trezor-suite/releases/download/v26.2.3/Trezor-Suite-26.2.3-linux-x86_64.AppImage",
+    "version_raw": "",
     "description": "Trezor Suite desktop application"
   },
   {
@@ -21084,7 +21108,7 @@
     "site": "openscopeproject/TrguiNG",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trgui-ng",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/trgui-ng",
-    "version_raw": "https://github.com/openscopeproject/TrguiNG/releases/download/v1.5.1/TrguiNG_1.5.1_amd64.AppImage",
+    "version_raw": "",
     "description": "Remote GUI for Transmission torrent daemon"
   },
   {
@@ -21092,7 +21116,7 @@
     "site": "novosga/triagem-touch",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/triagem-touch",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/triagem-touch",
-    "version_raw": "https://github.com/novosga/triage-app/releases/download/v2.0.1/triagem-touch-2.0.1-x86_64.AppImage",
+    "version_raw": "",
     "description": "Novo SGA triage client"
   },
   {
@@ -21100,7 +21124,7 @@
     "site": "zadam/trilium",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trilium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/trilium",
-    "version_raw": "https://github.com/TriliumNext/Trilium/releases/download/v0.102.1/TriliumNotes-Server-v0.102.1-linux-x64.tar.xz",
+    "version_raw": "",
     "description": "Build your personal knowledge base with Trilium Notes"
   },
   {
@@ -21132,7 +21156,7 @@
     "site": "pm98zz-c/tT",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tt",
-    "version_raw": "https://github.com/pm98zz-c/tT/releases/download/1.2.0/tt-1.2.0.AppImage",
+    "version_raw": "",
     "description": "A simple Time Tracker to stay basic and intuitive"
   },
   {
@@ -21140,7 +21164,7 @@
     "site": "funnyzak/tts-now",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tts-now",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tts-now",
-    "version_raw": "https://github.com/funnyzak/tts-now/releases/download/1.0.6/tts-now-ubuntu-latest-1.0.6-33ac5a4.AppImage",
+    "version_raw": "",
     "description": "A chinese text-to-speech assistant based on the speech synthesi"
   },
   {
@@ -21172,7 +21196,7 @@
     "site": "neuro-sys/tumblr-likes-downloader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tumblr-downloader-gui",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tumblr-downloader-gui",
-    "version_raw": "https://github.com/neuro-sys/tumblr-likes-downloader/releases/download/0.0.6/Tumblr_Downloader_GUI-x86_64.AppImage",
+    "version_raw": "",
     "description": "Download Tumblr posts that you liked"
   },
   {
@@ -21196,7 +21220,7 @@
     "site": "TurboWarp/desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/turbowarp",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/turbowarp",
-    "version_raw": "https://github.com/TurboWarp/desktop/releases/download/v1.15.2/TurboWarp-linux-x86_64-1.15.2.AppImage",
+    "version_raw": "",
     "description": "Scratch mod with a compiler to run projects faster"
   },
   {
@@ -21212,7 +21236,7 @@
     "site": "tutao/tutanota",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tutanota",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tutanota",
-    "version_raw": "https://github.com/tutao/tutanota/releases/download/tutanota-desktop-release-332.260303.0/tutanota-desktop-linux.AppImage",
+    "version_raw": "",
     "description": "Tuta is an email service with a strong focus on security and privacy that lets you encrypt emails, contacts and calendar entries on all your devices"
   },
   {
@@ -21220,7 +21244,7 @@
     "site": "pkgforge-dev/Tutanota-Desktop-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tutanota-enhanced",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tutanota-enhanced",
-    "version_raw": "https://github.com/pkgforge-dev/Tutanota-Desktop-AppImage-Enhanced/releases/download/331.260224.0%402026-03-01_1772357539/Tuta_Mail-331.260224.0-anylinux-x86_64.AppImage",
+    "version_raw": "",
     "description": "Unofficial AppImage for Tutanota, an email service with a strong focus on security and privacy that lets you encrypt emails, contacts and calendar entries on all your devices"
   },
   {
@@ -21228,7 +21252,7 @@
     "site": "pkgforge-dev/Tux-Football-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tuxfootball",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tuxfootball",
-    "version_raw": "https://github.com/pkgforge-dev/Tux-Football-AppImage/releases/download/0.3.1-1%402026-03-01_1772357542/Tux_Football-0.3.1-1-anylinux-x86_64.AppImage",
+    "version_raw": "",
     "description": "Unofficial, is a great 2D football game for Windows and Linux"
   },
   {
@@ -21236,7 +21260,7 @@
     "site": "Pand3ru/Tuxplorer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tuxplorer",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tuxplorer",
-    "version_raw": "https://github.com/Pand3ru/Tuxplorer/releases/download/v1.0.2/tuxplorer",
+    "version_raw": "",
     "description": "Tuxplorer is a terminal based file explorer"
   },
   {
@@ -21260,7 +21284,7 @@
     "site": "GeovaneSchmitz/tweakSophia",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tweaksophia",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tweaksophia",
-    "version_raw": "https://github.com/GeovaneSchmitz/tweakSophia/releases/download/v1.0.7-beta/TweakSophia.Linux.1.0.7.AppImage",
+    "version_raw": "",
     "description": "An app to automatically renew the books of the SophiA system"
   },
   {
@@ -21284,7 +21308,7 @@
     "site": "simoniz0r/twitch-wrapper",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/twitch-wrapper",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/twitch-wrapper",
-    "version_raw": "https://github.com/simoniz0r/twitch-wrapper/releases/download/v0.0.3/twitch-wrapper-0.0.3-x86_64.AppImage",
+    "version_raw": "",
     "description": "An Electron wrapper for Twitch.tv"
   },
   {
@@ -21316,7 +21340,7 @@
     "site": "opensourcecheemsburgers/ubiquity",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ubiquity",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ubiquity",
-    "version_raw": "https://github.com/opensourcecheemsburgers/ubiquity/releases/download/v0.4.0/ubiquity_0.4.0_amd64.AppImage",
+    "version_raw": "",
     "description": "A cross-platform markdown editor"
   },
   {
@@ -21324,7 +21348,7 @@
     "site": "ubports/ubports-installer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ubports-installer",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ubports-installer",
-    "version_raw": "https://github.com/ubports/ubports-installer/releases/download/0.11.2/ubports-installer_0.11.2_linux_x86_64.AppImage",
+    "version_raw": "",
     "description": "A simple tool to install Ubuntu Touch on UBports devices"
   },
   {
@@ -21340,7 +21364,7 @@
     "site": "oliverschwendener/ueli",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ueli",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ueli",
-    "version_raw": "https://github.com/oliverschwendener/ueli/releases/download/v9.27.1/Ueli-9.27.1.AppImage",
+    "version_raw": "",
     "description": "Cross-Platform Keystroke Launcher"
   },
   {
@@ -21348,7 +21372,7 @@
     "site": "UltimateHackingKeyboard/agent",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uhk.agent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uhk.agent",
-    "version_raw": "https://github.com/UltimateHackingKeyboard/agent/releases/download/v9.0.2/UHK.Agent-9.0.2-linux-x86_64.AppImage",
+    "version_raw": "",
     "description": "Configuration app of the Ultimate Hacking Keyboard"
   },
   {
@@ -21356,7 +21380,7 @@
     "site": "smolck/uivonim",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uivonim",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uivonim",
-    "version_raw": "https://github.com/smolck/uivonim/releases/download/v0.29.0/uivonim-0.29.0.AppImage",
+    "version_raw": "",
     "description": "Fork of the Veonim Neovim GUI"
   },
   {
@@ -21364,7 +21388,7 @@
     "site": "CESNET/UltraGrid",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ultragrid",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ultragrid",
-    "version_raw": "https://github.com/CESNET/UltraGrid/releases/download/continuous/UltraGrid-continuous-x86_64.AppImage",
+    "version_raw": "",
     "description": "UltraGrid low-latency audio/video network transmission system"
   },
   {
@@ -21372,7 +21396,7 @@
     "site": "w3yden/ultrascreen",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ultrascreen",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ultrascreen",
-    "version_raw": "https://github.com/w3yden/ultrascreen/releases/download/v2.0.0/ultrascreen-1.0.0.AppImage",
+    "version_raw": "",
     "description": "Share your screens with friends"
   },
   {
@@ -21380,7 +21404,7 @@
     "site": "UniversalMediaServer/UniversalMediaServer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ums",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ums",
-    "version_raw": "https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/15.4.0/UMS-Linux-15.4.0-x86_64.AppImage",
+    "version_raw": "",
     "description": "Universal Media Server. A DLNA, UPnP and HTTP(S) Media Server"
   },
   {
@@ -21388,7 +21412,7 @@
     "site": "xaizek/uncov",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uncov",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uncov",
-    "version_raw": "https://github.com/xaizek/uncov/releases/download/v0.5/uncov-0.5-x86_64.AppImage",
+    "version_raw": "",
     "description": "A tool that collects and processes code coverage reports"
   },
   {
@@ -22028,7 +22052,7 @@
     "site": "ivan-hc/VLC-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vlc-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vlc-git",
-    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r36155.gf12988a-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r36166.g8935caa-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial. Free and Open Source Video & Media player, GIT version"
   },
   {
@@ -22404,7 +22428,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "7196935185",
+    "version_raw": "7199029577",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -23364,7 +23388,7 @@
     "site": "StrikerX3/Ymir",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ymir-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ymir-nightly",
-    "version_raw": "https://github.com/StrikerX3/Ymir/releases/download/latest-nightly/ymir-linux-x86_64-AVX2-v0.3.0-dev_244780c8.tar.xz",
+    "version_raw": "https://github.com/StrikerX3/Ymir/releases/download/latest-nightly/ymir-linux-x86_64-AVX2-v0.3.0-dev_e9368ccd.tar.xz",
     "description": "Sega Saturn emulator (Nightly builds)"
   },
   {
@@ -23574,6 +23598,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zegrapher",
     "version_raw": "https://github.com/AdelKS/ZeGrapher/releases/download/continuous-v3.1.1-rev560/ZeGrapher-Linux-x86_64-v3.1.1-r560.AppImage",
     "description": "Math graphing software"
+  },
+  {
+    "pkg": "zelda64-recompiled",
+    "site": "pkgforge-dev/Zelda64-Recompiled-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zelda64-recompiled",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zelda64-recompiled",
+    "version_raw": "https://github.com/pkgforge-dev/Zelda64-Recompiled-AppImage/releases/download/1.2.2%402026-03-09_1773016117/Zelda_64_Recompiled-1.2.2-anylinux-x86_64.AppImage",
+    "description": "Unofficial, a native port of the N64 Legend of Zelda games, statically recompiled"
   },
   {
     "pkg": "zellij",
