@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: AM 9.8\n"
 "Report-Msgid-Bugs-To: https://github.com/pkgforge-community/AM-HF-SYNC\n"
 "POT-Creation-Date: 2026-03-09\n"
-"PO-Revision-Date: 2026-03-09 06:04+0100\n"
+"PO-Revision-Date: 2026-03-09 13:04+0100\n"
 "Last-Translator: Ivan Alessandro Sala <https://github.com/ivan-hc>\n"
 "Language-Team: Italian\n"
 "Language: it\n"
@@ -615,9 +615,9 @@ msgid "Checksum matches, verification successful."
 msgstr "Il checksum corrisponde, verifica riuscita."
 
 #: APP-MANAGER:1479
-msgid "Checksum calculation tools do not exist, please install shasum/md5sum."
+msgid "Checksum calculation tools do not exist, please install coreutils."
 msgstr ""
-"Strumenti per il calcolo del checksum non esistono, installare shasum/md5sum."
+"Gli strumenti per il calcolo del checksum non esistono, installare coreutils."
 
 #: APP-MANAGER:1489
 msgid ""
