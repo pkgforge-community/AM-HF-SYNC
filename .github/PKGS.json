@@ -2240,14 +2240,6 @@
     "description": "Test and debug chat bots built with Bot Framework SDK"
   },
   {
-    "pkg": "botim",
-    "site": "https://botim.me",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/botim",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/botim",
-    "version_raw": "",
-    "description": "Free, Secure, Reliable Messages and Calls"
-  },
-  {
     "pkg": "bottlebats",
     "site": "ZeusWPI/MOZAIC",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bottlebats",
@@ -3076,7 +3068,7 @@
     "site": "twpayne/chezmoi",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chezmoi",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chezmoi",
-    "version_raw": "https://github.com/twpayne/chezmoi/releases/download/v2.69.4/chezmoi-linux-amd64-musl",
+    "version_raw": "https://github.com/twpayne/chezmoi/releases/download/v2.70.0/chezmoi-linux-amd64-musl",
     "description": "Manage your dotfiles across multiple diverse machines, securely"
   },
   {
@@ -3236,7 +3228,7 @@
     "site": "libnyanpasu/clash-nyanpasu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clash-nyanpasu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/clash-nyanpasu",
-    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha%2Bee70ea5_amd64.AppImage",
+    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha%2B5b85192_amd64.AppImage",
     "description": "A Clash GUI based on tauri"
   },
   {
@@ -5084,7 +5076,7 @@
     "site": "drawpile/Drawpile",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/drawpile",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/drawpile",
-    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.3.0-212-g6acd798e5-x86_64.AppImage",
+    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.3.0-214-gf1845e7bb-x86_64.AppImage",
     "description": "Drawing program to sketch on the same canvas simultaneously"
   },
   {
@@ -7716,7 +7708,7 @@
     "site": "pkgforge-dev/ghostty-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ghostty-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ghostty-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.0-main%2Bec1ca4c-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.0-main%2Bf8a0a45-x86_64.AppImage",
     "description": "Unoffical, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (Tip, Nightly)"
   },
   {
@@ -10316,7 +10308,7 @@
     "site": "keepassxreboot/keepassxc",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/keepassxc",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/keepassxc",
-    "version_raw": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.11/KeePassXC-2.7.11-1-x86_64.AppImage",
+    "version_raw": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.12/KeePassXC-2.7.12-x86_64.AppImage",
     "description": "Port of the Windows application “Keepass Password Safe”"
   },
   {
@@ -10980,7 +10972,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -11916,7 +11908,7 @@
     "site": "Manager-io/Manager",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/manager-io",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/manager-io",
-    "version_raw": "https://github.com/Manager-io/Manager/releases/download/26.3.6.3189/Manager-x86_64.AppImage",
+    "version_raw": "https://github.com/Manager-io/Manager/releases/download/26.3.10.3191/Manager-x86_64.AppImage",
     "description": "Free Accounting Software for Linux, Server"
   },
   {
@@ -16076,7 +16068,7 @@
     "site": "Splode/pomotroid",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pomotroid",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pomotroid",
-    "version_raw": "https://github.com/Splode/pomotroid/releases/download/v1.0.0/Pomotroid_1.0.0_amd64.AppImage",
+    "version_raw": "https://github.com/Splode/pomotroid/releases/download/v1.1.0/Pomotroid_1.1.0_amd64.AppImage",
     "description": "Simple and visually-pleasing Pomodoro timer"
   },
   {
@@ -20308,7 +20300,7 @@
     "site": "debba/tabularis",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tabularis",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tabularis",
-    "version_raw": "https://github.com/debba/tabularis/releases/download/v0.9.6/tabularis_0.9.6_amd64.AppImage",
+    "version_raw": "https://github.com/debba/tabularis/releases/download/v0.9.7/tabularis_0.9.7_amd64.AppImage",
     "description": "A lightweight, developer-focused database management tool"
   },
   {
@@ -21772,7 +21764,7 @@
     "site": "vicinaehq/vicinae",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vicinae",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vicinae",
-    "version_raw": "https://github.com/vicinaehq/vicinae/releases/download/v0.20.4/Vicinae-x86_64.AppImage",
+    "version_raw": "https://github.com/vicinaehq/vicinae/releases/download/v0.20.5/Vicinae-x86_64.AppImage",
     "description": "A high-performance, native launcher for your desktop built with C++ and Qt. Native, fast, extensible"
   },
   {
@@ -22428,7 +22420,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "7231555049",
+    "version_raw": "7234544863",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
