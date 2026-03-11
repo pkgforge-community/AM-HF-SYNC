@@ -404,7 +404,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.690/alma-0.0.690-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.691/alma-0.0.691-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -1212,7 +1212,7 @@
     "site": "atuinsh/atuin",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/atuin",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/atuin",
-    "version_raw": "https://github.com/atuinsh/atuin/releases/download/v18.13.0-beta.4/atuin-server-x86_64-unknown-linux-musl.tar.gz",
+    "version_raw": "https://github.com/atuinsh/atuin/releases/download/v18.13.0-beta.5/atuin-server-x86_64-unknown-linux-musl.tar.gz",
     "description": "Magical shell history"
   },
   {
@@ -3558,6 +3558,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/comictagger",
     "version_raw": "https://github.com/comictagger/comictagger/releases/download/1.6.0-beta.10/ComicTagger-x86_64.AppImage",
     "description": "A multi-platform app for writing metadata to digital comics"
+  },
+  {
+    "pkg": "commander-genius",
+    "site": "pkgforge-dev/Commander-Genius-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/commander-genius",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/commander-genius",
+    "version_raw": "https://github.com/pkgforge-dev/Commander-Genius-AppImage/releases/download/3.6.0.r24.gb3e63f5-1%402026-03-11_1773230599/Commander_Genius-3.6.0.r24.gb3e63f5-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, an open-source interpreter for the Commander Keen (1-6, Dreams) and Cosmos Cosmic series"
   },
   {
     "pkg": "compass",
@@ -8700,7 +8708,7 @@
     "site": "ivan-hc/Handbrake-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/handbrake",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/handbrake",
-    "version_raw": "https://github.com/ivan-hc/Handbrake-appimage/releases/download/continuous/HandBrake_1.10.2-4-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Handbrake-appimage/releases/download/continuous/HandBrake_1.11.0-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial, An open-source multiplatform video transcoder"
   },
   {
@@ -9092,7 +9100,7 @@
     "site": "hydralauncher/hydra",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hydra",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hydra",
-    "version_raw": "https://github.com/hydralauncher/hydra/releases/download/v3.9.2/hydralauncher-3.9.2.AppImage",
+    "version_raw": "https://github.com/hydralauncher/hydra/releases/download/v3.9.3/hydralauncher-3.9.3.AppImage",
     "description": "Game launcher with its own embedded bittorrent client"
   },
   {
@@ -11012,7 +11020,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -15228,7 +15236,7 @@
     "site": "PCSX2/pcsx2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcsx2",
-    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.172/pcsx2-v2.7.172-linux-appimage-x64-Qt.AppImage",
+    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.178/pcsx2-v2.7.178-linux-appimage-x64-Qt.AppImage",
     "description": "The Playstation 2 Emulator"
   },
   {
@@ -18756,7 +18764,7 @@
     "site": "mifi/SimpleInstaBot",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/simpleinstabot",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/simpleinstabot",
-    "version_raw": "https://github.com/mifi/SimpleInstaBot/releases/download/v1.11.8/SimpleInstaBot-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/mifi/SimpleInstaBot/releases/download/SimpleInstaBot/v1.11.12/SimpleInstaBot-linux-x86_64.AppImage",
     "description": "Simple Instagram bot"
   },
   {
@@ -21020,7 +21028,7 @@
     "site": "topgrade-rs/topgrade",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/topgrade",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/topgrade",
-    "version_raw": "https://github.com/topgrade-rs/topgrade/releases/download/v17.0.0/topgrade-v17.0.0-x86_64-unknown-linux-gnu.tar.gz",
+    "version_raw": "https://github.com/topgrade-rs/topgrade/releases/download/v17.1.0/topgrade-v17.1.0-x86_64-unknown-linux-gnu.tar.gz",
     "description": "Upgrade all the things, this is the universal upgrade manager"
   },
   {
@@ -22140,7 +22148,7 @@
     "site": "dfgHiatus/VRCFaceTracking.Avalonia",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vrcft-avalonia",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vrcft-avalonia",
-    "version_raw": "https://github.com/dfgHiatus/VRCFaceTracking.Avalonia/releases/download/v1.1.1.0/VRCFaceTracking.Avalonia.1.1.1.0.AppImage",
+    "version_raw": "https://github.com/dfgHiatus/VRCFaceTracking.Avalonia/releases/download/v1.1.1.0/VRCFaceTracking.Avalonia.1.1.1.0.x64.AppImage",
     "description": "Cross-platform VRCFaceTracking made with Avalonia"
   },
   {
@@ -22468,7 +22476,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "7296168050",
+    "version_raw": "7300722188",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -23620,7 +23628,7 @@
     "site": "zed-industries/zed",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zed",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zed",
-    "version_raw": "https://github.com/zed-industries/zed/releases/download/v0.227.1-pre/zed-linux-x86_64.tar.gz",
+    "version_raw": "https://github.com/zed-industries/zed/releases/download/v0.227.1/zed-linux-x86_64.tar.gz",
     "description": "High-performance, multiplayer code editor from the creators of Atom"
   },
   {
@@ -23772,7 +23780,7 @@
     "site": "KittyCAD/modeling-app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zoo-design-studio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zoo-design-studio",
-    "version_raw": "https://github.com/KittyCAD/modeling-app/releases/download/v1.1.15/Zoo.Design.Studio-1.1.15-x86_64-linux.AppImage",
+    "version_raw": "https://github.com/KittyCAD/modeling-app/releases/download/v1.1.16/Zoo.Design.Studio-1.1.16-x86_64-linux.AppImage",
     "description": "The Zoo Design Studio app"
   },
   {
