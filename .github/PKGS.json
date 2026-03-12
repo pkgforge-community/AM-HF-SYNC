@@ -3412,7 +3412,7 @@
     "site": "cncjs/cncjs",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cncjs",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cncjs",
-    "version_raw": "https://github.com/cncjs/cncjs/releases/download/v1.11.0/cncjs-app-1.11.0-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/cncjs/cncjs/releases/download/v1.10.9/cncjs-app-1.10.9-linux-x86_64.AppImage",
     "description": "CNC Milling Controller"
   },
   {
@@ -11028,7 +11028,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -11508,7 +11508,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.22_251203_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.25_260205_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -11532,7 +11532,7 @@
     "site": "LinwoodDev/Butterfly",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linwood-butterfly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linwood-butterfly",
-    "version_raw": "https://github.com/LinwoodDev/Butterfly/releases/download/nightly/linwood-butterfly-linux-alternative-x86_64.AppImage",
+    "version_raw": "https://github.com/LinwoodDev/Butterfly/releases/download/v2.5.0-rc.0/linwood-butterfly-linux-alternative-x86_64.AppImage",
     "description": "Powerful, minimalistic, cross-platform, note-taking app"
   },
   {
@@ -11620,7 +11620,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.1.41-canary.1/LobeHub-2.1.41-canary.1.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.1.41-canary.3/LobeHub-2.1.41-canary.3.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -13348,7 +13348,7 @@
     "site": "ElysiumDisc/nautune",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nautune",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nautune",
-    "version_raw": "https://github.com/ElysiumDisc/nautune/releases/download/v7.9.0/Nautune-x86_64-7.9.0.AppImage",
+    "version_raw": "https://github.com/ElysiumDisc/nautune/releases/download/v8.0.0/Nautune-x86_64-8.0.0.AppImage",
     "description": "Poseidon's Music Player for Jellyfin"
   },
   {
@@ -15438,6 +15438,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pget",
     "version_raw": "https://github.com/Code-Hex/pget/releases/download/v0.2.1/pget_.0.2.1_Linux_x86_64.tar.gz",
     "description": "The fastest, resumable file download CLI client"
+  },
+  {
+    "pkg": "phantom-satellite",
+    "site": "pkgforge-dev/Phantom-Satellite-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/phantom-satellite",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/phantom-satellite",
+    "version_raw": "https://github.com/pkgforge-dev/Phantom-Satellite-AppImage/releases/download/34.1.0-1%402026-03-12_1773312517/Phantom_Satellite-34.1.0-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, a fork of Pale Moon that aims to support older/niche platforms, without sacrificing support for more common/modern platforms"
   },
   {
     "pkg": "phinch",
@@ -18524,7 +18532,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-03-12-c8b3d63e7ebb48ac16a287b78032708cf3c9e222/shadps4-linux-sdl-2026-03-12-c8b3d63.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-03-12-67ffd0334b8428f395563c89fbdaa5f6233ea1e7/shadps4-linux-sdl-2026-03-12-67ffd03.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -21156,7 +21164,7 @@
     "site": "trezor/trezor-suite",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trezor-suite",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/trezor-suite",
-    "version_raw": "https://github.com/trezor/trezor-suite/releases/download/v26.2.3/Trezor-Suite-26.2.3-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/trezor/trezor-suite/releases/download/v26.3.1/Trezor-Suite-26.3.1-linux-x86_64.AppImage",
     "description": "Trezor Suite desktop application"
   },
   {
@@ -22484,7 +22492,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "7336260357",
+    "version_raw": "7340310634",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -22860,7 +22868,7 @@
     "site": "workflowy/desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/workflowy",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/workflowy",
-    "version_raw": "https://github.com/workflowy/desktop/releases/download/v4.3.2603110724/WorkFlowy-x86_64.AppImage",
+    "version_raw": "https://github.com/workflowy/desktop/releases/download/v4.3.2603121258/WorkFlowy-x86_64.AppImage",
     "description": "A notetaking tool"
   },
   {
