@@ -2028,7 +2028,7 @@
     "site": "ivan-hc/Blender-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blender-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blender-beta",
-    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-beta/Blender_Beta-5.1.0-beta%2Bv51.758fa11e7f71-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-beta/Blender_Beta-5.1.0-beta%2Bv51.3c9b0ac30471-x86_64.AppImage",
     "description": "Very fast and versatile 3D modeller/renderer, Beta"
   },
   {
@@ -5308,7 +5308,7 @@
     "site": "McArcady/lnp-forge",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dwarffortress",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dwarffortress",
-    "version_raw": "https://github.com/McArcady/lnp-forge/releases/download/0.47.05-r8/Dwarf_Fortress-0.47.05-r8-x86_64.AppImage",
+    "version_raw": "",
     "description": "A Dwarf Fortress game. Build a fortress and try to help your dwarves survive against a deeply generated world"
   },
   {
@@ -7876,7 +7876,7 @@
     "site": "rainxchzed/Github-Store",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/github-store",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/github-store",
-    "version_raw": "https://github.com/OpenHub-Store/GitHub-Store/releases/download/1.6.2/GitHub-Store-x86_64.AppImage",
+    "version_raw": "",
     "description": "A free, open-source app store for GitHub releases. Browse, discover, and install apps with one click. Powered by Kotlin and Compose Multiplatform for Android & Desktop"
   },
   {
@@ -11028,7 +11028,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -12244,7 +12244,7 @@
     "site": "swsnr/mdcat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mdcat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mdcat",
-    "version_raw": "",
+    "version_raw": "https://github.com/swsnr/mdcat/releases/download/mdcat-2.5.0/mdcat-2.5.0-x86_64-unknown-linux-musl.tar.gz",
     "description": "Command line, cat for markdown"
   },
   {
@@ -13252,7 +13252,7 @@
     "site": "swl-x/MystiQ",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mystiq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mystiq",
-    "version_raw": "",
+    "version_raw": "https://github.com/swl-x/MystiQ/releases/download/continuous/MystiQ-master--603-x86_64.AppImage",
     "description": "Qt5/C++ FFmpeg Media Converter"
   },
   {
@@ -13836,7 +13836,7 @@
     "site": "PabloF7/noter",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/noter",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/noter",
-    "version_raw": "",
+    "version_raw": "https://github.com/doquen/noter/releases/download/v0.3-alpha/NoTer-x86_64.AppImage",
     "description": "Simple serial terminal application"
   },
   {
@@ -14548,7 +14548,7 @@
     "site": "OpenOP2/OpenOP2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openop2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openop2",
-    "version_raw": "",
+    "version_raw": "https://github.com/OpenOP2/OpenOP2/releases/download/20210823/OpenOP2-20210823-x86_64.AppImage",
     "description": "Re-implementation of the game Outpost 2, using the OpenRA engine"
   },
   {
@@ -14748,7 +14748,7 @@
     "site": "ivan-hc/Opera-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/opera-dev",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/opera-dev",
-    "version_raw": "",
+    "version_raw": "https://github.com/ivan-hc/Opera-appimage/releases/download/continuous/Opera-Web-Browser-developer-130.0.5832.0-x86_64.AppImage",
     "description": "Unofficial. Fast and secure web browser, Developer version"
   },
   {
@@ -19552,14 +19552,6 @@
     "description": "Stack Wallet, a multicoin, cryptocurrency wallet"
   },
   {
-    "pkg": "stackandconquer",
-    "site": "ElTh0r0/stackandconquer",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/stackandconquer",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/stackandconquer",
-    "version_raw": "https://github.com/ElTh0r0/stackandconquer/releases/download/v0.11.1/StackAndConquer-0.11.1-x86_64.AppImage",
-    "description": "A challenging tower conquest board game Mixtour inspired"
-  },
-  {
     "pkg": "standard-notes",
     "site": "standardnotes/app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/standard-notes",
@@ -19622,14 +19614,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/statsbook-tool",
     "version_raw": "https://github.com/AdamSmasherDerby/Statsbook-Tool/releases/download/v3.2.0/Statsbook.Tool-3.2.0.AppImage",
     "description": "A tool for error checking WFTDA Statsbooks"
-  },
-  {
-    "pkg": "statuspilatus",
-    "site": "PilatusDevs/StatusPilatus",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/statuspilatus",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/statuspilatus",
-    "version_raw": "https://github.com/PilatusDevs/StatusPilatus/releases/download/0.5.0/StatusPilatus.0.5.0.AppImage",
-    "description": "Monitor your PC like never before"
   },
   {
     "pkg": "steam",
@@ -20000,14 +19984,6 @@
     "description": "A Slack client with WhatsApp like UI"
   },
   {
-    "pkg": "superbacked",
-    "site": "superbacked/superbacked",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/superbacked",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/superbacked",
-    "version_raw": "https://github.com/superbacked/superbacked/releases/download/v1.10.0/superbacked-x64-1.10.0.AppImage",
-    "description": "Don’t lose your secrets. A secret management platform used to back up and pass on sensitive data from one generation to the next"
-  },
-  {
     "pkg": "supercell-wx",
     "site": "dpaulat/supercell-wx",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/supercell-wx",
@@ -20094,14 +20070,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/supertux",
     "version_raw": "https://github.com/SuperTux/supertux/releases/download/v0.7.0-beta.2/SuperTux-v0.7.0-beta.2.glibc2.38-x86_64.AppImage",
     "description": "Classic 2D jump'n run sidescroller game inspired to Super Mario"
-  },
-  {
-    "pkg": "supertuxkart",
-    "site": "ivan-hc/SuperTuxKart-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/supertuxkart",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/supertuxkart",
-    "version_raw": "https://github.com/ivan-hc/SuperTuxKart-appimage/releases/download/continuous-stable/SuperTuxKart_1.5-x86_64.AppImage",
-    "description": "Free kart racing game focused on Fun!"
   },
   {
     "pkg": "supertuxkart-dev",
@@ -20400,14 +20368,6 @@
     "description": "Time tracking for space cadets, desktop edition"
   },
   {
-    "pkg": "taisei-project",
-    "site": "pkgforge-dev/Taisei-Project-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/taisei-project",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/taisei-project",
-    "version_raw": "https://github.com/pkgforge-dev/Taisei-Project-AppImage/releases/download/1.4.4-1%402026-03-01_1772352726/Taisei-1.4.4-1-anylinux-x86_64.AppImage",
-    "description": "Unofficial, A free and open-source Touhou Project fangame"
-  },
-  {
     "pkg": "talktype",
     "site": "ronb1964/TalkType",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/talktype",
@@ -20558,14 +20518,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tenacity",
     "version_raw": "https://codeberg.org/tenacityteam/tenacity/releases/download/v1.4-alpha1/tenacity-linux-1.4.0-x86_64.AppImage",
     "description": "An easy-to-use, cross-platform multi-track audio editor/recorder"
-  },
-  {
-    "pkg": "tere",
-    "site": "mgunyho/tere",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tere",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tere",
-    "version_raw": "https://github.com/mgunyho/tere/releases/download/v1.6.0/tere-1.6.0-x86_64-unknown-linux-gnu.zip",
-    "description": "Terminal file explorer"
   },
   {
     "pkg": "terminalos-sim",
@@ -20830,14 +20782,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tidal-hifi",
     "version_raw": "https://github.com/Mastermindzh/tidal-hifi/releases/download/6.2.0/tidal-hifi-6.2.0.AppImage",
     "description": "The web version of listen.tidal.com running in electron"
-  },
-  {
-    "pkg": "tidybit",
-    "site": "Veda-Swaroop/TidyBit",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tidybit",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tidybit",
-    "version_raw": "https://github.com/Veda-Swaroop/TidyBit/releases/download/v1.3.4/TidyBit-x86_64.AppImage",
-    "description": "TidyBit is a simple handy tool that can organize messy collection of files and move them to a chosen folder"
   },
   {
     "pkg": "tilde-podcast",
@@ -21120,14 +21064,6 @@
     "description": "Translate Any Languages like a Pro"
   },
   {
-    "pkg": "transmission-gtk",
-    "site": "ivan-hc/Transmission-gtk-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/transmission-gtk",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/transmission-gtk",
-    "version_raw": "https://github.com/ivan-hc/Transmission-gtk-appimage/releases/download/continuous/Transmission_4.1.1-1-archimage5.0-x86_64.AppImage",
-    "description": "Unofficial. Fast, easy, and free BitTorrent client, GTK+ GUI"
-  },
-  {
     "pkg": "transmission-qt",
     "site": "pkgforge-dev/transmission-qt-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/transmission-qt",
@@ -21350,14 +21286,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tweet-tray",
     "version_raw": "https://github.com/jonathontoon/tweet-tray/releases/download/v1.1.5/tweet-tray-1.1.5.AppImage",
     "description": "Tweet quickly from the desktop without any distractions"
-  },
-  {
-    "pkg": "twetter",
-    "site": "NiewidzialnyCzlowiek/pubsub-webapp",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/twetter",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/twetter",
-    "version_raw": "https://github.com/NiewidzialnyCzlowiek/Twetter/releases/download/2.1.0/Twetter.64bit.2.1.0.AppImage",
-    "description": "Client for the pubsub app"
   },
   {
     "pkg": "twitch-wrapper",
