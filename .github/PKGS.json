@@ -676,7 +676,7 @@
     "site": "aurelienpierreeng/ansel",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ansel",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ansel",
-    "version_raw": "https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/Ansel-0.0.0%2B2773.g8662c036-x86_64.AppImage",
+    "version_raw": "https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/Ansel-0.0.0%2B2791.g090963e5-x86_64.AppImage",
     "description": "An open-source photo-editing software for digital artists, designed to help you achieve your own interpretation of raw digital photographs"
   },
   {
@@ -832,6 +832,22 @@
     "description": "GNU/Linux packaging solution using the AppImage format"
   },
   {
+    "pkg": "appimage-creator",
+    "site": "Hiko-Seijuro-23/AppImage-creator",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimage-creator",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimage-creator",
+    "version_raw": "https://github.com/Hiko-Seijuro-23/AppImage-creator/releases/download/AppImage/AppImage-creator-0.0.1.AppImage",
+    "description": "GUI for easily generating AppImage packages on Linux"
+  },
+  {
+    "pkg": "appimagecraft",
+    "site": "TheAssassin/appimagecraft",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimagecraft",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimagecraft",
+    "version_raw": "https://github.com/TheAssassin/appimagecraft/releases/download/continuous/appimagecraft-x86_64.AppImage",
+    "description": "Powerful build script generator with a focus on AppImages"
+  },
+  {
     "pkg": "appimagelauncher",
     "site": "TheAssassin/AppImageLauncher",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimagelauncher",
@@ -862,6 +878,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimagepool",
     "version_raw": "https://github.com/prateekmedia/appimagepool/releases/download/5.1.0/appimagepool-5.1.0-x86_64.AppImage",
     "description": "A simple, modern AppImageHub Client, powered by flutter"
+  },
+  {
+    "pkg": "appimagetool",
+    "site": "AppImage/appimagetool",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimagetool",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimagetool",
+    "version_raw": "https://github.com/AppImage/appimagetool/releases/download/1.9.1/appimagetool-x86_64.AppImage",
+    "description": "Tool to generate an AppImage from an existing AppDir"
   },
   {
     "pkg": "appimageupdate",
@@ -942,6 +966,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aranym",
     "version_raw": "https://github.com/aranym/aranym/releases/download/ARANYM_1_1_0/ARAnyM-1.1.0-x86_64.AppImage",
     "description": "Virtual Machine for Atari 32-bit applications"
+  },
+  {
+    "pkg": "arcade-manager",
+    "site": "cosmo0/arcade-manager",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/arcade-manager",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/arcade-manager",
+    "version_raw": "https://github.com/cosmo0/arcade-manager/releases/download/v7.1/ArcadeManager-7.1-linux-x64.AppImage",
+    "description": "Manage your rom collection, Games/Retropie & Recalbox"
   },
   {
     "pkg": "arch-deployer",
@@ -1100,7 +1132,7 @@
     "site": "artisan-roaster-scope/artisan",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artisan",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artisan",
-    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/continuous/artisan-linux-4.0.3.AppImage",
+    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/v4.0.2/artisan-linux-4.0.2.AppImage",
     "description": "Visualizes the coffee roasting process"
   },
   {
@@ -1118,6 +1150,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/asarui",
     "version_raw": "https://github.com/myazarc/AsarUI/releases/download/v1.0.2/asarui-1.0.2-x86_64.AppImage",
     "description": "UI for Asar"
+  },
+  {
+    "pkg": "asgardex",
+    "site": "asgardex/asgardex-desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/asgardex",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/asgardex",
+    "version_raw": "https://github.com/asgardex/asgardex-desktop/releases/download/v1.42.1/ASGARDEX-1.42.1-linux.AppImage",
+    "description": "Thorchain wallet desktop app"
   },
   {
     "pkg": "aspect",
@@ -1310,6 +1350,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/authme",
     "version_raw": "https://github.com/Levminer/authme/releases/download/7.0.0/authme-7.0.0-linux-x64.appimage",
     "description": "Simple cross-platform two-factor authenticator app for desktop"
+  },
+  {
+    "pkg": "authy",
+    "site": "ryuuzaki42/Authy_AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/authy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/authy",
+    "version_raw": "https://github.com/ryuuzaki42/Authy_AppImage/releases/download/2.5.0/Authy_Desktop-2.5.0.glibc2.17-x86_64-1_JB.AppImage",
+    "description": "Unofficial, Protect all your accounts with 2FA"
   },
   {
     "pkg": "auto-claude",
@@ -1880,6 +1928,14 @@
     "description": "An old cellphone arcade recreated for PC"
   },
   {
+    "pkg": "birds-kitchen",
+    "site": "fredserva/birdskitchen",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/birds-kitchen",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/birds-kitchen",
+    "version_raw": "https://github.com/fredserva/birdskitchen/releases/download/v0.8.3/Birds-Kitchen-0.8.3.AppImage",
+    "description": "Recipe manager"
+  },
+  {
     "pkg": "bitbox-wallet",
     "site": "digitalbitbox/bitbox-wallet-app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bitbox-wallet",
@@ -1950,6 +2006,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blastem",
     "version_raw": "https://github.com/mantralunar/blastem/releases/download/blastem64-0.6.3-pre-0e3118325c1c/BlastEm-x86_64.AppImage",
     "description": "Clone of Mercurial Repo"
+  },
+  {
+    "pkg": "blender",
+    "site": "ivan-hc/Blender-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blender",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blender",
+    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-stable/Blender-4.5.6-stable%2Bv45.a78963ed6435-x86_64.AppImage",
+    "description": "Very fast and versatile 3D modeller/renderer, Stable"
   },
   {
     "pkg": "blender-alpha",
@@ -10964,7 +11028,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -12180,7 +12244,7 @@
     "site": "swsnr/mdcat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mdcat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mdcat",
-    "version_raw": "https://github.com/swsnr/mdcat/releases/download/mdcat-2.5.0/mdcat-2.5.0-x86_64-unknown-linux-musl.tar.gz",
+    "version_raw": "",
     "description": "Command line, cat for markdown"
   },
   {
@@ -13188,7 +13252,7 @@
     "site": "swl-x/MystiQ",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mystiq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mystiq",
-    "version_raw": "https://github.com/swl-x/MystiQ/releases/download/continuous/MystiQ-master--603-x86_64.AppImage",
+    "version_raw": "",
     "description": "Qt5/C++ FFmpeg Media Converter"
   },
   {
@@ -13772,7 +13836,7 @@
     "site": "PabloF7/noter",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/noter",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/noter",
-    "version_raw": "https://github.com/doquen/noter/releases/download/v0.3-alpha/NoTer-x86_64.AppImage",
+    "version_raw": "",
     "description": "Simple serial terminal application"
   },
   {
@@ -13804,7 +13868,7 @@
     "site": "streetwriters/notesnook",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/notesnook",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/notesnook",
-    "version_raw": "https://github.com/streetwriters/notesnook/releases/download/v3.3.9/notesnook_linux_x86_64.AppImage",
+    "version_raw": "https://github.com/streetwriters/notesnook/releases/download/v3.3.10/notesnook_linux_x86_64.AppImage",
     "description": "Private note-taking app that encrypts everything on client side"
   },
   {
@@ -14484,7 +14548,7 @@
     "site": "OpenOP2/OpenOP2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openop2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openop2",
-    "version_raw": "https://github.com/OpenOP2/OpenOP2/releases/download/20210823/OpenOP2-20210823-x86_64.AppImage",
+    "version_raw": "",
     "description": "Re-implementation of the game Outpost 2, using the OpenRA engine"
   },
   {
@@ -14684,7 +14748,7 @@
     "site": "ivan-hc/Opera-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/opera-dev",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/opera-dev",
-    "version_raw": "https://github.com/ivan-hc/Opera-appimage/releases/download/continuous/Opera-Web-Browser-developer-130.0.5832.0-x86_64.AppImage",
+    "version_raw": "",
     "description": "Unofficial. Fast and secure web browser, Developer version"
   },
   {
@@ -17780,7 +17844,7 @@
     "site": "martinrotter/rssguard",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rssguard",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rssguard",
-    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-dev-492e23d71-qt5-linux64.AppImage",
+    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-dev-2217dba83-qt5-linux64.AppImage",
     "description": "Feed reader which supports RSS/ATOM/JSON, no-webengine version"
   },
   {
@@ -19740,7 +19804,7 @@
     "site": "https://gitlab.com/posktomten/streamcapture2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/streamcapture2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/streamcapture2",
-    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=JGKWJHQQWpL",
+    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=vsGRcvBbnM",
     "description": "Download video streams"
   },
   {
@@ -22420,7 +22484,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "7318295111",
+    "version_raw": "7320046630",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -23012,7 +23076,7 @@
     "site": "has207/xenia-edge",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xenia-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xenia-edge",
-    "version_raw": "https://github.com/has207/xenia-edge/releases/download/60cb154/xenia_edge_linux.AppImage",
+    "version_raw": "https://github.com/has207/xenia-edge/releases/download/ff9b961/xenia_edge_linux.AppImage",
     "description": "Xbox 360 Emulator Research Project, fork of the Xenia emulator, with the aim of quicker iteration and improvements to Vulkan backend"
   },
   {
