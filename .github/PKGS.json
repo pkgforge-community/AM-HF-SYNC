@@ -7604,7 +7604,7 @@
     "site": "https://sourceforge.net/p/gemrb",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gemrb",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gemrb",
-    "version_raw": "https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/Linux/GemRB-2026-03-14-master-6419ae6d3c-x86_64.AppImage/download",
+    "version_raw": "https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/Linux/GemRB-2026-03-15-master-24210e81e4-x86_64.AppImage/download",
     "description": "GemRB is a portable open-source implementation of Bioware's Infinity Engine"
   },
   {
@@ -9284,7 +9284,7 @@
     "site": "ImageMagick/ImageMagick",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/imagemagick-clang",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/imagemagick-clang",
-    "version_raw": "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-16/ImageMagick-70563ce-clang-x86_64.AppImage",
+    "version_raw": "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-17/ImageMagick-3f2f629-clang-x86_64.AppImage",
     "description": "CLI to create, edit, compose, or convert digital images"
   },
   {
@@ -9292,7 +9292,7 @@
     "site": "ImageMagick/ImageMagick",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/imagemagick-gcc",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/imagemagick-gcc",
-    "version_raw": "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-16/ImageMagick-70563ce-gcc-x86_64.AppImage",
+    "version_raw": "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-17/ImageMagick-3f2f629-gcc-x86_64.AppImage",
     "description": "CLI to create, edit, compose, or convert digital images"
   },
   {
@@ -13468,7 +13468,7 @@
     "site": "Nerimity/nerimity-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nerimity-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nerimity-desktop",
-    "version_raw": "https://github.com/Nerimity/nerimity-desktop/releases/download/v2.1.0/Nerimity-2.1.0.AppImage",
+    "version_raw": "https://github.com/Nerimity/nerimity-desktop/releases/download/v2.1.1/Nerimity-2.1.1.AppImage",
     "description": "Electron desktop app for Nerimity"
   },
   {
@@ -14972,7 +14972,7 @@
     "site": "patrikx3/redis-ui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/p3x-redis-ui",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/p3x-redis-ui",
-    "version_raw": "",
+    "version_raw": "https://github.com/patrikx3/redis-ui/releases/download/v2026.4.119/P3X-Redis-UI-2026.4.119.AppImage",
     "description": "A very functional handy database GUI and works in your pocket"
   },
   {
@@ -15044,7 +15044,7 @@
     "site": "Portable-Linux-Apps/palemoon-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/palemoon",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/palemoon",
-    "version_raw": "https://github.com/Portable-Linux-Apps/palemoon-AppImage/releases/download/34.1.0%402026-03-08_1772987801/Pale_Moon-34.1.0-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/palemoon-AppImage/releases/download/34.1.0%402026-03-15_1773592739/Pale_Moon-34.1.0-x86_64.AppImage",
     "description": "Web browser, a Firefox fork with a classic UI and modern APIs"
   },
   {
@@ -16088,6 +16088,14 @@
     "description": "Command-line tool that lets you display Pokémon sprites in color directly in your terminal"
   },
   {
+    "pkg": "pokemmo",
+    "site": "pkgforge-dev/PokeMMO-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pokemmo",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pokemmo",
+    "version_raw": "https://github.com/pkgforge-dev/PokeMMO-AppImage/releases/download/1.4.8-2%402026-03-15_1773592471/PokeMMO-1.4.8-2-anylinux-x86_64.AppImage",
+    "description": "Unofficial, MMO based on the Pokémon Universe"
+  },
+  {
     "pkg": "pokete",
     "site": "lxgr-linux/pokete",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pokete",
@@ -16260,7 +16268,7 @@
     "site": "hrydgard/ppsspp",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ppsspp",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ppsspp",
-    "version_raw": "https://github.com/hrydgard/ppsspp/releases/download/v1.20.2/PPSSPP-v1.20.2-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/hrydgard/ppsspp/releases/download/v1.20.3/PPSSPP-v1.20.3-anylinux-x86_64.AppImage",
     "description": "PSP emulator written in C++"
   },
   {
@@ -17028,7 +17036,7 @@
     "site": "ra3xdh/qucs_s",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qucs-s",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qucs-s",
-    "version_raw": "https://github.com/ra3xdh/qucs_s/releases/download/continuous_build/Qucs-S-25.2.99-5bfd478-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/ra3xdh/qucs_s/releases/download/continuous_build/Qucs-S-25.2.99-e60dac9-linux-x86_64.AppImage",
     "description": "An Universal GUI for Circuit Simulators"
   },
   {
@@ -17820,7 +17828,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-5274210ba8307f1c0a45a8398d3ba9e9c8840f19/rpcs3-v0.0.40-18951-5274210b_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-433816148a30ed79e395f10810d47dd681787e98/rpcs3-v0.0.40-18967-43381614_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -22500,7 +22508,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "7415632049",
+    "version_raw": "7416355330",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
