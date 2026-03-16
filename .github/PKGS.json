@@ -8660,7 +8660,7 @@
     "site": "vim/vim-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gvim",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gvim",
-    "version_raw": "https://github.com/vim/vim-appimage/releases/download/v9.2.0167/GVim-v9.2.0167.glibc2.34-x86_64.AppImage",
+    "version_raw": "https://github.com/vim/vim-appimage/releases/download/v9.2.0173/GVim-v9.2.0173.glibc2.34-x86_64.AppImage",
     "description": "Edit text files"
   },
   {
@@ -11036,7 +11036,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -18336,6 +18336,14 @@
     "description": "Seafile CLI version. Beyond just syncing and sharing files, it lets you add custom file properties and organize your files in different views. With AI-powered automation for generating properties, Seafile offers a smarter, more efficient way to manage your files"
   },
   {
+    "pkg": "seanime",
+    "site": "5rahim/seanime",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/seanime",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/seanime",
+    "version_raw": "https://github.com/5rahim/seanime/releases/download/v3.5.2/seanime-denshi-3.5.2_Linux_x86_64.AppImage",
+    "description": "Open-source media server with a web interface and desktop app for anime and manga"
+  },
+  {
     "pkg": "secops",
     "site": "KunalSin9h/secops",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/secops",
@@ -18414,6 +18422,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/serial-studio",
     "version_raw": "https://github.com/Serial-Studio/Serial-Studio/releases/download/continuous/Serial-Studio-Pro-3.2.4-Linux-x64.AppImage",
     "description": "Multi-purpose serial data view program"
+  },
+  {
+    "pkg": "serialplot",
+    "site": "https://hackaday.io",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/serialplot",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/serialplot",
+    "version_raw": "https://github.com/hyOzd/serialplot/releases/download/v0.13.0/SerialPlot-ae7e3dc-x86_64.AppImage",
+    "description": "Small and simple software for plotting data from serial port"
   },
   {
     "pkg": "serioussamtfe",
@@ -18584,6 +18600,14 @@
     "description": "A Witnet compatible desktop wallet"
   },
   {
+    "pkg": "shellcheck",
+    "site": "koalaman/shellcheck",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shellcheck",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shellcheck",
+    "version_raw": "https://github.com/koalaman/shellcheck/releases/download/v0.11.0/shellcheck-v0.11.0.linux.x86_64.tar.xz",
+    "description": "ShellCheck, a static analysis tool for shell scripts"
+  },
+  {
     "pkg": "shellharden",
     "site": "anordal/shellharden",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shellharden",
@@ -18630,6 +18654,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shutter-encoder",
     "version_raw": "https://www.shutterencoder.com/Shutter%20Encoder%2019.9%20Linux%2064bits.AppImage",
     "description": "Professional converter & compression tool designed by video editors"
+  },
+  {
+    "pkg": "shuttle",
+    "site": "ShuttleBrowser/Shuttle",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shuttle",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shuttle",
+    "version_raw": "https://github.com/ShuttleBrowser/Shuttle/releases/download/v3.1.0/Shuttle-Linux-x86_64.AppImage",
+    "description": "The fastest access to your favorite applications"
   },
   {
     "pkg": "shvspy",
@@ -19796,7 +19828,7 @@
     "site": "https://gitlab.com/posktomten/streamcapture2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/streamcapture2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/streamcapture2",
-    "version_raw": "",
+    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=qdDKDpfwKfHb",
     "description": "Download video streams"
   },
   {
@@ -20904,6 +20936,14 @@
     "description": "Two-Factor Authentication Tokens Manager in Terminal"
   },
   {
+    "pkg": "tlum",
+    "site": "lyskouski/app-language",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tlum",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tlum",
+    "version_raw": "https://github.com/lyskouski/app-language/releases/download/v0.0.11/tlum_LinuxAppImage.AppImage",
+    "description": "Tlum - open-source cross-platform language learning application leverages the power of natural language processing to pinpoint pronunciation gaps and enhance articulation, machine learning to boost vocabulary proficiency"
+  },
+  {
     "pkg": "tmon",
     "site": "gmagno/tmon",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tmon",
@@ -21070,6 +21110,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/touchhle",
     "version_raw": "https://github.com/pkgforge-dev/TouchHLE-AppImage/releases/download/v0.2.3%402026-03-01_1772356472/touchHLE-v0.2.3-anylinux-x86_64.AppImage",
     "description": "Unofficial, High-level emulator for iPhone OS apps"
+  },
+  {
+    "pkg": "trackaudio",
+    "site": "pierr3/TrackAudio",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trackaudio",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/trackaudio",
+    "version_raw": "https://github.com/pierr3/TrackAudio/releases/download/1.4.0-beta.4/trackaudio-1.4.0-beta.4-x86_64.AppImage",
+    "description": "A next generation Audio-For-VATSIM ATC Client"
   },
   {
     "pkg": "trans",
@@ -21240,6 +21288,14 @@
     "description": "Scrape a Tumblr profile for user uploadede posts"
   },
   {
+    "pkg": "tunepack",
+    "site": "tunepack/tunepack-desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tunepack",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tunepack",
+    "version_raw": "https://github.com/tunepack/tunepack-desktop/releases/download/v1.2.1/tunepack-desktop-1.2.1-x86_64.AppImage",
+    "description": "Finding and download HQ audio files"
+  },
+  {
     "pkg": "turbowarp",
     "site": "TurboWarp/desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/turbowarp",
@@ -21368,6 +21424,14 @@
     "description": "A cross-platform markdown editor"
   },
   {
+    "pkg": "ubports-installer",
+    "site": "ubports/ubports-installer",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ubports-installer",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ubports-installer",
+    "version_raw": "https://github.com/ubports/ubports-installer/releases/download/0.11.2/ubports-installer_0.11.2_linux_x86_64.AppImage",
+    "description": "A simple tool to install Ubuntu Touch on UBports devices"
+  },
+  {
     "pkg": "uefitool",
     "site": "pkgforge-dev/UEFITool-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uefitool",
@@ -21454,6 +21518,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ungoogled-chromium",
     "version_raw": "https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/146.0.7680.80-1/ungoogled-chromium-146.0.7680.80-1-x86_64.AppImage",
     "description": "Chromium Web Browser without Google services"
+  },
+  {
+    "pkg": "unishellect",
+    "site": "Lateralus138/unishellectv2",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/unishellect",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/unishellect",
+    "version_raw": "https://github.com/Lateralus138/unishellectv2/releases/download/2.0.1661201987/UniShellect-x86_64.AppImage",
+    "description": "JSON parser file and menu customizez Hyper-inspired"
   },
   {
     "pkg": "unleashedrecomp",
@@ -22436,7 +22508,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "7421996549",
+    "version_raw": "7422183725",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
