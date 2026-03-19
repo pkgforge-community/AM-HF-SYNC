@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-AMVERSION="9.9.5-6"
+AMVERSION="9.9.5-7"
 
 # Determine main repository and branch
 AMREPO="https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main"
@@ -1437,11 +1437,11 @@ _use_verify() {
 				# Search other sources if no zsync file
 				for ext in digest DIGEST sha512 sha256 sha1 md5; do
 					digest=$(curl -Ls "$download_url.$ext")
-					if ! echo "$digest" | grep -qi "not found"; then
+					if ! echo "$digest" | grep -qi "not found\|access denied"; then
 						break
 					fi
 				done
-				if echo "$digest" | grep -qi "not found"; then
+				if echo "$digest" | grep -qi "not found\|access denied"; then
 					return 1
 				fi
 			fi
