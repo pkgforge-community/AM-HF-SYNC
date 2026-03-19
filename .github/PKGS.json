@@ -3228,7 +3228,7 @@
     "site": "skyjake/lagrange",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clagrange",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/clagrange",
-    "version_raw": "https://github.com/skyjake/lagrange/releases/download/v1.20.0/clagrange-1.20.0-x86_64.AppImage",
+    "version_raw": "https://github.com/skyjake/lagrange/releases/download/v1.20.1/clagrange-1.20.1-x86_64.AppImage",
     "description": "Lagrange is a cross-platform client for browsing Geminispace (CLI Version)"
   },
   {
@@ -4428,7 +4428,7 @@
     "site": "dbgate/dbgate",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dbgate",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dbgate",
-    "version_raw": "https://github.com/dbgate/dbgate/releases/download/v7.1.3/dbgate-7.1.3-linux_x86_64.AppImage",
+    "version_raw": "https://github.com/dbgate/dbgate/releases/download/v7.1.4/dbgate-7.1.4-linux_x86_64.AppImage",
     "description": "Opensource database administration tool"
   },
   {
@@ -4436,7 +4436,7 @@
     "site": "dbgate/dbgate",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dbgate-premium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dbgate-premium",
-    "version_raw": "https://github.com/dbgate/dbgate/releases/download/v7.1.3/dbgate-7.1.3-linux_x86_64.AppImage",
+    "version_raw": "https://github.com/dbgate/dbgate/releases/download/v7.1.4/dbgate-7.1.4-linux_x86_64.AppImage",
     "description": "Opensource database administration tool (premium version)"
   },
   {
@@ -6452,7 +6452,7 @@
     "site": "RPGLogs/Uploaders-fflogs",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fflogs-uploader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fflogs-uploader",
-    "version_raw": "https://github.com/RPGLogs/Uploaders-fflogs/releases/download/v9.0.24/fflogs-v9.0.24.AppImage",
+    "version_raw": "https://github.com/RPGLogs/Uploaders-fflogs/releases/download/v9.0.33/fflogs-v9.0.33.AppImage",
     "description": "FFLogs Uploader appimage"
   },
   {
@@ -7396,7 +7396,7 @@
     "site": "mikf/gallery-dl",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gallery-dl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gallery-dl",
-    "version_raw": "https://github.com/mikf/gallery-dl/releases/download/v1.31.9/gallery-dl.bin",
+    "version_raw": "https://github.com/mikf/gallery-dl/releases/download/v1.31.10/gallery-dl.bin",
     "description": "Command-line program to download image galleries and collections"
   },
   {
@@ -8036,7 +8036,7 @@
     "site": "timche/gmail-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gmail-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gmail-desktop",
-    "version_raw": "https://github.com/zoidsh/meru/releases/download/v3.38.0/Meru-3.38.0.AppImage",
+    "version_raw": "https://github.com/zoidsh/meru/releases/download/v3.38.1/Meru-3.38.1.AppImage",
     "description": "Unofficial. Nifty Gmail desktop app"
   },
   {
@@ -11084,7 +11084,7 @@
     "site": "skyjake/lagrange",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lagrange",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lagrange",
-    "version_raw": "https://github.com/skyjake/lagrange/releases/download/v1.20.0/Lagrange-1.20.0-x86_64.AppImage",
+    "version_raw": "https://github.com/skyjake/lagrange/releases/download/v1.20.1/Lagrange-1.20.1-x86_64.AppImage",
     "description": "Lagrange is a cross-platform client for browsing Geminispace (GUI Version)"
   },
   {
@@ -12912,6 +12912,14 @@
     "description": "Mooltipass crossplatform daemon/tools"
   },
   {
+    "pkg": "moon-lander",
+    "site": "andy5995/moon-lander-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/moon-lander",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/moon-lander",
+    "version_raw": "https://github.com/andy5995/moon-lander-appimage/releases/download/latest/moon-lander-1.0-10-x86_64.AppImage",
+    "description": "Moon Lander is a 2D game of gravity.  Land your ship on the lading pad"
+  },
+  {
     "pkg": "moondeck-buddy",
     "site": "FrogTheFrog/moondeck-buddy",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/moondeck-buddy",
@@ -14270,6 +14278,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/omnipull",
     "version_raw": "https://github.com/Annor-Gyimah/OmniPull/releases/download/v.2.1.1/omnipull-portable-2.1.1-x86_64.AppImage",
     "description": "Pull Everything. Everywhere. OmniPull is a powerful, cross-platform download manager"
+  },
+  {
+    "pkg": "omniroute",
+    "site": "diegosouzapw/OmniRoute",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/omniroute",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/omniroute",
+    "version_raw": "https://github.com/diegosouzapw/OmniRoute/releases/download/v2.8.1/OmniRoute-2.8.1.AppImage",
+    "description": "OmniRoute is an AI gateway for multi-provider LLMs: an OpenAI-compatible endpoint with smart routing, load balancing, retries, and fallbacks. Add policies, rate limits, caching, and observability for reliable, cost-aware inference"
   },
   {
     "pkg": "omnispeak",
@@ -20468,7 +20484,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.12.0-beta.1.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.6.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -22100,7 +22116,7 @@
     "site": "ivan-hc/Vivaldi-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vivaldi-stable",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vivaldi-stable",
-    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-stable-7.8.3925.81-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-stable-7.9.3970.39-1-x86_64.AppImage",
     "description": "Unofficial. Advanced Web Browser, Stable Version"
   },
   {
@@ -22532,7 +22548,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "7554643593",
+    "version_raw": "7558046173",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
