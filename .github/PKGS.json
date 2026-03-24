@@ -1424,6 +1424,14 @@
     "description": "Path of Exile trading app for price checking"
   },
   {
+    "pkg": "awakened-poe-trade-enhanced",
+    "site": "pkgforge-dev/Awakened-POE-Trade-AppImage-Enhanced",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/awakened-poe-trade-enhanced",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/awakened-poe-trade-enhanced",
+    "version_raw": "https://github.com/pkgforge-dev/Awakened-POE-Trade-AppImage-Enhanced/releases/download/3.28.103%402026-03-24_1774340238/Awakened_PoE_Trade-3.28.103-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Awakened POE Trade with some fixes and wider OS support"
+  },
+  {
     "pkg": "axe-electrum",
     "site": "AXErunners/electrum-axe",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/axe-electrum",
@@ -7628,7 +7636,7 @@
     "site": "https://sourceforge.net/p/gemrb",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gemrb",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gemrb",
-    "version_raw": "https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/Linux/GemRB-2026-03-24-master-574dfeb9ad-x86_64.AppImage/download",
+    "version_raw": "https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/Linux/GemRB-2026-03-24-master-ec739cb810-x86_64.AppImage/download",
     "description": "GemRB is a portable open-source implementation of Bioware's Infinity Engine"
   },
   {
@@ -7916,7 +7924,7 @@
     "site": "gitify-app/gitify",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gitify",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gitify",
-    "version_raw": "https://github.com/gitify-app/gitify/releases/download/v6.18.0/Gitify-6.18.0.AppImage",
+    "version_raw": "https://github.com/gitify-app/gitify/releases/download/v6.19.0/Gitify-6.19.0.AppImage",
     "description": "GitHub notifications on your menu bar"
   },
   {
@@ -8060,7 +8068,7 @@
     "site": "timche/gmail-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gmail-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gmail-desktop",
-    "version_raw": "https://github.com/zoidsh/meru/releases/download/v3.38.1/Meru-3.38.1.AppImage",
+    "version_raw": "https://github.com/zoidsh/meru/releases/download/v3.38.2/Meru-3.38.2.AppImage",
     "description": "Unofficial. Nifty Gmail desktop app"
   },
   {
@@ -12508,7 +12516,7 @@
     "site": "https://www.mendeley.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mendeley",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mendeley",
-    "version_raw": "https://static.mendeley.com/bin/desktop/mendeley-reference-manager-2.143.0-x86_64.AppImage",
+    "version_raw": "https://static.mendeley.com/bin/desktop/mendeley-reference-manager-2.144.0-x86_64.AppImage",
     "description": "Search over 100 million cross-publisher articles and counting"
   },
   {
@@ -15332,7 +15340,7 @@
     "site": "PCSX2/pcsx2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcsx2",
-    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.211/pcsx2-v2.7.211-linux-appimage-x64-Qt.AppImage",
+    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.213/pcsx2-v2.7.213-linux-appimage-x64-Qt.AppImage",
     "description": "The Playstation 2 Emulator"
   },
   {
@@ -15804,7 +15812,7 @@
     "site": "pinokiocomputer/pinokio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pinokio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pinokio",
-    "version_raw": "https://github.com/pinokiocomputer/pinokio/releases/download/v7.1.1/Pinokio-7.1.1.AppImage",
+    "version_raw": "https://github.com/pinokiocomputer/pinokio/releases/download/v7.1.12/Pinokio-7.1.12.AppImage",
     "description": "AI Browser"
   },
   {
@@ -17180,7 +17188,7 @@
     "site": "TryQuiet/quiet",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quiet",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quiet",
-    "version_raw": "https://github.com/TryQuiet/quiet/releases/download/%40quiet/desktop%407.0.1-alpha.5/Quiet-7.0.1-alpha.5.AppImage",
+    "version_raw": "https://github.com/TryQuiet/quiet/releases/download/%40quiet/desktop%407.0.1-alpha.8/Quiet-7.0.1-alpha.8.AppImage",
     "description": "A private, p2p alternative to Slack and Discord built on Tor & IPFS"
   },
   {
@@ -18300,7 +18308,7 @@
     "site": "SciQLop/SciQLop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sciqlop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sciqlop",
-    "version_raw": "https://github.com/SciQLop/SciQLop/releases/download/v0.10.4/SciQLop-x86_64-v0.10.4.AppImage",
+    "version_raw": "https://github.com/SciQLop/SciQLop/releases/download/v0.10.5/SciQLop-x86_64-v0.10.5.AppImage",
     "description": "SciQLop is an ergonomic and efficient application to browse and label in situ plasma measurements from multi-mission satellite data"
   },
   {
@@ -18516,7 +18524,7 @@
     "site": "Serial-Studio/Serial-Studio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/serial-studio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/serial-studio",
-    "version_raw": "https://github.com/Serial-Studio/Serial-Studio/releases/download/continuous/Serial-Studio-Pro-3.2.6-Linux-x64.AppImage",
+    "version_raw": "https://github.com/Serial-Studio/Serial-Studio/releases/download/v3.2.6/Serial-Studio-Pro-3.2.6-Linux-x64.AppImage",
     "description": "Multi-purpose serial data view program"
   },
   {
@@ -20092,7 +20100,7 @@
     "site": "https://sunsama.com/",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sunsama",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sunsama",
-    "version_raw": "3.3.4",
+    "version_raw": "3.3.5",
     "description": "The daily planner for elite professionals"
   },
   {
@@ -20142,6 +20150,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/superfile",
     "version_raw": "",
     "description": "Pretty fancy and modern terminal file manager"
+  },
+  {
+    "pkg": "supermariowar",
+    "site": "pkgforge-dev/Supermariowar-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/supermariowar",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/supermariowar",
+    "version_raw": "https://github.com/pkgforge-dev/Supermariowar-AppImage/releases/download/r1707.c130b990-1%402026-03-23_1774302402/Super_Mario_War-r1707.c130b990-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, a fan-made multiplayer Super Mario Bros. style deathmatch game"
   },
   {
     "pkg": "supermodel",
@@ -20540,7 +20556,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.12.0-beta.1.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.6.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -22604,7 +22620,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "7707525911",
+    "version_raw": "7712701225",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
