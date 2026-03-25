@@ -3268,7 +3268,7 @@
     "site": "libnyanpasu/clash-nyanpasu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clash-nyanpasu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/clash-nyanpasu",
-    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha%2Bd02d449_amd64.AppImage",
+    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha%2B485354d_amd64.AppImage",
     "description": "A Clash GUI based on tauri"
   },
   {
@@ -6108,7 +6108,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.3.11.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -8700,7 +8700,7 @@
     "site": "vim/vim-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gvim",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gvim",
-    "version_raw": "https://github.com/vim/vim-appimage/releases/download/v9.2.0235/GVim-v9.2.0235.glibc2.34-x86_64.AppImage",
+    "version_raw": "https://github.com/vim/vim-appimage/releases/download/v9.2.0240/GVim-v9.2.0240.glibc2.34-x86_64.AppImage",
     "description": "Edit text files"
   },
   {
@@ -11076,7 +11076,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -14852,7 +14852,7 @@
     "site": "sethyuan/orca-note",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/orca-note",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/orca-note",
-    "version_raw": "https://github.com/sethyuan/orca-note/releases/download/v1.69.0/orcanote-linux-x86_64-1.69.0.AppImage",
+    "version_raw": "https://github.com/sethyuan/orca-note/releases/download/v1.69.1/orcanote-linux-x86_64-1.69.1.AppImage",
     "description": "A note taking application that is good both for outlining and long-form writing"
   },
   {
@@ -16300,7 +16300,7 @@
     "site": "mvdicarlo/postybirb",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/postybirb",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/postybirb",
-    "version_raw": "https://github.com/mvdicarlo/postybirb/releases/download/v4.0.21/PostyBirb-4.0.21-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/mvdicarlo/postybirb/releases/download/v4.0.22/PostyBirb-4.0.22-linux-x86_64.AppImage",
     "description": "Multimedia crossposter for multimedia websites"
   },
   {
@@ -21998,5 +21998,29 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vidcutter",
     "version_raw": "https://github.com/ozmartian/vidcutter/releases/download/6.0.5.1/VidCutter-6.0.5.1-x86_64.AppImage",
     "description": "Simple and fast video cutter and joiner"
+  },
+  {
+    "pkg": "viddy",
+    "site": "sachaos/viddy",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/viddy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/viddy",
+    "version_raw": "https://github.com/sachaos/viddy/releases/download/v1.3.0/viddy-v1.3.0-linux-x86_64.tar.gz",
+    "description": "A modern watch command line utility. Time machine and pager etc"
+  },
+  {
+    "pkg": "video-hub",
+    "site": "whyboris/Video-Hub-App",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/video-hub",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/video-hub",
+    "version_raw": "https://github.com/whyboris/Video-Hub-App/releases/download/v3.2.0/Video.Hub.App.3.Demo-3.2.0.AppImage",
+    "description": "A fastest way to browse and search for videos on your computer"
+  },
+  {
+    "pkg": "video-trimmer",
+    "site": "pkgforge-dev/Video-Trimmer-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/video-trimmer",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/video-trimmer",
+    "version_raw": "https://github.com/pkgforge-dev/Video-Trimmer-AppImage/releases/download/25.03-2%402026-03-22_1774172516/Video_Trimmer-25.03-2-anylinux-x86_64.AppImage",
+    "description": "Unofficial. Simple video trimming, with option to trim precisely or to trim without loosing video quality"
   }
 ]
