@@ -412,7 +412,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.733/alma-0.0.733-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.734/alma-0.0.734-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -1132,7 +1132,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "",
+    "version_raw": "1.0.4",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -2376,6 +2376,14 @@
     "description": "Save yourself from RSI and eye-strain"
   },
   {
+    "pkg": "briar",
+    "site": "https://briarproject.org",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/briar",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/briar",
+    "version_raw": "",
+    "description": "Briar Desktop. Censorship-resistant peer-to-peer messaging that bypasses centralized servers. Connect via Bluetooth, Wi-Fi or Tor, with privacy built-in"
+  },
+  {
     "pkg": "brickstore",
     "site": "rgriebl/brickstore",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brickstore",
@@ -2518,6 +2526,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bulkurlopener",
     "version_raw": "https://github.com/EuanRiggans/BulkURLOpener/releases/download/1.12.0/bulkurlopener-1.12.0-linux.AppImage",
     "description": "Desktop version of the Bulk URL Opener extension"
+  },
+  {
+    "pkg": "bulky",
+    "site": "pkgforge-dev/Bulky-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bulky",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bulky",
+    "version_raw": "https://github.com/pkgforge-dev/Bulky-AppImage/releases/download/4.2-1%402026-03-22_1774172610/Bulky-4.2-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, an XApp used to rename multiple files and directories"
   },
   {
     "pkg": "bunnyfetch",
@@ -4844,7 +4860,7 @@
     "site": "rallep71/dinox",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dinox",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dinox",
-    "version_raw": "https://github.com/rallep71/dinox/releases/download/v1.1.7.8/DinoX-1.1.7.8-x86_64.AppImage",
+    "version_raw": "https://github.com/rallep71/dinox/releases/download/v1.1.8.0/DinoX-1.1.8.0-x86_64.AppImage",
     "description": "DinoX - Modern XMPP Chat Client with Video Calls, Voice Messages & OMEMO Encryption"
   },
   {
@@ -6348,7 +6364,7 @@
     "site": "Fchat-Horizon/Horizon",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fchat-horizon",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fchat-horizon",
-    "version_raw": "https://github.com/Fchat-Horizon/Horizon/releases/download/v2.0.1/F-Chat.Horizon-2.0.1-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/Fchat-Horizon/Horizon/releases/download/v2.0.2/F-Chat.Horizon-2.0.2-linux-x86_64.AppImage",
     "description": "The Best F-Chat 3.0 Client, No exceptions!"
   },
   {
@@ -7220,7 +7236,7 @@
     "site": "ChurchApps/FreeShow",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/freeshow",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/freeshow",
-    "version_raw": "https://github.com/ChurchApps/FreeShow/releases/download/v1.6.0-beta.1/FreeShow-1.6.0-beta.1-x86_64.AppImage",
+    "version_raw": "https://github.com/ChurchApps/FreeShow/releases/download/v1.6.0-beta.2/FreeShow-1.6.0-beta.2-x86_64.AppImage",
     "description": "User-friendly presenter software"
   },
   {
@@ -8068,7 +8084,7 @@
     "site": "timche/gmail-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gmail-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gmail-desktop",
-    "version_raw": "https://github.com/zoidsh/meru/releases/download/v3.38.2/Meru-3.38.2.AppImage",
+    "version_raw": "https://github.com/zoidsh/meru/releases/download/v3.38.3/Meru-3.38.3.AppImage",
     "description": "Unofficial. Nifty Gmail desktop app"
   },
   {
@@ -11068,7 +11084,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -12332,7 +12348,7 @@
     "site": "ORNL-AMO/AMO-Tools-Desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/measur",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/measur",
-    "version_raw": "https://github.com/ORNL-AMO/AMO-Tools-Desktop/releases/download/v1.7.0/MEASUR-1.7.0.AppImage",
+    "version_raw": "https://github.com/ORNL-AMO/AMO-Tools-Desktop/releases/download/v1.7.1/MEASUR-1.7.1.AppImage",
     "description": "Energy efficiency calculation app for use with industrial equipment"
   },
   {
@@ -13996,7 +14012,7 @@
     "site": "nukeop/nuclear",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nuclear",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nuclear",
-    "version_raw": "https://github.com/nukeop/nuclear/releases/download/player%401.27.0/Nuclear_1.27.0_amd64.AppImage",
+    "version_raw": "https://github.com/nukeop/nuclear/releases/download/player%401.28.0/Nuclear_1.28.0_amd64.AppImage",
     "description": "Streaming music player that finds free music for you"
   },
   {
@@ -14124,7 +14140,7 @@
     "site": "nymtech/nym-vpn-client",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nym-vpn",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nym-vpn",
-    "version_raw": "https://github.com/nymtech/nym-vpn-client/releases/download/nym-vpn-app-v1.27.0-rc2/NymVPN_1.27.0-rc2_amd64.AppImage",
+    "version_raw": "https://github.com/nymtech/nym-vpn-client/releases/download/nym-vpn-app-v1.27.0-rc4/NymVPN_1.27.0-rc4_amd64.AppImage",
     "description": "Cross-platform open source VPN client built in Rust, with mixnet anonymity and WireGuard speed. Protects metadata, not just IP addresses. Zero-knowledge payments for unlinkable online activities"
   },
   {
@@ -14460,7 +14476,7 @@
     "site": "nextai-translator/nextai-translator",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/open-ai-translator",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/open-ai-translator",
-    "version_raw": "https://github.com/nextai-translator/nextai-translator/releases/download/v0.6.9/NextAI.Translator_0.6.9_amd64.AppImage",
+    "version_raw": "https://github.com/nextai-translator/nextai-translator/releases/download/v0.6.11/NextAI.Translator_0.6.11_amd64.AppImage",
     "description": "Browser extension for translation based on ChatGPT API"
   },
   {
@@ -17244,7 +17260,7 @@
     "site": "ebkr/r2modmanPlus",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/r2modman",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/r2modman",
-    "version_raw": "https://github.com/ebkr/r2modmanPlus/releases/download/v3.2.14/r2modman-3.2.14.AppImage",
+    "version_raw": "https://github.com/ebkr/r2modmanPlus/releases/download/v3.2.15/r2modman-3.2.15.AppImage",
     "description": "Mod manager for several Unity games using Thunderstore"
   },
   {
@@ -17908,7 +17924,7 @@
     "site": "rotki/rotki",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rotki",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rotki",
-    "version_raw": "https://github.com/rotki/rotki/releases/download/v1.42.0/rotki-linux_x86_64-v1.42.0.AppImage",
+    "version_raw": "https://github.com/rotki/rotki/releases/download/v1.42.1/rotki-linux_x86_64-v1.42.1.AppImage",
     "description": "A portfolio tracking, asset analytics and tax reporting app"
   },
   {
@@ -18532,7 +18548,7 @@
     "site": "Serial-Studio/Serial-Studio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/serial-studio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/serial-studio",
-    "version_raw": "https://github.com/Serial-Studio/Serial-Studio/releases/download/v3.2.6/Serial-Studio-Pro-3.2.6-Linux-x64.AppImage",
+    "version_raw": "https://github.com/Serial-Studio/Serial-Studio/releases/download/continuous/Serial-Studio-Pro-3.2.6-Linux-x64.AppImage",
     "description": "Multi-purpose serial data view program"
   },
   {
@@ -21296,6 +21312,14 @@
     "description": "Remote for Transmission Daemon"
   },
   {
+    "pkg": "trelby",
+    "site": "pkgforge-dev/Trelby-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trelby",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/trelby",
+    "version_raw": "https://github.com/pkgforge-dev/Trelby-AppImage/releases/download/2.4.16.2-1%402026-03-23_1774298927/Trelby-2.4.16.2-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, Trelby is simple, fast and elegantly laid out to make screenwriting simple"
+  },
+  {
     "pkg": "trenchbroom",
     "site": "kduske/TrenchBroom",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trenchbroom",
@@ -22636,7 +22660,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "7793728014",
+    "version_raw": "7806713813",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -22708,7 +22732,7 @@
     "site": "Xpl0itU/WiiUDownloader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wiiu-downloader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wiiu-downloader",
-    "version_raw": "https://github.com/Xpl0itU/WiiUDownloader/releases/download/v2.84/WiiUDownloader-Linux-x86_64.AppImage",
+    "version_raw": "https://github.com/Xpl0itU/WiiUDownloader/releases/download/v2.85/WiiUDownloader-Linux-x86_64.AppImage",
     "description": "Allows to download encrypted wiiu files from nintendo's official servers"
   },
   {
@@ -23980,7 +24004,7 @@
     "site": "KittyCAD/modeling-app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zoo-design-studio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zoo-design-studio",
-    "version_raw": "https://github.com/KittyCAD/modeling-app/releases/download/v1.1.18/Zoo.Design.Studio-1.1.18-x86_64-linux.AppImage",
+    "version_raw": "https://github.com/KittyCAD/modeling-app/releases/download/v1.1.19/Zoo.Design.Studio-1.1.19-x86_64-linux.AppImage",
     "description": "The Zoo Design Studio app"
   },
   {
