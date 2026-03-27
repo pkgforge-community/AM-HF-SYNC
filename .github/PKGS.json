@@ -156,7 +156,7 @@
     "site": "https://developer.android.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/adb",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/adb",
-    "version_raw": "36.0.2",
+    "version_raw": "37.0.0",
     "description": "Android Debug Bridge, a command line utility to handle Android devices. This script installs the full platform-tools suite"
   },
   {
@@ -412,7 +412,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.735/alma-0.0.735-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.736/alma-0.0.736-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -897,11 +897,11 @@
   },
   {
     "pkg": "appimageupdate",
-    "site": "AppImage/AppImageUpdate",
+    "site": "pkgforge-dev/AppImageUpdate",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimageupdate",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimageupdate",
-    "version_raw": "https://github.com/AppImageCommunity/AppImageUpdate/releases/download/2.0.0-alpha-1-20251018/AppImageUpdate-x86_64.AppImage",
-    "description": "Tool to update an AppImage using embedded information"
+    "version_raw": "https://github.com/pkgforge-dev/AppImageUpdate/releases/download/0.2.1/appimageupdate-x86_64-linux",
+    "description": "A Rust implementation of AppImageUpdate, a tool for updating AppImages using efficient delta updates using zsync"
   },
   {
     "pkg": "appimageupdater",
@@ -1508,7 +1508,7 @@
     "site": "bambulab/BambuStudio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bambustudio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bambustudio",
-    "version_raw": "https://github.com/bambulab/BambuStudio/releases/download/v02.05.01.52/Bambu_Studio_ubuntu-22.04_V02.05.01.52.AppImage",
+    "version_raw": "https://github.com/bambulab/BambuStudio/releases/download/v02.05.02.51/BambuStudio_ubuntu-22.04_v02.05.02.51-20260327222803.AppImage",
     "description": "PC Software for BambuLab's 3D printers"
   },
   {
@@ -6316,7 +6316,7 @@
     "site": "https://developer.android.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fastboot",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fastboot",
-    "version_raw": "36.0.2",
+    "version_raw": "37.0.0",
     "description": "Tool to flash Android devices. This script installs the full platform-tools suite"
   },
   {
@@ -8084,7 +8084,7 @@
     "site": "timche/gmail-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gmail-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gmail-desktop",
-    "version_raw": "https://github.com/zoidsh/meru/releases/download/v3.38.3/Meru-3.38.3.AppImage",
+    "version_raw": "https://github.com/zoidsh/meru/releases/download/v3.38.4/Meru-3.38.4.AppImage",
     "description": "Unofficial. Nifty Gmail desktop app"
   },
   {
@@ -9620,7 +9620,7 @@
     "site": "https://beroux.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ipuissance-4d",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ipuissance-4d",
-    "version_raw": "http://download.beroux.com/iPuissance_4D-x86_64.AppImage",
+    "version_raw": "https://download.beroux.com/iPuissance_4D-x86_64.AppImage",
     "description": "Connect Four video game with a 3-Dimentional rendering"
   },
   {
@@ -11084,7 +11084,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -12104,6 +12104,14 @@
     "description": "Mangohud configuration tool"
   },
   {
+    "pkg": "maniadrive",
+    "site": "pkgforge-dev/ManiaDrive-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/maniadrive",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/maniadrive",
+    "version_raw": "https://github.com/pkgforge-dev/ManiaDrive-AppImage/releases/download/1.3custom%402026-03-26_1774529535/ManiaDrive-1.3custom-anylinux-x86_64.AppImage",
+    "description": "Unofficial, an open-source clone of the popular racing game TrackMania"
+  },
+  {
     "pkg": "manta",
     "site": "hql287/Manta",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/manta",
@@ -12790,6 +12798,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/miteiru",
     "version_raw": "https://github.com/hockyy/miteiru/releases/download/v2.2.0/miteiru-2.2.0-linux-22.04-x86_64.AppImage",
     "description": "An open source Electron video player to learn Japanese"
+  },
+  {
+    "pkg": "mixxx",
+    "site": "pkgforge-dev/Mixxx-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mixxx",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mixxx",
+    "version_raw": "https://github.com/pkgforge-dev/Mixxx-AppImage/releases/download/2.5.4-2%402026-03-27_1774610096/Mixxx-2.5.4-2-anylinux-x86_64.AppImage",
+    "description": "Unofficial, open source software for digital DJing"
   },
   {
     "pkg": "mjml-app",
@@ -15932,7 +15948,7 @@
     "site": "https://developer.android.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/platform-tools",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/platform-tools",
-    "version_raw": "36.0.2",
+    "version_raw": "37.0.0",
     "description": "Official Suite of command line utilities to manage Android devices"
   },
   {
@@ -17056,6 +17072,14 @@
     "description": "4chan browser in qt5"
   },
   {
+    "pkg": "qtcreator",
+    "site": "pkgforge-dev/QtCreator-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qtcreator",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qtcreator",
+    "version_raw": "https://github.com/pkgforge-dev/QtCreator-AppImage/releases/download/19.0.0-1%402026-03-27_1774611911/Qt_Creator-19.0.0-2-anylinux-x86_64.AppImage",
+    "description": "Unofficial, lightweight, cross-platform integrated development environment"
+  },
+  {
     "pkg": "qterminal",
     "site": "pkgforge-dev/QTerminal-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qterminal",
@@ -17204,7 +17228,7 @@
     "site": "TryQuiet/quiet",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quiet",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quiet",
-    "version_raw": "https://github.com/TryQuiet/quiet/releases/download/%40quiet/desktop%407.0.1-alpha.11/Quiet-7.0.1-alpha.11.AppImage",
+    "version_raw": "https://github.com/TryQuiet/quiet/releases/download/%40quiet/desktop%407.0.1-alpha.12/Quiet-7.0.1-alpha.12.AppImage",
     "description": "A private, p2p alternative to Slack and Discord built on Tor & IPFS"
   },
   {
@@ -17932,7 +17956,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-72b872df661abb94e867f3d4e3003d4178ae3ae5/rpcs3-v0.0.40-19108-72b872df_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-27024171926ea4ff62877bbd14ee9cb0f2e9c117/rpcs3-v0.0.40-19109-27024171_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -18548,7 +18572,7 @@
     "site": "https://hackaday.io",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/serialplot",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/serialplot",
-    "version_raw": "",
+    "version_raw": "https://github.com/hyOzd/serialplot/releases/download/v0.13.0/SerialPlot-ae7e3dc-x86_64.AppImage",
     "description": "Small and simple software for plotting data from serial port"
   },
   {
@@ -18668,7 +18692,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-03-27-8a1500d7ad31fa0b3da45b5883c3ac4dd456c287/shadps4-linux-sdl-2026-03-27-8a1500d.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-03-27-df32a2076b27a84660115f1b3872c89ac928be56/shadps4-linux-sdl-2026-03-27-df32a20.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -18886,6 +18910,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/simdsp",
     "version_raw": "https://github.com/lmcapacho/SimDSP/releases/download/v1.0.0/SimDSP-x86_64.AppImage",
     "description": "DSP Simulator"
+  },
+  {
+    "pkg": "simitone",
+    "site": "pkgforge-dev/Simitone-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/simitone",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/simitone",
+    "version_raw": "https://github.com/pkgforge-dev/Simitone-AppImage/releases/download/0.8.21-forked%402026-03-27_1774572630/Simitone-0.8.21-forked-anylinux-x86_64.AppImage",
+    "description": "Unofficial, re-implementation of The Sims 1, based off of FreeSO"
   },
   {
     "pkg": "simple-s3-uploader",
@@ -22260,7 +22292,7 @@
     "site": "Novum/vkQuake",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vkquake",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vkquake",
-    "version_raw": "https://github.com/Novum/vkQuake/releases/download/1.33.1/vkQuake-1.33.1_linux_x64.tar.gz",
+    "version_raw": "https://github.com/Novum/vkQuake/releases/download/1.34.0/vkQuake-1.34.0_linux_x64.tar.gz",
     "description": "Vulkan Quake game port based on QuakeSpasm"
   },
   {
@@ -22652,7 +22684,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "7833610152",
+    "version_raw": "7842876303",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
