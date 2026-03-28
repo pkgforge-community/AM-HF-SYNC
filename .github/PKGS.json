@@ -3156,7 +3156,7 @@
     "site": "ivan-hc/Chromium-Web-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chromium-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chromium-beta",
-    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-beta-147.0.7727.15-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-beta-147.0.7727.24-x86_64.AppImage",
     "description": "Unofficial. FOSS Web Browser, base of Google Chrome, beta edition"
   },
   {
@@ -3172,7 +3172,7 @@
     "site": "ivan-hc/Chromium-Web-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chromium-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chromium-edge",
-    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-edge-148.0.7743.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-edge-148.0.7753.0-x86_64.AppImage",
     "description": "Unofficial. FOSS Web Browser, base of Google Chrome, edge edition"
   },
   {
@@ -6124,7 +6124,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.3.11.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -7652,7 +7652,7 @@
     "site": "https://sourceforge.net/p/gemrb",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gemrb",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gemrb",
-    "version_raw": "https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/Linux/GemRB-2026-03-28-master-1b7e64019c-x86_64.AppImage/download",
+    "version_raw": "https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/Linux/GemRB-2026-03-28-master-e44c473d24-x86_64.AppImage/download",
     "description": "GemRB is a portable open-source implementation of Bioware's Infinity Engine"
   },
   {
@@ -7932,7 +7932,7 @@
     "site": "rainxchzed/Github-Store",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/github-store",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/github-store",
-    "version_raw": "https://github.com/OpenHub-Store/GitHub-Store/releases/download/1.6.2/GitHub-Store-x86_64.AppImage",
+    "version_raw": "https://github.com/OpenHub-Store/GitHub-Store/releases/download/1.7.0/GitHub-Store-x86_64.AppImage",
     "description": "A free, open-source app store for GitHub releases. Browse, discover, and install apps with one click. Powered by Kotlin and Compose Multiplatform for Android & Desktop"
   },
   {
@@ -20628,7 +20628,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.6.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.12.0-beta.1.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -21046,5 +21046,125 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tidybit",
     "version_raw": "https://github.com/Veda-Swaroop/TidyBit/releases/download/v1.3.4/TidyBit-x86_64.AppImage",
     "description": "TidyBit is a simple handy tool that can organize messy collection of files and move them to a chosen folder"
+  },
+  {
+    "pkg": "tilde-podcast",
+    "site": "paologiua/tilde",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tilde-podcast",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tilde-podcast",
+    "version_raw": "https://github.com/paologiua/tilde/releases/download/v1.0.0/Tilde-1.0.0.AppImage",
+    "description": "Podcast client to listen to all you favorite podcasts"
+  },
+  {
+    "pkg": "tiled",
+    "site": "bjorn/tiled",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tiled",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tiled",
+    "version_raw": "https://github.com/mapeditor/tiled/releases/download/v1.12.1/Tiled-1.12.1_Linux_x86_64.AppImage",
+    "description": "Tile map editor"
+  },
+  {
+    "pkg": "tilinggenerator",
+    "site": "PJK136/TilingGenerator",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tilinggenerator",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tilinggenerator",
+    "version_raw": "https://github.com/PJK136/TilingGenerator/releases/download/continuous/TilingGenerator-9ad9652-x86_64.AppImage",
+    "description": "Generator of regular and irregular tilings"
+  },
+  {
+    "pkg": "timely",
+    "site": "Timely/desktop-releases",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/timely",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/timely",
+    "version_raw": "https://github.com/Timely/desktop-releases/releases/download/linux-x64-dev-1.2.2-dev.135/Timely-1.2.2-dev.135.AppImage",
+    "description": "The release branch for Timely electron apps"
+  },
+  {
+    "pkg": "timenaut",
+    "site": "kmteras/timenaut",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/timenaut",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/timenaut",
+    "version_raw": "https://github.com/kmteras/timenaut/releases/download/v0.5.0/Timenaut-0.5.0.AppImage",
+    "description": "Desktop time tracking application"
+  },
+  {
+    "pkg": "tipitaka-pali-reader",
+    "site": "bksubhuti/tipitaka-pali-reader",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tipitaka-pali-reader",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tipitaka-pali-reader",
+    "version_raw": "https://github.com/bksubhuti/tipitaka-pali-reader/releases/download/2.7.2%2B99/tipitaka_pali_reader.AppImage",
+    "description": "A Pali Reading app made in Flutter"
+  },
+  {
+    "pkg": "tixati",
+    "site": "https://tixati.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tixati",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tixati",
+    "version_raw": "3.42-1",
+    "description": "A New and Powerful P2P System 100% Free, Simple and Easy to Use Bittorrent Client"
+  },
+  {
+    "pkg": "tkmm",
+    "site": "TKMM-Team/Tkmm",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tkmm",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tkmm",
+    "version_raw": "https://github.com/TKMM-Team/Tkmm/releases/download/v2.0.0/Tkmm-linux-x64.AppImage",
+    "description": "TotK Mod Manager, a mod manager and merger for Tears of the Kingdom"
+  },
+  {
+    "pkg": "tlock",
+    "site": "eklairs/tlock",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tlock",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tlock",
+    "version_raw": "https://github.com/eklairs/tlock/releases/download/v1.0.0/tlock-v1.0.0-linux-amd64.tar.gz",
+    "description": "Two-Factor Authentication Tokens Manager in Terminal"
+  },
+  {
+    "pkg": "tlum",
+    "site": "lyskouski/app-language",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tlum",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tlum",
+    "version_raw": "https://github.com/lyskouski/app-language/releases/download/v0.0.11/tlum_LinuxAppImage.AppImage",
+    "description": "Tlum - open-source cross-platform language learning application leverages the power of natural language processing to pinpoint pronunciation gaps and enhance articulation, machine learning to boost vocabulary proficiency"
+  },
+  {
+    "pkg": "tmon",
+    "site": "gmagno/tmon",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tmon",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tmon",
+    "version_raw": "https://github.com/gmagno/tmon/releases/download/v0.4.0/tmon-466ae00-x86_64.AppImage",
+    "description": "A simple CLI tool for monitoring/reporting CPU temperatures"
+  },
+  {
+    "pkg": "tmux",
+    "site": "nelsonenzo/tmux-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tmux",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tmux",
+    "version_raw": "https://github.com/nelsonenzo/tmux-appimage/releases/download/3.5a/tmux.appimage",
+    "description": "Tmux AppImage build via Docker"
+  },
+  {
+    "pkg": "tnt",
+    "site": "foolo/tnt",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tnt",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tnt",
+    "version_raw": "https://github.com/foolo/tnt/releases/download/0.3/tnt-0.3-linux-x64.AppImage",
+    "description": "A computer-assisted translation tool"
+  },
+  {
+    "pkg": "tockler",
+    "site": "MayGo/tockler",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tockler",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tockler",
+    "version_raw": "https://github.com/MayGo/tockler/releases/download/v4.0.22/Tockler-4.0.22.AppImage",
+    "description": "An application that tracks your time by monitoring"
+  },
+  {
+    "pkg": "tod",
+    "site": "alanvardy/tod",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tod",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tod",
+    "version_raw": "https://github.com/tod-org/tod/releases/download/v0.6.28/tod-0.6.28-x86_64.tar.gz",
+    "description": "An unofficial Todoist command line client written in Rust"
   }
 ]
