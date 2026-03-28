@@ -3284,7 +3284,7 @@
     "site": "libnyanpasu/clash-nyanpasu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clash-nyanpasu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/clash-nyanpasu",
-    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha%2B0cef744_amd64.AppImage",
+    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha%2B87797b0_amd64.AppImage",
     "description": "A Clash GUI based on tauri"
   },
   {
@@ -8708,7 +8708,7 @@
     "site": "vim/vim-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gvim",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gvim",
-    "version_raw": "https://github.com/vim/vim-appimage/releases/download/v9.2.0260/GVim-v9.2.0260.glibc2.34-x86_64.AppImage",
+    "version_raw": "https://github.com/vim/vim-appimage/releases/download/v9.2.0261/GVim-v9.2.0261.glibc2.34-x86_64.AppImage",
     "description": "Edit text files"
   },
   {
@@ -11084,7 +11084,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -11441,11 +11441,11 @@
   },
   {
     "pkg": "libreoffice",
-    "site": "https://www.libreoffice.org",
+    "site": null,
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/libreoffice",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/libreoffice",
-    "version_raw": "https://github.com/ivan-hc/LibreOffice-appimage/releases/download/continuous-still/LibreOffice-still-25.8.5.2.basic-x86_64.AppImage",
-    "description": "Free and powerful office suite, and a successor to OpenOffice"
+    "version_raw": "",
+    "description": "Unofficial, LibreOffice is a private and powerful, free and open source office suite – the successor project to OpenOffice. It's compatible with Microsoft Office/365 files"
   },
   {
     "pkg": "librepcb",
@@ -22500,7 +22500,7 @@
     "site": "https://www.warp.dev",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/warp-terminal",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/warp-terminal",
-    "version_raw": "0.2026.03.18.08.24.stable_01",
+    "version_raw": "0.2026.03.25.08.24.stable_01",
     "description": "Terminal reimagined with AI and collaborative tools"
   },
   {
@@ -23428,7 +23428,7 @@
     "site": "xournalpp/xournalpp",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xournal++nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xournal++nightly",
-    "version_raw": "https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-1.3.3%2Bdev-nightly-20260324-x86_64.AppImage",
+    "version_raw": "https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-1.3.3%2Bdev-nightly-20260328-x86_64.AppImage",
     "description": "C++ notetaking software with PDF annotation support, DEV"
   },
   {
