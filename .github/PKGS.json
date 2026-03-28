@@ -1132,7 +1132,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "",
+    "version_raw": "1.0.4",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -11084,7 +11084,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -21046,45 +21046,5 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tidybit",
     "version_raw": "https://github.com/Veda-Swaroop/TidyBit/releases/download/v1.3.4/TidyBit-x86_64.AppImage",
     "description": "TidyBit is a simple handy tool that can organize messy collection of files and move them to a chosen folder"
-  },
-  {
-    "pkg": "tilde-podcast",
-    "site": "paologiua/tilde",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tilde-podcast",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tilde-podcast",
-    "version_raw": "https://github.com/paologiua/tilde/releases/download/v1.0.0/Tilde-1.0.0.AppImage",
-    "description": "Podcast client to listen to all you favorite podcasts"
-  },
-  {
-    "pkg": "tiled",
-    "site": "bjorn/tiled",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tiled",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tiled",
-    "version_raw": "https://github.com/mapeditor/tiled/releases/download/v1.12.1/Tiled-1.12.1_Linux_x86_64.AppImage",
-    "description": "Tile map editor"
-  },
-  {
-    "pkg": "tilinggenerator",
-    "site": "PJK136/TilingGenerator",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tilinggenerator",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tilinggenerator",
-    "version_raw": "https://github.com/PJK136/TilingGenerator/releases/download/continuous/TilingGenerator-9ad9652-x86_64.AppImage",
-    "description": "Generator of regular and irregular tilings"
-  },
-  {
-    "pkg": "timely",
-    "site": "Timely/desktop-releases",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/timely",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/timely",
-    "version_raw": "https://github.com/Timely/desktop-releases/releases/download/linux-x64-dev-1.2.2-dev.135/Timely-1.2.2-dev.135.AppImage",
-    "description": "The release branch for Timely electron apps"
-  },
-  {
-    "pkg": "timenaut",
-    "site": "kmteras/timenaut",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/timenaut",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/timenaut",
-    "version_raw": "https://github.com/kmteras/timenaut/releases/download/v0.5.0/Timenaut-0.5.0.AppImage",
-    "description": "Desktop time tracking application"
   }
 ]
