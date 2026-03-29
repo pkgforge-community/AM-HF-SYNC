@@ -6124,7 +6124,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.3.11.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -11980,7 +11980,7 @@
     "site": "mlm-games/mages",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mages",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mages",
-    "version_raw": "https://github.com/mlm-games/Mages/releases/download/4.3.6/mages-4.3.6-x86_64.AppImage",
+    "version_raw": "https://github.com/mlm-games/Mages/releases/download/4.4.1/mages-4.4.1-x86_64.AppImage",
     "description": "Multiplatform Matrix chat client (experimental CMP+rust app)"
   },
   {
@@ -20776,6 +20776,14 @@
     "description": "Terminal file explorer"
   },
   {
+    "pkg": "terminalos-sim",
+    "site": "justmaxcz/terminalOS-simulator",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/terminalos-sim",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/terminalos-sim",
+    "version_raw": "https://github.com/stuffbymax/terminalOS-simulator-archive/releases/download/v0.0.5/teminal-0_0_5-linux.AppImage",
+    "description": "A terminalOS simulator"
+  },
+  {
     "pkg": "termora",
     "site": "TermoraDev/termora",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/termora",
@@ -21446,5 +21454,85 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ttyper",
     "version_raw": "https://github.com/max-niederman/ttyper/releases/download/v1.6.0/ttyper-aarch64-unknown-linux-musl.tar.gz",
     "description": "Terminal-based typing test"
+  },
+  {
+    "pkg": "tulip",
+    "site": "https://sourceforge.net/p/auber",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tulip",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tulip",
+    "version_raw": "https://sourceforge.net/projects/auber/files/tulip/tulip-6.0.1/Tulip-6.0.1.AppImage/download",
+    "description": "Large graphs analysis, drawing and visualization framework"
+  },
+  {
+    "pkg": "tumblr-downloader-gui",
+    "site": "neuro-sys/tumblr-likes-downloader",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tumblr-downloader-gui",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tumblr-downloader-gui",
+    "version_raw": "https://github.com/neuro-sys/tumblr-likes-downloader/releases/download/0.0.6/Tumblr_Downloader_GUI-x86_64.AppImage",
+    "description": "Download Tumblr posts that you liked"
+  },
+  {
+    "pkg": "tumblr-scraper",
+    "site": "lluisrojass/tumblr-scraper",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tumblr-scraper",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tumblr-scraper",
+    "version_raw": "https://github.com/lluisrojass/tumblr-scraper/releases/download/v1.2/tumblr-scraper-1.2.0-x86_64.AppImage",
+    "description": "Scrape a Tumblr profile for user uploadede posts"
+  },
+  {
+    "pkg": "tunepack",
+    "site": "tunepack/tunepack-desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tunepack",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tunepack",
+    "version_raw": "https://github.com/tunepack/tunepack-desktop/releases/download/v1.2.1/tunepack-desktop-1.2.1-x86_64.AppImage",
+    "description": "Finding and download HQ audio files"
+  },
+  {
+    "pkg": "turbowarp",
+    "site": "TurboWarp/desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/turbowarp",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/turbowarp",
+    "version_raw": "https://github.com/TurboWarp/desktop/releases/download/v1.15.2/TurboWarp-linux-x86_64-1.15.2.AppImage",
+    "description": "Scratch mod with a compiler to run projects faster"
+  },
+  {
+    "pkg": "tusk",
+    "site": "klauscfhq/tusk",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tusk",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tusk",
+    "version_raw": "https://github.com/klaudiosinani/tusk/releases/download/v0.23.0/tusk-0.23.0-x86_64.AppImage",
+    "description": "Evernote desktop app"
+  },
+  {
+    "pkg": "tutanota",
+    "site": "tutao/tutanota",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tutanota",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tutanota",
+    "version_raw": "https://github.com/tutao/tutanota/releases/download/tutanota-desktop-release-340.260326.1/tutanota-desktop-linux.AppImage",
+    "description": "Tuta is an email service with a strong focus on security and privacy that lets you encrypt emails, contacts and calendar entries on all your devices"
+  },
+  {
+    "pkg": "tutanota-enhanced",
+    "site": "pkgforge-dev/Tutanota-Desktop-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tutanota-enhanced",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tutanota-enhanced",
+    "version_raw": "https://github.com/pkgforge-dev/Tutanota-Desktop-AppImage-Enhanced/releases/download/338.260318.0%402026-03-22_1774172542/Tuta_Mail-338.260318.0-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage for Tutanota, an email service with a strong focus on security and privacy that lets you encrypt emails, contacts and calendar entries on all your devices"
+  },
+  {
+    "pkg": "tuxfootball",
+    "site": "pkgforge-dev/Tux-Football-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tuxfootball",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tuxfootball",
+    "version_raw": "https://github.com/pkgforge-dev/Tux-Football-AppImage/releases/download/0.3.1-1%402026-03-01_1772357542/Tux_Football-0.3.1-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, is a great 2D football game for Windows and Linux"
+  },
+  {
+    "pkg": "tuxplorer",
+    "site": "Pand3ru/Tuxplorer",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tuxplorer",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tuxplorer",
+    "version_raw": "https://github.com/Pand3ru/Tuxplorer/releases/download/v1.0.2/tuxplorer",
+    "description": "Tuxplorer is a terminal based file explorer"
   }
 ]
