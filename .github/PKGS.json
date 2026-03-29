@@ -7553,19 +7553,19 @@
   },
   {
     "pkg": "gearboy",
-    "site": "drhelius/Gearboy",
+    "site": "pkgforge-dev/Gearboy-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gearboy",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gearboy",
-    "version_raw": "https://github.com/drhelius/Gearboy/releases/download/3.8.0/Gearboy-3.8.0-desktop-ubuntu22.04-x64.zip",
-    "description": "Game Boy / Gameboy Color emulator"
+    "version_raw": "https://github.com/pkgforge-dev/Gearboy-AppImage/releases/download/3.8.0%402026-03-28_1774705134/Gearboy-3.8.0-anylinux-x86_64.AppImage",
+    "description": "Unofficial, Game Boy / Gameboy Color emulator"
   },
   {
     "pkg": "gearcoleco",
-    "site": "drhelius/Gearcoleco",
+    "site": "pkgforge-dev/Gearcoleco-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gearcoleco",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gearcoleco",
-    "version_raw": "https://github.com/drhelius/Gearcoleco/releases/download/1.5.5/Gearcoleco-1.5.5-ubuntu-22.04.zip",
-    "description": "ColecoVision emulator"
+    "version_raw": "https://github.com/pkgforge-dev/Gearcoleco-AppImage/releases/download/1.5.5-1%402026-03-29_1774759500/Gearcoleco-1.5.5-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, ColecoVision emulator"
   },
   {
     "pkg": "geargrafx",
@@ -11084,7 +11084,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -14404,7 +14404,7 @@
     "site": "patrikx3/onenote",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/onenote",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/onenote",
-    "version_raw": "https://github.com/patrikx3/onenote/releases/download/v2026.4.107/P3X-OneNote-2026.4.107.AppImage",
+    "version_raw": "https://github.com/patrikx3/onenote/releases/download/v2026.4.112/P3X-OneNote-2026.4.112.AppImage",
     "description": "P3X Onenote Linux"
   },
   {
@@ -15068,7 +15068,7 @@
     "site": "patrikx3/redis-ui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/p3x-redis-ui",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/p3x-redis-ui",
-    "version_raw": "https://github.com/patrikx3/redis-ui/releases/download/v2026.4.302/P3X-Redis-UI-2026.4.302.AppImage",
+    "version_raw": "https://github.com/patrikx3/redis-ui/releases/download/v2026.4.304/P3X-Redis-UI-2026.4.304.AppImage",
     "description": "A very functional handy database GUI and works in your pocket"
   },
   {
@@ -16846,6 +16846,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qelectrotech",
     "version_raw": "https://github.com/qelectrotech/qelectrotech-source-mirror/releases/download/0.100/QElectroTech_0.100.0-r8590-x86_64.AppImage",
     "description": "Edit electrical diagrams"
+  },
+  {
+    "pkg": "qemu",
+    "site": "pkgforge-dev/QEMU-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qemu",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qemu",
+    "version_raw": "https://github.com/pkgforge-dev/QEMU-AppImage/releases/download/10.2.2-1%402026-03-29_1774761637/QEMU-10.2.2-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, a generic and open source machine & userspace emulator and virtualizer"
   },
   {
     "pkg": "qemu-appimage",
@@ -18876,7 +18884,7 @@
     "site": "karo-solutions/Signal-Desktop-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/signal",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/signal",
-    "version_raw": "https://github.com/karo-solutions/Signal-Desktop-AppImage/releases/download/v8.3.0/Signal-v8.3.0-x86_64.AppImage",
+    "version_raw": "https://github.com/karo-solutions/Signal-Desktop-AppImage/releases/download/v8.4.1/Signal-v8.4.1-x86_64.AppImage",
     "description": "Unofficial AppImage package for Signal (communication)"
   },
   {
@@ -19988,7 +19996,7 @@
     "site": "https://gitlab.com/posktomten/streamcapture2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/streamcapture2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/streamcapture2",
-    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=TJktZJLK",
+    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=NPFVsZcWgn",
     "description": "Download video streams"
   },
   {
@@ -20628,7 +20636,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.6.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.12.0-beta.1.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -21182,5 +21190,45 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/todesktop",
     "version_raw": "todesktop-desktop-app-0.36.3-x86_64.AppImage",
     "description": "Take your web app codebase and transform it into a cross platform desktop app with native functionality"
+  },
+  {
+    "pkg": "todo-bash",
+    "site": "Lateralus138/todo-bash",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/todo-bash",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/todo-bash",
+    "version_raw": "https://github.com/Lateralus138/todo-bash/releases/download/Continuous/todo-x86_64.AppImage",
+    "description": "Todo list for the Bash command line"
+  },
+  {
+    "pkg": "todoist",
+    "site": "https://todoist.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/todoist",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/todoist",
+    "version_raw": "https://electron-dl.todoist.net/linux/Todoist-linux-9.26.4-x86_64-latest.AppImage",
+    "description": "The to-do list to organize work & life"
+  },
+  {
+    "pkg": "todorant",
+    "site": "backmeupplz/todorant-releases",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/todorant",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/todorant",
+    "version_raw": "https://github.com/backmeupplz/todorant-releases/releases/download/v1.0.14/todorant-1.0.14-linux-x86_64.AppImage",
+    "description": "Todorant releases"
+  },
+  {
+    "pkg": "todorust",
+    "site": "gustavo-tomas/ToDoRust",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/todorust",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/todorust",
+    "version_raw": "https://github.com/gustavo-tomas/ToDoRust/releases/download/app-v0.2.0/to-do-rust_0.1.0_amd64.AppImage",
+    "description": "Simple ToDoList made in rust"
+  },
+  {
+    "pkg": "toerings",
+    "site": "acarl005/toerings",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/toerings",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/toerings",
+    "version_raw": "https://github.com/acarl005/toerings/releases/download/v0.0.0/toe-rings_0.0.0_amd64.AppImage",
+    "description": "A clone of Conky Seamod using Tauri"
   }
 ]
