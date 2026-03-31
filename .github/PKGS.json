@@ -5404,7 +5404,7 @@
     "site": "pkgforge-dev/EasyTAG-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/easytag",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/easytag",
-    "version_raw": "https://github.com/pkgforge-dev/EasyTAG-AppImage/releases/download/2.4.3-15%402026-03-01_1772357353/EasyTAG-2.4.3-15-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/EasyTAG-AppImage/releases/download/2.4.3-16%402026-03-31_1774944433/EasyTAG-2.4.3-16-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of EasyTAG tag editor"
   },
   {
@@ -6052,7 +6052,7 @@
     "site": "https://everdo.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/everdo",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/everdo",
-    "version_raw": "https://downloads.everdo.net/electron/Everdo-1.10.4.AppImage",
+    "version_raw": "https://downloads.everdo.net/electron/Everdo-1.11.9.AppImage",
     "description": "A powerful cross-platform GTD app with focus on privacy"
   },
   {
@@ -6180,7 +6180,7 @@
     "site": "pkgforge-dev/extremetuxracer-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/extremetuxracer",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/extremetuxracer",
-    "version_raw": "https://github.com/pkgforge-dev/ExtremeTuxRacer-AppImage/releases/download/0.8.4-3%402026-03-01_1772357441/Extreme_Tux_Racer-0.8.4-3-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ExtremeTuxRacer-AppImage/releases/download/0.8.4-3%402026-03-31_1774944901/Extreme_Tux_Racer-0.8.4-3-anylinux-x86_64.AppImage",
     "description": "Unofficial. 3D racing game with Tux, the Linux penguin"
   },
   {
@@ -6576,14 +6576,6 @@
     "description": "Tool for generating a C header from a spir-v binary file"
   },
   {
-    "pkg": "filebrowser",
-    "site": "filebrowser/filebrowser",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/filebrowser",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/filebrowser",
-    "version_raw": "https://github.com/filebrowser/filebrowser/releases/download/v2.62.2/linux-amd64-filebrowser.tar.gz",
-    "description": "Web File Browser"
-  },
-  {
     "pkg": "filebrowser-quantum",
     "site": "gtsteffaniak/filebrowser",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/filebrowser-quantum",
@@ -6598,14 +6590,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/filelight",
     "version_raw": "https://github.com/pkgforge-dev/Filelight-AppImage/releases/download/25.12.3-1%402026-03-29_1774770569/Filelight-25.12.3-1-anylinux-x86_64.AppImage",
     "description": "Unofficial. View disk usage information, by KDE"
-  },
-  {
-    "pkg": "filen",
-    "site": "FilenCloudDienste/filen-desktop",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/filen",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/filen",
-    "version_raw": "https://github.com/FilenCloudDienste/filen-desktop/releases/download/v3.0.47/Filen_linux_x86_64.AppImage",
-    "description": "Desktop client for Filen.io, end-to-end encrypted cloud storage"
   },
   {
     "pkg": "filen-cli",
@@ -6630,14 +6614,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/filmulator-gui",
     "version_raw": "https://github.com/CarVac/filmulator-gui/releases/download/v0.11.1/Filmulator_v0.11.1.AppImage",
     "description": "Simplified raw editing with the power of film, graphics"
-  },
-  {
-    "pkg": "fingrom",
-    "site": "lyskouski/app-finance",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fingrom",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fingrom",
-    "version_raw": "https://github.com/lyskouski/app-finance/releases/download/v7.0.2/fingrom_Linux.AppImage",
-    "description": "Financial accounting application"
   },
   {
     "pkg": "firealpaca",
@@ -6712,14 +6688,6 @@
     "description": "Fast, powerful and extensible Web Browser, Nightly Edition"
   },
   {
-    "pkg": "fireminipro",
-    "site": "Jartza/fireminipro",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fireminipro",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fireminipro",
-    "version_raw": "https://github.com/Jartza/fireminipro/releases/download/v0.1.0/FireMinipro-0.1.0-x86_64.AppImage",
-    "description": "GUI for minipro CLI"
-  },
-  {
     "pkg": "firetail",
     "site": "kawuchuu/firetail",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firetail",
@@ -6744,14 +6712,6 @@
     "description": "Easiest way to turn web applications and sites into desktop applications"
   },
   {
-    "pkg": "fish",
-    "site": "fish-shell/fish-shell",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fish",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fish",
-    "version_raw": "https://github.com/fish-shell/fish-shell/releases/download/4.6.0/fish-4.6.0-linux-x86_64.tar.xz",
-    "description": "The user-friendly command line shell"
-  },
-  {
     "pkg": "fishing-funds",
     "site": "1zilc/fishing-funds",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fishing-funds",
@@ -6766,22 +6726,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fishterm",
     "version_raw": "https://github.com/sirilerklab/FishTerm/releases/download/v0.0.1-alpha.1/fishterm-0.0.1-alpha.1.AppImage",
     "description": "A open-soruce Terminal remote access"
-  },
-  {
-    "pkg": "fixit",
-    "site": "eugene-babichenko/fixit",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fixit",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fixit",
-    "version_raw": "",
-    "description": "A utility to fix mistakes in your commands"
-  },
-  {
-    "pkg": "fjordlauncher",
-    "site": "unmojang/FjordLauncher",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fjordlauncher",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fjordlauncher",
-    "version_raw": "https://github.com/unmojang/FjordLauncher/releases/download/10.0.5.0/FjordLauncher-Linux-x86_64.AppImage",
-    "description": "Prism Launcher fork with support for alternative auth servers"
   },
   {
     "pkg": "flacon",
@@ -6856,28 +6800,12 @@
     "description": "A Northstar installer, updater, and mod-manager"
   },
   {
-    "pkg": "flightgear",
-    "site": "https://www.flightgear.org",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flightgear",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/flightgear",
-    "version_raw": "https://mirrors.ibiblio.org/flightgear/ftp/release-2024.1/flightgear-2024.1.5-linux-amd64.AppImage",
-    "description": "Free, open source flight simulator developed since 1997"
-  },
-  {
     "pkg": "flightgear-airports",
     "site": "Portree-Kid/flightgear-airports",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flightgear-airports",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/flightgear-airports",
     "version_raw": "https://github.com/Portree-Kid/flightgear-airports/releases/download/v0.0.34/flightgear-airports-0.0.34.AppImage",
     "description": "A software to design Flightgear groundnets"
-  },
-  {
-    "pkg": "flippy-qualitative-testbench",
-    "site": "flippy-fyp/flippy-qualitative-testbench",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flippy-qualitative-testbench",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/flippy-qualitative-testbench",
-    "version_raw": "https://github.com/flippy-fyp/flippy-qualitative-testbench/releases/download/v0.1.2/Flippy-Qualitative-Testbench-0.1.2.AppImage",
-    "description": "Music sheet reader"
   },
   {
     "pkg": "floorp",
@@ -6910,14 +6838,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/flowinity",
     "version_raw": "https://github.com/Flowinity/Desktop/releases/download/v1.0.11/flowinity-1.0.11.AppImage",
     "description": "The versatile all-in-one online platform, for everyone"
-  },
-  {
-    "pkg": "fluent-reader",
-    "site": "yang991178/fluent-reader",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fluent-reader",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fluent-reader",
-    "version_raw": "https://github.com/yang991178/fluent-reader/releases/download/v1.1.4/Fluent.Reader.1.1.4.AppImage",
-    "description": "Modern desktop RSS reader"
   },
   {
     "pkg": "fluffychat",
@@ -6960,14 +6880,6 @@
     "description": "Unofficial, A Sega Dreamcast, Naomi, Naomi 2 and Atomiswave emulator"
   },
   {
-    "pkg": "flyctl",
-    "site": "superfly/flyctl",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flyctl",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/flyctl",
-    "version_raw": "https://github.com/superfly/flyctl/releases/download/v0.4.28/flyctl_0.4.28_Linux_x86_64.tar.gz",
-    "description": "Command line tools for fly.io services"
-  },
-  {
     "pkg": "flyingcarpet",
     "site": "spieglt/flyingcarpet",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flyingcarpet",
@@ -7000,14 +6912,6 @@
     "description": "Access and exploration of data produced"
   },
   {
-    "pkg": "focalizzare",
-    "site": "VitoVan/focalizzare",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/focalizzare",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/focalizzare",
-    "version_raw": "https://github.com/VitoVan/focalizzare/releases/download/1.1.5/Focalizzare.AppImage",
-    "description": "A Timer for Pomodoro Technique"
-  },
-  {
     "pkg": "focus",
     "site": "ayoisaiah/focus",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/focus",
@@ -7038,14 +6942,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/folo",
     "version_raw": "https://github.com/RSSNext/Folo/releases/download/desktop/v1.4.0/Folo-1.4.0-linux-x64.AppImage",
     "description": "Folo is the AI Reader"
-  },
-  {
-    "pkg": "fontbase",
-    "site": "https://fontba.se",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fontbase",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fontbase",
-    "version_raw": "https://releases.fontba.se/linux/FontBase-2026.3.0.AppImage",
-    "description": "A lightning fast, beautiful and free font manager for designers"
   },
   {
     "pkg": "fontforge",
@@ -7222,14 +7118,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/freefilesync",
     "version_raw": "https://github.com/hkneptune/FreeFileSync/releases/download/v14.9/FreeFileSync_14.9_Linux_x86_64.tar.gz",
     "description": "folder comparison and synchronization software"
-  },
-  {
-    "pkg": "freeman",
-    "site": "matthew-matvei/freeman",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/freeman",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/freeman",
-    "version_raw": "https://github.com/matthew-matvei/freeman/releases/download/v0.9.1/freeman-0.9.1-x86_64.AppImage",
-    "description": "A free, extensible, cross-platform file manager for power users"
   },
   {
     "pkg": "freeshow",
@@ -8476,7 +8364,7 @@
     "site": "pkgforge-dev/gpu-screen-recorder-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gpu-screen-recorder",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gpu-screen-recorder",
-    "version_raw": "https://github.com/pkgforge-dev/gpu-screen-recorder-AppImage/releases/download/5.12.3-1%402026-03-21_1774078598/gpu-screen-recorder-5.12.3-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/gpu-screen-recorder-AppImage/releases/download/5.12.3-1%402026-03-31_1774944754/gpu-screen-recorder-5.12.3-1-anylinux-x86_64.AppImage",
     "description": "Unofficial, AppImage of GPU Screen Recorder"
   },
   {
@@ -10924,7 +10812,7 @@
     "site": "https://krita.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/krita",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/krita",
-    "version_raw": "https://download.kde.org/stable/krita/5.3.0/krita-5.3.0-x86_64.AppImage",
+    "version_raw": "https://download.kde.org/stable/krita/5.3.1/krita-5.3.1-x86_64.AppImage",
     "description": "A professional FREE and open source painting program, graphics"
   },
   {
@@ -11708,7 +11596,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.1.48-canary.12/LobeHub-2.1.48-canary.12.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.0-nightly.202603310635/LobeHub-Nightly-2.2.0-nightly.202603310635.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -13860,7 +13748,7 @@
     "site": "pkgforge-dev/Nomacs-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nomacs",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nomacs",
-    "version_raw": "https://github.com/pkgforge-dev/Nomacs-AppImage/releases/download/3.22.0-1%402026-03-01_1772357192/nomacs-3.22.0-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Nomacs-AppImage/releases/download/3.22.0-1%402026-03-31_1774944863/nomacs-3.22.0-1-anylinux-x86_64.AppImage",
     "description": "Unofficial, nomacs is a free, open source image viewer, which supports multiple platforms"
   },
   {
@@ -15092,7 +14980,7 @@
     "site": "patrikx3/redis-ui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/p3x-redis-ui",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/p3x-redis-ui",
-    "version_raw": "https://github.com/patrikx3/redis-ui/releases/download/v2026.4.330/P3X-Redis-UI-2026.4.330.AppImage",
+    "version_raw": "https://github.com/patrikx3/redis-ui/releases/download/v2026.4.332/P3X-Redis-UI-2026.4.332.AppImage",
     "description": "A very functional handy database GUI and works in your pocket"
   },
   {
@@ -15340,7 +15228,7 @@
     "site": "Samueru-sama/pavucontrol-qt-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pavucontrol-qt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pavucontrol-qt",
-    "version_raw": "https://github.com/pkgforge-dev/pavucontrol-qt-AppImage/releases/download/2.3.0-1%402026-03-11_1773249806/pavucontrol-qt-2.3.0-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/pavucontrol-qt-AppImage/releases/download/2.3.0-1%402026-03-31_1774944595/pavucontrol-qt-2.3.0-1-anylinux-x86_64.AppImage",
     "description": "Qt port of pavucontrol Pulseaudio mixer, unofficial AppImage"
   },
   {
@@ -21012,7 +20900,7 @@
     "site": "edrlab/thorium-reader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium-reader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium-reader",
-    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.1-beta.1.23622200436.AppImage",
+    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.3.1-beta.1.23785618523.AppImage",
     "description": "Desktop application to read ebooks"
   },
   {
@@ -22420,7 +22308,7 @@
     "site": "https://vrew.ai",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vrew",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vrew",
-    "version_raw": "3.7.3",
+    "version_raw": "3.8.0",
     "description": "Your first video editor, your easiest choice"
   },
   {
@@ -22724,7 +22612,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "7939459361",
+    "version_raw": "7943671812",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
