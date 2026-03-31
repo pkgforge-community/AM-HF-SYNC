@@ -3284,7 +3284,7 @@
     "site": "libnyanpasu/clash-nyanpasu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clash-nyanpasu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/clash-nyanpasu",
-    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha%2B5128898_amd64.AppImage",
+    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha%2B37262f5_amd64.AppImage",
     "description": "A Clash GUI based on tauri"
   },
   {
@@ -8708,7 +8708,7 @@
     "site": "vim/vim-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gvim",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gvim",
-    "version_raw": "https://github.com/vim/vim-appimage/releases/download/v9.2.0271/GVim-v9.2.0271.glibc2.34-x86_64.AppImage",
+    "version_raw": "https://github.com/vim/vim-appimage/releases/download/v9.2.0272/GVim-v9.2.0272.glibc2.34-x86_64.AppImage",
     "description": "Edit text files"
   },
   {
@@ -20896,6 +20896,14 @@
     "description": "Cross-platform text editor based on Qt and Scintilla"
   },
   {
+    "pkg": "tfcbm",
+    "site": "dyslechtchitect/tfcbm",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tfcbm",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tfcbm",
+    "version_raw": "https://github.com/dyslechtchitect/tfcbm/releases/download/v1.1.5/tfcbm-1.1.5-x86_64.AppImage",
+    "description": "The * Clipboard Manager"
+  },
+  {
     "pkg": "tgpt",
     "site": "aandrew-me/tgpt",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tgpt",
@@ -22716,7 +22724,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "7932724463",
+    "version_raw": "7933520434",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
