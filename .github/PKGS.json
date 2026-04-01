@@ -1520,6 +1520,14 @@
     "description": "PC Software for BambuLab's 3D printers"
   },
   {
+    "pkg": "bananas",
+    "site": "mistweaverco/bananas",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bananas",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bananas",
+    "version_raw": "https://github.com/mistweaverco/bananas/releases/download/v0.0.22/bananas_x86_64.AppImage",
+    "description": "Bananas, Cross-Platform screen sharing made simple"
+  },
+  {
     "pkg": "banban",
     "site": "HubertK05/banban",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/banban",
@@ -7804,7 +7812,7 @@
     "site": "pkgforge-dev/ghostty-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ghostty-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ghostty-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.2-main%2B3509ccf-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.2-main%2Bc2dd757-x86_64.AppImage",
     "description": "Unoffical, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (Tip, Nightly)"
   },
   {
@@ -8260,7 +8268,7 @@
     "site": "GoldenCheetah/GoldenCheetah",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/goldencheetah",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/goldencheetah",
-    "version_raw": "https://github.com/GoldenCheetah/GoldenCheetah/releases/download/v3.8-DEV2601/GoldenCheetah_v3.8_x64.AppImage",
+    "version_raw": "https://github.com/GoldenCheetah/GoldenCheetah/releases/download/v3.8-DEV2603/GoldenCheetah_v3.8_x64.AppImage",
     "description": "Cycling Power Analysis Software"
   },
   {
@@ -11100,7 +11108,7 @@
     "site": "ivan-hc/kwave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kwave",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kwave",
-    "version_raw": "https://github.com/ivan-hc/kwave-appimage/releases/download/continuous/Kwave-Sound-Editor_25.12.2-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/kwave-appimage/releases/download/continuous/Kwave-Sound-Editor_25.12.3-1-archimage5.0-x86_64.AppImage",
     "description": "A sound & audio editor designed for the KDE Desktop Environment"
   },
   {
@@ -12868,7 +12876,7 @@
     "site": "MUME/MMapper",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mmapper",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mmapper",
-    "version_raw": "https://github.com/MUME/MMapper/releases/download/beta/MMapper-25.07.0-149-gaed96b19-x86_64.AppImage",
+    "version_raw": "https://github.com/MUME/MMapper/releases/download/beta/MMapper-25.07.0-150-g3ac6b894-x86_64.AppImage",
     "description": "Graphical MUD client for the game MUME"
   },
   {
@@ -14420,7 +14428,7 @@
     "site": "patrikx3/onenote",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/onenote",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/onenote",
-    "version_raw": "https://github.com/patrikx3/onenote/releases/download/v2026.4.115/P3X-OneNote-2026.4.115.AppImage",
+    "version_raw": "https://github.com/patrikx3/onenote/releases/download/v2026.4.117/P3X-OneNote-2026.4.117.AppImage",
     "description": "P3X Onenote Linux"
   },
   {
@@ -15092,7 +15100,7 @@
     "site": "patrikx3/redis-ui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/p3x-redis-ui",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/p3x-redis-ui",
-    "version_raw": "https://github.com/patrikx3/redis-ui/releases/download/v2026.4.335/P3X-Redis-UI-2026.4.335.AppImage",
+    "version_raw": "https://github.com/patrikx3/redis-ui/releases/download/v2026.4.340/P3X-Redis-UI-2026.4.340.AppImage",
     "description": "A very functional handy database GUI and works in your pocket"
   },
   {
@@ -15260,7 +15268,7 @@
     "site": "Scille/parsec-cloud",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parsec",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parsec",
-    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/v3.8.2-rc.0/Parsec_3.8.2-rc.0_linux_x86_64.unsigned.AppImage",
+    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.8.2-a.0.dev.20543%2B984083c_linux_x86_64.unsigned.AppImage",
     "description": "Open source Dropbox-like file sharing with full client encryption"
   },
   {
@@ -16324,7 +16332,7 @@
     "site": "ivan-hc/portable2appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/portable2appimage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/portable2appimage",
-    "version_raw": "https://github.com/ivan-hc/portable2appimage/releases/download/1.0.3/portable2appimage-1.0.3-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/portable2appimage/releases/download/1.0.4/portable2appimage-1.0.4-x86_64.AppImage",
     "description": "Convert standalone, self-contained portable apps into AppImage packages"
   },
   {
@@ -16428,7 +16436,7 @@
     "site": "pragtical/pragtical",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pragtical",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pragtical",
-    "version_raw": "https://github.com/pragtical/pragtical/releases/download/rolling/Pragtical-rolling-x86_64.AppImage",
+    "version_raw": "https://github.com/pragtical/pragtical/releases/download/v3.8.4/Pragtical-v3.8.4-x86_64.AppImage",
     "description": "The practical and pragmatic code editor"
   },
   {
@@ -17652,7 +17660,7 @@
     "site": "https://www.remnote.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/remnote",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/remnote",
-    "version_raw": "https://download2.remnote.io/remnote-desktop2/RemNote-1.24.14.AppImage",
+    "version_raw": "https://download2.remnote.io/remnote-desktop2/RemNote-1.25.0.AppImage",
     "description": "Make flashcards in your notes. Cut study time in half. Use evidence-based memory techniques to create flashcards that resurface at the best time for retention"
   },
   {
@@ -18588,7 +18596,7 @@
     "site": "Serial-Studio/Serial-Studio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/serial-studio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/serial-studio",
-    "version_raw": "https://github.com/Serial-Studio/Serial-Studio/releases/download/v3.2.7/Serial-Studio-Pro-3.2.7-Linux-x64.AppImage",
+    "version_raw": "https://github.com/Serial-Studio/Serial-Studio/releases/download/continuous/Serial-Studio-Pro-3.2.7-Linux-x64.AppImage",
     "description": "Multi-purpose serial data view program"
   },
   {
@@ -19532,7 +19540,7 @@
     "site": "tonymushah/special-eureka",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/special-eureka",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/special-eureka",
-    "version_raw": "https://github.com/tonymushah/special-eureka/releases/download/v0.2.3-12/Special.Eureka_0.2.3-12_amd64.AppImage",
+    "version_raw": "https://github.com/tonymushah/special-eureka/releases/download/v0.2.3/Special.Eureka_0.2.3_amd64.AppImage",
     "description": "A desktop mangareader built in Tauri and React"
   },
   {
@@ -20652,7 +20660,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.6.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.12.0-beta.2.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -22740,7 +22748,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "7969511764",
+    "version_raw": "10054177429",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
