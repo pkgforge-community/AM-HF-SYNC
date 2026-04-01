@@ -2052,7 +2052,7 @@
     "site": "ivan-hc/Blender-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blender-alpha",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blender-alpha",
-    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.2.0-alpha%2Bmain.2e62d75b6c78-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.2.0-alpha%2Bmain.b8d0b286b361-x86_64.AppImage",
     "description": "Very fast and versatile 3D modeller/renderer, Alpha"
   },
   {
@@ -6076,7 +6076,7 @@
     "site": "ivan-hc/Evince-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/evince",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/evince",
-    "version_raw": "https://github.com/ivan-hc/Evince-appimage/releases/download/continuous/Document-Viewer_48.1-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Evince-appimage/releases/download/continuous/Document-Viewer_48.1-2-archimage5.0-x86_64.AppImage",
     "description": "Unofficial. Document viewer for popular document formats"
   },
   {
@@ -7096,6 +7096,14 @@
     "description": "Unofficial, A fast, lightweight and minimalistic Wayland terminal emulator (This AppImage can work on x11 as well)"
   },
   {
+    "pkg": "fooyin",
+    "site": "pkgforge-dev/fooyin-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fooyin",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fooyin",
+    "version_raw": "https://github.com/pkgforge-dev/fooyin-AppImage/releases/download/0.10.2-2%402026-03-31_1774981860/fooyin-0.10.2-2-anylinux-x86_64.AppImage",
+    "description": "Unofficial, a customisable music player"
+  },
+  {
     "pkg": "forkgram",
     "site": "forkgram/tdesktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/forkgram",
@@ -7260,7 +7268,7 @@
     "site": "FreeTubeApp/FreeTube",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/freetube",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/freetube",
-    "version_raw": "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.15-beta/freetube-0.23.15-beta-amd64.AppImage",
+    "version_raw": "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.24.0-beta/freetube-0.24.0-beta-amd64.AppImage",
     "description": "An Open Source YouTube app for privacy"
   },
   {
@@ -7612,7 +7620,7 @@
     "site": "ivan-hc/Gedit-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gedit",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gedit",
-    "version_raw": "https://github.com/ivan-hc/Gedit-appimage/releases/download/continuous/gedit_49.0-2-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Gedit-appimage/releases/download/continuous/gedit_49.0-3-archimage5.0-x86_64.AppImage",
     "description": "Unofficial. The popular GNOME text editor Gedit"
   },
   {
@@ -7860,7 +7868,7 @@
     "site": "ivan-hc/GIMP-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gimp-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gimp-git",
-    "version_raw": "https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_57187.5f5f6fd055d-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_57390.f14f9516e2b-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial, Cross-platform image and photo editor, built from GIT"
   },
   {
@@ -8316,7 +8324,7 @@
     "site": "ivan-hc/Chrome-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/google-chrome",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/google-chrome",
-    "version_raw": "https://github.com/ivan-hc/Chrome-appimage/releases/download/continuous/Google-Chrome-stable-146.0.7680.164-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Chrome-appimage/releases/download/continuous/Google-Chrome-stable-146.0.7680.177-1-x86_64.AppImage",
     "description": "Unofficial, Web Browser, Stable version"
   },
   {
@@ -9072,6 +9080,14 @@
     "description": "Manga reader and library manager for the desktop"
   },
   {
+    "pkg": "hp-15c-simulator",
+    "site": "pkgforge-dev/HP-15C-Simulator-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hp-15c-simulator",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hp-15c-simulator",
+    "version_raw": "https://github.com/pkgforge-dev/HP-15C-Simulator-AppImage/releases/download/5.1.00-2%402026-03-31_1774973563/HP-15C-5.1.00-2-anylinux-x86_64.AppImage",
+    "description": "Unofficial, a simulator for the HP-15C programmable scientific RPN calculator"
+  },
+  {
     "pkg": "hpack",
     "site": "antony-jr/hpack",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hpack",
@@ -9380,7 +9396,7 @@
     "site": "imfile-io/imfile-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/imfile",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/imfile",
-    "version_raw": "https://github.com/imfile-io/imfile-desktop/releases/download/v1.1.2/imFile-1.1.2.AppImage",
+    "version_raw": "https://github.com/imfile-io/imfile-desktop/releases/download/imFile-1.1.4/imFile-1.1.4.AppImage",
     "description": "A full-featured download manager"
   },
   {
@@ -11716,7 +11732,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.0-nightly.202603310635/LobeHub-Nightly-2.2.0-nightly.202603310635.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.1.48-canary.16/LobeHub-2.1.48-canary.16.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -15268,7 +15284,7 @@
     "site": "Scille/parsec-cloud",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parsec",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parsec",
-    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.8.2-a.0.dev.20543%2B984083c_linux_x86_64.unsigned.AppImage",
+    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/v3.8.2/Parsec_3.8.2_linux_x86_64.unsigned.AppImage",
     "description": "Open source Dropbox-like file sharing with full client encryption"
   },
   {
@@ -17672,6 +17688,14 @@
     "description": "Electron app that uses ffmpeg to combine audio.+image files into video files"
   },
   {
+    "pkg": "renpy",
+    "site": "pkgforge-dev/RenPy-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/renpy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/renpy",
+    "version_raw": "https://github.com/pkgforge-dev/RenPy-AppImage/releases/download/8.5.2.26010301-1%402026-03-31_1774975243/RenPy-8.5.2.26010301-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, visual novel engine Ren'Py"
+  },
+  {
     "pkg": "reor",
     "site": "reorproject/reor",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/reor",
@@ -18310,6 +18334,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sayonara",
     "version_raw": "https://sayonara-player.com/files/appimage/",
     "description": "Music player and music library admininstration"
+  },
+  {
+    "pkg": "sayonara-player-enhanced",
+    "site": "pkgforge-dev/Sayonara-Player-AppImage-Enhanced",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sayonara-player-enhanced",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sayonara-player-enhanced",
+    "version_raw": "https://github.com/pkgforge-dev/Sayonara-Player-AppImage-Enhanced/releases/download/1.11.0_stable1-1%402026-03-31_1774991087/Sayonara-1.11.0_stable1-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, a small, clear and fast audio player"
   },
   {
     "pkg": "sbe",
@@ -19380,7 +19412,7 @@
     "site": "pkgforge-dev/Sonic-3-AIR-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sonic-3-air",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sonic-3-air",
-    "version_raw": "https://github.com/pkgforge-dev/Sonic-3-AIR-AppImage/releases/download/v26.02.28.0%402026-03-22_1774172688/Sonic_3_A.I.R.-v26.02.28.0-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Sonic-3-AIR-AppImage/releases/download/v26.03.28.0%402026-04-01_1775021857/Sonic_3_A.I.R.-v26.03.28.0-anylinux-x86_64.AppImage",
     "description": "Unofficial, Source and data to build Sonic 3 A.I.R. (Angel Island Revisited) and the Oxygen Engine"
   },
   {
@@ -20020,7 +20052,7 @@
     "site": "https://gitlab.com/posktomten/streamcapture2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/streamcapture2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/streamcapture2",
-    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=xLxmXBvdp",
+    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=mvnpRbMQPTtl",
     "description": "Download video streams"
   },
   {
@@ -22640,6 +22672,14 @@
     "description": "Winamp Player 2.9 reimplementation in HTML5 and JS"
   },
   {
+    "pkg": "webamp-desktop-enhanced",
+    "site": "pkgforge-dev/Webamp-Desktop-AppImage-Enhanced",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/webamp-desktop-enhanced",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/webamp-desktop-enhanced",
+    "version_raw": "https://github.com/pkgforge-dev/Webamp-Desktop-AppImage-Enhanced/releases/download/0.3.0%402026-04-01_1775004736/Webamp_desktop-0.3.0-anylinux-x86_64.AppImage",
+    "description": "Unofficial, experimental cross-platform desktop version of Winamp 2.9 reimplementation in electron"
+  },
+  {
     "pkg": "webcamoid",
     "site": "pkgforge-dev/Webcamoid-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/webcamoid",
@@ -22748,7 +22788,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "10054177429",
+    "version_raw": "7980275720",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -23276,7 +23316,7 @@
     "site": "gaozhangmin/aliyunpan",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xbydriver",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xbydriver",
-    "version_raw": "",
+    "version_raw": "https://github.com/gaozhangmin/aliyunpan/releases/download/v4.0.0-beta/alixby-4.0.0-beta-linux-x86_64.AppImage",
     "description": "Xiaobaiyang Cloud Drive - Powered by Alibaba Cloud Drive"
   },
   {
@@ -23644,7 +23684,7 @@
     "site": "ivan-hc/Yandex-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yandex-browser",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yandex-browser",
-    "version_raw": "https://github.com/ivan-hc/Yandex-Browser-appimage/releases/download/continuous/Yandex-Browser-stable-26.3.1.961-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Yandex-Browser-appimage/releases/download/continuous/Yandex-Browser-stable-26.3.1.1041-1-x86_64.AppImage",
     "description": "Unofficial Yandex Browser AppImage, Stable"
   },
   {
@@ -23652,7 +23692,7 @@
     "site": "ivan-hc/Yandex-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yandex-browser-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yandex-browser-beta",
-    "version_raw": "https://github.com/ivan-hc/Yandex-Browser-appimage/releases/download/continuous/Yandex-Browser-beta-26.3.1.863-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Yandex-Browser-appimage/releases/download/continuous/Yandex-Browser-beta-26.3.1.1038-1-x86_64.AppImage",
     "description": "Unofficial Yandex Browser AppImage, Beta"
   },
   {
@@ -23732,7 +23772,7 @@
     "site": "StrikerX3/Ymir",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ymir-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ymir-nightly",
-    "version_raw": "https://github.com/StrikerX3/Ymir/releases/download/latest-nightly/ymir-linux-x86_64-AVX2-v0.3.0-dev_8ec681a4.tar.xz",
+    "version_raw": "https://github.com/StrikerX3/Ymir/releases/download/latest-nightly/ymir-linux-x86_64-AVX2-v0.3.0-dev_8010e8d8.tar.xz",
     "description": "Sega Saturn emulator (Nightly builds)"
   },
   {
