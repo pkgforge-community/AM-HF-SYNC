@@ -612,7 +612,7 @@
     "site": "http://www.animashooter.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/animashooter-junior",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/animashooter-junior",
-    "version_raw": "https://www.animatech.ru/download/AnimaShooterJunior-3.9.9.7-x86_64.AppImage",
+    "version_raw": "",
     "description": "User-friendly Stop-Motion Animation Software, FREE"
   },
   {
@@ -620,7 +620,7 @@
     "site": "http://www.animashooter.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/animashooter-pioneer",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/animashooter-pioneer",
-    "version_raw": "https://www.animatech.ru/download/AnimaShooterPioneer-3.9.9.7-x86_64.AppImage",
+    "version_raw": "",
     "description": "User-friendly Stop-Motion Animation Software, PRO"
   },
   {
@@ -692,7 +692,7 @@
     "site": "aurelienpierreeng/ansel",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ansel",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ansel",
-    "version_raw": "https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/Ansel-0.0.0%2B2992.g74142586-x86_64.AppImage",
+    "version_raw": "https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/Ansel-0.0.0%2B3003.g85188c39-x86_64.AppImage",
     "description": "An open-source photo-editing software for digital artists, designed to help you achieve your own interpretation of raw digital photographs"
   },
   {
@@ -5956,7 +5956,7 @@
     "site": "viarotel-org/escrcpy",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/escrcpy",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/escrcpy",
-    "version_raw": "https://github.com/viarotel-org/escrcpy/releases/download/v2.7.0/Escrcpy-2.7.0-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/viarotel-org/escrcpy/releases/download/v2.7.3/Escrcpy-2.7.3-linux-x86_64.AppImage",
     "description": "Graphical Scrcpy to display and control Android, devices powered by Electron"
   },
   {
@@ -9596,7 +9596,7 @@
     "site": "https://smxi.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/inxi",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/inxi",
-    "version_raw": "6.1",
+    "version_raw": "",
     "description": "A full featured CLI system information tool"
   },
   {
@@ -13400,44 +13400,12 @@
     "description": "Nodejs implementation of holochain networking / p2p backend process"
   },
   {
-    "pkg": "naev",
-    "site": "naev/naev",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/naev",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/naev",
-    "version_raw": "https://github.com/naev/naev/releases/download/nightly/naev-0.13.0-alpha.9%2B367.g82e71ec1f2-linux-x86-64.AppImage",
-    "description": "A 2d action/rpg space game that combines elements from the action"
-  },
-  {
-    "pkg": "nami",
-    "site": "txthinking/nami",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nami",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nami",
-    "version_raw": "https://github.com/txthinking/nami/releases/download/v20240902/nami_linux_amd64",
-    "description": "A clean and tidy decentralized package manager"
-  },
-  {
-    "pkg": "nanokvm-usb",
-    "site": "sipeed/NanoKVM-USB",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nanokvm-usb",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nanokvm-usb",
-    "version_raw": "https://github.com/sipeed/NanoKVM-USB/releases/download/v1.1.4/NanoKVM-USB-1.1.4-linux-x86_64.AppImage",
-    "description": "Finger-sized 4K USB KVM for Server/SBCs"
-  },
-  {
     "pkg": "nanosaur",
     "site": "jorio/Nanosaur",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nanosaur",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nanosaur",
     "version_raw": "https://github.com/jorio/Nanosaur/releases/download/v1.4.4/Nanosaur-1.4.4-linux-x86_64.AppImage",
     "description": "Pangea Software’s game, adventure of a cybernetic dinosaur"
-  },
-  {
-    "pkg": "nanosaur2",
-    "site": "jorio/Nanosaur2",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nanosaur2",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nanosaur2",
-    "version_raw": "https://github.com/jorio/Nanosaur2/releases/download/v2.1.0/Nanosaur2-2.1.0-linux-x86_64.AppImage",
-    "description": "Pangea Software’s Nanosaur II for modern systems"
   },
   {
     "pkg": "nanovault",
@@ -13454,14 +13422,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nap",
     "version_raw": "",
     "description": "Code spippets in your terminal"
-  },
-  {
-    "pkg": "naruto-arena",
-    "site": "https://naruto-arena.app",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/naruto-arena",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/naruto-arena",
-    "version_raw": "https://arena-game.app/releases/Arena-Games_Lin64.zip",
-    "description": "Naruto-based online multiplayer strategy game"
   },
   {
     "pkg": "nault-bin",
@@ -16024,14 +15984,6 @@
     "description": "Play and manage your cartridges and replay your childhood games"
   },
   {
-    "pkg": "playbox",
-    "site": "cjdenio/playbox",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/playbox",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/playbox",
-    "version_raw": "https://github.com/cjdenio/playbox/releases/download/v0.2.1/Playbox.0.2.1.AppImage",
-    "description": "An audio playback system for the live production industry"
-  },
-  {
     "pkg": "playerctl",
     "site": "Samueru-sama/playerctl-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/playerctl",
@@ -16120,28 +16072,12 @@
     "description": "A note-taking app written in Qt C++ and QML"
   },
   {
-    "pkg": "png2svg",
-    "site": "xyproto/png2svg",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/png2svg",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/png2svg",
-    "version_raw": "https://github.com/xyproto/png2svg/releases/download/v1.7.0/png2svg-1.7.0-linux.tar.xz",
-    "description": "CLI, convert small PNG images to SVG Tiny 1.2"
-  },
-  {
     "pkg": "pnpm",
     "site": "simnalamburt/pnpm.appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pnpm",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pnpm",
     "version_raw": "",
     "description": "A single file, powered by AppImage"
-  },
-  {
-    "pkg": "pocket-browser",
-    "site": "PocketStudios/Pocket-Browser",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pocket-browser",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pocket-browser",
-    "version_raw": "https://github.com/PocketStudios/Pocket-Browser/releases/download/v1.8.0/pocket-browser-1.8.0.AppImage",
-    "description": "A FOSS browser made for privacy and going towards security"
   },
   {
     "pkg": "pocketcasts-electron",
@@ -16182,14 +16118,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/podman-desktop-companion",
     "version_raw": "https://github.com/iongion/container-desktop/releases/download/5.2.13/container-desktop-x86_64-5.2.13.AppImage",
     "description": "Podman command line interface"
-  },
-  {
-    "pkg": "poe-ladder",
-    "site": "darteil/POELadder",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/poe-ladder",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/poe-ladder",
-    "version_raw": "https://github.com/darteil/POELadder/releases/download/1.0.10/PoeLadder-1.0.10.AppImage",
-    "description": "Path of Exile ladder viewer"
   },
   {
     "pkg": "poedit",
@@ -17864,14 +17792,6 @@
     "description": "Graphical processor simulator and assembly editor for the RISC-V ISA"
   },
   {
-    "pkg": "ripgrep",
-    "site": "BurntSushi/ripgrep",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ripgrep",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ripgrep",
-    "version_raw": "",
-    "description": "Search directories for regex pattern while respecting gitignore"
-  },
-  {
     "pkg": "ripgrep-all",
     "site": "phiresky/ripgrep-all",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ripgrep-all",
@@ -17942,14 +17862,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/robrix",
     "version_raw": "https://github.com/project-robius/robrix/releases/download/v0.0.1-pre-alpha-4/robrix_0.0.1-pre-alpha-4_x86_64.AppImage",
     "description": "A multi-platform Matrix chat client written in Rust, using the Makepad UI toolkit and the Robius app dev framework"
-  },
-  {
-    "pkg": "rock.so",
-    "site": "https://www.rock.so/",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rock.so",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rock.so",
-    "version_raw": "https://desktop.rock.so/Rock-1.2.1.AppImage",
-    "description": "Messaging + Tasks"
   },
   {
     "pkg": "rocketfetch",
@@ -18024,22 +17936,6 @@
     "description": "Rust implementation of NearbyShare/QuickShare from Android"
   },
   {
-    "pkg": "rrip",
-    "site": "mahesh-hegde/rrip",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rrip",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rrip",
-    "version_raw": "https://github.com/mahesh-hegde/rrip/releases/download/release-10b48cd/rrip_linux_amd64.tar.xz",
-    "description": "Bulk image downloader for reddit"
-  },
-  {
-    "pkg": "rsdkv3",
-    "site": "pkgforge-dev/RSDKv3-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rsdkv3",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rsdkv3",
-    "version_raw": "https://github.com/pkgforge-dev/RSDKv3-AppImage/releases/download/r720.2f5fdb6-1%402026-04-01_1775040289/Sonic_CD-r720.2f5fdb6-1-anylinux-x86_64.AppImage",
-    "description": "Unofficial, a Full Decompilation of Sonic CD (2011) & Retro Engine v3"
-  },
-  {
     "pkg": "rsdkv4",
     "site": "pkgforge-dev/RSDKv4-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rsdkv4",
@@ -18048,36 +17944,12 @@
     "description": "Unofficial, a complete decompilation of Sonic 1 & Sonic 2 (2013) & Retro Engine v4"
   },
   {
-    "pkg": "rssguard",
-    "site": "martinrotter/rssguard",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rssguard",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rssguard",
-    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-dev-6d3cdf9a1-qt5-linux64.AppImage",
-    "description": "Feed reader which supports RSS/ATOM/JSON, no-webengine version"
-  },
-  {
     "pkg": "rstudio",
     "site": "https://posit.co",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rstudio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rstudio",
     "version_raw": "https://download1.rstudio.org/electron/jammy/amd64/rstudio-2026.01.2-418-amd64-debian.tar.gz",
     "description": "RStudio is an integrated development environment, IDE for R"
-  },
-  {
-    "pkg": "rtneuron",
-    "site": "BlueBrain/RTNeuron",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rtneuron",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rtneuron",
-    "version_raw": "https://github.com/BlueBrain/RTNeuron/releases/download/3.0.0-rc1/rtneuron_x86_64.AppImage",
-    "description": "Framework for geometrically detailed neuron simulations"
-  },
-  {
-    "pkg": "rubikscube",
-    "site": "theoden8/rubikscube",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rubikscube",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rubikscube",
-    "version_raw": "https://github.com/theoden8/rubikscube/releases/download/0.1.0/RubiksCube-0.1.0-x86_64.AppImage",
-    "description": "Rubik's cube in OpenGL"
   },
   {
     "pkg": "rucola",
@@ -18118,14 +17990,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/running-dinner-tool",
     "version_raw": "https://github.com/john-kloss/Running-Dinner-Tool/releases/download/v2.3.2/running-dinner-tool-2.3.2-x86_64.AppImage",
     "description": "Running Dinner Tool"
-  },
-  {
-    "pkg": "rustdesk",
-    "site": "rustdesk/rustdesk",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rustdesk",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rustdesk",
-    "version_raw": "https://github.com/rustdesk/rustdesk/releases/download/1.4.6/rustdesk-1.4.6-x86_64.AppImage",
-    "description": "Virtual/remote desktop infrastructure, like TeamViewer/Citrix"
   },
   {
     "pkg": "rustdesk-enhanced",
@@ -18176,36 +18040,12 @@
     "description": "A modern and extensible pixel editor implemented in Rust"
   },
   {
-    "pkg": "ryowallet",
-    "site": "ryo-currency/ryo-wallet",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ryowallet",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ryowallet",
-    "version_raw": "https://github.com/ryo-currency/ryo-wallet/releases/download/1.5.0/ryo-wallet-linux-x64-1.5.0-0.6.0.0.AppImage",
-    "description": "Modern GUI interface for Ryo Currency"
-  },
-  {
-    "pkg": "ryujinx",
-    "site": "https://ryujinx.app/",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ryujinx",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ryujinx",
-    "version_raw": "https://git.ryujinx.app/api/v4/projects/1/packages/generic/Ryubing/1.3.3/ryujinx-1.3.3-x64.AppImage",
-    "description": "An open-source Nintendo Switch emulator, originally created by gdkchan, written in C#"
-  },
-  {
     "pkg": "ryujinx-canary",
     "site": "https://ryujinx.app/",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ryujinx-canary",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ryujinx-canary",
     "version_raw": "https://legacy.git.ryujinx.app/api/v4/projects/68/packages/generic/Ryubing-Canary/1.3.266/ryujinx-canary-1.3.266-x64.AppImage",
     "description": "An open-source Nintendo Switch emulator, originally created by gdkchan, written in C# (Canary builds)"
-  },
-  {
-    "pkg": "s",
-    "site": "zquestz/s",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/s",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/s",
-    "version_raw": "https://github.com/zquestz/s/releases/download/v0.7.5/s-linux_amd64.zip",
-    "description": "Open a web search in your terminal"
   },
   {
     "pkg": "s3drive",
@@ -18272,14 +18112,6 @@
     "description": "A C++ like compiler"
   },
   {
-    "pkg": "sas",
-    "site": "Samueru-sama/simple-appimage-sandbox",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sas",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sas",
-    "version_raw": "https://github.com/Samueru-sama/simple-appimage-sandbox/releases/download/1.8/sas-1.8-anylinux-x86_64.AppImage",
-    "description": "Tool to sandbox AppImages with bubblewrap easily"
-  },
-  {
     "pkg": "sat",
     "site": "Samueru-sama/simple-appimage-thumbnailer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sat",
@@ -18294,22 +18126,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/satisfactory",
     "version_raw": "https://github.com/satisfactorymodding/SatisfactoryModManager/releases/download/v3.0.5/SatisfactoryModManager_linux_amd64.AppImage",
     "description": "Satisfactory Mod Manager"
-  },
-  {
-    "pkg": "satty",
-    "site": "gabm/Satty",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/satty",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/satty",
-    "version_raw": "https://github.com/Satty-org/Satty/releases/download/v0.20.1/satty-x86_64-unknown-linux-gnu.tar.gz",
-    "description": "Modern Screenshot Annotation"
-  },
-  {
-    "pkg": "saucedacity",
-    "site": "tenacityteam/saucedacity",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/saucedacity",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/saucedacity",
-    "version_raw": "https://github.com/tenacityteam/saucedacity/releases/download/v1.2.1/saucedacity-1.2.1-linux-x86_64.AppImage",
-    "description": "Audio editor based on Audacity focusing on general improvements"
   },
   {
     "pkg": "savvycan",
@@ -18672,14 +18488,6 @@
     "description": "Unofficial AppImage builds of the Servo web browser engine"
   },
   {
-    "pkg": "session-desktop",
-    "site": "session-foundation/session-desktop",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/session-desktop",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/session-desktop",
-    "version_raw": "https://github.com/session-foundation/session-desktop/releases/download/v1.17.17/session-desktop-linux-x86_64-1.17.17.AppImage",
-    "description": "Onion routing based messenger"
-  },
-  {
     "pkg": "setcolors",
     "site": "Lateralus138/setcolors",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/setcolors",
@@ -18748,7 +18556,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-04-01-deb8c66ffb01f9d279e21e49371b791d7ba40600/shadps4-linux-sdl-2026-04-01-deb8c66.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-04-02-26e2689b0619c95f47c7ed0c41d6909bbfa4a699/shadps4-linux-sdl-2026-04-02-26e2689.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -19444,7 +19252,7 @@
     "site": "sonusmix/sonusmix",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sonusmix",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sonusmix",
-    "version_raw": "https://codeberg.org/sonusmix/sonusmix/releases/download/v0.1.1/org.sonusmix.Sonusmix-0.1.1.AppImage",
+    "version_raw": "",
     "description": "Next-gen Pipewire audio routing tool"
   },
   {
@@ -20684,7 +20492,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.6.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.12.0-beta.2.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -20828,7 +20636,7 @@
     "site": "tenacityteam/tenacity",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tenacity",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tenacity",
-    "version_raw": "https://codeberg.org/tenacityteam/tenacity/releases/download/v1.4-alpha1/tenacity-linux-1.4.0-x86_64.AppImage",
+    "version_raw": "",
     "description": "An easy-to-use, cross-platform multi-track audio editor/recorder"
   },
   {
@@ -22780,7 +22588,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "8020761351",
+    "version_raw": "8022103596",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
