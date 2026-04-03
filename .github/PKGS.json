@@ -236,7 +236,7 @@
     "site": "AgregoreWeb/agregore-browser",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/agregore",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/agregore",
-    "version_raw": "https://github.com/AgregoreWeb/agregore-browser/releases/download/v2.23.0/agregore-browser-2.23.0-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/AgregoreWeb/agregore-browser/releases/download/v2.23.1/agregore-browser-2.23.1-linux-x86_64.AppImage",
     "description": "A minimal browser for the distributed web, Desktop version"
   },
   {
@@ -1180,7 +1180,7 @@
     "site": "https://aspect.bildhuus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aspect",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aspect",
-    "version_raw": "https://download.bildhuus.com/packages/aspect/aspect-1.0.0-rc.49-x86_64.AppImage",
+    "version_raw": "",
     "description": "Photo organization application with support for peer-to-peer based synchronization across devices"
   },
   {
@@ -1230,14 +1230,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/atuin",
     "version_raw": "https://github.com/atuinsh/atuin/releases/download/v18.13.6/atuin-server-x86_64-unknown-linux-musl.tar.gz",
     "description": "Magical shell history"
-  },
-  {
-    "pkg": "audacious",
-    "site": "ivan-hc/Audacious-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/audacious",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/audacious",
-    "version_raw": "https://github.com/ivan-hc/Audacious-appimage/releases/download/continuous/Audacious_4.5.1-1-archimage5.0-x86_64.AppImage",
-    "description": "Unofficial. An open source audio and music player, descendant of XMMS"
   },
   {
     "pkg": "audacity",
@@ -6684,7 +6676,7 @@
     "site": "https://www.firefox.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-beta",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260402-203603/Firefox-beta-150.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260403-203628/Firefox-beta-150.0-x86_64.AppImage",
     "description": "Fast, powerful and extensible Web Browser, Beta Edition"
   },
   {
@@ -6692,7 +6684,7 @@
     "site": "https://www.firefox.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-devedition",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-devedition",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260402-203603/Firefox-devedition-150.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260403-203628/Firefox-devedition-150.0-x86_64.AppImage",
     "description": "Fast, powerful and extensible Web Browser, Developer Edition"
   },
   {
@@ -6700,7 +6692,7 @@
     "site": "https://www.firefox.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-esr",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-esr",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260402-203603/Firefox-esr-140.9.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260403-203628/Firefox-esr-140.9.0-x86_64.AppImage",
     "description": "Fast, powerful and extensible Web Browser, ESR Edition"
   },
   {
@@ -6708,7 +6700,7 @@
     "site": "https://www.firefox.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-nightly",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260402-203603/Firefox-nightly-151.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260403-203628/Firefox-nightly-151.0a1-x86_64.AppImage",
     "description": "Fast, powerful and extensible Web Browser, Nightly Edition"
   },
   {
@@ -12884,7 +12876,7 @@
     "site": "MUME/MMapper",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mmapper",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mmapper",
-    "version_raw": "https://github.com/MUME/MMapper/releases/download/beta/MMapper-26.04.0-2-g67a3af73-x86_64.AppImage",
+    "version_raw": "https://github.com/MUME/MMapper/releases/download/beta/MMapper-26.04.0-4-gc31fefa9-x86_64.AppImage",
     "description": "Graphical MUD client for the game MUME"
   },
   {
@@ -15808,6 +15800,14 @@
     "description": "Digital image organizer powered by the web"
   },
   {
+    "pkg": "piglit",
+    "site": "pkgforge-dev/Piglit-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/piglit",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/piglit",
+    "version_raw": "https://github.com/pkgforge-dev/Piglit-AppImage/releases/download/r12239.83c1871bc-1%402026-04-01_1775071226/Piglit-r12239.83c1871bc-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, a collection of automated tests for OpenGL, Vulkan, and OpenCL implementations"
+  },
+  {
     "pkg": "pigs-n-cows",
     "site": "themarlboroman/pigs-n-cows",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pigs-n-cows",
@@ -16984,6 +16984,14 @@
     "description": "Video and audio player whit support of most formats and codecs"
   },
   {
+    "pkg": "qmplay2-enhanced",
+    "site": "pkgforge-dev/QMPlay2-AppImage-Enhanced",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qmplay2-enhanced",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qmplay2-enhanced",
+    "version_raw": "https://github.com/pkgforge-dev/QMPlay2-AppImage-Enhanced/releases/download/25.09.11-1%402026-04-03_1775212845/QMPlay2-25.09.11-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, a video and audio player which can play most formats and codecs"
+  },
+  {
     "pkg": "qnapi",
     "site": "QNapi/qnapi",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qnapi",
@@ -18052,7 +18060,7 @@
     "site": "martinrotter/rssguard",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rssguard",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rssguard",
-    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-dev-156a957d1-qt5-linux64.AppImage",
+    "version_raw": "https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-dev-cdb466a07-qt5-linux64.AppImage",
     "description": "Feed reader which supports RSS/ATOM/JSON, no-webengine version"
   },
   {
@@ -19716,7 +19724,7 @@
     "site": "raitonoberu/sptlrx",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sptlrx",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sptlrx",
-    "version_raw": "https://github.com/raitonoberu/sptlrx/releases/download/v1.3.0/sptlrx_1.3.0_linux_amd64.tar.gz",
+    "version_raw": "",
     "description": "Synchronized lyrics in your terminal"
   },
   {
@@ -20044,7 +20052,7 @@
     "site": "https://gitlab.com/posktomten/streamcapture2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/streamcapture2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/streamcapture2",
-    "version_raw": "",
+    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=SkqSVXksngbT",
     "description": "Download video streams"
   },
   {
@@ -21084,7 +21092,7 @@
     "site": "https://www.thunderbird.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-beta",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260402-203630/Thunderbird-beta-150.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260403-203725/Thunderbird-beta-150.0-x86_64.AppImage",
     "description": "Free and open source eMail client, Beta Edition"
   },
   {
@@ -21092,7 +21100,7 @@
     "site": "https://www.thunderbird.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-nightly",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260402-203630/Thunderbird-nightly-151.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260403-203725/Thunderbird-nightly-151.0a1-x86_64.AppImage",
     "description": "Free and open source eMail client, Nightly Edition"
   },
   {
@@ -22808,6 +22816,14 @@
     "description": "Unofficial, An unofficial client of WhatsApp"
   },
   {
+    "pkg": "whatsie",
+    "site": "pkgforge-dev/WhatSie-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/whatsie",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/whatsie",
+    "version_raw": "https://github.com/pkgforge-dev/WhatSie-AppImage/releases/download/5.0.0-1%402026-04-03_1775212688/WhatSie-5.0.0-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, feature rich WhatsApp web client based on Qt WebEngine"
+  },
+  {
     "pkg": "whatstron",
     "site": "murilopereirame/Whatstron",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/whatstron",
@@ -22860,7 +22876,7 @@
     "site": "Xpl0itU/WiiUDownloader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wiiu-downloader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wiiu-downloader",
-    "version_raw": "https://github.com/Xpl0itU/WiiUDownloader/releases/download/v2.86/WiiUDownloader-Linux-x86_64.AppImage",
+    "version_raw": "https://github.com/Xpl0itU/WiiUDownloader/releases/download/v2.87/WiiUDownloader-Linux-x86_64.AppImage",
     "description": "Allows to download encrypted wiiu files from nintendo's official servers"
   },
   {
