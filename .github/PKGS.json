@@ -660,7 +660,7 @@
     "site": "https://ankama.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ankama-launcher",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ankama-launcher",
-    "version_raw": "3.14.2",
+    "version_raw": "3.14.6",
     "description": "Ankama is an entertainment and digital creation group"
   },
   {
@@ -2628,7 +2628,7 @@
     "site": "lizzieshinkicker/Cacoco",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cacoco",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cacoco",
-    "version_raw": "https://github.com/lizzieshinkicker/Cacoco/releases/download/nightly/cacoco-nightly-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/lizzieshinkicker/Cacoco/releases/download/0.9.4-beta/cacoco-0.9.4-beta-linux-x86_64.AppImage",
     "description": "A (slightly, but aspirationally) finished SBARDEF editor. Mostly"
   },
   {
@@ -8860,7 +8860,7 @@
     "site": "xx4h/hctl",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hctl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hctl",
-    "version_raw": "https://github.com/xx4h/hctl/releases/download/v0.8.1/hctl_linux_x86_64.tar.gz",
+    "version_raw": "https://github.com/xx4h/hctl/releases/download/v0.9.0/hctl_linux_x86_64.tar.gz",
     "description": "A tool to control your Home Assistant devices from the command-line"
   },
   {
@@ -11108,7 +11108,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -11924,7 +11924,7 @@
     "site": "https://lunarclient.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lunar-client",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lunar-client",
-    "version_raw": "https://launcherupdates.lunarclientcdn.com/Lunar%20Client-3.6.3-ow.AppImage",
+    "version_raw": "https://launcherupdates.lunarclientcdn.com/Lunar%20Client-3.6.4-ow.AppImage",
     "description": "Free Minecraft Client, a modpack for all versions of Minecraft"
   },
   {
@@ -14436,7 +14436,7 @@
     "site": "patrikx3/onenote",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/onenote",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/onenote",
-    "version_raw": "https://github.com/patrikx3/onenote/releases/download/v2026.4.118/P3X-OneNote-2026.4.118.AppImage",
+    "version_raw": "https://github.com/patrikx3/onenote/releases/download/v2026.4.119/P3X-OneNote-2026.4.119.AppImage",
     "description": "P3X Onenote Linux"
   },
   {
@@ -21742,5 +21742,237 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ultragrid",
     "version_raw": "https://github.com/CESNET/UltraGrid/releases/download/continuous/UltraGrid-continuous-x86_64.AppImage",
     "description": "UltraGrid low-latency audio/video network transmission system"
+  },
+  {
+    "pkg": "ultrascreen",
+    "site": "w3yden/ultrascreen",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ultrascreen",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ultrascreen",
+    "version_raw": "https://github.com/w3yden/ultrascreen/releases/download/v2.0.0/ultrascreen-1.0.0.AppImage",
+    "description": "Share your screens with friends"
+  },
+  {
+    "pkg": "ums",
+    "site": "UniversalMediaServer/UniversalMediaServer",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ums",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ums",
+    "version_raw": "https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/15.4.0/UMS-Linux-15.4.0-x86_64.AppImage",
+    "description": "Universal Media Server. A DLNA, UPnP and HTTP(S) Media Server"
+  },
+  {
+    "pkg": "uncov",
+    "site": "xaizek/uncov",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uncov",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uncov",
+    "version_raw": "https://github.com/xaizek/uncov/releases/download/v0.5/uncov-0.5-x86_64.AppImage",
+    "description": "A tool that collects and processes code coverage reports"
+  },
+  {
+    "pkg": "undertaker141",
+    "site": "AbdelrhmanNile/UnderTaker141",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/undertaker141",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/undertaker141",
+    "version_raw": "https://github.com/AbdelrhmanNile/UnderTaker141/releases/download/latest/UnderTaker141.AppImage",
+    "description": "A free and open-source game-center for linux. Pre-configured Wine and Native Games for Linux"
+  },
+  {
+    "pkg": "unetbootin",
+    "site": "unetbootin/unetbootin",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/unetbootin",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/unetbootin",
+    "version_raw": "https://github.com/unetbootin/unetbootin/releases/download/702/unetbootin-linux64-702.bin",
+    "description": "Install Linux/BSD distributions to a partition or USB drive"
+  },
+  {
+    "pkg": "ungoogled-chromium",
+    "site": "ungoogled-software/ungoogled-chromium-portablelinux",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ungoogled-chromium",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ungoogled-chromium",
+    "version_raw": "https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/146.0.7680.177-1/ungoogled-chromium-146.0.7680.177-1-x86_64.AppImage",
+    "description": "Chromium Web Browser without Google services"
+  },
+  {
+    "pkg": "unishellect",
+    "site": "Lateralus138/unishellectv2",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/unishellect",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/unishellect",
+    "version_raw": "https://github.com/Lateralus138/unishellectv2/releases/download/2.0.1661201987/UniShellect-x86_64.AppImage",
+    "description": "JSON parser file and menu customizez Hyper-inspired"
+  },
+  {
+    "pkg": "unleashedrecomp",
+    "site": "pkgforge-dev/UnleashedRecomp-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/unleashedrecomp",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/unleashedrecomp",
+    "version_raw": "https://github.com/pkgforge-dev/UnleashedRecomp-AppImage/releases/download/v1.0.3%402026-03-01_1772350512/Unleashed_Recompiled-v1.0.3-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of UnleashedRecomp (Sonic Unleashed port)"
+  },
+  {
+    "pkg": "unofficial-homestuck-collection",
+    "site": "GiovanH/unofficial-homestuck-collection",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/unofficial-homestuck-collection",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/unofficial-homestuck-collection",
+    "version_raw": "https://github.com/GiovanH/unofficial-homestuck-collection/releases/download/v2.8.0/The-Unofficial-Homestuck-Collection-2.8.0.AppImage",
+    "description": "An offline collection of Homestuck and its related works"
+  },
+  {
+    "pkg": "unofficial-zalo",
+    "site": "SafeStudio/unofficial-zalo",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/unofficial-zalo",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/unofficial-zalo",
+    "version_raw": "https://github.com/safestudio/unofficial-zalo/releases/download/v1.0.3/unofficial-zalo-1.0.3-x86_64.AppImage",
+    "description": "Unofficial Zalo App"
+  },
+  {
+    "pkg": "unreel",
+    "site": "linux-man/unreel",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/unreel",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/unreel",
+    "version_raw": "https://github.com/linux-man/unreel/releases/download/v1.4.0/unreel-1.4.0-x86_64.AppImage",
+    "description": "A GUI to create Reveal presentations"
+  },
+  {
+    "pkg": "unveil",
+    "site": "oknozor/unveil-rs",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/unveil",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/unveil",
+    "version_raw": "https://github.com/oknozor/unveil-rs/releases/download/0.1.2-alpha1/unveil-0.1.2-alpha1-x86_64-unknown-linux-gnu.tar.gz",
+    "description": "Unveil Rs is a tool to create presentations from markdown inspired by reveal.js, mdbook and zola"
+  },
+  {
+    "pkg": "unyo",
+    "site": "K3vinb5/Unyo",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/unyo",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/unyo",
+    "version_raw": "https://github.com/K3vinb5/Unyo/releases/download/v0.6.7/Unyo-v0.6.7-linux.AppImage",
+    "description": "Anime streaming and Manga reader desktop app without ads"
+  },
+  {
+    "pkg": "updatedeployqt",
+    "site": "TheFutureShell/updatedeployqt",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/updatedeployqt",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/updatedeployqt",
+    "version_raw": "https://github.com/antony-jr/updatedeployqt/releases/download/continuous/updatedeployqt-continuous-x86_64.AppImage",
+    "description": "Tool to deploy auto update for qt applications"
+  },
+  {
+    "pkg": "upgit",
+    "site": "pluveto/upgit",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/upgit",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/upgit",
+    "version_raw": "https://github.com/pluveto/upgit/releases/download/v0.2.25/upgit_cgo_linux_amd64",
+    "description": "CLI, another upload hub that supports clipboard. It works well with Typora, Snipaste, VSCode"
+  },
+  {
+    "pkg": "upnote",
+    "site": "https://getupnote.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/upnote",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/upnote",
+    "version_raw": "https://download.getupnote.com/app/UpNote.AppImage",
+    "description": "Stay focused and productive with a clean and clutter-free note space"
+  },
+  {
+    "pkg": "upnotes",
+    "site": "upnotes-io/upnotes-website",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/upnotes",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/upnotes",
+    "version_raw": "https://github.com/upnotes-io/upnotes-website/releases/download/v2.5.2-beta/Upnotes-2.5.2-beta.AppImage",
+    "description": "A notes app for software developers"
+  },
+  {
+    "pkg": "upscayl",
+    "site": "upscayl/upscayl",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/upscayl",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/upscayl",
+    "version_raw": "https://github.com/upscayl/upscayl/releases/download/v2.15.0/upscayl-2.15.0-linux.AppImage",
+    "description": "Free and Open Source AI Image Upscaler"
+  },
+  {
+    "pkg": "urbanterror",
+    "site": "ivan-hc/UrbanTerror-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/urbanterror",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/urbanterror",
+    "version_raw": "https://github.com/ivan-hc/UrbanTerror-appimage/releases/download/continuous/Urban-Terror_4.3.4-x86_64.AppImage",
+    "description": "A team-based tactical game shooter based on the Quake 3 Engine"
+  },
+  {
+    "pkg": "utilso",
+    "site": "https://utilso.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/utilso",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/utilso",
+    "version_raw": "https://cdn.utilso.com/Utilso-4.4.0.AppImage",
+    "description": "Regex Tester, JWT Verify, Image Converter, Format JSON, Decode"
+  },
+  {
+    "pkg": "uv",
+    "site": "astral-sh/uv",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uv",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uv",
+    "version_raw": "https://github.com/astral-sh/uv/releases/download/0.11.3/uv-x86_64-unknown-linux-musl.tar.gz",
+    "description": "An extremely fast Python package and project manager, written in Rust"
+  },
+  {
+    "pkg": "uwufetch",
+    "site": "ad-oliviero/uwufetch",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uwufetch",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uwufetch",
+    "version_raw": "https://github.com/ad-oliviero/uwufetch/releases/download/2.1/uwufetch_2.1-linux.tar.gz",
+    "description": "A meme system info tool for Linux, based on nyan/uwu trend"
+  },
+  {
+    "pkg": "uyou",
+    "site": "tonylu110/uyou-todo-electron",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uyou",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uyou",
+    "version_raw": "https://github.com/tonylu110/uyou-todo-electron/releases/download/3.2.0/uyou.ToDo-3.2.0.AppImage",
+    "description": "This is a todo list with electron"
+  },
+  {
+    "pkg": "uzdoom",
+    "site": "UZDoom/UZDoom",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uzdoom",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uzdoom",
+    "version_raw": "https://github.com/UZDoom/UZDoom/releases/download/x-preview/Linux-UZDoom-Preview.AppImage",
+    "description": "UZDoom is a feature centric port for all Doom engine games, based on GZDoom, adding an advanced renderer and powerful scripting capabilities"
+  },
+  {
+    "pkg": "v2ray-desktop",
+    "site": "Dr-Incognito/V2Ray-Desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/v2ray-desktop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/v2ray-desktop",
+    "version_raw": "https://github.com/Dr-Incognito/V2Ray-Desktop/releases/download/2.4.0/V2Ray-Desktop-v2.4.0-linux-x86_64.AppImage",
+    "description": "V2Ray GUI client for Linux"
+  },
+  {
+    "pkg": "valeronoi",
+    "site": "ccoors/Valeronoi",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/valeronoi",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/valeronoi",
+    "version_raw": "https://github.com/ccoors/Valeronoi/releases/download/v0.2.2/Valeronoi-current-x86_64.AppImage",
+    "description": "Companion app for Valetudo for generating WiFi heat maps"
+  },
+  {
+    "pkg": "vapour",
+    "site": "Daniel-Griffiths/vapour",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vapour",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vapour",
+    "version_raw": "https://github.com/Daniel-Griffiths/vapour/releases/download/2.0.1/Vapour-Linux-2.0.1.AppImage",
+    "description": "An alternative open source Steam client"
+  },
+  {
+    "pkg": "varia",
+    "site": "pkgforge-dev/Varia-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/varia",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/varia",
+    "version_raw": "https://github.com/pkgforge-dev/Varia-AppImage/releases/download/2026.1.5.3-2%402026-02-22_1771751012/Varia-2026.1.5.3-2-anylinux-x86_64.AppImage",
+    "description": "Unofficial. Aria2-based advanced download manager with support for downloading files, torrents, video and audio + support for Chromium and Firefox extension"
+  },
+  {
+    "pkg": "vcard-studio",
+    "site": "https://app.zdechov.net/vcard-studio",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vcard-studio",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vcard-studio",
+    "version_raw": "https://svn.zdechov.net/vcard-studio/bin/appimage/vCardStudio-1.5.0-x86_64.AppImage",
+    "description": "A contact management application with support for vCard file format (.vcf)"
   }
 ]
