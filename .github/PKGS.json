@@ -6568,6 +6568,14 @@
     "description": "Convert between various file formats"
   },
   {
+    "pkg": "file-to-c",
+    "site": "Wallby/file-to-c",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/file-to-c",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/file-to-c",
+    "version_raw": "https://github.com/Wallby/file-to-c/releases/download/1.0.0/file-to-c-x86_64.AppImage",
+    "description": "Tool for generating a C header from a spir-v binary file"
+  },
+  {
     "pkg": "filebrowser",
     "site": "filebrowser/filebrowser",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/filebrowser",
@@ -6614,6 +6622,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/filezilla",
     "version_raw": "https://github.com/ivan-hc/FileZilla-appimage/releases/download/continuous/FileZilla_3.69.6-4-archimage5.0-x86_64.AppImage",
     "description": "Unofficial. The free FTP solution with support for FTP over TLS and SFTP"
+  },
+  {
+    "pkg": "filmulator-gui",
+    "site": "CarVac/filmulator-gui",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/filmulator-gui",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/filmulator-gui",
+    "version_raw": "https://github.com/CarVac/filmulator-gui/releases/download/v0.11.1/Filmulator_v0.11.1.AppImage",
+    "description": "Simplified raw editing with the power of film, graphics"
   },
   {
     "pkg": "fingrom",
@@ -6678,6 +6694,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-devedition",
     "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260402-203603/Firefox-devedition-150.0-x86_64.AppImage",
     "description": "Fast, powerful and extensible Web Browser, Developer Edition"
+  },
+  {
+    "pkg": "firefox-esr",
+    "site": "https://www.firefox.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-esr",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-esr",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260402-203603/Firefox-esr-140.9.0-x86_64.AppImage",
+    "description": "Fast, powerful and extensible Web Browser, ESR Edition"
   },
   {
     "pkg": "firefox-nightly",
@@ -6840,6 +6864,14 @@
     "description": "Free, open source flight simulator developed since 1997"
   },
   {
+    "pkg": "flightgear-airports",
+    "site": "Portree-Kid/flightgear-airports",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flightgear-airports",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/flightgear-airports",
+    "version_raw": "https://github.com/Portree-Kid/flightgear-airports/releases/download/v0.0.34/flightgear-airports-0.0.34.AppImage",
+    "description": "A software to design Flightgear groundnets"
+  },
+  {
     "pkg": "flippy-qualitative-testbench",
     "site": "flippy-fyp/flippy-qualitative-testbench",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flippy-qualitative-testbench",
@@ -6928,6 +6960,14 @@
     "description": "Unofficial, A Sega Dreamcast, Naomi, Naomi 2 and Atomiswave emulator"
   },
   {
+    "pkg": "flyctl",
+    "site": "superfly/flyctl",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flyctl",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/flyctl",
+    "version_raw": "https://github.com/superfly/flyctl/releases/download/v0.4.29/flyctl_0.4.29_Linux_x86_64.tar.gz",
+    "description": "Command line tools for fly.io services"
+  },
+  {
     "pkg": "flyingcarpet",
     "site": "spieglt/flyingcarpet",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flyingcarpet",
@@ -6958,6 +6998,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fms-file-explorer",
     "version_raw": "https://github.com/AllenInstitute/biofile-finder/releases/download/v8.8.1/BioFile-Finder-8.8.1.AppImage",
     "description": "Access and exploration of data produced"
+  },
+  {
+    "pkg": "focalizzare",
+    "site": "VitoVan/focalizzare",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/focalizzare",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/focalizzare",
+    "version_raw": "https://github.com/VitoVan/focalizzare/releases/download/1.1.5/Focalizzare.AppImage",
+    "description": "A Timer for Pomodoro Technique"
   },
   {
     "pkg": "focus",
@@ -7014,6 +7062,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fontlet",
     "version_raw": "https://github.com/akuru-io/fontlet-explorer/releases/download/v0.0.29-alpha/FontLet-0.0.29-alpha-x86_64.AppImage",
     "description": "A package manager for fonts"
+  },
+  {
+    "pkg": "foobar2000",
+    "site": "mmtrt/foobar2000_AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/foobar2000",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/foobar2000",
+    "version_raw": "https://github.com/mmtrt/foobar2000_AppImage/releases/download/stable64/foobar2000-x64-2.25.8-x86_64.AppImage",
+    "description": "Unofficial, an advanced freeware audio player for Windows, includes WINE"
   },
   {
     "pkg": "foobillardpp",
@@ -7136,6 +7192,14 @@
     "description": "Messaging app for WhatsApp, Slack, Telegram, HipChat and much more"
   },
   {
+    "pkg": "frappebooks",
+    "site": "frappe/books",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/frappebooks",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/frappebooks",
+    "version_raw": "https://github.com/frappe/books/releases/download/v0.36.0/Frappe-Books-v0.36.0-linux-x86_64.AppImage",
+    "description": "Book-keeping software for small-businesses and freelancers"
+  },
+  {
     "pkg": "freac",
     "site": "enzo1982/freac",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/freac",
@@ -7214,6 +7278,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/freeze",
     "version_raw": "",
     "description": "Generate images of code and terminal output"
+  },
+  {
+    "pkg": "freezer",
+    "site": "eNV25/freezer-releases",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/freezer",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/freezer",
+    "version_raw": "https://github.com/eNV25/freezer-releases/releases/download/pc1.1.24/Freezer-1.1.24.AppImage",
+    "description": "An unofficial client for Deezer"
   },
   {
     "pkg": "fresh",
@@ -7368,6 +7440,14 @@
     "description": "A modern mod manager for Thunderstore"
   },
   {
+    "pkg": "gallery-dl",
+    "site": "mikf/gallery-dl",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gallery-dl",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gallery-dl",
+    "version_raw": "https://github.com/mikf/gallery-dl/releases/download/v1.31.10/gallery-dl.bin",
+    "description": "Command-line program to download image galleries and collections"
+  },
+  {
     "pkg": "gameconqueror",
     "site": "lucasmz1/Game_Conqueror_AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gameconqueror",
@@ -7454,6 +7534,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gdevelop",
     "version_raw": "https://github.com/4ian/GDevelop/releases/download/v5.6.264/GDevelop-5-5.6.264.AppImage",
     "description": "Cross-platform game engine designed to be used by everyone"
+  },
+  {
+    "pkg": "gdlauncher",
+    "site": "gorilla-devs/GDLauncher",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gdlauncher",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gdlauncher",
+    "version_raw": "https://github.com/gorilla-devs/GDLauncher/releases/download/v1.1.30/GDLauncher-linux-setup.AppImage",
+    "description": "Simple, yet powerful Minecraft custom launcher"
   },
   {
     "pkg": "gdm-settings",
@@ -7712,6 +7800,14 @@
     "description": "Unofficial, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (glfw version)"
   },
   {
+    "pkg": "ghostty-glfw-nightly",
+    "site": "pkgforge-dev/ghostty-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ghostty-glfw-nightly",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ghostty-glfw-nightly",
+    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/glfw/Ghostty_Glfw-1.1.4-main%2B908eb6d-x86_64.AppImage",
+    "description": "Unofficial, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (Tip, Nightly) (glfw version)"
+  },
+  {
     "pkg": "ghostty-nightly",
     "site": "pkgforge-dev/ghostty-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ghostty-nightly",
@@ -7768,6 +7864,14 @@
     "description": "Unofficial, Cross-platform image and photo editor, built from GIT"
   },
   {
+    "pkg": "gimp-hybrid",
+    "site": "ivan-hc/GIMP-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gimp-hybrid",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gimp-hybrid",
+    "version_raw": "https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-hybrid/GNU-Image-Manipulation-Program_2.10.38-5-Hybrid-with-python2-from-Debian-Buster-archimage4.9-x86_64.AppImage",
+    "description": "Unofficial, GIMP including third-party plugins and python2 support"
+  },
+  {
     "pkg": "gingko",
     "site": "gingko/client",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gingko",
@@ -7822,6 +7926,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/githoard",
     "version_raw": "https://github.com/beepboopbangbang/githoard/releases/download/v0.4.0/githoard-0.4.0-x86_64.AppImage",
     "description": "Hoard git repositories with ease"
+  },
+  {
+    "pkg": "github-desktop-plus",
+    "site": "pol-rivero/github-desktop-plus",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/github-desktop-plus",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/github-desktop-plus",
+    "version_raw": "https://github.com/pol-rivero/github-desktop-plus/releases/download/v3.5.7.2/GitHubDesktopPlus-v3.5.7.2-linux-x86_64.AppImage",
+    "description": "Electron-based GitHub Desktop fork with advanced functionality and Bitbucket, GitLab integration"
   },
   {
     "pkg": "github-store",
@@ -7886,6 +7998,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gitql",
     "version_raw": "https://github.com/filhodanuvem/gitql/releases/download/v2.3.1/gitql_2.3.1_Linux_x86_64.tar.gz",
     "description": "A git query language"
+  },
+  {
+    "pkg": "gitqlient",
+    "site": "francescmm/GitQlient",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gitqlient",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gitqlient",
+    "version_raw": "https://github.com/francescmaestre/GitQlient/releases/download/dev-latest/GitQlient-1.6.3-99-gfaa3e2c1-x86_64.AppImage",
+    "description": "Multi-platform Git client written with Qt"
   },
   {
     "pkg": "gittyup",
@@ -8168,6 +8288,14 @@
     "description": "Unofficial, an advanced dictionary lookup program, supporting many formats"
   },
   {
+    "pkg": "gooboxfileshare",
+    "site": "GooBox/file-share-desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gooboxfileshare",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gooboxfileshare",
+    "version_raw": "https://github.com/GooBox/file-share-desktop/releases/download/v0.3.4/GooboxFileShare-0.3.4.AppImage",
+    "description": "Goobox File Share App"
+  },
+  {
     "pkg": "goodls",
     "site": "tanaikech/goodls",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/goodls",
@@ -8190,6 +8318,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/google-chrome",
     "version_raw": "https://github.com/ivan-hc/Chrome-appimage/releases/download/continuous/Google-Chrome-stable-146.0.7680.177-1-x86_64.AppImage",
     "description": "Unofficial, Web Browser, Stable version"
+  },
+  {
+    "pkg": "google-chrome-beta",
+    "site": "ivan-hc/Chrome-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/google-chrome-beta",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/google-chrome-beta",
+    "version_raw": "https://github.com/ivan-hc/Chrome-appimage/releases/download/continuous/Google-Chrome-beta-147.0.7727.49-1-x86_64.AppImage",
+    "description": "Unofficial, Web Browser, Beta version"
   },
   {
     "pkg": "google-chrome-dev",
@@ -13572,7 +13708,7 @@
     "site": "https://www.wakdev.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nfctools",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nfctools",
-    "version_raw": "https://apps.wakdev.com/ntgui/releases/linux/nfctools-latest.AppImage",
+    "version_raw": "",
     "description": "A library which allows userspace application access to NFC devices"
   },
   {
@@ -14244,7 +14380,7 @@
     "site": "diegosouzapw/OmniRoute",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/omniroute",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/omniroute",
-    "version_raw": "https://github.com/diegosouzapw/OmniRoute/releases/download/v3.4.8/OmniRoute-3.4.8.AppImage",
+    "version_raw": "https://github.com/diegosouzapw/OmniRoute/releases/download/v3.4.9/OmniRoute-3.4.9.AppImage",
     "description": "OmniRoute is an AI gateway for multi-provider LLMs: an OpenAI-compatible endpoint with smart routing, load balancing, retries, and fallbacks. Add policies, rate limits, caching, and observability for reliable, cost-aware inference"
   },
   {
@@ -20556,7 +20692,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.6.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.12.0-beta.2.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
