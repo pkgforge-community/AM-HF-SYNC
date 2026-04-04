@@ -104,6 +104,14 @@
     "description": "A Download Manager that speeds up your downloads"
   },
   {
+    "pkg": "abaddon",
+    "site": "pkgforge-dev/Abaddon-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/abaddon",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/abaddon",
+    "version_raw": "https://github.com/pkgforge-dev/Abaddon-AppImage/releases/download/0.2.3-1%402026-04-04_1775293854/abaddon-0.2.3-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, an alternative Discord client with voice support made with C++ and GTK 3"
+  },
+  {
     "pkg": "abiword",
     "site": "ivan-hc/Abiword-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/abiword",
@@ -740,7 +748,7 @@
     "site": "ivan-hc/Anydesk-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anydesk",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anydesk",
-    "version_raw": "https://github.com/ivan-hc/Anydesk-appimage/releases/download/continuous/Anydesk_8.0.1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Anydesk-appimage/releases/download/continuous/Anydesk_8.0.2-x86_64.AppImage",
     "description": "Unofficial. Remote desktop application distributed"
   },
   {
@@ -7660,7 +7668,7 @@
     "site": "https://sourceforge.net/p/gemrb",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gemrb",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gemrb",
-    "version_raw": "https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/Linux/GemRB-2026-04-03-master-72ba42767b-x86_64.AppImage/download",
+    "version_raw": "https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/Linux/GemRB-2026-04-04-master-8f3f4eaff6-x86_64.AppImage/download",
     "description": "GemRB is a portable open-source implementation of Bioware's Infinity Engine"
   },
   {
@@ -11724,7 +11732,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.1.48-canary.31/LobeHub-2.1.48-canary.31.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.1.48-canary.32/LobeHub-2.1.48-canary.32.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -15108,7 +15116,7 @@
     "site": "patrikx3/redis-ui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/p3x-redis-ui",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/p3x-redis-ui",
-    "version_raw": "https://github.com/patrikx3/redis-ui/releases/download/v2026.4.618/P3X-Redis-UI-2026.4.618.AppImage",
+    "version_raw": "https://github.com/patrikx3/redis-ui/releases/download/v2026.4.623/P3X-Redis-UI-2026.4.623.AppImage",
     "description": "A very functional handy database GUI and works in your pocket"
   },
   {
@@ -16126,6 +16134,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/plume",
     "version_raw": "https://github.com/nuttyartist/plume-public/releases/download/v0.9.9/Plume_0.9.9-Qt6.7.0-x86_64.AppImage",
     "description": "A note-taking app written in Qt C++ and QML"
+  },
+  {
+    "pkg": "plus42",
+    "site": "pkgforge-dev/Plus42-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/plus42",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/plus42",
+    "version_raw": "https://github.com/pkgforge-dev/Plus42-AppImage/releases/download/1.3.13-1%402026-04-04_1775282388/Plus42-1.3.13-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, an enhanced HP-42S calculator simulator"
   },
   {
     "pkg": "png2svg",
@@ -17856,6 +17872,14 @@
     "description": "Unofficial, modern re-implementation of DOS game Duke Nukem II"
   },
   {
+    "pkg": "rigs-of-rods",
+    "site": "pkgforge-dev/Rigs-of-Rods-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rigs-of-rods",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rigs-of-rods",
+    "version_raw": "https://github.com/pkgforge-dev/Rigs-of-Rods-AppImage/releases/download/2026.01%402026-04-04_1775293376/RoR-2026.01-anylinux-x86_64.AppImage",
+    "description": "Unofficial, an open source vehicle simulator based on soft-body physics"
+  },
+  {
     "pkg": "rimage",
     "site": "SalOne22/rimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rimage",
@@ -18764,7 +18788,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-04-04-450472b51fbc53c504be2e738a8f2d5660ea7029/shadps4-linux-sdl-2026-04-04-450472b.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-04-04-73520ae094a502d2d3992b627ea0f17eb8b17900/shadps4-linux-sdl-2026-04-04-73520ae.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -20708,7 +20732,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.6.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.12.0-beta.2.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -20756,7 +20780,7 @@
     "site": "domesya/Tauon-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tauon",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tauon",
-    "version_raw": "https://github.com/pkgforge-dev/Tauon-AppImage/releases/download/9.1.2-1%402026-04-01_1775040844/Tauon-9.1.2-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Tauon-AppImage/releases/download/9.1.2-1%402026-04-04_1775297757/Tauon-9.1.2-1-anylinux-x86_64.AppImage",
     "description": "Unofficial, Tauon is a desktop music player designed for those who love their digital music collection. It’s built on the idea that a music player should be simple to use but deep in functionality. It combines a clean, modern interface with the power features you need to organize and enjoy your library"
   },
   {
@@ -22804,7 +22828,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "8085487168",
+    "version_raw": "8086135773",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -23580,7 +23604,7 @@
     "site": "kimlimjustin/xplorer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xplorer",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xplorer",
-    "version_raw": "https://github.com/kimlimjustin/xplorer/releases/download/v0.3.1/xplorer_0.3.1_amd64.AppImage",
+    "version_raw": "https://github.com/kimlimjustin/xplorer/releases/download/v1.0.0-alpha.1/Xplorer_0.99.1_amd64.AppImage",
     "description": "Xplorer, a customizable, modern file manager"
   },
   {
