@@ -24,7 +24,7 @@ _check_appimage() {
 	_determine_args
 	arg="$1"
 	_determine_argpath
-	if echo "$ARGPATHS" | grep -q "^/opt\|^/var/opt" && ! echo "$argpath" | grep -q "^/opt\|^/var/opt"; then
+	if ! echo "$argpath" | grep -q "^/opt\|^/var/opt"; then
 		TARGET="$(command -v "$BINDIR/$1" 2>/dev/null)"
 	else
 		TARGET="$(command -v "/usr/local/bin/$1" 2>/dev/null)"
@@ -47,7 +47,7 @@ _disable_sandbox() {
 	_determine_args
 	arg="$1"
 	_determine_argpath
-	if echo "$ARGPATHS" | grep -q "^/opt\|^/var/opt" && ! echo "$argpath" | grep -q "^/opt\|^/var/opt"; then
+	if ! echo "$argpath" | grep -q "^/opt\|^/var/opt"; then
 		TARGET="$(command -v "$BINDIR/$1" 2>/dev/null)"
 	else
 		TARGET="$(command -v "/usr/local/bin/$1" 2>/dev/null)"
@@ -289,7 +289,7 @@ _install_sandbox_script() {
 # Main logic
 [ -z "$2" ] && echo $" USAGE: $AMCLI $1 [ARGUMENT]" && exit 1
 case "$1" in
-	'--sandbox')
+	'--sandbox'|'sandbox')
 		shift
 		while [ "$#" -gt 0 ]; do
 			_check_appimage "${@}" && _check_aisap "${@}" \
