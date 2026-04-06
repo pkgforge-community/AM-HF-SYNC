@@ -136,12 +136,36 @@
     "description": "AppImage з AceStream Media"
   },
   {
+    "pkg": "acreom",
+    "site": "Acreom/releases",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/acreom",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/acreom",
+    "version_raw": "https://github.com/Acreom/releases/releases/download/v1.20.2/acreom-1.20.2.AppImage",
+    "description": "Acreom desktop app releases"
+  },
+  {
+    "pkg": "actiona",
+    "site": "Jmgr/actiona",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/actiona",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/actiona",
+    "version_raw": "https://github.com/Jmgr/actiona/releases/download/v3.11.1/actiona-3.11.1-x86_64.AppImage",
+    "description": "Actiona is an automation tool that allows you to execute many actions on your computer such as emulating mouse clicks, key presses, showing message boxes, editing text files, etc"
+  },
+  {
     "pkg": "actual",
     "site": "actualbudget/releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/actual",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/actual",
     "version_raw": "https://github.com/actualbudget/releases/releases/download/0.0.148/Actual-0.0.148-x86_64.AppImage",
     "description": "A super fast privacy-focused app for managing your finances"
+  },
+  {
+    "pkg": "adb",
+    "site": "https://developer.android.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/adb",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/adb",
+    "version_raw": "37.0.0",
+    "description": "Android Debug Bridge, a command line utility to handle Android devices. This script installs the full platform-tools suite"
   },
   {
     "pkg": "advanced-passgen",
@@ -166,6 +190,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aegisub",
     "version_raw": "https://github.com/arch1t3cht/Aegisub/releases/download/lifesupport01/Ubuntu.AppImage.zip",
     "description": "Cross-platform advanced subtitle editor, with new feature branches. Read the README on the feature branch. Cross-platform advanced subtitle editor Cross-platform advanced subtitle editor"
+  },
+  {
+    "pkg": "aerofoil",
+    "site": "pkgforge-dev/Aerofoil-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aerofoil",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aerofoil",
+    "version_raw": "https://github.com/pkgforge-dev/Aerofoil-AppImage/releases/download/1.1.2.r83.geccf2cf-1%402026-04-01_1775040175/Aerofoil-1.1.2.r83.geccf2cf-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, multiplatform port of Glider PRO"
   },
   {
     "pkg": "afetch",
@@ -196,7 +228,7 @@
     "site": "toeverything/AFFiNE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine-canary",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine-canary",
-    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2026.4.5-canary.916/affine-2026.4.5-canary.916-canary-linux-x64.appimage",
+    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2026.4.6-canary.929/affine-2026.4.6-canary.929-canary-linux-x64.appimage",
     "description": "Next-gen knowledge base that brings planning/sorting/creating"
   },
   {
@@ -5036,7 +5068,7 @@
     "site": "digimezzo/dopamine",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dopamine-preview",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dopamine-preview",
-    "version_raw": "https://github.com/digimezzo/dopamine/releases/download/v3.0.3/Dopamine-3.0.3.AppImage",
+    "version_raw": "https://github.com/digimezzo/dopamine/releases/download/v3.0.4/Dopamine-3.0.4.AppImage",
     "description": "The audio player that keeps it simple"
   },
   {
@@ -5916,7 +5948,7 @@
     "site": "pkgforge-dev/ePSXe-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/epsxe",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/epsxe",
-    "version_raw": "https://github.com/pkgforge-dev/ePSXe-AppImage/releases/download/2.0.5%402026-04-05_1775417116/ePSXe-2.0.5-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ePSXe-AppImage/releases/download/2.0.5%402026-04-06_1775464108/ePSXe-2.0.5-anylinux-x86_64.AppImage",
     "description": "Unofficial, enhanced PSX emulator"
   },
   {
@@ -8620,7 +8652,7 @@
     "site": "MCB-SMART-BOY/Gridix",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gridix",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gridix",
-    "version_raw": "https://github.com/MCB-SMART-BOY/Gridix/releases/download/v3.7.0/gridix.AppImage",
+    "version_raw": "https://github.com/MCB-SMART-BOY/Gridix/releases/download/v3.7.1/gridix.AppImage",
     "description": "A simple, fast, and secure cross-platform database management tool with Helix or Vim-style keybindings"
   },
   {
@@ -11148,7 +11180,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -12956,7 +12988,7 @@
     "site": "https://mochi.cards",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mochi",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mochi",
-    "version_raw": "https://download.mochi.cards/releases/Mochi-1.21.3.AppImage",
+    "version_raw": "https://download.mochi.cards/releases/Mochi-1.21.4.AppImage",
     "description": "A simple markdown-powered SRS app"
   },
   {
@@ -20844,7 +20876,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.12.0-beta.2.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.6.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -20932,7 +20964,7 @@
     "site": "IsmaelMartinez/teams-for-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/teams",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/teams",
-    "version_raw": "https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.7.13/teams-for-linux-2.7.13.AppImage",
+    "version_raw": "https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.8.0/teams-for-linux-2.8.0.AppImage",
     "description": "Unofficial, Business communication platform developed by Microsoft"
   },
   {
@@ -22948,7 +22980,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "8114014901",
+    "version_raw": "8115485995",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
