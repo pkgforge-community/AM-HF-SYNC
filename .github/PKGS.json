@@ -1156,7 +1156,7 @@
     "site": "http://www.bitbreeds.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "1.0.4",
+    "version_raw": "",
     "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
@@ -7468,7 +7468,7 @@
     "site": "https://gaiasky.space",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gaiasky",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gaiasky",
-    "version_raw": "https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_3.7.2.d859c5d9e_x86_64.appimage",
+    "version_raw": "https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_3.7.2.bc4b57653_x86_64.appimage",
     "description": "Gaia Sky, a real-time 3D space simulator & astronomy visualisation"
   },
   {
@@ -11196,7 +11196,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -11702,6 +11702,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
     "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.27_260401_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
+  },
+  {
+    "pkg": "linuxtoys",
+    "site": "pkgforge-dev/linuxtoys-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxtoys",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxtoys",
+    "version_raw": "https://github.com/pkgforge-dev/LinuxToys-AppImage/releases/download/5.7-1%402026-04-01_1775040736/LinuxToys-5.7-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, a user-friendly collection of tools to make your life on Linux easier than ever. Useful scripts for gamers, developers and enthusiasts"
   },
   {
     "pkg": "linuxwallpaper",
@@ -23036,7 +23044,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "8196761506",
+    "version_raw": "8200906407",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
