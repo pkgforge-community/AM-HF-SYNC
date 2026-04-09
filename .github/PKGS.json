@@ -420,7 +420,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.754/alma-0.0.754-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.755/alma-0.0.755-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -2584,6 +2584,14 @@
     "description": "Watch any series from Burning Series, Unofficial client"
   },
   {
+    "pkg": "busybox",
+    "site": "ivan-hc/busybox-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/busybox",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/busybox",
+    "version_raw": "https://github.com/ivan-hc/busybox-appimage/releases/download/continuous/busybox.static-1.37.0-r30-x86_64.AppImage",
+    "description": "AppImage of BusyBox, a tool that combines stripped-down versions of many common UNIX utilities into a single, small executable"
+  },
+  {
     "pkg": "buttercup",
     "site": "buttercup/buttercup-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/buttercup",
@@ -4308,7 +4316,7 @@
     "site": "https://www.cursor.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cursor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cursor",
-    "version_raw": "https://downloads.cursor.com/production/48a15759f53cd5fc9b5c20936ad7d79847d914b5/linux/x64/Cursor-3.0.13-x86_64.AppImage",
+    "version_raw": "https://downloads.cursor.com/production/475871d112608994deb2e3065dfb7c6b0baa0c54/linux/x64/Cursor-3.0.16-x86_64.AppImage",
     "description": "Built to make you extraordinarily productive, Cursor is the best way to code with AI"
   },
   {
@@ -5804,7 +5812,7 @@
     "site": "ElyPrismLauncher/ElyPrismLauncher",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/elyprismlauncher",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/elyprismlauncher",
-    "version_raw": "https://github.com/ElyPrismLauncher/Launcher/releases/download/11.0.0-pre2/PineconeMC-Linux-x86_64.AppImage",
+    "version_raw": "https://github.com/ElyPrismLauncher/Launcher/releases/download/11.0.0/PineconeMC-Linux-x86_64.AppImage",
     "description": "This fork of Prism Launcher adds integrated support for Ely.by accounts"
   },
   {
@@ -7036,7 +7044,7 @@
     "site": "AllenInstitute/aics-fms-file-explorer-app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fms-file-explorer",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fms-file-explorer",
-    "version_raw": "https://github.com/AllenInstitute/biofile-finder/releases/download/v8.9.0/BioFile-Finder-8.9.0.AppImage",
+    "version_raw": "https://github.com/AllenInstitute/biofile-finder/releases/download/v8.9.1/BioFile-Finder-8.9.1.AppImage",
     "description": "Access and exploration of data produced"
   },
   {
@@ -11236,7 +11244,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -12140,7 +12148,7 @@
     "site": "mlm-games/mages",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mages",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mages",
-    "version_raw": "https://github.com/mlm-games/Mages/releases/download/4.4.5/mages-4.4.5-x86_64.AppImage",
+    "version_raw": "https://github.com/mlm-games/Mages/releases/download/4.4.6/mages-4.4.6-x86_64.AppImage",
     "description": "Multiplatform Matrix chat client (experimental CMP+rust app)"
   },
   {
@@ -15276,7 +15284,7 @@
     "site": "patrikx3/redis-ui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/p3x-redis-ui",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/p3x-redis-ui",
-    "version_raw": "https://github.com/patrikx3/redis-ui/releases/download/v2026.4.642/P3X-Redis-UI-2026.4.642.AppImage",
+    "version_raw": "https://github.com/patrikx3/redis-ui/releases/download/v2026.4.644/P3X-Redis-UI-2026.4.644.AppImage",
     "description": "A very functional handy database GUI and works in your pocket"
   },
   {
@@ -20996,7 +21004,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.12.0-beta.2.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.6.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -22092,7 +22100,7 @@
     "site": "ungoogled-software/ungoogled-chromium-portablelinux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ungoogled-chromium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ungoogled-chromium",
-    "version_raw": "https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/146.0.7680.177-1/ungoogled-chromium-146.0.7680.177-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/147.0.7727.55-1/ungoogled-chromium-147.0.7727.55-1-x86_64.AppImage",
     "description": "Chromium Web Browser without Google services"
   },
   {
@@ -23100,7 +23108,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "8248369505",
+    "version_raw": "8251941456",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -23772,7 +23780,7 @@
     "site": "smeighan/xLights",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xlights",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xlights",
-    "version_raw": "https://github.com/xLightsSequencer/xLights/releases/download/2026.04/xLights-2026.04-x86_64.AppImage",
+    "version_raw": "https://github.com/xLightsSequencer/xLights/releases/download/2026.05/xLights-2026.05-x86_64.AppImage",
     "description": "A sequencer for Lights and sequences manager"
   },
   {
@@ -24244,7 +24252,7 @@
     "site": "oop7/YTSage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ytsage",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ytsage",
-    "version_raw": "https://github.com/oop7/YTSage/releases/download/v5.0.3/YTSage-v5.0.3-x86_64.AppImage",
+    "version_raw": "https://github.com/oop7/YTSage/releases/download/v5.0.4b/YTSage-v5.0.4b-x86_64.AppImage",
     "description": "Modern YouTube downloader with a clean PySide6 interface. Download videos in any quality, extract audio, fetch subtitles, sponsorBlock, and view video metadata. Built with yt-dlp for reliable performance"
   },
   {
