@@ -800,6 +800,14 @@
     "description": "Photo editing app for GNU/Linux"
   },
   {
+    "pkg": "apidog",
+    "site": "https://apidog.canny.io",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/apidog",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/apidog",
+    "version_raw": "2.8.23",
+    "description": "API design, debugging, testing, and mock tool"
+  },
+  {
     "pkg": "apiflow",
     "site": "trueleaf/apiflow",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/apiflow",
@@ -5996,7 +6004,7 @@
     "site": "https://es-de.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/es-de",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/es-de",
-    "version_raw": "v3.4.0",
+    "version_raw": "v3.4.1",
     "description": "EmulationStation Desktop Edition"
   },
   {
@@ -11244,7 +11252,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -11748,7 +11756,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.27_260401_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.22_251203_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -12060,7 +12068,7 @@
     "site": "https://lunarclient.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lunar-client",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lunar-client",
-    "version_raw": "https://launcherupdates.lunarclientcdn.com/Lunar%20Client-3.6.4-ow.AppImage",
+    "version_raw": "https://launcherupdates.lunarclientcdn.com/Lunar%20Client-3.6.5-ow.AppImage",
     "description": "Free Minecraft Client, a modpack for all versions of Minecraft"
   },
   {
@@ -16588,7 +16596,7 @@
     "site": "mvdicarlo/postybirb",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/postybirb",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/postybirb",
-    "version_raw": "https://github.com/mvdicarlo/postybirb/releases/download/v4.0.24/PostyBirb-4.0.24-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/mvdicarlo/postybirb/releases/download/v4.0.23/PostyBirb-4.0.23-linux-x86_64.AppImage",
     "description": "Multimedia crossposter for multimedia websites"
   },
   {
@@ -17236,7 +17244,7 @@
     "site": "pbek/QOwnNotes",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qownnotes",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qownnotes",
-    "version_raw": "https://github.com/pbek/QOwnNotes/releases/download/v26.4.9/QOwnNotes-x86_64.AppImage",
+    "version_raw": "https://github.com/pbek/QOwnNotes/releases/download/continuous/QOwnNotes-x86_64.AppImage",
     "description": "Plain text notepad and todo list manager"
   },
   {
@@ -18020,7 +18028,7 @@
     "site": "noahbclarkson/rgitui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rgitui",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rgitui",
-    "version_raw": "https://github.com/noahbclarkson/rgitui/releases/download/v0.1.3/rgitui-0.1.3-x86_64.AppImage",
+    "version_raw": "https://github.com/noahbclarkson/rgitui/releases/download/v0.1.4/rgitui-0.1.4-x86_64.AppImage",
     "description": "A GPU-accelerated desktop Git client built in Rust with GPUI"
   },
   {
@@ -18268,7 +18276,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-8121bd443ca355ab89b894099c19dc02ac535f9d/rpcs3-v0.0.40-19181-8121bd44_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-09554c43baaad391b8679fe6d55a23babbd2dec8/rpcs3-v0.0.40-19183-09554c43_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -19452,7 +19460,7 @@
     "site": "ransome1/sleek",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sleek",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sleek",
-    "version_raw": "https://github.com/ransome1/sleek/releases/download/v2.0.25-rc.3/sleek-2.0.25-rc.3-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/ransome1/sleek/releases/download/v2.0.25-rc.4/sleek-2.0.25-rc.4-linux-x86_64.AppImage",
     "description": "Multiplatform todo.txt manager"
   },
   {
@@ -19924,7 +19932,7 @@
     "site": "imsyy/SPlayer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/splayer",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/splayer",
-    "version_raw": "https://github.com/imsyy/SPlayer/releases/download/v3.0.0-nightly/splayer-3.0.0-nightly.20260403.159f2e4-x86_64.AppImage",
+    "version_raw": "https://github.com/imsyy/SPlayer/releases/download/v3.0.0-nightly/splayer-3.0.0-nightly.20260410.bea6f8f-x86_64.AppImage",
     "description": "A simple music player that supports word-by-word lyrics, song downloads, comment section display, music cloud storage and playlist management, music spectrum analysis, and basic mobile adaptation. NetEase Cloud Music"
   },
   {
@@ -20372,7 +20380,7 @@
     "site": "streamlink/streamlink-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/streamlink",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/streamlink",
-    "version_raw": "https://github.com/streamlink/streamlink-appimage/releases/download/8.2.1-1/streamlink%2Bffmpeg-8.2.1-1-cp314-cp314-manylinux_2_28_x86_64.AppImage",
+    "version_raw": "https://github.com/streamlink/streamlink-appimage/releases/download/8.3.0-1/streamlink%2Bffmpeg-8.3.0-1-cp314-cp314-manylinux_2_28_x86_64.AppImage",
     "description": "Command-line which pipes video streams from various services"
   },
   {
@@ -21004,7 +21012,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.6.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.12.0-beta.2.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -22660,7 +22668,7 @@
     "site": "ivan-hc/Vivaldi-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vivaldi-snapshot",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vivaldi-snapshot",
-    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-snapshot-7.10.3995.3-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-snapshot-7.10.4001.3-1-x86_64.AppImage",
     "description": "Unofficial. Advanced Web Browser, Testing Version"
   },
   {
@@ -23116,7 +23124,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "8280989803",
+    "version_raw": "8285066047",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
