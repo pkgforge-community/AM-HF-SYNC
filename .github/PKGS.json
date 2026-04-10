@@ -736,6 +736,14 @@
     "description": "Cleans up your $HOME from those pesky dotfiles"
   },
   {
+    "pkg": "antigravity",
+    "site": "https://antigravity.google",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/antigravity",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/antigravity",
+    "version_raw": "https://us-central1-apt.pkg.dev/projects/antigravity-auto-updater-dev/pool/antigravity-debian/antigravity_1.22.2-1775164135_amd64_725a36fefbc1adaf753dc6fafe632600.deb",
+    "description": "Google Antigravity IDE"
+  },
+  {
     "pkg": "antimicrox",
     "site": "AntiMicroX/antimicrox",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/antimicrox",
@@ -11252,7 +11260,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
+    "version_raw": "24.0.6.0",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -14556,7 +14564,7 @@
     "site": "diegosouzapw/OmniRoute",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/omniroute",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/omniroute",
-    "version_raw": "https://github.com/diegosouzapw/OmniRoute/releases/download/v3.5.9/OmniRoute-3.5.9.AppImage",
+    "version_raw": "https://github.com/diegosouzapw/OmniRoute/releases/download/v3.6.0/OmniRoute-3.6.0.AppImage",
     "description": "OmniRoute is an AI gateway for multi-provider LLMs: an OpenAI-compatible endpoint with smart routing, load balancing, retries, and fallbacks. Add policies, rate limits, caching, and observability for reliable, cost-aware inference"
   },
   {
@@ -17244,7 +17252,7 @@
     "site": "pbek/QOwnNotes",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qownnotes",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qownnotes",
-    "version_raw": "https://github.com/pbek/QOwnNotes/releases/download/continuous/QOwnNotes-x86_64.AppImage",
+    "version_raw": "https://github.com/pbek/QOwnNotes/releases/download/v26.4.9/QOwnNotes-x86_64.AppImage",
     "description": "Plain text notepad and todo list manager"
   },
   {
@@ -21012,7 +21020,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.12.0-beta.2.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.6.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
