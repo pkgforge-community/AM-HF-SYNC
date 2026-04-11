@@ -5324,7 +5324,7 @@
     "site": "stenzek/duckstation",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/duckstation",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/duckstation",
-    "version_raw": "https://api.github.com/repos/stenzek/duckstation/releases/304956241",
+    "version_raw": "https://api.github.com/repos/stenzek/duckstation/releases/307807901",
     "description": "PlayStation 1, aka PSX games Emulator"
   },
   {
@@ -6644,7 +6644,7 @@
     "site": "filebrowser/filebrowser",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/filebrowser",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/filebrowser",
-    "version_raw": "https://github.com/filebrowser/filebrowser/releases/download/v2.63.1/linux-amd64-filebrowser.tar.gz",
+    "version_raw": "https://github.com/filebrowser/filebrowser/releases/download/v2.63.2/linux-amd64-filebrowser.tar.gz",
     "description": "Web File Browser"
   },
   {
@@ -7756,7 +7756,7 @@
     "site": "https://sourceforge.net/p/gemrb",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gemrb",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gemrb",
-    "version_raw": "https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/Linux/GemRB-2026-04-10-master-d5014f0154-x86_64.AppImage/download",
+    "version_raw": "https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/Linux/GemRB-2026-04-11-master-7cbbf5bb9b-x86_64.AppImage/download",
     "description": "GemRB is a portable open-source implementation of Bioware's Infinity Engine"
   },
   {
@@ -11260,7 +11260,7 @@
     "site": "https://www.kaspersky.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "24.0.6.0",
+    "version_raw": "-//W3C//DTD",
     "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
@@ -11764,7 +11764,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.22_251203_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.27_260401_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -14846,5 +14846,877 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openlibextended",
     "version_raw": "https://github.com/warreth/OpenlibExtended/releases/download/1.5.2/openlib-linux-x64-1.5.2.AppImage",
     "description": "An Open source app to download and read books from shadow library (Anna’s Archive)"
+  },
+  {
+    "pkg": "openloco",
+    "site": "pkgforge-dev/OpenLoco-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openloco",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openloco",
+    "version_raw": "https://github.com/pkgforge-dev/OpenLoco-AppImage/releases/download/25.12-1%402026-04-01_1775040110/OpenLoco-25.12-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, an open source re-implementation of Chris Sawyer's Locomotion"
+  },
+  {
+    "pkg": "openmsx",
+    "site": "pkgforge-dev/openMSX-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openmsx",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openmsx",
+    "version_raw": "https://github.com/pkgforge-dev/openMSX-AppImage/releases/download/21.0-1%402026-04-01_1775040560/openMSX-21.0-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, the MSX emulator that aims for perfection"
+  },
+  {
+    "pkg": "openmw",
+    "site": "OpenMW/openmw",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openmw",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openmw",
+    "version_raw": "https://github.com/OpenMW/openmw/releases/download/openmw-0.50.0/openmw-0.50.0-Linux-64Bit-debug.tar.gz",
+    "description": "OpenMW is an open-source open-world RPG game engine that supports playing Morrowind"
+  },
+  {
+    "pkg": "openop2",
+    "site": "OpenOP2/OpenOP2",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openop2",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openop2",
+    "version_raw": "https://github.com/OpenOP2/OpenOP2/releases/download/20210823/OpenOP2-20210823-x86_64.AppImage",
+    "description": "Re-implementation of the game Outpost 2, using the OpenRA engine"
+  },
+  {
+    "pkg": "openosrs-launcher",
+    "site": "open-osrs/launcher",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openosrs-launcher",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openosrs-launcher",
+    "version_raw": "https://github.com/open-osrs/launcher/releases/download/3.0.0/OpenOSRS.AppImage",
+    "description": "Open-source client for Old School RuneScape"
+  },
+  {
+    "pkg": "openpilot-workbench",
+    "site": "openpilot-community/workbench",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openpilot-workbench",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openpilot-workbench",
+    "version_raw": "https://github.com/jfrux/workbench/releases/download/v0.1.5/Workbench-v0.1.5.linux.AppImage",
+    "description": "Fix problems with EON/Openpilot"
+  },
+  {
+    "pkg": "openra-dune",
+    "site": "OpenRA/OpenRA",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openra-dune",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openra-dune",
+    "version_raw": "https://github.com/OpenRA/OpenRA/releases/download/playtest-20260222/OpenRA-Dune-2000-playtest-x86_64.AppImage",
+    "description": "Real-time strategy game engine, MOD Dune 2000"
+  },
+  {
+    "pkg": "openra-red-alert",
+    "site": "OpenRA/OpenRA",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openra-red-alert",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openra-red-alert",
+    "version_raw": "https://github.com/OpenRA/OpenRA/releases/download/playtest-20260222/OpenRA-Red-Alert-playtest-x86_64.AppImage",
+    "description": "Real-time strategy game engine, MOD Red Alert"
+  },
+  {
+    "pkg": "openra-tiberian-dawn",
+    "site": "OpenRA/OpenRA",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openra-tiberian-dawn",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openra-tiberian-dawn",
+    "version_raw": "https://github.com/OpenRA/OpenRA/releases/download/playtest-20260222/OpenRA-Tiberian-Dawn-playtest-x86_64.AppImage",
+    "description": "Real-time strategy game engine penGL, MOD TD"
+  },
+  {
+    "pkg": "openramodsdk",
+    "site": "OpenRA/OpenRAModSDK",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openramodsdk",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openramodsdk",
+    "version_raw": "https://github.com/OpenRA/OpenRAModSDK/releases/download/20250330/ExampleMod-20250330-x86_64.AppImage",
+    "description": "Dev Kit for building your own games using the OpenRA engine"
+  },
+  {
+    "pkg": "openrct2",
+    "site": "OpenRCT2/OpenRCT2",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openrct2",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openrct2",
+    "version_raw": "https://github.com/OpenRCT2/OpenRCT2/releases/download/v0.4.32/OpenRCT2-v0.4.32-linux-x86_64.AppImage",
+    "description": "Re-implementation of RollerCoaster Tycoon 2 (RCT2), expanding the game with new features"
+  },
+  {
+    "pkg": "openrct2-enhanced",
+    "site": "pkgforge-dev/OpenRCT2-AppImage-Enhanced",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openrct2-enhanced",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openrct2-enhanced",
+    "version_raw": "https://github.com/pkgforge-dev/OpenRCT2-AppImage-Enhanced/releases/download/0.4.32-1%402026-04-01_1775031473/OpenRCT2-0.4.32-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, Re-implementation of RollerCoaster Tycoon 2 (RCT2), expanding the game with new features"
+  },
+  {
+    "pkg": "openrgb",
+    "site": "https://openrgb.org",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openrgb",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openrgb",
+    "version_raw": "https://codeberg.org/OpenRGB/OpenRGB/releases/download/release_candidate_1.0rc2/OpenRGB_1.0rc2_x86_64_0fca93e.AppImage",
+    "description": "RGB lighting control that doesn't depend on manufacturer software"
+  },
+  {
+    "pkg": "openscad",
+    "site": "openscad/openscad",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openscad",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openscad",
+    "version_raw": "https://github.com/openscad/openscad/releases/download/openscad-2021.01/OpenSCAD-2021.01-x86_64.AppImage",
+    "description": "The Programmers Solid 3D CAD Modeller"
+  },
+  {
+    "pkg": "openscreen",
+    "site": "siddharthvaddem/openscreen",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openscreen",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openscreen",
+    "version_raw": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.3.0/Openscreen-Linux-latest.AppImage",
+    "description": "Create stunning screen recordings for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio"
+  },
+  {
+    "pkg": "openshot",
+    "site": "OpenShot/openshot-qt",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openshot",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openshot",
+    "version_raw": "https://github.com/OpenShot/openshot-qt/releases/download/v3.5.1/OpenShot-v3.5.1-x86_64.AppImage",
+    "description": "A powerful Video Editor"
+  },
+  {
+    "pkg": "openstickies",
+    "site": "HimaSphere/OpenStickies",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openstickies",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openstickies",
+    "version_raw": "https://github.com/HimaSphere/OpenStickies/releases/download/v2.8.0/OpenStickies_Free_2.8.0-x86_64.AppImage",
+    "description": "Sticky notes for your desktop. Simple, fast, private. Drop files, paste screenshots, set reminders, keep things visible where you work"
+  },
+  {
+    "pkg": "openstream-music",
+    "site": "openstreamorg/openstreammusic",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openstream-music",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openstream-music",
+    "version_raw": "https://github.com/openstreamorg/openstreammusic/releases/download/v1.3.3/OpenStream.Music-1.3.3.AppImage",
+    "description": "The OpenStream Music source"
+  },
+  {
+    "pkg": "openswe1r",
+    "site": "pkgforge-dev/OpenSWE1R-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openswe1r",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openswe1r",
+    "version_raw": "https://github.com/pkgforge-dev/OpenSWE1R-AppImage/releases/download/1fcb4a8e8%402026-03-10_1773128753/OpenSWE1R-1fcb4a8e8-anylinux-x86_64.AppImage",
+    "description": "Unofficial, an open-source port of the 1999 game Star Wars Episode 1: Racer"
+  },
+  {
+    "pkg": "openterface-qt",
+    "site": "TechxArtisanStudio/Openterface_QT",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openterface-qt",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openterface-qt",
+    "version_raw": "https://github.com/TechxArtisanStudio/Openterface_QT/releases/download/0.5.21/openterfaceQT_linux_amd64.AppImage",
+    "description": "Openterface Mini-KVM"
+  },
+  {
+    "pkg": "opentodolist",
+    "site": "mhoeher/opentodolist",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/opentodolist",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/opentodolist",
+    "version_raw": "https://github.com/mhoeher/opentodolist/releases/download/3.50.1/OpenTodoList-3.50.1-x86_64.AppImage",
+    "description": "A note and task managing application"
+  },
+  {
+    "pkg": "opentrons",
+    "site": "Opentrons/opentrons",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/opentrons",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/opentrons",
+    "version_raw": "https://github.com/Opentrons/opentrons/releases/download/v9.0.0/Opentrons-v9.0.0-linux-b68654.AppImage",
+    "description": "Opentrons desktop application"
+  },
+  {
+    "pkg": "openttd",
+    "site": "pkgforge-dev/OpenTTD-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openttd",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openttd",
+    "version_raw": "https://github.com/pkgforge-dev/OpenTTD-AppImage/releases/download/15.2-1%402026-04-01_1775040588/OpenTTD-15.2-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, an open source simulation game based upon Transport Tycoon Deluxe"
+  },
+  {
+    "pkg": "opentyrian2000",
+    "site": "pkgforge-dev/OpenTyrian2000-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/opentyrian2000",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/opentyrian2000",
+    "version_raw": "https://github.com/pkgforge-dev/OpenTyrian2000-AppImage/releases/download/2000.20250408-1%402026-04-01_1775039331/OpenTyrian2000-2000.20250408-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, an open-source port of the DOS shoot-em-up Tyrian"
+  },
+  {
+    "pkg": "openxcom",
+    "site": "https://openxcom.org",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openxcom",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openxcom",
+    "version_raw": "https://openxcom.org/download/nightlies/",
+    "description": "Open-source clone of the original UFO: Enemy Unknown licensed under the GPL and written in C++ / SDL"
+  },
+  {
+    "pkg": "openxcom-extended",
+    "site": "https://openxcom.org",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openxcom-extended",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openxcom-extended",
+    "version_raw": "https://openxcom.org/oxce/release/",
+    "description": "OXCE, extended version of openXcom provide better mod support, QoL improvements, new game mechanics, improved and new GUIs"
+  },
+  {
+    "pkg": "opera",
+    "site": "ivan-hc/Opera-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/opera",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/opera",
+    "version_raw": "https://github.com/ivan-hc/Opera-appimage/releases/download/continuous/Opera-Web-Browser-stable-130.0.5847.12-x86_64.AppImage",
+    "description": "Unofficial. Fast and secure web browser, Stable version"
+  },
+  {
+    "pkg": "opera-beta",
+    "site": "ivan-hc/Opera-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/opera-beta",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/opera-beta",
+    "version_raw": "https://github.com/ivan-hc/Opera-appimage/releases/download/continuous/Opera-Web-Browser-beta-126.0.5750.30-x86_64.AppImage",
+    "description": "Unofficial. Fast and secure web browser, Beta version"
+  },
+  {
+    "pkg": "opera-dev",
+    "site": "ivan-hc/Opera-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/opera-dev",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/opera-dev",
+    "version_raw": "https://github.com/ivan-hc/Opera-appimage/releases/download/continuous/Opera-Web-Browser-developer-131.0.5863.0-x86_64.AppImage",
+    "description": "Unofficial. Fast and secure web browser, Developer version"
+  },
+  {
+    "pkg": "optiimage",
+    "site": "pkgforge-dev/OptiImage-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/optiimage",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/optiimage",
+    "version_raw": "https://github.com/pkgforge-dev/OptiImage-AppImage/releases/download/1.0.0-3%402026-04-05_1775379913/OptiImage-1.0.0-3-anylinux-x86_64.AppImage",
+    "description": "Unofficial, optimize your images with OptiImage, a useful image compressor that supports PNG, JPEG, WebP and SVG file types"
+  },
+  {
+    "pkg": "orange",
+    "site": "naaive/orange",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/orange",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/orange",
+    "version_raw": "https://github.com/naaive/orange/releases/download/orange-v0.6.5/orange_0.6.5_amd64.AppImage",
+    "description": "Cross-platform local file search engine"
+  },
+  {
+    "pkg": "oras",
+    "site": "oras-project/oras",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/oras",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/oras",
+    "version_raw": "https://github.com/oras-project/oras/releases/download/v1.3.1/oras_1.3.1_linux_amd64.tar.gz",
+    "description": "OCI registry client managing content like artifacts, images, packages"
+  },
+  {
+    "pkg": "orca-note",
+    "site": "sethyuan/orca-note",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/orca-note",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/orca-note",
+    "version_raw": "https://github.com/sethyuan/orca-note/releases/download/v1.72.0/orcanote-linux-x86_64-1.72.0.AppImage",
+    "description": "A note taking application that is good both for outlining and long-form writing"
+  },
+  {
+    "pkg": "orcaslicer",
+    "site": "OrcaSlicer/OrcaSlicer",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/orcaslicer",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/orcaslicer",
+    "version_raw": "https://github.com/OrcaSlicer/OrcaSlicer/releases/download/v2.3.2/OrcaSlicer_Linux_AppImage_Ubuntu2404_V2.3.2.AppImage",
+    "description": "G-code generator for 3D printers, Stable release"
+  },
+  {
+    "pkg": "orcaslicer-devel",
+    "site": "OrcaSlicer/OrcaSlicer",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/orcaslicer-devel",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/orcaslicer-devel",
+    "version_raw": "https://github.com/OrcaSlicer/OrcaSlicer/releases/download/nightly-builds/OrcaSlicer_Linux_AppImage_Ubuntu2404_nightly.AppImage",
+    "description": "G-code generator for 3D printers, the most recent development build (nightly, alpha, beta, rc)"
+  },
+  {
+    "pkg": "osrs-tools",
+    "site": "EricTurf/osrs-tools",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/osrs-tools",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/osrs-tools",
+    "version_raw": "https://github.com/egfanboy/osrs-tools/releases/download/v1.1.0/osrs-tools-1.1.0-x86_64.AppImage",
+    "description": "Several tools for OSRS"
+  },
+  {
+    "pkg": "ossia-score",
+    "site": "OSSIA/score",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ossia-score",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ossia-score",
+    "version_raw": "https://github.com/ossia/score/releases/download/continuous/ossia.score-master-linux-x86_64.AppImage",
+    "description": "Sequencer for audio-visual artists for interactive shows"
+  },
+  {
+    "pkg": "ostara",
+    "site": "krud-dev/ostara",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ostara",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ostara",
+    "version_raw": "https://github.com/krud-dev/ostara/releases/download/v0.12.0/Ostara-0.12.0.AppImage",
+    "description": "To monitor and interact with Spring Boot Applications via Actuator"
+  },
+  {
+    "pkg": "osu",
+    "site": "ppy/osu",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/osu",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/osu",
+    "version_raw": "https://github.com/ppy/osu/releases/download/2026.408.0-tachyon/osu.AppImage",
+    "description": "A free-to-win rhythm game. Rhythm is just a click away!"
+  },
+  {
+    "pkg": "ots",
+    "site": "sniptt-official/ots",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ots",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ots",
+    "version_raw": "https://github.com/sniptt-official/ots/releases/download/v0.3.1/ots_0.3.1_linux_amd64.tar.gz",
+    "description": "Share end-to-end encrypted secrets with others via a one-time URL"
+  },
+  {
+    "pkg": "ottomatic",
+    "site": "jorio/OttoMatic",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ottomatic",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ottomatic",
+    "version_raw": "https://github.com/jorio/OttoMatic/releases/download/4.0.1/OttoMatic-4.0.1-linux-x86_64.AppImage",
+    "description": "Pangea Software’s Otto Matic, a game of robots"
+  },
+  {
+    "pkg": "outer-wilds-mod-manager",
+    "site": "Bwc9876/ow-mod-man",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/outer-wilds-mod-manager",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/outer-wilds-mod-manager",
+    "version_raw": "https://github.com/ow-mods/ow-mod-man/releases/download/gui_v0.15.4/Outer.Wilds.Mod.Manager_0.15.4_amd64.AppImage",
+    "description": "The mod manager for the Outer Wilds Mod Loader"
+  },
+  {
+    "pkg": "outline-client",
+    "site": "Jigsaw-Code/outline-client",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/outline-client",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/outline-client",
+    "version_raw": "https://github.com/OutlineFoundation/outline-apps/releases/download/v1.10.1/Outline-Client.AppImage",
+    "description": "Lean on the Cordova and Electron frameworks"
+  },
+  {
+    "pkg": "outline-manager",
+    "site": "Jigsaw-Code/outline-server",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/outline-manager",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/outline-manager",
+    "version_raw": "https://github.com/OutlineFoundation/outline-server/releases/download/manager-v1.14.0/Outline-Manager.AppImage",
+    "description": "Create and manage access to Outline servers"
+  },
+  {
+    "pkg": "overbind",
+    "site": "cjonas1999/OverBind",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/overbind",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/overbind",
+    "version_raw": "https://github.com/cjonas1999/OverBind/releases/download/1.5.2/OverBind_1.5.2_amd64.AppImage",
+    "description": "A utility that allows binding keyboard buttons to virtual Xbox360 controller joystick outputs"
+  },
+  {
+    "pkg": "overlayed",
+    "site": "overlayeddev/overlayed",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/overlayed",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/overlayed",
+    "version_raw": "https://github.com/overlayeddev/overlayed/releases/download/v0.6.2/Overlayed_0.6.2_amd64.AppImage",
+    "description": "A modern, open-source, and free voice chat overlay for Discord"
+  },
+  {
+    "pkg": "oversteer",
+    "site": "pkgforge-dev/Oversteer-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/oversteer",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/oversteer",
+    "version_raw": "https://github.com/pkgforge-dev/Oversteer-AppImage/releases/download/0.8.3-3%402026-04-01_1775040176/Oversteer-0.8.3-3-anylinux-x86_64.AppImage",
+    "description": "Unofficial, Steering Wheel Manager for Linux"
+  },
+  {
+    "pkg": "overte",
+    "site": "overte-org/overte",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/overte",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/overte",
+    "version_raw": "https://github.com/overte-org/overte/releases/download/2024.07.1-rc2/Overte-2024.07.1-rc2-nodebug-x86_64.AppImage",
+    "description": "Overte open source virtual worlds platform"
+  },
+  {
+    "pkg": "ovideo",
+    "site": "colin-i/ostream",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ovideo",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ovideo",
+    "version_raw": "https://github.com/colin-i/ostream/releases/download/1-199/ovideo.amd64.AppImage",
+    "description": "Video Editor"
+  },
+  {
+    "pkg": "ow-mod-man",
+    "site": "ow-mods/ow-mod-man",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ow-mod-man",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ow-mod-man",
+    "version_raw": "https://github.com/ow-mods/ow-mod-man/releases/download/gui_v0.15.4/Outer.Wilds.Mod.Manager_0.15.4_amd64.AppImage",
+    "description": "The mod manager for the Outer Wilds Mod Loader"
+  },
+  {
+    "pkg": "owallet",
+    "site": "ontio/OWallet",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/owallet",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/owallet",
+    "version_raw": "https://github.com/ontio/OWallet/releases/download/v0.10.4/OWallet-0.10.4-linux.AppImage",
+    "description": "A comprehensive Ontology desktop wallet"
+  },
+  {
+    "pkg": "owncloud",
+    "site": "https://owncloud.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/owncloud",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/owncloud",
+    "version_raw": "https://download.owncloud.com/desktop/ownCloud/stable/6.0.3.18040/linux-appimage/ownCloud-6.0.3.18040-x86_64.AppImage",
+    "description": "Desktop Syncing Client for ownCloud. ownCloud, a Kiteworks Company, offers file sharing and collaboration trusted by 200+ million users worldwide regardless of device or location"
+  },
+  {
+    "pkg": "owte",
+    "site": "sumit-poudel/oWtE",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/owte",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/owte",
+    "version_raw": "https://github.com/sumit-poudel/oWtE/releases/download/v1.0.1/owte-1.0.1.AppImage",
+    "description": "Anime girl dancing on your screen"
+  },
+  {
+    "pkg": "oxen-gui-wallet",
+    "site": "oxen-io/oxen-electron-gui-wallet",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/oxen-gui-wallet",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/oxen-gui-wallet",
+    "version_raw": "https://github.com/oxen-io/oxen-electron-gui-wallet/releases/download/v1.8.3/oxen-electron-wallet-1.8.3-linux.AppImage",
+    "description": "Oxen electron GUI wallet"
+  },
+  {
+    "pkg": "p2p-chat",
+    "site": "dgeibi/p2p-chat",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/p2p-chat",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/p2p-chat",
+    "version_raw": "https://github.com/dgeibi/p2p-chat/releases/download/v1.6.0/p2p-chat.1.6.0.AppImage",
+    "description": "P2P LAN chatting and file sharing tool"
+  },
+  {
+    "pkg": "p2pderivatives",
+    "site": "p2pderivatives/p2pderivatives-client",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/p2pderivatives",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/p2pderivatives",
+    "version_raw": "https://github.com/p2pderivatives/p2pderivatives-client/releases/download/v0.3.3/P2PD.client-0.3.2.AppImage",
+    "description": "Enables users to enter into Discreet Log Contracts"
+  },
+  {
+    "pkg": "p3x-redis-ui",
+    "site": "patrikx3/redis-ui",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/p3x-redis-ui",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/p3x-redis-ui",
+    "version_raw": "https://github.com/patrikx3/redis-ui/releases/download/v2026.4.806/P3X-Redis-UI-2026.4.806.AppImage",
+    "description": "A very functional handy database GUI and works in your pocket"
+  },
+  {
+    "pkg": "packetsender",
+    "site": "dannagle/PacketSender",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/packetsender",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/packetsender",
+    "version_raw": "https://github.com/dannagle/PacketSender/releases/download/v8.10.4/Packet_Sender-v8.10.4-x86_64.AppImage",
+    "description": "Network utility for sending/receiving TCP/UDP/SSL/HTTP"
+  },
+  {
+    "pkg": "packsquash",
+    "site": "ComunidadAylas/PackSquash",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/packsquash",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/packsquash",
+    "version_raw": "https://github.com/ComunidadAylas/PackSquash/releases/download/v0.3.1/PackSquash-v0.3.1-x86_64.AppImage",
+    "description": "A Minecraft Java Edition resource and data pack optimizer"
+  },
+  {
+    "pkg": "paclear",
+    "site": "orangekame3/paclear",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/paclear",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/paclear",
+    "version_raw": "https://github.com/orangekame3/paclear/releases/download/v0.0.13/paclear_Linux_x86_64.tar.gz",
+    "description": "CLI, paclear is a clear command with PAC-MAN animation"
+  },
+  {
+    "pkg": "padloc",
+    "site": "padloc/padloc",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/padloc",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/padloc",
+    "version_raw": "https://github.com/padloc/padloc/releases/download/v4.3.0/padloc_4.3.0_linux_electron_x86_64.AppImage",
+    "description": "Electron Wrapper for Padloc app"
+  },
+  {
+    "pkg": "pageedit",
+    "site": "Sigil-Ebook/PageEdit",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pageedit",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pageedit",
+    "version_raw": "https://github.com/Sigil-Ebook/PageEdit/releases/download/2.7.6/PageEdit-2.7.6-x86_64.AppImage",
+    "description": "EPub XHTML Visual Editor"
+  },
+  {
+    "pkg": "painel-web",
+    "site": "novosga/painel-web",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/painel-web",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/painel-web",
+    "version_raw": "https://github.com/novosga/panel-app/releases/download/v2.0.1/Painel-Web-2.0.1-x86_64.AppImage",
+    "description": "Novo SGA panel"
+  },
+  {
+    "pkg": "paket",
+    "site": "joseluisq/paket",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/paket",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/paket",
+    "version_raw": "https://github.com/joseluisq/paket/releases/download/v0.1.6/paket-v0.1.6-x86_64-unknown-linux-gnu.tar.gz",
+    "description": "A simple and fast package manager for the Fish shell written in Rust"
+  },
+  {
+    "pkg": "palapeli",
+    "site": "ivan-hc/KDE-games-suite-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/palapeli",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/palapeli",
+    "version_raw": "https://github.com/ivan-hc/KDE-games-suite-appimage/releases/download/continuous/KDE-games-suite_25.08-1-archimage5.0-x86_64.AppImage",
+    "description": "Jigsaw puzzle game. This script installs the full kdegames suite"
+  },
+  {
+    "pkg": "palemoon",
+    "site": "Portable-Linux-Apps/palemoon-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/palemoon",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/palemoon",
+    "version_raw": "https://github.com/Portable-Linux-Apps/palemoon-AppImage/releases/download/34.2.0%402026-04-08_1775668311/Pale_Moon-34.2.0-x86_64.AppImage",
+    "description": "Web browser, a Firefox fork with a classic UI and modern APIs"
+  },
+  {
+    "pkg": "pandoralauncher",
+    "site": "Moulberry/PandoraLauncher",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pandoralauncher",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pandoralauncher",
+    "version_raw": "https://github.com/Moulberry/PandoraLauncher/releases/download/v4.1.0/PandoraLauncher-Linux-x86_64.AppImage",
+    "description": "Pandora is a modern Minecraft launcher that balances ease-of-use with powerful instance management features"
+  },
+  {
+    "pkg": "pandoralaunchercrack",
+    "site": "khanhtimn/PandoraLauncherCrack",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pandoralaunchercrack",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pandoralaunchercrack",
+    "version_raw": "https://github.com/khanhtimn/PandoraLauncherCrack/releases/download/v2.5.0/PandoraLauncher-Linux_2.5.0_x86_64.AppImage",
+    "description": "Customized version of Pandora, a modern Minecraft launcher that balances ease-of-use with powerful instance management features"
+  },
+  {
+    "pkg": "panini",
+    "site": "lazarus-pkgs/panini",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/panini",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/panini",
+    "version_raw": "https://github.com/lazarus-pkgs/panini/releases/download/v0.73.0/panini-0.73.0.AppImage",
+    "description": "Perspective views from panoramic images"
+  },
+  {
+    "pkg": "pano-scrobbler",
+    "site": "kawaiiDango/pano-scrobbler",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pano-scrobbler",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pano-scrobbler",
+    "version_raw": "https://github.com/kawaiiDango/pano-scrobbler/releases/download/437/pano-scrobbler-linux-x64.AppImage",
+    "description": "Feature packed cross-platform music tracker for Last.fm, ListenBrainz, Libre.fm, Pleroma and other compatible services"
+  },
+  {
+    "pkg": "panwriter",
+    "site": "mb21/panwriter",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/panwriter",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/panwriter",
+    "version_raw": "https://github.com/mb21/panwriter/releases/download/v0.8.10/PanWriter-0.8.10.AppImage",
+    "description": "Markdown editor with pandoc integration"
+  },
+  {
+    "pkg": "paper",
+    "site": "anupam-git/paper",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/paper",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/paper",
+    "version_raw": "https://github.com/anupam-git/paper/releases/download/continuous/paper-022d4bb-x86_64.AppImage",
+    "description": "A CLI Tool to set a random wallpaper from Unsplash.com"
+  },
+  {
+    "pkg": "papercraft",
+    "site": "rodrigorc/papercraft",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/papercraft",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/papercraft",
+    "version_raw": "https://github.com/rodrigorc/papercraft/releases/download/v2.11/Papercraft-v2.11-x86_64.AppImage",
+    "description": "A tool to unwrap 3D models"
+  },
+  {
+    "pkg": "paperlib",
+    "site": "Future-Scholars/paperlib",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/paperlib",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/paperlib",
+    "version_raw": "https://github.com/Future-Scholars/paperlib/releases/download/release-electron-3.1.12/Paperlib_3.1.12.AppImage",
+    "description": "An open-source academic paper management tool"
+  },
+  {
+    "pkg": "parallelcoin",
+    "site": "parallelcointeam/parallelcoin",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parallelcoin",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parallelcoin",
+    "version_raw": "https://github.com/p9c/pod-archive/releases/download/v1.2.0/parallelcoin-qt-x86_64.AppImage",
+    "description": "Parallelcoin qt wallet appimage binary"
+  },
+  {
+    "pkg": "parchment",
+    "site": "tywil04/parchment",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parchment",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parchment",
+    "version_raw": "https://github.com/tywil04/parchment/releases/download/v1.0.0/parchment_1.0.0_amd64.AppImage",
+    "description": "A minimal minimal text editor written using web technologies"
+  },
+  {
+    "pkg": "parity-fether",
+    "site": "paritytech/fether",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parity-fether",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parity-fether",
+    "version_raw": "https://github.com/openethereum/fether/releases/download/v0.4.3-beta/Parity-Fether-0.4.3.AppImage",
+    "description": "Fether Wallet"
+  },
+  {
+    "pkg": "parsec",
+    "site": "Scille/parsec-cloud",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parsec",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parsec",
+    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.8.2-a.0.dev.20552%2B3188f0a_linux_x86_64.unsigned.AppImage",
+    "description": "Open source Dropbox-like file sharing with full client encryption"
+  },
+  {
+    "pkg": "parsec-linux",
+    "site": "E5ten/parsec-linux-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parsec-linux",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parsec-linux",
+    "version_raw": "https://github.com/E5ten/parsec-linux-AppImage/releases/download/146-18/parsec-linux-x86_64.AppImage",
+    "description": "Parsec game streaming client"
+  },
+  {
+    "pkg": "passky",
+    "site": "Rabbit-Company/Passky-Desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/passky",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/passky",
+    "version_raw": "https://github.com/Rabbit-Company/Passky-Desktop/releases/download/v8.1.3/Passky-8.1.3.AppImage",
+    "description": "Simple and secure password manager"
+  },
+  {
+    "pkg": "passphraser",
+    "site": "zevlee/passphraser",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/passphraser",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/passphraser",
+    "version_raw": "https://github.com/zevlee/passphraser/releases/download/v1.0.7/passphraser-1.0.7-x86_64.AppImage",
+    "description": "Phrase-based password generator that can use your own list of words"
+  },
+  {
+    "pkg": "pastel",
+    "site": "sharkdp/pastel",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pastel",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pastel",
+    "version_raw": "https://github.com/sharkdp/pastel/releases/download/v0.12.0/pastel-v0.12.0-x86_64-unknown-linux-gnu.tar.gz",
+    "description": "A command-line tool to generate, analyze, convert and manipulate colors"
+  },
+  {
+    "pkg": "patchbay",
+    "site": "ssbc/patchbay",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/patchbay",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/patchbay",
+    "version_raw": "https://github.com/ssbc/patchbay/releases/download/v8.1.0/patchbay-Linux-8.1.0-x86_64.AppImage",
+    "description": "An alt. Secure Scuttlebutt client compatible with Patchwork"
+  },
+  {
+    "pkg": "patchelf",
+    "site": "niess/patchelf.appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/patchelf",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/patchelf",
+    "version_raw": "https://github.com/niess/patchelf.appimage/releases/download/rolling/patchelf-x86_64.AppImage",
+    "description": "Utility to modify the dynamic linker and RPATH of ELF executables"
+  },
+  {
+    "pkg": "patchwork",
+    "site": "ssbc/patchwork",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/patchwork",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/patchwork",
+    "version_raw": "https://github.com/ssbc/patchwork/releases/download/v3.18.1/Patchwork-3.18.1.AppImage",
+    "description": "Messaging and sharing app built on top of Secure Scuttlebutt"
+  },
+  {
+    "pkg": "pathephone",
+    "site": "pathephone/pathephone-desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pathephone",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pathephone",
+    "version_raw": "https://github.com/pathephone/pathephone-desktop/releases/download/v2.2.1/pathephone-desktop-2.2.1-x86_64.AppImage",
+    "description": "Distributed audio player"
+  },
+  {
+    "pkg": "pavo",
+    "site": "zhanglun/pavo",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pavo",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pavo",
+    "version_raw": "https://github.com/zhanglun/pavo/releases/download/v0.0.12/Pavo_0.0.12_amd64.AppImage",
+    "description": "A mini desktop wallpaper application"
+  },
+  {
+    "pkg": "pavucontrol-qt",
+    "site": "Samueru-sama/pavucontrol-qt-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pavucontrol-qt",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pavucontrol-qt",
+    "version_raw": "https://github.com/pkgforge-dev/pavucontrol-qt-AppImage/releases/download/2.3.0-1%402026-04-01_1775040852/pavucontrol-qt-2.3.0-1-anylinux-x86_64.AppImage",
+    "description": "Qt port of pavucontrol Pulseaudio mixer, unofficial AppImage"
+  },
+  {
+    "pkg": "pay-respects",
+    "site": "iffse/pay-respects",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pay-respects",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pay-respects",
+    "version_raw": "",
+    "description": "Terminal command correction, alternative to thefuck written in Rust"
+  },
+  {
+    "pkg": "pb-for-desktop",
+    "site": "sidneys/pb-for-desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pb-for-desktop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pb-for-desktop",
+    "version_raw": "https://github.com/sidneys/pb-for-desktop/releases/download/v11.0.2/pb-for-desktop-11.0.2-x86_64.AppImage",
+    "description": "Pushbullet Desktop app"
+  },
+  {
+    "pkg": "pboy",
+    "site": "2mol/pboy",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pboy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pboy",
+    "version_raw": "https://github.com/2mol/pboy/releases/download/1.7.1/pboy-linux.tar.gz",
+    "description": "A small .pdf management tool with a command-line UI"
+  },
+  {
+    "pkg": "pcexhumed",
+    "site": "pkgforge-dev/PCExhumed-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcexhumed",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcexhumed",
+    "version_raw": "https://github.com/pkgforge-dev/PCExhumed-AppImage/releases/download/cdabd3eb1%402026-04-01_1775040893/PCExhumed-cdabd3eb1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, port of the PC version of Exhumed based on EDuke32"
+  },
+  {
+    "pkg": "pcloud",
+    "site": "https://www.pcloud.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcloud",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcloud",
+    "version_raw": "",
+    "description": "pCloud Drive Client, cloud service, built using electron and node.js"
+  },
+  {
+    "pkg": "pcsx-redux-enhanced",
+    "site": "pkgforge-dev/PCSX-Redux-AppImage-Enhanced",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx-redux-enhanced",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcsx-redux-enhanced",
+    "version_raw": "https://github.com/pkgforge-dev/PCSX-Redux-AppImage-Enhanced/releases/download/r6821.a7d01bbc-1%402026-04-01_1775040790/PCSX-Redux-r6821.a7d01bbc-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, modern fork of the pcsxr PlayStation 1 emulator focused on reverse engineering and homebrew development"
+  },
+  {
+    "pkg": "pcsx2",
+    "site": "PCSX2/pcsx2",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx2",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcsx2",
+    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.246/pcsx2-v2.7.246-linux-appimage-x64-Qt.AppImage",
+    "description": "The Playstation 2 Emulator"
+  },
+  {
+    "pkg": "pdf-arranger",
+    "site": "pkgforge-dev/PDF-Arranger-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pdf-arranger",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pdf-arranger",
+    "version_raw": "https://github.com/pkgforge-dev/PDF-Arranger-AppImage/releases/download/1.13.0-1%402026-04-01_1775056301/PDF_Arranger-1.13.0-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, a small python-gtk application, which helps the user to merge or split PDF documents and rotate, crop and rearrange their pages"
+  },
+  {
+    "pkg": "pdf-diff",
+    "site": "serhack/pdf-diff",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pdf-diff",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pdf-diff",
+    "version_raw": "https://github.com/serhack/pdf-diff/releases/download/v0.0.1/pdf-diff_0.0.1_Linux_x86_64.tar.gz",
+    "description": "A CLI tool for visualizing differences between two pdf files"
+  },
+  {
+    "pkg": "pdf-sync",
+    "site": "sherylynn/pdf-sync",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pdf-sync",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pdf-sync",
+    "version_raw": "https://github.com/sherylynn/pdf-sync/releases/download/v0.0.14/pdf-sync-0.0.14-x86_64.AppImage",
+    "description": "PDF Reader in JavaScript with Sync"
+  },
+  {
+    "pkg": "pdf-tricks",
+    "site": "pkgforge-dev/PDF-Tricks-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pdf-tricks",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pdf-tricks",
+    "version_raw": "https://github.com/pkgforge-dev/PDF-Tricks-AppImage/releases/download/0.4.1-1%402026-04-01_1775056323/PDF_Tricks-0.4.1-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, a simple, efficient application for small manipulations in PDF files"
+  },
+  {
+    "pkg": "pdf2htmlex",
+    "site": "pdf2htmlEX/pdf2htmlEX",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pdf2htmlex",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pdf2htmlex",
+    "version_raw": "https://github.com/pdf2htmlEX/pdf2htmlEX/releases/download/v0.18.8.rc1/pdf2htmlEX-0.18.8.rc1-master-20200630-Ubuntu-bionic-x86_64.AppImage",
+    "description": "Convert PDF to HTML without losing text or format"
+  },
+  {
+    "pkg": "pdf4qt",
+    "site": "JakubMelka/PDF4QT",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pdf4qt",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pdf4qt",
+    "version_raw": "https://github.com/JakubMelka/PDF4QT/releases/download/v1.5.3.1/PDF4QT-1.5.3.1-x86_64.AppImage",
+    "description": "Open source PDF editor"
+  },
+  {
+    "pkg": "pdfcompress",
+    "site": "moonline/Utility.PdfCompress",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pdfcompress",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pdfcompress",
+    "version_raw": "https://github.com/moonline/Utility.PdfCompress/releases/download/1.0.0/pdfcompress-1.0.0-x86_64.AppImage",
+    "description": "A utility to compress PDF documentas based on Ghostscript and YAD"
+  },
+  {
+    "pkg": "pdfcrackgui",
+    "site": "https://sourceforge.net/p/pdfcrackgui",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pdfcrackgui",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pdfcrackgui",
+    "version_raw": "https://sourceforge.net/projects/pdfcrackgui/files/pdfcrackgui/PDFCrackGUI-v1.1-Linux.zip/download",
+    "description": "GUI overlay for the popular and highly regarded pdfcrack"
+  },
+  {
+    "pkg": "pdfquirk",
+    "site": "dragotin/pdfquirk",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pdfquirk",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pdfquirk",
+    "version_raw": "https://github.com/dragotin/pdfquirk/releases/download/continuous/PDFQuirk-continuous-8-g8b46963-x86_64.AppImage",
+    "description": "Creating PDFs from images or scanner made easy"
+  },
+  {
+    "pkg": "pdmaner",
+    "site": "zxp19821005/My_AUR_Files",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pdmaner",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pdmaner",
+    "version_raw": "https://github.com/zxp19821005/My_AUR_Files/releases/download/CloudDM3.0.7/CloudDM-v3.0.7.AppImage",
+    "description": "A relational database modeling tool"
+  },
+  {
+    "pkg": "pear-desktop",
+    "site": "pear-devs/pear-desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pear-desktop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pear-desktop",
+    "version_raw": "https://github.com/pear-devs/pear-desktop/releases/download/v3.11.0/YouTube-Music-3.11.0.AppImage",
+    "description": "An extension for music player"
+  },
+  {
+    "pkg": "pearpass",
+    "site": "tetherto/pearpass-app-desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pearpass",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pearpass",
+    "version_raw": "https://github.com/tetherto/pearpass-app-desktop/releases/download/v1.5.0/PearPass-Desktop-Linux-x64-v1.5.0.AppImage",
+    "description": "An open-source, privacy-first password manager with peer-to-peer syncing and end-to-end encryption"
+  },
+  {
+    "pkg": "peazip",
+    "site": "ferion11/PeaZip_Appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/peazip",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/peazip",
+    "version_raw": "https://github.com/ferion11/PeaZip_Appimage/releases/download/v10.9.0/PeaZip-v10.9.0-x86_64.AppImage",
+    "description": "Unofficial. PeaZip Appimage for linux 64bits"
+  },
+  {
+    "pkg": "peep",
+    "site": "ryochack/peep",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/peep",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/peep",
+    "version_raw": "https://github.com/ryochack/peep/releases/download/v0.1.6/peep-v0.1.6-x86_64-unknown-linux-musl.zip",
+    "description": "The CLI text viewer tool that works like less command on small pane within the terminal window"
   }
 ]
