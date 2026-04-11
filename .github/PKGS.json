@@ -824,14 +824,6 @@
     "description": "A modern API workspace that works both online and offlinecombining API documentation, testing, mock, and AI-powered automation in one lightweight tool"
   },
   {
-    "pkg": "apifox",
-    "site": "https://apifox.com",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/apifox",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/apifox",
-    "version_raw": "2.8.0",
-    "description": "API manager, in Chinese. Includes documentation, API debugging, API mocking, and API automated testing"
-  },
-  {
     "pkg": "apk-editor-studio",
     "site": "kefir500/apk-editor-studio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/apk-editor-studio",
@@ -1166,14 +1158,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/armcord",
     "version_raw": "https://github.com/Legcord/Legcord/releases/download/v1.2.2/Legcord-1.2.2-linux-x86_64.AppImage",
     "description": "Custom client designed to enhance your Discord experience"
-  },
-  {
-    "pkg": "artifact",
-    "site": "http://www.bitbreeds.com",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artifact",
-    "version_raw": "",
-    "description": "Win 40 levels of mayhem without getting destroyed, game"
   },
   {
     "pkg": "artisan",
@@ -6096,14 +6080,6 @@
     "description": "Unofficial, an open source project based on the code of Wolfenstein: Enemy Territory"
   },
   {
-    "pkg": "eudic",
-    "site": "https://www.eudic.net",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eudic",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eudic",
-    "version_raw": "11.6.0",
-    "description": "Chinese app to learn english, listen statistics/note synch"
-  },
-  {
     "pkg": "evalit",
     "site": "MTDonovan/Evalit",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/evalit",
@@ -8620,7 +8596,7 @@
     "site": "pkgforge-dev/Gradia-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gradia",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gradia",
-    "version_raw": "https://github.com/pkgforge-dev/Gradia-AppImage/releases/download/1.12.1-1%402026-04-01_1775039849/Gradia-1.12.1-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Gradia-AppImage/releases/download/1.12.1-2%402026-04-11_1775911784/Gradia-1.12.1-2-anylinux-x86_64.AppImage",
     "description": "Unofficial, screenshot/picture editor and uploader"
   },
   {
@@ -11254,14 +11230,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kuro",
     "version_raw": "https://github.com/davidsmorais/kuro/releases/download/v9.1.3/Kuro-9.1.3.AppImage",
     "description": "An elegant Microsoft ToDo desktop client for Linux, a fork of Ao"
-  },
-  {
-    "pkg": "kvrt",
-    "site": "https://www.kaspersky.com",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kvrt",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kvrt",
-    "version_raw": "-//W3C//DTD",
-    "description": "Official Kaspersky Virus Removal Tool for Linux"
   },
   {
     "pkg": "kwave",
@@ -21872,14 +21840,6 @@
     "description": "Terminal-based typing test"
   },
   {
-    "pkg": "tulip",
-    "site": "https://sourceforge.net/p/auber",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tulip",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tulip",
-    "version_raw": "https://sourceforge.net/projects/auber/files/tulip/tulip-6.0.1/Tulip-6.0.1.AppImage/download",
-    "description": "Large graphs analysis, drawing and visualization framework"
-  },
-  {
     "pkg": "tumblr-downloader-gui",
     "site": "neuro-sys/tumblr-likes-downloader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tumblr-downloader-gui",
@@ -23056,14 +23016,6 @@
     "description": "Unofficial, A Discord and Fosscord client implemented without Discord API"
   },
   {
-    "pkg": "webdesktop",
-    "site": "Webdeskme/wdOS",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/webdesktop",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/webdesktop",
-    "version_raw": "https://github.com/Webdeskme/wdOS/releases/download/v1.1.2/WebDesktop-1.1.2.AppImage",
-    "description": "WebDesktop make apps with just a text editor and nodejs"
-  },
-  {
     "pkg": "webkitty",
     "site": "yikuansun/webkitty",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/webkitty",
@@ -23132,7 +23084,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "8312911697",
+    "version_raw": "8313353451",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
