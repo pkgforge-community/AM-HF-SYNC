@@ -3748,7 +3748,7 @@
     "site": "Faster3ck/Converseen",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/converseen",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/converseen",
-    "version_raw": "https://github.com/Faster3ck/Converseen/releases/download/v0.15.2.2/Converseen-0.15.2.2-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/Faster3ck/Converseen/releases/download/v0.15.2.3/Converseen-0.15.2.3-1-anylinux-x86_64.AppImage",
     "description": "A batch image converter and resizer"
   },
   {
@@ -4166,6 +4166,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cromagrally",
     "version_raw": "https://github.com/jorio/CroMagRally/releases/download/3.0.1/CroMagRally-3.0.1-linux-x86_64.AppImage",
     "description": "The wildest racing game since man invented the wheel!"
+  },
+  {
+    "pkg": "cromagrally-enhanced",
+    "site": "pkgforge-dev/CroMagRally-AppImage-Enhanced",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cromagrally-enhanced",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cromagrally-enhanced",
+    "version_raw": "https://github.com/pkgforge-dev/CroMagRally-AppImage-Enhanced/releases/download/3.0.1-2%402026-04-01_1775040234/Cro-Mag_Rally-3.0.1-2-anylinux-x86_64.AppImage",
+    "description": "Unofficial, the wildest racing game since man invented the wheel!"
   },
   {
     "pkg": "cromberg",
@@ -5972,7 +5980,7 @@
     "site": "pkgforge-dev/ePSXe-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/epsxe",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/epsxe",
-    "version_raw": "https://github.com/pkgforge-dev/ePSXe-AppImage/releases/download/2.0.5%402026-04-13_1776071339/ePSXe-2.0.5-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ePSXe-AppImage/releases/download/2.0.5%402026-04-05_1775417116/ePSXe-2.0.5-anylinux-x86_64.AppImage",
     "description": "Unofficial, enhanced PSX emulator"
   },
   {
@@ -7708,7 +7716,7 @@
     "site": "BestImageViewer/geeqie",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/geeqie",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/geeqie",
-    "version_raw": "https://github.com/BestImageViewer/geeqie/releases/download/v2.7/Geeqie-2.7-minimal-x86_64.AppImage",
+    "version_raw": "https://github.com/BestImageViewer/geeqie/releases/download/continuous/Geeqie-latest-x86_64.AppImage",
     "description": "Claiming to be the best image viewer and photo collection browser"
   },
   {
@@ -7748,7 +7756,7 @@
     "site": "https://sourceforge.net/p/gemrb",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gemrb",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gemrb",
-    "version_raw": "https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/Linux/GemRB-2026-04-11-master-60c507f24f-x86_64.AppImage/download",
+    "version_raw": "https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/Linux/GemRB-2026-04-13-master-a22aad40c0-x86_64.AppImage/download",
     "description": "GemRB is a portable open-source implementation of Bioware's Infinity Engine"
   },
   {
@@ -9236,7 +9244,7 @@
     "site": "httptoolkit/httptoolkit-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/httptoolkit",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/httptoolkit",
-    "version_raw": "https://github.com/httptoolkit/httptoolkit-desktop/releases/download/v1.25.0/HttpToolkit-1.25.0-x64.AppImage",
+    "version_raw": "https://github.com/httptoolkit/httptoolkit-desktop/releases/download/v1.25.1/HttpToolkit-1.25.1-x64.AppImage",
     "description": "HTTP Toolkit is an open-source tool for debugging, testing and building with HTTP"
   },
   {
@@ -11796,7 +11804,7 @@
     "site": "LinwoodDev/Butterfly",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linwood-butterfly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linwood-butterfly",
-    "version_raw": "https://github.com/LinwoodDev/Butterfly/releases/download/v2.5.0/linwood-butterfly-linux-alternative-x86_64.AppImage",
+    "version_raw": "https://github.com/LinwoodDev/Butterfly/releases/download/v2.5.1-rc.0/linwood-butterfly-linux-alternative-x86_64.AppImage",
     "description": "Powerful, minimalistic, cross-platform, note-taking app"
   },
   {
@@ -11884,7 +11892,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.1.50-canary.13/LobeHub-2.1.50-canary.13.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.1.50-canary.14/LobeHub-2.1.50-canary.14.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -12084,7 +12092,7 @@
     "site": "https://lunarclient.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lunar-client",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lunar-client",
-    "version_raw": "https://launcherupdates.lunarclientcdn.com/Lunar%20Client-3.6.5-ow.AppImage",
+    "version_raw": "https://launcherupdates.lunarclientcdn.com/Lunar%20Client-3.6.6-ow.AppImage",
     "description": "Free Minecraft Client, a modpack for all versions of Minecraft"
   },
   {
@@ -16592,6 +16600,14 @@
     "description": "Manage your movie and show watchlist"
   },
   {
+    "pkg": "postal",
+    "site": "pkgforge-dev/POSTAL-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/postal",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/postal",
+    "version_raw": "https://github.com/pkgforge-dev/POSTAL-AppImage/releases/download/adb5a30c1%402026-04-13_1776069773/POSTAL-adb5a30c1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, Postal a quirky FPS shooter"
+  },
+  {
     "pkg": "postcat",
     "site": "Postcatlab/postcat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/postcat",
@@ -17260,7 +17276,7 @@
     "site": "pbek/QOwnNotes",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qownnotes",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qownnotes",
-    "version_raw": "https://github.com/pbek/QOwnNotes/releases/download/v26.4.11/QOwnNotes-x86_64.AppImage",
+    "version_raw": "https://github.com/pbek/QOwnNotes/releases/download/continuous/QOwnNotes-x86_64.AppImage",
     "description": "Plain text notepad and todo list manager"
   },
   {
@@ -17780,7 +17796,7 @@
     "site": "readest/readest",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/readest",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/readest",
-    "version_raw": "https://github.com/readest/readest/releases/download/v0.10.4/Readest_0.10.4_amd64.AppImage",
+    "version_raw": "https://github.com/readest/readest/releases/download/v0.10.6/Readest_0.10.6_amd64.AppImage",
     "description": "Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience"
   },
   {
@@ -17964,7 +17980,7 @@
     "site": "repath-project/repath-studio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/repath-studio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/repath-studio",
-    "version_raw": "https://github.com/repath-studio/repath-studio/releases/download/v0.4.12/repath-studio-linux.AppImage",
+    "version_raw": "https://github.com/repath-studio/repath-studio/releases/download/v0.4.13/repath-studio-linux.AppImage",
     "description": "A cross-platform vector graphics editor"
   },
   {
@@ -20460,7 +20476,7 @@
     "site": "ogri-la/strongbox",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/strongbox",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/strongbox",
-    "version_raw": "https://github.com/ogri-la/strongbox/releases/download/7.6.0/strongbox-7.6.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ogri-la/strongbox/releases/download/7.7.0/strongbox-7.7.0-x86_64.AppImage",
     "description": "A World of Warcraft Addon Manager aimed at Linux players"
   },
   {
@@ -23164,7 +23180,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "8349678250",
+    "version_raw": "8356823788",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
