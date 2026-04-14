@@ -16924,7 +16924,7 @@
     "site": "ProxymanApp/proxyman-windows-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/proxyman",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/proxyman",
-    "version_raw": "",
+    "version_raw": "https://github.com/ProxymanApp/proxyman-windows-linux/releases/download/3.11.0/Proxyman-3.11.0.AppImage",
     "description": "Modern and Delightful HTTP Debugging Proxy"
   },
   {
@@ -21012,7 +21012,7 @@
     "site": "debba/tabularis",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tabularis",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tabularis",
-    "version_raw": "https://github.com/debba/tabularis/releases/download/v0.9.16/tabularis_0.9.16_amd64.AppImage",
+    "version_raw": "https://github.com/debba/tabularis/releases/download/v0.9.17/tabularis_0.9.17_amd64.AppImage",
     "description": "A lightweight, developer-focused database management tool"
   },
   {
@@ -21222,6 +21222,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tenacity",
     "version_raw": "https://codeberg.org/tenacityteam/tenacity/releases/download/v1.4-alpha1/tenacity-linux-1.4.0-x86_64.AppImage",
     "description": "An easy-to-use, cross-platform multi-track audio editor/recorder"
+  },
+  {
+    "pkg": "terabox",
+    "site": "https://www.terabox.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/terabox",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/terabox",
+    "version_raw": "https://data.nephobox.com/issue/terabox/Linux/1.44.1/TeraBox_1.44.1_amd64.deb",
+    "description": "Terabox is the simplest way to send your files around the world. Back up and Share photos, videos, docs, and other files of any size to cloud storage"
   },
   {
     "pkg": "tere",
@@ -22124,7 +22132,7 @@
     "site": "CESNET/UltraGrid",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ultragrid",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ultragrid",
-    "version_raw": "",
+    "version_raw": "https://github.com/CESNET/UltraGrid/releases/download/continuous/UltraGrid-continuous-x86_64.AppImage",
     "description": "UltraGrid low-latency audio/video network transmission system"
   },
   {
@@ -23180,7 +23188,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "8399745182",
+    "version_raw": "8402456679",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
