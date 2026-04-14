@@ -932,7 +932,7 @@
     "site": "pkgforge-dev/AppImageUpdate",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimageupdate",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimageupdate",
-    "version_raw": "https://github.com/pkgforge-dev/AppImageUpdate/releases/download/0.2.1/appimageupdate-x86_64-linux",
+    "version_raw": "https://github.com/pkgforge-dev/AppImageUpdate/releases/download/0.3.1/appimageupdate-x86_64-linux",
     "description": "A Rust implementation of AppImageUpdate, a tool for updating AppImages using efficient delta updates using zsync"
   },
   {
@@ -1924,7 +1924,7 @@
     "site": "marcosnils/bin",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bin",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bin",
-    "version_raw": "https://github.com/marcosnils/bin/releases/download/v0.24.3/bin_0.24.3_linux_amd64",
+    "version_raw": "https://github.com/marcosnils/bin/releases/download/v0.25.0/bin_0.25.0_linux_amd64",
     "description": "Effortless binary manager"
   },
   {
@@ -2068,7 +2068,7 @@
     "site": "ivan-hc/Blender-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blender-alpha",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blender-alpha",
-    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.2.0-alpha%2Bmain.84791220d554-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.2.0-alpha%2Bmain.398b27ad1b8a-x86_64.AppImage",
     "description": "Very fast and versatile 3D modeller/renderer, Alpha"
   },
   {
@@ -7100,7 +7100,7 @@
     "site": "RSSNext/Folo",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/folo",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/folo",
-    "version_raw": "https://github.com/RSSNext/Folo/releases/download/desktop/v1.5.0/Folo-1.5.0-linux-x64.AppImage",
+    "version_raw": "https://github.com/RSSNext/Folo/releases/download/desktop/v1.6.0/Folo-1.6.0-linux-x64.AppImage",
     "description": "Folo is the AI Reader"
   },
   {
@@ -8532,7 +8532,7 @@
     "site": "VoylinsGamedevJourney/gozen",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gozen",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gozen",
-    "version_raw": "https://github.com/VoylinsGamedevJourney/gozen/releases/download/v0.9.1-alpha/gozen-v0.9.1-alpha-x86_64.AppImage",
+    "version_raw": "https://github.com/VoylinsGamedevJourney/gozen/releases/download/v0.9.2-alpha/gozen-v0.9.2-alpha-x86_64.AppImage",
     "description": "A lightweight, stable, minimalistic and performant video editor with simplicity in mind"
   },
   {
@@ -11780,7 +11780,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.22_251203_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.27_260401_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -11892,7 +11892,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.1.50-canary.16/LobeHub-2.1.50-canary.16.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.1.50-canary.18/LobeHub-2.1.50-canary.18.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -14388,7 +14388,7 @@
     "site": "nymtech/nym-vpn-client",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nym-vpn",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nym-vpn",
-    "version_raw": "https://github.com/nymtech/nym-vpn-client/releases/download/nym-vpn-app-v1.28.0-rc2/NymVPN_1.28.0-rc2_amd64.AppImage",
+    "version_raw": "https://github.com/nymtech/nym-vpn-client/releases/download/nym-vpn-app-nightly/NymVPN_1.29.0-beta_amd64.AppImage",
     "description": "Cross-platform open source VPN client built in Rust, with mixnet anonymity and WireGuard speed. Protects metadata, not just IP addresses. Zero-knowledge payments for unlinkable online activities"
   },
   {
@@ -14564,7 +14564,7 @@
     "site": "tonhowtf/omniget",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/omniget",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/omniget",
-    "version_raw": "https://github.com/tonhowtf/omniget/releases/download/v0.4.0/omniget_0.4.0_amd64.AppImage",
+    "version_raw": "https://github.com/tonhowtf/omniget/releases/download/v0.4.1/omniget_0.4.1_amd64.AppImage",
     "description": "Media downloader from various websites"
   },
   {
@@ -16324,7 +16324,7 @@
     "site": "https://plexamp.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/plexamp",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/plexamp",
-    "version_raw": "https://plexamp.plex.tv/plexamp.plex.tv/desktop/Plexamp-4.13.0.AppImage",
+    "version_raw": "https://plexamp.plex.tv/plexamp.plex.tv/desktop/Plexamp-4.13.1.AppImage",
     "description": "The best little audio player on the planet"
   },
   {
@@ -18956,7 +18956,7 @@
     "site": "https://hackaday.io",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/serialplot",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/serialplot",
-    "version_raw": "https://github.com/hyOzd/serialplot/releases/download/v0.13.0/SerialPlot-ae7e3dc-x86_64.AppImage",
+    "version_raw": "",
     "description": "Small and simple software for plotting data from serial port"
   },
   {
@@ -20420,7 +20420,7 @@
     "site": "https://gitlab.com/posktomten/streamcapture2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/streamcapture2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/streamcapture2",
-    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=DkcTGtNJ",
+    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=VXGFGpBfM",
     "description": "Download video streams"
   },
   {
@@ -21076,7 +21076,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.6.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.12.0-beta.3.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -23180,7 +23180,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "8379953700",
+    "version_raw": "8385912272",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
