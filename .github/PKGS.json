@@ -6180,7 +6180,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.3.11.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -15628,7 +15628,7 @@
     "site": "PCSX2/pcsx2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcsx2",
-    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.271/pcsx2-v2.7.271-linux-appimage-x64-Qt.AppImage",
+    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.272/pcsx2-v2.7.272-linux-appimage-x64-Qt.AppImage",
     "description": "The Playstation 2 Emulator"
   },
   {
@@ -19084,7 +19084,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-04-16-2d559a4f77b2e78f17ea809fd062016f8a6c6d7a/shadps4-linux-sdl-2026-04-16-2d559a4.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-04-18-16633df872f45b037178ec6063585a8a22298d70/shadps4-linux-sdl-2026-04-18-16633df.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -21792,11 +21792,131 @@
     "description": "A next generation Audio-For-VATSIM ATC Client"
   },
   {
+    "pkg": "trans",
+    "site": "soimort/translate-shell",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trans",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/trans",
+    "version_raw": "v0.9.7.1",
+    "description": "CLI translator using Google/Bing/Yandex Translate, etc"
+  },
+  {
     "pkg": "transfernow",
     "site": "https://www.transfernow.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/transfernow",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/transfernow",
     "version_raw": "TransferNow-1.6.1-x86_64.AppImage",
     "description": "TransferNow is a simple, quick and secure free solution to send large files and big documents up to 250 GB per transfer. No registration required"
+  },
+  {
+    "pkg": "transformer",
+    "site": "https://gitlab.com/ForTheCommunity/Transformer",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/transformer",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/transformer",
+    "version_raw": "https://gitlab.com/ForTheCommunity/Transformer/-/jobs/artifacts/v0.1.0/raw/releases/transformer_x86_64-unknown-linux-musl.zip?job=build_binaries",
+    "description": "A command-line utility for splitting large files into chunks/pieces and merging them back together"
+  },
+  {
+    "pkg": "translatium",
+    "site": "atomery/translatium",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/translatium",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/translatium",
+    "version_raw": "https://github.com/webcatalog/translatium-legacy/releases/download/v20.4.0/Translatium-20.4.0.AppImage",
+    "description": "Translate Any Languages like a Pro"
+  },
+  {
+    "pkg": "transmission-gtk",
+    "site": "ivan-hc/Transmission-gtk-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/transmission-gtk",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/transmission-gtk",
+    "version_raw": "https://github.com/ivan-hc/Transmission-gtk-appimage/releases/download/continuous/Transmission_4.1.1-1-archimage5.0-x86_64.AppImage",
+    "description": "Unofficial. Fast, easy, and free BitTorrent client, GTK+ GUI"
+  },
+  {
+    "pkg": "transmission-qt",
+    "site": "pkgforge-dev/transmission-qt-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/transmission-qt",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/transmission-qt",
+    "version_raw": "https://github.com/pkgforge-dev/transmission-qt-AppImage/releases/download/4.1.1-1%402026-04-01_1775040422/Transmission_Qt-4.1.1-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, Fast, easy, and free BitTorrent client, Qt GUI"
+  },
+  {
+    "pkg": "transmissionic",
+    "site": "6c65726f79/Transmissionic",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/transmissionic",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/transmissionic",
+    "version_raw": "https://github.com/6c65726f79/Transmissionic/releases/download/v1.8.0/Transmissionic-linux-x86_64-v1.8.0.AppImage",
+    "description": "Remote for Transmission Daemon"
+  },
+  {
+    "pkg": "trelby",
+    "site": "pkgforge-dev/Trelby-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trelby",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/trelby",
+    "version_raw": "https://github.com/pkgforge-dev/Trelby-AppImage/releases/download/2.4.16.2-1%402026-03-23_1774298927/Trelby-2.4.16.2-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, Trelby is simple, fast and elegantly laid out to make screenwriting simple"
+  },
+  {
+    "pkg": "trenchbroom",
+    "site": "kduske/TrenchBroom",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trenchbroom",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/trenchbroom",
+    "version_raw": "https://github.com/TrenchBroom/TrenchBroom/releases/download/v2025.1/TrenchBroom-Linux-x86_64-v2025.1-Release.AppImage",
+    "description": "A modern, cross-platform level editor for Quake engine based games"
+  },
+  {
+    "pkg": "trezor-suite",
+    "site": "trezor/trezor-suite",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trezor-suite",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/trezor-suite",
+    "version_raw": "https://github.com/trezor/trezor-suite/releases/download/v26.4.1/Trezor-Suite-26.4.1-linux-x86_64.AppImage",
+    "description": "Trezor Suite desktop application"
+  },
+  {
+    "pkg": "trgui-ng",
+    "site": "openscopeproject/TrguiNG",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trgui-ng",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/trgui-ng",
+    "version_raw": "https://github.com/openscopeproject/TrguiNG/releases/download/v1.5.1/TrguiNG_1.5.1_amd64.AppImage",
+    "description": "Remote GUI for Transmission torrent daemon"
+  },
+  {
+    "pkg": "triagem-touch",
+    "site": "novosga/triagem-touch",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/triagem-touch",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/triagem-touch",
+    "version_raw": "https://github.com/novosga/triage-app/releases/download/v2.0.1/triagem-touch-2.0.1-x86_64.AppImage",
+    "description": "Novo SGA triage client"
+  },
+  {
+    "pkg": "trilium",
+    "site": "zadam/trilium",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trilium",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/trilium",
+    "version_raw": "https://github.com/TriliumNext/Trilium/releases/download/v0.102.2/TriliumNotes-Server-v0.102.2-linux-x64.tar.xz",
+    "description": "Build your personal knowledge base with Trilium Notes"
+  },
+  {
+    "pkg": "trinity-desktop",
+    "site": "iotaledger/trinity-wallet",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trinity-desktop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/trinity-desktop",
+    "version_raw": "https://github.com/iotaledger-archive/trinity-wallet/releases/download/desktop-1.6.2/trinity-desktop-1.6.2.AppImage",
+    "description": "Desktop wallet for IOTA"
+  },
+  {
+    "pkg": "tropy",
+    "site": "tropy/tropy",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tropy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tropy",
+    "version_raw": "https://github.com/tropy/tropy/releases/download/v1.18.0-beta.1/Tropy-1.18.0-beta.1-shared-x86_64.AppImage",
+    "description": "Research photo management"
+  },
+  {
+    "pkg": "tssh",
+    "site": "trzsz/trzsz-ssh",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tssh",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tssh",
+    "version_raw": "https://github.com/trzsz/trzsz-ssh/releases/download/v0.1.24/tssh_0.1.24_linux_aarch64.tar.gz",
+    "description": "trzsz-ssh is an alternative to ssh client, offers additional features"
   }
 ]
