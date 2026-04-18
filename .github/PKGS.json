@@ -2092,7 +2092,7 @@
     "site": "https://www.blensor.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blensor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blensor",
-    "version_raw": "1.0.18",
+    "version_raw": "",
     "description": "3D modeling, animation, rendering and post-production"
   },
   {
@@ -5508,7 +5508,7 @@
     "site": "https://git.eden-emu.dev",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eden",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eden",
-    "version_raw": "",
+    "version_raw": "https://git.eden-emu.dev/eden-emu/eden/releases/download/v0.1.1/Eden-Linux-v0.1.1-amd64-gcc-standard.AppImage",
     "description": "An experimental open-source emulator for Nintendo Switch (yuzu fork)"
   },
   {
@@ -5516,7 +5516,7 @@
     "site": "https://git.eden-emu.dev",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eden-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eden-nightly",
-    "version_raw": "",
+    "version_raw": "https://git.eden-emu.dev/eden-ci/nightly/releases/download/v1776193290.f11b69d6b7/Eden-Linux-f11b69d6b7-amd64-gcc-standard.AppImage",
     "description": "An experimental open-source emulator for Nintendo Switch (yuzu fork, nightly builds)"
   },
   {
@@ -6740,7 +6740,7 @@
     "site": "https://www.firefox.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-beta",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260417-225658/Firefox-beta-150.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260418-203900/Firefox-beta-150.0-x86_64.AppImage",
     "description": "Fast, powerful and extensible Web Browser, Beta Edition"
   },
   {
@@ -6748,7 +6748,7 @@
     "site": "https://www.firefox.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-devedition",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-devedition",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260417-225658/Firefox-devedition-150.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260418-203900/Firefox-devedition-150.0-x86_64.AppImage",
     "description": "Fast, powerful and extensible Web Browser, Developer Edition"
   },
   {
@@ -6756,7 +6756,7 @@
     "site": "https://www.firefox.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-esr",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-esr",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260417-225658/Firefox-esr-140.9.1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260418-203900/Firefox-esr-140.9.1-x86_64.AppImage",
     "description": "Fast, powerful and extensible Web Browser, ESR Edition"
   },
   {
@@ -6764,7 +6764,7 @@
     "site": "https://www.firefox.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-nightly",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260417-225658/Firefox-nightly-151.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260418-203900/Firefox-nightly-151.0a1-x86_64.AppImage",
     "description": "Fast, powerful and extensible Web Browser, Nightly Edition"
   },
   {
@@ -7748,7 +7748,7 @@
     "site": "https://sourceforge.net/p/gemrb",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gemrb",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gemrb",
-    "version_raw": "https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/Linux/GemRB-2026-04-18-master-9d92aef3d7-x86_64.AppImage/download",
+    "version_raw": "https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/Linux/GemRB-2026-04-18-master-95e6a78c52-x86_64.AppImage/download",
     "description": "GemRB is a portable open-source implementation of Bioware's Infinity Engine"
   },
   {
@@ -8516,7 +8516,7 @@
     "site": "benjamimgois/goverlay",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/goverlay",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/goverlay",
-    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-160605272-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-f41be47b8-anylinux-x86_64.AppImage",
     "description": "An opensource project that aims to create a Graphical UI to help manage Linux overlays"
   },
   {
@@ -13108,7 +13108,7 @@
     "site": "https://modrinth.com/app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/modrinth",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/modrinth",
-    "version_raw": "https://launcher-files.modrinth.com/versions/0.13.1/linux/Modrinth%20App_0.13.1_amd64.AppImage",
+    "version_raw": "https://launcher-files.modrinth.com/versions/0.13.2/linux/Modrinth%20App_0.13.2_amd64.AppImage",
     "description": "Open source launcher that allows you to play your favorite mods"
   },
   {
@@ -15636,7 +15636,7 @@
     "site": "PCSX2/pcsx2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcsx2",
-    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.273/pcsx2-v2.7.273-linux-appimage-x64-Qt.AppImage",
+    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.274/pcsx2-v2.7.274-linux-appimage-x64-Qt.AppImage",
     "description": "The Playstation 2 Emulator"
   },
   {
@@ -16252,7 +16252,7 @@
     "site": "https://purei.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/play",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/play",
-    "version_raw": "https://purei.org/downloads/play/stable/0.70/Play!-0bd77c19-x86_64.AppImage",
+    "version_raw": "",
     "description": "Play! is a PlayStation2 games emulator"
   },
   {
@@ -18516,7 +18516,7 @@
     "site": "https://ryujinx.app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ryujinx",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ryujinx",
-    "version_raw": "",
+    "version_raw": "https://git.ryujinx.app/projects/Ryubing/releases/download/1.3.3/ryujinx-1.3.3-x64.AppImage",
     "description": "An open-source Nintendo Switch emulator, originally created by gdkchan, written in C#"
   },
   {
@@ -18524,7 +18524,7 @@
     "site": "https://ryujinx.app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ryujinx-canary",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ryujinx-canary",
-    "version_raw": "",
+    "version_raw": "https://git.ryujinx.app/Ryubing/Canary/releases/download/1.3.272/ryujinx-canary-1.3.272-x64.AppImage",
     "description": "An open-source Nintendo Switch emulator, originally created by gdkchan, written in C# (Canary builds)"
   },
   {
@@ -21492,7 +21492,7 @@
     "site": "https://www.thunderbird.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-beta",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260417-204436/Thunderbird-beta-150.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260418-203805/Thunderbird-beta-150.0-x86_64.AppImage",
     "description": "Free and open source eMail client, Beta Edition"
   },
   {
@@ -21500,7 +21500,7 @@
     "site": "https://www.thunderbird.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-nightly",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260417-204436/Thunderbird-nightly-151.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260418-203805/Thunderbird-nightly-151.0a1-x86_64.AppImage",
     "description": "Free and open source eMail client, Nightly Edition"
   },
   {
@@ -23212,7 +23212,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "8559328783",
+    "version_raw": "8561226599",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -23740,7 +23740,7 @@
     "site": "FWGS/xash3d-fwgs",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xash3d-fwgs",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xash3d-fwgs",
-    "version_raw": "https://github.com/FWGS/xash3d-fwgs/releases/download/continuous/xash3d-fwgs-amd64.AppImage",
+    "version_raw": "https://github.com/FWGS/xash3d-fwgs/releases/download/continuous-ci-test/xash3d-fwgs-amd64.AppImage",
     "description": "A game engine aimed to provide compatibility with Half-Life Engine and extend it"
   },
   {
