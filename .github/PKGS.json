@@ -708,7 +708,7 @@
     "site": "aurelienpierreeng/ansel",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ansel",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ansel",
-    "version_raw": "https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/Ansel-0.0.0%2B3305.ge8d4b24a4f-x86_64.AppImage",
+    "version_raw": "https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/Ansel-0.0.0%2B3330.g36bfac156f-x86_64.AppImage",
     "description": "An open-source photo-editing software for digital artists, designed to help you achieve your own interpretation of raw digital photographs"
   },
   {
@@ -14196,7 +14196,7 @@
     "site": "streetwriters/notesnook",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/notesnook",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/notesnook",
-    "version_raw": "https://github.com/streetwriters/notesnook/releases/download/v3.4.0-beta.0/notesnook_linux_x86_64.AppImage",
+    "version_raw": "https://github.com/streetwriters/notesnook/releases/download/v3.3.15/notesnook_linux_x86_64.AppImage",
     "description": "Private note-taking app that encrypts everything on client side"
   },
   {
@@ -14668,7 +14668,7 @@
     "site": "center2055/onionhop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/onionhop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/onionhop",
-    "version_raw": "https://github.com/center2055/OnionHop/releases/download/v2.6/OnionHopV2-2.6-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/center2055/OnionHop/releases/download/v2.6.1/OnionHopV2-2.6.1-linux-x86_64.AppImage",
     "description": "Privacy-first Desktop app that routes your traffic through Tor - Anonymous browsing made simple"
   },
   {
@@ -19100,7 +19100,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-04-20-012b4a6ef587b5c6ced361d9bf47aa8ce19534e0/shadps4-linux-sdl-2026-04-20-012b4a6.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-04-20-526c346f907a6e068fe905e185bc5a97a0d36f9a/shadps4-linux-sdl-2026-04-20-526c346.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -19180,7 +19180,7 @@
     "site": "RockinChaos/Shiru",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shiru",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shiru",
-    "version_raw": "https://github.com/RockinChaos/Shiru/releases/download/v6.5.3-beta.1/linux-Shiru-v6.5.3-beta.1.AppImage",
+    "version_raw": "https://github.com/RockinChaos/Shiru/releases/download/v6.5.3-beta.2/linux-Shiru-v6.5.3-beta.2.AppImage",
     "description": "A personal anime library manager for watching and tracking your collection in real time. Lightweight, powerful, and paws-itively fast. No waiting required"
   },
   {
@@ -20870,141 +20870,5 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/swish",
     "version_raw": "https://github.com/Blutsh/Swish/releases/download/1.0.2/swish-1.0.2-x86_64-unknown-linux-musl.tar.gz",
     "description": "Command Line Interface for Swisstransfer Infomaniak's free service"
-  },
-  {
-    "pkg": "switchcraft",
-    "site": "kem-a/switchcraft",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/switchcraft",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/switchcraft",
-    "version_raw": "https://github.com/kem-a/switchcraft/releases/download/v1.2.1/switchcraft-1.2.1.AppImage",
-    "description": "Switchcraft watches GNOME's light/dark preference and runs your shell commands when the theme changes"
-  },
-  {
-    "pkg": "switchhosts",
-    "site": "oldj/SwitchHosts",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/switchhosts",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/switchhosts",
-    "version_raw": "https://github.com/oldj/SwitchHosts/releases/download/v4.3.0/SwitchHosts-v4.3.0.6139-linux-x86_64.AppImage",
-    "description": "Switch hosts quickly!"
-  },
-  {
-    "pkg": "switchshuttle",
-    "site": "s00d/switchshuttle",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/switchshuttle",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/switchshuttle",
-    "version_raw": "https://github.com/s00d/switchshuttle/releases/download/app-v2.1.0/switch-shuttle_2.1.0_amd64.AppImage",
-    "description": "Run predefined commands in various terminal applications"
-  },
-  {
-    "pkg": "swradio",
-    "site": "JvanKatwijk/swradio-8",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/swradio",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/swradio",
-    "version_raw": "https://github.com/JvanKatwijk/swradio-8/releases/download/9.1/swradio-x86_64.AppImage",
-    "description": "Shortwave receiver for use with sdrplay/hackrf/dabsticks/pmsdr"
-  },
-  {
-    "pkg": "symphonium",
-    "site": "ttdm/Symphonium",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/symphonium",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/symphonium",
-    "version_raw": "https://github.com/ttdm/Symphonium/releases/download/continuous/Symphonium-9d06c8e-x86_64.AppImage",
-    "description": "A tool to help when learning to play the piano"
-  },
-  {
-    "pkg": "syncmyl2p",
-    "site": "RobertKrajewski/Sync-my-L2P",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/syncmyl2p",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/syncmyl2p",
-    "version_raw": "https://github.com/RobertKrajewski/Sync-my-L2P/releases/download/v2.4.2/SyncMyL2P-2.4.2-linux.AppImage",
-    "description": "L2P synchronisation tool"
-  },
-  {
-    "pkg": "syncplay",
-    "site": "Syncplay/syncplay",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/syncplay",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/syncplay",
-    "version_raw": "https://github.com/Syncplay/syncplay/releases/download/v1.7.0/Syncplay-1.7.0-x86_64.AppImage",
-    "description": "Synchronize video playback over network"
-  },
-  {
-    "pkg": "syncthing",
-    "site": "syncthing/syncthing",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/syncthing",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/syncthing",
-    "version_raw": "https://github.com/syncthing/syncthing/releases/download/v2.0.16/syncthing-linux-amd64-v2.0.16.tar.gz",
-    "description": "Open Source Continuous File Synchronization"
-  },
-  {
-    "pkg": "syncthingctl",
-    "site": "Martchus/syncthingtray",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/syncthingctl",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/syncthingctl",
-    "version_raw": "https://github.com/Martchus/syncthingtray/releases/download/v2.0.10/syncthingctl-2.0.10-x86_64-pc-linux-gnu.tar.xz",
-    "description": "Tray control application and Dolphin/Plasma integration for Syncthing"
-  },
-  {
-    "pkg": "syncthingtray",
-    "site": "Martchus/syncthingtray",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/syncthingtray",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/syncthingtray",
-    "version_raw": "https://github.com/Martchus/syncthingtray/releases/download/v2.0.10/syncthingtray-2.0.10-x86_64-pc-linux-gnu.tar.xz",
-    "description": "Tray application and Dolphin/Plasma integration for Syncthing"
-  },
-  {
-    "pkg": "synfig",
-    "site": "BobSynfig/synfig",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/synfig",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/synfig",
-    "version_raw": "https://github.com/BobSynfig/synfig/releases/download/UNOFFICIAL-1.5.5-2026.04.14/SynfigStudio-UNOFFICIAL-1.5.5-2026.04.14-linux64-7dc35.AppImage",
-    "description": "Unofficial. Synfig Studio animation software"
-  },
-  {
-    "pkg": "synthein",
-    "site": "synthein/synthein",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/synthein",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/synthein",
-    "version_raw": "https://github.com/synthein/synthein/releases/download/v0.2.1/synthein-v0.2.1.AppImage",
-    "description": "A space ship building and combat game"
-  },
-  {
-    "pkg": "synthv1",
-    "site": "https://sourceforge.net/p/synthv1",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/synthv1",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/synthv1",
-    "version_raw": "https://sourceforge.net/projects/synthv1/files/synthv1/1.4.1/synthv1-jack-1.4.1-12.1.x86_64.AppImage/download",
-    "description": "An old school polyphonic synthesizer"
-  },
-  {
-    "pkg": "system-monitoring-center",
-    "site": "pkgforge-dev/system-monitoring-center-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/system-monitoring-center",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/system-monitoring-center",
-    "version_raw": "https://github.com/pkgforge-dev/system-monitoring-center-AppImage/releases/download/3.2.0-1%402026-04-01_1775040549/System_Monitoring_Center-3.2.0-1-anylinux-x86_64.AppImage",
-    "description": "Unofficial. Multi-featured system monitor"
-  },
-  {
-    "pkg": "sysz",
-    "site": "joehillen/sysz",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sysz",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sysz",
-    "version_raw": "https://github.com/joehillen/sysz/releases/download/1.4.3/sysz",
-    "description": "An fzf terminal UI for systemctl"
-  },
-  {
-    "pkg": "szyszka",
-    "site": "qarmin/szyszka",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/szyszka",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/szyszka",
-    "version_raw": "https://github.com/qarmin/szyszka/releases/download/3.0.0/szyszka.AppImage",
-    "description": "Szyszka is fast and powerful file renamer"
-  },
-  {
-    "pkg": "t.viewer",
-    "site": "msaltnet/T.Viewer",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/t.viewer",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/t.viewer",
-    "version_raw": "https://github.com/msaltnet/T.Viewer/releases/download/ver1.2.2/tviewer-1.2.2.AppImage",
-    "description": "Cross Platform Tizen Log Viewer"
   }
 ]
