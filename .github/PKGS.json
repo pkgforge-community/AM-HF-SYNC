@@ -620,7 +620,7 @@
     "site": "pystardust/ani-cli",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ani-cli",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ani-cli",
-    "version_raw": "https://github.com/pystardust/ani-cli/releases/download/v4.11/ani-cli",
+    "version_raw": "https://github.com/pystardust/ani-cli/releases/download/v4.13/ani-cli",
     "description": "A cli tool to browse and play anime"
   },
   {
@@ -9764,7 +9764,7 @@
     "site": "4gray/iptvnator",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/iptvnator",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/iptvnator",
-    "version_raw": "https://github.com/4gray/iptvnator/releases/download/v0.19.0/iptvnator-0.19.0-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/4gray/iptvnator/releases/download/v0.20.0/iptvnator-0.20.0-linux-x86_64.AppImage",
     "description": "IPTV player application"
   },
   {
@@ -14212,7 +14212,7 @@
     "site": "vkbo/novelwriter",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/novelwriter",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/novelwriter",
-    "version_raw": "https://github.com/vkbo/novelWriter/releases/download/v26.1rc1/novelwriter-26.1rc1-x86_64.AppImage",
+    "version_raw": "https://github.com/vkbo/novelWriter/releases/download/v26.1/novelwriter-26.1-x86_64.AppImage",
     "description": "Plain text editor designed for writing novels, supports a minimal markdown-like syntax for formatting text"
   },
   {
@@ -14284,7 +14284,7 @@
     "site": "https://www.nuclino.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nuclino",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nuclino",
-    "version_raw": "",
+    "version_raw": "1.6.8",
     "description": "Bring knowledge, docs, and projects together in one place"
   },
   {
@@ -16614,5 +16614,373 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pop",
     "version_raw": "https://github.com/charmbracelet/pop/releases/download/v0.2.0/pop_0.2.0_Linux_x86_64.tar.gz",
     "description": "Send emails from your terminal"
+  },
+  {
+    "pkg": "popsicle",
+    "site": "pop-os/popsicle",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/popsicle",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/popsicle",
+    "version_raw": "https://github.com/pop-os/popsicle/releases/download/1.3.3/Popsicle_USB_Flasher-1.3.3-x86_64.AppImage",
+    "description": "Multiple USB File Flasher"
+  },
+  {
+    "pkg": "portable2appimage",
+    "site": "ivan-hc/portable2appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/portable2appimage",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/portable2appimage",
+    "version_raw": "https://github.com/ivan-hc/portable2appimage/releases/download/1.1.3/portable2appimage-1.1.3-x86_64.AppImage",
+    "description": "Convert standalone, self-contained portable apps into AppImage packages"
+  },
+  {
+    "pkg": "positron",
+    "site": "arjunindia/positron",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/positron",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/positron",
+    "version_raw": "https://github.com/arjunindia/positron/releases/download/v0.0.3/positron-1.0.0.AppImage",
+    "description": "Manage your movie and show watchlist"
+  },
+  {
+    "pkg": "postal",
+    "site": "pkgforge-dev/POSTAL-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/postal",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/postal",
+    "version_raw": "https://github.com/pkgforge-dev/POSTAL-AppImage/releases/download/adb5a30c1%402026-04-22_1776857679/POSTAL-adb5a30c1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, Postal a quirky FPS shooter"
+  },
+  {
+    "pkg": "postcat",
+    "site": "Postcatlab/postcat",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/postcat",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/postcat",
+    "version_raw": "https://github.com/Postcatlab/postcat/releases/download/v0.5.1/Postcat-0.5.1.AppImage",
+    "description": "An extensible API tool"
+  },
+  {
+    "pkg": "postman",
+    "site": "showcheap/postman-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/postman",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/postman",
+    "version_raw": "https://github.com/suciptoid/postman-appimage/releases/download/continous/Postman-11.81.4-x86_64.AppImage",
+    "description": "API platform for building and using APIs, AppImage"
+  },
+  {
+    "pkg": "postybirb",
+    "site": "mvdicarlo/postybirb",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/postybirb",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/postybirb",
+    "version_raw": "https://github.com/mvdicarlo/postybirb/releases/download/v4.0.30/PostyBirb-4.0.30-linux-x86_64.AppImage",
+    "description": "Multimedia crossposter for multimedia websites"
+  },
+  {
+    "pkg": "postybirb-plus",
+    "site": "mvdicarlo/postybirb-plus",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/postybirb-plus",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/postybirb-plus",
+    "version_raw": "https://github.com/mvdicarlo/postybirb-plus/releases/download/v3.1.70/postybirb-plus-3.1.70-x86_64.AppImage",
+    "description": "Helps artists post art to multiple websites more quickly"
+  },
+  {
+    "pkg": "pot-desktop",
+    "site": "pot-app/pot-desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pot-desktop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pot-desktop",
+    "version_raw": "https://github.com/pot-app/pot-desktop/releases/download/3.0.7/pot_3.0.7_amd64.AppImage",
+    "description": "A cross-platform software for text translation and recognition"
+  },
+  {
+    "pkg": "potatopresenter",
+    "site": "thgier/PotatoPresenter",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/potatopresenter",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/potatopresenter",
+    "version_raw": "https://github.com/thgier/PotatoPresenter/releases/download/v1.0.2/PotatoPresenter-v1.0.2.AppImage",
+    "description": "Create presentation slides and exported as PDF"
+  },
+  {
+    "pkg": "powder-toy",
+    "site": "mgord9518/Powder_Toy.AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/powder-toy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/powder-toy",
+    "version_raw": "https://github.com/mgord9518/Powder_Toy.AppImage/releases/download/nightly/Powder_Toy-96.2-x86_64.AppImage",
+    "description": "AppImage build of The Powder Toy built from source"
+  },
+  {
+    "pkg": "powerliminals-player",
+    "site": "mysteryx93/NaturalGroundingPlayer",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/powerliminals-player",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/powerliminals-player",
+    "version_raw": "https://github.com/mysteryx93/HanumanInstituteApps/releases/download/v3.3.2/Player432Hz-3.3.2_Linux_x64.AppImage",
+    "description": "Powerliminal audios in the background, Audio player"
+  },
+  {
+    "pkg": "powershell",
+    "site": "ivan-hc/PowerShell-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/powershell",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/powershell",
+    "version_raw": "https://github.com/ivan-hc/PowerShell-appimage/releases/download/continuous/PowerShell-v7.6.1-x86_64.AppImage",
+    "description": "Microsoft PowerShell"
+  },
+  {
+    "pkg": "ppet3",
+    "site": "zenghongtu/PPet",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ppet3",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ppet3",
+    "version_raw": "https://github.com/zenghongtu/PPet/releases/download/v3.3.0/PPet3-3.3.0.AppImage",
+    "description": "Put a cute girl on your desk for more fun"
+  },
+  {
+    "pkg": "ppsspp",
+    "site": "hrydgard/ppsspp",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ppsspp",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ppsspp",
+    "version_raw": "https://github.com/hrydgard/ppsspp/releases/download/v1.20.3/PPSSPP-v1.20.3-anylinux-x86_64.AppImage",
+    "description": "PSP emulator written in C++"
+  },
+  {
+    "pkg": "pragtical",
+    "site": "pragtical/pragtical",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pragtical",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pragtical",
+    "version_raw": "https://github.com/pragtical/pragtical/releases/download/v3.8.7/Pragtical-v3.8.7-x86_64.AppImage",
+    "description": "The practical and pragmatic code editor"
+  },
+  {
+    "pkg": "pretty-handy-privacy",
+    "site": "bobbyrne01/pretty-handy-privacy",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pretty-handy-privacy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pretty-handy-privacy",
+    "version_raw": "https://github.com/bobbyrne01/pretty-handy-privacy/releases/download/v0.1.1/pretty-handy-privacy.0.1.1.AppImage",
+    "description": "User interface for basic encryption tasks"
+  },
+  {
+    "pkg": "prey2006",
+    "site": "pkgforge-dev/Prey2006-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/prey2006",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/prey2006",
+    "version_raw": "https://github.com/pkgforge-dev/Prey2006-AppImage/releases/download/8fb6fc4eb%402026-04-06_1775502630/Prey_2006-8fb6fc4eb-anylinux-x86_64.AppImage",
+    "description": "Unofficial, Prey 2006 SDK integrated with Doom 3 GPL release"
+  },
+  {
+    "pkg": "primate",
+    "site": "getprimate/primate",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/primate",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/primate",
+    "version_raw": "https://github.com/getprimate/primate/releases/download/v1.1.0/Primate-v1.1.0-x64.AppImage",
+    "description": "A modern dashboard for Kong Gateway admins"
+  },
+  {
+    "pkg": "prime-world-editor",
+    "site": "AxioDL/PrimeWorldEditor",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/prime-world-editor",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/prime-world-editor",
+    "version_raw": "https://github.com/AxioDL/PrimeWorldEditor/releases/download/v1.2.7/PrimeWorldEditor-1.2.7-linux64.AppImage",
+    "description": "Edit world assets from games by Retro Studios"
+  },
+  {
+    "pkg": "principia",
+    "site": "Bithack/principia",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/principia",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/principia",
+    "version_raw": "https://github.com/Bithack/principia/releases/download/2025.04.05/principia_2025.04.05_x86_64.AppImage",
+    "description": "Open source physics-based sandbox game"
+  },
+  {
+    "pkg": "printerclient",
+    "site": "DevTeamSCH/printer-client",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/printerclient",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/printerclient",
+    "version_raw": "https://github.com/DevTeamSCH/printer-client/releases/download/v0.1.2/PrinterClient-x86_64.AppImage",
+    "description": "A printer client"
+  },
+  {
+    "pkg": "printventory",
+    "site": "https://printventory.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/printventory",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/printventory",
+    "version_raw": "https://printventory.techjeeper.com/printventory-2.1.0.AppImage",
+    "description": "The ultimate tool for managing your 3D printing collection with ease. Sort, tag, and track your models in one place"
+  },
+  {
+    "pkg": "prisma-studio",
+    "site": "prisma/studio",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/prisma-studio",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/prisma-studio",
+    "version_raw": "https://github.com/prisma/studio/releases/download/v0.458.0/Prisma-Studio.AppImage",
+    "description": "The easiest way to explore and manipulate your data"
+  },
+  {
+    "pkg": "prismlauncher",
+    "site": "PrismLauncher/PrismLauncher",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/prismlauncher",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/prismlauncher",
+    "version_raw": "https://github.com/PrismLauncher/PrismLauncher/releases/download/11.0.2/PrismLauncher-Linux-x86_64.AppImage",
+    "description": "Launcher for Minecraft, manage multiple installations"
+  },
+  {
+    "pkg": "prismlauncher-enhanced",
+    "site": "pkgforge-dev/PrismLauncher-AppImage-Enhanced",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/prismlauncher-enhanced",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/prismlauncher-enhanced",
+    "version_raw": "https://github.com/pkgforge-dev/PrismLauncher-AppImage-Enhanced/releases/download/11.0.2-1%402026-04-22_1776857040/Prism_Launcher-11.0.2-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, a custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once (Fork of MultiMC)"
+  },
+  {
+    "pkg": "prismlauncher-qt5",
+    "site": "PrismLauncher/PrismLauncher",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/prismlauncher-qt5",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/prismlauncher-qt5",
+    "version_raw": "https://github.com/PrismLauncher/PrismLauncher/releases/download/9.4/PrismLauncher-Linux-Qt5-Portable-9.4.tar.gz",
+    "description": "Launcher for Minecraft, manage multiple installations (Qt5 version)"
+  },
+  {
+    "pkg": "privacy.sexy",
+    "site": "undergroundwires/privacy.sexy",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/privacy.sexy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/privacy.sexy",
+    "version_raw": "https://github.com/undergroundwires/privacy.sexy/releases/download/0.13.8/privacy.sexy-0.13.8.AppImage",
+    "description": "Tool to enforce privacy & security best-practices"
+  },
+  {
+    "pkg": "privaxy",
+    "site": "Barre/privaxy",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/privaxy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/privaxy",
+    "version_raw": "https://github.com/Barre/privaxy/releases/download/v0.5.2/privaxy_0.5.2_amd64.AppImage",
+    "description": "The next generation tracker and ads/advertisement blocker"
+  },
+  {
+    "pkg": "probe-desktop",
+    "site": "ooni/probe-desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/probe-desktop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/probe-desktop",
+    "version_raw": "https://github.com/ooni/probe-desktop/releases/download/v3.10.1/OONI-Probe-3.10.1.AppImage",
+    "description": "The next generation OONI Probe desktop app"
+  },
+  {
+    "pkg": "procdepmonitor",
+    "site": "3dproger/ProcDepMonitor",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/procdepmonitor",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/procdepmonitor",
+    "version_raw": "https://github.com/3dproger/ProcDepMonitor/releases/download/1.3.0/ProcDepMonitor-1.1.2-linux-x86_64.AppImage",
+    "description": "Obtaining information about loaded process dependencies"
+  },
+  {
+    "pkg": "procs",
+    "site": "dalance/procs",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/procs",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/procs",
+    "version_raw": "",
+    "description": "A modern replacement for ps written in Rust"
+  },
+  {
+    "pkg": "procspin",
+    "site": "Lateralus138/ProcSpin",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/procspin",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/procspin",
+    "version_raw": "https://github.com/Lateralus138/ProcSpin/releases/download/Continuous/procspin-x86_64.AppImage",
+    "description": "CLI to create a process/progress animation with text"
+  },
+  {
+    "pkg": "procyon",
+    "site": "orion-project/procyon",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/procyon",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/procyon",
+    "version_raw": "https://github.com/orion-project/procyon/releases/download/0.11.0/procyon-0.11.0-linux-x64.AppImage",
+    "description": "Note Keeper"
+  },
+  {
+    "pkg": "programmer-browser",
+    "site": "yessGlory17/programmer-browser",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/programmer-browser",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/programmer-browser",
+    "version_raw": "https://github.com/yessGlory17/programmer-browser/releases/download/v0.1.8/ProgrammerBrowser-0.1.8.AppImage",
+    "description": "A fast-searching and space-saving browser specially designed for programmers"
+  },
+  {
+    "pkg": "promethium",
+    "site": "Alex313031/promethium",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/promethium",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/promethium",
+    "version_raw": "https://github.com/Alex313031/promethium/releases/download/v6.1.6/Promethium_6.1.6_x86_64.AppImage",
+    "description": "Extensible and innovative web browser with built-in AdBlock"
+  },
+  {
+    "pkg": "proofkeeper",
+    "site": "woleet/woleet-proofkeeper",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/proofkeeper",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/proofkeeper",
+    "version_raw": "https://github.com/woleet/woleet-proofkeeper/releases/download/0.7.0/ProofKeeper-0.7.0-Linux.AppImage",
+    "description": "Desktop tool to automate proof management"
+  },
+  {
+    "pkg": "prospect-mail",
+    "site": "julian-alarcon/prospect-mail",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/prospect-mail",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/prospect-mail",
+    "version_raw": "https://github.com/julian-alarcon/prospect-mail/releases/download/v1.2.1/Prospect-Mail-1.2.1.AppImage",
+    "description": "An Outlook mail desktop client powered by Electron"
+  },
+  {
+    "pkg": "protocol_10",
+    "site": "Twig6943/protocol_10",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/protocol_10",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/protocol_10",
+    "version_raw": "https://github.com/Twig6943/protocol_10/releases/download/1.1/protocol_10-anylinux-x86_64.AppImage",
+    "description": "A mod decompiler for frosty tool suite"
+  },
+  {
+    "pkg": "protoman",
+    "site": "spluxx/Protoman",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/protoman",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/protoman",
+    "version_raw": "https://github.com/spluxx/Protoman/releases/download/v0.4.1/Protoman-0.4.1.AppImage",
+    "description": "A Postman-like API client for protobuf-based messages"
+  },
+  {
+    "pkg": "protonmail-desktop",
+    "site": "protonmail-desktop/application",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/protonmail-desktop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/protonmail-desktop",
+    "version_raw": "https://github.com/unofficial-protonmail-desktop/application/releases/download/v1.2.1/Unofficial-desktop-client-for-ProtonMail-1.2.1.AppImage",
+    "description": "Unofficial Electron wrapper for ProtonMail"
+  },
+  {
+    "pkg": "protonup-qt",
+    "site": "DavidoTek/ProtonUp-Qt",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/protonup-qt",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/protonup-qt",
+    "version_raw": "https://github.com/DavidoTek/ProtonUp-Qt/releases/download/v2.15.0/ProtonUp-Qt-2.15.0-x86_64.AppImage",
+    "description": "Manage Proton-GE/Luxtorpeda for Steam/Wine-GE for Lutris"
+  },
+  {
+    "pkg": "proxy-master",
+    "site": "Ma5t3rful/proxy-master",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/proxy-master",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/proxy-master",
+    "version_raw": "https://github.com/Ma5t3rful/proxy-master/releases/download/6.0/Proxy_Master-x86_64.AppImage",
+    "description": "Set and reset your proxy settings EVERYWHERE"
+  },
+  {
+    "pkg": "proxyman",
+    "site": "ProxymanApp/proxyman-windows-linux",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/proxyman",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/proxyman",
+    "version_raw": "https://github.com/ProxymanApp/proxyman-windows-linux/releases/download/3.12.0/Proxyman-3.12.0.AppImage",
+    "description": "Modern and Delightful HTTP Debugging Proxy"
+  },
+  {
+    "pkg": "prusa-slicer",
+    "site": "probonopd/PrusaSlicer.AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/prusa-slicer",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/prusa-slicer",
+    "version_raw": "https://github.com/probonopd/PrusaSlicer.AppImage/releases/download/2.9.1-rc1/PrusaSlicer-2.9.1-rc1-x86_64.AppImage",
+    "description": "Prusa3d/PrusaSlicer, G-code generator for 3D printers"
+  },
+  {
+    "pkg": "psi+",
+    "site": "https://sourceforge.net/p/psiplus",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/psi+",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/psi+",
+    "version_raw": "https://sourceforge.net/projects/psiplus/files/Linux/tehnick/Psi%2B-1.5.1515-x86_64.AppImage/download",
+    "description": "Communicate over the XMPP network"
   }
 ]
