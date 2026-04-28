@@ -9,7 +9,8 @@ SITE="https://reaper.fm"
 # CREATE DIRECTORIES AND ADD REMOVER
 [ -n "$APP" ] && mkdir -p "/opt/$APP/tmp" "/opt/$APP/icons" && cd "/opt/$APP/tmp" || exit 1
 printf "#!/bin/sh\nset +e\nrm -f /usr/local/bin/$APP\nrm -R -f /opt/$APP" > ../remove
-printf '\n%s' "rm -f /usr/local/share/applications/$APP-AM.desktop /usr/local/share/mime/packages/application-x-reaper.xml /usr/local/share/icons/hicolor/scalable/mimetypes/cockos-reaper*.png" >> ../remove
+printf '\n%s' "rm -f /usr/local/share/applications/$APP-AM.desktop /usr/local/share/mime/application/x-reaper-*.xml /usr/local/share/mime/packages/application-x-reaper.xml /usr/local/share/icons/hicolor/scalable/mimetypes/cockos-reaper*.png" >> ../remove
+printf "\ncommand -v update-mime-database >/dev/null 2>&1 && update-mime-database /usr/local/share/mime\ncommand -v update-desktop-database >/dev/null 2>&1 && update-desktop-database /usr/local/share/applications" >> ../remove
 chmod a+x ../remove || exit 1
 
 # DOWNLOAD AND PREPARE THE APP, $version is also used for updates
