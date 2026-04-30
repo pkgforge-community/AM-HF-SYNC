@@ -1,5 +1,13 @@
 [
   {
+    "pkg": "0ad",
+    "site": "https://play0ad.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/0ad",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/0ad",
+    "version_raw": "https://releases.wildfiregames.com/0ad-0.28.0-x86_64.AppImage",
+    "description": "FOSS historical Real Time Strategy, RTS game of ancient warfare"
+  },
+  {
     "pkg": "0ad-prerelease",
     "site": "https://play0ad.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/0ad-prerelease",
@@ -5524,7 +5532,7 @@
     "site": "https://git.eden-emu.dev",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eden-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eden-nightly",
-    "version_raw": "https://nightly.eden-emu.dev/v1777489956.8765b49512/Eden-Linux-8765b49512-legacy-clang-pgo.AppImage",
+    "version_raw": "https://nightly.eden-emu.dev/v1777576084.b537e83bed/Eden-Linux-b537e83bed-amd64-gcc-standard.AppImage",
     "description": "An experimental open-source emulator for Nintendo Switch (yuzu fork, nightly builds)"
   },
   {
@@ -7028,7 +7036,7 @@
     "site": "superfly/flyctl",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flyctl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/flyctl",
-    "version_raw": "https://github.com/superfly/flyctl/releases/download/v0.4.43/flyctl_0.4.43_Linux_x86_64.tar.gz",
+    "version_raw": "https://github.com/superfly/flyctl/releases/download/v0.4.44/flyctl_0.4.44_Linux_x86_64.tar.gz",
     "description": "Command line tools for fly.io services"
   },
   {
@@ -7220,7 +7228,7 @@
     "site": "66HEX/frame",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/frame",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/frame",
-    "version_raw": "https://github.com/66HEX/frame/releases/download/0.28.0/Frame_0.28.0_amd64.AppImage",
+    "version_raw": "https://github.com/66HEX/frame/releases/download/0.29.0/Frame_0.29.0_amd64.AppImage",
     "description": "Fast FFmpeg GUI"
   },
   {
@@ -14276,7 +14284,7 @@
     "site": "https://www.nuclino.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nuclino",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nuclino",
-    "version_raw": "",
+    "version_raw": "1.6.8",
     "description": "Bring knowledge, docs, and projects together in one place"
   },
   {
@@ -19116,7 +19124,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-04-30-5bfec866b16aba9337b58f17d5d3103aad72ce54/shadps4-linux-sdl-2026-04-30-5bfec86.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-04-30-e7d571c8daf3ca97645434fef48563c3eae2edbd/shadps4-linux-sdl-2026-04-30-e7d571c.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -19124,7 +19132,7 @@
     "site": "shadps4-emu/shadps4-qtlauncher",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4-qtlauncher",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4-qtlauncher",
-    "version_raw": "https://github.com/shadps4-emu/shadps4-qtlauncher/releases/download/shadPS4QtLauncher-2026-04-27-76246a327b8805d355738157ea444e4d9a799ea3/shadPS4QtLauncher-linux-qt-2026-04-27-76246a3.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadps4-qtlauncher/releases/download/shadPS4QtLauncher-2026-04-30-c39f5977f667e4fea126a2d6d2ab5cb68efcda6a/shadPS4QtLauncher-linux-qt-2026-04-30-c39f597.zip",
     "description": "The official Qt launcher for shadps4 PlayStation 4 emulator"
   },
   {
@@ -19212,7 +19220,7 @@
     "site": "mltframework/shotcut",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shotcut",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shotcut",
-    "version_raw": "https://github.com/mltframework/shotcut/releases/download/v26.4.6/shotcut-linux-x86_64-26.4.6.AppImage",
+    "version_raw": "https://github.com/mltframework/shotcut/releases/download/v26.4.30/shotcut-linux-x86_64-26.4.30.AppImage",
     "description": "A powerful Video Editor"
   },
   {
@@ -20244,7 +20252,7 @@
     "site": "starship/starship",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/starship",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/starship",
-    "version_raw": "https://github.com/starship/starship/releases/download/v1.25.0/starship-x86_64-unknown-linux-musl.tar.gz",
+    "version_raw": "https://github.com/starship/starship/releases/download/v1.25.1/starship-x86_64-unknown-linux-musl.tar.gz",
     "description": "The minimal, blazing-fast, and infinitely customizable prompt for any shell"
   },
   {
@@ -21116,7 +21124,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.12.0-beta.5.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.6.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -21500,7 +21508,7 @@
     "site": "https://www.thunderbird.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/continuous-stable/Thunderbird-stable-150.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/continuous-stable/Thunderbird-stable-150.0.1-x86_64.AppImage",
     "description": "Free and open source eMail client, Stable"
   },
   {
@@ -21508,7 +21516,7 @@
     "site": "https://www.thunderbird.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-beta",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260429-211302/Thunderbird-beta-151.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260430-210331/Thunderbird-beta-151.0-x86_64.AppImage",
     "description": "Free and open source eMail client, Beta Edition"
   },
   {
@@ -21516,7 +21524,7 @@
     "site": "https://www.thunderbird.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-nightly",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260429-211302/Thunderbird-nightly-152.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260430-210331/Thunderbird-nightly-152.0a1-x86_64.AppImage",
     "description": "Free and open source eMail client, Nightly Edition"
   },
   {
@@ -23236,7 +23244,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "8972067915",
+    "version_raw": "",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -23956,7 +23964,7 @@
     "site": "xonsh/xonsh",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xonsh",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xonsh",
-    "version_raw": "https://github.com/xonsh/xonsh/releases/download/0.23.2/xonsh-x86_64.AppImage",
+    "version_raw": "https://github.com/xonsh/xonsh/releases/download/0.23.3/xonsh-x86_64.AppImage",
     "description": "Python-powered, cross-platform, Unix-gazing shell"
   },
   {
