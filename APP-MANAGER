@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-AMVERSION="10.1-2"
+AMVERSION="10.1-3"
 
 # Determine main repository and branch
 AMREPO="https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main"
@@ -1667,7 +1667,7 @@ _update_print_updated_apps_table() {
 			if (length($3) > new_width) new_width = length($3)
 		}
 		END {
-			header_format = "     %s%-" app_width "s%s  %s%-" old_width "s%s  %s%-" new_width "s%s\n"
+			header_format = "     %s%-" app_width "s%s  %s%-" old_width "s%s  %s%-" new_width "s%s\n\n"
 			row_format = "%2d.  %-" app_width "s  %-" old_width "s  %-" new_width "s\n"
 			printf header_format, blue, app_header, reset, blue, old_header, reset, blue, new_header, reset
 			for (i = 1; i <= NR; i++) {
