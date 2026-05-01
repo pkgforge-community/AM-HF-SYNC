@@ -64,8 +64,8 @@ _check_aisap() {
 		echo $" Error: You can't sandbox $1"
 		return 1
 	elif ! command -v aisap 1>/dev/null && ! command -v sas 1>/dev/null; then
-		printf $'\n%s\n' " ERROR: You need aisap or sas for this script to work"
-		printf $'\n%s\n\n' " NOTE: Only sas can sandbox DWARFS AppImages"
+		printf $'\n%s\n' $" ERROR: You need aisap or sas for this script to work"
+		printf $'\n%s\n\n' $" NOTE: Only sas can sandbox DWARFS AppImages"
 		read -r -p $" ◆ DO YOU WISH TO INSTALL SAS? Install size <5 MiB? (Y/n) " yn
 		case "$yn" in
 			n*|N*) echo $" OPERATION ABORTED!"; return 1;;
@@ -226,7 +226,7 @@ _configure_dirs_access() {
 	if echo "$yn" | grep -i '^y' >/dev/null 2>&1; then
 		echo $"  WARNING: Giving access to all of $HOME or / and similar is not safe"
 		echo $"  Also aisap might not let $1 start when such paths are given"
-		printf $'\033[33m%s\n' "  Type the path to the directory"
+		printf $'\033[33m%s\n' $"  Type the path to the directory"
 		read -r -p $"  Example: /media/external-drive or ~/Backups: " NEWDIR
 		NEWDIR="$(readlink -f "$NEWDIR")"
 		case "$NEWDIR" in
@@ -237,7 +237,7 @@ _configure_dirs_access() {
 				[ "$YES" != "YES" ] && echo $" That's not \"YES\", aborting" && return 1
 				;;
 			'')
-				printf $'\033[31m\n%s\n\n' " No path given, aborting"
+				printf $'\033[31m\n%s\n\n' $" No path given, aborting"
 				return 1
 				;;
 		esac
@@ -245,7 +245,7 @@ _configure_dirs_access() {
 		tmpscript=$(echo "$tmpscript" \
 			| sed "s#--rm-file /NOPATH#--add-file \"$NEWDIR\":rw#g")
 	fi
-	printf $'\n\033[32m%s\n' " User directories access configured successfully!"
+	printf $'\n\033[32m%s\n' $" User directories access configured successfully!"
 }
 
 _install_sandbox_script() {

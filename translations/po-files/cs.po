@@ -127,6 +127,10 @@ msgstr ""
 "%b ⚠️ UPOZORNĚNÍ\\033[0m: \\\"%b%b\\033[0m\\\" není v PATH, lokální aplikace "
 "nemusí běžet.\\n"
 
+#: APP-MANAGER:334
+msgid "ERROR: No sudo or doas found"
+msgstr "CHYBA: sudo ani doas nebylo nalezeno"
+
 #: APP-MANAGER:453
 msgid "\\\"$AMCLIUPPER\\\" $AMVERSION: DEVELOPER MODE"
 msgstr "\\\"$AMCLIUPPER\\\" $AMVERSION: VÝVOJÁŘSKÝ MÓD"
@@ -439,6 +443,12 @@ msgid "   related AppImage is located in an unmounted path of $unmounted_point"
 msgstr ""
 "   související AppImage se nachází v nepřipojené cestě $unmounted_point"
 
+#: APP-MANAGER:1179
+#, fuzzy
+msgid ""
+" ✔ Removed orphaned launchers produced with the \\\"--launcher\\\" option"
+msgstr " ✔ Odstraněny osiřelé spouštěče vytvořené volbou \"--launcher\""
+
 #: APP-MANAGER:1192
 msgid " ✔ Removed obsolete module named \\\"$(basename -- \"$m\")\\\""
 msgstr " ✔ Odstraněn zastaralý modul s názvem \\\"$(basename -- \"$m\")\\\""
@@ -618,6 +628,10 @@ msgstr " Zde není co dělat! \\n"
 #: APP-MANAGER:1690
 msgid " The following apps have been updated:\\n\\n"
 msgstr " Následující aplikace byly aktualizovány:\\n\\n"
+
+#: APP-MANAGER:1695
+msgid " No apps to update here!"
+msgstr " Žádné aplikace k aktualizaci!"
 
 #: APP-MANAGER:1737
 msgid " %b✔\\033[0m $APPNAME is updated, $timelapsed second elapsed! \\n"
@@ -1195,6 +1209,28 @@ msgid ""
 "look for alternatives.\\n\\n"
 msgstr ""
 
+#: modules/database.am:587
+msgid ""
+" AppImages with 🔒 are sandboxed with aisap, versions with 🔒 are locked"
+msgstr ""
+" AppImage s 🔒 jsou sandboxovány pomocí aisap, verze s 🔒 jsou uzamčeny"
+
+#: modules/database.am:589
+msgid " AppImages with 🔒 are sandboxed with aisap"
+msgstr " AppImage s 🔒 jsou sandboxovány pomocí aisap"
+
+#: modules/database.am:591
+msgid " AppImages with 🔒 are sandboxed with sas, versions with 🔒 are locked"
+msgstr " AppImage s 🔒 jsou sandboxovány pomocí sas, verze s 🔒 jsou uzamčeny"
+
+#: modules/database.am:593
+msgid " AppImages with 🔒 are sandboxed with sas"
+msgstr " AppImage s 🔒 jsou sandboxovány pomocí sas"
+
+#: modules/database.am:595
+msgid " Versions with 🔒 are locked"
+msgstr " Verze s 🔒 jsou uzamčeny"
+
 #: modules/database.am:628
 msgid " TOTAL SIZE: $TOTAL_SIZE of disk space in use"
 msgstr " CELKOVÁ VELIKOST: $TOTAL_SIZE využití disku"
@@ -1287,6 +1323,14 @@ msgstr "\\n Výsledky hledání balíčku: %s\\n\\n"
 #: modules/install.am:32
 msgid " Converting %s to an AppMan-compatible script.\\r"
 msgstr " převádím %s na AppMan kompatibilní skript.\\r"
+
+#: modules/install.am:35
+#, fuzzy
+msgid ""
+" 💀 ERROR: \\\"--convert\\\" requires a configuration file in ~/.config/"
+"appman"
+msgstr ""
+" 💀 CHYBA: \"--convert\" vyžaduje konfigurační soubor v ~/.config/appman"
 
 #: modules/install.am:44
 msgid "✖ \\\"$SCRIPTDIR/$arg\\\" already exists!"
@@ -1852,6 +1896,14 @@ msgstr " CHYBA: Není AppImage v sandboxu, ruším"
 msgid " Error: You can't sandbox $1"
 msgstr " Chyba: $1 nelze umístit do sandboxu"
 
+#: modules/sandboxes.am:67
+msgid " ERROR: You need aisap or sas for this script to work"
+msgstr " CHYBA: Pro fungování tohoto skriptu potřebujete aisap nebo sas"
+
+#: modules/sandboxes.am:68
+msgid " NOTE: Only sas can sandbox DWARFS AppImages"
+msgstr " POZNÁMKA: Pouze sas umí sandboxovat DWARFS AppImage"
+
 #: modules/sandboxes.am:69
 msgid " ◆ DO YOU WISH TO INSTALL SAS? Install size <5 MiB? (Y/n) "
 msgstr " ◆ CHCETE NAINSTALOVAT SAS? Velikost instalace <5 MiB? (Y/n) "
@@ -1889,6 +1941,10 @@ msgstr ""
 msgid "  Also aisap might not let $1 start when such paths are given"
 msgstr "  Také aisap možná nenechá spustit $1 s touto cestou"
 
+#: modules/sandboxes.am:229
+msgid "  Type the path to the directory"
+msgstr "  Zadejte cestu k adresáři"
+
 #: modules/sandboxes.am:230
 msgid "  Example: /media/external-drive or ~/Backups: "
 msgstr "  Příklad: /media/external-drive nebo ~/Zálohy: "
@@ -1901,13 +1957,34 @@ msgstr "  PODIVNÉ UMÍSTĚNÍ! JSTE SI JISTI? POKUD ANO NAPIŠTE \\\"YES\\\": "
 msgid " That's not \\\"YES\\\", aborting"
 msgstr " To není \\\"ANO\\\", přerušuji"
 
+#: modules/sandboxes.am:240
+msgid " No path given, aborting"
+msgstr " Nebyla zadána cesta, ruším"
+
 #: modules/sandboxes.am:244
 msgid "  Giving access to \\\"$NEWDIR\\\"..."
 msgstr "  Umožňuji přístup k \\\"$NEWDIR\\\"..."
 
+#: modules/sandboxes.am:248
+msgid " User directories access configured successfully!"
+msgstr " Přístup k uživatelským adresářům byl úspěšně nastaven!"
+
 #: modules/template.am:82 modules/template.am:384 modules/template.am:423
 msgid " ◆ ADD A BRIEF DESCRIPTION FOR THIS APPLICATION $(echo -e '\\n : ')"
 msgstr " ◆ PŘIDAT STRUČNÝ POPIS PRO TUTO APLIKACI $(echo -e '\\n : ')"
+
+#: modules/template.am:111
+#, fuzzy
+msgid ""
+" USE A ONE-LINE COMMAND TO CHECK THE URL TO THE PROGRAM OR THE VERSION\\n\\n "
+"if the URL is fixed, simply add the \\\"echo\\\" command at the "
+"beginning\\n\\n :"
+msgstr ""
+" POUŽIJTE JEDNOŘÁDKOVÝ PŘÍKAZ PRO KONTROLU URL PROGRAMU NEBO VERZE\n"
+"\n"
+" pokud je URL pevná, jednoduše přidejte příkaz \"echo\" na začátek\n"
+"\n"
+" :"
 
 #: modules/template.am:126
 msgid ""
@@ -1937,6 +2014,14 @@ msgstr ""
 msgid " CHOOSE A CATEGORY : "
 msgstr " VYBERTE KATEGORII : "
 
+#: modules/template.am:292 modules/template.am:296
+msgid " Latest release (y) or a generic one (N or leave blank)?"
+msgstr " Nejnovější vydání (y) nebo obecné (N nebo prázdné)?"
+
+#: modules/template.am:308
+msgid " Do you wish to check the link (Y,n)?"
+msgstr " Chcete zkontrolovat odkaz (Y,n)?"
+
 #: modules/template.am:317 modules/template.am:336 modules/template.am:353
 #: modules/template.am:399 modules/template.am:416
 msgid ""
@@ -1945,6 +2030,29 @@ msgid ""
 msgstr ""
 "\\n Adresa URL výše je příklad kam obojí\\n instalační i aktualizační skript "
 "směřují.\\n"
+
+#: modules/template.am:321
+#, fuzzy
+msgid ""
+" If correct, press \\\"ENTER\\\", 1 to add keywords and 2 to remove "
+"keywords: "
+msgstr ""
+" Pokud je správně, stiskněte \"ENTER\", 1 pro přidání klíčových slov a 2 pro "
+"odebrání: "
+
+#: modules/template.am:324
+#, fuzzy
+msgid " URL must contain (\\\"x64\\\", \\\"x86_64\\\"... or leave blank): "
+msgstr " URL musí obsahovat (\"x64\", \"x86_64\"... nebo ponechte prázdné): "
+
+#: modules/template.am:327 modules/template.am:344
+msgid " Do you wish to check the link for the last time (Y,n)?"
+msgstr " Chcete odkaz zkontrolovat naposledy (Y,n)?"
+
+#: modules/template.am:341
+#, fuzzy
+msgid " URL must NOT contain (\\\"txt\\\", \\\"ARM\\\"... or leave blank): "
+msgstr " URL NESMÍ obsahovat (\"txt\", \"ARM\"... nebo ponechte prázdné): "
 
 #: modules/template.am:366
 msgid ""
@@ -2033,6 +2141,11 @@ msgstr " ◆ Chcete přidat spouštěč a ikonu (y,N)? "
 #: modules/template.am:546 modules/template.am:598
 msgid " ◆ COPY/PASTE THE URL OF THE ICON HERE $(echo -e '\\n URL: ')"
 msgstr " ◆ ZKOPÍRUJTE/VLOŽTE ADRESU URL IKONY ZDE $(echo -e '\\n URL: ')"
+
+#: modules/template.am:555
+#, fuzzy
+msgid " ◆ NAME OF THE APP (for the \\\"Name\\\" entry of the .desktop file): "
+msgstr " ◆ NÁZEV APLIKACE (pro položku \"Name\" v souboru .desktop): "
 
 #: modules/template.am:580
 msgid " ◆ NAME OF THE APP: "

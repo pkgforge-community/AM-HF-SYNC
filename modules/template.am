@@ -108,7 +108,7 @@ _edit_script_ending() {
 
 _template_custom_download_url_as_version_variable() {
 	# IF YOU CAN, USE A ONE-LINE COMMAND TO DOWNLOAD THE PROGRAM
-	read -r -ep " USE A ONE-LINE COMMAND TO CHECK THE URL TO THE PROGRAM OR THE VERSION $(echo -e $'\n\n if the URL is fixed, simply add the "echo" command at the beginning\n\n :') " DOWNLOADURL
+	read -r -ep "$(printf $" USE A ONE-LINE COMMAND TO CHECK THE URL TO THE PROGRAM OR THE VERSION\n\n if the URL is fixed, simply add the \"echo\" command at the beginning\n\n :") " DOWNLOADURL
 	case "$DOWNLOADURL" in
 	*)
 		_edit_script_head
@@ -289,11 +289,11 @@ _template_test_github_alt_architectures_url() {
 _template_then_git_repo() {
 	_template_if_git_repo
 	# Set the release as "latest" or keep it generic
-	read -r -p $' Latest release (y) or a generic one (N or leave blank)?' yn
+	read -r -p $" Latest release (y) or a generic one (N or leave blank)?" yn
 	if echo "$yn" | grep -qi "^y"; then
 		warn_about_latest_releases_choice="ARE YOU SURE??? The original project might omit Linux builds from the \"latest\" release section in the future! You might not be able to get any builds at all! Think carefully! Consider using keywords for \"grep\" in the next steps."
 		printf "\n%b%b\033[0m\n\n" "${RED}" "$warn_about_latest_releases_choice" | _fit
-		read -r -p $' Latest release (y) or a generic one (N or leave blank)?' yn
+		read -r -p $" Latest release (y) or a generic one (N or leave blank)?" yn
 		if echo "$yn" | grep -qi "^y"; then
 			setlatest="/latest"
 			sed -i 's#/releases #/releases/latest #g' ./am-scripts/"$MAIN_ARCH"/"$arg"
@@ -305,7 +305,7 @@ _template_then_git_repo() {
 	fi
 	echo "$DIVIDING_LINE"
 	# Check if the URL is correct
-	read -r -p $' Do you wish to check the link (Y,n)?' yn
+	read -r -p $" Do you wish to check the link (Y,n)?" yn
 	if ! echo "$yn" | grep -qi "^n"; then
 		if [ "$templatetype" = 0 ] || [ -z "$templatetype" ]; then
 			GHURLPREVIEW_COMMAND="$CURL_COMMAND_REF_PREVIEW/$RESPONSE/releases$setlatest | sed 's/[()\",{} ]/\n/g' | grep -oi \"https.*download.*mage$\" | grep -vi \"i386\|i686\|armhf\|aarch64\|arm64\|armv7l\" | head -1"
@@ -318,13 +318,13 @@ _template_then_git_repo() {
 	fi
 	echo "$DIVIDING_LINE"
 	# Add/remove keywords or leave blank to skip
-	read -r -p $' If correct, press "ENTER", 1 to add keywords and 2 to remove keywords: ' response
+	read -r -p $" If correct, press \"ENTER\", 1 to add keywords and 2 to remove keywords: " response
 	case "$response" in
 	1)
-		read -r -ep $' URL must contain ("x64", "x86_64"... or leave blank): ' response
+		read -r -ep $" URL must contain (\"x64\", \"x86_64\"... or leave blank): " response
 		if [ -n "$response" ]; then
 			sed -i "s# head -1# grep -i \"$response\" | head -1#g" ./am-scripts/"$MAIN_ARCH"/"$arg"
-			read -r -p $' Do you wish to check the link for the last time (Y,n)?' yn
+			read -r -p $" Do you wish to check the link for the last time (Y,n)?" yn
 			if ! echo "$yn" | grep -qi "^n"; then
 				if [ "$templatetype" = 0 ] || [ -z "$templatetype" ]; then
 					GHURLPREVIEW_COMMAND="$CURL_COMMAND_REF_PREVIEW/$RESPONSE/releases$setlatest | sed 's/[()\",{} ]/\n/g' | grep -oi \"https.*download.*mage$\" | grep -vi \"i386\|i686\|armhf\|aarch64\|arm64\|armv7l\" | grep -i \"$response\" | head -1"
@@ -338,10 +338,10 @@ _template_then_git_repo() {
 		fi
 		;;
 	2)
-		read -r -ep $' URL must NOT contain ("txt", "ARM"... or leave blank): ' response
+		read -r -ep $" URL must NOT contain (\"txt\", \"ARM\"... or leave blank): " response
 		if [ -n "$response" ]; then
 			sed -i "s# head -1# grep -v \"$response\" | head -1#g" ./am-scripts/"$MAIN_ARCH"/"$arg"
-			read -r -p $' Do you wish to check the link for the last time (Y,n)?' yn
+			read -r -p $" Do you wish to check the link for the last time (Y,n)?" yn
 			if ! echo "$yn" | grep -qi "^n"; then
 				if [ "$templatetype" = 0 ] || [ -z "$templatetype" ]; then
 					GHURLPREVIEW_COMMAND="$CURL_COMMAND_REF_PREVIEW/$RESPONSE/releases$setlatest | sed 's/[()\",{} ]/\n/g' | grep -oi \"https.*download.*mage$\" | grep -vi \"i386\|i686\|armhf\|aarch64\|arm64\|armv7l\" | grep -v \"$response\" | head -1"
@@ -552,7 +552,7 @@ for arg in $ARGS; do
 				esac
 				echo "$DIVIDING_LINE"
 				# APPNAME
-				read -r -ep $' ◆ NAME OF THE APP (for the "Name" entry of the .desktop file): ' APPNAME
+				read -r -ep $" ◆ NAME OF THE APP (for the \"Name\" entry of the .desktop file): " APPNAME
 				case "$APPNAME" in
 				*)
 					sed -i "s#APPNAME#$APPNAME#g" ./am-scripts/"$MAIN_ARCH"/"$arg"

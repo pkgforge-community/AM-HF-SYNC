@@ -331,7 +331,7 @@ _am() {
 	elif command -v doas >/dev/null 2>&1; then
 		export SUDOCMD="doas"
 	else
-		echo $'ERROR: No sudo or doas found'
+		echo $"ERROR: No sudo or doas found"
 		exit 1
 	fi
 	APPSPATH="$(readlink -f /opt)"
@@ -1176,7 +1176,7 @@ _clean_launchers() {
 		fi
 		[ -z "$mountpoint_enabled" ] && [ -n "$BINDIR" ] && cd "$BINDIR" && find . -xtype l -delete
 		rm -f "$AMCACHEDIR"/mountpoints
-		echo $' ✔ Removed orphaned launchers produced with the "--launcher" option'
+		echo $" ✔ Removed orphaned launchers produced with the \"--launcher\" option"
 		rmdir "$DATADIR"/"$LAUNCHERS_DIR"/AppImages
 	else
 		[ -n "$BINDIR" ] && cd "$BINDIR" && find . -xtype l -delete
@@ -1692,7 +1692,7 @@ _update_determine_apps_version_changes() {
 			echo ""
 		fi
 	else
-		echo $' No apps to update here!'
+		echo $" No apps to update here!"
 	fi
 }
 

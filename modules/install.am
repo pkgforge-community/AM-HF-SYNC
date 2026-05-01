@@ -32,7 +32,7 @@ _convert_to_appman_compatible_script() {
 		printf $" Converting %s to an AppMan-compatible script.\r" "$arg" && sleep 0.25 &&
 		printf "                                                                           \r"
 	else
-		echo $' 💀 ERROR: "--convert" requires a configuration file in ~/.config/appman'
+		echo $" 💀 ERROR: \"--convert\" requires a configuration file in ~/.config/appman"
 	fi
 }
 

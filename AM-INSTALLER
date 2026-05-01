@@ -43,7 +43,7 @@ _install_am() {
 	elif command -v doas >/dev/null 2>&1; then
 		SUDOCMD="doas"
 	else
-		echo 'ERROR: No sudo or doas found'
+		echo $"ERROR: No sudo or doas found"
 		exit 1
 	fi
 	$SUDOCMD "$CACHEDIR"/INSTALL-AM.sh && rm -f "$CACHEDIR"/INSTALL-AM.sh

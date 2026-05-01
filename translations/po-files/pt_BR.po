@@ -140,6 +140,10 @@ msgstr ""
 "%b ⚠️ AVISO\\033[0m: \\\"%b%b\\033[0m\\\" não está no PATH, apps locais podem "
 "não funcionar.\\n"
 
+#: APP-MANAGER:334
+msgid "ERROR: No sudo or doas found"
+msgstr "ERRO: sudo ou doas não encontrado"
+
 #: APP-MANAGER:453
 msgid "\\\"$AMCLIUPPER\\\" $AMVERSION: DEVELOPER MODE"
 msgstr "\\\"$AMCLIUPPER\\\" $AMVERSION: MODO DESENVOLVEDOR"
@@ -465,6 +469,13 @@ msgstr ""
 "   o AppImage relacionado está localizado em um caminho não montado de "
 "$unmounted_point"
 
+#: APP-MANAGER:1179
+#, fuzzy
+msgid ""
+" ✔ Removed orphaned launchers produced with the \\\"--launcher\\\" option"
+msgstr ""
+" ✔ Lançadores órfãos criados com a opção \"--launcher\" foram removidos"
+
 #: APP-MANAGER:1192
 msgid " ✔ Removed obsolete module named \\\"$(basename -- \"$m\")\\\""
 msgstr " ✔ Módulo obsoleto chamado \\\"$(basename -- \"$m\")\\\" removido"
@@ -656,6 +667,10 @@ msgstr " Nada para fazer aqui! \\n"
 #: APP-MANAGER:1690
 msgid " The following apps have been updated:\\n\\n"
 msgstr " Os seguintes apps foram atualizados:\\n\\n"
+
+#: APP-MANAGER:1695
+msgid " No apps to update here!"
+msgstr " Nenhum app para atualizar!"
 
 #: APP-MANAGER:1737
 msgid " %b✔\\033[0m $APPNAME is updated, $timelapsed second elapsed! \\n"
@@ -1390,6 +1405,29 @@ msgstr ""
 "\\nPor favor, forneça fontes mais atualizadas; caso contrário, remova esses "
 "apps e procure alternativas.\\n\\n"
 
+#: modules/database.am:587
+msgid ""
+" AppImages with 🔒 are sandboxed with aisap, versions with 🔒 are locked"
+msgstr ""
+" AppImages com 🔒 estão em sandbox com aisap, versões com 🔒 estão bloqueadas"
+
+#: modules/database.am:589
+msgid " AppImages with 🔒 are sandboxed with aisap"
+msgstr " AppImages com 🔒 estão em sandbox com aisap"
+
+#: modules/database.am:591
+msgid " AppImages with 🔒 are sandboxed with sas, versions with 🔒 are locked"
+msgstr ""
+" AppImages com 🔒 estão em sandbox com sas, versões com 🔒 estão bloqueadas"
+
+#: modules/database.am:593
+msgid " AppImages with 🔒 are sandboxed with sas"
+msgstr " AppImages com 🔒 estão em sandbox com sas"
+
+#: modules/database.am:595
+msgid " Versions with 🔒 are locked"
+msgstr " Versões com 🔒 estão bloqueadas"
+
 #: modules/database.am:628
 msgid " TOTAL SIZE: $TOTAL_SIZE of disk space in use"
 msgstr " TAMANHO TOTAL: $TOTAL_SIZE de espaço em disco em uso"
@@ -1498,6 +1536,14 @@ msgstr "\\n Resultados de busca para pacotes: %s\\n\\n"
 #: modules/install.am:32
 msgid " Converting %s to an AppMan-compatible script.\\r"
 msgstr " Convertendo %s para um AppMan-compatível script.\\r"
+
+#: modules/install.am:35
+#, fuzzy
+msgid ""
+" 💀 ERROR: \\\"--convert\\\" requires a configuration file in ~/.config/"
+"appman"
+msgstr ""
+" 💀 ERRO: \"--convert\" requer um arquivo de configuração em ~/.config/appman"
 
 #: modules/install.am:44
 msgid "✖ \\\"$SCRIPTDIR/$arg\\\" already exists!"
@@ -2086,6 +2132,14 @@ msgstr " ERRO: Não é um AppImage isolada, abortando"
 msgid " Error: You can't sandbox $1"
 msgstr " Erro: Não é possível isolar $1"
 
+#: modules/sandboxes.am:67
+msgid " ERROR: You need aisap or sas for this script to work"
+msgstr " ERRO: você precisa do aisap ou sas para este script funcionar"
+
+#: modules/sandboxes.am:68
+msgid " NOTE: Only sas can sandbox DWARFS AppImages"
+msgstr " NOTA: apenas o sas pode colocar AppImages DWARFS em sandbox"
+
 #: modules/sandboxes.am:69
 msgid " ◆ DO YOU WISH TO INSTALL SAS? Install size <5 MiB? (Y/n) "
 msgstr " ◆ DESEJA INSTALAR SAS? Tamanho de instalação <5 MiB? (Y/n) "
@@ -2126,6 +2180,10 @@ msgstr ""
 "  Além disso, o aisap pode não permitir $1 seja iniciado quando esses "
 "caminhos forem fornecidos"
 
+#: modules/sandboxes.am:229
+msgid "  Type the path to the directory"
+msgstr "  Digite o caminho para o diretório"
+
 #: modules/sandboxes.am:230
 msgid "  Example: /media/external-drive or ~/Backups: "
 msgstr "  Exemplo: /media/drive-externo ou ~/Backups: "
@@ -2138,14 +2196,35 @@ msgstr "  LOCAL ASSUSTADOR! TEM CERTEZA? SE SIM, DIGITE \\\"YES\\\": "
 msgid " That's not \\\"YES\\\", aborting"
 msgstr " Isso não é \\\"YES\\\", abortando"
 
+#: modules/sandboxes.am:240
+msgid " No path given, aborting"
+msgstr " Nenhum caminho informado, abortando"
+
 #: modules/sandboxes.am:244
 msgid "  Giving access to \\\"$NEWDIR\\\"..."
 msgstr "  Fornecendo acesso para \\\"$NEWDIR\\\"..."
+
+#: modules/sandboxes.am:248
+msgid " User directories access configured successfully!"
+msgstr " Acesso aos diretórios do usuário configurado com sucesso!"
 
 #: modules/template.am:82 modules/template.am:384 modules/template.am:423
 msgid " ◆ ADD A BRIEF DESCRIPTION FOR THIS APPLICATION $(echo -e '\\n : ')"
 msgstr ""
 " ◆ ADICIONE UMA BREVE DESCRIÇÃO PARA ESTA APLICAÇÃO $(echo -e '\\n : ')"
+
+#: modules/template.am:111
+#, fuzzy
+msgid ""
+" USE A ONE-LINE COMMAND TO CHECK THE URL TO THE PROGRAM OR THE VERSION\\n\\n "
+"if the URL is fixed, simply add the \\\"echo\\\" command at the "
+"beginning\\n\\n :"
+msgstr ""
+" USE UM COMANDO DE UMA LINHA PARA VERIFICAR A URL DO PROGRAMA OU A VERSÃO\n"
+"\n"
+" se a URL for fixa, basta adicionar o comando \"echo\" no início\n"
+"\n"
+" :"
 
 #: modules/template.am:126
 msgid ""
@@ -2175,6 +2254,14 @@ msgstr ""
 msgid " CHOOSE A CATEGORY : "
 msgstr " ESCOLHA A CATEGORIA : "
 
+#: modules/template.am:292 modules/template.am:296
+msgid " Latest release (y) or a generic one (N or leave blank)?"
+msgstr " Última versão (y) ou genérica (N ou deixe em branco)?"
+
+#: modules/template.am:308
+msgid " Do you wish to check the link (Y,n)?"
+msgstr " Deseja verificar o link (Y,n)?"
+
 #: modules/template.am:317 modules/template.am:336 modules/template.am:353
 #: modules/template.am:399 modules/template.am:416
 msgid ""
@@ -2183,6 +2270,29 @@ msgid ""
 msgstr ""
 "\\n O URL acima é um exemplo do que os scripts\\n de instalação e "
 "atualização apontarão.\\n"
+
+#: modules/template.am:321
+#, fuzzy
+msgid ""
+" If correct, press \\\"ENTER\\\", 1 to add keywords and 2 to remove "
+"keywords: "
+msgstr ""
+" Se estiver correto, pressione \"ENTER\", 1 para adicionar palavras-chave e "
+"2 para remover: "
+
+#: modules/template.am:324
+#, fuzzy
+msgid " URL must contain (\\\"x64\\\", \\\"x86_64\\\"... or leave blank): "
+msgstr " A URL deve conter (\"x64\", \"x86_64\"... ou deixe em branco): "
+
+#: modules/template.am:327 modules/template.am:344
+msgid " Do you wish to check the link for the last time (Y,n)?"
+msgstr " Deseja verificar o link pela última vez (Y,n)?"
+
+#: modules/template.am:341
+#, fuzzy
+msgid " URL must NOT contain (\\\"txt\\\", \\\"ARM\\\"... or leave blank): "
+msgstr " A URL NÃO deve conter (\"txt\", \"ARM\"... ou deixe em branco): "
 
 #: modules/template.am:366
 msgid ""
@@ -2274,6 +2384,11 @@ msgstr " ◆ Deseja adicionar um iniciador e um ícone (y,N)? "
 #: modules/template.am:546 modules/template.am:598
 msgid " ◆ COPY/PASTE THE URL OF THE ICON HERE $(echo -e '\\n URL: ')"
 msgstr " ◆ COPIE/COLE A URL DO ÍCONE AQUI $(echo -e '\\n URL: ')"
+
+#: modules/template.am:555
+#, fuzzy
+msgid " ◆ NAME OF THE APP (for the \\\"Name\\\" entry of the .desktop file): "
+msgstr " ◆ NOME DO APP (para a entrada \"Name\" do arquivo .desktop): "
 
 #: modules/template.am:580
 msgid " ◆ NAME OF THE APP: "
