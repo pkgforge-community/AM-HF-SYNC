@@ -9612,7 +9612,7 @@
     "site": "https://infra.app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/infra-app",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/infra-app",
-    "version_raw": "0.47.0",
+    "version_raw": "",
     "description": "Infra App for Linux"
   },
   {
@@ -11788,7 +11788,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.22_251203_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.28_260429_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -12460,7 +12460,7 @@
     "site": "https://www.mathcha.io/notebook/",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mathcha-notebook",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mathcha-notebook",
-    "version_raw": "1.0.450",
+    "version_raw": "",
     "description": "Desktop version of Mathcha, built for your privacy"
   },
   {
@@ -20460,7 +20460,7 @@
     "site": "https://gitlab.com/posktomten/streamcapture2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/streamcapture2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/streamcapture2",
-    "version_raw": "",
+    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=KlLGvcfprRx",
     "description": "Download video streams"
   },
   {
@@ -23236,7 +23236,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "9018320376",
+    "version_raw": "9019942735",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -23560,14 +23560,6 @@
     "description": "Wallpaper manager for Linux"
   },
   {
-    "pkg": "woocommerce-pos",
-    "site": "wcpos/electron",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/woocommerce-pos",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/woocommerce-pos",
-    "version_raw": "",
-    "description": "Electron Desktop App for WooCommerce POS"
-  },
-  {
     "pkg": "woof-doom",
     "site": "fabiangreffrath/woof",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/woof-doom",
@@ -23590,14 +23582,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wooting-analog-midi",
     "version_raw": "https://github.com/WootingKb/wooting-analog-midi/releases/download/v0.2.2/wooting-analog-midi_0.2.2_amd64.AppImage",
     "description": "Virtual MIDI device for, Wooting analog keyboards"
-  },
-  {
-    "pkg": "wootomation",
-    "site": "WootingKb/wooting-macros",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wootomation",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wootomation",
-    "version_raw": "https://github.com/WootingKb/wooting-macros/releases/download/v1.1.0/wootomation_1.1.0_amd64.AppImage",
-    "description": "The official Wooting Macros software"
   },
   {
     "pkg": "wora",
@@ -23864,14 +23848,6 @@
     "description": "Unofficial, a follow the mouse X demo, using the X SHAPE extension"
   },
   {
-    "pkg": "xgetter",
-    "site": "xgetter-team/xgetter",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xgetter",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xgetter",
-    "version_raw": "https://github.com/xgetter-team/xgetter/releases/download/v1.7.5/XGetter_1.7.5_amd64.AppImage",
-    "description": "Download video on Youtube, Facebook, X(Twitter), Instagram, Tiktok, Bilibili, Douyin and more"
-  },
-  {
     "pkg": "xilinota",
     "site": "XilinJia/Xilinota",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xilinota",
@@ -23966,14 +23942,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xopcodecalc",
     "version_raw": "https://github.com/horsicq/XOpcodeCalc/releases/download/0.05/XOpcodeCalc-0.05-x86_64.AppImage",
     "description": "Opcode calculator / ASM calculator"
-  },
-  {
-    "pkg": "xoreos",
-    "site": "pkgforge-dev/xoreos-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xoreos",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xoreos",
-    "version_raw": "https://github.com/pkgforge-dev/xoreos-AppImage/releases/download/89c99d2a9%402026-04-22_1776858149/xoreos-89c99d2a9-anylinux-x86_64.AppImage",
-    "description": "Unofficial, A reimplementation of BioWare's Aurora engine"
   },
   {
     "pkg": "xournal++",
@@ -24326,14 +24294,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ytarchive",
     "version_raw": "https://github.com/Kethsar/ytarchive/releases/download/latest/ytarchive_linux_amd64.zip",
     "description": "Garbage Youtube livestream downloader CLI"
-  },
-  {
-    "pkg": "ytdownloader",
-    "site": "aandrew-me/ytDownloader",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ytdownloader",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ytdownloader",
-    "version_raw": "https://github.com/aandrew-me/ytDownloader/releases/download/v3.20.2/YTDownloader_Linux.AppImage",
-    "description": "App for downloading Videos and Audios from hundreds of sites"
   },
   {
     "pkg": "ytermusic",
