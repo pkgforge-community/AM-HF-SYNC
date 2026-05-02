@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-AMVERSION="10.1-3"
+AMVERSION="10.1-4"
 
 # Determine main repository and branch
 AMREPO="https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main"
@@ -831,7 +831,19 @@ fi
 _check_version_filters() {
 	awk '
 	{
-		# 1. Best: full version (supports X.Y.Z OR X.Y-Z)
+		# 0. r1234.hash-1 style
+		if (match($0, /r[0-9]+\.[0-9a-f]+-[0-9]+/)) {
+			print substr($0, RSTART, RLENGTH)
+			exit
+		}
+
+		# 0b. 123-hash style
+		if (match($0, /[0-9]+-[0-9a-f]{7,}/)) {
+			print substr($0, RSTART, RLENGTH)
+			exit
+		}
+
+		# 1. Full semantic version (X.Y.Z or similar)
 		if (match($0, /v?[0-9]+(\.[0-9]+){1,}(-[0-9]+(-g[0-9a-f]+)?)?/)) {
 			print substr($0, RSTART, RLENGTH)
 			exit
