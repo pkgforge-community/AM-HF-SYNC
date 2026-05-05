@@ -420,7 +420,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.776/alma-0.0.776-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.777/alma-0.0.777-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -2612,7 +2612,7 @@
     "site": "http://c-evo.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/c-evo",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/c-evo",
-    "version_raw": "https://svn.zdechov.net/c-evo/bin/appimage/C-evo-nh-1.3.9-x86_64.AppImage",
+    "version_raw": "https://svn.zdechov.net/c-evo/bin/appimage/",
     "description": "C-evo is an empire building game based on Civilization II, but with a different focus. It aims to be a pure game with all players playing to win"
   },
   {
@@ -5136,6 +5136,14 @@
     "description": "Run DOS programs under linux"
   },
   {
+    "pkg": "dotline",
+    "site": "thedogecraft/dotline",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dotline",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dotline",
+    "version_raw": "https://github.com/thedogecraft/dotline/releases/download/v0.3.1/dotline-0.3.1.AppImage",
+    "description": "A modern crosshair overlay app"
+  },
+  {
     "pkg": "dotto",
     "site": "LibreSprite/Dotto",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dotto",
@@ -5734,14 +5742,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/electrum",
     "version_raw": "https://download.electrum.org/4.7.2/electrum-4.7.2-x86_64.AppImage",
     "description": "Lightweight Bitcoin Client"
-  },
-  {
-    "pkg": "electrum-ltc",
-    "site": "https://electrum-ltc.org",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/electrum-ltc",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/electrum-ltc",
-    "version_raw": "https://electrum-ltc.org/download/",
-    "description": "A simple, but powerful Litecoin wallet"
   },
   {
     "pkg": "electrum-neurai",
@@ -7296,6 +7296,14 @@
     "description": "Assembly3 workbench for FreeCAD"
   },
   {
+    "pkg": "freecad-weekly",
+    "site": "FreeCAD/FreeCAD",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/freecad-weekly",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/freecad-weekly",
+    "version_raw": "https://github.com/FreeCAD/FreeCAD/releases/download/weekly-2026.04.29/FreeCAD_weekly-2026.04.29-Linux-x86_64.AppImage",
+    "description": "Official developmet build of FreeCAD, a free and opensource multiplatform 3D parametric modeler"
+  },
+  {
     "pkg": "freefilesync",
     "site": "hkneptune/FreeFileSync",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/freefilesync",
@@ -7516,7 +7524,7 @@
     "site": "Kesomannen/gale",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gale",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gale",
-    "version_raw": "https://github.com/Kesomannen/gale/releases/download/1.13.2/Gale_1.13.2_amd64.AppImage",
+    "version_raw": "https://github.com/Kesomannen/gale/releases/download/1.13.3/Gale_1.13.3_amd64.AppImage",
     "description": "A modern mod manager for Thunderstore"
   },
   {
@@ -7764,7 +7772,7 @@
     "site": "https://sourceforge.net/p/gemrb",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gemrb",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gemrb",
-    "version_raw": "https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/Linux/GemRB-2026-05-04-master-d6a89f8989-x86_64.AppImage/download",
+    "version_raw": "https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/Linux/GemRB-2026-05-05-master-32a075f426-x86_64.AppImage/download",
     "description": "GemRB is a portable open-source implementation of Bioware's Infinity Engine"
   },
   {
@@ -9620,7 +9628,7 @@
     "site": "https://infra.app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/infra-app",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/infra-app",
-    "version_raw": "",
+    "version_raw": "0.47.0",
     "description": "Infra App for Linux"
   },
   {
@@ -12668,7 +12676,7 @@
     "site": "Kyuyrii/Meganimus",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/meganimus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/meganimus",
-    "version_raw": "https://github.com/Kyuyrii/Meganimus/releases/download/4.2/Meganimus-x86_64.AppImage",
+    "version_raw": "https://github.com/Kyuyrii/Meganimus/releases/download/4.3/Meganimus-x86_64.AppImage",
     "description": "A launcher for native and emulator games"
   },
   {
@@ -16804,7 +16812,7 @@
     "site": "https://printventory.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/printventory",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/printventory",
-    "version_raw": "https://printventory.techjeeper.com/printventory-2.1.2.AppImage",
+    "version_raw": "https://printventory.techjeeper.com/printventory-2.1.3.AppImage",
     "description": "The ultimate tool for managing your 3D printing collection with ease. Sort, tag, and track your models in one place"
   },
   {
@@ -17324,7 +17332,7 @@
     "site": "pbek/QOwnNotes",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qownnotes",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qownnotes",
-    "version_raw": "https://github.com/pbek/QOwnNotes/releases/download/continuous/QOwnNotes-x86_64.AppImage",
+    "version_raw": "https://github.com/pbek/QOwnNotes/releases/download/v26.5.3/QOwnNotes-x86_64.AppImage",
     "description": "Plain text notepad and todo list manager"
   },
   {
@@ -17588,7 +17596,7 @@
     "site": "TryQuiet/quiet",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quiet",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quiet",
-    "version_raw": "https://github.com/TryQuiet/quiet/releases/download/%40quiet/desktop%407.1.0-alpha.23/Quiet-7.1.0-alpha.23.AppImage",
+    "version_raw": "https://github.com/TryQuiet/quiet/releases/download/%40quiet/desktop%407.1.0-alpha.24/Quiet-7.1.0-alpha.24.AppImage",
     "description": "A private, p2p alternative to Slack and Discord built on Tor & IPFS"
   },
   {
@@ -18300,7 +18308,7 @@
     "site": "project-robius/robrix",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/robrix",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/robrix",
-    "version_raw": "https://github.com/project-robius/robrix/releases/download/v0.0.1-pre-alpha-4/robrix_0.0.1-pre-alpha-4_x86_64.AppImage",
+    "version_raw": "https://github.com/project-robius/robrix/releases/download/v1.0.0-alpha.1/Robrix-1.0.0-alpha.1-Linux-x86_64.AppImage",
     "description": "A multi-platform Matrix chat client written in Rust, using the Makepad UI toolkit and the Robius app dev framework"
   },
   {
@@ -20644,7 +20652,7 @@
     "site": "https://sunsama.com/",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sunsama",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sunsama",
-    "version_raw": "3.4.3",
+    "version_raw": "3.4.4",
     "description": "The daily planner for elite professionals"
   },
   {
@@ -20716,7 +20724,7 @@
     "site": "https://supernotes.app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/supernotes",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/supernotes",
-    "version_raw": "",
+    "version_raw": "3.2.4",
     "description": "Enjoy efficient note-taking without the hassle"
   },
   {
@@ -22940,7 +22948,7 @@
     "site": "https://vrew.ai",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vrew",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vrew",
-    "version_raw": "4.0.1",
+    "version_raw": "",
     "description": "Your first video editor, your easiest choice"
   },
   {
@@ -23252,7 +23260,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "9111447551",
+    "version_raw": "9114537909",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -23748,7 +23756,7 @@
     "site": "Voxelum/x-minecraft-launcher",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/x-minecraft-launcher",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/x-minecraft-launcher",
-    "version_raw": "https://github.com/Voxelum/x-minecraft-launcher/releases/download/v0.54.4/xmcl-0.54.4-x86_64.AppImage",
+    "version_raw": "https://github.com/Voxelum/x-minecraft-launcher/releases/download/v0.54.5/xmcl-0.54.5-x86_64.AppImage",
     "description": "An Open Source Minecraft Launcher with Modern UX"
   },
   {
@@ -23972,7 +23980,7 @@
     "site": "xonsh/xonsh",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xonsh",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xonsh",
-    "version_raw": "https://github.com/xonsh/xonsh/releases/download/0.23.4/xonsh-x86_64.AppImage",
+    "version_raw": "https://github.com/xonsh/xonsh/releases/download/0.23.5/xonsh-x86_64.AppImage",
     "description": "Python-powered, cross-platform, Unix-gazing shell"
   },
   {
