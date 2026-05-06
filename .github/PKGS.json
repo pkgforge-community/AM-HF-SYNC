@@ -56,6 +56,14 @@
     "description": "5ire is a cross-platform desktop AI assistant, MCP client. It compatible with major service providers, supports local knowledge base and tools via model context protocol servers"
   },
   {
+    "pkg": "7z",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/7z",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/7z",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Archiver with a high compression ratio. This is part of am-utils suite"
+  },
+  {
     "pkg": "7zip",
     "site": "https://www.7-zip.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/7zip",
@@ -228,7 +236,7 @@
     "site": "toeverything/AFFiNE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine-canary",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine-canary",
-    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2026.4.10-canary.928/affine-2026.4.10-canary.928-canary-linux-x64.appimage",
+    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2026.5.6-canary.947/affine-2026.5.6-canary.947-canary-linux-x64.appimage",
     "description": "Next-gen knowledge base that brings planning/sorting/creating"
   },
   {
@@ -420,7 +428,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.778/alma-0.0.778-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.781/alma-0.0.781-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -988,7 +996,7 @@
     "site": "aptakube/aptakube",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aptakube",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aptakube",
-    "version_raw": "https://github.com/aptakube/aptakube/releases/download/1.16.4/aptakube_1.16.4_amd64.AppImage",
+    "version_raw": "https://github.com/aptakube/aptakube/releases/download/1.16.5/aptakube_1.16.5_amd64.AppImage",
     "description": "A modern and lightweight Kubernetes desktop client"
   },
   {
@@ -1006,6 +1014,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/apx-gcs",
     "version_raw": "https://github.com/uavos/apx-gcs/releases/download/release-11.2.24/APX_Ground_Control-11.2.24-linux-x86_64.AppImage",
     "description": "APX Ground Control"
+  },
+  {
+    "pkg": "ar",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ar",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ar",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Create, modify, and extract from .deb archives. This is part of am-utils suite"
   },
   {
     "pkg": "aranym",
@@ -1574,6 +1590,22 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/barnacal",
     "version_raw": "https://github.com/mike-engel/Barnacal/releases/download/v0.9.4/Barnacal-0.9.4.AppImage",
     "description": "A simple menu bar app for viewing a calendar"
+  },
+  {
+    "pkg": "base64",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/base64",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/base64",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Base64 encode/decode data and print to standard. This is part of am-utils suite"
+  },
+  {
+    "pkg": "basename",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/basename",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/basename",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Strip directory and suffix from filenames. This is part of am-utils suite"
   },
   {
     "pkg": "basilisk2",
@@ -2608,6 +2640,14 @@
     "description": "Bytespeicher Status App"
   },
   {
+    "pkg": "bzip2",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bzip2",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bzip2",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "A high-quality data compression program. This is part of am-utils suite"
+  },
+  {
     "pkg": "c-evo",
     "site": "http://c-evo.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/c-evo",
@@ -2862,6 +2902,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/castersoundboard",
     "version_raw": "https://github.com/covarianttensor/CasterSoundboard/releases/download/continuous/CasterSoundboard-1a84315-x86_64.AppImage",
     "description": "Soundboard for hot-keying and playing back sounds"
+  },
+  {
+    "pkg": "cat",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cat",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cat",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Concatenate files and print on the standard output. This is part of am-utils suite"
   },
   {
     "pkg": "catacombgl",
@@ -3168,6 +3216,22 @@
     "description": "Simple, fast and flexible DIY Remote Desktop software"
   },
   {
+    "pkg": "chmod",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chmod",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chmod",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Change file mode bits. This is part of am-utils suite"
+  },
+  {
+    "pkg": "chown",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chown",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chown",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Change file owner and group. This is part of am-utils suite"
+  },
+  {
     "pkg": "chromium",
     "site": "ivan-hc/Chromium-Web-Browser-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chromium",
@@ -3206,6 +3270,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chromium-rc",
     "version_raw": "https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-candidate-147.0.7727.137-x86_64.AppImage",
     "description": "Unofficial. FOSS Web Browser, base of Google Chrome, release candidate"
+  },
+  {
+    "pkg": "chroot",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chroot",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chroot",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Run command or interactive shell with special root. This is part of am-utils suite"
   },
   {
     "pkg": "chrysalis-bin",
@@ -3358,6 +3430,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/claude-desktop",
     "version_raw": "https://github.com/aaddrick/claude-desktop-debian/releases/download/v2.0.10%2Bclaude1.6259.0/claude-desktop-1.6259.0-2.0.10-amd64.AppImage",
     "description": "Claude Desktop for Debian-based Linux distributions"
+  },
+  {
+    "pkg": "clear",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clear",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/clear",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Clear the terminal screen. This is part of am-utils suite"
   },
   {
     "pkg": "cleepdesktop",
@@ -3606,6 +3686,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/colorstatic-bash",
     "version_raw": "https://github.com/Lateralus138/colorstatic-bash/releases/download/Continuous/colorstatic.AppImage",
     "description": "CLI to generate a random colorful Static/Matrix"
+  },
+  {
+    "pkg": "column",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/column",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/column",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Columnate lists. This is part of am-utils suite"
   },
   {
     "pkg": "comic-book-reader",
@@ -4000,6 +4088,14 @@
     "description": "File Synchronisation for Cozy, cloud"
   },
   {
+    "pkg": "cp",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cp",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cp",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Copy files and directories. This is part of am-utils suite"
+  },
+  {
     "pkg": "cpeditor",
     "site": "cpeditor/cpeditor",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cpeditor",
@@ -4140,7 +4236,7 @@
     "site": "schollz/croc",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/croc",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/croc",
-    "version_raw": "https://github.com/schollz/croc/releases/download/v10.4.2/croc_v10.4.2_Linux-64bit.tar.gz",
+    "version_raw": "https://github.com/schollz/croc/releases/download/v10.4.3/croc_v10.4.3_Linux-64bit.tar.gz",
     "description": "Easily and securely send things from one computer to another"
   },
   {
@@ -4300,7 +4396,7 @@
     "site": "https://sourceforge.net/p/cudatext",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cudatext",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cudatext",
-    "version_raw": "https://sourceforge.net/projects/cudatext/files/release/1.234.2.0/cudatext-linux-qt5-arm-1.234.2.0.tar.xz/download",
+    "version_raw": "https://sourceforge.net/projects/cudatext/files/release/1.234.3.0/cudatext-linux-qt6-amd64-1.234.3.0.tar.xz/download",
     "description": "A cross-platform text editor, written in Object Pascal"
   },
   {
@@ -4318,6 +4414,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cura-beta",
     "version_raw": "https://github.com/Ultimaker/Cura/releases/download/5.12.0-beta.1/UltiMaker-Cura-5.12.0-beta.1-linux-X64.AppImage",
     "description": "An open source slicing application for 3D printers, beta"
+  },
+  {
+    "pkg": "curl",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/curl",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/curl",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Command line tool and library for transferring data with URLs. This is part of am-utils suite"
   },
   {
     "pkg": "curlie",
@@ -4358,6 +4462,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/customrpc",
     "version_raw": "https://github.com/Pepijn98/CustomRPC/releases/download/v0.0.1/custom-rpc_0.0.1.AppImage",
     "description": "An electron-vue project"
+  },
+  {
+    "pkg": "cut",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cut",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cut",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "From each line of files. This is part of am-utils suite"
   },
   {
     "pkg": "cutechess",
@@ -4540,7 +4652,7 @@
     "site": "dbgate/dbgate",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dbgate",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dbgate",
-    "version_raw": "https://github.com/dbgate/dbgate/releases/download/v7.1.11-premium-beta.1/dbgate-premium-7.1.11-premium-beta.1-linux_x86_64.AppImage",
+    "version_raw": "https://github.com/dbgate/dbgate/releases/download/v7.1.11/dbgate-7.1.11-linux_x86_64.AppImage",
     "description": "Opensource database administration tool"
   },
   {
@@ -4548,7 +4660,7 @@
     "site": "dbgate/dbgate",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dbgate-premium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dbgate-premium",
-    "version_raw": "https://github.com/dbgate/dbgate/releases/download/v7.1.11-premium-beta.1/dbgate-premium-7.1.11-premium-beta.1-linux_x86_64.AppImage",
+    "version_raw": "https://github.com/dbgate/dbgate/releases/download/v7.1.11/dbgate-7.1.11-linux_x86_64.AppImage",
     "description": "Opensource database administration tool (premium version)"
   },
   {
@@ -4558,6 +4670,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dbin",
     "version_raw": "https://github.com/xplshn/dbin/releases/download/1.7/dbin_amd64",
     "description": "Poor man's package manager. About 3000 statically linked binaries in the repos!"
+  },
+  {
+    "pkg": "dd",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dd",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dd",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Convert and copy a file. This is part of am-utils suite"
   },
   {
     "pkg": "deadbeef",
@@ -4896,6 +5016,14 @@
     "description": "Detect It Easy, a program for determining types of files"
   },
   {
+    "pkg": "diff",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/diff",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/diff",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Compare files line by line. This is part of am-utils suite"
+  },
+  {
     "pkg": "diffuse",
     "site": "icidasset/diffuse",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/diffuse",
@@ -4950,6 +5078,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dione",
     "version_raw": "https://github.com/dioneapp/dioneapp/releases/download/v1.1.3/Dione-1.1.3-Installer-Linux.AppImage",
     "description": "Explore, Install, Innovate — in 1 Click"
+  },
+  {
+    "pkg": "dirname",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dirname",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dirname",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Strip last component from file name. This is part of am-utils suite"
   },
   {
     "pkg": "disass",
@@ -5328,6 +5464,14 @@
     "description": "CLI to compute difference between date, time or duration"
   },
   {
+    "pkg": "du",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/du",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/du",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Estimate file space usage. This is part of am-utils suite"
+  },
+  {
     "pkg": "dua",
     "site": "Byron/dua-cli",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dua",
@@ -5502,6 +5646,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ecency-surfer",
     "version_raw": "https://github.com/ecency/ecency-vision/releases/download/3.0.35/Ecency-3.0.35.AppImage",
     "description": "Rewarding communities built, owned and operated by its users"
+  },
+  {
+    "pkg": "echo",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/echo",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/echo",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Display a line of text. This is part of am-utils suite"
   },
   {
     "pkg": "ecode",
@@ -5940,7 +6092,7 @@
     "site": "ente-io/ente",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ente-auth",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ente-auth",
-    "version_raw": "https://github.com/ente-io/ente/releases/download/auth-v4.4.22/ente-auth-v4.4.22-x86_64.AppImage",
+    "version_raw": "https://github.com/ente-io/ente/releases/download/auth-v4.4.23-beta/ente-auth-v4.4.23-beta-x86_64.AppImage",
     "description": "Fully open source, End to End Encrypted alternative to Google Photos and Apple Photos"
   },
   {
@@ -6624,6 +6776,14 @@
     "description": "First interface design tool based in the browser, graphics"
   },
   {
+    "pkg": "file",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/file",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/file",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Determine the type of a file from its contents. This is part of am-utils suite"
+  },
+  {
     "pkg": "file-commander",
     "site": "VioletGiraffe/file-commander",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/file-commander",
@@ -7104,6 +7264,14 @@
     "description": "Simple fullscreen word processor"
   },
   {
+    "pkg": "fold",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fold",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fold",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Wrap each input line to fit in specified width. This is part of am-utils suite"
+  },
+  {
     "pkg": "folo",
     "site": "RSSNext/Folo",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/folo",
@@ -7372,7 +7540,7 @@
     "site": "sinelaw/fresh",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fresh",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fresh",
-    "version_raw": "https://github.com/sinelaw/fresh/releases/download/v0.3.4/fresh-editor-0.3.4-x86_64.AppImage",
+    "version_raw": "https://github.com/sinelaw/fresh/releases/download/v0.3.5/fresh-editor-0.3.5-x86_64.AppImage",
     "description": "Text editor for your terminal: easy, powerful and fast"
   },
   {
@@ -7608,6 +7776,14 @@
     "description": "Minimalist task launcher"
   },
   {
+    "pkg": "gawk",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gawk",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gawk",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "GNU version of awk. This is part of am-utils suite"
+  },
+  {
     "pkg": "gcap2025",
     "site": "pkgforge-dev/GCAP2025-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gcap2025",
@@ -7644,7 +7820,7 @@
     "site": "4ian/GDevelop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gdevelop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gdevelop",
-    "version_raw": "https://github.com/4ian/GDevelop/releases/download/v5.6.266/GDevelop-5-5.6.266.AppImage",
+    "version_raw": "https://github.com/4ian/GDevelop/releases/download/v5.6.267/GDevelop-5-5.6.267.AppImage",
     "description": "Cross-platform game engine designed to be used by everyone"
   },
   {
@@ -8696,6 +8872,14 @@
     "description": "Client for xCloud and Xbox home streaming made in Typescript"
   },
   {
+    "pkg": "grep",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/grep",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/grep",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "A string search utility. This is part of am-utils suite"
+  },
+  {
     "pkg": "gridcoin-research",
     "site": "gridcoin-community/Gridcoin-Research",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gridcoin-research",
@@ -9016,6 +9200,14 @@
     "description": "Merge several raw images into a single DNG raw image"
   },
   {
+    "pkg": "head",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/head",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/head",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Output the first part of files. This is part of am-utils suite"
+  },
+  {
     "pkg": "heat1d",
     "site": "ARPA-SIMC/CRITERIA1D",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/heat1d",
@@ -9140,7 +9332,7 @@
     "site": "heyman/heynote",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/heynote",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/heynote",
-    "version_raw": "https://github.com/heyman/heynote/releases/download/v2.9.0-beta.6/Heynote_2.9.0-beta.6_x86_64.AppImage",
+    "version_raw": "https://github.com/heyman/heynote/releases/download/v2.9.0/Heynote_2.9.0_x86_64.AppImage",
     "description": "A dedicated scratchpad for developers"
   },
   {
@@ -9446,6 +9638,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/icestudio",
     "version_raw": "https://github.com/FPGAwars/icestudio/releases/download/v0.12/icestudio-0.12-linux64.AppImage",
     "description": "A real gamechanger in the world of Open Source FPGAs"
+  },
+  {
+    "pkg": "id",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/id",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/id",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Print real and effective user and group IDs. This is part of am-utils suite"
   },
   {
     "pkg": "identity",
@@ -10832,6 +11032,22 @@
     "description": "Play music from youtube on desktop. Supports local api, invidious and piped as source"
   },
   {
+    "pkg": "kill",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kill",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kill",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Terminate a process. This is part of am-utils suite"
+  },
+  {
+    "pkg": "killall",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/killall",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/killall",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Kill processes by name. This is part of am-utils suite"
+  },
+  {
     "pkg": "killbots",
     "site": "ivan-hc/KDE-games-suite-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/killbots",
@@ -10908,7 +11124,7 @@
     "site": "https://kiwix.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kiwix",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kiwix",
-    "version_raw": "https://mirror2.download.kiwix.org/release/kiwix-desktop/kiwix-desktop_x86_64.appimage",
+    "version_raw": "https://mirror.download.kiwix.org/release/kiwix-desktop/kiwix-desktop_x86_64.appimage",
     "description": "An offline reader for Web content, primarily designed to make Wikipedia available offline. It reads archives in the ZIM file format, a highly compressed open format with additional metadata"
   },
   {
@@ -11592,6 +11808,14 @@
     "description": "An unofficial Reshade Installer for Linux"
   },
   {
+    "pkg": "less",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/less",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/less",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "A terminal based program for viewing text files. This is part of am-utils suite"
+  },
+  {
     "pkg": "lets-bend",
     "site": "egdels/bluesharpbendingapp",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lets-bend",
@@ -11912,11 +12136,19 @@
     "description": "Experimenting with local and open-source Large Language Models"
   },
   {
+    "pkg": "ln",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ln",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ln",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Make links between files. This is part of am-utils suite"
+  },
+  {
     "pkg": "lobe-chat",
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.1.57-canary.13/LobeHub-2.1.57-canary.13.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.1.57-canary.14/LobeHub-2.1.57-canary.14.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -12062,6 +12294,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lpub3d",
     "version_raw": "https://github.com/trevorsandy/lpub3d/releases/download/continuous/LPub3D-2.4.9.86.4133_20250319-x86_64.AppImage",
     "description": "An LDraw Building Instruction Editor"
+  },
+  {
+    "pkg": "ls",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ls",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ls",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "List directory contents. This is part of am-utils suite"
   },
   {
     "pkg": "lsd",
@@ -12476,7 +12716,7 @@
     "site": "https://www.mathcha.io/notebook/",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mathcha-notebook",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mathcha-notebook",
-    "version_raw": "",
+    "version_raw": "1.0.451",
     "description": "Desktop version of Mathcha, built for your privacy"
   },
   {
@@ -12494,6 +12734,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mattermost-desktop",
     "version_raw": "https://github.com/mattermost/desktop/releases/download/v6.1.2/mattermost-desktop-6.1.2-linux-x86_64.AppImage",
     "description": "Secure collaboration across entire software development"
+  },
+  {
+    "pkg": "mawk",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mawk",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mawk",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "And text processing language. This is part of am-utils suite"
   },
   {
     "pkg": "mayo",
@@ -12542,6 +12790,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mcpodcast",
     "version_raw": "https://github.com/AlMcKinlay/McPodcast/releases/download/v0.7.0/McPodcast-0.7.0.AppImage",
     "description": "Electron app for tasks around Podcast mp3 files"
+  },
+  {
+    "pkg": "md5sum",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/md5sum",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/md5sum",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Compute and check MD5 message digest. This is part of am-utils suite"
   },
   {
     "pkg": "mdcat",
@@ -12852,7 +13108,7 @@
     "site": "ivan-hc/MS-Edge-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/microsoft-edge-dev",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/microsoft-edge-dev",
-    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-dev-149.0.3993.0-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-dev-149.0.4009.0-1-x86_64.AppImage",
     "description": "Web Browser provided by Microsoft, Developer Edition"
   },
   {
@@ -13038,6 +13294,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mk",
     "version_raw": "https://github.com/orangekame3/mk/releases/download/v0.0.16/mk_0.0.16_linux_amd64.tar.gz",
     "description": "Interactive Task Runner for Makefile"
+  },
+  {
+    "pkg": "mkdir",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mkdir",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mkdir",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Make directories. This is part of am-utils suite"
   },
   {
     "pkg": "mki3dgame",
@@ -13240,12 +13504,28 @@
     "description": "Music player capable of playing local audio or from Youtube/Spotify"
   },
   {
+    "pkg": "more",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/more",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/more",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Display the contents of a file in a terminal. This is part of am-utils suite"
+  },
+  {
     "pkg": "motrix",
     "site": "agalwood/Motrix",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/motrix",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/motrix",
     "version_raw": "https://github.com/agalwood/Motrix/releases/download/v1.8.19/Motrix-1.8.19.AppImage",
     "description": "A full-featured download manager"
+  },
+  {
+    "pkg": "mount",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mount",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mount",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Mount a filesystem. This is part of am-utils suite"
   },
   {
     "pkg": "mousai",
@@ -13510,6 +13790,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/muwire",
     "version_raw": "https://github.com/zlatinb/muwire/releases/download/0.8.13-beta5/MuWire-0.8.13-beta5.AppImage",
     "description": "A file sharing client for I2P"
+  },
+  {
+    "pkg": "mv",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mv",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mv",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Move (rename) files. This is part of am-utils suite"
   },
   {
     "pkg": "my-budget",
@@ -14216,6 +14504,14 @@
     "description": "Private note-taking app that encrypts everything on client side"
   },
   {
+    "pkg": "notify-send",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/notify-send",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/notify-send",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "A program to send desktop notifications. This is part of am-utils suite"
+  },
+  {
     "pkg": "novelwriter",
     "site": "vkbo/novelwriter",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/novelwriter",
@@ -14796,7 +15092,7 @@
     "site": "open-webui/desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/open-webui",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/open-webui",
-    "version_raw": "https://github.com/open-webui/desktop/releases/download/v0.0.18/open-webui_x86_64.AppImage",
+    "version_raw": "https://github.com/open-webui/desktop/releases/download/v0.0.20/open-webui_x86_64.AppImage",
     "description": "Your AI, right on your desktop. Open WebUI as a native app. Run models locally or connect to any server. No Docker, no terminal, no setup. Download, launch, chat"
   },
   {
@@ -15540,7 +15836,7 @@
     "site": "Scille/parsec-cloud",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parsec",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parsec",
-    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.8.2-a.0.dev.20578%2B28ef89c_linux_x86_64.unsigned.AppImage",
+    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/v3.9.0-rc.0/Parsec_3.9.0-rc.0_linux_x86_64.unsigned.AppImage",
     "description": "Open source Dropbox-like file sharing with full client encryption"
   },
   {
@@ -16816,6 +17112,14 @@
     "description": "A printer client"
   },
   {
+    "pkg": "printf",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/printf",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/printf",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Format and print data. This is part of am-utils suite"
+  },
+  {
     "pkg": "printventory",
     "site": "https://printventory.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/printventory",
@@ -17872,6 +18176,14 @@
     "description": "Unofficial, an enhanced version of Readest, a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience"
   },
   {
+    "pkg": "readlink",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/readlink",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/readlink",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Print resolved symbolic links or canonical file. This is part of am-utils suite"
+  },
+  {
     "pkg": "real-video-enhancer",
     "site": "TNTwise/REAL-Video-Enhancer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/real-video-enhancer",
@@ -17886,6 +18198,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/realm-studio",
     "version_raw": "https://github.com/realm/realm-studio/releases/download/v20.0.0/Realm.Studio-20.0.0.AppImage",
     "description": "A tool for everything Realm"
+  },
+  {
+    "pkg": "realpath",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/realpath",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/realpath",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Print the resolved path. This is part of am-utils suite"
   },
   {
     "pkg": "reaper",
@@ -18128,6 +18448,14 @@
     "description": "Personal Digital Archive and Media Player with at cost cloud storage backend"
   },
   {
+    "pkg": "rev",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rev",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rev",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "No description available. This is part of am-utils suite"
+  },
+  {
     "pkg": "revealgo",
     "site": "yusukebe/revealgo",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/revealgo",
@@ -18278,6 +18606,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ristretto",
     "version_raw": "https://github.com/pkgforge-dev/Ristretto-AppImage/releases/download/0.14.0-1%402026-03-22_1774173218/Ristretto-0.14.0-1-anylinux-x86_64.AppImage",
     "description": "Unofficial. Image viewer by Xfce  that can be used to view and scroll through images"
+  },
+  {
+    "pkg": "rm",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rm",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rm",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Remove files or directories. This is part of am-utils suite"
   },
   {
     "pkg": "rmg",
@@ -18952,6 +19288,14 @@
     "description": "Unofficial AppImage of the Secrets keepass and 2FA password manager"
   },
   {
+    "pkg": "sed",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sed",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sed",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "GNU stream editor for filtering and transforming text. This is part of am-utils suite"
+  },
+  {
     "pkg": "seedit",
     "site": "plebbit/seedit",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/seedit",
@@ -19126,6 +19470,38 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sfrt-attendance",
     "version_raw": "https://github.com/Saint-Francis-Robotics-Team2367/Attendance/releases/download/v2.0.3/SFRT_Attendance-1c900dc-x86_64.AppImage",
     "description": "The attendance tracking program for robotics"
+  },
+  {
+    "pkg": "sh",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sh",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sh",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "GNU Bourne-Again Shell, the de facto standard shell on Linux. This is part of am-utils suite"
+  },
+  {
+    "pkg": "sha1sum",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sha1sum",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sha1sum",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Compute and check SHA1 message digest. This is part of am-utils suite"
+  },
+  {
+    "pkg": "sha256sum",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sha256sum",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sha256sum",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Compute and check SHA256 message digest. This is part of am-utils suite"
+  },
+  {
+    "pkg": "sha512sum",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sha512sum",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sha512sum",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Compute and check SHA512 message digest. This is part of am-utils suite"
   },
   {
     "pkg": "shadow-tech",
@@ -19584,6 +19960,14 @@
     "description": "Multiplatform todo.txt manager"
   },
   {
+    "pkg": "sleep",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sleep",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sleep",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Delay for a specified amount of time. This is part of am-utils suite"
+  },
+  {
     "pkg": "slic3r",
     "site": "slic3r/Slic3r",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/slic3r",
@@ -19870,6 +20254,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sonusmix",
     "version_raw": "https://codeberg.org/sonusmix/sonusmix/releases/download/v0.1.1/org.sonusmix.Sonusmix-0.1.1.AppImage",
     "description": "Next-gen Pipewire audio routing tool"
+  },
+  {
+    "pkg": "sort",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sort",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sort",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Sort lines of text files. This is part of am-utils suite"
   },
   {
     "pkg": "soul-arena",
@@ -20464,6 +20856,14 @@
     "description": "Visualize a story as fast you can draw stick figures"
   },
   {
+    "pkg": "strace",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/strace",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/strace",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Trace system calls and signals. This is part of am-utils suite"
+  },
+  {
     "pkg": "strans",
     "site": "Inventitech/strans",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/strans",
@@ -20542,6 +20942,22 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/stretchly",
     "version_raw": "https://github.com/hovancik/stretchly/releases/download/v1.21.0/Stretchly-1.21.0.AppImage",
     "description": "App that reminds you to take breaks when working on your PC"
+  },
+  {
+    "pkg": "strings",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/strings",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/strings",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Strings is another bad static string library, written in C. This is part of am-utils suite"
+  },
+  {
+    "pkg": "strip",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/strip",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/strip",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "And other data from object files. This is part of am-utils suite"
   },
   {
     "pkg": "strongbox",
@@ -20864,6 +21280,22 @@
     "description": "SwagLyrics AppImage, unofficial"
   },
   {
+    "pkg": "swapoff",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/swapoff",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/swapoff",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Enable/disable devices and files for paging and. This is part of am-utils suite"
+  },
+  {
+    "pkg": "swapon",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/swapon",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/swapon",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Enable/disable devices and files for paging and. This is part of am-utils suite"
+  },
+  {
     "pkg": "swc-minecraft-launcher",
     "site": "Software-City/swc_mclauncher",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/swc-minecraft-launcher",
@@ -21120,6 +21552,14 @@
     "description": "Time tracking for space cadets, desktop edition"
   },
   {
+    "pkg": "tail",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tail",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tail",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Output the last part of files. This is part of am-utils suite"
+  },
+  {
     "pkg": "taisei-project",
     "site": "pkgforge-dev/Taisei-Project-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/taisei-project",
@@ -21150,6 +21590,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
     "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.6.AppImage",
     "description": "A clean and powerful open source notes app"
+  },
+  {
+    "pkg": "tar",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tar",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tar",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Utility used to store, backup, and transport files. This is part of am-utils suite"
   },
   {
     "pkg": "taradino",
@@ -21256,6 +21704,14 @@
     "description": "QuickSupport utility for TeamViewer, if you want to receive support"
   },
   {
+    "pkg": "tee",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tee",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tee",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Read from standard input and write to standard output and. This is part of am-utils suite"
+  },
+  {
     "pkg": "teledrive",
     "site": "KhushrajRathod/TeleDrive",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/teledrive",
@@ -21358,6 +21814,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tesseract",
     "version_raw": "https://github.com/AlexanderP/tesseract-appimage/releases/download/v5.5.2/tesseract-5.5.2-x86_64.AppImage",
     "description": "Tesseract Open Source OCR Engine AppImage"
+  },
+  {
+    "pkg": "test",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/test",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/test",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Check file types and compare values. This is part of am-utils suite"
   },
   {
     "pkg": "testdisk",
@@ -21792,6 +22256,14 @@
     "description": "SD card manager for your Tonuino"
   },
   {
+    "pkg": "top",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/top",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/top",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Display Linux processes. This is part of am-utils suite"
+  },
+  {
     "pkg": "topgrade",
     "site": "topgrade-rs/topgrade",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/topgrade",
@@ -21840,12 +22312,36 @@
     "description": "Unofficial AppImage of Torzu (fork of yuzu), with optimized builds for modern cpus"
   },
   {
+    "pkg": "touch",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/touch",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/touch",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Change file timestamps. This is part of am-utils suite"
+  },
+  {
     "pkg": "touchhle",
     "site": "pkgforge-dev/TouchHLE-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/touchhle",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/touchhle",
     "version_raw": "https://github.com/pkgforge-dev/TouchHLE-AppImage/releases/download/v0.2.3%402026-05-01_1777638410/touchHLE-v0.2.3-anylinux-x86_64.AppImage",
     "description": "Unofficial, High-level emulator for iPhone OS apps"
+  },
+  {
+    "pkg": "tput",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tput",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tput",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "tput  - initialize a terminal, exercise its capabilities, or query terminfo database. This is part of am-utils suite"
+  },
+  {
+    "pkg": "tr",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tr",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tr",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Translate or delete characters. This is part of am-utils suite"
   },
   {
     "pkg": "trackaudio",
@@ -22006,6 +22502,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ttth",
     "version_raw": "https://github.com/yafp/ttth/releases/download/1.8.20210416/ttth-1.8.20210416-linux-x86_64.AppImage",
     "description": "An electron based desktop app for online services"
+  },
+  {
+    "pkg": "tty",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tty",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tty",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Print the file name of the terminal connected to standard. This is part of am-utils suite"
   },
   {
     "pkg": "ttyper",
@@ -22224,12 +22728,36 @@
     "description": "Share your screens with friends"
   },
   {
+    "pkg": "umount",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/umount",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/umount",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Unmount filesystems. This is part of am-utils suite"
+  },
+  {
     "pkg": "ums",
     "site": "UniversalMediaServer/UniversalMediaServer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ums",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ums",
     "version_raw": "https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/15.5.0/UMS-Linux-15.5.0-x86_64.AppImage",
     "description": "Universal Media Server. A DLNA, UPnP and HTTP(S) Media Server"
+  },
+  {
+    "pkg": "uname",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uname",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uname",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Print system information. This is part of am-utils suite"
+  },
+  {
+    "pkg": "uncompress",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uncompress",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uncompress",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Zcat - compress and expand data. This is part of am-utils suite"
   },
   {
     "pkg": "uncov",
@@ -22262,6 +22790,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ungoogled-chromium",
     "version_raw": "https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/147.0.7727.137-1/ungoogled-chromium-147.0.7727.137-1-x86_64.AppImage",
     "description": "Chromium Web Browser without Google services"
+  },
+  {
+    "pkg": "uniq",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uniq",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uniq",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Report or omit repeated lines. This is part of am-utils suite"
   },
   {
     "pkg": "unishellect",
@@ -22304,6 +22840,14 @@
     "description": "A GUI to create Reveal presentations"
   },
   {
+    "pkg": "unshare",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/unshare",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/unshare",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Run program in new namespaces. This is part of am-utils suite"
+  },
+  {
     "pkg": "unveil",
     "site": "oknozor/unveil-rs",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/unveil",
@@ -22312,12 +22856,28 @@
     "description": "Unveil Rs is a tool to create presentations from markdown inspired by reveal.js, mdbook and zola"
   },
   {
+    "pkg": "unxz",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/unxz",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/unxz",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Xzcat, lzma, unlzma, lzcat - Compress or decompress .xz. This is part of am-utils suite"
+  },
+  {
     "pkg": "unyo",
     "site": "K3vinb5/Unyo",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/unyo",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/unyo",
     "version_raw": "https://github.com/K3vinb5/unyo-app/releases/download/v0.6.7/Unyo-v0.6.7-linux.AppImage",
     "description": "Anime streaming and Manga reader desktop app without ads"
+  },
+  {
+    "pkg": "unzip",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/unzip",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/unzip",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "For extracting and viewing files in .zip archives. This is part of am-utils suite"
   },
   {
     "pkg": "updatedeployqt",
@@ -22358,6 +22918,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/upscayl",
     "version_raw": "https://github.com/upscayl/upscayl/releases/download/v2.15.0/upscayl-2.15.0-linux.AppImage",
     "description": "Free and Open Source AI Image Upscaler"
+  },
+  {
+    "pkg": "uptime",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uptime",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uptime",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Tell how long the system has been running.. This is part of am-utils suite"
   },
   {
     "pkg": "urbanterror",
@@ -23088,6 +23656,14 @@
     "description": "Unofficial, WhatsApp Linux Client, formerly known as whatsapp-for-linux"
   },
   {
+    "pkg": "watch",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/watch",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/watch",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Watches for changes in a directory tree and reruns a command in an acme win or just on the terminal. This is part of am-utils suite"
+  },
+  {
     "pkg": "watched",
     "site": "mediaurl/mediaurl-js",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/watched",
@@ -23134,6 +23710,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wazo-desktop",
     "version_raw": "https://d2pasl1vzvispb.cloudfront.net/desktop/1.17.0/Wazo-Desktop-1.17.0.AppImage",
     "description": "Wazo desktop client for wazo VOIP server"
+  },
+  {
+    "pkg": "wc",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wc",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wc",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Print newline, word, and byte counts for each file. This is part of am-utils suite"
   },
   {
     "pkg": "weakauras",
@@ -23276,8 +23860,16 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "9137313602",
+    "version_raw": "9149222614",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
+  },
+  {
+    "pkg": "wget",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wget",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wget",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Network utility to retrieve files from the web. This is part of am-utils suite"
   },
   {
     "pkg": "whalebird",
@@ -23792,6 +24384,14 @@
     "description": "APK/DEX detector that shows an information about build tools, libraries and protection of APK/DEX files"
   },
   {
+    "pkg": "xargs",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xargs",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xargs",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Build and execute command lines from standard input. This is part of am-utils suite"
+  },
+  {
     "pkg": "xash3d-fwgs",
     "site": "FWGS/xash3d-fwgs",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xash3d-fwgs",
@@ -24120,6 +24720,22 @@
     "description": "Xyce Parallel Electronic Simulator"
   },
   {
+    "pkg": "xz",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xz",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xz",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Library and command line tools for XZ and LZMA compressed files. This is part of am-utils suite"
+  },
+  {
+    "pkg": "xzcat",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xzcat",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xzcat",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Xzcat, lzma, unlzma, lzcat - Compress or decompress .xz. This is part of am-utils suite"
+  },
+  {
     "pkg": "yaak",
     "site": "mountain-loop/yaak",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yaak",
@@ -24246,6 +24862,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yazi",
     "version_raw": "",
     "description": "Blazing fast terminal file manager written in Rust"
+  },
+  {
+    "pkg": "yes",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yes",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yes",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Output a string repeatedly until killed. This is part of am-utils suite"
   },
   {
     "pkg": "yesplaymusic",
@@ -24472,6 +25096,14 @@
     "description": "Unofficial AppImage of ZapZap WhatsApp client"
   },
   {
+    "pkg": "zcat",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zcat",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zcat",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Zcat - compress or expand files. This is part of am-utils suite"
+  },
+  {
     "pkg": "zed",
     "site": "zed-industries/zed",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zed",
@@ -24678,6 +25310,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zsnes",
     "version_raw": "https://github.com/pkgforge-dev/ZSNES-AppImage/releases/download/62979ec4b%402026-05-01_1777638982/ZSNES-62979ec4b-anylinux-x86_64.AppImage",
     "description": "Unofficial, a Super Nintendo emulator"
+  },
+  {
+    "pkg": "zsync",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zsync",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zsync",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "Partial/differential file download client over HTTP. This is part of am-utils suite"
   },
   {
     "pkg": "zsync2",

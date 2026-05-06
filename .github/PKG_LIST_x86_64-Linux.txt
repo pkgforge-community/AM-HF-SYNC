@@ -5,6 +5,7 @@
 3d-puzzles
 432hz-player
 5ire
+7z
 7zip
 86box
 86box-enhanced
@@ -125,6 +126,7 @@ appmanager
 aptakube
 aptly
 apx-gcs
+ar
 aranym
 arcade-manager
 arch-deployer
@@ -197,6 +199,8 @@ banban
 bandwhich
 banjo-recompiled
 barnacal
+base64
+basename
 basilisk2
 basiliskii-enhanced
 bastyon
@@ -326,6 +330,7 @@ busybox
 buttercup
 bypass-cors
 bytespeichertrayicon
+bzip2
 c-evo
 cabal-desktop
 cables-gl
@@ -358,6 +363,7 @@ cask
 casm
 casterr
 castersoundboard
+cat
 catacombgl
 catalyst
 catapult
@@ -396,11 +402,14 @@ chessmd
 chezmoi
 chimeradesk
 chimeradesk-kvm
+chmod
+chown
 chromium
 chromium-beta
 chromium-bsu
 chromium-edge
 chromium-rc
+chroot
 chrysalis-bin
 ciaa-suite
 cicada
@@ -420,6 +429,7 @@ classicimageviewer
 classicube
 classipod
 claude-desktop
+clear
 cleepdesktop
 clementine
 clementineremote
@@ -451,6 +461,7 @@ colon
 colorgenerator
 colorpicker
 colorstatic-bash
+column
 comic-book-reader
 comic-reader
 comics-downloader
@@ -500,6 +511,7 @@ cosmic-comics
 cosmonium
 cowitness
 cozydrive
+cp
 cpeditor
 cpod
 cpu-x
@@ -540,11 +552,13 @@ cuberite
 cudatext
 cura
 cura-beta
+curl
 curlie
 curseforge
 cursor
 cursor-cli
 customrpc
+cut
 cutechess
 cutepeaks
 cutevariant
@@ -570,6 +584,7 @@ dbet-wallet
 dbgate
 dbgate-premium
 dbin
+dd
 deadbeef
 deadbeef-nightly
 deadgame-2048
@@ -612,6 +627,7 @@ dhewm3
 dicomautomaton
 didder
 die-engine
+diff
 diffuse
 digikam
 digikam-dev
@@ -619,6 +635,7 @@ dingtalk
 dinosaurplanetrecompiled
 dinox
 dione
+dirname
 disass
 discord
 discord-bot-client
@@ -666,6 +683,7 @@ drum-machine
 dsda-doom
 dstask
 dtmate
+du
 dua
 duckling
 duckstation
@@ -688,6 +706,7 @@ e2-sat-editor
 eaglemode
 easytag
 ecency-surfer
+echo
 ecode
 ecwolf
 edconv
@@ -837,6 +856,7 @@ fiddler-everywhere
 fidias-database-migration-app
 fifo
 figma-linux
+file
 file-commander
 file-converter
 file-to-c
@@ -897,6 +917,7 @@ focalizzare
 focus
 focusatwill
 focuswriter
+fold
 folo
 fontbase
 fontforge
@@ -960,6 +981,7 @@ gaphor
 gapless
 gargoyle-bin
 gaucho
+gawk
 gcap2025
 gcap2026
 gcstar
@@ -1097,6 +1119,7 @@ graphql-playground
 graphs
 graviton
 greenlight
+grep
 gridcoin-research
 gridea
 gridix
@@ -1137,6 +1160,7 @@ haveno-reto
 hctl
 hdict
 hdrmerge
+head
 heat1d
 heimer
 helio
@@ -1191,6 +1215,7 @@ ibus-rime
 icalingua++
 icecat
 icestudio
+id
 identity
 idescriptor
 igdm
@@ -1364,6 +1389,8 @@ kid3
 kigo
 kiibohd-configurator
 kiku
+kill
+killall
 killbots
 kimitzu-client
 kindling-cli
@@ -1459,6 +1486,7 @@ leonflix
 lepton
 lescovex
 leshade
+less
 lets-bend
 levior
 lexido
@@ -1499,6 +1527,7 @@ litime
 liveme-pro-tools
 lmms
 lmstudio
+ln
 lobe-chat
 local-browser
 localsend
@@ -1518,6 +1547,7 @@ lovesay
 lovr
 lowfi
 lpub3d
+ls
 lsd
 lskat
 luanti
@@ -1572,12 +1602,14 @@ materialious
 mathcha-notebook
 matm
 mattermost-desktop
+mawk
 mayo
 mazesolver
 mbcord
 mcfly
 mcpelauncher
 mcpodcast
+md5sum
 mdcat
 mdl
 mdsilo-app
@@ -1640,6 +1672,7 @@ miteiru
 mixxx
 mjml-app
 mk
+mkdir
 mki3dgame
 mkvtoolnix
 mlv-app
@@ -1665,7 +1698,9 @@ moonlight
 moonplayer
 moose
 moosync
+more
 motrix
+mount
 mousai
 movie-monad
 moyu
@@ -1700,6 +1735,7 @@ music-quiz
 musicalypse
 mutool
 muwire
+mv
 my-budget
 my-jira
 mybelka
@@ -1788,6 +1824,7 @@ notes
 notes-nc
 noteshrink-qt
 notesnook
+notify-send
 novelwriter
 npm
 nrf-connect
@@ -2114,6 +2151,7 @@ primate
 prime-world-editor
 principia
 printerclient
+printf
 printventory
 prisma-studio
 prismlauncher
@@ -2247,8 +2285,10 @@ rcloneview
 reactotron
 readest
 readest-enhanced
+readlink
 real-video-enhancer
 realm-studio
+realpath
 reaper
 rebaslight
 rebos
@@ -2279,6 +2319,7 @@ retroarch-qt-nightly
 retrom
 retroshare
 retrovibed
+rev
 revealgo
 revolt
 rewaita
@@ -2298,6 +2339,7 @@ ripgrep
 ripgrep-all
 riseup-vpn
 ristretto
+rm
 rmg
 rmg-enhanced
 rmw
@@ -2383,6 +2425,7 @@ seafile-cli
 seanime
 secops
 secrets
+sed
 seedit
 seismic
 selenium-ide
@@ -2405,6 +2448,10 @@ sfbrename-cli
 sfbrename-gtk
 sfp
 sfrt-attendance
+sh
+sha1sum
+sha256sum
+sha512sum
 shadow-tech
 shadowsocks
 shadps4
@@ -2462,6 +2509,7 @@ slackbackup
 slacktronic
 slang-ed
 sleek
+sleep
 slic3r
 slippi
 slogidex
@@ -2498,6 +2546,7 @@ sonicvisualiser
 sonixd
 sonos-controller
 sonusmix
+sort
 soul-arena
 sound-space-plus
 soundcloud-rpc
@@ -2572,6 +2621,7 @@ stoplight
 storadit
 storaji
 storyboarder
+strace
 strans
 strata
 strawberry
@@ -2582,6 +2632,8 @@ streamlink-twitch-gui
 streamon
 stremio-enhanced
 stretchly
+strings
+strip
 strongbox
 structure
 studymd
@@ -2622,6 +2674,8 @@ svelte-electron
 svgwall
 sview
 swaglyrics
+swapoff
+swapon
 swc-minecraft-launcher
 sweeper
 sweethome3d
@@ -2654,10 +2708,12 @@ tag-editor
 tagger
 tagspaces
 tagtime-desktop
+tail
 taisei-project
 talktype
 tamga
 tangent
+tar
 taradino
 taskell
 taskizer
@@ -2671,6 +2727,7 @@ teams
 teamviewer
 teamviewer-host
 teamviewer-qs
+tee
 teledrive
 telegram
 telly-skout
@@ -2684,6 +2741,7 @@ teslacam-browser
 tesler
 tess
 tesseract
+test
 testdisk
 tetanes
 tev
@@ -2738,6 +2796,7 @@ toipe
 tokodon
 tomatox
 tonuino-toolbox
+top
 topgrade
 tor-browser
 tor-browser-alpha
@@ -2746,7 +2805,10 @@ torrents_digger
 torrenttools
 toru
 torzu
+touch
 touchhle
+tput
+tr
 trackaudio
 trans
 transfernow
@@ -2767,6 +2829,7 @@ tssh
 tt
 tts-now
 ttth
+tty
 ttyper
 tumblr-downloader-gui
 tumblr-scraper
@@ -2794,23 +2857,31 @@ uhk.agent
 uivonim
 ultragrid
 ultrascreen
+umount
 ums
+uname
+uncompress
 uncov
 undertaker141
 unetbootin
 ungoogled-chromium
+uniq
 unishellect
 unleashedrecomp
 unofficial-homestuck-collection
 unofficial-zalo
 unreel
+unshare
 unveil
+unxz
 unyo
+unzip
 updatedeployqt
 upgit
 upnote
 upnotes
 upscayl
+uptime
 urbanterror
 utilso
 uv
@@ -2902,12 +2973,14 @@ warp
 warp-terminal
 warteschlangensimulator
 wasistlos
+watch
 watched
 watchflower
 watchit
 waterfox
 waydroid-helper
 wazo-desktop
+wc
 weakauras
 weatherdump
 webamp
@@ -2926,6 +2999,7 @@ wewechat
 wexond
 wezterm
 wezterm-nightly
+wget
 whalebird
 whatsdesk
 whatsie
@@ -2990,6 +3064,7 @@ x-loc
 x-minecraft-launcher
 x-pixiv
 xapkdetector
+xargs
 xash3d-fwgs
 xash3d-fwgs-enhanced
 xbydriver
@@ -3031,6 +3106,8 @@ xtool
 xtuber
 xxh
 xyce
+xz
+xzcat
 yaak
 yaf
 yaka
@@ -3047,6 +3124,7 @@ yangdownloader
 yank-note
 yaya
 yazi
+yes
 yesplaymusic
 yet-another-open-file-converter
 ym-desktop
@@ -3075,6 +3153,7 @@ zap
 zapdesktop
 zapzap
 zapzap-enhanced
+zcat
 zed
 zegarek
 zegrapher
@@ -3101,6 +3180,7 @@ zotero
 zoxide
 zramen
 zsnes
+zsync
 zsync2
 zulip
 zx-poly
