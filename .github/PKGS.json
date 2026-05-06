@@ -3316,7 +3316,7 @@
     "site": "libnyanpasu/clash-nyanpasu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clash-nyanpasu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/clash-nyanpasu",
-    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha%2B9183d72_amd64.AppImage",
+    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha%2B9235304_amd64.AppImage",
     "description": "A Clash GUI based on tauri"
   },
   {
@@ -3356,7 +3356,7 @@
     "site": "aaddrick/claude-desktop-debian",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/claude-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/claude-desktop",
-    "version_raw": "https://github.com/aaddrick/claude-desktop-debian/releases/download/v2.0.8%2Bclaude1.5354.0/claude-desktop-1.5354.0-2.0.8-amd64.AppImage",
+    "version_raw": "https://github.com/aaddrick/claude-desktop-debian/releases/download/v2.0.10%2Bclaude1.6259.0/claude-desktop-1.6259.0-2.0.10-amd64.AppImage",
     "description": "Claude Desktop for Debian-based Linux distributions"
   },
   {
@@ -4052,7 +4052,7 @@
     "site": "KraXen72/crankshaft",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/crankshaft",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/crankshaft",
-    "version_raw": "https://github.com/KraXen72/crankshaft/releases/download/1.11.1/crankshaft-portable-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/KraXen72/crankshaft/releases/download/1.12.0/crankshaft-portable-linux-x86_64.AppImage",
     "description": "A sensible krunker client written in typescript"
   },
   {
@@ -7812,7 +7812,7 @@
     "site": "lone-cloud/gerbil",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gerbil",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gerbil",
-    "version_raw": "https://github.com/lone-cloud/gerbil/releases/download/v1.24.0/Gerbil-1.24.0.AppImage",
+    "version_raw": "https://github.com/lone-cloud/gerbil/releases/download/v1.24.2/Gerbil-1.24.2.AppImage",
     "description": "A desktop app for running Large Language Models locally"
   },
   {
@@ -9628,7 +9628,7 @@
     "site": "https://infra.app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/infra-app",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/infra-app",
-    "version_raw": "",
+    "version_raw": "0.47.0",
     "description": "Infra App for Linux"
   },
   {
@@ -14292,7 +14292,7 @@
     "site": "https://www.nuclino.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nuclino",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nuclino",
-    "version_raw": "",
+    "version_raw": "1.6.8",
     "description": "Bring knowledge, docs, and projects together in one place"
   },
   {
@@ -15540,7 +15540,7 @@
     "site": "Scille/parsec-cloud",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parsec",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parsec",
-    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.8.2-a.0.dev.20576%2Bc3d3ecf_linux_x86_64.unsigned.AppImage",
+    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.8.2-a.0.dev.20578%2B28ef89c_linux_x86_64.unsigned.AppImage",
     "description": "Open source Dropbox-like file sharing with full client encryption"
   },
   {
@@ -18112,6 +18112,14 @@
     "description": "Securely share files with your friends"
   },
   {
+    "pkg": "retrovibed",
+    "site": "retrovibed/retrovibed",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/retrovibed",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/retrovibed",
+    "version_raw": "https://github.com/retrovibed/retrovibed/releases/download/r2026.5.5f6a2af5/retrovibed.linux.amd64.AppImage",
+    "description": "Personal Digital Archive and Media Player with at cost cloud storage backend"
+  },
+  {
     "pkg": "revealgo",
     "site": "yusukebe/revealgo",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/revealgo",
@@ -18388,7 +18396,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-d93d9b2c5aa859d1cf2f1381cefd204fb022163a/rpcs3-v0.0.40-19307-d93d9b2c_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-4f47fee36039f38449830eccf10e72282d680f1a/rpcs3-v0.0.40-19334-4f47fee3_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -21044,7 +21052,7 @@
     "site": "pingdotgg/t3code",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/t3code",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/t3code",
-    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.23-nightly.20260505.204/T3-Code-0.0.23-nightly.20260505.204-x86_64.AppImage",
+    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.23-nightly.20260506.211/T3-Code-0.0.23-nightly.20260506.211-x86_64.AppImage",
     "description": "T3 Code is a minimal web GUI for coding agents (currently Codex and Claude, more coming soon)"
   },
   {
@@ -21132,7 +21140,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.12.0-beta.6.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.6.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -23260,7 +23268,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "9114537909",
+    "version_raw": "9127818508",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -23852,7 +23860,7 @@
     "site": "xemu-project/xemu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xemu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xemu",
-    "version_raw": "https://github.com/xemu-project/xemu/releases/download/pre-release/xemu-0.8.134-30-g0df849f71c-x86_64.AppImage",
+    "version_raw": "https://github.com/xemu-project/xemu/releases/download/pre-release/xemu-0.8.134-31-g7c7196b8a4-x86_64.AppImage",
     "description": "Original Xbox Emulator"
   },
   {
