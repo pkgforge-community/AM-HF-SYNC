@@ -1092,7 +1092,7 @@
     "site": "JustArchiNET/ArchiSteamFarm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/archisteamfarm",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/archisteamfarm",
-    "version_raw": "https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/6.3.5.1/ASF-linux-x64.zip",
+    "version_raw": "https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/6.3.6.0/ASF-linux-x64.zip",
     "description": "C# application with primary purpose of farming Steam cards from multiple accounts simultaneously"
   },
   {
@@ -3388,7 +3388,7 @@
     "site": "libnyanpasu/clash-nyanpasu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clash-nyanpasu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/clash-nyanpasu",
-    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha%2Be38c4d9_amd64.AppImage",
+    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha%2Bbb8863b_amd64.AppImage",
     "description": "A Clash GUI based on tauri"
   },
   {
@@ -3428,7 +3428,7 @@
     "site": "aaddrick/claude-desktop-debian",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/claude-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/claude-desktop",
-    "version_raw": "https://github.com/aaddrick/claude-desktop-debian/releases/download/v2.0.10%2Bclaude1.6608.0/claude-desktop-1.6608.0-2.0.10-amd64.AppImage",
+    "version_raw": "https://github.com/aaddrick/claude-desktop-debian/releases/download/v2.0.10%2Bclaude1.6608.2/claude-desktop-1.6608.2-2.0.10-amd64.AppImage",
     "description": "Claude Desktop for Debian-based Linux distributions"
   },
   {
@@ -6348,7 +6348,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.5.7.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -6508,7 +6508,7 @@
     "site": "ivan-hc/falkon-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/falkon",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/falkon",
-    "version_raw": "https://github.com/ivan-hc/falkon-appimage/releases/download/continuous/Falkon_26.04.0-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/falkon-appimage/releases/download/continuous/Falkon_26.04.1-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial. A fast Qt web browser from KDE"
   },
   {
@@ -11076,7 +11076,7 @@
     "site": "ciscoriordan/kindling",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kindling-cli",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kindling-cli",
-    "version_raw": "https://github.com/ciscoriordan/kindling/releases/download/v0.15.2/kindling-cli-linux",
+    "version_raw": "https://github.com/ciscoriordan/kindling/releases/download/v0.15.3/kindling-cli-linux",
     "description": "Kindle toolkit for dictionaries, books, comics"
   },
   {
@@ -12156,7 +12156,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.1.57-canary.29/LobeHub-2.1.57-canary.29.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.1.57-canary.30/LobeHub-2.1.57-canary.30.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -12724,7 +12724,7 @@
     "site": "https://www.mathcha.io/notebook/",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mathcha-notebook",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mathcha-notebook",
-    "version_raw": "1.0.451",
+    "version_raw": "",
     "description": "Desktop version of Mathcha, built for your privacy"
   },
   {
@@ -14596,7 +14596,7 @@
     "site": "https://www.nuclino.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nuclino",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nuclino",
-    "version_raw": "",
+    "version_raw": "1.6.8",
     "description": "Bring knowledge, docs, and projects together in one place"
   },
   {
@@ -15844,7 +15844,7 @@
     "site": "Scille/parsec-cloud",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parsec",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parsec",
-    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/v3.9.0-rc.0/Parsec_3.9.0-rc.0_linux_x86_64.unsigned.AppImage",
+    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.8.2-a.0.dev.20581%2Bc56e8e4_linux_x86_64.unsigned.AppImage",
     "description": "Open source Dropbox-like file sharing with full client encryption"
   },
   {
@@ -21164,7 +21164,7 @@
     "site": "https://supernotes.app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/supernotes",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/supernotes",
-    "version_raw": "3.2.4",
+    "version_raw": "",
     "description": "Enjoy efficient note-taking without the hassle"
   },
   {
@@ -21500,7 +21500,7 @@
     "site": "pingdotgg/t3code",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/t3code",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/t3code",
-    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.23-nightly.20260508.230/T3-Code-0.0.23-nightly.20260508.230-x86_64.AppImage",
+    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.23-nightly.20260509.236/T3-Code-0.0.23-nightly.20260509.236-x86_64.AppImage",
     "description": "T3 Code is a minimal web GUI for coding agents (currently Codex and Claude, more coming soon)"
   },
   {
@@ -21990,253 +21990,5 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium",
     "version_raw": "https://github.com/Alex313031/thorium/releases/download/M138.0.7204.303/Thorium_Browser_138.0.7204.303_AVX.AppImage",
     "description": "Web Browser, a Chromium fork including Widevine and FFmpeg support"
-  },
-  {
-    "pkg": "thorium-client",
-    "site": "Thorium-Sim/thorium-kiosk",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium-client",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium-client",
-    "version_raw": "https://github.com/Thorium-Sim/thorium-kiosk/releases/download/v2.0.8/thorium-kiosk-2.0.8-x86_64.AppImage",
-    "description": "A locked-down electron kiosk for Thorium"
-  },
-  {
-    "pkg": "thorium-reader",
-    "site": "edrlab/thorium-reader",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium-reader",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium-reader",
-    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.4.1-alpha.1.24335793855.AppImage",
-    "description": "Desktop application to read ebooks"
-  },
-  {
-    "pkg": "thunderbird",
-    "site": "https://www.thunderbird.net",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/continuous-stable/Thunderbird-stable-150.0.2-x86_64.AppImage",
-    "description": "Free and open source eMail client, Stable"
-  },
-  {
-    "pkg": "thunderbird-beta",
-    "site": "https://www.thunderbird.net",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-beta",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-beta",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260508-210106/Thunderbird-beta-151.0-x86_64.AppImage",
-    "description": "Free and open source eMail client, Beta Edition"
-  },
-  {
-    "pkg": "thunderbird-nightly",
-    "site": "https://www.thunderbird.net",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-nightly",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-nightly",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260508-210106/Thunderbird-nightly-152.0a1-x86_64.AppImage",
-    "description": "Free and open source eMail client, Nightly Edition"
-  },
-  {
-    "pkg": "ticker",
-    "site": "achannarasappa/ticker",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ticker",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ticker",
-    "version_raw": "https://github.com/achannarasappa/ticker/releases/download/v5.2.1/ticker-5.2.1-linux-amd64.tar.gz",
-    "description": "Terminal stock ticker with live updates and position tracking"
-  },
-  {
-    "pkg": "ticktick",
-    "site": "https://ticktick.com",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ticktick",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ticktick",
-    "version_raw": "https://download.ticktick.app/download/linux/linux_appimage_x64/ticktick-8.0.10-x86_64.AppImage",
-    "description": "A To-Do List and Calendar to keep you organized"
-  },
-  {
-    "pkg": "tidal-hifi",
-    "site": "Mastermindzh/tidal-hifi",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tidal-hifi",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tidal-hifi",
-    "version_raw": "https://github.com/Mastermindzh/tidal-hifi/releases/download/6.3.1-Mavy/tidal-hifi-6.3.1.AppImage",
-    "description": "The web version of listen.tidal.com running in electron"
-  },
-  {
-    "pkg": "tidybit",
-    "site": "Veda-Swaroop/TidyBit",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tidybit",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tidybit",
-    "version_raw": "https://github.com/Veda-Swaroop/TidyBit/releases/download/v1.3.4/TidyBit-1.3.4-x86_64.AppImage",
-    "description": "TidyBit is a simple handy tool that can organize messy collection of files and move them to a chosen folder"
-  },
-  {
-    "pkg": "tilde-podcast",
-    "site": "paologiua/tilde",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tilde-podcast",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tilde-podcast",
-    "version_raw": "https://github.com/paologiua/tilde/releases/download/v1.0.0/Tilde-1.0.0.AppImage",
-    "description": "Podcast client to listen to all you favorite podcasts"
-  },
-  {
-    "pkg": "tiled",
-    "site": "bjorn/tiled",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tiled",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tiled",
-    "version_raw": "https://github.com/mapeditor/tiled/releases/download/v1.12.1/Tiled-1.12.1_Linux_x86_64.AppImage",
-    "description": "Tile map editor"
-  },
-  {
-    "pkg": "tilinggenerator",
-    "site": "PJK136/TilingGenerator",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tilinggenerator",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tilinggenerator",
-    "version_raw": "https://github.com/PJK136/TilingGenerator/releases/download/continuous/TilingGenerator-9ad9652-x86_64.AppImage",
-    "description": "Generator of regular and irregular tilings"
-  },
-  {
-    "pkg": "timely",
-    "site": "Timely/desktop-releases",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/timely",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/timely",
-    "version_raw": "https://github.com/Timely/desktop-releases/releases/download/linux-x64-dev-1.2.2-dev.135/Timely-1.2.2-dev.135.AppImage",
-    "description": "The release branch for Timely electron apps"
-  },
-  {
-    "pkg": "timenaut",
-    "site": "kmteras/timenaut",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/timenaut",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/timenaut",
-    "version_raw": "https://github.com/kmteras/timenaut/releases/download/v0.5.0/Timenaut-0.5.0.AppImage",
-    "description": "Desktop time tracking application"
-  },
-  {
-    "pkg": "tipitaka-pali-reader",
-    "site": "bksubhuti/tipitaka-pali-reader",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tipitaka-pali-reader",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tipitaka-pali-reader",
-    "version_raw": "https://github.com/bksubhuti/tipitaka-pali-reader/releases/download/v2.7.8%2B108/tipitaka_pali_reader.AppImage",
-    "description": "A Pali Reading app made in Flutter"
-  },
-  {
-    "pkg": "tixati",
-    "site": "https://tixati.com",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tixati",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tixati",
-    "version_raw": "https://download.tixati.com/tixati-3.42-1.x86_64.manualinstall.tar.gz",
-    "description": "A New and Powerful P2P System 100% Free, Simple and Easy to Use Bittorrent Client"
-  },
-  {
-    "pkg": "tkmm",
-    "site": "TKMM-Team/Tkmm",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tkmm",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tkmm",
-    "version_raw": "https://github.com/TKMM-Team/Tkmm/releases/download/v2.0.1/Tkmm-linux-x64.AppImage",
-    "description": "TotK Mod Manager, a mod manager and merger for Tears of the Kingdom"
-  },
-  {
-    "pkg": "tlock",
-    "site": "eklairs/tlock",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tlock",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tlock",
-    "version_raw": "https://github.com/eklairs/tlock/releases/download/v1.0.0/tlock-v1.0.0-linux-amd64.tar.gz",
-    "description": "Two-Factor Authentication Tokens Manager in Terminal"
-  },
-  {
-    "pkg": "tlum",
-    "site": "lyskouski/app-language",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tlum",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tlum",
-    "version_raw": "https://github.com/lyskouski/app-language/releases/download/v0.0.18/tlum_LinuxAppImage.AppImage",
-    "description": "Tlum - open-source cross-platform language learning application leverages the power of natural language processing to pinpoint pronunciation gaps and enhance articulation, machine learning to boost vocabulary proficiency"
-  },
-  {
-    "pkg": "tmon",
-    "site": "gmagno/tmon",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tmon",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tmon",
-    "version_raw": "https://github.com/gmagno/tmon/releases/download/v0.4.0/tmon-466ae00-x86_64.AppImage",
-    "description": "A simple CLI tool for monitoring/reporting CPU temperatures"
-  },
-  {
-    "pkg": "tmux",
-    "site": "nelsonenzo/tmux-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tmux",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tmux",
-    "version_raw": "https://github.com/nelsonenzo/tmux-appimage/releases/download/3.5a/tmux.appimage",
-    "description": "Tmux AppImage build via Docker"
-  },
-  {
-    "pkg": "tnt",
-    "site": "foolo/tnt",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tnt",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tnt",
-    "version_raw": "https://github.com/foolo/tnt/releases/download/0.3/tnt-0.3-linux-x64.AppImage",
-    "description": "A computer-assisted translation tool"
-  },
-  {
-    "pkg": "tockler",
-    "site": "MayGo/tockler",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tockler",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tockler",
-    "version_raw": "https://github.com/MayGo/tockler/releases/download/v4.0.22/Tockler-4.0.22.AppImage",
-    "description": "An application that tracks your time by monitoring"
-  },
-  {
-    "pkg": "tod",
-    "site": "alanvardy/tod",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tod",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tod",
-    "version_raw": "https://github.com/tod-org/tod/releases/download/v0.6.28/tod-0.6.28-x86_64.tar.gz",
-    "description": "An unofficial Todoist command line client written in Rust"
-  },
-  {
-    "pkg": "todesktop",
-    "site": "https://www.todesktop.com",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/todesktop",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/todesktop",
-    "version_raw": "todesktop-desktop-app-0.36.3-x86_64.AppImage",
-    "description": "Take your web app codebase and transform it into a cross platform desktop app with native functionality"
-  },
-  {
-    "pkg": "todo-bash",
-    "site": "Lateralus138/todo-bash",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/todo-bash",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/todo-bash",
-    "version_raw": "https://github.com/Lateralus138/todo-bash/releases/download/Continuous/todo-x86_64.AppImage",
-    "description": "Todo list for the Bash command line"
-  },
-  {
-    "pkg": "todoist",
-    "site": "https://todoist.com",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/todoist",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/todoist",
-    "version_raw": "https://electron-dl.todoist.net/linux/Todoist-linux-9.27.1-x86_64-latest.AppImage",
-    "description": "The to-do list to organize work & life"
-  },
-  {
-    "pkg": "todorant",
-    "site": "backmeupplz/todorant-releases",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/todorant",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/todorant",
-    "version_raw": "https://github.com/backmeupplz/todorant-releases/releases/download/v1.0.14/todorant-1.0.14-linux-x86_64.AppImage",
-    "description": "Todorant releases"
-  },
-  {
-    "pkg": "todorust",
-    "site": "gustavo-tomas/ToDoRust",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/todorust",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/todorust",
-    "version_raw": "https://github.com/gustavo-tomas/ToDoRust/releases/download/app-v0.2.0/to-do-rust_0.1.0_amd64.AppImage",
-    "description": "Simple ToDoList made in rust"
-  },
-  {
-    "pkg": "toerings",
-    "site": "acarl005/toerings",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/toerings",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/toerings",
-    "version_raw": "https://github.com/acarl005/toerings/releases/download/v0.0.0/toe-rings_0.0.0_amd64.AppImage",
-    "description": "A clone of Conky Seamod using Tauri"
-  },
-  {
-    "pkg": "toipe",
-    "site": "Samyak2/toipe",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/toipe",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/toipe",
-    "version_raw": "",
-    "description": "yet another typing test, but crab flavoured"
   }
 ]
