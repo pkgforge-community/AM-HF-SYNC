@@ -82,24 +82,54 @@ You can use the command `am -a {PROGRAM}` to view the description and get the so
 
 ------------------------------------------------------------------------
 # Installation
-To install "AM" you must first install the "core" dependencies from your package manager:
-- "`coreutils`" (contains "`cat`", "`chmod`", "`chown`"...);
-- "`curl`", to check URLs;
-- "`grep`", to check files;
-- "`sed`", to edit/adapt installed files;
-- "`wget`" to download all programs and update "AM" itself.
-- "`sudo`" or "`doas`", for installing and removing programs at the system level.
+
+"AM" (system) or "AppMan" (local) is a program that comes in the form of a versatile BASH script, fully compatible with ZSH, FISH, and most POSIX-compliant shells. As such, it calls other programs already present on the host, some "**CORE**", others "**OPTIONAL**".
+
+### ◆ CORE dependencies
+
+If the following dependencies are not present in your system, "AM"/"AppMan" will not work:
+
+| command | motivation | pre-installed? |
+| - | - | - |
+| `coreutils` | it's a suite of core commands | YES, on almost all distributions |
+| `curl` | network utility needed to read online text like lists, URLs and versions | not in all distibutions |
+| `grep` | a string search utility | YES, on many distributions |
+| `sed` | stream editor for filtering and transforming text | YES, in almost all distributions |
+| `wget` | network utility needed to download files from the web like scripts and packages | not in all distibutions, sometime replaced with different commands like `curl` or as wrapper for `wget2` |
+
+*NOTE, if you install "AM" (system) and not "AppMan" (local), **you need `sudo` or `doas` for root privileges**.*
+
+### ◆ OPTIONAL commands
+
+These commands are considered "optional" because they are not strictly necessary for the functioning of "AM" itself, but are nevertheless necessary for the applications you will install.
 
 <details>
-  <summary>Additionally, you may need these optional dependencies, click here.</summary>
+  <summary> >>> Click here to expand <<< </summary>
 
-- "`binutils`", contains a series of basic commands, including "`ar`" which extracts .deb packages;
-- "`less`", to read the ever-longer lists;
-- "`unzip`", to extract .zip packages;
-- "`tar`", to extract .tar* packages;
-- "`zsync`", required by very few programs.
+While it covers many basic commands, "AM"/"AppMan" has the drawback of having to adapt to the various platforms and packaging formats distributed portablely by upstream developers.
+
+In fact, unlike APT, DNF, Pacman, Snap, and Flatpak, which have their own packaging formats (.deb, .rpm, .tar.xz, .snap, and .flatpak), "AM" is more like an AUR helper and may require additional commands to handle multiple packaging formats beyond .AppImage.
+
+Many of them are not pre-installed.
+
+Here is a table of "optional" commands that may be needed on your system:
+
+| command | motivation |
+| - | - |
+| `7z` | required for .7z packages, during installations, and package name may be vary |
+| `ar` | required to extract .deb packages, during installations, and available in the `binutils` package |
+| `column` | columnate lists, often available in the `utils-linux` package, but the GNU version is recommended |
+| `du` | estimate file space usage, often available in the `coreutils` package, but the GNU version is recommended |
+| `file` | determine the type of a file from its contents, and available in the `file` package |
+| `md5sum` `sha1sum` `sha256sum` `sha512sum` | for checksum operations, often available in the `coreutils` package |
+| `notify-send` | can show update notifications if running AM/AppMan in background, and package name may be vary |
+| `tar` | required for .tar packages, and available in the `tar` package |
+| `unxz` `xz` `xzcat` | required as support for other commands for extracting .deb, .tar and similar packages, and package name may be vary |
+| `unzip` | required for .zip packages, and available in the `unzip` package |
 
 </details>
+
+*NOTE, optional dependencies can be covered by **[static binaries](https://github.com/ivan-hc/am-utils)** if necessary. However, **it is recommended to rely on your system package manager**.*
 
 ------------------------------------------------------------------------
 ## Using the "AM-installer" script to choose between local and system-wide installation
@@ -111,9 +141,21 @@ wget -q https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/AM-
 ```
 ...below, the screenshot of what will appear.
 
-![Istantanea_2024-11-02_00-03-39 png](https://github.com/user-attachments/assets/7bb170da-5b17-4d36-8d86-679d477debf5)
+------------------------------------------------------------------------
+
+<img width="747" height="600" alt="installer" src="https://github.com/user-attachments/assets/f8a153e8-d410-4a7e-9e5c-b48e686547ee" />
+
+------------------------------------------------------------------------
 
 Type "1" to install "AM", "2" to install "[AppMan](#what-is-appman)". Any other key will abort the installation.
+
+------------------------------------------------------------------------
+
+| AM (system-wide installation) | AppMan (local installation)
+| - | - |
+| <img width="747" height="798" alt="AM" src="https://github.com/user-attachments/assets/51e45525-d858-42a0-9e33-ff2a087968fd" /> | <img width="747" height="798" alt="AppMan" src="https://github.com/user-attachments/assets/99296420-f6da-4d6f-8080-e6ad03aaf0d2" /> |
+
+------------------------------------------------------------------------
 
 **Installation is complete!**
 
@@ -1088,12 +1130,12 @@ Below you can access documentation pages for common issues and frequently asked 
 - *[amcheck](https://github.com/ivan-hc/amcheck), checks the validity of scripts in this database and monitors the availability of AppImages*
 - *[am-extras](https://github.com/ivan-hc/am-extras), lists applications from third-party databases*
 - *[am-gui](https://github.com/Shikakiben/AM-GUI), a graphical Front for AM, by @Shikakiben*
+- *[am-utils](https://github.com/ivan-hc/am-utils), a static binaries collection for AM*
 - *[vappman](https://github.com/joedefen/vappman), a visual (curses) TUI interface to AppMan, by @joedefen*
 
 #### External tools and forks used in this project
 - *[aisap](https://github.com/mgord9518/aisap) and [sas](https://github.com/Samueru-sama/simple-appimage-sandbox), sandboxing solutions for AppImages, see sandboxing options above*
 - *[appimagetool](https://github.com/AppImage/appimagetool), get rid of libfuse2 from old AppImages (option `nolibfuse`) and create AppImages on the fly*
-- *[dbin](https://github.com/xplshn/dbin), the easy to use/get, suckless software distribution system, used as OCI registry client to install packages from third-party databases*
 
 #### Organizations and their affiliates that actively contribute to this project
 - *[Package Forge](https://github.com/pkgforge), Improving Package Management & Security for Linux systems*
