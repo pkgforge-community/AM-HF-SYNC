@@ -1236,7 +1236,7 @@
     "site": "https://aspect.bildhuus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aspect",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aspect",
-    "version_raw": "https://download.bildhuus.com/packages/aspect/aspect-1.0.0-rc.49-x86_64.AppImage",
+    "version_raw": "",
     "description": "Photo organization application with support for peer-to-peer based synchronization across devices"
   },
   {
@@ -5708,7 +5708,7 @@
     "site": "https://git.eden-emu.dev",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eden-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eden-nightly",
-    "version_raw": "https://nightly.eden-emu.dev/v1778438994.5575d77520/Eden-Linux-5575d77520-steamdeck-clang-pgo.AppImage",
+    "version_raw": "https://nightly.eden-emu.dev/v1778527728.609756db30/Eden-Linux-609756db30-legacy-gcc-standard.AppImage",
     "description": "An experimental open-source emulator for Nintendo Switch (yuzu fork, nightly builds)"
   },
   {
@@ -5726,14 +5726,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eduke32",
     "version_raw": "https://github.com/pkgforge-dev/EDuke32-AppImage/releases/download/20260203-10664-ba6b7bb1d%402026-05-01_1777639276/EDuke32-20260203-10664-ba6b7bb1d-anylinux-x86_64.AppImage",
     "description": "Unofficial, an advanced Duke Nukem 3D source port"
-  },
-  {
-    "pkg": "eez-studio",
-    "site": "eez-open/studio",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eez-studio",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eez-studio",
-    "version_raw": "https://github.com/eez-open/studio/releases/download/v0.27.1/EEZ-Studio-0.27.1.AppImage",
-    "description": "Cross-platform low-code GUI and automation"
   },
   {
     "pkg": "effer",
@@ -6028,7 +6020,7 @@
     "site": "ivan-hc/Emacs-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/emacs",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/emacs",
-    "version_raw": "https://github.com/ivan-hc/Emacs-appimage/releases/download/continuous/Emacs_30.2-2-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Emacs-appimage/releases/download/continuous/Emacs_30.2-3-archimage5.0-x86_64.AppImage",
     "description": "Unofficial. FOSS text editor for complete programming language"
   },
   {
@@ -6430,14 +6422,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exult",
     "version_raw": "https://github.com/pkgforge-dev/Exult-AppImage/releases/download/1.12.1-1%402026-05-01_1777638648/Exult-1.12.1-1-anylinux-x86_64.AppImage",
     "description": "Unofficial, a project to recreate Ultima 7 for modern operating systems"
-  },
-  {
-    "pkg": "eyedropper",
-    "site": "pkgforge-dev/Eyedropper-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eyedropper",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eyedropper",
-    "version_raw": "https://github.com/pkgforge-dev/Eyedropper-AppImage/releases/download/2.2.1-1%402026-05-04_1777907080/Eyedropper-2.2.1-1-anylinux-x86_64.AppImage",
-    "description": "Unofficial. Simple color picker, with support for various color palettes"
   },
   {
     "pkg": "eyestalker",
@@ -6932,7 +6916,7 @@
     "site": "https://www.firefox.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-beta",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260510-204715/Firefox-beta-151.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260511-211841/Firefox-beta-151.0-x86_64.AppImage",
     "description": "Fast, powerful and extensible Web Browser, Beta Edition"
   },
   {
@@ -6940,7 +6924,7 @@
     "site": "https://www.firefox.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-devedition",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-devedition",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260510-204715/Firefox-devedition-151.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260511-211841/Firefox-devedition-151.0-x86_64.AppImage",
     "description": "Fast, powerful and extensible Web Browser, Developer Edition"
   },
   {
@@ -6948,7 +6932,7 @@
     "site": "https://www.firefox.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-esr",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-esr",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260510-204715/Firefox-esr-140.10.2-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260511-211841/Firefox-esr-140.10.2-x86_64.AppImage",
     "description": "Fast, powerful and extensible Web Browser, ESR Edition"
   },
   {
@@ -6956,7 +6940,7 @@
     "site": "https://www.firefox.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-nightly",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260510-204715/Firefox-nightly-152.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260511-211841/Firefox-nightly-152.0a1-x86_64.AppImage",
     "description": "Fast, powerful and extensible Web Browser, Nightly Edition"
   },
   {
@@ -8740,7 +8724,7 @@
     "site": "benjamimgois/goverlay",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/goverlay",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/goverlay",
-    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/1.8.1/goverlay_1_8_1.AppImage",
+    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-256e8e35d-anylinux-x86_64.AppImage",
     "description": "An opensource project that aims to create a Graphical UI to help manage Linux overlays"
   },
   {
@@ -13436,7 +13420,7 @@
     "site": "https://modrinth.com/app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/modrinth",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/modrinth",
-    "version_raw": "https://launcher-files.modrinth.com/versions/0.13.14/linux/Modrinth%20App_0.13.14_amd64.AppImage",
+    "version_raw": "https://launcher-files.modrinth.com/versions/0.13.15/linux/Modrinth%20App_0.13.15_amd64.AppImage",
     "description": "Open source launcher that allows you to play your favorite mods"
   },
   {
@@ -16028,7 +16012,7 @@
     "site": "PCSX2/pcsx2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx2-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcsx2-nightly",
-    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.330/pcsx2-v2.7.330-linux-appimage-x64-Qt.AppImage",
+    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.331/pcsx2-v2.7.331-linux-appimage-x64-Qt.AppImage",
     "description": "PCSX2 is a free and open-source PlayStation 2 (PS2) emulator, using a combination of MIPS CPU Interpreters, Recompilers and a Virtual Machine which manages hardware states and PS2 system memory. This allows you to play PS2 games on your PC, with many additional features and benefits. This is the nightly version"
   },
   {
@@ -19572,7 +19556,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-05-11-201aaf232b226922da1b57a0593df653d73b7857/shadps4-linux-sdl-2026-05-11-201aaf2.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-05-11-89b886348e743c4036e1206e5ae8d0f650b3676d/shadps4-linux-sdl-2026-05-11-89b8863.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -22060,7 +22044,7 @@
     "site": "https://www.thunderbird.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-beta",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260510-204844/Thunderbird-beta-151.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260511-211736/Thunderbird-beta-151.0-x86_64.AppImage",
     "description": "Free and open source eMail client, Beta Edition"
   },
   {
@@ -22068,7 +22052,7 @@
     "site": "https://www.thunderbird.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-nightly",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260510-204844/Thunderbird-nightly-152.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260511-211736/Thunderbird-nightly-152.0a1-x86_64.AppImage",
     "description": "Free and open source eMail client, Nightly Edition"
   },
   {
@@ -23908,7 +23892,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "9328786679",
+    "version_raw": "9333528467",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
