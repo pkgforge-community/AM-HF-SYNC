@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-AMVERSION="10.1.1-1"
+AMVERSION="10.2"
 
 # Determine main repository and branch
 AMREPO="https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main"
@@ -110,7 +110,66 @@ _fit() {
 AMBRANCH=$(basename "$AMREPO")
 MODULES_SOURCE="$AMREPO/modules"
 
-# Translations
+# ALTERNATE CURL AND WGET
+CURLCMD="curl"
+WGETCMD="wget"
+
+if ! command -v wget >/dev/null 2>&1 && ! command -v curl >/dev/null 2>&1; then
+	printf $" ${RED}💀 ERROR! MISSING ESSENTIAL COMMANDS\033[0m: %s\n\n Install the above and try again! \n" "$CURLCMD, $WGETCMD"
+	exit 0
+fi
+
+# Export variables for such commands to avoid confusion
+export CURLLS="$CURLCMD -Ls" # This will be added in variables
+export CURLPROGRES="$CURLCMD -LJO --progress-bar --write-out 'Downloaded %{size_download} bytes in %{time_total} seconds'"
+export WGETPROGRESS="$WGETCMD -q --no-verbose --show-progress --progress=bar"
+
+if command -v wget >/dev/null 2>&1 && wget --version 2>/dev/null | head -1 | grep -qi "$WGETCMD.* 1." ; then
+	WGETV="1"
+fi
+
+# Identify objects online
+_use_online_check_tool() {
+	local url="$1"
+	if command -v curl >/dev/null 2>&1; then
+		curl --output /dev/null --silent --head --fail "$url" 1>/dev/null
+	elif command -v wget >/dev/null 2>&1; then
+		wget -q --tries=10 --timeout=20 --spider "$url"
+	fi
+}
+
+# Read online text
+_use_online_reading_tool() {
+	local url="$1"
+	if command -v curl >/dev/null 2>&1; then
+		curl -Ls "$url" 2>/dev/null
+	elif command -v wget >/dev/null 2>&1; then
+		wget -q -O - "$url" 2>/dev/null
+	fi
+}
+
+# Download files
+_use_online_downloader() {
+	local file="$2"
+	local url="$1"
+	if command -v curl >/dev/null 2>&1; then
+		curl -s -Lo "$file" "$url" 2>/dev/null
+	elif command -v wget >/dev/null 2>&1; then
+		wget -q "$url" -O "$file" 2>/dev/null
+	fi
+}
+
+_use_online_downloader_as_root() {
+	local file="$2"
+	local url="$1"
+	if command -v curl >/dev/null 2>&1; then
+		$SUDOCMD curl -s -Lo "$file" "$url" 2>/dev/null
+	elif command -v wget >/dev/null 2>&1; then
+		$SUDOCMD wget -q "$url" -O "$file" 2>/dev/null
+	fi
+}
+
+# TRANSLATIONS
 ISO_CODES="ab ace ach af ain ak am am_ET an ang ar as as_IN ast ay az az_AZ az_IR ba bal bar be be@latin ber be@tarask bg bi bn bn_BD bn_IN bo br brx bs byn ca ca@valencia ce cgg ch chr ckb cmn co crh cs csb cs_CZ cv cy da de de_CH de_DE de@hebrew dv dz ee el en en@arabic en_AU en@boldquot en_CA en@cyrillic en_GB en@greek en@hebrew en_NZ en@piglatin en@quot en@shaw en_US eo es es_AR es_CO es_ES es_EU es_MX et eu fa fa_IR ff fi fil fo fr fr_CA fr_FR frp fur fy ga gd gez gl gn gu gv ha haw he hi hne hr hsb ht hu hu_HU hy hy_AM hye hye_RU ia id id_ID ie ig io is it iu ja jam ka kab kg ki kk kl km kmr kn ko kok ks ks_IN ku ku_IQ kv kw kw_GB ky la lb lg li lo locale.alias lt ltg lv mai mg mhr mi mjw mk ml mn mo mr ms mt my na nah nan nap nb nb_NO nds ne nl nl_BE nl_NL nn no nso nv oc om or or_IN pa pap pa_PK pi pl pms ps pt pt_BR pt_PT qu quz ro rom ro_MD ru rue ru_UA rw sa sat sc sd se shn si sk sl sm sma sn so son sq sr sr@ije sr@ijekavian sr@ijekavianlatin sr@latin sr@Latn sr_RS sr_RS@latin sv sw szl ta ta_LK te tet tg th ti tig tk tl tr tt tt@iqtelif tzm ug uk ur ur_PK uz uz@cyrillic uz@Latn ve vec vi wa wae wal wo xh yi yo zgh zh_CN zh_Hans zh_Hant zh_HK zh_SG zh_TW zu"
 _check_valid_iso_codes() {
 	for lang in $ISO_CODES; do
@@ -122,9 +181,9 @@ _check_valid_iso_codes() {
 }
 
 _set_locale() {
-	if curl --output /dev/null --silent --head --fail "https://github.com/pkgforge-community/AM-HF-SYNC/raw/$AMBRANCH/translations/usr/share/locale/$iso_code/LC_MESSAGES/am.mo" 1>/dev/null; then
+	if _use_online_check_tool "https://github.com/pkgforge-community/AM-HF-SYNC/raw/$AMBRANCH/translations/usr/share/locale/$iso_code/LC_MESSAGES/am.mo"; then
 		mkdir -p "$DATADIR/locale/$iso_code/LC_MESSAGES" && rm -f "$DATADIR"/locale/"$iso_code"/LC_MESSAGES/am.mo "$DATADIR"/locale/"$iso_code"/LC_MESSAGES/appman.mo
-		curl -s -Lo "$DATADIR/locale/$iso_code/LC_MESSAGES/am.mo" "https://github.com/pkgforge-community/AM-HF-SYNC/raw/$AMBRANCH/translations/usr/share/locale/$iso_code/LC_MESSAGES/am.mo"
+		_use_online_downloader "https://github.com/pkgforge-community/AM-HF-SYNC/raw/$AMBRANCH/translations/usr/share/locale/$iso_code/LC_MESSAGES/am.mo" "$DATADIR/locale/$iso_code/LC_MESSAGES/am.mo"
 		ln -sf "$DATADIR/locale/$iso_code/LC_MESSAGES/am.mo" "$DATADIR/locale/$iso_code/LC_MESSAGES/appman.mo"
 		mkdir -p "$DATADIR/AM" && echo "$iso_code" > "$DATADIR/AM/locale"
 	else
@@ -463,45 +522,15 @@ _betatester_message_on() {
 APPSDB="${APPSDB:-$AMREPO/programs/$ARCH}"
 APPSLISTDB="${APPSLISTDB:-$AMREPO/programs/$ARCH-apps}"
 
-# List of apps from archived repositories or not updated for more than a year
-archived_apps_source="$AMREPO/programs/archived-apps"
-obsolete_apps_source="$AMREPO/programs/obsolete-apps"
-
-_validate_and_download_lists_of_archived_and_obsolete_apps() {
-	if wget -q --tries=10 --timeout=20 --spider https://github.com; then
-		archived_apps_list_content=$(curl -Ls "$archived_apps_source")
-		if [ -n "$archived_apps_list_content" ]; then
-			echo "$archived_apps_list_content" | grep -q "^# ARCHIVED SOURCES$" && echo "$archived_apps_list_content" > "$AMDATADIR"/archived-sources
-		fi
-		obsolete_apps_list_content=$(curl -Ls "$obsolete_apps_source")
-		if [ -n "$obsolete_apps_list_content" ]; then
-			echo "$obsolete_apps_list_content" | grep -q "^# OBSOLETE SOURCES$" && echo "$obsolete_apps_list_content" > "$AMDATADIR"/obsolete-sources
-		fi
-	fi
-}
-
-[ ! -f "$AMDATADIR"/archived-sources ] && _validate_and_download_lists_of_archived_and_obsolete_apps 2>/dev/null
-[ ! -f "$AMDATADIR"/obsolete-sources ] && _validate_and_download_lists_of_archived_and_obsolete_apps 2>/dev/null
-
-[ -f "$AMDATADIR"/archived-sources ] && archived_apps=$(sort -u "$AMDATADIR"/archived-sources)
-[ -f "$AMDATADIR"/obsolete-sources ] && obsolete_apps=$(sort -u "$AMDATADIR"/obsolete-sources)
-
 ################################################################################################################################################################
 #				SECURITY
 ################################################################################################################################################################
 
 # SAFETY CHECKS
 
-# Function to check online connections (uses github.com by default, as the database and CLI itself are stored/hosted there)
+# Function to check online connections
 _online_check_tool() {
-	if command -v wget >/dev/null 2>&1; then
-		wget -q --tries=10 --timeout=20 --spider https://github.com
-	elif command -v curl >/dev/null 2>&1; then
-		curl --output /dev/null --silent --head --fail https://github.com 1> /dev/null
-	else
-		printf $" ${RED}💀 ERROR! MISSING ESSENTIAL COMMANDS\033[0m: %s\n\n Install the above and try again! \n" "$(echo "curl, wget")"
-		exit 0
-	fi
+	_use_online_check_tool "${APPSLISTDB}"
 }
 
 _online_check() {
@@ -523,23 +552,11 @@ _checksum_on_standard_dependencies() {
 }
 
 # Use static binaries as a fallback solution in case there are no dependencies
-AM_core_dependencies="cat chmod chown curl grep sed wget"
-AM_opt_dependencies="7z ar column du file md5sum notify-send sha1sum sha256sum sha512sum tar unxz unzip xz xzcat"
+AM_core_dependencies="cat chmod chown $CURLCMD grep sed"
+AM_opt_dependencies="7z ar column du file md5sum mv notify-send sha1sum sha256sum sha512sum tar unxz unzip $WGETCMD xz xzcat"
 AM_standard_dependencies="$AM_core_dependencies $AM_opt_dependencies"
 _deps_dl() {
-	if command -v curl >/dev/null 2>&1; then
-		curl -Lo "$CACHEDIR"/AMCACHEPATH/"$name" "$AM_UTILS_SOURCE/$name-$ARCH-static" 2>/dev/null
-	elif command -v wget >/dev/null 2>&1; then
-		wget -q "$AM_UTILS_SOURCE/$name-$ARCH-static" -O "$CACHEDIR"/AMCACHEPATH/"$name"
-	fi
-}
-
-_check_dl_deps() {
-	if command -v curl >/dev/null 2>&1; then
-		curl --output /dev/null --silent --head --fail "$AM_UTILS_SOURCE/$name-$ARCH-static" 1> /dev/null
-	elif command -v wget >/dev/null 2>&1; then
-		wget -q --tries=10 --timeout=20 --spider "$AM_UTILS_SOURCE/$name-$ARCH-static"
-	fi
+	_use_online_downloader "$AM_UTILS_SOURCE/$name-$ARCH-static" "$CACHEDIR"/AMCACHEPATH/"$name"
 }
 
 if uname | grep -q BSD; then
@@ -573,7 +590,7 @@ if [ "$ARCH" = aarch64 ] || [ "$ARCH" = x86_64 ]; then
 			if [ -d "$CACHEDIR"/AMCACHEPATH/"$name" ] || [ -L "$CACHEDIR"/AMCACHEPATH/"$name" ] || ! head -c 4 "$CACHEDIR"/AMCACHEPATH/"$name" 2>/dev/null | grep -q $'\x7fELF' || [ ! -f "$CACHEDIR"/AMCACHEPATH/"$name" ]; then
 				rm -Rf "$CACHEDIR"/AMCACHEPATH/"$name"
 				case $name in
-  					'column'|'du')
+  					'column'|'du'|'mv')
   						if ! "$name" --version 2>/dev/null; then
   							_collect_fallback_dependencies
   						fi
@@ -584,7 +601,7 @@ if [ "$ARCH" = aarch64 ] || [ "$ARCH" = x86_64 ]; then
 	done
 	if [ -n "$fallback_binaries_needed" ] && [ ! -f "$AMDATADIR"/disable-dependencies-prompt ]; then
 		for name in $fallback_binaries_needed; do
-			if ! _check_dl_deps 2>/dev/null; then
+			if ! _use_online_check_tool "$AM_UTILS_SOURCE/$name-$ARCH-static" 2>/dev/null; then
 				amutils=$(echo "$amutils" | tr ' ' '\n' | sed "s/^$name$//g" | xargs)
 				AM_standard_dependencies=$(echo "$AM_standard_dependencies" | tr ' ' '\n' | sed "s/^$name$//g" | xargs)
 				fallback_binaries_needed=$(echo "$fallback_binaries_needed" | tr ' ' '\n' | sed "s/^$name$//g" | xargs)
@@ -618,7 +635,7 @@ if [ "$ARCH" = aarch64 ] || [ "$ARCH" = x86_64 ]; then
 		if command -v "$name" >/dev/null 2>&1; then
 			if uname | grep -q BSD; then
 				case $name in
-  					'column'|'du')
+  					'column'|'du'|'mv')
   						if "$name" --version >/dev/null 2>&1; then
   							rm -Rf "$CACHEDIR"/AMCACHEPATH/"$name"
   						fi
@@ -649,8 +666,8 @@ if [ "$ARCH" = aarch64 ] || [ "$ARCH" = x86_64 ]; then
 	# Check binaries integrity
 	if [ "$(ls -A "$CACHEDIR"/AMCACHEPATH 2>/dev/null)" ]; then
 		if [ ! -f "$AMCACHEDIR"/"$ARCH".sha256sum.txt ]; then
-			if curl --output /dev/null --silent --head --fail https://github.com 1> /dev/null; then
-				deps_sum256_all=$(curl -Ls "$AM_UTILS_SOURCE/$ARCH.sha256sum.txt" 2>/dev/null)
+			if _online_check_tool; then
+				deps_sum256_all=$(_use_online_reading_tool "$AM_UTILS_SOURCE/$ARCH.sha256sum.txt" 2>/dev/null)
 				if [ -n "$deps_sum256_all" ]; then
 					echo "$deps_sum256_all" > "$AMCACHEDIR"/"$ARCH".sha256sum.txt
 				fi
@@ -698,14 +715,6 @@ if command -v unshare >/dev/null 2>&1 && ! unshare -Urm /bin/true 2>/dev/null; t
 	echo "$DIVIDING_LINE"
 fi
 
-# Function to check if the installed version of wget is the real wget or is a fake (Fedora mess)
-_check_fedora_mess() {
-	if wget --version | head -1 | grep -qi ' 2.\|wget2 '; then
-		printf $"\n%bWARNING: your distro maintainer ships \"wget2\" as \"wget\" \033[0m\n\n" "${RED}" | _fit
-		[ -f /etc/redhat-release ] && printf $"Please install \"%bwget1\033[0m\" and \"%bwget1-wget\033[0m\" (use %b--allowerasing\033[0m if you have to)\n\nSee https://bugzilla.redhat.com/show_bug.cgi?id=2358792\n\n" "${Gold}" "${Gold}" "${Green}" | sed "s/^/ /g"
-	fi
-}
-
 # Check if appimagetool is installed, and if it is not installed, download and use it where it is needed
 _download_appimagetool() {
 	_determine_args
@@ -718,7 +727,7 @@ _download_appimagetool() {
 		mkdir -p "$CACHEDIR"/AMCACHEPATH
 		if [ ! -f "$CACHEDIR"/AMCACHEPATH/appimagetool ]; then
 			_online_check
-			wget -q https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-"${ARCH}".AppImage -O "$CACHEDIR"/AMCACHEPATH/appimagetool
+			_use_online_downloader https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-"${ARCH}".AppImage "$CACHEDIR"/AMCACHEPATH/appimagetool
 			chmod a+x "$CACHEDIR"/AMCACHEPATH/appimagetool
 		fi
 	fi
@@ -822,7 +831,7 @@ _am_newrepo_check "$@"
 ################################################################################################################################################################
 
 _am_extras_sources() {
-	AM_EXTRA_SOURCES=$(curl -Ls "$AM_EXTRA_SOURCES")
+	AM_EXTRA_SOURCES=$(_use_online_reading_tool "$AM_EXTRA_SOURCES")
 	if echo "$AM_EXTRA_SOURCES" | grep -q "^# "; then
 		echo "$AM_EXTRA_SOURCES" > "$AMDATADIR"/am-extras
 	fi
@@ -852,7 +861,7 @@ _third_party_lsts_filter() {
 }
 
 _third_party_lsts_generator() {
-	tprepo_readme="${tp_list}_readme" && curl -Ls "${!tprepo_readme}" 2>/dev/null | _third_party_lsts_filter \
+	tprepo_readme="${tp_list}_readme" && _use_online_reading_tool "${!tprepo_readme}" 2>/dev/null | _third_party_lsts_filter \
 	| sed "s/$/. To install it use the --$tp_list flag or the .$tp_list extension./g" | sort > "$AMDATADIR"/"$ARCH"-"$tp_list" || touch "$AMDATADIR"/"$ARCH"-"$tp_list"
 }
 
@@ -941,7 +950,7 @@ available_options="about add apikey backup clean clone config disable downgrade 
 
 _completion_lists() {
 	# Remove existing lists and download new ones
-	curl -Ls "$APPSLISTDB" 2>/dev/null | grep "^◆" > "$AMDATADIR/$ARCH-apps"
+	_use_online_reading_tool "$APPSLISTDB" 2>/dev/null | grep "^◆" > "$AMDATADIR/$ARCH-apps"
 	awk -v FS="(◆ | : )" '{print $2}' <"$AMDATADIR"/"$ARCH"-apps > "$AMDATADIR"/list
 	_completion_list_third_party
 	# Append options to the list
@@ -957,6 +966,29 @@ _completion_lists() {
 		! echo "$l" | grep -q "$valid_lists" && rm -f "$l"
 	done
 }
+
+# List of apps from archived repositories or not updated for more than a year
+archived_apps_source="$AMREPO/programs/archived-apps"
+obsolete_apps_source="$AMREPO/programs/obsolete-apps"
+
+_validate_and_download_lists_of_archived_and_obsolete_apps() {
+	if _online_check_tool; then
+		archived_apps_list_content=$(_use_online_reading_tool "$archived_apps_source")
+		if [ -n "$archived_apps_list_content" ]; then
+			echo "$archived_apps_list_content" | grep -q "^# ARCHIVED SOURCES$" && echo "$archived_apps_list_content" > "$AMDATADIR"/archived-sources
+		fi
+		obsolete_apps_list_content=$(_use_online_reading_tool "$obsolete_apps_source")
+		if [ -n "$obsolete_apps_list_content" ]; then
+			echo "$obsolete_apps_list_content" | grep -q "^# OBSOLETE SOURCES$" && echo "$obsolete_apps_list_content" > "$AMDATADIR"/obsolete-sources
+		fi
+	fi
+}
+
+[ ! -f "$AMDATADIR"/archived-sources ] && _validate_and_download_lists_of_archived_and_obsolete_apps 2>/dev/null
+[ ! -f "$AMDATADIR"/obsolete-sources ] && _validate_and_download_lists_of_archived_and_obsolete_apps 2>/dev/null
+
+[ -f "$AMDATADIR"/archived-sources ] && archived_apps=$(sort -u "$AMDATADIR"/archived-sources)
+[ -f "$AMDATADIR"/obsolete-sources ] && obsolete_apps=$(sort -u "$AMDATADIR"/obsolete-sources)
 
 # BASH, FISH AND ZSH COMPLETION
 if [ "$CLI_PATH" != "/usr/bin/am" ]; then
@@ -1163,7 +1195,11 @@ _validate_github_token() {
 
 	# Check HTTP status code for proper validation
 	local HTTP_STATUS
-	HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" --header "Authorization: token $token" "https://api.gh.pkgforge.dev/repos/pkgforge-community/AM-HF-SYNC/releases")
+		if command -v curl >/dev/null 2>&1; then
+		HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" --header "Authorization: token $token" "https://api.gh.pkgforge.dev/repos/pkgforge-community/AM-HF-SYNC/releases")
+	elif command -v wget >/dev/null 2>&1; then
+		HTTP_STATUS=$(wget --quiet --server-response --header="Authorization: token $token" --output-document=/dev/null "https://api.gh.pkgforge.dev/repos/pkgforge-community/AM-HF-SYNC/releases" 2>&1 | awk '/HTTP\// {print $2}')
+	fi
 
 	if [ "$HTTP_STATUS" = "200" ]; then
 		[ "$quiet" != "true" ] && echo $"Validation successful!"
@@ -1576,7 +1612,7 @@ _sync_installation_scripts() {
 				scriptname=$(ls "$argpath/.am-installer/" | head -1)
 				if [ -n "$scriptname" ] && grep -q "^◆ $scriptname :" "$AMDATADIR/$ARCH-apps"; then
 					CURRENT=$(cat "$argpath"/.am-installer/"$scriptname")
-					SOURCE=$(curl -Ls "$APPSDB"/"$scriptname")
+					SOURCE=$(_use_online_reading_tool "$APPSDB"/"$scriptname")
 					if [ "$CURRENT" = "$SOURCE" ]; then
 						echo -ne "\r" 2>/dev/null
 					else
@@ -1584,10 +1620,10 @@ _sync_installation_scripts() {
 						to_reinstall_true=1
 					fi
 				else
-					if [ -z "$scriptname" ] && curl --output /dev/null --silent --head --fail "$APPSDB"/"$arg"  1>/dev/null; then
+					if [ -z "$scriptname" ] && _use_online_check_tool "$APPSDB"/"$arg"; then
 						printf $" ◆ No installation script for %b, downloading one...\n" "$arg"
 						mkdir -p "$argpath"/.am-installer
-						wget -q "$APPSDB/$arg" -O "$argpath"/.am-installer/"$arg"
+						_use_online_downloader "$APPSDB/$arg" "$argpath"/.am-installer/"$arg"
 					fi
 					SOURCE=""
 				fi
@@ -1600,12 +1636,12 @@ _sync_installation_scripts() {
 
 _sync_appimages_list() {
 	APPIMAGES_LIST="${APPIMAGES_LIST:-$AMREPO/programs/$ARCH-appimages}"
-	curl -Ls "$APPIMAGES_LIST" 2>/dev/null | grep "^◆" > "$AMDATADIR/$ARCH-appimages"
+	_use_online_reading_tool "$APPIMAGES_LIST" 2>/dev/null | grep "^◆" > "$AMDATADIR/$ARCH-appimages"
 }
 
 _sync_portable_list() {
 	PORTABLE_LIST="${PORTABLE_LIST:-$AMREPO/programs/$ARCH-portable}"
-	curl -Ls "$PORTABLE_LIST" 2>/dev/null | grep "^◆" > "$AMDATADIR/$ARCH-portable"
+	_use_online_reading_tool "$PORTABLE_LIST" 2>/dev/null | grep "^◆" > "$AMDATADIR/$ARCH-portable"
 }
 
 _sync_databases() {
@@ -1622,10 +1658,10 @@ _sync_locale() {
 	if [ -f "$DATADIR/locale/$iso_code/LC_MESSAGES/am.mo" ]; then
 		printf $"%b\n Check and update localization...\n" "$DIVIDING_LINE"
 		rm -f "$DATADIR/locale/$iso_code/LC_MESSAGES/am.mo"
-		curl -s -Lo "$DATADIR/locale/$iso_code/LC_MESSAGES/am.mo" "https://github.com/pkgforge-community/AM-HF-SYNC/raw/$AMBRANCH/translations/usr/share/locale/$iso_code/LC_MESSAGES/am.mo"
+		_use_online_downloader "https://github.com/pkgforge-community/AM-HF-SYNC/raw/$AMBRANCH/translations/usr/share/locale/$iso_code/LC_MESSAGES/am.mo" "$DATADIR/locale/$iso_code/LC_MESSAGES/am.mo"
 	elif [ "$iso_code" = "en" ]; then
 		_check_valid_iso_codes
-		if curl --output /dev/null --silent --head --fail "https://github.com/pkgforge-community/AM-HF-SYNC/raw/$AMBRANCH/translations/usr/share/locale/$iso_code/LC_MESSAGES/am.mo" 1>/dev/null; then
+		if _use_online_check_tool "https://github.com/pkgforge-community/AM-HF-SYNC/raw/$AMBRANCH/translations/usr/share/locale/$iso_code/LC_MESSAGES/am.mo"; then
 			printf "%b\n Found a translation file, run the \"%b%b translate %b\033[0m\" command to use it...\n" "$DIVIDING_LINE" "$Gold" "$AMCLI" "$iso_code"
 		fi
 	fi
@@ -1638,11 +1674,10 @@ _sync_modules() {
 		mkdir -p "$MODULES_PATH" && cd "$MODULES_PATH" || return 1
 		if ! test -f ./"$module_name"; then
 			echo $" ◆ Downloading $module_name (not previously installed)..."
-			curl -Os "$MODULES_SOURCE/$module_name" 2>/dev/null
-			chmod a+x ./"$MODULENAME"
+			_use_online_downloader "$MODULES_SOURCE/$module_name" ./"$module_name" 2>/dev/null
 		fi
 		CURRENT=$(cat ./"$module_name" 2>/dev/null)
-		SOURCE=$(curl -Ls "$MODULES_SOURCE/$module_name")
+		SOURCE=$(_use_online_reading_tool "$MODULES_SOURCE/$module_name")
 		if echo "$SOURCE" | grep -q AMCLI; then
 			if [ "$CURRENT" = "$SOURCE" ]; then
 				echo -ne "\r" 2>/dev/null
@@ -1683,7 +1718,7 @@ _use_sync() {
 	_sync_installation_scripts
 	_validate_and_download_lists_of_archived_and_obsolete_apps
 	if [ "$CLI_PATH" != "/usr/bin/am" ] && [ "$AMSYNC" != 1 ]; then
-		AMCLI_ONLINE_CONTENT=$(curl -Ls "$AMREPO"/APP-MANAGER)
+		AMCLI_ONLINE_CONTENT=$(_use_online_reading_tool "$AMREPO"/APP-MANAGER)
 		if echo "$AMCLI_ONLINE_CONTENT" | grep -q AMCLI; then
 			if [ "$CLI" = am ]; then
 				if [ -f "$APPMANCONFIG"/appman-mode ]; then
@@ -1715,7 +1750,7 @@ _use_verify() {
 		[ -f "$argpath/AM-VERIFIED" ] && rm -f "$argpath"/AM-VERIFIED # Remove verified status
 		# Check if the download was a tarball/zip file
 		if { [ -f "$argpath/version" ] && grep -q '\.xz$\|\.zip$\|\.gz$' "$argpath/version"; } \
-		|| { [ -f "$argpath/AM-updater" ] && grep -q 'wget.*\.xz \|wget.*\.zip \|wget.*\.gz ' "$argpath/AM-updater"; } \
+		|| { [ -f "$argpath/AM-updater" ] && grep -q "$WGETCMD.*\.xz \|$WGETCMD.*\.zip \|$WGETCMD.*\.gz " "$argpath/AM-updater"; } \
 		|| { [ ! -f "$argpath/version" ] && [ ! -f "$argpath/AM-updater" ] && [ -f "$argpath/updater.ini" ]; }; then
 			checksum_msg=$(echo $"Checksum auto-verified.")
 			printf "%b✔\033[0m %b \n" "${Green}" "$checksum_msg" | _fit
@@ -1724,22 +1759,26 @@ _use_verify() {
 		# Search for hash files
 		elif [ -f "$argpath"/version ] && grep -qi "^http" "$argpath"/version; then
 			download_url=$(sort "$argpath"/version)
-		elif [ -f "$argpath"/AM-updater ] && grep -q "wget .*am-extras" "$argpath"/AM-updater; then
-			download_url=$(eval "$(grep "wget .*am-extras" "$argpath"/AM-updater | tr '()' '\n' | grep curl | head -1)" | xargs 2>/dev/null)
+		elif [ -f "$argpath"/AM-updater ] && grep -q "$WGETCMD .*am-extras" "$argpath"/AM-updater; then
+			download_url=$(eval "$(grep "$WGETCMD .*am-extras" "$argpath"/AM-updater | tr '()' '\n' | grep curl | head -1)" | xargs 2>/dev/null)
 		fi
 		if [ -n "$download_url" ]; then
 			# Search for zsync file
-			digest=$(curl -Lsf "$download_url.zsync" | grep -a "SHA\|MD5" | tr -d '\0')
+			digest=$(_use_online_reading_tool "$download_url.zsync" | grep -a "SHA\|MD5" | tr -d '\0')
 			if [ -z "$digest" ]; then
 				# Search other sources if no zsync file
 				for ext in digest DIGEST sha512 sha256 sha1 md5; do
-					digest=$(curl -Lsf "$download_url.$ext")
+					digest=$(_use_online_reading_tool "$download_url.$ext")
 					# Skip empty responses (some CDNs return HTTP 404 with empty body)
 					[ -z "$digest" ] && continue
 					if ! echo "$digest" | grep -qi "not found\|access denied"; then
 						break
 					fi
 				done
+				# Check the online file if no kind of digest file is available
+				#if [ -z "$digest" ] || echo "$digest" | grep -qi "not found\|access denied"; then
+				#	digest=$(_use_online_reading_tool "$download_url" | sha256sum)
+				#fi
 				if [ -z "$digest" ] || echo "$digest" | grep -qi "not found\|access denied"; then
 					return 1
 				fi
@@ -1894,12 +1933,22 @@ _update_determine_gh_apps_number() {
 	wait
 	[ -z "$GH_APPS" ] && GH_APPS_NUMBER="" || GH_APPS_NUMBER=$(echo "$GH_APPS" | wc -l | sed 's/ //g')
 	if [ -n "$GH_APPS_NUMBER" ]; then
-		GH_API_REMAINING=$(curl -Ls "https://api.gh.pkgforge.dev/rate_limit" | tr '{,' '\n' | grep -i remaining | tail -1 | grep -Eo "[0-9]*")
+		GH_API_REMAINING=$(_use_online_reading_tool "https://api.gh.pkgforge.dev/rate_limit" | tr '{,' '\n' | grep -i remaining | tail -1 | grep -Eo "[0-9]*")
 		GH_API_ALLOWED=$((GH_API_REMAINING - GH_APPS_NUMBER))
 	fi
 }
 
 _update_run_updater() {
+	if [ -z "$WGETV" ]; then # Patch the AM-updater in case $WGETCMD is needed but missing
+		if grep -q "$WGETCMD " "$argpath"/AM-updater; then
+			if grep -q "$WGETPROGRESS" "$argpath"/AM-updater; then
+				sed -i -- "s#$WGETPROGRESS #$CURLPROGRES #g" "$argpath"/AM-updater
+			else
+				sed -i -- "s#$WGETCMD #$CURLPROGRES #g" "$argpath"/AM-updater
+			fi
+			sed -i -- "s/--trust-server-names//g; s/ -O [^|]*\|\|//g" "$argpath"/AM-updater
+		fi
+	fi
 	if grep -q "api.gh.pkgforge.dev" "$argpath"/AM-updater; then
 		if [ "$GH_API_ALLOWED" -le 5 ]; then
 			sed -i "s#https://api.gh.pkgforge.dev#$ALT_GH#g" "$argpath"/AM-updater
@@ -1992,7 +2041,6 @@ _use_update() {
 	_online_check
 	_update_github_api_key_in_the_updater_files
 	_clean_all_tmp_directories_from_appspath >/dev/null
-	_check_fedora_mess
 
 	ENTRIES="$(echo "$@" | cut -f2- -d ' ' | tr ' ' '\n' | grep -v -- "^-\|^$1$")"
 	FLAGS=$(echo "$@" | tr ' ' '\n' | grep -- "--" | tr '\n ' ' ')
@@ -2082,7 +2130,7 @@ _use_module() {
 	fi
 	if [ ! -f "$MODULES_PATH/$MODULE" ]; then
 		_online_check
-		if ! wget -q "$MODULES_SOURCE/$MODULE" -O "$MODULES_PATH/$MODULE"; then
+		if ! _use_online_downloader "$MODULES_SOURCE/$MODULE" "$MODULES_PATH/$MODULE"; then
 			echo $" Module not found, run \"$AMCLI -s\" to update \"$AMCLIUPPER\""
 			exit 1
 		fi
@@ -2134,7 +2182,6 @@ case "$1" in
 	'reinstall')
 		MODULE="install.am"
 		_online_check
-		_check_fedora_mess
 		[ "$CLI" = am ] && [ -f "$APPMANCONFIG"/appman-mode ] && [ -z "$IMMUTABLE_ON" ] && printf "%b\n" "$APPMAN_MSG"
 		_use_module "$@"
 		;;
