@@ -244,7 +244,7 @@
     "site": "toeverything/AFFiNE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine-canary",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/affine-canary",
-    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2026.5.14-canary.948/affine-2026.5.14-canary.948-canary-linux-x64.appimage",
+    "version_raw": "https://github.com/toeverything/AFFiNE/releases/download/v2026.5.15-canary.954/affine-2026.5.15-canary.954-canary-linux-x64.appimage",
     "description": "Next-gen knowledge base that brings planning/sorting/creating"
   },
   {
@@ -836,7 +836,7 @@
     "site": "https://apidog.canny.io",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/apidog",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/apidog",
-    "version_raw": "2.8.28",
+    "version_raw": "2.8.29",
     "description": "API design, debugging, testing, and mock tool"
   },
   {
@@ -1534,6 +1534,22 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/azahar-enhanced",
     "version_raw": "https://github.com/pkgforge-dev/Azahar-AppImage-Enhanced/releases/download/2125.1.1%402026-05-01_1777639019/Azahar-2125.1.1-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of Azahar, with optimized builds for modern cpus"
+  },
+  {
+    "pkg": "azaharplus",
+    "site": "AzaharPlus/AzaharPlus",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/azaharplus",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/azaharplus",
+    "version_raw": "https://github.com/AzaharPlus/AzaharPlus/releases/download/AZAHAR_PLUS_2125_1_B/azaharplus-2125.1-B-linux.AppImage",
+    "description": "A fork of the Azahar 3DS emulator with extra features an open-source 3DS emulator project based on Citra"
+  },
+  {
+    "pkg": "azaharplus-pkg-extractor",
+    "site": "AzaharPlus/shadPS4Plus",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/azaharplus-pkg-extractor",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/azaharplus-pkg-extractor",
+    "version_raw": "https://github.com/AzaharPlus/shadPS4Plus/releases/download/PKG_EXTRACTOR_1_1/ShadPs4Plus-PkgExtractor-1.1-linux.AppImage",
+    "description": "Standalone PKG extractor CLI based on code that used to be in ShadPS4 PlayStation 4 emulator written in C++"
   },
   {
     "pkg": "badlion",
@@ -3716,7 +3732,7 @@
     "site": "binarynonsense/comic-book-reader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/comic-book-reader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/comic-book-reader",
-    "version_raw": "https://github.com/binarynonsense/comic-book-reader/releases/download/v3.21.2/ACBR_Linux_AppImage.zip",
+    "version_raw": "https://github.com/binarynonsense/comic-book-reader/releases/download/v3.21.3/ACBR_Linux_AppImage.zip",
     "description": "Reader and converter for cbz, cbr, epub and pdf files"
   },
   {
@@ -4292,7 +4308,7 @@
     "site": "pkgforge-dev/Cromite-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cromite",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cromite",
-    "version_raw": "https://github.com/pkgforge-dev/Cromite-AppImage/releases/download/v147.0.7727.56%402026-05-08_1778239412/Cromite-v147.0.7727.56-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Cromite-AppImage/releases/download/v147.0.7727.56%402026-05-15_1778847653/Cromite-v147.0.7727.56-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of the Cromite web browser"
   },
   {
@@ -8244,7 +8260,7 @@
     "site": "https://gitbutler.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gitbutler",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gitbutler",
-    "version_raw": "https://releases.gitbutler.com/releases/release/0.19.10-3025/linux/x86_64/GitButler_0.19.10_amd64.AppImage.tar.gz",
+    "version_raw": "https://releases.gitbutler.com/releases/release/0.19.11-3038/linux/x86_64/GitButler_0.19.11_amd64.AppImage.tar.gz",
     "description": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte"
   },
   {
@@ -9428,7 +9444,7 @@
     "site": "HMCL-dev/HMCL",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hmcl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hmcl",
-    "version_raw": "https://github.com/HMCL-dev/HMCL/releases/download/v3.14.0.344/HMCL-3.14.0.344.sh",
+    "version_raw": "https://github.com/HMCL-dev/HMCL/releases/download/v3.14.1/HMCL-3.14.1.sh",
     "description": "A Minecraft Launcher which is multi-functional, cross-platform and popular"
   },
   {
@@ -13148,7 +13164,7 @@
     "site": "ivan-hc/MS-Edge-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/microsoft-edge-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/microsoft-edge-beta",
-    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-beta-148.0.3967.54-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-beta-149.0.4022.8-1-x86_64.AppImage",
     "description": "Web Browser provided by Microsoft, Beta Edition"
   },
   {
@@ -13156,7 +13172,7 @@
     "site": "ivan-hc/MS-Edge-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/microsoft-edge-dev",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/microsoft-edge-dev",
-    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-dev-149.0.4022.4-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-dev-149.0.4022.8-1-x86_64.AppImage",
     "description": "Web Browser provided by Microsoft, Developer Edition"
   },
   {
@@ -16732,7 +16748,7 @@
     "site": "plebbit/5chan",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/plebchan",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/plebchan",
-    "version_raw": "https://github.com/bitsocialnet/5chan/releases/download/v0.8.4/5chan-0.8.4-x64.AppImage",
+    "version_raw": "https://github.com/bitsocialnet/5chan/releases/download/v0.8.5/5chan-0.8.5-x64.AppImage",
     "description": "A GUI for plebbit similar to 4chan"
   },
   {
@@ -19588,7 +19604,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-05-15-b89e356cfa1c74ec0925aab13a0b724728d81fc6/shadps4-linux-sdl-2026-05-15-b89e356.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-05-15-e36dff45f4cd091dc55f0a2d137c2de3c78fa26a/shadps4-linux-sdl-2026-05-15-e36dff4.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -20428,7 +20444,7 @@
     "site": "AshBuk/speak-to-ai",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/speak-to-ai",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/speak-to-ai",
-    "version_raw": "https://github.com/AshBuk/speak-to-ai/releases/download/v1.8.1/speak-to-ai-1.8.1-x86_64.AppImage",
+    "version_raw": "https://github.com/AshBuk/speak-to-ai/releases/download/v1.8.2/speak-to-ai-1.8.2-x86_64.AppImage",
     "description": "Speak to AI - native Linux voice-to-text app"
   },
   {
@@ -23452,7 +23468,7 @@
     "site": "ivan-hc/Vivaldi-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vivaldi-stable",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vivaldi-stable",
-    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-stable-7.9.3970.64-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-stable-7.9.3970.67-1-x86_64.AppImage",
     "description": "Unofficial. Advanced Web Browser, Stable Version"
   },
   {
@@ -23700,7 +23716,7 @@
     "site": "https://www.warp.dev",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/warp-terminal",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/warp-terminal",
-    "version_raw": "0.2026.05.06.15.42.stable_05",
+    "version_raw": "0.2026.05.13.09.15.stable_01",
     "description": "Terminal reimagined with AI and collaborative tools"
   },
   {
@@ -23924,7 +23940,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "9499991903",
+    "version_raw": "9506138509",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -24836,7 +24852,7 @@
     "site": "yaklang/yakit",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yakit",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yakit",
-    "version_raw": "https://github.com/yaklang/yakit/releases/download/v1.4.7-0509/Yakit-1.4.7-0509-linux-amd64.AppImage",
+    "version_raw": "https://github.com/yaklang/yakit/releases/download/v1.4.7-0515/Yakit-1.4.7-0515-linux-amd64.AppImage",
     "description": "Cyber Security ALL-IN-ONE Platform"
   },
   {
@@ -24844,7 +24860,7 @@
     "site": "yaklang/yakit",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/yakit-legacy",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yakit-legacy",
-    "version_raw": "https://github.com/yaklang/yakit/releases/download/v1.4.7-0509/Yakit-1.4.7-0509-linux-legacy-amd64.AppImage",
+    "version_raw": "https://github.com/yaklang/yakit/releases/download/v1.4.7-0515/Yakit-1.4.7-0515-linux-legacy-amd64.AppImage",
     "description": "Cyber Security ALL-IN-ONE Platform (legacy)"
   },
   {
