@@ -1788,6 +1788,8 @@ _use_verify() {
 			printf "%b⚠️\033[0m %b \n" "${Gold}" "$checksum_msg" | _fit
 			return 1
 		fi
+		# Show URL and digest when in debug mode
+		[ -n "$debug_update" ] && printf "\nDownload URL: %s, Digest: %s\n" "$download_url" "$digest"
 		# Calculate checksums
 		if [ -f "$argpath"/"$arg" ]; then
 			checksum_sha1=$(sha1sum "$argpath/$arg" | awk '{print $1}')
