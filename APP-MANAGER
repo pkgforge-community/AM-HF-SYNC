@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-AMVERSION="10.2"
+AMVERSION="10.2-1"
 
 # Determine main repository and branch
 AMREPO="https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main"
@@ -1764,11 +1764,11 @@ _use_verify() {
 		fi
 		if [ -n "$download_url" ]; then
 			# Search for zsync file
-			digest=$(_use_online_reading_tool "$download_url.zsync" | grep -a "SHA\|MD5" | tr -d '\0')
+			digest=$(curl -Lsf "$download_url.zsync" | grep -a "SHA\|MD5" | tr -d '\0')
 			if [ -z "$digest" ]; then
 				# Search other sources if no zsync file
 				for ext in digest DIGEST sha512 sha256 sha1 md5; do
-					digest=$(_use_online_reading_tool "$download_url.$ext")
+					digest=$(curl -Lsf "$download_url.$ext")
 					# Skip empty responses (some CDNs return HTTP 404 with empty body)
 					[ -z "$digest" ] && continue
 					if ! echo "$digest" | grep -qi "not found\|access denied"; then
@@ -1777,7 +1777,7 @@ _use_verify() {
 				done
 				# Check the online file if no kind of digest file is available
 				#if [ -z "$digest" ] || echo "$digest" | grep -qi "not found\|access denied"; then
-				#	digest=$(_use_online_reading_tool "$download_url" | sha256sum)
+				#	digest=$(curl -Lsf "$download_url" | sha256sum)
 				#fi
 				if [ -z "$digest" ] || echo "$digest" | grep -qi "not found\|access denied"; then
 					return 1

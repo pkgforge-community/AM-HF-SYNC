@@ -3404,7 +3404,7 @@
     "site": "libnyanpasu/clash-nyanpasu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clash-nyanpasu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/clash-nyanpasu",
-    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha%2B8ac76a1_amd64.AppImage",
+    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha%2Bf853980_amd64.AppImage",
     "description": "A Clash GUI based on tauri"
   },
   {
@@ -7900,7 +7900,7 @@
     "site": "pkgforge-dev/Geargrafx-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/geargrafx",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/geargrafx",
-    "version_raw": "https://github.com/pkgforge-dev/Geargrafx-AppImage/releases/download/1.7.6%402026-05-11_1778500337/Geargrafx-1.7.6-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Geargrafx-AppImage/releases/download/1.7.7%402026-05-15_1778804536/Geargrafx-1.7.7-anylinux-x86_64.AppImage",
     "description": "Unofficial, PC Engine / TurboGrafx-16 / SuperGrafx / PCE CD-ROM² emulator"
   },
   {
@@ -8756,7 +8756,7 @@
     "site": "benjamimgois/goverlay",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/goverlay",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/goverlay",
-    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-b656d7708-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-408439b93-anylinux-x86_64.AppImage",
     "description": "An opensource project that aims to create a Graphical UI to help manage Linux overlays"
   },
   {
@@ -9062,14 +9062,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gum",
     "version_raw": "https://github.com/charmbracelet/gum/releases/download/v0.17.0/gum_0.17.0_Linux_x86_64.tar.gz",
     "description": "A tool for glamorous shell scripts"
-  },
-  {
-    "pkg": "gupt",
-    "site": "besoeasy/gupt",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gupt",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gupt",
-    "version_raw": "",
-    "description": "Self-hosted, end-to-end encrypted messenger. A privacy-first alternative to Telegram, Signal, WhatsApp & Discord built on Nostr relays with WebRTC calls"
   },
   {
     "pkg": "gvim",
@@ -10100,7 +10092,7 @@
     "site": "pkgforge-dev/IRPF2026-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/irpf2026",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/irpf2026",
-    "version_raw": "https://github.com/pkgforge-dev/IRPF2026-AppImage/releases/download/1.1%402026-04-19_1776605044/IRPF_2026-1.1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/IRPF2026-AppImage/releases/download/1.2%402026-05-14_1778801039/IRPF_2026-1.2-anylinux-x86_64.AppImage",
     "description": "Appimage não oficial do IRPF2026, declare seu imposto de renda (Ano-calendário 2025)"
   },
   {
@@ -12204,7 +12196,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.1.59-canary.8/LobeHub-2.1.59-canary.8.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.1.59-canary.9/LobeHub-2.1.59-canary.9.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -14924,7 +14916,7 @@
     "site": "ollama/ollama",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ollama",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ollama",
-    "version_raw": "https://github.com/ollama/ollama/releases/download/v0.23.4/ollama-linux-amd64.tar.zst",
+    "version_raw": "https://github.com/ollama/ollama/releases/download/v0.24.0/ollama-linux-amd64.tar.zst",
     "description": "Get up and running with Llama 3, Mistral, Gemma, and other LLMs"
   },
   {
@@ -15908,7 +15900,7 @@
     "site": "Scille/parsec-cloud",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parsec",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parsec",
-    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.8.2-a.0.dev.20586%2Ba1e70de_linux_x86_64.unsigned.AppImage",
+    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.8.2-a.0.dev.20587%2Ba1e70de_linux_x86_64.unsigned.AppImage",
     "description": "Open source Dropbox-like file sharing with full client encryption"
   },
   {
@@ -19108,7 +19100,7 @@
     "site": "collin80/SavvyCAN",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/savvycan",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/savvycan",
-    "version_raw": "https://github.com/collin80/SavvyCAN/releases/download/continuous-QT6/SavvyCAN-8675061-x86_64.AppImage",
+    "version_raw": "https://github.com/collin80/SavvyCAN/releases/download/continuous/SavvyCAN-2f683fd-x86_64.AppImage",
     "description": "Facilitates reverse engineering of canbus captures"
   },
   {
@@ -19596,7 +19588,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-05-14-a5885435d63d72f03e48be6e8b26582ce6487bfb/shadps4-linux-sdl-2026-05-14-a588543.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-05-15-85b6f5f5053e4d51a3b590d9ee53c9bace7bde5b/shadps4-linux-sdl-2026-05-15-85b6f5f.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -23932,7 +23924,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "9476964783",
+    "version_raw": "9486540514",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -25188,7 +25180,7 @@
     "site": "zed-industries/zed",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zed",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zed",
-    "version_raw": "https://github.com/zed-industries/zed/releases/download/v1.2.3/zed-linux-x86_64.tar.gz",
+    "version_raw": "https://github.com/zed-industries/zed/releases/download/v1.2.4/zed-linux-x86_64.tar.gz",
     "description": "High-performance, multiplayer code editor from the creators of Atom"
   },
   {
