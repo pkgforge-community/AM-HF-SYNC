@@ -11,7 +11,7 @@ app_name_digest=$(_pick_random_app "$TEST_APP_LIST_DIG")
 app_name_zip=$(_pick_random_app "$TEST_APP_LIST_ZIP")
 app_name_nochk=$(_pick_random_app "$TEST_APP_LIST_NOCHK")
 
-## Setup
+# Setup
 _log "Running checksum test: $0"
 am --system
 
@@ -37,6 +37,9 @@ _check_count "checksum auto-verified" 1 "$test_results"
 # Test install for app with no zsync files (checksum wont be verified)
 am -i "$app_name_nochk" > "$test_results"
 _check_count "checksum verified" 0 "$test_results"
+
+# Check if apps were installed correctly
+_test_apps "$app_name1 $app_name2 $app_name_digest $app_name_zip $app_name_nochk"
 
 # Pass the test
 _remove_all_apps

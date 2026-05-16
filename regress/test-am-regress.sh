@@ -6,6 +6,7 @@
 # Setup
 rm -f $TEST_LOG
 _log "Regression testing setup:"
+_restore_binaries "$AM_OPT_DEPS"
 _remove_all_apps
 am --system
 am clean
@@ -20,6 +21,7 @@ _log "Done.\n"
 ./test-am-nolibfuse.sh
 ./test-am-rollback.sh
 ./test-am-clone.sh
+./test-am-utils.sh
 
 # Done
 _log "Regression testing complete:"

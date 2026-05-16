@@ -5,12 +5,11 @@
 # Use the official Debian Jessie image as a parent image
 FROM debian:jessie
 
-# Install dependencies and AM
-# Notes: 7zip not available in Jessie, and GPG warnings is normal, repos are archieved
+# Install dependencies and AM (GPG warnings are normal as repos are archieved)
 RUN echo 'deb http://archive.debian.org/debian jessie main contrib non-free' > /etc/apt/sources.list
 RUN echo 'deb http://archive.debian.org/debian-security jessie/updates main contrib non-free' >> /etc/apt/sources.list
 RUN echo 'Apt::Get::AllowUnauthenticated "true";' > /etc/apt/apt.conf.d/99verify-apt-https
-RUN apt update && apt full-upgrade -y && apt install -y sudo wget curl git fuse bsdmainutils file locales unzip xz-utils libterm-readline-gnu-perl libnotify-bin binutils
+RUN apt update && apt full-upgrade -y && apt install -y sudo wget curl git fuse bsdmainutils file locales unzip xz-utils libterm-readline-gnu-perl libnotify-bin p7zip-full binutils
 RUN cd && wget https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/INSTALL && chmod a+x ./INSTALL && sudo ./INSTALL && rm ./INSTALL
 
 # Copy regression folder
@@ -22,7 +21,7 @@ RUN locale-gen && update-locale LANG=en_US.UTF-8
 ENV LC_ALL en_US.UTF-8
 
 # Setup AM with safe defaults
-RUN printf "y\n\n" | am --user && am --system && am --disable-notifications
+RUN printf "Y\n\n" | am --user && am --system && am --disable-notifications
 
 # Setup env
 RUN echo "export PATH=$PATH:/root/.local/bin" >> ~/.bashrc

@@ -21,6 +21,12 @@ TEST_APP_LIST_OLD="aisap bench-cli colorstatic-bash"
 # List of test apps that can be downgraded (REQUIREMENTS: Under 5MB, simple install script)
 TEST_APP_LIST_DOWN="clifm aisap fcp zsync2"
 
+# List of test apps that use tar.xz (REQUIREMENTS: Under 5MB, simple install script)
+TEST_APP_LIST_XZ="boxxy onefetch spotifetch lovesay"
+
+# List of core utility apps that is to be hidden/restored for dependency testing
+AM_OPT_DEPS="7z ar md5sum sha1sum sha256sum sha512sum tar unzip wget xz xzcat"
+
 # Function to randomly pick an app from a list
 _pick_random_app() {
 	# Get count
@@ -83,8 +89,8 @@ _pass() {
 # Function to remove all AM apps
 _remove_all_apps() {
 	# Remove AM local apps
-	printf "y\n" | am --user
-	apps=$(ls ~/Applications/ | xargs)
+	printf "Y\n" | am --user
+	apps=$(ls ~/Applications/ 2>/dev/null | xargs)
 	for a in $apps; do
 		am unhide "$a"
 		~/Applications/"$a"/remove
@@ -92,7 +98,7 @@ _remove_all_apps() {
 
 	# Remove AM system apps
 	am --system
-	apps=$(ls /opt/ | xargs)
+	apps=$(ls /opt/ 2>/dev/null | xargs)
 	for a in $apps; do
 		if [ "$a" != am ]; then
 			am unhide "$a"
@@ -133,5 +139,64 @@ _check_count() {
 	if [ "$chk_actual_count" -ne "$chk_expected_count" ]; then
 		_fail "Error: \"$chk_msg_name\" should occur $chk_expected_count times, but was found $chk_actual_count times."
 	fi
+}
+
+# Function to hide libfuse.so.2
+_hide_libfuse2() {
+	libfuse_path=$(find /usr/lib* /lib* -name "libfuse.so.2" 2>/dev/null | head -1)
+
+	if [ -n "$libfuse_path" ] && [ -f "$libfuse_path" ]; then
+		echo "Renaming $libfuse_path to ${libfuse_path}.bak"
+		mv "$libfuse_path" "${libfuse_path}.bak" && sync
+	else
+		echo "libfuse.so.2 not found, backup not needed."
+	fi
+}
+
+# Function to restore libfuse.so.2
+_restore_libfuse2() {
+	libfusebak_path=$(find /usr/lib* /lib* -name "libfuse.so.2.bak" 2>/dev/null | head -1)
+	libfuse_path="${libfusebak_path%.bak}"
+
+	if [ -n "$libfusebak_path" ] && [ -f "$libfusebak_path" ]; then
+		echo "Restoring $libfuse_path from ${libfusebak_path}"
+		mv "$libfusebak_path" "$libfuse_path" && sync
+	else
+		echo "libfuse.so.2.bak not found, restore not needed."
+	fi
+}
+
+# Function to hide a list binaries
+_hide_binaries() {
+	# Use default list if none specified
+	binaries=$1
+	[ -z "$binaries" ] && binaries="$AM_OPT_DEPS"
+	# Iterate through list and hide each one
+	for bin in $binaries; do
+		path=$(which "$bin" 2>/dev/null)
+		[ -n "$path" ] && [ -x "$path" ] && mv "$path" "$path.bak" && sync && echo "$path hidden"
+	done
+}
+
+# Function to restore a list binaries
+_restore_binaries() {
+	# Use default list if none specified
+	binaries=$1
+	[ -z "$binaries" ] && binaries="$AM_OPT_DEPS"
+	# Iterate through list and restore each one
+	for bin in $binaries; do
+		path_bak=$(which "$bin.bak" 2>/dev/null)
+		path="${path_bak%.bak}"
+		[ -n "$path_bak" ] && [ -f "$path_bak" ] && mv "$path_bak" "$path" && sync && echo "$path restored"
+	done
+}
+
+# Function to test a list installed appimages if their binaries are available and executable
+_test_apps() {
+	for prog in $1; do
+		if ! command -v "$prog" > /dev/null 2>&1; then
+			_fail "Error: $prog was not installed correctly."
+		fi
+	done
 }
 

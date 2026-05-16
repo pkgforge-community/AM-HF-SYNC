@@ -6,7 +6,7 @@
 FROM archlinux:latest
 
 # Install dependencies and AM
-RUN pacman-key --init && pacman -Sy && pacman -Su --noconfirm sudo wget curl less git glibc fuse3 file unzip xz 7zip libnotify
+RUN pacman-key --init && pacman -Sy && pacman -Su --noconfirm sudo wget curl less git glibc fuse3 file unzip xz 7zip libnotify which
 RUN cd && wget https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/INSTALL && chmod a+x ./INSTALL && sudo ./INSTALL && rm ./INSTALL
 
 # Copy regression folder
@@ -18,7 +18,7 @@ RUN locale-gen && echo "LANG=en_US.UTF-8" > /etc/locale.conf
 ENV LC_ALL en_US.UTF-8
 
 # Setup AM with safe defaults
-RUN printf "y\n\n" | am --user && am --system && am --disable-notifications
+RUN printf "Y\n\n" | am --user && am --system && am --disable-notifications
 
 # Setup env
 RUN echo "export PATH=$PATH:/root/.local/bin" >> ~/.bashrc
