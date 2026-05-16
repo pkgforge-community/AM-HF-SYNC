@@ -278,9 +278,9 @@ _ending_the_installation() {
 if [ "$(ls -A "$CACHEDIR"/AMCACHEPATH 2>/dev/null)" ]; then
 	for a in "$CACHEDIR"/AMCACHEPATH/*; do
 		if [ -z "$dep_sum256_old" ]; then
-			dep_sum256_old=$(sha256sum "$a" 2>/dev/null)
+			dep_sum256_old=$(sha256sum "$a" 2>/dev/null | sort -u)
 		else
-			dep_sum256_old=$(printf "%b\n%b\n" "$dep_sum256_old" "$(sha256sum "$a" 2>/dev/null)")
+			dep_sum256_old=$(printf "%b\n%b\n" "$dep_sum256_old" "$(sha256sum "$a" 2>/dev/null)" | sort -u)
 		fi
 	done
 fi
@@ -299,9 +299,9 @@ _install_exec_installation_script() {
 		# Check if binaries in PATH are still the same
 		for a in "$CACHEDIR"/AMCACHEPATH/*; do
 			if [ -z "$dep_sum256_new" ]; then
-				dep_sum256_new=$(sha256sum "$a" 2>/dev/null)
+				dep_sum256_new=$(sha256sum "$a" 2>/dev/null | sort -u)
 			else
-				dep_sum256_new=$(printf "%b\n%b\n" "$dep_sum256_new" "$(sha256sum "$a" 2>/dev/null)")
+				dep_sum256_new=$(printf "%b\n%b\n" "$dep_sum256_new" "$(sha256sum "$a" 2>/dev/null)" | sort -u)
 			fi
 		done
 		for a in "$CACHEDIR"/AMCACHEPATH/*; do
