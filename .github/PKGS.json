@@ -1204,7 +1204,7 @@
     "site": "artisan-roaster-scope/artisan",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artisan",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artisan",
-    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/continuous/artisan-linux-4.0.3.AppImage",
+    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/v4.0.3-beta5/artisan-linux-4.0.3.AppImage",
     "description": "Visualizes the coffee roasting process"
   },
   {
@@ -2672,6 +2672,14 @@
     "description": "Bytespeicher Status App"
   },
   {
+    "pkg": "bzip2",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bzip2",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bzip2",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260504/7z-x86_64-static",
+    "description": "A high-quality data compression program. This is part of am-utils suite"
+  },
+  {
     "pkg": "c-evo",
     "site": "http://c-evo.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/c-evo",
@@ -2742,6 +2750,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cake-wallet",
     "version_raw": "https://github.com/cake-tech/cake_wallet/releases/download/v6.1.2/Cake_Wallet_v6.1.2_Linux.tar.xz",
     "description": "Easily and safely store, send, receive, and exchange your cryptocurrency"
+  },
+  {
+    "pkg": "calibre",
+    "site": "ivan-hc/Calibre-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/calibre",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/calibre",
+    "version_raw": "https://github.com/ivan-hc/Calibre-appimage/releases/download/continuous-stable/Calibre-stable_9.8.0-x86_64.AppImage",
+    "description": "Unofficial. The one stop solution to all your e-book needs"
   },
   {
     "pkg": "calibre-beta",
@@ -2840,6 +2856,14 @@
     "description": "Chromium running inside your terminal"
   },
   {
+    "pkg": "cardo",
+    "site": "n0vella/cardo",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cardo",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cardo",
+    "version_raw": "https://github.com/cardo-podcast/cardo/releases/download/1.12.0/cardo_1.12.0_amd64_linux.AppImage",
+    "description": "Podcast client"
+  },
+  {
     "pkg": "cargo",
     "site": "StratusFearMe21/cargo-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cargo",
@@ -2870,6 +2894,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cartridges",
     "version_raw": "https://github.com/pkgforge-dev/Cartridges-AppImage/releases/download/2.12.1-3%402026-05-16_1778933451/Cartridges-2.13.1-1-anylinux-x86_64.AppImage",
     "description": "Unofficial. Game launcher, which helps you visualize your game collection and easily launch games"
+  },
+  {
+    "pkg": "cashonize",
+    "site": "cashonize/cashonize-wallet",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cashonize",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cashonize",
+    "version_raw": "https://github.com/cashonize/cashonize-wallet/releases/download/v0.8.0/Cashonize-0.8.0.AppImage",
+    "description": "Cashonize: A cross-platform Bitcoin Cash Wallet"
   },
   {
     "pkg": "cask",
@@ -2952,6 +2984,14 @@
     "description": "Cavoke: Platform to create/host multiplayer turn-based board games"
   },
   {
+    "pkg": "cbetar2",
+    "site": "MrMYHuang/cbetar2",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cbetar2",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cbetar2",
+    "version_raw": "https://github.com/MrMYHuang/cbetar2/releases/download/v24.0.0/cbetar2_24.0.0_linux_x86_64.AppImage",
+    "description": "ePub viewer supporting fetching and displaying HTML as ePub"
+  },
+  {
     "pkg": "cbird",
     "site": "scrubbbbs/cbird",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cbird",
@@ -3014,6 +3054,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/celoterminal-bin",
     "version_raw": "https://github.com/zviadm/celoterminal/releases/download/v2.5.3/Celo-Terminal-2.5.3-linux-x64.AppImage",
     "description": "Celo Terminal, AppImage version"
+  },
+  {
+    "pkg": "cemu",
+    "site": "cemu-project/Cemu",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cemu",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cemu",
+    "version_raw": "",
+    "description": "A Nintendo Wii U emulator that is able to run most Wii U games"
   },
   {
     "pkg": "cemu-enhanced",
@@ -3310,6 +3358,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/circle-z",
     "version_raw": "https://github.com/rossprogram/circle-z/releases/download/v1.14.0/Circle-Z-1.14.0.AppImage",
     "description": "A chat client for online math courses"
+  },
+  {
+    "pkg": "circuitblocks",
+    "site": "CircuitMess/CircuitBlocks",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/circuitblocks",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/circuitblocks",
+    "version_raw": "https://github.com/CircuitMess/CircuitBlocks/releases/download/v1.10.0/CircuitBlocks-1.10.0-Linux.AppImage",
+    "description": "Helps newbies get into embedded programming"
   },
   {
     "pkg": "city-hub",
@@ -3728,11 +3784,19 @@
     "description": "The official Concordium Dektop Wallet"
   },
   {
+    "pkg": "conduction",
+    "site": "Shabang-Systems/Condution",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/conduction",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/conduction",
+    "version_raw": "https://github.com/Shabang-Systems/Condution/releases/download/v1.2.1/Condution-1.2.1.AppImage",
+    "description": "Tasks? Done. That was quick"
+  },
+  {
     "pkg": "conky",
     "site": "brndnmtthws/conky",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/conky",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/conky",
-    "version_raw": "https://github.com/brndnmtthws/conky/releases/download/v1.22.3/conky-ubuntu-22.04-x86_64-v1.22.3-debug.AppImage",
+    "version_raw": "https://github.com/brndnmtthws/conky/releases/download/v1.23.0/conky-ubuntu-22.04-x86_64-v1.23.0-debug.AppImage",
     "description": "Light-weight system monitor for X"
   },
   {
@@ -3798,6 +3862,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/converter432hz",
     "version_raw": "https://github.com/mysteryx93/HanumanInstituteApps/releases/download/v3.3.2/Converter432Hz-3.3.2_Linux_x64.AppImage",
     "description": "Converts and re-encodes music to 432hz"
+  },
+  {
+    "pkg": "converternow",
+    "site": "ferraridamiano/ConverterNOW",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/converternow",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/converternow",
+    "version_raw": "https://github.com/ferraridamiano/ConverterNOW/releases/download/v4.6.0/converternow-x86_64.AppImage",
+    "description": "The Unit Converter app. Easy, immediate and multi-platform"
   },
   {
     "pkg": "cool-retro-term",
@@ -3912,6 +3984,14 @@
     "description": "A x11 based virtual keyboard for C Suite"
   },
   {
+    "pkg": "corepad",
+    "site": "https://cubocore.org",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/corepad",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/corepad",
+    "version_raw": "https://gitlab.com/cubocore/packages/-/raw/main/appimages/v3.0.0LTS/CorePad-d5f6110-x86_64.AppImage",
+    "description": "A document editor for CuboCore Application Suite"
+  },
+  {
     "pkg": "corepaint",
     "site": "https://cubocore.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/corepaint",
@@ -3990,6 +4070,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/corsixth",
     "version_raw": "https://github.com/CorsixTH/CorsixTH/releases/download/v0.69.2/CorsixTH-v0.69.2-x86_64.AppImage",
     "description": "Open source clone of Theme Hospital"
+  },
+  {
+    "pkg": "corsixth-enhanced",
+    "site": "pkgforge-dev/CorsixTH-AppImage-Enhanced",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/corsixth-enhanced",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/corsixth-enhanced",
+    "version_raw": "https://github.com/pkgforge-dev/CorsixTH-AppImage-Enhanced/releases/download/v0.69.2%402026-05-01_1777637093/CorsixTH-v0.69.2-anylinux-x86_64.AppImage",
+    "description": "Unofficial, open source clone of Theme Hospital"
   },
   {
     "pkg": "cosmic-comics",
@@ -4078,6 +4166,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/craftos-pc",
     "version_raw": "https://github.com/MCJack123/craftos2/releases/download/v2.8.3-luajit/CraftOS-PC.x86_64.AppImage",
     "description": "Advanced ComputerCraft emulator written in C++"
+  },
+  {
+    "pkg": "crankshaft",
+    "site": "KraXen72/crankshaft",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/crankshaft",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/crankshaft",
+    "version_raw": "https://github.com/KraXen72/crankshaft/releases/download/1.12.0/crankshaft-portable-linux-x86_64.AppImage",
+    "description": "A sensible krunker client written in typescript"
   },
   {
     "pkg": "crawl-ncurses",
@@ -7852,7 +7948,7 @@
     "site": "BestImageViewer/geeqie",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/geeqie",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/geeqie",
-    "version_raw": "https://github.com/BestImageViewer/geeqie/releases/download/v2.7/Geeqie-2.7-minimal-x86_64.AppImage",
+    "version_raw": "https://github.com/BestImageViewer/geeqie/releases/download/continuous/Geeqie-latest-x86_64.AppImage",
     "description": "Claiming to be the best image viewer and photo collection browser"
   },
   {
@@ -9644,7 +9740,7 @@
     "site": "ImageMagick/ImageMagick",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/imagemagick-clang",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/imagemagick-clang",
-    "version_raw": "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-22/ImageMagick-7.1.2-22-clang-x86_64.AppImage",
+    "version_raw": "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-23/ImageMagick-7.1.2-23-clang-x86_64.AppImage",
     "description": "CLI to create, edit, compose, or convert digital images"
   },
   {
@@ -9652,7 +9748,7 @@
     "site": "ImageMagick/ImageMagick",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/imagemagick-gcc",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/imagemagick-gcc",
-    "version_raw": "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-22/ImageMagick-7.1.2-22-gcc-x86_64.AppImage",
+    "version_raw": "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-23/ImageMagick-7.1.2-23-gcc-x86_64.AppImage",
     "description": "CLI to create, edit, compose, or convert digital images"
   },
   {
@@ -11988,7 +12084,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.22_251203_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.28_260429_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -12108,7 +12204,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.1.59-canary.24/LobeHub-2.1.59-canary.24.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.1.59-canary.25/LobeHub-2.1.59-canary.25.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -15724,7 +15820,7 @@
     "site": "kawaiiDango/pano-scrobbler",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pano-scrobbler",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pano-scrobbler",
-    "version_raw": "https://github.com/kawaiiDango/pano-scrobbler/releases/download/439/pano-scrobbler-linux-x64.AppImage",
+    "version_raw": "https://github.com/kawaiiDango/pano-scrobbler/releases/download/440/pano-scrobbler-linux-x64.AppImage",
     "description": "Feature packed cross-platform music tracker for Last.fm, ListenBrainz, Libre.fm, Pleroma and other compatible services"
   },
   {
@@ -20860,7 +20956,7 @@
     "site": "https://gitlab.com/posktomten/streamcapture2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/streamcapture2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/streamcapture2",
-    "version_raw": "",
+    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=GvPKbvspT",
     "description": "Download video streams"
   },
   {
@@ -21468,7 +21564,7 @@
     "site": "Eugeny/tabby",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tabby",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tabby",
-    "version_raw": "https://github.com/Eugeny/tabby/releases/download/v1.0.233/tabby-1.0.233-linux-x64.AppImage",
+    "version_raw": "https://github.com/Eugeny/tabby/releases/download/v1.0.234/tabby-1.0.234-linux-x64.AppImage",
     "description": "A terminal for a more modern age"
   },
   {
@@ -23820,7 +23916,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "9556801414",
+    "version_raw": "9559322497",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -24460,7 +24556,7 @@
     "site": "has207/xenia-edge",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xenia-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xenia-edge",
-    "version_raw": "https://github.com/has207/xenia-edge/releases/download/4b1b62f/xenia_edge_linux.AppImage",
+    "version_raw": "https://github.com/has207/xenia-edge/releases/download/3020342/xenia_edge_linux.AppImage",
     "description": "Xbox 360 Emulator Research Project, fork of the Xenia emulator, with the aim of quicker iteration and improvements to Vulkan backend"
   },
   {
@@ -25212,7 +25308,7 @@
     "site": "alagrede/znote-app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/znote",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/znote",
-    "version_raw": "https://github.com/alagrede/znote-app/releases/download/v3.8.1/znote-3.8.1.AppImage",
+    "version_raw": "https://github.com/alagrede/znote-app/releases/download/v3.8.2/znote-3.8.2.AppImage",
     "description": "A Beautiful markdown editor inspired by Jupyter"
   },
   {
