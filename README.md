@@ -136,8 +136,14 @@ Here is a table of "optional" commands that may be needed on your system:
 The "AM-INSTALLER" script allows you to choose "[AppMan](#what-is-appman)" instead of "AM", briefly explaining the differences between the two.
 
 Copy/paste the following one line command to download and run the "[AM-INSTALLER](https://github.com/pkgforge-community/AM-HF-SYNC/blob/main/AM-INSTALLER)" script
+
+Using `wget`
 ```
 wget -q https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/AM-INSTALLER && chmod a+x ./AM-INSTALLER && ./AM-INSTALLER && rm ./AM-INSTALLER
+```
+or using `curl`
+```
+curl -s -Lo ./AM-INSTALLER https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/AM-INSTALLER && chmod a+x ./AM-INSTALLER && ./AM-INSTALLER && rm ./AM-INSTALLER
 ```
 ...below, the screenshot of what will appear.
 
@@ -174,8 +180,14 @@ sudo ./INSTALL
 ------------------------------------------------------------------------
 ## Using a one-line command (only system-wide installation)
 Copy/paste the following one line command command
+
+Using `wget`
 ```
-wget https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/INSTALL && chmod a+x ./INSTALL && sudo ./INSTALL && rm ./INSTALL
+wget -q https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/INSTALL && chmod a+x ./INSTALL && sudo ./INSTALL && rm ./INSTALL
+```
+or using `curl`
+```
+curl -s -Lo ./INSTALL https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/INSTALL && chmod a+x ./INSTALL && sudo ./INSTALL && rm ./INSTALL
 ```
 This is definitely the quickest method of all!
 
@@ -202,9 +214,16 @@ As we've already seen, AppMan is portable, meaning you can use it anywhere, in a
 The basic principle is very simple: the APP-MANAGER script must be renamed "appman".
 
 Try it and believe it:
+
+Using `wget`
 ```
-wget -q "https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/APP-MANAGER" -O ./appman && chmod a+x ./appman
+wget -q https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/APP-MANAGER -O ./appman && chmod a+x ./appman
 ```
+or using `curl`
+```
+curl -s -Lo ./appman https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/APP-MANAGER && chmod a+x ./appman
+```
+
 However, **this approach is NOT RECOMMENDED** for various reasons, the most common being convenience:
 - the AM-INSTALLER ensures the creation of an XDG_BIN_HOME or $HOME/.local/bin directory if it doesn't already exist, so you can use it in $PATH without having to write the entire path to the script.
 - by installing it in the local $PATH, the AM-INSTALLER also takes care of its use in ZSH, if that is used instead of BASH.
@@ -226,7 +245,7 @@ if ! echo $PATH | grep "$BINDIR" >/dev/null 2>&1; then
 		printf '	export PATH="$PATH:$BINDIR"\nfi\n' >> "$ZSHRC"
 	fi
 fi
-wget -q "https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/$AM_BRANCH/APP-MANAGER" -O "$BINDIR"/appman && chmod a+x "$BINDIR"/appman
+curl -s -Lo "$BINDIR"/appman https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/main/APP-MANAGER && chmod a+x "$BINDIR"/appman
 ```
 The above is a "summary" (without the messages) of what the AM-INSTALLER script already does when you choose option 2 (AppMan).
 
@@ -489,7 +508,7 @@ Visit [github.com/topgrade-rs/topgrade](https://github.com/topgrade-rs/topgrade)
 
 <details>
   <summary>Click here to see the full list of options</summary>
-  
+
 ------------------------------------------------------------------------
 ## USAGE:
 
@@ -1044,13 +1063,13 @@ Below you can access the documentation pages related to the use of "AM", complet
 
 ------------------------------------------------------------------------
 # Instructions for Linux Distro Maintainers
-**Glossary**:  
+**Glossary**:
 - System `am` (`/usr/bin/am`)
 - Local-system `am` (`/usr/local/bin/am` symlinked to `/opt/am/APP-MANAGER`)
 - Local-user `appman` (`$HOME/.local/bin/appman`)
 - APPMANCONFIG=`$XDG_CONFIG_HOME/appman-config`
 
-You can package "AM" for Debian, Fedora, Arch Linux, Gentoo and many more GNU/Linux distros using the following configuration:  
+You can package "AM" for Debian, Fedora, Arch Linux, Gentoo and many more GNU/Linux distros using the following configuration:
 - `/usr/bin/am`
 - `/usr/lib/am/modules/`
 
@@ -1058,29 +1077,29 @@ where "`/usr/bin/am`" is the script "[APP-MANAGER](https://github.com/pkgforge-c
 
 Applications will continue to be installed in `/opt/` or `$HOME` location when `--user` flag is used for installation, according to the `$APPMANCONFIG` file configuration.
 
-What changes from the locally-installed `am` or `appman` is the update process of the CLI and modules.  
+What changes from the locally-installed `am` or `appman` is the update process of the CLI and modules.
 System `am` intentionally ignores updates of CLI and modules in this scenario & hands that responsibility to the distro package manager in use (APT, DNF, PacMan/YaY...)
 
-`--devmode` option is completely disabled in this mode, as it's only intended to update locally-installed `am` or `appman` in run-time to `dev` branch.  
+`--devmode` option is completely disabled in this mode, as it's only intended to update locally-installed `am` or `appman` in run-time to `dev` branch.
 You as a packager or distro-maintainer can optionally make `am-dev` or `am-git` package separately from `am` for this usage.
 
-Generation of shell completions in `$HOME` is also disabled in this mode, as they can be easily packaged in respective system directories.  
+Generation of shell completions in `$HOME` is also disabled in this mode, as they can be easily packaged in respective system directories.
 That can be done like this:
 
-**Bash**  
-Located in `/usr/share/bash-completion/completions/am`:  
+**Bash**
+Located in `/usr/share/bash-completion/completions/am`:
 - `complete -W "$(cat "${XDG_DATA_HOME:-$HOME/.local/share}/AM/list" 2>/dev/null)" am`
 
-**Zsh**  
-Zsh completion currently depends on the bash one, which can be inserted into `zshrc`:  
+**Zsh**
+Zsh completion currently depends on the bash one, which can be inserted into `zshrc`:
 ```zsh
 autoload bashcompinit
 bashcompinit
 source "/usr/share/bash-completion/completions/am"
 ```
 
-**Fish**  
-Located in `/usr/share/fish/vendor_completions.d/am`:  
+**Fish**
+Located in `/usr/share/fish/vendor_completions.d/am`:
 ```fish
 set data_home "$XDG_DATA_HOME"
 if test -z "$data_home"
@@ -1088,9 +1107,6 @@ if test -z "$data_home"
 end
 complete -c am -f -a "(cat "$data_home/AM/list" 2>/dev/null)"
 ```
-
-Another recommendation is to use `wget` instead of `wget2` (in Fedora, it's called `wget1` & you also need to install `wget1-wget` package, so it becomes symlinked to `wget`).
-`wget` gives the prettier & generally working output, while `wget2` has a bug where it clears out the output of itself, making the application installation & update progress hardly visible.
 
 ### Distro examples: Gidro-OS
 

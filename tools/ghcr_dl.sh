@@ -1,7 +1,7 @@
 #!/bin/sh
 # Author: https://github.com/Azathothas
 # First draft: February 25, 2025, on Discord https://discord.com/channels/1313385177703256064/1313385178361499732/1341733386464657461
-# Description: A simple script to download artifacts from the Soarpkg's OCI registry using "wget" and "curl"
+# Description: A simple script to download artifacts from the Soarpkg's OCI registry using "curl"
 
 #Input
 if [ $# -ne 2 ]; then
@@ -41,9 +41,7 @@ transformed_second_part=$(echo "$second_part" | sed 's|^|/blobs/|')
 final_url=$(echo "https://$transformed_first_part$transformed_second_part" | sed 's/[[:space:]]*//g')
 
 #Make the HTTP request with some parameters [IMPORTANT]
-headers=$(curl --globoff --location --head -qfsS -X 'GET' \
-	--retry 3 --header "Authorization: Bearer QQ==" \
-	"$final_url")
+headers=$(curl --globoff --location --head -qfsS -X 'GET' --retry 3 --header "Authorization: Bearer QQ==" "$final_url")
 
 #Extract redirect URL with robust whitespace handling [IMPORTANT]
 redirect_url=$(echo "$headers" | grep "^[[:space:]]*[Ll]ocation:[[:space:]]*" | sed 's/^[[:space:]]*[Ll]ocation:[[:space:]]*//')
@@ -52,12 +50,8 @@ redirect_url=$(echo "$headers" | grep "^[[:space:]]*[Ll]ocation:[[:space:]]*" | 
 if [ -n "$redirect_url" ]; then
 	#Clean any whitespace from redirect_url
 	redirect_url=$(echo "$redirect_url" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
-	#Download it with wget 
-	if wget --version | head -1 | grep -q ' 1.'; then
-		wget -q --no-verbose --show-progress --progress=bar "$redirect_url" -O "$file"
-	else
-		wget "$redirect_url" -O "$file"
-	fi
+	#Download it with curl 
+	curl -s -Lo "$file" "$redirect_url"
 else
 	echo "Error: Failed to Get Redirect URL (Maybe ghcr_blob is invalid?)" >&2
 fi
