@@ -724,7 +724,7 @@
     "site": "aurelienpierreeng/ansel",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ansel",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ansel",
-    "version_raw": "https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/Ansel-0.0.0%2B3518.g2eae7e3ff4-x86_64.AppImage",
+    "version_raw": "https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/Ansel-0.0.0%2B3524.g67836e98b3-x86_64.AppImage",
     "description": "An open-source photo-editing software for digital artists, designed to help you achieve your own interpretation of raw digital photographs"
   },
   {
@@ -4108,7 +4108,7 @@
     "site": "cozy-labs/cozy-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cozydrive",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cozydrive",
-    "version_raw": "https://github.com/cozy-labs/cozy-desktop/releases/download/v5.2.0/Twake-Desktop-x86_64.AppImage",
+    "version_raw": "https://github.com/cozy-labs/cozy-desktop/releases/download/v5.3.0-beta.1/Twake-Desktop-x86_64.AppImage",
     "description": "File Synchronisation for Cozy, cloud"
   },
   {
@@ -5236,7 +5236,7 @@
     "site": "pkgforge-dev/Dolphin-emu-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dolphin-emu-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dolphin-emu-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/Dolphin-emu-AppImage/releases/download/nightly/Dolphin_Emulator_Nightly-604d13e1cc-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Dolphin-emu-AppImage/releases/download/nightly/Dolphin_Emulator_Nightly-7b69949cec-anylinux-x86_64.AppImage",
     "description": "Unofficial nightly AppImage of the Dolphin emulator"
   },
   {
@@ -11924,7 +11924,7 @@
     "site": "LiberTEM/LiberTEM",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/libertem",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/libertem",
-    "version_raw": "https://github.com/LiberTEM/LiberTEM/releases/download/continuous/LiberTEM-16bb181-x86_64.AppImage",
+    "version_raw": "https://github.com/LiberTEM/LiberTEM/releases/download/continuous/LiberTEM-1953f66-x86_64.AppImage",
     "description": "Pixelated scanning transmission electron microscopy"
   },
   {
@@ -12204,7 +12204,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.1-canary.6/LobeHub-2.2.1-canary.6.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.1-canary.7/LobeHub-2.2.1-canary.7.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -18584,6 +18584,14 @@
     "description": "Rapid HTML Builder/Prototyper"
   },
   {
+    "pkg": "rhythmbox",
+    "site": "ivan-hc/Rhythmbox-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rhythmbox",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rhythmbox",
+    "version_raw": "https://github.com/ivan-hc/Rhythmbox-appimage/releases/download/continuous/Rhythmbox_3.4.9-1-archimage5.0-x86_64.AppImage",
+    "description": "The popular Audio Player Rhythmbox"
+  },
+  {
     "pkg": "ricochet",
     "site": "blueprint-freespeech/ricochet-refresh",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ricochet",
@@ -19064,6 +19072,14 @@
     "description": "Unofficial, an extraordinarily fast racing game"
   },
   {
+    "pkg": "saphyr",
+    "site": "jdm64/saphyr",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/saphyr",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/saphyr",
+    "version_raw": "https://github.com/jdm64/saphyr/releases/download/master/bisonc%2B%2B-latest-x86_64.AppImage",
+    "description": "A C++ like compiler"
+  },
+  {
     "pkg": "sas",
     "site": "Samueru-sama/simple-appimage-sandbox",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sas",
@@ -19118,6 +19134,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sayonara",
     "version_raw": "https://sayonara-player.com/files/appimage/",
     "description": "Music player and music library admininstration"
+  },
+  {
+    "pkg": "sayonara-player-enhanced",
+    "site": "pkgforge-dev/Sayonara-Player-AppImage-Enhanced",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sayonara-player-enhanced",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sayonara-player-enhanced",
+    "version_raw": "https://github.com/pkgforge-dev/Sayonara-Player-AppImage-Enhanced/releases/download/1.11.0_stable1-1%402026-05-01_1777639128/Sayonara-1.11.0_stable1-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, a small, clear and fast audio player"
   },
   {
     "pkg": "sbe",
@@ -19424,6 +19448,14 @@
     "description": "Multi-purpose serial data view program"
   },
   {
+    "pkg": "serialplot",
+    "site": "https://hackaday.io",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/serialplot",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/serialplot",
+    "version_raw": "https://github.com/hyOzd/serialplot/releases/download/v0.13.0/SerialPlot-ae7e3dc-x86_64.AppImage",
+    "description": "Small and simple software for plotting data from serial port"
+  },
+  {
     "pkg": "serioussamtfe",
     "site": "tx00100xt/SeriousSamClassic",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/serioussamtfe",
@@ -19614,6 +19646,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sharp-tune",
     "version_raw": "https://github.com/MD-AZMAL/Sharp-Tune/releases/download/v1.0.3/sharp-tune-1.0.3-x86_64.AppImage",
     "description": "Music player build upon the node using the electron"
+  },
+  {
+    "pkg": "sheepshaver",
+    "site": "Korkman/macemu-appimage-builder",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sheepshaver",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sheepshaver",
+    "version_raw": "https://github.com/Korkman/macemu-appimage-builder/releases/download/2026-05-11/SheepShaver-x86_64.AppImage",
+    "description": "Classic Macintosh emulator SheepShaver"
   },
   {
     "pkg": "sheikah",
@@ -20828,7 +20868,7 @@
     "site": "Stellarium/stellarium",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/stellarium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/stellarium",
-    "version_raw": "https://github.com/Stellarium/stellarium/releases/download/v26.1/Stellarium-26.1-qt5-x86_64.AppImage",
+    "version_raw": "",
     "description": "Planetarium that shows a realistic sky in 3D"
   },
   {
@@ -20940,7 +20980,7 @@
     "site": "https://gitlab.com/posktomten/streamcapture2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/streamcapture2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/streamcapture2",
-    "version_raw": "",
+    "version_raw": "https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=ZXBLvFmQfQmv",
     "description": "Download video streams"
   },
   {
@@ -21636,7 +21676,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.12.0-beta.8.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.6.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -22052,7 +22092,7 @@
     "site": "edrlab/thorium-reader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium-reader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium-reader",
-    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.4.1-alpha.1.25999072777.AppImage",
+    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.4.1-alpha.1.26086517286.AppImage",
     "description": "Desktop application to read ebooks"
   },
   {
@@ -23900,7 +23940,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "9625671385",
+    "version_raw": "9629358320",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
