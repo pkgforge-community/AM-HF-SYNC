@@ -1,9 +1,9 @@
 #!/bin/sh
 
 # AM INSTALL SCRIPT VERSION 3.5
-set -ux
-APP=godot
-SITE="godotengine/godot" SITE2="pkgforge-dev/Godot-AppImage"
+set -u
+APP=SAMPLE
+SITE="DOMAIN/REPOSITORY" SITE2="DOMAIN/REPOSITORY"
 
 # CREATE DIRECTORIES AND ADD REMOVER
 [ -n "$APP" ] && mkdir -p "/opt/$APP/tmp" "/opt/$APP/icons" && cd "/opt/$APP/tmp" || exit 1
@@ -17,18 +17,18 @@ read -r -p "
 
  1. Official portable package.
 
-    Source: https://github.com/godotengine/godot
+    Source: $SITE
 
  2. Unofficial AppImage.
 
-    Source: https://github.com/pkgforge-dev/Godot-AppImage
+    Source: $SITE2
 
  Which version you choose (type a number and press ENTER)?" response
 RELEASE=""
 
 if echo "$response" | grep -q "^1"; then
 	RELEASE="PORTABLE"
-	version=$(curl -Ls https://api.gh.pkgforge.dev/repos/godotengine/godot/releases | sed 's/[()",{} ]/\n/g' | grep -oi "https.*" | grep -vi "i386\|i686\|aarch64\|arm64\|armv7l" | grep -i "linux.x86_64.zip" | head -1)
+	version=$(FUNCTION)
 	wget "$version" || exit 1
 	[ -e ./*7z ] && 7z x ./*7z && rm -f ./*7z
 	[ -e ./*tar.* ] && tar fx ./*tar.* && rm -f ./*tar.*
@@ -37,7 +37,7 @@ if echo "$response" | grep -q "^1"; then
 	mv ./tmp/*/* ./ 2>/dev/null || mv ./tmp/* ./"$APP" 2>/dev/null || mv ./tmp/* ./
 elif echo "$response" | grep -q "^2"; then
 	RELEASE="APPIMAGE"
-	version=$(curl -Ls https://api.gh.pkgforge.dev/repos/pkgforge-dev/Godot-AppImage/releases/latest | sed 's/[()",{} ]/\n/g' | grep -oi "https.*mage$" | grep -vi "i386\|i686\|aarch64\|arm64\|armv7l" | head -1)
+	version=$(FUNCTION)
 	wget "$version" || exit 1
 	cd ..
 	mv ./tmp/*mage ./"$APP"
@@ -54,11 +54,11 @@ if [ "$RELEASE" = APPIMAGE ]; then
 	# SCRIPT TO UPDATE THE PROGRAM
 	cat <<-'HEREDOC' >> ./AM-updater
 	#!/bin/sh
-	set -ux
-	APP=godot
-	SITE="pkgforge-dev/Godot-AppImage"
+	set -u
+	APP=SAMPLE
+	SITE="DOMAIN/REPOSITORY"
 	version0=$(cat "/opt/$APP/version")
-	version=$(curl -Ls https://api.gh.pkgforge.dev/repos/pkgforge-dev/Godot-AppImage/releases/latest | sed 's/[()",{} ]/\n/g' | grep -oi "https.*mage$" | grep -vi "i386\|i686\|aarch64\|arm64\|armv7l" | head -1)
+	version=$(FUNCTION)
 	[ -n "$version" ] || { echo "Error getting link"; exit 1; }
 	if command -v appimageupdatetool >/dev/null 2>&1; then
 	   cd "/opt/$APP" || exit 1
@@ -104,11 +104,11 @@ else
 	# SCRIPT TO UPDATE THE PROGRAM
 	cat <<-'HEREDOC' >> ./AM-updater
 	#!/bin/sh
-	set -ux
-	APP=godot
-	SITE="godotengine/godot"
+	set -u
+	APP=SAMPLE
+	SITE="DOMAIN/REPOSITORY"
 	version0=$(cat "/opt/$APP/version")
-	version=$(curl -Ls https://api.gh.pkgforge.dev/repos/godotengine/godot/releases | sed 's/[()",{} ]/\n/g' | grep -oi "https.*" | grep -vi "i386\|i686\|aarch64\|arm64\|armv7l" | grep -i "linux.x86_64.zip" | head -1)
+	version=$(FUNCTION)
 	[ -n "$version" ] || { echo "Error getting link"; exit 1; }
 	if [ "$version" != "$version0" ]; then
 	   mkdir "/opt/$APP/tmp" && cd "/opt/$APP/tmp" || exit 1
@@ -137,24 +137,11 @@ else
 	rm -f /usr/local/share/applications/"$APP"-AM.desktop
 	cat <<-HEREDOC >> /usr/local/share/applications/"$APP"-AM.desktop
 	[Desktop Entry]
-	Name=Godot Engine
-	GenericName=Libre game engine
-	GenericName[el]=Ελεύθερη μηχανή παιχνιδιού
-	GenericName[fr]=Moteur de jeu libre
-	GenericName[nl]=Libre game-engine
-	GenericName[zh_CN]=自由的游戏引擎
-	Comment=Multi-platform 2D and 3D game engine with a feature-rich editor
-	Comment[el]=2D και 3D μηχανή παιχνιδιού πολλαπλών πλατφορμών με επεξεργαστή πλούσιο σε χαρακτηριστικά
-	Comment[fr]=Moteur de jeu 2D et 3D multiplateforme avec un éditeur riche en fonctionnalités
-	Comment[nl]=Multi-platform 2D- en 3d-game-engine met een veelzijdige editor
-	Comment[zh_CN]=多平台 2D 和 3D 游戏引擎，带有功能丰富的编辑器
-	Exec=godot %f
+
+	DESKTOP FILE, BUT WITH FOLLOWING PARAMETHERS:
+
+	Exec=$APP %f
 	Icon=/opt/$APP/icons/$APP
-	Terminal=false
-	PrefersNonDefaultGPU=true
-	Type=Application
-	MimeType=application/x-godot-project;
-	Categories=Development;IDE;
-	StartupWMClass=Godot
+
 	HEREDOC
 fi
