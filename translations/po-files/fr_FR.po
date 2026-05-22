@@ -1,20 +1,18 @@
 # File with translation for AM
-# Fifty Dinar <srbaizoki4@tuta.io>, 2025
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026
 msgid ""
 msgstr ""
-"Project-Id-Version: am 9.7.1-9\n"
+"Project-Id-Version: AM 10.2-3\n"
 "Report-Msgid-Bugs-To: https://github.com/pkgforge-community/AM-HF-SYNC\n"
 "POT-Creation-Date: 2026-05-22\n"
-"PO-Revision-Date: 2026-05-20 19:08+0200\n"
-"Last-Translator: Fifty Dinar <srbaizoki4@tuta.io>\n"
-"Language-Team: Serbian <https://github.com/pkgforge-community/AM-HF-SYNC/translations/po-files/"
-"sr.po>\n"
-"Language: sr\n"
+"PO-Revision-Date: 2026-05-22 03:50+0200\n"
+"Last-Translator: John Doe <john.doe@example.com>\n"
+"Language-Team: French <fr@li.org>\n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 3.8\n"
 
 #: APP-MANAGER:119 APP-MANAGER:704
@@ -22,48 +20,49 @@ msgid ""
 " ${RED}💀 ERROR! MISSING ESSENTIAL COMMANDS\\033[0m: %s\\n\\n Install the "
 "above and try again! \\n"
 msgstr ""
-" ${RED}💀 GREŠKA! NEDOSTAJU KLJUČNE KOMANDE\\033[0m: %s\\n\\n Instaliraj ovo "
-"iznad i pokušaj opet! \\n"
+" ${RED}💀 ERREUR ! COMMANDES ESSENTIELLES MANQUANTES\\033[0m : %s\\n\\n "
+"Installez les éléments ci-dessus et réessayez ! \\n"
 
 #: APP-MANAGER:219
 msgid "Add a suitable locale code, for example \\\"it\\\" for Italian\\n\\n"
 msgstr ""
-"Dodaj prikladan kod za lokal, na primer \\\"it\\\" za italijanski\\n\\n"
+"Ajoutez un code de langue approprié, par exemple \\\"it\\\" pour "
+"l'italien\\n\\n"
 
 #: APP-MANAGER:220
 msgid " Leave blank to use \\\"$CLI\\\" in English: "
-msgstr " Ostavi prazno da koristiš \\\"$CLI\\\" na engleskom: "
+msgstr " Laissez vide pour utiliser \\\"$CLI\\\" en anglais : "
 
 #: APP-MANAGER:239
 msgid "Setting locale to \\\"%b\\\"\\n"
-msgstr "Podešavam lokal na \\\"%b\\\"\\n"
+msgstr "Définition de la langue sur \\\"%b\\\"\\n"
 
 #: APP-MANAGER:245
 msgid ""
 "\\n Please do not use \\\"sudo\\\" to execute \\\"%b\\\", try again.\\n\\n"
 msgstr ""
-"\\n Molim da ne koristiš \\\"sudo\\\" kako bi pokrenuo \\\"%b\\\", pokušaj "
-"ponovo.\\n\\n"
+"\\n Veuillez ne pas utiliser \\\"sudo\\\" pour exécuter \\\"%b\\\", "
+"réessayez.\\n\\n"
 
 #: APP-MANAGER:274
 msgid "file: command not found\\n\\n"
-msgstr "file: komanda nije pronađena\\n\\n"
+msgstr "file : commande non trouvée\\n\\n"
 
 #: APP-MANAGER:282
 msgid "Install 'less' if you want to scroll this list"
-msgstr "Instaliraj 'less' ako želiš da skroluješ ovu listu"
+msgstr "Installez 'less' si vous souhaitez faire défiler cette liste"
 
 #: APP-MANAGER:299
 msgid ""
 "💀 ERROR: Your version of sed does not support '-i' flag without extension, "
 "we tried to workaround and failed"
 msgstr ""
-"💀 GREŠKA: Tvoja verzija sed-a ne podržava '-i' opciju bez ekstenzije, "
-"pokušali smo zaobilazno rešenje, ali bezuspešno"
+"💀 ERREUR : votre version de sed ne prend pas en charge le drapeau '-i' sans "
+"extension, nous avons tenté une solution de contournement mais avons échoué"
 
 #: APP-MANAGER:300
 msgid " Please install gsed"
-msgstr " Molim instaliraj gsed"
+msgstr " Veuillez installer gsed"
 
 #: APP-MANAGER:315
 msgid ""
@@ -79,88 +78,92 @@ msgid ""
 "if you wish to later change the location, first remove all the programs and "
 "then edit the \\\"$APPMANCONFIG/appman-config\\\" file."
 msgstr ""
-"Pre nastavljanja sa bilo kojim poslom, gde bi želeo da instaliraš "
-"aplikacije?\n"
+"Avant de procéder à une tâche, où souhaitez-vous installer les "
+"applications ?\n"
 "\n"
-"SINTAKSA: /CELA-PUTANJA/KA/IMENU-DIREKTORIJUMA\n"
-"PRIMER: $HOME/Moje-aplikacije\n"
+"SYNTAXE : /CHEMIN/COMPLET/VERS/NOM_DU_REPERTOIRE\n"
+"EXEMPLE : $HOME/Mes-apps\n"
 "\n"
-"NAPOMENA: Svaki razmak u putanji će biti zamenjen crtom\n"
-"NAPOMENA: Ako ništa nije dato onda će \\\"~/Applications\\\" fabrički da se "
-"koristi\n"
+"REMARQUE : Tous les espaces dans le chemin seront remplacés par des tirets\n"
+"REMARQUE : Si aucune entrée n'est fournie, \\\"~/Applications\\\" sera "
+"utilisé par défaut\n"
 "\n"
-"ako želiš kasnije da promeniš lokaciju, prvo obriši sve programe i onda "
-"izmeni \\\"$APPMANCONFIG/appman-config\\\" fajl."
+"si vous souhaitez modifier l'emplacement plus tard, supprimez d'abord tous "
+"les programmes puis éditez le fichier \\\"$APPMANCONFIG/appman-config\\\"."
 
 #: APP-MANAGER:328
 msgid ">>> Configure AppMan"
-msgstr ">>> Podesi AppMan"
+msgstr ">>> Configurer AppMan"
 
 #: APP-MANAGER:328
 msgid ">>> Thank you for choosing AppMan!"
-msgstr ">>> Hvala ti što si odabrao AppMan!"
+msgstr ">>> Merci d'avoir choisi AppMan !"
 
 #: APP-MANAGER:332
 msgid ""
 " Write the path or just press enter to use default:$(printf \"\\n\\n \")"
 msgstr ""
-" Napiši putanju ili samo pritisni enter kako bi koristio fabričko "
-"podešavanje:$(printf \"\\n\\n \")"
+" Écrivez le chemin ou appuyez simplement sur Entrée pour utiliser la valeur "
+"par défaut :$(printf \"\\n\\n \")"
 
 #: APP-MANAGER:340
 msgid " 💀 ERROR, you can't install applications in \\\"$BINDIR\\\""
-msgstr " 💀 GREŠKA, ne možeš da instaliraš aplikacije u \\\"$BINDIR\\\""
+msgstr ""
+" 💀 ERREUR, vous ne pouvez pas installer d'applications dans \\\"$BINDIR\\\""
 
 #: APP-MANAGER:341
 msgid ""
 " $BINDIR is normally used for executables, Please choose a different path "
 "and retry!"
 msgstr ""
-" $BINDIR se obično koristi za izvršne datoteke, Molim da odabereš drugu "
-"putanju i pokušaš ponovo!"
+" $BINDIR est normalement utilisé pour les exécutables. Veuillez choisir un "
+"chemin différent et réessayer !"
 
 #: APP-MANAGER:345
 msgid " 💀 ERROR: You don't have write access to $location or it is invalid"
-msgstr " 💀 GREŠKA: Nemaš pristup pisanju ka $location ili je ona neispravna"
+msgstr ""
+" 💀 ERREUR : Vous n'avez pas accès en écriture à $location ou il est invalide"
 
 #: APP-MANAGER:351
 msgid " You are ready! Start installing your favorite apps locally!"
-msgstr " Spreman si! Započni lokalnu instalaciju tvojih omiljenih aplikacija!"
+msgstr ""
+" Vous êtes prêt ! Commencez à installer vos applications favorites "
+"localement !"
 
 #: APP-MANAGER:352
 msgid " All apps will be installed in $location"
-msgstr " Sve aplikacije će biti instalirane u $location"
+msgstr " Toutes les applications seront installées dans $location"
 
 #: APP-MANAGER:353
 msgid " In case of problems, use the option \\\"-h\\\"."
-msgstr " U slučaju problema, koristi opciju \\\"-h\\\"."
+msgstr " En cas de problème, utilisez l'option \\\"-h\\\"."
 
 #: APP-MANAGER:374
 msgid "ERROR: You don't have write access to $APPSPATH"
-msgstr "GREŠKA: Nemaš pristup pisanju ka $APPSPATH"
+msgstr "ERREUR : Vous n'avez pas accès en écriture à $APPSPATH"
 
 #: APP-MANAGER:378
 msgid ""
 "%b ⚠️ WARNING\\033[0m: \\\"%b%b\\033[0m\\\" is not in PATH, local apps may "
 "not run.\\n"
 msgstr ""
-"%b ⚠️ UPOZORENJE\\033[0m: \\\"%b%b\\033[0m\\\" nije u PATH, lokalne "
-"aplikacije se možda neće pokrenuti.\\n"
+"%b ⚠️ AVERTISSEMENT\\033[0m : \\\"%b%b\\033[0m\\\" n'est pas dans le PATH, "
+"les applications locales pourraient ne pas s'exécuter.\\n"
 
 #: APP-MANAGER:399
 msgid "ERROR: No sudo or doas found"
-msgstr "GREŠKA: sudo ili doas nisu pronađeni"
+msgstr "ERREUR : Aucun sudo ou doas trouvé"
 
 #: APP-MANAGER:518
 msgid "\\\"$AMCLIUPPER\\\" $AMVERSION: DEVELOPER MODE"
-msgstr "\\\"$AMCLIUPPER\\\" $AMVERSION: PROGRAMERSKI REŽIM"
+msgstr "\\\"$AMCLIUPPER\\\" $AMVERSION : MODE DÉVELOPPEUR"
 
 #: APP-MANAGER:543
 msgid ""
 "\\n %b is offline, please check your internet connection and try again\\n\\n"
 msgstr ""
-"\\n %b je van veze, molim proveri tvoju povezanost sa internetom i pokušaj "
-"ponovo\\n\\n"
+"\\n %b est hors ligne, veuillez vérifier votre connexion Internet et "
+"réessayer\\n\\n"
 
 #: APP-MANAGER:568
 msgid ""
@@ -168,12 +171,17 @@ msgid ""
 "be temporarily downloaded from https://github.com/ivan-hc/am-utils as static "
 "binaries"
 msgstr ""
+"Les commandes suivantes peuvent manquer ou ne pas être compatibles GNU et "
+"peuvent être téléchargées temporairement depuis https://github.com/ivan-hc/"
+"am-utils sous forme de binaires statiques"
 
 #: APP-MANAGER:570
 msgid ""
 "The following commands are missing and can be temporarily downloaded from "
 "https://github.com/ivan-hc/am-utils as static binaries"
 msgstr ""
+"Les commandes suivantes manquent et peuvent être téléchargées temporairement "
+"depuis https://github.com/ivan-hc/am-utils sous forme de binaires statiques"
 
 #: APP-MANAGER:572
 msgid ""
@@ -181,237 +189,252 @@ msgid ""
 "option), or press \\\"N\\\" to ignore this message and install them manually "
 "(default)."
 msgstr ""
+"Appuyez sur \\\"Y\\\" pour les stocker dans le cache jusqu'à ce que vous le "
+"vidiez (avec l'option \\\"-c\\\"), ou appuyez sur \\\"N\\\" pour ignorer ce "
+"message et les installer manuellement (par défaut)."
 
 #: APP-MANAGER:617 modules/install.am:125 modules/install.am:142
 #: modules/install.am:664
 msgid " Do you wish to continue? (N/y): "
-msgstr " Želiš li da nastaviš? (N/y): "
+msgstr " Voulez-vous continuer ? (N/o) : "
 
 #: APP-MANAGER:622 modules/install.am:317 modules/install.am:329
 msgid " - %b, downloaded from https://github.com/ivan-hc/am-utils\\n"
-msgstr ""
+msgstr " - %b, téléchargé depuis https://github.com/ivan-hc/am-utils\\n"
 
 #: APP-MANAGER:634
 msgid "Missing command(s): %b%b\\033[0m\\n"
-msgstr ""
+msgstr "Commande(s) manquante(s) : %b%b\\033[0m\\n"
 
 #: APP-MANAGER:706
 msgid "%bList of the %b core dependences\\033[0m:\\n\\n%b\\n"
-msgstr "%bLista %b osnovnih zavisnih programa\\033[0m:\\n\\n%b\\n"
+msgstr "%bListe des dépendances core de %b\\033[0m :\\n\\n%b\\n"
 
 #: APP-MANAGER:708
 msgid ""
 "If this message appears it is because you are missing some dependency and if "
 "its the first time its because something new has been introduced.\\n\\n"
 msgstr ""
-"Ako se ova poruka pojavi, to je zbog toga što neki zavisni program nedostaje "
-"i ako se pojavljuje prvi put, to je zbog toga što je došlo nešto novo.\\n\\n"
+"Si ce message apparaît, c'est parce qu'il vous manque une dépendance et si "
+"c'est la première fois, c'est parce que quelque chose de nouveau a été "
+"introduit.\\n\\n"
 
 #: APP-MANAGER:709
 msgid ""
 " See %bhttps://github.com/pkgforge-community/AM-HF-SYNC#installation\\033[0m for more "
 "information\\n"
 msgstr ""
-" Pogledaj %bhttps://github.com/pkgforge-community/AM-HF-SYNC#installation\\033[0m za više "
-"informacija\\n"
+" Voir %bhttps://github.com/pkgforge-community/AM-HF-SYNC#installation\\033[0m pour plus "
+"d'informations\\n"
 
 #: APP-MANAGER:717
 msgid ""
 "\\n %b⚠️ WARNING: ACCESS TO USER NAMESPACES IS RESTRICTED! \\033[0m\\n\\n"
 msgstr ""
-"\\n %b⚠️ UPOZORENJE: PRISTUP USER-NAMESPACES-U JE OGRANIČENO! \\033[0m\\n\\n"
+"\\n %b⚠️ AVERTISSEMENT : L'ACCÈS AUX ESPACES DE NOMS UTILISATEUR EST "
+"RESTREINT ! \\033[0m\\n\\n"
 
 #: APP-MANAGER:718
 msgid ""
 " Some apps may not run, you need to enable access to user namespaces, see"
 msgstr ""
-" Neke aplikacije možda neće moći da se pokrenu, potrebno je da uključiš "
-"pristup user-namespaces-u, pogledaj"
+" Certaines applications peuvent ne pas fonctionner, vous devez activer "
+"l'accès aux espaces de noms utilisateur, voir"
 
 #: APP-MANAGER:720
 msgid " to know more."
-msgstr " kako bi saznao više."
+msgstr " pour en savoir plus."
 
 #: APP-MANAGER:754
 msgid "\\n %b💀WARNING! Detected \\\"%b\\\"\\033[0m\\n\\n"
-msgstr "\\n %b💀UPOZORENJE! Otkriven \\\"%b\\\"\\033[0m\\n\\n"
+msgstr "\\n %b💀ATTENTION ! \\\"%b\\\" détecté\\033[0m\\n\\n"
 
 #: APP-MANAGER:755
 msgid ""
 "It will prevent \\\"$AMCLIUPPER\\\" from working correctly with AppImages, "
 "especially when extracting, integrating and updating them."
 msgstr ""
-"To će sprečiti \\\"$AMCLIUPPER\\\" da radi kako treba sa AppImage-ovima, "
-"posebno prilikom njihovog ekstraktovanja, integrisanja i ažuriranja."
+"Cela empêchera \\\"$AMCLIUPPER\\\" de fonctionner correctement avec les "
+"AppImages, notamment lors de leur extraction, intégration et mise à jour."
 
 #: APP-MANAGER:759
 msgid " Please remove \\\"AppImageLauncher\\\", reboot and retry!"
-msgstr " Molim obriši \\\"AppImageLauncher\\\", restartuj i pokušaj ponovo!"
+msgstr ""
+" Veuillez supprimer \\\"AppImageLauncher\\\", redémarrer et réessayer !"
 
 #: APP-MANAGER:761
 msgid " Please remove \\\"$blacklisted_file\\\", reboot and retry!"
-msgstr " Molim obriši \\\"$blacklisted_file\\\", restartuj i pokušaj ponovo!"
+msgstr ""
+" Veuillez supprimer \\\"$blacklisted_file\\\", redémarrer et réessayer !"
 
 #: APP-MANAGER:780 modules/database.am:841 modules/database.am:926
 #: modules/install.am:686 modules/install.am:711 modules/management.am:532
 #: modules/sandboxes.am:292 modules/template.am:395
 msgid " USAGE: $AMCLI $1 [ARGUMENT]"
-msgstr " KORIŠĆENJE: $AMCLI $1 [ARGUMENT]"
+msgstr " UTILISATION : $AMCLI $1 [ARGUMENT]"
 
 #: APP-MANAGER:784
 msgid " USAGE:\t$AMCLI $1 $2 /path/to/dir"
-msgstr " KORIŠĆENJE:\t$AMCLI $1 $2 /putanja/ka/direktorijumu"
+msgstr " UTILISATION :\t$AMCLI $1 $2 /chemin/vers/répertoire"
 
 #: APP-MANAGER:790 APP-MANAGER:794 APP-MANAGER:804
 msgid " ERROR, \\\"$AMDATADIR/newrepo-lists\\\" file not found"
-msgstr " GREŠKA, \\\"$AMDATADIR/newrepo-lists\\\" fajl nije pronađen"
+msgstr " ERREUR, fichier \\\"$AMDATADIR/newrepo-lists\\\" non trouvé"
 
 #: APP-MANAGER:791
 msgid " New repo ON!"
-msgstr " Novi repo UKLJUČEN!"
+msgstr " Nouveau dépôt activé !"
 
 #: APP-MANAGER:795
 msgid " New repo OFF!"
-msgstr " Novi repo ISKLJUČEN!"
+msgstr " Nouveau dépôt désactivé !"
 
 #: APP-MANAGER:798
 msgid " Source: %b\\n Apps: %b\\n List: %b\\n"
-msgstr " Izvor: %b\\n Aplikacije: %b\\n Lista: %b\\n"
+msgstr " Source : %b\\n Apps : %b\\n Liste : %b\\n"
 
 #: APP-MANAGER:801
 msgid " Removed all 3rd party repositories"
-msgstr " Obrisani su svi repozitorijumi treće strane"
+msgstr " Tous les dépôts tiers ont été supprimés"
 
 #: APP-MANAGER:805
 msgid "Select a repo from the list or press CTRL+C to abort:\\n%b\\n"
-msgstr "Odaberi repo sa liste ili pritisni CTRL+C da prekineš:\\n%b\\n"
+msgstr ""
+"Sélectionnez un dépôt dans la liste ou appuyez sur CTRL+C pour annuler :"
+"\\n%b\\n"
 
 #: APP-MANAGER:808
 msgid ">>> Invalid Selection"
-msgstr ">>> Nevažeći Odabir"
+msgstr ">>> Sélection invalide"
 
 #: APP-MANAGER:829
 msgid " Source: $AMREPO"
-msgstr " Izvor: $AMREPO"
+msgstr " Source : $AMREPO"
 
 #: APP-MANAGER:900
 msgid "Description"
-msgstr "Opis"
+msgstr "Description"
 
 #: APP-MANAGER:901
 msgid "Source"
-msgstr "Izvor"
+msgstr "Source"
 
 #: APP-MANAGER:902
 msgid "Related flag"
-msgstr "Relevantna opcija"
+msgstr "Drapeau associé"
 
 #: APP-MANAGER:903
 msgid "Related extension"
-msgstr "Relevantna ekstenzija"
+msgstr "Extension associée"
 
 #: APP-MANAGER:904
 msgid "PROGRAM"
-msgstr "PROGRAM"
+msgstr "PROGRAMME"
 
 #: APP-MANAGER:905
 msgid "To get more info about a program"
-msgstr "Da dobiješ više informacija o programu"
+msgstr "Pour obtenir plus d'informations sur un programme"
 
 #: APP-MANAGER:906
 msgid "To install a program near others from other databases"
-msgstr "Da instaliraš program blizu ostalih iz drugih baza podataka"
+msgstr ""
+"Pour installer un programme à côté d'autres provenant d'autres bases de "
+"données"
 
 #: APP-MANAGER:907
 msgid "To install a program only from this third-party database"
-msgstr "Da instaliraš program isključivo iz ove baze podataka treće strane"
+msgstr ""
+"Pour installer un programme uniquement depuis cette base de données tierce"
 
 #: APP-MANAGER:908
 msgid "To list all programs available in this third-party database"
-msgstr "Da izlistaš sve dostupne programe iz ove baze podataka treće strane"
+msgstr ""
+"Pour lister tous les programmes disponibles dans cette base de données tierce"
 
 #: APP-MANAGER:909
 msgid "To search for keywords in this third-party database"
-msgstr "Da pretražiš ključne reči u ovoj bazi podataka treće strane"
+msgstr "Pour rechercher des mots-clés dans cette base de données tierce"
 
 #: APP-MANAGER:1009
 msgid ""
 "Zsh completion requires editing the main configuration file, but it may "
 "cause problems.\\nSee https://github.com/pkgforge-community/AM-HF-SYNC/issues/1843\\n"
 msgstr ""
-"Zsh dovršavanje (completion) zahteva izmenu glavnog konfiguracijskog fajla, "
-"ali to može da izazove probleme.\\nVidi https://github.com/pkgforge-community/AM-HF-SYNC/"
+"La complétion Zsh nécessite l'édition du fichier de configuration principal, "
+"mais cela peut causer des problèmes.\\nVoir https://github.com/pkgforge-community/AM-HF-SYNC/"
 "issues/1843\\n"
 
 #: APP-MANAGER:1010
 msgid "Want to proceed anyway? (y,N)"
-msgstr "Želiš li ipak da nastaviš? (y,N)"
+msgstr "Voulez-vous quand même procéder ? (o,N)"
 
 #: APP-MANAGER:1023
 msgid "Shell completion has been enabled!"
-msgstr "Kompletiranje školjke je uključeno!"
+msgstr "La complétion du shell a été activée !"
 
 #: APP-MANAGER:1212
 msgid "Validation successful!"
-msgstr "Overavanje uspešno!"
+msgstr "Validation réussie !"
 
 #: APP-MANAGER:1215
 msgid "ERROR: Invalid token or insufficient permissions!"
-msgstr "GREŠKA: Nevažeći token ili nedovoljne dozvole!"
+msgstr "ERREUR : Jeton invalide ou permissions insuffisantes !"
 
 #: APP-MANAGER:1218
 msgid "ERROR: Unexpected response (HTTP $HTTP_STATUS)"
-msgstr "GREŠKA: Neočekivani odziv (HTTP $HTTP_STATUS)"
+msgstr "ERREUR : Réponse inattendue (HTTP $HTTP_STATUS)"
 
 #: APP-MANAGER:1226
 msgid " ✖ No file named $ghapikey_file has been found"
-msgstr " ✖ Nijedan fajl po imenu $ghapikey_file nije pronađen"
+msgstr " ✖ Aucun fichier nommé $ghapikey_file n'a été trouvé"
 
 #: APP-MANAGER:1237
 msgid " ✔ $ghapikey_file has been removed"
-msgstr " ✔ $ghapikey_file je obrisan"
+msgstr " ✔ $ghapikey_file a été supprimé"
 
 #: APP-MANAGER:1238
 msgid " ✔ Authorization headers removed from updater files"
-msgstr " ✔ Autorizacijska zaglavlja su obrisana sa updater fajlova"
+msgstr " ✔ En-têtes d'autorisation supprimés des fichiers de mise à jour"
 
 #: APP-MANAGER:1248
 msgid "ERROR: Wrong expression, validation failed!"
-msgstr "GREŠKA: Pogrešna ekspresija, overavanje bezuspešno!"
+msgstr "ERREUR : Expression incorrecte, la validation a échoué !"
 
 #: APP-MANAGER:1259
 msgid " ⚠️ Warning: Stored GitHub API token is invalid or expired"
-msgstr " ⚠️ Upozorenje: Ubačen GitHub API token je nevažeći ili je istekao"
+msgstr ""
+" ⚠️ Avertissement : Le jeton d'API GitHub stocké est invalide ou a expiré"
 
 #: APP-MANAGER:1261
 msgid " Please either:"
-msgstr " Molim uradi jedno od ovog:"
+msgstr " Veuillez soit :"
 
 #: APP-MANAGER:1262
 msgid ""
 "   1. Generate a new token and add it with: $AMCLI apikey YOUR_NEW_TOKEN"
-msgstr "   1. Napravi novi token i dodaj ga sa: $AMCLI apikey YOUR_NEW_TOKEN"
+msgstr ""
+"   1. Générer un nouveau jeton et l'ajouter avec : $AMCLI apikey "
+"VOTRE_NOUVEAU_JETON"
 
 #: APP-MANAGER:1263
 msgid "   2. Remove the invalid token with: $AMCLI apikey del"
-msgstr "   2. Obriši nevažeći token sa: $AMCLI apikey del"
+msgstr "   2. Supprimer le jeton invalide avec : $AMCLI apikey del"
 
 #: APP-MANAGER:1265
 msgid " For instructions on creating GitHub tokens, see:"
-msgstr " Za uputstvo pravljenja GitHub tokena, pogledaj:"
+msgstr " Pour les instructions sur la création de jetons GitHub, voir :"
 
 #: APP-MANAGER:1293
 msgid ""
 "$DIVIDING_LINE\\n \\\"AM\\\" is running as \\\"AppMan\\\", use ${Green}am --"
 "system\\033[0m to switch it back to \\\"AM\\\"\\n$DIVIDING_LINE\\n"
 msgstr ""
-"$DIVIDING_LINE\\n \\\"AM\\\" je pokrenut kao \\\"AppMan\\\", koristi ${Green}"
-"am --system\\033[0m da se vratiš nazad u \\\"AM\\\"\\n$DIVIDING_LINE\\n"
+"$DIVIDING_LINE\\n \\\"AM\\\" fonctionne en tant que \\\"AppMan\\\", utilisez "
+"${Green}am --system\\033[0m pour le ramener à \\\"AM\\\"\\n$DIVIDING_LINE\\n"
 
 #: APP-MANAGER:1294
 msgid "$DIVIDING_LINE\\n \\\"AppMan Mode\\\" disabled! \\n$DIVIDING_LINE\\n"
-msgstr ""
-"$DIVIDING_LINE\\n \\\"AppMan Režim\\\" je isključen! \\n$DIVIDING_LINE\\n"
+msgstr "$DIVIDING_LINE\\n \\\"Mode AppMan\\\" désactivé ! \\n$DIVIDING_LINE\\n"
 
 #: APP-MANAGER:1295
 msgid ""
@@ -420,218 +443,233 @@ msgid ""
 "\") instead of going fully into \\\"AppMan Mode\\\". \\\"AM\\\" can  handle "
 "local applications as well.\\n$DIVIDING_LINE\\n"
 msgstr ""
-"$DIVIDING_LINE\\nNAPOMENA: Takođe možeš da koristiš \\\"--user\\\" kao "
-"opciju za lokalno instaliranje aplikacija (opcije \\\"-i\\\", \\\"-ia\\\" i "
-"\\\"-e\\\") umesto ulaženja u \\\"AppMan Režim\\\". \\\"AM\\\" takođe može  "
-"da barata sa lokalnim aplikacijama.\\n$DIVIDING_LINE\\n"
+"$DIVIDING_LINE\\nREMARQUE : Vous pouvez également choisir d'utiliser "
+"simplement \\\"--user\\\" comme un drapeau pour installer des applications "
+"localement (options \\\"-i\\\", \\\"-ia\\\" et \\\"-e\\\") au lieu d'entrer "
+"entièrement dans le \\\"Mode AppMan\\\". \\\"AM\\\" peut également gérer les "
+"applications locales.\\n$DIVIDING_LINE\\n"
 
 #: APP-MANAGER:1299
 msgid " This function only works for AM"
-msgstr " Ova funkcija radi samo za AM"
+msgstr " Cette fonction ne fonctionne que pour AM"
 
 #: APP-MANAGER:1301
 msgid " Do you wish to enter \\\"AppMan Mode\\\" (y,N)?"
-msgstr " Da li želiš da uđeš u \\\"AppMan Režim\\\" (y,N)?"
+msgstr " Voulez-vous entrer dans le \\\"Mode AppMan\\\" ? (o,N)"
 
 #: APP-MANAGER:1317
 msgid " \\\"AM\\\" is read-only, want to use it in \\\"AppMan Mode\\\" (Y,n)? "
 msgstr ""
-" \\\"AM\\\" je u isključivo-čitljivom režimu (r/o), želiš li da ga koristiš "
-"u \\\"AppMan Režimu\\\" (Y,n)? "
+" \\\"AM\\\" est en lecture seule, voulez-vous l'utiliser en \\\"Mode AppMan\\"
+"\" ? (O,n) ? "
 
 #: APP-MANAGER:1321
 msgid "\\\"AppMan Mode\\\" enabled!"
-msgstr "\\\"AppMan Režim\\\" je uključen!"
+msgstr "\\\"Mode AppMan\\\" activé !"
 
 #: APP-MANAGER:1333
 msgid " ✔ Clear the contents of $CACHEDIR/am"
-msgstr " ✔ Očisti sadržaje od $CACHEDIR/am"
+msgstr " ✔ Effacer le contenu de $CACHEDIR/am"
 
 #: APP-MANAGER:1334 APP-MANAGER:1418
 msgid " ✔ Clear the contents of $CACHEDIR/appman"
-msgstr " ✔ Očisti sadržaje od $CACHEDIR/appman"
+msgstr " ✔ Effacer le contenu de $CACHEDIR/appman"
 
 #: APP-MANAGER:1340
 msgid " ✔ Clear the contents of $arg/*.home/.cache"
-msgstr " ✔ Očisti sadržaje od $arg/*.home/.cache"
+msgstr " ✔ Effacer le contenu de $arg/*.home/.cache"
 
 #: APP-MANAGER:1349
 msgid " ✔ Removed $arg/tmp"
-msgstr " ✔ Obrisan $arg/tmp"
+msgstr " ✔ $arg/tmp supprimé"
 
 #: APP-MANAGER:1352
 msgid " ✔ Removed $arg/squashfs-root"
-msgstr " ✔ Obrisan $arg/tmp"
+msgstr " ✔ $arg/squashfs-root supprimé"
 
 #: APP-MANAGER:1355
 msgid " ✔ Removed $arg/AppDir"
-msgstr " ✔ Obrisan $arg/tmp"
+msgstr " ✔ $arg/AppDir supprimé"
 
 #: APP-MANAGER:1382
 msgid " ✖ ERROR: cannot remove \\\"$(basename \"$var\")\\\""
-msgstr " ✖ GREŠKA: ne mogu da obrišem \\\"$(basename \"$var\")\\\""
+msgstr " ✖ ERREUR : impossible de supprimer \\\"$(basename \"$var\")\\\""
 
 #: APP-MANAGER:1383
 msgid "   related AppImage is located in an unmounted path of $unmounted_point"
-msgstr "   ovaj AppImage je smešten u nemontiranoj putanji od $unmounted_point"
+msgstr ""
+"   l'AppImage associé est situé dans un chemin non monté de $unmounted_point"
 
 #: APP-MANAGER:1398
 msgid ""
 " ✔ Removed orphaned launchers produced with the \\\"--launcher\\\" option"
 msgstr ""
-" ✔ Uklonjeni su napušteni pokretači napravljeni opcijom \\\"--launcher\\\""
+" ✔ Lanceurs orphelins produits avec l'option \\\"--launcher\\\" supprimés"
 
 #: APP-MANAGER:1411
 msgid " ✔ Removed obsolete module named \\\"$(basename -- \"$m\")\\\""
-msgstr " ✔ Obrisan zastareo modul po imenu \\\"$(basename -- \"$m\")\\\""
+msgstr " ✔ Module obsolète nommé \\\"$(basename -- \"$m\")\\\" supprimé"
 
 #: APP-MANAGER:1423
 msgid " Cleaning temporary files and folders..."
-msgstr " Čistim privremene fajlove i foldere..."
+msgstr " Nettoyage des fichiers et dossiers temporaires..."
 
 #: APP-MANAGER:1515
 msgid " Do you want to install the set of programs listed above (y,N)?"
-msgstr " Da li želiš da instaliraš set programa koji je izlistan iznad (y,N)?"
+msgstr ""
+" Voulez-vous installer l'ensemble de programmes listé ci-dessus ? (o,N)"
 
 #: APP-MANAGER:1536
 msgid "✔ $argpath has been hidden"
-msgstr "✔ $argpath je sakriven"
+msgstr "✔ $argpath a été masqué"
 
 #: APP-MANAGER:1538
 msgid "✖ Can't hide \\\"$arg\\\", app already hidden or non-existent"
 msgstr ""
-"✖ Ne mogu da sakrijem \\\"$arg\\\", aplikacija je već sakrivena ili ne "
-"postoji"
+"✖ Impossible de masquer \\\"$arg\\\", l'application est déjà masquée ou "
+"inexistante"
 
 #: APP-MANAGER:1565
 msgid "✔ $argpath can be managed again"
-msgstr "✔ $argpath opet može da se upravlja"
+msgstr "✔ $argpath peut être géré à nouveau"
 
 #: APP-MANAGER:1583
 msgid ""
 "The local path currently in use for programs is as follows:\\n\\n%b\\n\\n"
-msgstr "Lokalna putanja koja se trenutno koristi za programe je:\\n\\n%b\\n\\n"
+msgstr ""
+"Le chemin local actuellement utilisé pour les programmes est le suivant :"
+"\\n\\n%b\\n\\n"
 
 #: APP-MANAGER:1584
 msgid ""
 " Do you want to remove and re-install everything to a new location (y,N)?"
-msgstr " Da li želiš da obrišeš i reinstaliraš sve na novu lokaciju (y,N)?"
+msgstr ""
+" Voulez-vous tout supprimer et réinstaller dans un nouvel emplacement ? (o,N)"
 
 #: APP-MANAGER:1612
 msgid ""
 "%b\\n Checking for changes of the installation scripts in the online "
 "database...\\n"
 msgstr ""
-"%b\\n Proveravam promene instalacijskih skripti u onlajn bazi podataka...\\n"
+"%b\\n Vérification des changements des scripts d'installation dans la base "
+"de données en ligne...\\n"
 
 #: APP-MANAGER:1626
 msgid ""
 " ◆ %b%b\\033[0m has changed, you may need to reinstall it, see\\n   https://"
 "github.com/pkgforge-community/AM-HF-SYNC/blob/main/programs/%b/%b\\n"
 msgstr ""
-" ◆ %b%b\\033[0m je promenjen, možda ćeš morati da ga reinstaliraš, vidi\\n   "
+" ◆ %b%b\\033[0m a changé, vous devrez peut-être le réinstaller, voir\\n   "
 "https://github.com/pkgforge-community/AM-HF-SYNC/blob/main/programs/%b/%b\\n"
 
 #: APP-MANAGER:1631
 msgid " ◆ No installation script for %b, downloading one...\\n"
-msgstr " ◆ Nema instalacijske skripte za %b, preuzimam jednu...\\n"
+msgstr " ◆ Aucun script d'installation pour %b, téléchargement en cours...\\n"
 
 #: APP-MANAGER:1641
 msgid ""
 "\\n To fix the above, just run \\\"%b%b reinstall\\033[0m\\\", without "
 "arguments\\n"
 msgstr ""
-"\\n Kako bi popravio ovo iznad, samo pokreni \\\"%b%b reinstall\\033[0m\\\", "
-"bez argumenata\\n"
+"\\n Pour corriger ce qui précède, exécutez simplement \\\"%b%b "
+"reinstall\\033[0m\\\", sans argument\\n"
 
 #: APP-MANAGER:1655
 msgid "%b\\n Check and update offline lists of additional databases...\\n"
-msgstr "%b\\n Proveravam i ažuriram oflajn listu dodatnih baza podataka...\\n"
+msgstr ""
+"%b\\n Vérifier et mettre à jour les listes hors ligne des bases de données "
+"supplémentaires...\\n"
 
 #: APP-MANAGER:1666
 msgid "%b\\n Check and update localization...\\n"
-msgstr "%b\\n Proveravam i ažuriram lokalizaciju (prevode)...\\n"
+msgstr "%b\\n Vérifier et mettre à jour la localisation...\\n"
 
 #: APP-MANAGER:1678
 msgid "%b\\n Check for updates in modules...\\n"
-msgstr "%b\\n Proveravam ažuriranja za module...\\n"
+msgstr "%b\\n Vérifier les mises à jour des modules...\\n"
 
 #: APP-MANAGER:1683
 msgid " ◆ Downloading $module_name (not previously installed)..."
-msgstr " ◆ Preuzimam $module_name (prethodno neinstaliran)..."
+msgstr " ◆ Téléchargement de $module_name (non installé précédemment)..."
 
 #: APP-MANAGER:1692
 msgid " ◆ Updating $module_name..."
-msgstr " ◆ Ažuriram $module_name..."
+msgstr " ◆ Mise à jour de $module_name..."
 
 #: APP-MANAGER:1703
 msgid ""
 "\\n ◆ SYNCHRONIZING \\\"$AMCLIUPPER\\\" VERSION \\\"$CURRENT_AM_VERSION\\"
 "\"...\\r"
 msgstr ""
-"\\n ◆ SINHRONIZUJEM \\\"$AMCLIUPPER\\\" VERZIJU \\\"$CURRENT_AM_VERSION\\"
-"\"...\\r"
+"\\n ◆ SYNCHRONISATION DE LA VERSION \\\"$AMCLIUPPER\\\" \\"
+"\"$CURRENT_AM_VERSION\\\"...\\r"
 
 #: APP-MANAGER:1710
 msgid " A new release of \\\"$AMCLIUPPER\\\" is available, please wait...\\r"
-msgstr " Novo izdanje od \\\"$AMCLIUPPER\\\" je dostupno, molim sačekaj...\\r"
+msgstr ""
+" Une nouvelle version de \\\"$AMCLIUPPER\\\" est disponible, veuillez "
+"patienter...\\r"
 
 #: APP-MANAGER:1711
 msgid ""
 " ◆ \\\"$AMCLIUPPER\\\" IS NOW UPDATED TO THE BRAND NEW \\\"$NEW_AM_VERSION\\"
 "\" VERSION!"
 msgstr ""
-" ◆ \\\"$AMCLIUPPER\\\" JE SADA AŽURIRAN NA NAJNOVIJU \\\"$NEW_AM_VERSION\\\" "
-"VERZIJU!"
+" ◆ \\\"$AMCLIUPPER\\\" EST MAINTENANT MIS À JOUR VERS LA NOUVELLE VERSION \\"
+"\"$NEW_AM_VERSION\\\" !"
 
 #: APP-MANAGER:1712
 msgid "\\n  Replacement of version \\\"%b\\\" currently in use, COMPLETED! \\n"
-msgstr "\\n  Zamena verzije \\\"%b\\\" u trenutnom korišćenju, ZAVRŠENO! \\n"
+msgstr ""
+"\\n  Remplacement de la version \\\"%b\\\" actuellement utilisée, TERMINÉ ! "
+"\\n"
 
 #: APP-MANAGER:1713
 msgid "\\n See https://github.com/pkgforge-community/AM-HF-SYNC/commits/main\\n\\n"
-msgstr "\\n Vidi https://github.com/pkgforge-community/AM-HF-SYNC/commits/main\\n\\n"
+msgstr "\\n Voir https://github.com/pkgforge-community/AM-HF-SYNC/commits/main\\n\\n"
 
 #: APP-MANAGER:1715
 msgid ""
 " ◆ \\\"$AMCLIUPPER\\\" IS ALREADY UPDATED, CURRENT VERSION \\"
 "\"$CURRENT_AM_VERSION\\\""
 msgstr ""
-" ◆ \\\"$AMCLIUPPER\\\" JE VEĆ AŽURIRAN, TRENUTNA VERZIJA \\"
+" ◆ \\\"$AMCLIUPPER\\\" EST DÉJÀ À JOUR, VERSION ACTUELLE \\"
 "\"$CURRENT_AM_VERSION\\\""
 
 #: APP-MANAGER:1716
 msgid "\\n See https://github.com/pkgforge-community/AM-HF-SYNC/commits/%b\\n\\n"
-msgstr "\\n Vidi https://github.com/pkgforge-community/AM-HF-SYNC/commits/%b\\n\\n"
+msgstr "\\n Voir https://github.com/pkgforge-community/AM-HF-SYNC/commits/%b\\n\\n"
 
 #: APP-MANAGER:1762
 msgid "Checksum auto-verified."
-msgstr "Kontrolni zbir (checksum) je automatski proveren."
+msgstr "Somme de contrôle vérifiée automatiquement."
 
 #: APP-MANAGER:1794
 msgid "Checksum cannot be verified, missing download URL."
 msgstr ""
-"Kontrolni zbir (checksum) se ne može proveriti, nedostaje URL za preuzimanje."
+"La somme de contrôle ne peut pas être vérifiée, URL de téléchargement "
+"manquante."
 
 #: APP-MANAGER:1812
 msgid "Checksum cannot be verified, mismatch in binary name."
 msgstr ""
-"Kontrolni zbir (checksum) se ne može proveriti, nepoklapanje u imenu binara."
+"La somme de contrôle ne peut pas être vérifiée, discordance dans le nom du "
+"binaire."
 
 #: APP-MANAGER:1819
 msgid "Checksum does not match, please manually verify file integrity."
 msgstr ""
-"Kontrolni zbir (checksum) se ne poklapa, molim da ručno proveriš integritet "
-"fajla."
+"La somme de contrôle ne correspond pas, veuillez vérifier manuellement "
+"l'intégrité du fichier."
 
 #: APP-MANAGER:1823
 msgid "Checksum verified."
-msgstr "Kontrolni zbir (checksum) je uspešno proveren."
+msgstr "Somme de contrôle vérifiée."
 
 #: APP-MANAGER:1828
 msgid "Checksum calculation tools do not exist, please install coreutils."
 msgstr ""
-"Alati za računanje kontrolnog zbira (checksuma) ne postoje, molim instaliraj "
+"Les outils de calcul de somme de contrôle n'existent pas, veuillez installer "
 "coreutils."
 
 #: APP-MANAGER:1838
@@ -639,170 +677,171 @@ msgid ""
 " %b\\\"%b\\\" CAN MANAGE UPDATES FOR THE FOLLOWING PROGRAMS\\033[0m:"
 "\\n%b\\n\\n"
 msgstr ""
-" %b\\\"%b\\\" MOŽE DA UPRAVLJA AŽURIRANJIMA ZA SLEDEĆE PROGRAME\\033[0m:"
+" %b\\\"%b\\\" PEUT GÉRER LES MISES À JOUR DES PROGRAMMES SUIVANTS\\033[0m:"
 "\\n%b\\n\\n"
 
 #: APP-MANAGER:1839
 msgid " None"
-msgstr " Nijedno"
+msgstr " Aucun"
 
 #: APP-MANAGER:1840
 msgid "\\n %bAll self-updatable programs are excluded\\033[0m\\n"
-msgstr "\\n %bSvi programi sopstvenog ažuriranja su izostavljeni\\033[0m\\n"
+msgstr "\\n %bTous les programmes auto-mise à jour sont exclus\\033[0m\\n"
 
 #: APP-MANAGER:1870
 msgid "App"
-msgstr "Aplikacija"
+msgstr "App"
 
 #: APP-MANAGER:1871
 msgid "Previous"
-msgstr "Prethodna"
+msgstr "Précédente"
 
 #: APP-MANAGER:1872
 msgid "Current"
-msgstr "Trenutna"
+msgstr "Actuelle"
 
 #: APP-MANAGER:1889
 msgid "checksum changed"
-msgstr "kontrolni zbir je promenjen"
+msgstr "somme de contrôle modifiée"
 
 #: APP-MANAGER:1925
 msgid " Nothing to do here! \\n"
-msgstr " Ovde nema ništa da se radi! \\n"
+msgstr " Rien à faire ici ! \\n"
 
 #: APP-MANAGER:1927
 msgid " The following apps have been updated:\\n\\n"
-msgstr " Sledeće aplikacije su ažurirane:\\n\\n"
+msgstr " Les applications suivantes ont été mises à jour :\\n\\n"
 
 #: APP-MANAGER:1932
 msgid " No apps to update here!"
-msgstr " Nema aplikacija za ažuriranje!"
+msgstr " Aucune application à mettre à jour ici !"
 
 #: APP-MANAGER:1984
 msgid " %b✔\\033[0m $APPNAME is updated, $timelapsed second elapsed! \\n"
-msgstr " %b✔\\033[0m $APPNAME je ažuriran, $timelapsed sekund je prošao! \\n"
+msgstr " %b✔\\033[0m $APPNAME est à jour, $timelapsed seconde écoulée ! \\n"
 
 #: APP-MANAGER:1986
 msgid " %b✔\\033[0m $APPNAME is updated, $timelapsed seconds elapsed! \\n"
-msgstr " %b✔\\033[0m $APPNAME je ažuriran, $timelapsed sekundi je prošlo! \\n"
+msgstr " %b✔\\033[0m $APPNAME est à jour, $timelapsed secondes écoulées ! \\n"
 
 #: APP-MANAGER:2001
 msgid " %b✖\\033[0m %b is read-only, cannot update it!\\n"
 msgstr ""
-" %b✖\\033[0m %b je u isključivo-čitljivom režimu (r/o), ne mogu da ga "
-"ažuriram!\\n"
+" %b✖\\033[0m %b est en lecture seule, impossible de le mettre à jour !\\n"
 
 #: APP-MANAGER:2038
 msgid " ◆ Update local AppImages integrated manually"
-msgstr " ◆ Ažuriraj lokalne AppImage-ove koji su ručno integrisani"
+msgstr " ◆ Mettre à jour les AppImages locaux intégrés manuellement"
 
 #: APP-MANAGER:2045
 msgid "(unmounted)"
-msgstr "(nemontiran)"
+msgstr "(non monté)"
 
 #: APP-MANAGER:2070
 msgid "%b\\n >> %bSTART OF ALL PROCESSES\\033[0m << \\n%b\\n"
-msgstr "%b\\n >> %bPOČETAK SVIH PROCESA\\033[0m << \\n%b\\n"
+msgstr "%b\\n >> %bDÉBUT DE TOUS LES PROCESSUS\\033[0m << \\n%b\\n"
 
 #: APP-MANAGER:2080
 msgid " >> %bEND OF ALL PROCESSES\\033[0m << \\n%b\\n"
-msgstr " >> %bKRAJ SVIH PROCESA\\033[0m << \\n%b\\n"
+msgstr " >> %bFIN DE TOUS LES PROCESSUS\\033[0m << \\n%b\\n"
 
 #: APP-MANAGER:2084
 msgid "%b\\n >> %bEND OF ALL PROCESSES\\033[0m << \\n%b\\n"
-msgstr "%b\\n >> %bKRAJ SVIH PROCESA\\033[0m << \\n%b\\n"
+msgstr "%b\\n >> %bFIN DE TOUS LES PROCESSUS\\033[0m << \\n%b\\n"
 
 #: APP-MANAGER:2097
 msgid " %b✖\\033[0m %b cannot be updated, program not found \\n"
-msgstr " %b✖\\033[0m %b ne može da se ažurira, program nije pronađen \\n"
+msgstr " %b✖\\033[0m %b ne peut pas être mis à jour, programme introuvable \\n"
 
 #: APP-MANAGER:2102
 msgid " %b✖\\033[0m %b cannot be updated%b\\n"
-msgstr " %b✖\\033[0m %b ne može da se ažurira%b\\n"
+msgstr " %b✖\\033[0m %b ne peut pas être mis à jour%b\\n"
 
 #: APP-MANAGER:2118
 msgid " ERROR: \\\"$arg\\\" is not installed, see \\\"-f\\\""
-msgstr " GREŠKA: \\\"$arg\\\" nije instaliran, vidi \\\"-f\\\""
+msgstr " ERREUR : \\\"$arg\\\" n'est pas installé, voir \\\"-f\\\""
 
 #: APP-MANAGER:2120
 msgid " ERROR: \\\"$AMCLI\\\" cannot manage updates for \\\"$arg\\\""
 msgstr ""
-" GREŠKA: \\\"$AMCLI\\\" ne može da upravlja ažuriranjima za \\\"$arg\\\""
+" ERREUR : \\\"$AMCLI\\\" ne peut pas gérer les mises à jour pour \\\"$arg\\\""
 
 #: APP-MANAGER:2122
 msgid " ERROR: \\\"$arg\\\" source is not on Github"
-msgstr " GREŠKA: \\\"$arg\\\" izvor nije na Github-u"
+msgstr " ERREUR : la source \\\"$arg\\\" n'est pas sur Github"
 
 #: APP-MANAGER:2124
 msgid " ERROR: \\\"$arg\\\" does not redirect to a generic \\\"releases\\\""
-msgstr " GREŠKA: \\\"$arg\\\" ne preusmerava do generičnih \\\"releases\\\""
+msgstr ""
+" ERREUR : \\\"$arg\\\" ne redirige pas vers un \\\"releases\\\" générique"
 
 #: APP-MANAGER:2148
 msgid " Module not found, run \\\"$AMCLI -s\\\" to update \\\"$AMCLIUPPER\\\""
 msgstr ""
-" Modul nije pronađen, pokreni \\\"$AMCLI -s\\\" da ažuriraš \\\"$AMCLIUPPER\\"
-"\""
+" Module introuvable, exécutez \\\"$AMCLI -s\\\" pour mettre à jour \\"
+"\"$AMCLIUPPER\\\""
 
 #: APP-MANAGER:2165
 msgid " USAGE: $AMCLI [OPTION]"
-msgstr " KORIŠĆENJE: $AMCLI [OPCIJA]"
+msgstr " UTILISATION : $AMCLI [OPTION]"
 
 #: APP-MANAGER:2166
 msgid "        $AMCLI [OPTION] [ARGUMENT]"
-msgstr "        $AMCLI [OPCIJA] [ARGUMENT]"
+msgstr "        $AMCLI [OPTION] [ARGUMENT]"
 
 #: APP-MANAGER:2168
 msgid " Run the \\\"$AMCLI -h\\\" command to find out more"
-msgstr " Pokreni \\\"$AMCLI -h\\\" komandu da saznaš više"
+msgstr ""
 
 #: APP-MANAGER:2229
 msgid "This feature is disabled by your organization"
-msgstr "Ova mogućnost je isključena od strane tvoje organizacije"
+msgstr "Cette fonctionnalité est désactivée par votre organisation"
 
 #: APP-MANAGER:2291
 msgid "NAME"
-msgstr "IME"
+msgstr "NOM"
 
 #: APP-MANAGER:2292
 msgid "VERSION"
-msgstr "VERZIJA"
+msgstr "VERSION"
 
 #: APP-MANAGER:2293
 msgid "SYNOPSIS"
-msgstr "PREGLED"
+msgstr "SYNOPSIS"
 
 #: APP-MANAGER:2294
 msgid ""
 "DESCRIPTION: A command line utility to install and manage AppImages and "
 "other portable programs for GNU/Linux thanks to its AUR-inspired database."
 msgstr ""
-"OPIS: Komandni program za instaliranje i upravljanje AppImage-ova i ostalih "
-"portabilnih programa za GNU/Linux zahvaljujući AUR-inspirisanoj bazi "
-"podataka."
+"DESCRIPTION : Un utilitaire en ligne de commande pour installer et gérer des "
+"AppImages et d'autres programmes portables pour GNU/Linux grâce à sa base de "
+"données inspirée de l'AUR."
 
 #: APP-MANAGER:2295
 msgid "OPTION"
-msgstr "OPCIJA"
+msgstr "OPTION"
 
 #: APP-MANAGER:2296
 msgid "OPTIONS"
-msgstr "OPCIJE"
+msgstr "OPTIONS"
 
 #: APP-MANAGER:2297
 msgid "THIRD-PARTY FLAGS"
-msgstr "OPCIJE TREĆE STRANE"
+msgstr "DRAPEAUX TIERS"
 
 #: APP-MANAGER:2298
 msgid "Third-party databases"
-msgstr "Baze podataka treće strane"
+msgstr "Bases de données tierces"
 
 #: APP-MANAGER:2299
 msgid "SITES"
-msgstr "SAJTOVI"
+msgstr "SITES"
 
 #: APP-MANAGER:2302
 msgid "Description: Shows more info about one or more apps."
-msgstr "Opis: Prikazuje više informacija o jednoj ili više aplikacija."
+msgstr ""
+"Description : Affiche plus d'informations sur une ou plusieurs applications."
 
 #: APP-MANAGER:2303
 msgid ""
@@ -810,19 +849,21 @@ msgid ""
 "file named \\\"ghapikey.txt\\\" will be saved in $AMDATADIR. Use \\\"del\\\" "
 "to remove it."
 msgstr ""
-"Opis: Pristupi GitHub API-ju koristeći tvoj lični pristupni token (PAT). "
-"Fajl po imenu \\\"ghapikey.txt\\\" će biti sačuvan u $AMDATADIR. Koristi \\"
-"\"del\\\" da ga obrišeš."
+"Description : Accédez aux API GitHub en utilisant vos jetons d'accès "
+"personnels. Le fichier nommé \\\"ghapikey.txt\\\" sera enregistré dans "
+"$AMDATADIR. Utilisez \\\"del\\\" pour le supprimer."
 
 #: APP-MANAGER:2304
 msgid ""
 "Description: Create a snapshot of the current version of an installed "
 "program."
-msgstr "Opis: Napravi rezervnu kopiju trenutne verzije instaliranog programa."
+msgstr ""
+"Description : Crée un instantané de la version actuelle d'un programme "
+"installé."
 
 #: APP-MANAGER:2305
 msgid "Description: Removes all the unnecessary files and folders."
-msgstr "Opis: Briše sve nepotrebne fajlove i foldere."
+msgstr "Description : Supprime tous les fichiers et dossiers inutiles."
 
 #: APP-MANAGER:2306
 msgid ""
@@ -837,27 +878,31 @@ msgid ""
 "\t\t\tYou can also set the path to a custom file by exporting the \\"
 "$CLONE_FILE variable."
 msgstr ""
-"Opis: Kloniraj listu instaliranih aplikacija u \\\"am-clone.source\\\" fajl, "
-"ili pretraži postojeći fajl na računaru (prioritet), u $HOME, ili kroz ceo "
-"sistem i uklonjive uređaje. Dodaj \\\"-i\\\" ili \\\"install\\\" ako želiš "
-"da instaliraš ili dodaš te aplikacije u novu konfiguraciju, da ih podeliš sa "
-"ostalima na drugim računarima i konfiguracijama. Dodaj \\\"--system\\\" ili "
-"\\\"--user\\\" opciju ako želiš da sve te aplikacije budu instalirane "
-"sistemski ili lokalno u skladu sa odabranom opcijom.\n"
+"Description : Clone la liste des applications installées dans un fichier \\"
+"\"am-clone.source\\\", ou recherche un fichier existant sur le bureau "
+"(priorité), dans $HOME, ou sur l'ensemble du système et les périphériques "
+"amovibles. Ajoutez \\\"-i\\\" ou \\\"install\\\" si vous souhaitez installer "
+"ou ajouter les applications listées à une nouvelle configuration, pour la "
+"partager avec n'importe qui sur d'autres PC et configurations. Ajoutez le "
+"drapeau \\\"--system\\\" ou \\\"--user\\\" si vous souhaitez que toutes les "
+"applications listées soient installées respectivement pour tout le système "
+"ou localement.\n"
 "\n"
-"\t\t\tTakođe možeš da podesiš putanju do clone fajla tako što izvezeš \\"
-"$CLONE_FILE varijablu."
+"\t\t\tVous pouvez également définir le chemin vers un fichier personnalisé "
+"en exportant la variable \\$CLONE_FILE."
 
 #: APP-MANAGER:2309
 msgid ""
 "Description: Set a dedicated \\$XDG_CONFIG_HOME for one or more AppImages."
 msgstr ""
-"Opis: Podesi poseban \\$XDG_CONFIG_HOME direktorijum za jedan ili više "
-"AppImage-ova."
+"Description : Définit un \\$XDG_CONFIG_HOME dédié pour un ou plusieurs "
+"AppImages."
 
 #: APP-MANAGER:2310
 msgid "Description: Download an older or specific app version."
-msgstr "Opis: Preuzmi stariju ili specifičnu verziju aplikacije."
+msgstr ""
+"Description : Télécharge une version ancienne ou spécifique d'une "
+"application."
 
 #: APP-MANAGER:2311
 msgid ""
@@ -867,11 +912,12 @@ msgid ""
 "of the script and run the \\\"$AMCLI -i ./script\\\" command, even using "
 "dedicated flags, if necessary (see \\\"-i\\\")."
 msgstr ""
-"Opis: Preuzmi jednu ili više instalacijsku skriptu na tvoj računar i "
-"pretvori ih u lokalni instaler za \\\"AppMan\\\". Kako bi testirao skripte, "
-"koristi komandu \\\"$AMCLI -i '/putanja/do/skripte'\\\" ili unesi "
-"direktorijum skripte i pokreni \\\"$AMCLI -i ./script\\\" komandu, koristeći "
-"posebne opcije ako je potrebno (vidi \\\"-i\\\")."
+"Description : Télécharge un ou plusieurs scripts d'installation sur votre "
+"bureau ou les convertit en installateurs locaux pour \\\"AppMan\\\". Pour "
+"tester les scripts, utilisez la commande \\\"$AMCLI -i '/chemin/vers/"
+"script'\\\" ou entrez dans le répertoire du script et exécutez la commande \\"
+"\"$AMCLI -i ./script\\\", en utilisant même des drapeaux dédiés si "
+"nécessaire (voir \\\"-i\\\")."
 
 #: APP-MANAGER:2312
 msgid ""
@@ -881,12 +927,12 @@ msgid ""
 "name to the program so that it can be used from the command line. "
 "Optionally, add an \\\"univoque\\\" keyword if multiple AppImages are listed."
 msgstr ""
-"Opis: Instaliraj AppImage-ove sa github.com, van baze podataka. Dozvoljava "
-"ti da instaliraš, ažuriraš i upravljaš njima kao i sve ostale. Koristi \\"
-"\"korisnik/projekat\\\" sintaksu kako bi se dobio ceo URL za GitHub "
-"repozitorijum, a zatim unesi ime programa koje bi se koristilo sa terminala. "
-"Opciono, dodaj neku unikatnu reč na ime programa ako je AppImage sa istim "
-"imenom već instaliran."
+"Description : Installe des AppImages depuis github.com, en dehors de la base "
+"de données. Cela vous permet de les installer, de les mettre à jour et de "
+"les gérer tous comme les autres. Où \\\"utilisateur/projet\\\" peut être "
+"l'URL complète du dépôt GitHub, donnez un nom au programme afin qu'il puisse "
+"être utilisé depuis la ligne de commande. Facultativement, ajoutez un mot-"
+"clé \\\"unique\\\" si plusieurs AppImages sont listées."
 
 #: APP-MANAGER:2313
 msgid ""
@@ -896,38 +942,39 @@ msgid ""
 "\\\"-fi\\\" only shows installed apps, not the AppImages integrated with the "
 "\\\"--launcher\\\" option."
 msgstr ""
-"Opis: Prikazuje listu svih instaliranih programa, sa veličinama. Fabrički su "
-"aplikacije sortirane po veličini, koristi \\\"--byname\\\" kako bi ih "
-"sortirao po imenu. Sa opcijom \\\"--less\\\", prikazuje samo broj "
-"instaliranih aplikacija. Opcija \\\"-fi\\\" samo prikazuje instalirane "
-"aplikacije sa baze podataka, ali ne i AppImage-ove integrisane sa \\\"--"
-"launcher\\\" opcijom."
+"Description : Affiche la liste de tous les programmes installés, avec leurs "
+"tailles. Par défaut, les applications sont triées par taille, utilisez \\\"--"
+"byname\\\" pour trier par nom. Avec l'option \\\"--less\\\", affiche "
+"uniquement le nombre d'applications installées. L'option \\\"-fi\\\" "
+"n'affiche que les applications installées, et non les AppImages intégrés "
+"avec l'option \\\"--launcher\\\"."
 
 #: APP-MANAGER:2314
 msgid "Description: Prints this message."
-msgstr "Opis: Prikazuje ovu poruku."
+msgstr "Description : Affiche ce message."
 
 #: APP-MANAGER:2315
 msgid ""
 "Description: Prevents an installed application from being shown or managed "
 "by \\\"$AMCLI\\\"."
 msgstr ""
-"Opis: Sprečava instaliranu aplikaciju da se prikazuje ili upravlja od strane "
+"Description : Empêche une application installée d'être affichée ou gérée par "
 "\\\"$AMCLI\\\"."
 
 #: APP-MANAGER:2316
 msgid ""
 "Description: Set a dedicated \\$HOME directory for one or more AppImages."
 msgstr ""
-"Opis: Podesi poseban \\$HOME direktorijum za jedan ili više AppImage-ova."
+"Description : Définit un répertoire \\$HOME dédié pour un ou plusieurs "
+"AppImages."
 
 #: APP-MANAGER:2317
 msgid ""
 "Description: Set dedicated \\$HOME and \\$XDG_CONFIG_HOME directories for "
 "one or more AppImages."
 msgstr ""
-"Opis: Postavlja posebne \\$HOME i \\$XDG_CONFIG_HOME direktorijume za jedan "
-"ili više AppImage-ova."
+"Description : Définit des répertoires \\$HOME et \\$XDG_CONFIG_HOME dédiés "
+"pour un ou plusieurs AppImages."
 
 #: APP-MANAGER:2318
 msgid ""
@@ -938,12 +985,13 @@ msgid ""
 "scalable/apps directory. The \\\"--icons\\\" option can be used as \\\"flag\\"
 "\" in the \\\"-i\\\" and \\\"-ia\\\" options."
 msgstr ""
-"Opis: Dozvoli instaliranim aplikacijama da koriste sistemske teme za ikone. "
-"Možeš da navedeš ime aplikacije za dozvolu ili koristi \\\"--all\\\" opciju "
-"da dozvoliš svim aplikacijama. Ovo će da obriše putanju za ikonu u .desktop "
-"fajlu i dodaće simboličnu vezu svih dostupnih ikona u $DATADIR/icons/hicolor/"
-"scalable/apps direktorijumu. Opcija \\\"--icons\\\" može da se koristi kao "
-"opcija za \\\"-i\\\" i \\\"-ia\\\" opcije."
+"Description : Permet aux applications installées d'utiliser les thèmes "
+"d'icônes du système. Vous pouvez spécifier le nom des applications à "
+"modifier ou utiliser le drapeau \\\"--all\\\" pour les modifier toutes à la "
+"fois. Cela supprimera le chemin de l'icône du fichier .desktop et ajoutera "
+"le lien symbolique de toutes les icônes disponibles dans le répertoire "
+"$DATADIR/icons/hicolor/scalable/apps. L'option \\\"--icons\\\" peut être "
+"utilisée comme \\\"drapeau\\\" dans les options \\\"-i\\\" et \\\"-ia\\\"."
 
 #: APP-MANAGER:2319
 msgid ""
@@ -955,13 +1003,14 @@ msgid ""
 "also be extended with additional flags (see third-party flags, at the bottom "
 "of this message)."
 msgstr ""
-"Opis: Instaliraj jedan ili više programa ili biblioteka sa liste. Sa \\\"--"
-"debug\\\" opcijom možeš da vidiš log poruke kako bi otklonio greške sa "
-"skripte. Za više detalja o \\\"--force-latest\\\", vidi posebnu opciju "
-"ispod. Koristi \\\"--icons\\\" opciju da dozvoliš programu da koristi temu "
-"za ikone. Opcija \\\"--sandbox\\\" ti dozvoljava da podesiš sandbox za "
-"AppImage programe. Takođe postoje i dodatne opcije (vidi opcije treće strane "
-"na dnu ove poruke)."
+"Description : Installe un ou plusieurs programmes ou bibliothèques à partir "
+"de la liste. Avec l'option \\\"--debug\\\", vous pouvez voir les messages de "
+"journal pour déboguer le script. Pour plus de détails sur \\\"--force-"
+"latest\\\", voir l'option dédiée ci-dessous. Utilisez le drapeau \\\"--"
+"icons\\\" pour permettre au programme d'utiliser des thèmes d'icônes. Le "
+"drapeau \\\"--sandbox\\\" vous permet de définir des bacs à sable pour les "
+"packages AppImage. Il peut également être étendu avec des drapeaux "
+"supplémentaires (voir les drapeaux tiers, en bas de ce message)."
 
 #: APP-MANAGER:2320
 msgid ""
@@ -969,10 +1018,10 @@ msgid ""
 "Option \\\"-ias\\\" (aka Install AppImage & Sandbox) is equivalent to \\\"-"
 "ia --sandbox\\\", to set sandboxes for AppImage packages."
 msgstr ""
-"Opis: Isto kao \\\"install\\\" (vidi iznad), ali samo za AppImage-ove. "
-"Opcija \\\"-ias\\\" (takođe poznata i kao Instaliraj AppImage i Sandbox-uj) "
-"je jednaka opciji \\\"-ia --sandbox\\\" za podešavanje sandbox-a za AppImage "
-"programe."
+"Description : Identique à \\\"install\\\" (voir ci-dessus) mais uniquement "
+"pour les AppImages. L'option \\\"-ias\\\" (aussi appelée Install AppImage & "
+"Sandbox) est équivalente à \\\"-ia --sandbox\\\", pour définir des bacs à "
+"sable pour les packages AppImage."
 
 #: APP-MANAGER:2321
 msgid ""
@@ -983,19 +1032,22 @@ msgid ""
 "all supported third-party databases. It can also be extended with additional "
 "flags (see third-party flags, at the bottom of this message)."
 msgstr ""
-"Opis: Prikaži listu svih dostupnih programa. Bez ikakvih opcija prikazuje "
-"aplikacije iz \\\"AM\\\" baze podataka. Dodaj \\\"--appimages\\\" kako bi "
-"prikazao AppImage-ove ili \\\"--portable\\\" kako bi prikazao ostale formate "
-"iz \\\"AM\\\" baze podataka. Opcija \\\"--all\\\" prikazuje listu iz svih "
-"podržanih baza podataka, uključujući i treću stranu. Takođe postoje i "
-"dodatne opcije (vidi opcije treće strane na dnu ove poruke)."
+"Description : Affiche la liste de toutes les applications disponibles. Sans "
+"drapeaux, elle n'affiche que les applications de la base de données \\\"AM\\"
+"\", ajoutez \\\"--appimages\\\" pour n'afficher que les AppImages ou \\\"--"
+"portable\\\" pour afficher d'autres formats de la base de données \\\"AM\\"
+"\". Le drapeau \\\"--all\\\" vous permet de consulter l'ensemble de toutes "
+"les bases de données tierces prises en charge. Il peut également être étendu "
+"avec des drapeaux supplémentaires (voir les drapeaux tiers, en bas de ce "
+"message)."
 
 #: APP-MANAGER:2322
 msgid ""
 "Description: Prevent an application being updated, if it has an\\\"AM-"
 "updater\\\" script."
 msgstr ""
-"Opis: Spreči ažuriranje aplikacije, ako ima \\\"AM-updater\\\" skriptu."
+"Description : Empêche la mise à jour d'une application si elle dispose d'un "
+"script \\\"AM-updater\\\"."
 
 #: APP-MANAGER:2323
 msgid ""
@@ -1006,28 +1058,28 @@ msgid ""
 "\" to remove all 3rd party repos. Use \\\"info\\\" to see the source from "
 "where installation scripts and lists are taken."
 msgstr ""
-"Opis: Kako bi podesio novi repozitorijum, koristi \\\"add\\\" da dodaš "
-"putanju lokalnog direktorijuma ili onlajn URL-a, zatim koristi \\\"select\\"
-"\" kako bi ga podesio kao podrazumevanog. Nakon toga ćeš biti obavešten o "
-"korišćenju novog repozitorijuma kao podrazumevanog umesto fabričkog. Koristi "
-"\\\"on\\\"/\\\"off\\\" da ga uključiš/isključiš. Koristi \\\"purge\\\" da "
-"obrišeš sve repozitorijume treće strane. Koristi \\\"info\\\" da vidiš izvor "
-"odakle su instalacijske skripte i liste preuzete."
+"Description : Définit un nouveau dépôt par défaut, utilisez \\\"add\\\" pour "
+"ajouter le chemin vers un répertoire local ou une URL en ligne, puis "
+"utilisez \\\"select\\\" pour l'utiliser par défaut, un message vous avertira "
+"de l'utilisation de ce dépôt au lieu de celui par défaut. Utilisez \\\"on\\"
+"\"/\\\"off\\\" pour l'activer/désactiver. Utilisez \\\"purge\\\" pour "
+"supprimer tous les dépôts tiers. Utilisez \\\"info\\\" pour voir la source "
+"d'où sont tirés les scripts et les listes d'installation."
 
 #: APP-MANAGER:2324
 msgid ""
 "Description: Convert old AppImages and get rid of \\\"libfuse2\\\" "
 "dependence."
 msgstr ""
-"Opis: Pretvori stare AppImage-ove i ukloni zavisnost od \\\"libfuse2\\\" "
-"biblioteke."
+"Description : Convertit les anciens AppImages et se débarrasse de la "
+"dépendance à \\\"libfuse2\\\"."
 
 #: APP-MANAGER:2325
 msgid ""
 "Description: Overwrite apps with snapshots saved previously (see \\\"-b\\\")."
 msgstr ""
-"Opis: Zameni aplikacije sa prethodno sačuvanim rezervnim kopijama (vidi \\\"-"
-"b\\\")"
+"Description : Écrase les applications avec des instantanés enregistrés "
+"précédemment (voir \\\"-b\\\")."
 
 #: APP-MANAGER:2326
 msgid ""
@@ -1037,11 +1089,12 @@ msgid ""
 "multiple programs at once. The \\\"--all\\\" flag allows you to consult the "
 "set of all supported databases."
 msgstr ""
-"Opis: Pretraži ključne reči u listi dostupnih aplikacija. Dodaj \\\"--"
-"appimages\\\" opciju da vidiš isključivo AppImage-ove, \\\"--portable\\\" "
-"opciju da vidiš isključivo portabilne aplikacije ili dodaj \\\"--pkg\\\" da "
-"vidiš više tipova programa u isto vreme. Opcija \\\"--all\\\" prikazuje "
-"rezultate iz svih podržanih baza podataka."
+"Description : Recherche des mots-clés dans la liste des applications "
+"disponibles, ajoutez l'option \\\"--appimages\\\" pour lister uniquement les "
+"AppImages, l'option \\\"--portable\\\" pour lister uniquement les "
+"applications portables ou ajoutez \\\"--pkg\\\" pour lister plusieurs "
+"programmes à la fois. Le drapeau \\\"--all\\\" vous permet de consulter "
+"l'ensemble de toutes les bases de données prises en charge."
 
 #: APP-MANAGER:2327
 msgid ""
@@ -1053,25 +1106,29 @@ msgid ""
 "with the \\\"-e\\\" option and custom scripts created with the \\\"-t\\\" "
 "option are not supported."
 msgstr ""
-"Opis: Reinstaliraj isključivo one programe kod kojih se instalacijska "
-"skripta izmenila u AM onlajn bazi podataka. Koristi opciju \\\"--all\\\" da "
-"reinstaliraš sve.\n"
+"Description : Réinstalle uniquement les programmes dont le script "
+"d'installation a été modifié dans la base de données en ligne d'AM. Utilisez "
+"le drapeau \\\"--all\\\" pour réinstaller tout le contenu à la place.\n"
 "\n"
-"\t\t\tNAPOMENA, ovo radi isključivo sa \\\"AM\\\" bazom podataka. Aplikacije "
-"instalirane sa opcijom \\\"-e\\\" i ručne skripte napravljene sa opcijom \\"
-"\"-t\\\" nisu podržane."
+"\t\t\tREMARQUE, cela fonctionne uniquement avec la base de données \\\"AM\\"
+"\". Les applications installées avec l'option \\\"-e\\\" et les scripts "
+"personnalisés créés avec l'option \\\"-t\\\" ne sont pas pris en charge."
 
 #: APP-MANAGER:2330
 msgid "Description: Remove and reinstall local/AppMan apps to a new location."
-msgstr "Opis: Obriši i reinstaliraj lokalne/AppMan aplikacije u novu lokaciju."
+msgstr ""
+"Description : Supprime et réinstalle les applications locales/AppMan vers un "
+"nouvel emplacement."
 
 #: APP-MANAGER:2331
 msgid "Description: Removes one or more apps, requires confirmation."
-msgstr "Opis: Briše jednu ili više aplikacija, zahteva potvrdu."
+msgstr ""
+"Description : Supprime une ou plusieurs applications, nécessite une "
+"confirmation."
 
 #: APP-MANAGER:2332
 msgid "Description: Removes one or more apps without asking."
-msgstr "Opis: Briše jednu ili više aplikacija bez potvrde."
+msgstr "Description : Supprime une ou plusieurs applications sans demander."
 
 #: APP-MANAGER:2333
 msgid ""
@@ -1081,15 +1138,15 @@ msgid ""
 "ia\\\" or can be replaced using the option \\\"-ias\\\" (aka Install "
 "AppImage & Sandbox)."
 msgstr ""
-"Opis: Pokreni AppImage u sandbox-u.\n"
+"Description : Exécute un AppImage dans un bac à sable.\n"
 "\n"
-"\t\t\tNAPOMENA, \\\"--sandbox\\\" može da se koristi kao opcija u \\\"-i\\\" "
-"i \\\"-ia\\\" ili može da se koristi opcija \\\"-ias\\\" (takođe poznata i "
-"kao Instaliraj AppImage i Sandbox-uj)"
+"\t\t\tREMARQUE, \\\"--sandbox\\\" peut être utilisé comme un drapeau dans \\"
+"\"-i\\\" et \\\"-ia\\\" ou peut être remplacé en utilisant l'option \\\"-"
+"ias\\\" (aussi appelée Install AppImage & Sandbox)."
 
 #: APP-MANAGER:2336
 msgid "Description: Updates this script to the latest version hosted."
-msgstr "Opis: Ažurira ovu skriptu na poslednju verziju."
+msgstr "Description : Met à jour ce script vers la dernière version hébergée."
 
 #: APP-MANAGER:2337
 msgid ""
@@ -1098,10 +1155,11 @@ msgid ""
 "the script and run the \\\"$AMCLI -i ./script\\\" command, even using "
 "dedicated flags, if necessary (see \\\"-i\\\")."
 msgstr ""
-"Opis: Generiši ručnu instalacijsku skriptu. Kako bi testirao skripte, "
-"koristi komandu \\\"$AMCLI -i '/path/to/script'\\\" ili unesi direktorijum "
-"skripte i pokreni komandu \\\"$AMCLI -i ./script\\\", koristeći posebne "
-"opcije ako je to potrebno (vidi \\\"-i\\\")."
+"Description : Génère un script d'installation personnalisé. Pour tester les "
+"scripts, utilisez la commande \\\"$AMCLI -i '/chemin/vers/script'\\\" ou "
+"entrez dans le répertoire du script et exécutez la commande \\\"$AMCLI -i ./"
+"script\\\", en utilisant même des drapeaux dédiés si nécessaire (voir \\\"-"
+"i\\\")."
 
 #: APP-MANAGER:2338
 msgid ""
@@ -1111,25 +1169,26 @@ msgid ""
 "source files needed to submit new translations or to improve the existing "
 "ones."
 msgstr ""
-"Opis: Preuzmi i podesi jedan ili više skup jezika (ako je dostupno). Podesi "
-"\\\"$AMCLI\\\" na engleski jezik (podrazumevano), tvoj jezik ili ostale "
-"jezike.\\n\\nPoseti https://github.com/pkgforge-community/AM-HF-SYNC/tree/$AMBRANCH/"
-"translations kako bi preuzeo izvorne fajlove potrebne za podnošenje novih "
-"prevoda ili poboljšavanje postojećih."
+"Description : Télécharge et définit un ou plusieurs packs de langues (si "
+"disponibles), définit \\\"$AMCLI\\\" en anglais (par défaut), votre langue "
+"ou d'autres langues.\\n\\nVisitez https://github.com/pkgforge-community/AM-HF-SYNC/tree/"
+"$AMBRANCH/translations pour obtenir les fichiers source nécessaires pour "
+"soumettre de nouvelles traductions ou améliorer celles existantes."
 
 #: APP-MANAGER:2339
 msgid ""
 "Description: Allow a hidden app to be shown and managed again (nulls \\"
 "\"hide\\\")."
 msgstr ""
-"Opis: Dozvoli skrivenoj aplikaciji da bude prikazana i upravljana ponovo "
-"(anulira \\\"hide\\\")."
+"Description : Permet à une application masquée d'être affichée et gérée à "
+"nouveau (annule \\\"hide\\\")."
 
 #: APP-MANAGER:2340
 msgid ""
 "Description: Unlock updates for the selected program (nulls \\\"lock\\\")."
 msgstr ""
-"Opis: Otključaj ažuriranja za odabarani program (anulira \\\"lock\\\")."
+"Description : Déverrouille les mises à jour pour le programme sélectionné "
+"(annule \\\"lock\\\")."
 
 #: APP-MANAGER:2341
 msgid ""
@@ -1139,48 +1198,51 @@ msgid ""
 "launcher\\\" flag to try to update only local AppImages integrated with the "
 "\\\"--launcher\\\" option (see \\\"--launcher\\\")."
 msgstr ""
-"Opis: Ažuriraj sve. Dodaj \\\"--apps\\\" da ažuriraš isključivo aplikacije "
-"ili unesi ime aplikacija za njihovo zasebno ažuriranje. Dodaj opciju \\\"--"
-"debug\\\" da uvidiš dodatne poruke AM-updater skripti. Dodaj opciju \\\"--"
-"launcher\\\" kako bi pokušao da ažuriraš isključivo lokalne AppImage-ove "
-"integrisane sa opcijom \\\"--launcher\\\" (vidi \\\"--launcher\\\")."
+"Description : Met tout à jour. Ajoutez \\\"--apps\\\" pour mettre à jour "
+"uniquement les applications ou écrivez uniquement les applications que vous "
+"souhaitez mettre à jour en ajoutant leurs noms. Ajoutez le drapeau \\\"--"
+"debug\\\" pour voir la sortie des scripts AM-updater. Ajoutez le drapeau \\"
+"\"--launcher\\\" pour essayer de mettre à jour uniquement les AppImages "
+"locaux intégrés avec l'option \\\"--launcher\\\" (voir \\\"--launcher\\\")."
 
 #: APP-MANAGER:2342
 msgid "Description: Shows the version."
-msgstr "Opis: Prikazuje verziju."
+msgstr "Description : Affiche la version."
 
 #: APP-MANAGER:2343
 msgid "Description: Undo \\\"--devmode-enable\\\" (see below)."
-msgstr "Opis: Anulira \\\"--devmode-enable\\\" (vidi ispod)."
+msgstr "Description : Annule \\\"--devmode-enable\\\" (voir ci-dessous)."
 
 #: APP-MANAGER:2344
 msgid "Description: Use the development branch (at your own risk)."
 msgstr ""
-"Opis: Koristi programersku brašu - programerski režim (na sopstvenu "
-"odgovornost)"
+"Description : Utilise la branche de développement (à vos propres risques)."
 
 #: APP-MANAGER:2345
 msgid "Description: Disable notifications during apps update."
-msgstr "Opis: Isključi obaveštenja prilikom ažuriranja aplikacija."
+msgstr ""
+"Description : Désactive les notifications pendant la mise à jour des "
+"applications."
 
 #: APP-MANAGER:2346
 msgid "Description: Disable the sandbox for the selected app."
-msgstr "Opis: Isključi sandbox za odabranu aplikaciju."
+msgstr ""
+"Description : Désactive le bac à sable pour l'application sélectionnée."
 
 #: APP-MANAGER:2347
 msgid ""
 "Description: Enable notifications during apps update (nulls \\\"--disable-"
 "notifications\\\")."
 msgstr ""
-"Opis: Uključi obaveštenja prilikom ažuriranja aplikacija (anulira \\\"--"
-"disable-notifications\\\")."
+"Description : Active les notifications pendant la mise à jour des "
+"applications (annule \\\"--disable-notifications\\\")."
 
 #: APP-MANAGER:2348
 msgid ""
 "Description: Downgrades an installed app from pre-release to \\\"latest\\\"."
 msgstr ""
-"Opis: Smanjuje verziju instalirane aplikacije iz pre-release u \\\"latest\\"
-"\"."
+"Description : Rétrograde une application installée de la pré-version vers \\"
+"\"latest\\\"."
 
 #: APP-MANAGER:2349
 msgid ""
@@ -1193,22 +1255,24 @@ msgid ""
 "This flag does not work miracles, I strongly suggest to use options \\\"-ia\\"
 "\" and \\\"-e\\\" instead."
 msgstr ""
-"Opis: Drag/drop-uj jedan ili više AppImage-ova u terminal i ugradi ih u "
-"aplikacijski meni i prilagodi komandu za korišćenje u terminalu.\n"
+"Description : Glissez-déposez un ou plusieurs AppImages dans le terminal et "
+"intégrez-les dans le menu des applications et personnalisez une commande à "
+"utiliser depuis la CLI.\n"
 "\n"
-"\t\t\tNAPOMENA da \\\"--launcher\\\" može da se koristi kao opcija u \\\"-u\\"
-"\" radi ažuriranja integrisanih AppImage-ova (vidi \\\"-u\\\"). Ovo radi "
-"isključivo ako je \\\"appimageupdatetool\\\" instaliran i ako su delta "
-"ažuriranja podržana. Ova opcija ne čini čuda, te strogo preporučujem da se "
-"umesto ovoga koriste opcije \\\"-ia\\\" i \\\"-e\\\"."
+"\t\t\tREMARQUEZ que \\\"--launcher\\\" peut être utilisé comme un drapeau "
+"dans \\\"-u\\\" pour essayer de mettre à jour les AppImages intégrés (voir \\"
+"\"-u\\\"). Cela ne fonctionne que si \\\"appimageupdatetool\\\" est installé "
+"et que les mises à jour delta sont prises en charge. Ce drapeau ne fait pas "
+"de miracle, je suggère fortement d'utiliser les options \\\"-ia\\\" et \\\"-"
+"e\\\" à la place."
 
 #: APP-MANAGER:2352
 msgid ""
-"Description: Switch \\\"AM\\\" back to \\\"AM\\\" from \\\"AppMan Mode\\"
-"\" (see \\\"--user\\\")."
+"Description: Switch \\\"AM\\\" back to \\\"AM\\\" from \\\"AppMan Mode\\\" "
+"(see \\\"--user\\\")."
 msgstr ""
-"Opis: Vrati \\\"AM\\\" nazad u sistemski \\\"AM režim\\\" iz lokalnog \\"
-"\"AppMan režima\\\" (vidi \\\"--user\\\")."
+"Description : Bascule \\\"AM\\\" de nouveau vers \\\"AM\\\" depuis le \\"
+"\"Mode AppMan\\\" (voir \\\"--user\\\")."
 
 #: APP-MANAGER:2353
 msgid ""
@@ -1221,544 +1285,568 @@ msgid ""
 "\t\t\t- Use it to install applications locally, option \\\"-i\\\" or \\"
 "\"install\\\":"
 msgstr ""
-"Opis: Učini da \\\"AM\\\" bude pokrenut u lokalnom \\\"AppMan Režimu\\\", "
-"korisno za neprivilegovane korisnike. Ova opcija radi isključivo sa \\\"AM\\"
-"\".\n"
+"Description : Fait fonctionner \\\"AM\\\" en \\\"Mode AppMan\\\", "
+"localement, utile pour les utilisateurs non privilégiés. Cette option ne "
+"fonctionne qu'avec \\\"AM\\\".\n"
 "\n"
-"\t\t\tOpcija \\\"--user\\\" takođe može da se koristi kao opcija za "
-"instalacije. Na primer:\n"
+"\t\t\tL'option \\\"--user\\\" peut également être utilisée simplement comme "
+"un drapeau pour les options d'installation. Par exemple :\n"
 "\n"
-"\t\t\t- Za instaliranje aplikacija lokalno, koristi opciju \\\"-i\\\" ili \\"
-"\"install\\\":"
+"\t\t\t- Utilisez-la pour installer des applications localement, option \\\"-"
+"i\\\" ou \\\"install\\\" :"
 
 #: APP-MANAGER:2358
 msgid "- Also suboptions of \\\"-i\\\" can work with this flag:"
-msgstr "- Takođe podopcije od \\\"-i\\\" mogu da rade sa ovom opcijom:"
+msgstr ""
+"- De plus, les sous-options de \\\"-i\\\" peuvent fonctionner avec ce "
+"drapeau :"
 
 #: APP-MANAGER:2359
 msgid ""
 "- Same for AppImages only, option \\\"-ia\\\" or \\\"install-appimage\\\":"
 msgstr ""
-"- Isto za isključivo AppImage-ove, opcija \\\"-ia\\\" ili \\\"install-"
-"appimage\\\":"
+"- De même pour les AppImages uniquement, option \\\"-ia\\\" ou \\\"install-"
+"appimage\\\" :"
 
 #: APP-MANAGER:2360
 msgid ""
 "- External AppImages can be installed like this as well, option \\\"-e\\\" "
 "or \\\"extra\\\":"
 msgstr ""
-"- Eksterni AppImage-ovi takođe mogu da budu instalirani na ovakav način, "
-"opcija \\\"-e\\\" ili \\\"extra\\\":"
+"- Les AppImages externes peuvent également être installés comme ceci, option "
+"\\\"-e\\\" ou \\\"extra\\\" :"
 
 #: APP-MANAGER:2361
 msgid ""
 "NOTE, \\\"AM\\\" 9 or higher is also able to update and manage apps locally, "
 "by default, and without having to switch to \\\"AppMan Mode\\\"."
 msgstr ""
-"NAPOMENA, \\\"AM\\\" verzija 9 ili više je takođe sposoban da ažurira i "
-"upravlja aplikacijama lokalno bez potrebe da se menja u \\\"AppMan Režim\\\"."
+"REMARQUE, \\\"AM\\\" 9 ou supérieur est également capable de mettre à jour "
+"et de gérer des applications localement, par défaut, et sans avoir à "
+"basculer vers le \\\"Mode AppMan\\\"."
 
 #: APP-MANAGER:2728
 msgid ""
 "ERROR: unknown option \\\"$1\\\", run the \\\"$AMCLI -h\\\" command to find "
 "out more"
 msgstr ""
-"GREŠKA: nepoznata opcija \\\"$1\\\", pokreni \\\"$AMCLI -h\\\" komandu da "
-"saznaš više"
+"ERREUR : option inconnue \\\"$1\\\", exécutez la commande \\\"$AMCLI -h\\\" "
+"pour en savoir plus"
 
 #: modules/database.am:67 modules/database.am:69 modules/database.am:159
 msgid " STATUS: %b\\n"
-msgstr " STATUS: %b\\n"
+msgstr " ÉTAT : %b\\n"
 
 #: modules/database.am:104
 msgid "\\nAvailable families: %b\\n"
-msgstr "\\nDostupne arhitekture: %b\\n"
+msgstr "\\nFamilles disponibles : %b\\n"
 
 #: modules/database.am:106
 msgid "\\nBinary info: %b\\n"
-msgstr "\\nInfo o binaru: %b\\n"
+msgstr "\\nInfo binaire : %b\\n"
 
 #: modules/database.am:124
 msgid "\\nAvailable in an third-party database (requires an extension).\\n"
-msgstr "\\nDostupno u bazi podataka treće strane (zahteva ekstenziju).\\n"
+msgstr ""
+"\\nDisponible dans une base de données tierce (nécessite une extension).\\n"
 
 #: modules/database.am:152
 msgid " Disk usage: $disk_usage MB"
-msgstr " Korišćenje diska: $disk_usage MB"
+msgstr " Utilisation du disque : $disk_usage Mo"
 
 #: modules/database.am:153
 msgid " Installed version: $app_version"
-msgstr " Instalirana verzija: $app_version"
+msgstr " Version installée : $app_version"
 
 #: modules/database.am:209
 msgid "YOU HAVE INSTALLED $APPSNUMB PROGRAM"
-msgstr "IMAŠ $APPSNUMB INSTALIRAN PROGRAM"
+msgstr "VOUS AVEZ INSTALLÉ $APPSNUMB PROGRAMME"
 
 #: modules/database.am:211
 msgid "YOU HAVE INSTALLED $APPSNUMB PROGRAMS"
-msgstr "IMAŠ $APPSNUMB INSTALIRANIH PROGRAMA"
+msgstr "VOUS AVEZ INSTALLÉ $APPSNUMB PROGRAMMES"
 
 #: modules/database.am:216
 msgid "AND $LIBNUMB LIBRARY"
-msgstr "I $LIBNUMB BIBLIOTEKU"
+msgstr "ET $LIBNUMB BIBLIOTHÈQUE"
 
 #: modules/database.am:218
 msgid "AND $LIBNUMB LIBRARIES"
-msgstr "I $LIBNUMB BIBLIOTEKA"
+msgstr "ET $LIBNUMB BIBLIOTHÈQUES"
 
 #: modules/database.am:220
 msgid " $APPSMESSAGE $LIBSMESSAGE LOCALLY, AS \\\"APPMAN\\\""
-msgstr " $APPSMESSAGE $LIBSMESSAGE LOKALNO, KAO \\\"APPMAN\\\""
+msgstr " $APPSMESSAGE $LIBSMESSAGE LOCALEMENT, EN TANT QUE \\\"APPMAN\\\""
 
 #: modules/database.am:220
 msgid " $APPSMESSAGE $LIBSMESSAGE MANAGED BY \\\"$AMCLIUPPER\\\""
-msgstr " $APPSMESSAGE $LIBSMESSAGE UPRAVLJANIH OD STRANE \\\"$AMCLIUPPER\\\""
+msgstr " $APPSMESSAGE $LIBSMESSAGE GÉRÉS PAR \\\"$AMCLIUPPER\\\""
 
 #: modules/database.am:222
 msgid " $APPSMESSAGE LOCALLY, AS \\\"APPMAN\\\""
-msgstr " $APPSMESSAGE LOKALNO, KAO \\\"APPMAN\\\""
+msgstr " $APPSMESSAGE LOCALEMENT, EN TANT QUE \\\"APPMAN\\\""
 
 #: modules/database.am:222
 msgid " $APPSMESSAGE MANAGED BY \\\"$AMCLIUPPER\\\""
-msgstr " $APPSMESSAGE UPRAVLJANIH OD STRANE \\\"$AMCLIUPPER\\\""
+msgstr " $APPSMESSAGE GÉRÉS PAR \\\"$AMCLIUPPER\\\""
 
 #: modules/database.am:242
 msgid " ◆ $arg\t|\tstatic-binary"
-msgstr " ◆ $arg\t|\tstatičan-binar"
+msgstr " ◆ $arg\t|\tbinaire-statique"
 
 #: modules/database.am:244
 msgid " ◆ $arg\t|\tdynamic-binary"
-msgstr " ◆ $arg\t|\tdinamičan-binar"
+msgstr " ◆ $arg\t|\tbinaire-dynamique"
 
 #: modules/database.am:252
 msgid " ◆ $arg\t|\tbash-script"
-msgstr " ◆ $arg\t|\tbash-skripta"
+msgstr " ◆ $arg\t|\tscript-bash"
 
 #: modules/database.am:254
 msgid " ◆ $arg\t|\tdash-script"
-msgstr " ◆ $arg\t|\tdash-skripta"
+msgstr " ◆ $arg\t|\tscript-dash"
 
 #: modules/database.am:256
 msgid " ◆ $arg\t|\tposix-script"
-msgstr " ◆ $arg\t|\tposix-skripta"
+msgstr " ◆ $arg\t|\tscript-posix"
 
 #: modules/database.am:258
 msgid " ◆ $arg\t|\tawk-script"
-msgstr " ◆ $arg\t|\tawk-skripta"
+msgstr " ◆ $arg\t|\tscript-awk"
 
 #: modules/database.am:260
 msgid " ◆ $arg\t|\tscript"
-msgstr " ◆ $arg\t|\tskripta"
+msgstr " ◆ $arg\t|\tscript"
 
 #: modules/database.am:285
 msgid " ◆ $arg\t|\tlibrary"
-msgstr " ◆ $arg\t|\tbiblioteka"
+msgstr " ◆ $arg\t|\tbibliothèque"
 
 #: modules/database.am:288
 msgid " ◆ $arg\t|\tother"
-msgstr " ◆ $arg\t|\tdrugo"
+msgstr " ◆ $arg\t|\tautre"
 
 #: modules/database.am:532
 msgid "- APPNAME | DB | VERSION | TYPE | SIZE "
-msgstr "- APLIKACIJA | DB | VERZIJA | TIP | VELIČINA "
+msgstr "- NOMAPP | BD | VERSION | TYPE | TAILLE "
 
 #: modules/database.am:535
 msgid "- APPNAME | VERSION | TYPE | SIZE "
-msgstr "- APLIKACIJA | VERZIJA | TIP | VELIČINA "
+msgstr "- NOMAPP | VERSION | TYPE | TAILLE "
 
 #: modules/database.am:551
 msgid ""
 " *has dependency to EOL libfuse2 library, please ask the creator to update\\n"
 msgstr ""
-" *ima zavisnost od zastarele libfuse2 biblioteke, molim upitaj kreatora da "
-"ažurira\\n"
+" *a une dépendance à la bibliothèque libfuse2 en fin de vie (EOL), veuillez "
+"demander au créateur de mettre à jour\\n"
 
 #: modules/database.am:578
 msgid ""
 "**the following app may have security vulnerabilities or is outdated: \\n\\n"
 msgstr ""
-"**navedena aplikacija možda ima bezbednosne ranjivosti ili je zastarela: "
-"\\n\\n"
+"**l'application suivante peut présenter des failles de sécurité ou est "
+"obsolète : \\n\\n"
 
 #: modules/database.am:580
 msgid ""
 "**the following apps may have security vulnerabilities or are outdated: "
 "\\n\\n"
 msgstr ""
-"**navedene aplikacije možda imaju bezbednosne ranjivosti ili su zastarele: "
-"\\n\\n"
+"**les applications suivantes peuvent présenter des failles de sécurité ou "
+"sont obsolètes : \\n\\n"
 
 #: modules/database.am:584
 msgid ""
 "\\nPlease report more up-to-date sources, otherwise remove this app and look "
 "for alternatives.\\n\\n"
 msgstr ""
-"\\nMolim da nam javiš za novije izvore, u suprotnom obriši tu aplikaciju i "
-"traži alternative.\\n\\n"
+"\\nVeuillez signaler des sources plus à jour, sinon supprimez cette "
+"application et cherchez des alternatives.\\n\\n"
 
 #: modules/database.am:586
 msgid ""
 "\\nPlease report more up-to-date sources, otherwise remove these apps and "
 "look for alternatives.\\n\\n"
 msgstr ""
-"\\nMolim da nam javiš za novije izvore, u suprotnom obriši te aplikacije i "
-"traži alternative.\\n\\n"
+"\\nVeuillez signaler des sources plus à jour, sinon supprimez ces "
+"applications et cherchez des alternatives.\\n\\n"
 
 #: modules/database.am:594
 msgid ""
 " AppImages with 🔒 are sandboxed with aisap, versions with 🔒 are locked"
 msgstr ""
-" AppImage-ovi sa 🔒 su sandboxovani pomoću aisap, verzije sa 🔒 su zaključane"
+" Les AppImages avec 🔒 sont dans un bac à sable avec aisap, les versions "
+"avec 🔒 sont verrouillées"
 
 #: modules/database.am:596
 msgid " AppImages with 🔒 are sandboxed with aisap"
-msgstr " AppImage-ovi sa 🔒 su sandboxovani pomoću aisap"
+msgstr " Les AppImages avec 🔒 sont dans un bac à sable avec aisap"
 
 #: modules/database.am:598
 msgid " AppImages with 🔒 are sandboxed with sas, versions with 🔒 are locked"
 msgstr ""
-" AppImage-ovi sa 🔒 su sandboxovani pomoću sas, verzije sa 🔒 su zaključane"
+" Les AppImages avec 🔒 sont dans un bac à sable avec sas, les versions avec "
+"🔒 sont verrouillées"
 
 #: modules/database.am:600
 msgid " AppImages with 🔒 are sandboxed with sas"
-msgstr " AppImage-ovi sa 🔒 su sandboxovani pomoću sas"
+msgstr " Les AppImages avec 🔒 sont dans un bac à sable avec sas"
 
 #: modules/database.am:602
 msgid " Versions with 🔒 are locked"
-msgstr " Verzije sa 🔒 su zaključane"
+msgstr " Les versions avec 🔒 sont verrouillées"
 
 #: modules/database.am:635
 msgid " TOTAL SIZE: $TOTAL_SIZE of disk space in use"
-msgstr " UKUPNA VELIČINA: $TOTAL_SIZE prostora diska u upotrebi"
+msgstr ""
 
 #: modules/database.am:674
 msgid "-\tAPPIMAGE | PATH | SIZE "
-msgstr "-\tAPPIMAGE | PUTANJA | VELIČINA "
+msgstr "-\tAPPIMAGE | CHEMIN | TAILLE "
 
 #: modules/database.am:706
 msgid "\\n *this path is listed but not mounted, file size unknown\\n\\n"
 msgstr ""
-"\\n *ova putanja je ulistana ali nije montirana, veličina fajla "
-"nepoznata\\n\\n"
+"\\n *ce chemin est listé mais n'est pas monté, taille du fichier "
+"inconnue\\n\\n"
 
 #: modules/database.am:797
 msgid ""
 " YOU HAVE INSTALLED $APPSNUMBER PROGRAMS OUT OF $AVAILABLE_TOTAL_APPS_NUMBER "
 "AVAILABLE, AND $LIBNUMBER LIBRARY"
 msgstr ""
-" IMAŠ $APPSNUMBER INSTALIRANIH PROGRAMA OD DOSTUPNIH "
-"$AVAILABLE_TOTAL_APPS_NUMBER, I $LIBNUMBER BIBLIOTEKU"
+" VOUS AVEZ INSTALLÉ $APPSNUMBER PROGRAMMES PARMI "
+"$AVAILABLE_TOTAL_APPS_NUMBER DISPONIBLES, ET $LIBNUMBER BIBLIOTHÈQUE"
 
 #: modules/database.am:799
 msgid ""
 " YOU HAVE INSTALLED $APPSNUMBER PROGRAMS OUT OF $AVAILABLE_TOTAL_APPS_NUMBER "
 "AVAILABLE, AND $LIBNUMBER LIBRARIES"
 msgstr ""
-" IMAŠ $APPSNUMBER INSTALIRANIH PROGRAMA OD DOSTUPNIH "
-"$AVAILABLE_TOTAL_APPS_NUMBER, I $LIBNUMBER BIBLIOTEKA"
+" VOUS AVEZ INSTALLÉ $APPSNUMBER PROGRAMMES PARMI "
+"$AVAILABLE_TOTAL_APPS_NUMBER DISPONIBLES, ET $LIBNUMBER BIBLIOTHÈQUES"
 
 #: modules/database.am:802
 msgid ""
 " YOU HAVE INSTALLED $APPSNUMBER PROGRAMS OUT OF $AVAILABLE_TOTAL_APPS_NUMBER "
 "AVAILABLE"
 msgstr ""
-" IMAŠ $APPSNUMBER INSTALIRANIH PROGRAMA OD DOSTUPNIH "
-"$AVAILABLE_TOTAL_APPS_NUMBER"
+" VOUS AVEZ INSTALLÉ $APPSNUMBER PROGRAMMES PARMI "
+"$AVAILABLE_TOTAL_APPS_NUMBER DISPONIBLES"
 
 #: modules/database.am:809
 msgid ""
 " To list all installable programs, use the \\\"%b--all\\033[0m\\\" flag\\n\\n"
 msgstr ""
-" Da izlistaš sve moguće programe za instalaciju, koristi \\\"%b--"
-"all\\033[0m\\\" opciju\\n\\n"
+" Pour lister tous les programmes installables, utilisez le drapeau \\\"%b--"
+"all\\033[0m\\\"\\n\\n"
 
 #: modules/database.am:810
 msgid " LIST OF THE %b"
-msgstr " LISTA OD %b"
+msgstr " LISTE DES %b"
 
 #: modules/database.am:816
 msgid "\\n Search results for \\\"%s\\\":\\n\\n"
-msgstr "\\n Rezultati pretrage za \\\"%s\\\":\\n\\n"
+msgstr "\\n Résultats de recherche pour \\\"%s\\\" :\\n\\n"
 
 #: modules/database.am:821 modules/database.am:823
 msgid "No search results"
-msgstr "Nema rezultata pretrage"
+msgstr "Aucun résultat de recherche"
 
 #: modules/database.am:821
 msgid ", please retry this query using the \\\"%b--all\\033[0m\\\" flag\\n"
-msgstr ", molim pokušaj isti upit koristeći \\\"%b--all\\033[0m\\\" opciju\\n"
+msgstr ""
+", veuillez réessayer cette requête en utilisant le drapeau \\\"%b--"
+"all\\033[0m\\\"\\n"
 
 #: modules/database.am:877
 msgid "$AVAILABLE_APPS_NUMBER programs available in the \\\"AM\\\" database"
-msgstr "$AVAILABLE_APPS_NUMBER programa dostupno u \\\"AM\\\" bazi podataka"
+msgstr ""
+"$AVAILABLE_APPS_NUMBER programmes disponibles dans la base de données \\"
+"\"AM\\\""
 
 #: modules/database.am:885
 msgid ""
 "$AVAILABLE_TOTAL_APPS_NUMBER programs available in all supported databases"
 msgstr ""
-"$AVAILABLE_TOTAL_APPS_NUMBER programa dostupno u svim podržanim bazama "
-"podataka"
+"$AVAILABLE_TOTAL_APPS_NUMBER programmes disponibles dans toutes les bases de "
+"données prises en charge"
 
 #: modules/database.am:893
 msgid ""
 "$AVAILABLE_APPIMAGES_NUMBER AppImages available in the \\\"AM\\\" database"
 msgstr ""
-"$AVAILABLE_APPIMAGES_NUMBER AppImage-ova dostupno u \\\"AM\\\" bazi podataka"
+"$AVAILABLE_APPIMAGES_NUMBER AppImages disponibles dans la base de données \\"
+"\"AM\\\""
 
 #: modules/database.am:901
 msgid ""
 "$AVAILABLE_PORTABLE_NUMBER portable programs available in the \\\"AM\\\" "
 "database"
 msgstr ""
-"$AVAILABLE_PORTABLE_NUMBER prenosivih programa dostupno u \\\"AM\\\" bazi "
-"podataka"
+"$AVAILABLE_PORTABLE_NUMBER programmes portables disponibles dans la base de "
+"données \\\"AM\\\""
 
 #: modules/database.am:912
 msgid "$TPNUMBER_HERE programs available in the ${tplist_name^} database"
-msgstr "$TPNUMBER_HERE programa dostupno u ${tplist_name^}s bazi podataka"
+msgstr ""
+"$TPNUMBER_HERE programmes disponibles dans la base de données ${tplist_name^}"
 
 #: modules/database.am:917
 msgid ""
 "\\n Unknown flag, run \\\"-h\\\" to see supported third-party flags.\\n\\n"
 msgstr ""
-"\\n Nepoznata opcija, pokreni \\\"-h\\\" da vidiš podržane opcije treće "
-"strane.\\n\\n"
+"\\n Drapeau inconnu, exécutez \\\"-h\\\" pour voir les drapeaux tiers pris "
+"en charge.\\n\\n"
 
 #: modules/database.am:939
 msgid "\\n Search results for packages: %s\\n\\n"
-msgstr "\\n Rezultati pretrage za pakete: %s\\n\\n"
+msgstr "\\n Résultats de recherche pour les paquets : %s\\n\\n"
 
 #: modules/install.am:32
 msgid " Converting %s to an AppMan-compatible script.\\r"
-msgstr " Konvertujem %s u AppMan-podržanu skriptu.\\r"
+msgstr " Conversion de %s en un script compatible AppMan.\\r"
 
 #: modules/install.am:35
 msgid ""
 " 💀 ERROR: \\\"--convert\\\" requires a configuration file in ~/.config/"
 "appman"
 msgstr ""
-" 💀 GREŠKA: \\\"--convert\\\" zahteva konfiguracioni fajl u ~/.config/appman"
+" 💀 ERREUR : \\\"--convert\\\" nécessite un fichier de configuration dans "
+"~/.config/appman"
 
 #: modules/install.am:41
 msgid "✖ \\\"$SCRIPTDIR/$arg\\\" already exists!"
-msgstr "✖ \\\"$SCRIPTDIR/$arg\\\" već postoji!"
+msgstr "✖ \\\"$SCRIPTDIR/$arg\\\" existe déjà !"
 
 #: modules/install.am:45
 msgid "◆ \\\"$arg\\\" installation script downloaded to \\\"$SCRIPTDIR\\\"! "
 msgstr ""
-"◆ \\\"$arg\\\" instalacijska skripta je preuzeta u \\\"$SCRIPTDIR\\\"! "
+"◆ Script d'installation \\\"$arg\\\" téléchargé dans \\\"$SCRIPTDIR\\\" ! "
 
 #: modules/install.am:47
 msgid " 💀 ERROR: \\\"$arg\\\" is NOT a valid argument"
-msgstr " 💀 GREŠKA: \\\"$arg\\\" NIJE važeći argument"
+msgstr " 💀 ERREUR : \\\"$arg\\\" n'est PAS un argument valide"
 
 #: modules/install.am:57
 msgid "NOTE:\\n\\n"
-msgstr "NAPOMENA:\\n\\n"
+msgstr "REMARQUE :\\n\\n"
 
 #: modules/install.am:58
 msgid ""
 "- to try to install AppImages (from github.com) not listed, use \\\"-e\\\"\\n"
 msgstr ""
-"- da pokušaš da instaliraš AppImage-ove (iz github.com) koje nisu ulistane, "
-"koristi \\\"-e\\\"\\n"
+"- pour essayer d'installer des AppImages (depuis github.com) non listés, "
+"utilisez \\\"-e\\\"\\n"
 
 #: modules/install.am:59
 msgid ""
 "- to integrate random local AppImages to the app's menu, use \\\"--launcher\\"
 "\"\\n"
 msgstr ""
-"- da integrišeš lokalne AppImage-ove u aplikacijski meni, koristi \\\"--"
-"launcher\\\"\\n"
+"- pour intégrer des AppImages locaux aléatoires dans le menu de "
+"l'application, utilisez \\\"--launcher\\\"\\n"
 
 #: modules/install.am:60
 msgid ""
 "- to create your own installation script, use \\\"-t\\\" or \\\"template\\"
 "\"\\n"
 msgstr ""
-"- da napraviš svoju instalacijsku skriptu, koristi \\\"-t\\\" ili \\"
+"- pour créer votre propre script d'installation, utilisez \\\"-t\\\" ou \\"
 "\"template\\\"\\n"
 
 #: modules/install.am:61
 msgid "\\nFor more info, run \\\"$AMCLI -h\\\".\\n"
-msgstr "\\nZa više informacija, pokreni \\\"$AMCLI -h\\\".\\n"
+msgstr "\\nPour plus d'informations, exécutez \\\"$AMCLI -h\\\".\\n"
 
 #: modules/install.am:67
 msgid ""
 "💀 ERROR: this option is ment to handle installation scripts only! \\n\\n"
 msgstr ""
-"💀 GREŠKA: ova opcija služi isključivo za instalacijske skripte! \\n\\n"
+"💀 ERREUR : cette option est destinée à gérer uniquement les scripts "
+"d'installation ! \\n\\n"
 
 #: modules/install.am:68
 msgid ""
 " If this AppImage is not in our database, open an issue or a pull request "
 "at\\n https://github.com/pkgforge-community/AM-HF-SYNC\\n\\n"
 msgstr ""
-" Ako ovaj AppImage nije u našoj bazi podataka, otvori tiket (issue) ili pull "
-"request na\\n https://github.com/pkgforge-community/AM-HF-SYNC\\n\\n"
+" Si cet AppImage n'est pas dans notre base de données, ouvrez un ticket ou "
+"une pull request sur\\n https://github.com/pkgforge-community/AM-HF-SYNC\\n\\n"
 
 #: modules/install.am:72
 msgid "💀 ERROR: \\\"$arg\\\" is not a valid file! \\n\\n"
-msgstr "💀 GREŠKA: \\\"$arg\\\" NIJE važeći argument! \\n\\n"
+msgstr "💀 ERREUR : \\\"$arg\\\" n'est pas un fichier valide ! \\n\\n"
 
 #: modules/install.am:73
 msgid "This option is ment to handle installation scripts only! \\n\\n"
-msgstr "Ova opcija služi isključivo za instalacijske skripte! \\n\\n"
+msgstr ""
+"Cette option est destinée à gérer uniquement les scripts d'installation ! "
+"\\n\\n"
 
 #: modules/install.am:81
 msgid ""
 " 💀 ERROR: you cannot install \\\"$arg\\\" without installing \\\"firefox\\\""
 msgstr ""
-" 💀 GREŠKA: ne možeš da instaliraš \\\"$arg\\\" a da ne instaliraš \\"
+" 💀 ERREUR : vous ne pouvez pas installer \\\"$arg\\\" sans installer \\"
 "\"firefox\\\""
 
 #: modules/install.am:99
 msgid " ◆ $APPNAME IS PART OF \\\"$LASTDIR\\\", ALREADY INSTALLED"
-msgstr " ◆ $APPNAME JE DEO \\\"$LASTDIR\\\", VEĆ JE INSTALIRAN"
+msgstr " ◆ $APPNAME FAIT PARTIE DE \\\"$LASTDIR\\\", DÉJÀ INSTALLÉ"
 
 #: modules/install.am:123
 msgid ""
 " ${RED}WARNING: \\\"$arg\\\" does not have a transparent build process! "
 "\\033[0m\\n"
 msgstr ""
-" ${RED}UPOZORENJE: \\\"$arg\\\" nema transparentan proces pravljenja! "
-"\\033[0m\\n"
+" ${RED}ATTENTION : \\\"$arg\\\" n'a pas de processus de construction "
+"transparent ! \\033[0m\\n"
 
 #: modules/install.am:124
 msgid ""
 "\\n We can't be sure as to what is inside the application\\n We highly "
 "recommend that you sandbox this application\\n\\n"
 msgstr ""
-"\\n Mi ne možemo biti sigurni u to šta se nalazi unutar aplikacije\\n Strogo "
-"preporučujemo da ovu aplikaciju sandbox-ujete\\n\\n"
+"\\n Nous ne pouvons pas être sûrs de ce qui est à l'intérieur de "
+"l'application\\n Nous recommandons fortement de mettre cette application "
+"dans un bac à sable\\n\\n"
 
 #: modules/install.am:127 modules/install.am:144 modules/install.am:666
 msgid "\\n INSTALLATION ABORTED! \\n"
-msgstr "\\n INSTALACIJA PREKINUTA! \\n"
+msgstr "\\n INSTALLATION ANNULÉE ! \\n"
 
 #: modules/install.am:135
 msgid " ◆ $APPNAME: starting installation script"
-msgstr " ◆ $APPNAME: započinjem instalacijsku skriptu"
+msgstr " ◆ $APPNAME : démarrage du script d'installation"
 
 #: modules/install.am:138
 msgid "\\n This script will create an AppImage on the fly, please wait...\\n"
-msgstr "\\n Ova skripta će napraviti AppImage u pokretu, molim sačekaj...\\n"
+msgstr ""
+"\\n Ce script va créer un AppImage à la volée, veuillez patienter...\\n"
 
 #: modules/install.am:140
 msgid " 💀 ERROR: \\\"$arg\\\" already exists in /usr/local/lib"
-msgstr " 💀 GREŠKA: \\\"$arg\\\" već postoji u /usr/local/lib"
+msgstr " 💀 ERREUR : \\\"$arg\\\" existe déjà dans /usr/local/lib"
 
 #: modules/install.am:141
 msgid "\\n ⚠️ This script will install a system library in /usr/local/lib\\n\\n"
 msgstr ""
-"\\n ⚠️ Ova skripta će instalirati sistemsku biblioteku u /usr/local/lib\\n\\n"
+"\\n ⚠️ Ce script va installer une bibliothèque système dans /usr/local/"
+"lib\\n\\n"
 
 #: modules/install.am:236 modules/install.am:239 modules/install.am:257
 #: modules/install.am:260
 msgid " 💀 ERROR DURING INSTALLATION, REMOVED $APPNAME!"
-msgstr " 💀 GREŠKA PRILIKOM INSTALACIJE, OBRISAO SAM $APPNAME!"
+msgstr " 💀 ERREUR LORS DE L'INSTALLATION, $APPNAME SUPPRIMÉ !"
 
 #: modules/install.am:246 modules/install.am:815
 msgid "\\n                  %bEND OF ALL INSTALLATION PROCESSES\\n\\033[0m"
-msgstr "\\n                  %bKRAJ SVIH INSTALACIJSKIH PROCESA\\n\\033[0m"
+msgstr ""
+"\\n                  %bFIN DE TOUS LES PROCESSUS D'INSTALLATION\\n\\033[0m"
 
 #: modules/install.am:273
 msgid " INSTALLATION ABORTED!"
-msgstr " INSTALACIJA PREKINUTA!"
+msgstr " INSTALLATION ANNULÉE !"
 
 #: modules/install.am:490
 msgid " Detected multiple variants, choose one or press ZERO to abort:\\n\\n"
 msgstr ""
-" Otkriveno više varijanti, odaberi jednu ili pritisni NULU da obustaviš:"
-"\\n\\n"
+" Plusieurs variantes détectées, choisissez-en une ou appuyez sur ZÉRO pour "
+"annuler :\\n\\n"
 
 #: modules/install.am:496
 msgid "%bPlease select another item or press \\\"ZERO\\\".\\n\\n"
-msgstr "%bMolim odaberi drugi izbor ili pritisni \\\"NULU\\\".\\n\\n"
+msgstr ""
+"%bVeuillez sélectionner un autre élément ou appuyer sur \\\"ZERO\\\".\\n\\n"
 
 #: modules/install.am:501
 msgid "\\n Invalid selection. INSTALLATION ABORTED! \\n"
-msgstr "\\n Nevažeći odabir. INSTALACIJA PREKINUTA! \\n"
+msgstr "\\n Sélection invalide. INSTALLATION ANNULÉE ! \\n"
 
 #: modules/install.am:547
 msgid " 💀 ERROR, \\\"$arg\\\" does NOT exist in 3rd-party databases"
-msgstr " 💀 GREŠKA, \\\"$arg\\\" NE POSTOJI u bazi podataka treće strane"
+msgstr ""
+" 💀 ERREUR, \\\"$arg\\\" n'EXISTE PAS dans les bases de données tierces"
 
 #: modules/install.am:548
 msgid "\\n Try again but WITHOUT the third-party flag\\n"
-msgstr "\\n Pokušaj opet ali BEZ opcije za treću stranu\\n"
+msgstr "\\n Réessayez mais SANS le drapeau tiers\\n"
 
 #: modules/install.am:556 modules/install.am:774
 msgid " Install \\\"$DID_YOU_MEAN\\\" with --$DID_YOU_MEAN_FLAG flag? (Y/n) "
 msgstr ""
-" Инсталирати \\\"$DID_YOU_MEAN\\\" са заставицом --$DID_YOU_MEAN_FLAG? (Y/n) "
+" Installer \\\"$DID_YOU_MEAN\\\" avec le drapeau --$DID_YOU_MEAN_FLAG ? (O/"
+"n) "
 
 #: modules/install.am:558 modules/install.am:776
 msgid " Install \\\"$DID_YOU_MEAN\\\" instead? (Y/n) "
-msgstr " Инсталирати \\\"$DID_YOU_MEAN\\\" уместо тога? (Y/n) "
+msgstr ""
 
 #: modules/install.am:583 modules/install.am:754
 msgid " ◆ \\\"$pure_arg\\\" is already installed!"
-msgstr " ◆ \\\"$pure_arg\\\" je već instaliran!"
+msgstr " ◆ \\\"$pure_arg\\\" est déjà installé !"
 
 #: modules/install.am:652
 msgid ""
 "\\n \\\"%b%b\\033[0m\\\" is not in the main database, but found in --"
 "%b%b\\033[0m.\\n"
 msgstr ""
-"\\n \\\"%b%b\\033[0m\\\" није у главној бази података, али је пронађен у --"
-"%b%b\\033[0m.\\n"
+"\\n \\\"%b%b\\033[0m\\\" n'est pas dans la base de données principale, mais "
+"trouvé dans --%b%b\\033[0m.\\n"
 
 #: modules/install.am:654
 msgid "\\n Did you mean \\\"%b%b\\033[0m\\\"?\\n"
-msgstr "\\n Да ли сте мислили на \\\"%b%b\\033[0m\\\"?\\n"
+msgstr "\\n Vouliez-vous dire \\\"%b%b\\033[0m\\\" ?\\n"
 
 #: modules/install.am:663 modules/management.am:128 modules/management.am:374
 #: modules/management.am:441 modules/sandboxes.am:42
 msgid " ✖ ERROR: \\\"%b\\\" is NOT an AppImage\\n"
-msgstr " ✖ GREŠKA: \\\"%b\\\" NIJE AppImage\\n"
+msgstr " ✖ ERREUR : \\\"%b\\\" n'est PAS un AppImage\\n"
 
 #: modules/install.am:683
 msgid " USAGE: $AMCLI $1 $2 [ARGUMENT]"
-msgstr " KORIŠĆENJE: $AMCLI $1 $2 [ARGUMENT]"
+msgstr " UTILISATION : $AMCLI $1 $2 [ARGUMENT]"
 
 #: modules/install.am:687
 msgid " USAGE: $AMCLI $1 --convert [ARGUMENT]"
-msgstr " KORIŠĆENJE: $AMCLI $1 --convert [ARGUMENT]"
+msgstr " UTILISATION : $AMCLI $1 --convert [ARGUMENT]"
 
 #: modules/install.am:712
 msgid " USAGE: $AMCLI $1 --debug [ARGUMENT]"
-msgstr " KORIŠĆENJE: $AMCLI $1 --debug [ARGUMENT]"
+msgstr " UTILISATION : $AMCLI $1 --debug [ARGUMENT]"
 
 #: modules/install.am:713
 msgid " USAGE: $AMCLI $1 --force-latest [ARGUMENT]"
-msgstr " KORIŠĆENJE: $AMCLI $1 --force-latest [ARGUMENT]"
+msgstr " UTILISATION : $AMCLI $1 --force-latest [ARGUMENT]"
 
 #: modules/install.am:714
 msgid " USAGE: $AMCLI $1 --icons [ARGUMENT]"
-msgstr " KORIŠĆENJE: $AMCLI $1 --icons [ARGUMENT]"
+msgstr " UTILISATION : $AMCLI $1 --icons [ARGUMENT]"
 
 #: modules/install.am:715
 msgid " USAGE: $AMCLI $1 --sandbox [ARGUMENT]"
-msgstr " KORIŠĆENJE: $AMCLI $1 --sandbox [ARGUMENT]"
+msgstr " UTILISATION : $AMCLI $1 --sandbox [ARGUMENT]"
 
 #: modules/install.am:716
 msgid " USAGE: $AMCLI $1 --user [ARGUMENT]"
-msgstr " KORIŠĆENJE: $AMCLI $1 --user [ARGUMENT]"
+msgstr " UTILISATION : $AMCLI $1 --user [ARGUMENT]"
 
 #: modules/install.am:724
 msgid ""
 "\\n                  %bSTART OF ALL INSTALLATION PROCESSES\\033[0m\\n\\n"
 msgstr ""
-"\\n                  %bPOČETAK SVIH INSTALACIJSKIH PROCESA\\033[0m\\n\\n"
+"\\n                  %bDÉBUT DE TOUS LES PROCESSUS "
+"D'INSTALLATION\\033[0m\\n\\n"
 
 #: modules/install.am:756
 msgid " 💀 ERROR: \\\"$pure_arg\\\" command already exists!"
-msgstr " 💀 GREŠKA: \\\"$pure_arg\\\" komanda već postoji!"
+msgstr " 💀 ERREUR : la commande \\\"$pure_arg\\\" existe déjà !"
 
 #: modules/install.am:762
 msgid " 💀 ERROR: the file \\\"$arg\\\" does NOT exist"
-msgstr " 💀 GREŠKA: fajl \\\"$arg\\\" NE POSTOJI"
+msgstr " 💀 ERREUR : le fichier \\\"$arg\\\" n'EXISTE PAS"
 
 #: modules/install.am:770
 msgid ""
@@ -1766,57 +1854,59 @@ msgid ""
 "\"please check the list, run the \\\"%b$AMCLIPATH_ORIGIN -l\\033[0m\\\" "
 "command.\\n\\n\" \"${Gold}\")"
 msgstr ""
-"💀 GREŠKA: \\\"$arg\\\" ne postoji u \\\"AM\\\" bazi podataka, $(printf "
-"\"molim proveri listu, pokreni \\\"%b$AMCLIPATH_ORIGIN -l\\033[0m\\\" "
-"komandu.\\n\\n\" \"${Gold}\")"
+"💀 ERREUR : \\\"$arg\\\" n'EXISTE PAS dans la base de données \\\"AM\\\", $"
+"(printf \"veuillez vérifier la liste, exécutez la commande \\"
+"\"%b$AMCLIPATH_ORIGIN -l\\033[0m\\\" .\\n\\n\" \"${Gold}\")"
 
 #: modules/install.am:816
 msgid "\\n             The following new programs have been installed:\\n\\n"
-msgstr "\\n             Sledeći programi su instalirani:\\n\\n"
+msgstr ""
+"\\n             Les nouveaux programmes suivants ont été installés :\\n\\n"
 
 #: modules/install.am:824
 msgid " USAGE: $AMCLI $1 user/project [ARGUMENT]"
-msgstr " KORIŠĆENJE: $AMCLI $1 user/project [ARGUMENT]"
+msgstr " UTILISATION : $AMCLI $1 utilisateur/projet [ARGUMENT]"
 
 #: modules/install.am:825
 msgid " USAGE: $AMCLI $1 user/project [ARGUMENT] [KEYWORD]"
-msgstr " KORIŠĆENJE: $AMCLI $1 user/project [ARGUMENT] [KLJUČNA REČ]"
+msgstr " UTILISATION : $AMCLI $1 utilisateur/projet [ARGUMENT] [MOT-CLÉ]"
 
 #: modules/install.am:826
 msgid " USAGE: $AMCLI $1 --user user/project [ARGUMENT]"
-msgstr " KORIŠĆENJE: $AMCLI $1 --user user/project [ARGUMENT]"
+msgstr " UTILISATION : $AMCLI $1 --user utilisateur/projet [ARGUMENT]"
 
 #: modules/install.am:827
 msgid " USAGE: $AMCLI $1 --user user/project [ARGUMENT] [KEYWORD]"
-msgstr " KORIŠĆENJE: $AMCLI $1 --user user/project [ARGUMENT] [KLJUČNA REČ]"
+msgstr ""
+" UTILISATION : $AMCLI $1 --user utilisateur/projet [ARGUMENT] [MOT-CLÉ]"
 
 #: modules/install.am:876
 msgid " Do you wish reinstall everything? (N/y): "
-msgstr " Da li želiš da reinstaliraš sve? (N/y): "
+msgstr ""
 
 #: modules/install.am:878
 msgid "%b\\n ABORTED! \\n%b\\n"
-msgstr "%b\\n OBUSTAVLJENO! \\n%b\\n"
+msgstr "%b\\n ANNULÉ ! \\n%b\\n"
 
 #: modules/install.am:880
 msgid "%b\\n Reinstalling everything...\\n%b\\n"
-msgstr "%b\\n Reinstaliram sve...\\n%b\\n"
+msgstr "%b\\n Réinstallation de tout...\\n%b\\n"
 
 #: modules/install.am:907
 msgid ""
 "%b\\n Checking for changes of the installation scripts in the online "
 "database...\\n%b\\n"
 msgstr ""
-"%b\\n Proveravam promene instalacijskih skripti u onlajn bazi podataka..."
-"\\n%b\\n"
+"%b\\n Vérification des modifications des scripts d'installation dans la base "
+"de données en ligne...\\n%b\\n"
 
 #: modules/install.am:937
 msgid " App removal and reinstallation complete! \\n%b\\n"
-msgstr " Brisanje aplikacije i reinstalacija završena! \\n%b\\n"
+msgstr " Suppression et réinstallation de l'application terminées ! \\n%b\\n"
 
 #: modules/install.am:937
 msgid " Nothing to do here! \\n%b\\n"
-msgstr " Nema ništa da se radi ovde! \\n%b\\n"
+msgstr " Rien à faire ici ! \\n%b\\n"
 
 #: modules/management.am:14
 msgid ""
@@ -1824,374 +1914,375 @@ msgid ""
 "version as a name, press \\\"1\\\"\\n ◆ To set a custom name, write anything "
 "else\\n\\n"
 msgstr ""
-"\\n ◆ Da podesiš datum i vreme kao ime, pritisni ENTER (fabrički)\\n ◆ Da "
-"podesiš verziju kao ime, pritisni \\\"1\\\"\\n ◆ Da podesiš ručno ime, "
-"napiši bilo šta drugo\\n\\n"
+"\\n ◆ Pour définir la date et l'heure comme nom, appuyez sur ENTRÉE (par "
+"défaut)\\n ◆ Pour définir la version comme nom, appuyez sur \\\"1\\\"\\n ◆ "
+"Pour définir un nom personnalisé, écrivez n'importe quoi d'autre\\n\\n"
 
 #: modules/management.am:15
 msgid " Write your choice here, or leave blank to use \\\"date/time\\\": "
 msgstr ""
-" Napiši svoj izbor ovde, ili ostavi prazno da koristiš \\\"datum/vreme\\\": "
+" Écrivez votre choix ici, ou laissez vide pour utiliser \\\"date/heure\\\" : "
 
 #: modules/management.am:32 modules/management.am:90
 msgid " \\\"$2\\\" is not a valid argument or is not installed."
-msgstr " \\\"$2\\\" nije važeći argument ili nije instaliran."
+msgstr " \\\"$2\\\" n'est pas un argument valide ou n'est pas installé."
 
 #: modules/management.am:34
 msgid " Do you wish to backup the current version of $2? (y/N) "
-msgstr " Da li želiš da bekapuješ trenutnu verziju $2? (y/N) "
+msgstr ""
 
 #: modules/management.am:36
 msgid "\\n OPERATION ABORTED!\\n\\n"
-msgstr "\\n OPERACIJA OBUSTAVLJENA!\\n\\n"
+msgstr "\\n OPÉRATION ANNULÉE !\\n\\n"
 
 #: modules/management.am:42
 msgid " 💀 ERROR: \\\"$2/$backupname\\\" already exists, ABORTED!"
-msgstr " 💀 GREŠKA: \\\"$2/$backupname\\\" već postoji, PREKINUTO!"
+msgstr " 💀 ERREUR : \\\"$2/$backupname\\\" existe déjà, ANNULÉ !"
 
 #: modules/management.am:48
 msgid " SAVED in $HOME/.am-snapshots/$2/$backupname"
-msgstr " SAČUVANO u $HOME/.am-snapshots/$2/$backupname"
+msgstr ""
 
 #: modules/management.am:88
 msgid " ERROR: No snapshot for \\\"$2\\\" found."
-msgstr " GREŠKA: Nijedna rezervna kopija nije pronađena za \\\"$2\\\"."
+msgstr " ERREUR : Aucun instantané trouvé pour \\\"$2\\\"."
 
 #: modules/management.am:92
 msgid " Do you wish to overwrite $2 with an older version? (y,N) "
-msgstr " Da li želiš da zameniš $2 sa starijom verzijom? (y,N) "
+msgstr ""
 
 #: modules/management.am:94
 msgid "\\n OPERATION ABORTED! \\n\\n"
-msgstr "\\n OPERACIJA OBUSTAVLJENA! \\n\\n"
+msgstr "\\n OPÉRATION ANNULÉE ! \\n\\n"
 
 #: modules/management.am:96
 msgid "\\n Please, select a snapshot or press ZERO to abort:\\n\\n"
 msgstr ""
-"\\n Molim odaberi rezervnu kopiju ili pritisni NULU da obustaviš:\\n\\n"
+"\\n Veuillez sélectionner un instantané ou appuyer sur ZÉRO pour annuler :"
+"\\n\\n"
 
 #: modules/management.am:102 modules/management.am:226
 msgid "\\n Invalid selection. ABORTED! \\n"
-msgstr "\\n Nevažeći odabir. OBUSTAVLJENO! \\n"
+msgstr "\\n Sélection invalide. ANNULÉ ! \\n"
 
 #: modules/management.am:113
 msgid " RESTORE COMPLETED SUCCESSFULLY!"
-msgstr " POVRATAK USPEŠNO IZVRŠEN!"
+msgstr ""
 
 #: modules/management.am:126
 msgid " ✖ ERROR: \\\"%b\\\" is not installed\\n"
-msgstr " ✖ GREŠKA: \\\"%b\\\" nije instaliran\\n"
+msgstr " ✖ ERREUR : \\\"%b\\\" n'est pas installé\\n"
 
 #: modules/management.am:132
 msgid "✖ ERROR: \\\"$arg\\\" already contains a config dir"
-msgstr "✖ GREŠKA: \\\"$arg\\\" već sadrži config direktorijum"
+msgstr "✖ ERREUR : \\\"$arg\\\" contient déjà un répertoire de configuration"
 
 #: modules/management.am:135
 msgid "✔ \\$XDG_CONFIG_HOME set to \\\"$argpath.config\\\" for \\\"$arg\\\""
 msgstr ""
-"✔ \\$XDG_CONFIG_HOME je podešen kao \\\"$argpath.config\\\" za \\\"$arg\\\""
+"✔ \\$XDG_CONFIG_HOME défini sur \\\"$argpath.config\\\" pour \\\"$arg\\\""
 
 #: modules/management.am:140
 msgid "✖ ERROR: \\\"$arg\\\" already contains a home dir"
-msgstr "✖ GREŠKA: \\\"$arg\\\" već sadrži home direktorijum"
+msgstr "✖ ERREUR : \\\"$arg\\\" contient déjà un répertoire home"
 
 #: modules/management.am:143
 msgid "✔ \\$HOME set to \\\"$argpath.home\\\" for \\\"$arg\\\""
-msgstr "✔ \\$HOME je podešen kao \\\"$argpath.home\\\" za \\\"$arg\\\""
+msgstr "✔ \\$HOME défini sur \\\"$argpath.home\\\" pour \\\"$arg\\\""
 
 #: modules/management.am:191
 msgid " No AM-updater available for \\\"$2\\\", cannot detect any URL!"
 msgstr ""
-" Nijedan AM-updater nije dostupan za \\\"$2\\\", ne mogu da otkrijem nijedan "
-"URL!"
 
 #: modules/management.am:198
 msgid " The option \\\"$1\\\" only works for https://github.com"
-msgstr " Opcija \\\"$1\\\" radi samo za https://github.com"
+msgstr " L'option \\\"$1\\\" ne fonctionne que pour https://github.com"
 
 #: modules/management.am:207
 msgid " Do you want to exclude snapshot versions? (Y,n)"
-msgstr " Da li želiš da odbaciš snapshot verzije? (Y,n)"
+msgstr ""
 
 #: modules/management.am:213
 msgid " ERROR: No valid links found, sorry!"
-msgstr " GREŠKA: Nijedan važeći link nije pronađen, izvini!"
+msgstr " ERREUR : Aucun lien valide trouvé, désolé !"
 
 #: modules/management.am:217
 msgid "You have chosen to roll back \\\"$2\\\"."
-msgstr "Odabrao si da vratiš nazad \\\"$2\\\"."
+msgstr ""
 
 #: modules/management.am:219
 msgid "Select a URL from this menu (read carefully) or press ZERO to abort:"
 msgstr ""
-"Odaberi URL iz ovog menija (čitaj pažljivo) ili pritisni NULU da obustaviš:"
 
 #: modules/management.am:240
 msgid "ROLLBACK SUCCESSFUL!"
-msgstr "POVRATAK NAZAD USPEŠAN!"
+msgstr ""
 
 #: modules/management.am:330
 msgid ""
 "WARNING: cannot extract old type 1 AppImages, install \\\"7z\\\" and retry."
 msgstr ""
-"UPOZORENJE: ne mogu da ekstraktujem stare type 1 AppImage-ove, instaliraj \\"
-"\"7z\\\" i pokušaj ponovo."
+"ATTENTION : impossible d'extraire les anciens AppImages de type 1, installez "
+"\\\"7z\\\" et réessayez."
 
 #: modules/management.am:338
 msgid ""
 "WARNING: \\\"$BINDIR\\\" is not in PATH, apps may not run from command line."
 msgstr ""
-"UPOZORENJE: \\\"$BINDIR\\\" nije u PATH, aplikacije možda neće moći da se "
-"pokrenu sa komandne linije."
+"ATTENTION : \\\"$BINDIR\\\" n'est pas dans le PATH, les applications peuvent "
+"ne pas s'exécuter depuis la ligne de commande."
 
 #: modules/management.am:341
 msgid " Write a custom command to launch the app, or leave blank: "
-msgstr " Napiši ručnu komandu da pokreneš aplikaciju, ili ostavi prazno: "
+msgstr ""
+" Écrivez une commande personnalisée pour lancer l'application, ou laissez "
+"vide : "
 
 #: modules/management.am:346
 msgid "New command: \\\"$appimage_cmd.appimage\\\" in $BINDIR"
-msgstr "Nova komanda: \\\"$appimage_cmd.appimage\\\" u $BINDIR"
+msgstr "Nouvelle commande : \\\"$appimage_cmd.appimage\\\" dans $BINDIR"
 
 #: modules/management.am:349
 msgid "New command: \\\"$appimage_cmd\\\" in $BINDIR"
-msgstr "Nova komanda: \\\"$appimage_cmd\\\" u $BINDIR"
+msgstr "Nouvelle commande : \\\"$appimage_cmd\\\" dans $BINDIR"
 
 #: modules/management.am:353
 msgid "WARNING, \\\"$BINDIR/$response\\\" already exists!"
-msgstr "UPOZORENJE, \\\"$BINDIR/$response\\\" već postoji!"
+msgstr "ATTENTION, \\\"$BINDIR/$response\\\" existe déjà !"
 
 #: modules/management.am:354
 msgid " Do you Want to override it? (y,N) "
-msgstr " Da li Želiš da ga zaobiđeš? (y,N) "
+msgstr ""
 
 #: modules/management.am:358
 msgid " You have chosen not to assign a command."
-msgstr " Izabrao si da ne dodeliš komandu."
+msgstr ""
 
 #: modules/management.am:361
 msgid "ERROR: the \\\"$response\\\" command alredy exists, retry!"
-msgstr "GREŠKA: \\\"$response\\\" komanda već postoji, pokušaj ponovo!"
+msgstr "ERREUR : la commande \\\"$response\\\" existe déjà, réessayez !"
 
 #: modules/management.am:371
 msgid "%b\\n ERROR: \\\"%b\\\" not found\\n%b\\n"
-msgstr "%b\\n GREŠKA: \\\"%b\\\" nije pronađen\\n%b\\n"
+msgstr "%b\\n ERREUR : \\\"%b\\\" introuvable\\n%b\\n"
 
 #: modules/management.am:397
 msgid ""
 " \\\"$AMCLIUPPER\\\" cannot manage updates for $2, \\\"AM-updater\\\" file "
 "not found!"
 msgstr ""
-" \\\"$AMCLIUPPER\\\" ne može da upravlja ažuriranjima za $2, \\\"AM-updater\\"
-"\" fajl nije pronađen!"
+" \\\"$AMCLIUPPER\\\" ne peut pas gérer les mises à jour pour $2, fichier \\"
+"\"AM-updater\\\" introuvable !"
 
 #: modules/management.am:400
 msgid " Do you wish to keep $2 at its current version? (y/N) "
-msgstr " Da li želiš da zadržiš $2 na njegovoj trenutnoj verziji? (y/N) "
+msgstr ""
 
 #: modules/management.am:403
 msgid " $2 has been locked at current version!"
-msgstr " $2 je sada zaključan na trenutnu verziju!"
+msgstr ""
 
 #: modules/management.am:405
 msgid " Operation aborted!"
-msgstr " Operacija obustavljena!"
+msgstr ""
 
 #: modules/management.am:412
 msgid " \\\"$2\\\" cannot be unlocked, \\\"AM-LOCK\\\" file not found!"
 msgstr ""
-" \\\"$2\\\" ne može da se otključa, \\\"AM-LOCK\\\" fajl nije pronađen!"
+" \\\"$2\\\" ne peut pas être déverrouillé, fichier \\\"AM-LOCK\\\" "
+"introuvable !"
 
 #: modules/management.am:415
 msgid " Do you wish to unlock updates for $2? (Y/n) "
-msgstr " Da li želiš da otključaš ažuriranja za $2? (Y/n) "
+msgstr ""
 
 #: modules/management.am:417
 msgid " $2 is still locked at current version!"
-msgstr " $2 je i dalje zaključan na trenutnoj verziji!"
+msgstr ""
 
 #: modules/management.am:421
 msgid " \\\"$2\\\" can now receive updates!"
-msgstr " \\\"$2\\\" sada može da dobija ažuriranja!"
+msgstr ""
 
 #: modules/management.am:435
 msgid " 💀Error, \\\"%b\\\" is NOT installed\\n"
-msgstr " 💀Greška, \\\"%b\\\" NIJE instaliran\\n"
+msgstr " 💀Erreur, \\\"%b\\\" n'est PAS installé\\n"
 
 #: modules/management.am:444
 msgid " ◆ \\\"%b\\\" is already a new generation AppImage.\\n"
-msgstr " ◆ \\\"%b\\\" je već AppImage novije generacije.\\n"
+msgstr " ◆ \\\"%b\\\" est déjà un AppImage de nouvelle génération.\\n"
 
 #: modules/management.am:451
 msgid " ...extracting the AppImage\\r"
-msgstr " ...ekstraktujem AppImage\\r"
+msgstr " ...extraction de l'AppImage\\r"
 
 #: modules/management.am:464
 msgid " ...trying to convert in new generation AppImage\\r"
-msgstr " ...pokušavam da konvertujem u AppImage novije generacije\\r"
+msgstr " ...tentative de conversion en AppImage de nouvelle génération\\r"
 
 #: modules/management.am:469
 msgid " 💀Error when trying to convert $target. Operation Aborted."
 msgstr ""
-" 💀Greška prilikom pokušaja konvertovanja $target. Operacija Obustavljena."
+" 💀Erreur lors de la tentative de conversion de $target. Opération annulée."
 
 #: modules/management.am:475
 msgid " ◆ $target has been converted to a new generation AppImage."
-msgstr " ◆ $target je konvertovan u AppImage novije generacije."
+msgstr " ◆ $target a été converti en un AppImage de nouvelle génération."
 
 #: modules/management.am:479
 msgid " The next update may replace this AppImage with a Type2 one"
-msgstr " Sledeće ažuriranje će možda da zameni ovaj AppImage sa Type2 verzijom"
+msgstr ""
 
 #: modules/management.am:480
 msgid ""
 " so I added this command to the bottom of the \\\"AM-updater\\\" script!"
-msgstr " tako da sam dodao ovu komandu na dnu \\\"AM-updater\\\" skripte!"
+msgstr ""
 
 #: modules/management.am:482
 msgid " Contact the upstream developers to make them officially upgrade!"
 msgstr ""
-" Kontaktiraj izvorne razvijače/programere da ih učine zvanično ažuriranim!"
 
 #: modules/management.am:484
 msgid " Do you wish to remove the old libfuse2 AppImage? (Y/n) "
-msgstr " Da li želiš da obrišeš stari libfuse2 AppImage? (Y/n) "
+msgstr ""
 
 #: modules/management.am:497 modules/management.am:515
 msgid ""
-" \\\"${RED}$arg\\033[0m\\\" is not a valid \\\"APPNAME\\\", see \\\"$AMCLI -"
-"f\\\" for more."
+" \\\"${RED}$arg\\033[0m\\\" is not a valid \\\"APPNAME\\\", see \\\"$AMCLI "
+"-f\\\" for more."
 msgstr ""
-" \\\"${RED}$arg\\033[0m\\\" nije važeći \\\"APPNAME\\\", vidi \\\"$AMCLI -f\\"
-"\" za više detalja."
+" \\\"${RED}$arg\\033[0m\\\" n'est pas un \\\"APPNAME\\\" valide, voir \\"
+"\"$AMCLI -f\\\" pour plus d'informations."
 
 #: modules/management.am:498
 msgid " ◆ Do you wish to remove \\\"$arg\\\"? (Y/n) "
-msgstr " ◆ Da li želiš da obrišeš \\\"$arg\\\"? (Y/n) "
+msgstr ""
 
 #: modules/management.am:500
 msgid " \\\"${LightBlue}$arg\\033[0m\\\" has not been removed!"
-msgstr " \\\"${LightBlue}$arg\\033[0m\\\" nije obrisan!"
+msgstr " \\\"${LightBlue}$arg\\033[0m\\\" n'a pas été supprimé !"
 
 #: modules/management.am:509 modules/management.am:523
 msgid " \\\"${Green}$arg\\033[0m\\\" has been removed!"
-msgstr " \\\"${Green}$arg\\033[0m\\\" je obrisan!"
+msgstr " \\\"${Green}$arg\\033[0m\\\" a été supprimé !"
 
 #: modules/management.am:577
 msgid " ◆ Do you wish to allow custom icon theming for ALL the apps? (y,N) "
 msgstr ""
-" ◆ Da li želiš da dozvoliš ručno temiranje ikona za SVE aplikacije? (y,N) "
 
 #: modules/management.am:580
 msgid ""
 " ◆ Do you wish to allow custom icon theming for the selected apps? (y,N) "
 msgstr ""
-" ◆ Da li želiš da dozvoliš ručno temiranje ikona za odabrane aplikacije? (y,"
-"N) "
+" ◆ Voulez-vous autoriser le thémage d'icônes personnalisé pour les "
+"applications sélectionnées ? (o,N) "
 
 #: modules/management.am:587
 msgid " ✔ Success!"
-msgstr " ✔ Uspešno!"
+msgstr " ✔ Succès !"
 
 #: modules/management.am:589
 msgid " ✖ Aborted!"
-msgstr " ✖ Obustavljeno!"
+msgstr " ✖ Annulé !"
 
 #: modules/management.am:600
 msgid "%b\\n ◆ Updates check finished! \\n"
-msgstr "%b\\n ◆ Provera za ažuriranjima završena! \\n"
+msgstr "%b\\n ◆ Vérification des mises à jour terminée ! \\n"
 
 #: modules/sandboxes.am:35
 msgid "%b\\n \\\"%b\\\" is already sandboxed!\\n%b\\n"
-msgstr "%b\\n \\\"%b\\\" je već sandbox-ovan!\\n%b\\n"
+msgstr "%b\\n \\\"%b\\\" est déjà dans un bac à sable !\\n%b\\n"
 
 #: modules/sandboxes.am:38
 msgid "%b\\n ERROR: \\\"%b\\\" is not installed\\n%b\\n"
-msgstr "%b\\n GREŠKA: \\\"%b\\\" nije instaliran\\n%b\\n"
+msgstr "%b\\n ERREUR : \\\"%b\\\" n'est pas installé\\n%b\\n"
 
 #: modules/sandboxes.am:58
 msgid " ERROR: Not a sandboxed AppImage, aborting"
-msgstr " GREŠKA: Nije sandbox-ovan AppImage, obustavljam"
+msgstr " ERREUR : Pas un AppImage dans un bac à sable, annulation"
 
 #: modules/sandboxes.am:66
 msgid " Error: You can't sandbox $1"
-msgstr " Greška: Ne možeš da sandbox-uješ $1"
+msgstr " Erreur : Vous ne pouvez pas mettre $1 dans un bac à sable"
 
 #: modules/sandboxes.am:69
 msgid " ERROR: You need aisap or sas for this script to work"
-msgstr " GREŠKA: potreban je aisap ili sas da bi ova skripta radila"
+msgstr ""
+" ERREUR : Vous avez besoin d'aisap ou de sas pour que ce script fonctionne"
 
 #: modules/sandboxes.am:70
 msgid " NOTE: Only sas can sandbox DWARFS AppImages"
-msgstr " NAPOMENA: samo sas može da sandboxuje DWARFS AppImage-ove"
+msgstr ""
+" REMARQUE : Seul sas peut mettre des AppImages DWARFS dans un bac à sable"
 
 #: modules/sandboxes.am:71
 msgid " ◆ DO YOU WISH TO INSTALL SAS? Install size <5 MiB? (Y/n) "
-msgstr " ◆ DA LI ŽELIŠ DA INSTALIRAŠ SAS? Veličina instalacije <5 MiB? (Y/n) "
+msgstr ""
 
 #: modules/sandboxes.am:73
 msgid " OPERATION ABORTED!"
-msgstr " OPERACIJA OBUSTAVLJENA!"
+msgstr ""
 
 #: modules/sandboxes.am:76
 msgid " ◆ DO YOU WISH TO INSTALL SAS LOCALLY? (Y/n) "
-msgstr " ◆ DA LI ŽELIŠ DA LOKALNO INSTALIRAŠ SAS? (Y/n) "
+msgstr ""
 
 #: modules/sandboxes.am:85
 msgid " sas installed successfully!"
-msgstr " sas uspešno instaliran!"
+msgstr ""
 
 #: modules/sandboxes.am:212
 msgid " Do you want configure access to directories? (Y/n): "
-msgstr " Da li želiš da podesiš pristup direktorijima? (Y/n): "
+msgstr ""
 
 #: modules/sandboxes.am:219
 msgid " Allow $1 access to \\\"$XDG_DIR\\\"? (y/N) "
-msgstr " Dozvoli $1 pristup ka \\\"$XDG_DIR\\\"? (y/N) "
+msgstr ""
 
 #: modules/sandboxes.am:227
 msgid " Allow $1 access to a specific directory? (y/N) "
-msgstr " Dozvoli $1 pristup ka posebnom direktorijumu? (y/N) "
+msgstr ""
 
 #: modules/sandboxes.am:229
 msgid "  WARNING: Giving access to all of $HOME or / and similar is not safe"
-msgstr "  UPOZORENJE: Davanje pristupa celom $HOME ili / i slično nije sigurno"
+msgstr ""
 
 #: modules/sandboxes.am:230
 msgid "  Also aisap might not let $1 start when such paths are given"
 msgstr ""
-"  Takođe aisap možda neće dati da se $1 pokrene kada su takve putanje date"
 
 #: modules/sandboxes.am:231
 msgid "  Type the path to the directory"
-msgstr "  Unesi putanju do direktorijuma"
+msgstr ""
 
 #: modules/sandboxes.am:232
 msgid "  Example: /media/external-drive or ~/Backups: "
-msgstr "  Primer: /media/external-drive ili ~/Backups: "
+msgstr ""
 
 #: modules/sandboxes.am:238
 msgid "  SPOOKY LOCATION! ARE YOU SURE? IF SO TYPE \\\"YES\\\": "
-msgstr "  SUMNJIVA LOKACIJA! JESI LI SIGURAN? AKO JESI NAPIŠI \\\"YES\\\": "
+msgstr ""
 
 #: modules/sandboxes.am:239
 msgid " That's not \\\"YES\\\", aborting"
-msgstr " To nije \\\"YES\\\", obustavljam"
+msgstr ""
 
 #: modules/sandboxes.am:242
 msgid " No path given, aborting"
-msgstr " Putanja nije data, prekidam"
+msgstr ""
 
 #: modules/sandboxes.am:246
 msgid "  Giving access to \\\"$NEWDIR\\\"..."
-msgstr "  Dajem pristup ka \\\"$NEWDIR\\\"..."
+msgstr ""
 
 #: modules/sandboxes.am:250
 msgid " User directories access configured successfully!"
-msgstr " Pristup korisničkim direktorijumima je uspešno podešen!"
+msgstr ""
 
 #: modules/template.am:82 modules/template.am:342 modules/template.am:381
 msgid " ◆ ADD A BRIEF DESCRIPTION FOR THIS APPLICATION $(echo -e '\\n : ')"
-msgstr " ◆ DODAJ OSNOVNI OPIS ZA OVU APLIKACIJU $(echo -e '\\n : ')"
+msgstr ""
+" ◆ AJOUTEZ UNE BRÈVE DESCRIPTION POUR CETTE APPLICATION $(echo -e '\\n : ')"
 
 #: modules/template.am:111
 msgid ""
@@ -2199,35 +2290,33 @@ msgid ""
 "if the URL is fixed, simply add the \\\"echo\\\" command at the "
 "beginning\\n\\n :"
 msgstr ""
-" KORISTI JEDNOLINIJSKU KOMANDU ZA PROVERU URL-A PROGRAMA ILI VERZIJE\n"
-"\n"
-" ako je URL fiksan, jednostavno dodaj komandu \\\"echo\\\" na početak\n"
-"\n"
-" :"
+" UTILISEZ UNE COMMANDE SUR UNE LIGNE POUR VÉRIFIER L'URL DU PROGRAMME OU DE "
+"LA VERSION\\n\\n si l'URL est fixe, ajoutez simplement la commande \\\"echo\\"
+"\" au début\\n\\n :"
 
 #: modules/template.am:150
 msgid ""
 " LIST OF CATEGORIES:\\n 0) AudioVideo\\n 1) Audio\\n 2) Video\\n 3) "
 "Development\\n 4) Education\\n 5) Game\\n 6) Graphics\\n 7) Network\\n 8) "
-"Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility "
-"(default)\\n "
+"Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility (default)"
+"\\n "
 msgstr ""
-" LISTA KATEGORIJA:\\n 0) AudioVideo\\n 1) Audio\\n 2) Video\\n 3) "
-"Development\\n 4) Education\\n 5) Game\\n 6) Graphics\\n 7) Network\\n 8) "
-"Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility "
-"(default)\\n "
+" LISTE DES CATÉGORIES :\\n 0) AudioVidéo\\n 1) Audio\\n 2) Vidéo\\n 3) "
+"Développement\\n 4) Éducation\\n 5) Jeu\\n 6) Graphisme\\n 7) Réseau\\n 8) "
+"Bureautique\\n 9) Science\\n 10) Paramètres\\n 11) Système\\n 12) Utilitaire "
+"(par défaut)\\n "
 
 #: modules/template.am:151
 msgid " CHOOSE A CATEGORY : "
-msgstr " ODABERI KATEGORIJU : "
+msgstr ""
 
 #: modules/template.am:250 modules/template.am:254
 msgid " Latest release (y) or a generic one (N or leave blank)?"
-msgstr " Najnovije izdanje (y) ili generičko (N ili prazno)?"
+msgstr ""
 
 #: modules/template.am:266
 msgid " Do you wish to check the link (Y,n)?"
-msgstr " Želiš li da proveriš link (Y,n)?"
+msgstr ""
 
 #: modules/template.am:275 modules/template.am:294 modules/template.am:311
 #: modules/template.am:357 modules/template.am:374
@@ -2235,91 +2324,93 @@ msgid ""
 "\\n The URL above is an example of what both\\n the install and update "
 "scripts will point to.\\n"
 msgstr ""
-"\\n URL iznad je primer na šta će obe\\n .\\n instalacijske i skripte za "
-"ažuriranje da ukažu.\\n"
+"\\n L'URL ci-dessus est un exemple de ce vers quoi\\n les scripts "
+"d'installation et de mise à jour pointeront.\\n"
 
 #: modules/template.am:279
 msgid ""
 " If correct, press \\\"ENTER\\\", 1 to add keywords and 2 to remove "
 "keywords: "
 msgstr ""
-" Ako je ispravno, pritisni \\\"ENTER\\\", 1 za dodavanje ključnih reči i 2 "
-"za uklanjanje: "
+" Si c'est correct, appuyez sur \\\"ENTRÉE\\\", 1 pour ajouter des mots-clés "
+"et 2 pour supprimer des mots-clés : "
 
 #: modules/template.am:282
 msgid " URL must contain (\\\"x64\\\", \\\"x86_64\\\"... or leave blank): "
 msgstr ""
-" URL mora da sadrži (\\\"x64\\\", \\\"x86_64\\\"... ili ostavi prazno): "
+" L'URL doit contenir (\\\"x64\\\", \\\"x86_64\\\"... ou laisser vide) : "
 
 #: modules/template.am:285 modules/template.am:302
 msgid " Do you wish to check the link for the last time (Y,n)?"
-msgstr " Želiš li poslednji put da proveriš link (Y,n)?"
+msgstr ""
 
 #: modules/template.am:299
 msgid " URL must NOT contain (\\\"txt\\\", \\\"ARM\\\"... or leave blank): "
 msgstr ""
-" URL NE sme da sadrži (\\\"txt\\\", \\\"ARM\\\"... ili ostavi prazno): "
+" L'URL ne doit PAS contenir (\\\"txt\\\", \\\"ARM\\\"... ou laisser vide) : "
 
 #: modules/template.am:324
 msgid ""
 " ◆ ADD THE NAME OF THE PROJECT OR LEAVE BLANK IF ITS THE SAME $(echo -e "
 "'\\n : ')"
 msgstr ""
-" ◆ DODAJ IME PROJEKTA ILI OSTAVI PRAZNO AKO JE ISTO $(echo -e '\\n : ')"
+" ◆ AJOUTEZ LE NOM DU PROJET OU LAISSEZ VIDE SI C'EST LE MÊME $(echo -e "
+"'\\n : ')"
 
 #: modules/template.am:336
 msgid ""
 " ◆ ADD an univoque keyword for the file (for example \\\"tar.gz\\\", \\"
 "\"linux\\\"):"
 msgstr ""
-" ◆ DODAJ jednoznačnu ključnu reč za fajl (na primer \\\"tar.gz\\\", \\"
-"\"linux\\\"):"
+" ◆ AJOUTEZ un mot-clé unique pour le fichier (par exemple \\\"tar.gz\\\", \\"
+"\"linux\\\") :"
 
 #: modules/template.am:423
 msgid " Create a template for \\\"$arg\\\""
-msgstr " Napravi šablon za \\\"$arg\\\""
+msgstr " Créer un modèle pour \\\"$arg\\\""
 
 #: modules/template.am:427
 msgid ""
 " EACH MODEL IS BASED ON A DIFFERENT METHOD OF BUILDING/UPDATING THE PROGRAM."
 msgstr ""
-" SVAKI MODEL JE OSNOVAN NA DRUGAČIJOJ METODI PRAVLJENJA/AŽURIRANJA PROGRAMA."
+" CHAQUE MODÈLE EST BASÉ SUR UNE MÉTHODE DIFFÉRENTE DE CONSTRUCTION/MISE À "
+"JOUR DU PROGRAMME."
 
 #: modules/template.am:429
 msgid ""
-" PLEASE, SELECT A TEMPLATE FOR \\\"$(echo \"$arg\" | tr '[:lower:]' '[:"
-"upper:]')\\\":"
+" PLEASE, SELECT A TEMPLATE FOR \\\"$(echo \"$arg\" | tr '[:lower:]' "
+"'[:upper:]')\\\":"
 msgstr ""
-" MOLIM, ODABERI ŠABLON ZA \\\"$(echo \"$arg\" | tr '[:lower:]' '[:upper:]')\\"
-"\":"
+" VEUILLEZ SÉLECTIONNER UN MODÈLE POUR \\\"$(echo \"$arg\" | tr '[:lower:]' "
+"'[:upper:]')\\\" :"
 
 #: modules/template.am:431
 msgid "  0) APPIMAGE, FROM ANY WEBSITE (BETTER IF FROM GITHUB.COM)"
-msgstr "  0) APPIMAGE, SA BILO KOG VEBSAJTA (NAJBOLJE AKO JE SA GITHUB.COM)"
+msgstr "  0) APPIMAGE, DE N'IMPORTE QUEL SITE WEB (MIEUX SI DEPUIS GITHUB.COM)"
 
 #: modules/template.am:432
 msgid "  1) APPIMAGE ON-THE-FLY, USING A DEDICATED SCRIPT"
-msgstr "  1) APPIMAGE U POKRETU, KORISTEĆI POSVEĆENU SKRIPTU"
+msgstr "  1) APPIMAGE À LA VOLÉE, EN UTILISANT UN SCRIPT DÉDIÉ"
 
 #: modules/template.am:433
 msgid "  2) ANY ARCHIVE/BINARY/SCRIPT FROM ANY WEBSITE"
-msgstr "  2) BILO KOJA ARHIVA/BINAR/SKRIPTA SA SVAKOG VEBSAJTA"
+msgstr "  2) N'IMPORTE QUEL ARCHIVE/BINAIRE/SCRIPT DE N'IMPORTE QUEL SITE WEB"
 
 #: modules/template.am:434
 msgid ""
 "  3) WEBAPP BASED ON A FIREFOX PROFILE (REQUIRES \\\"FIREFOX\\\" IN \\$PATH)"
 msgstr ""
-"  3) WEB APLIKACIJA NA OSNOVU FIREFOX PROFILA (ZAHTEVA \\\"FIREFOX\\\" U \\"
+"  3) WEBAPP BASÉE SUR UN PROFIL FIREFOX (NÉCESSITE \\\"FIREFOX\\\" DANS \\"
 "$PATH)"
 
 #: modules/template.am:436
 msgid " WHAT KIND OF PROGRAM DO YOU WANT TO WRITE A SCRIPT FOR? : "
-msgstr " ZA KOJU VRSTU PROGRAMA ŽELIŠ DA NAPIŠEŠ SKRIPTU? : "
+msgstr " QUEL TYPE DE PROGRAMME VOULEZ-VOUS ÉCRIRE UN SCRIPT ? : "
 
 #: modules/template.am:449 modules/template.am:485
 msgid ""
-" ◆ ADD THE URL OF THE SITE (BETTER IF IT COME FROM GITHUB), FOR EXAMPLE: "
-"$(echo -e '\n"
+" ◆ ADD THE URL OF THE SITE (BETTER IF IT COME FROM GITHUB), FOR EXAMPLE: $"
+"(echo -e '\n"
 "\n"
 " - if from github.com, use \"https://github.com/USER/PROJECT\"\n"
 "\n"
@@ -2327,119 +2418,40 @@ msgid ""
 "\n"
 " URL: ')"
 msgstr ""
-" ◆ DODAJ URL SAJTA (NAJBOLJE AKO JE SA GITHUB-A), NA PRIMER: $(echo -e '\n"
+" ◆ AJOUTEZ L'URL DU SITE (MIEUX SI ELLE VIENT DE GITHUB), PAR EXEMPLE : $"
+"(echo -e '\n"
 "\n"
-" - ako je sa github.com, koristi \"https://github.com/USER/PROJECT\"\n"
+" - si depuis github.com, utilisez \"https://github.com/UTILISATEUR/PROJET\"\n"
 "\n"
-" - ako je sa drugih izvora, koristi \"https://www.SITENAME.com\" ili nešto "
-"drugo\n"
+" - si depuis d'autres sources, utilisez \"https://www.NOMDUSITE.com\" ou "
+"quelque chose\n"
 "\n"
-" URL: ')"
+" URL : ')"
 
 #: modules/template.am:477 modules/template.am:527 modules/template.am:564
 msgid "\\n All files are saved in $SCRIPTDIR/am-scripts\\n"
-msgstr "\\n Svi fajlovi su sačuvani u $SCRIPTDIR/am-scripts\\n"
+msgstr "\\n Tous les fichiers sont enregistrés dans $SCRIPTDIR/am-scripts\\n"
 
 #: modules/template.am:498
 msgid " ◆ Do you wish to add a launcher and a icon (y,N)? "
-msgstr " ◆ Da li želiš da dodaš launčer i ikonu (y,N)? "
+msgstr ""
 
 #: modules/template.am:504 modules/template.am:556
 msgid " ◆ COPY/PASTE THE URL OF THE ICON HERE $(echo -e '\\n URL: ')"
-msgstr " ◆ KOPIRAJ/NALEPI URL IKONE OVDE $(echo -e '\\n URL: ')"
+msgstr " ◆ COPIEZ/COLLEZ L'URL DE L'ICÔNE ICI $(echo -e '\\n URL : ')"
 
 #: modules/template.am:513
 msgid " ◆ NAME OF THE APP (for the \\\"Name\\\" entry of the .desktop file): "
-msgstr " ◆ IME APLIKACIJE (za \\\"Name\\\" unos u .desktop fajlu): "
+msgstr " ◆ NOM DE L'APP (pour l'entrée \\\"Name\\\" du fichier .desktop) : "
 
 #: modules/template.am:538
 msgid " ◆ NAME OF THE APP: "
-msgstr " ◆ IME APLIKACIJE: "
+msgstr " ◆ NOM DE L'APP : "
 
 #: modules/template.am:548
 msgid " ◆ URL OF THE WEBAPP: "
-msgstr " ◆ URL WEB APLIKACIJE: "
+msgstr " ◆ URL DE LA WEBAPP : "
 
 #: modules/template.am:569
 msgid "\\n No valid argument was chosen: process aborted! \\n"
-msgstr "\\n Nijedan važeći argument nije odabran: proces obustavljen! \\n"
-
-#~ msgid "%b\\n ERROR: \\\"%b\\\" is NOT an AppImage\\n%b\\n"
-#~ msgstr "%b\\n GREŠKA: \\\"%b\\\" NIJE AppImage\\n%b\\n"
-
-#~ msgid " 💀Error, \\\"%b\\\" is NOT an AppImage\\n"
-#~ msgstr " 💀Greška, \\\"%b\\\" NIJE AppImage\\n"
-
-#~ msgid ""
-#~ " ✖ \\\"$(echo \"$arg\" | sed 's/-appimage//g')\\\" is not an Appimage"
-#~ msgstr " ✖ \\\"$(echo \"$arg\" | sed 's/-appimage//g')\\\" nije Appimage"
-
-#~ msgid "\\n ERROR: \\\"%b\\\" is NOT an AppImage\\n"
-#~ msgstr "\\n GREŠKA: \\\"%b\\\" NIJE AppImage\\n"
-
-#~ msgid ""
-#~ "\\n%bWARNING: your distro maintainer ships \\\"wget2\\\" as \\\"wget\\\" "
-#~ "\\033[0m\\n\\n"
-#~ msgstr ""
-#~ "\\n%bUPOZORENJE: tvoja Linux distribucija dostavlja \\\"wget2\\\" kao \\"
-#~ "\"wget\\\" \\033[0m\\n\\n"
-
-#~ msgid ""
-#~ "Please install \\\"%bwget1\\033[0m\\\" and \\\"%bwget1-wget\\033[0m\\"
-#~ "\" (use %b--allowerasing\\033[0m if you have to)\\n\\nSee https://"
-#~ "bugzilla.redhat.com/show_bug.cgi?id=2358792\\n\\n"
-#~ msgstr ""
-#~ "Molim instaliraj \\\"%bwget1\\033[0m\\\" i \\\"%bwget1-wget\\033[0m\\"
-#~ "\" (koristi %b--allowerasing\\033[0m ako baš moraš)\\n\\nPogledaj https://"
-#~ "bugzilla.redhat.com/show_bug.cgi?id=2358792\\n\\n"
-
-#~ msgid ""
-#~ " ◆ FOR \\\"WGET\\\", ADD A COMMAND AS \\\"\\$( ... )\\\" OR A LINEAR "
-#~ "DOWNLOAD URL $(echo -e '\\n : ')"
-#~ msgstr ""
-#~ " ◆ ZA \\\"WGET\\\", DODAJ KOMANDU KAO \\\"\\$( ... )\\\" ILI LINEARNI URL "
-#~ "ZA PREUZIMANJE $(echo -e '\\n : ')"
-
-#~ msgid " 💀 ERROR: cannot create \\\"$arg\\\", the builder does not exists"
-#~ msgstr " 💀 GREŠKA: ne mogu da napravim \\\"$arg\\\", builder ne postoji"
-
-#~ msgid ""
-#~ " 💀 ERROR: cannot install \\\"$arg\\\" without \\\"$dependency_name\\\""
-#~ msgstr ""
-#~ " 💀 GREŠKA: ne možeš da instaliraš \\\"$arg\\\" bez \\\"$dependency_name\\"
-#~ "\""
-
-#~ msgid " Do you want to use api.rl.pkgforge.dev to identify version (y,N)? "
-#~ msgstr ""
-#~ " Da li želiš da koristiš api.rl.pkgforge.dev za identifikovanje verzije (y,N)? "
-
-#~ msgid " ...downloading appimagetool\\r"
-#~ msgstr " ...preuzimam appimagetool\\r"
-
-#~ msgid ""
-#~ " ◆ ADD A LINEAR DOWNLOAD URL FOR THE SCRIPT OR LEAVE BLANK $(echo -e "
-#~ "'\\n : ')"
-#~ msgstr ""
-#~ " ◆ DODAJ LINEARNI URL ZA PREUZIMANJE ZA SKRIPTU ILI OSTAVI PRAZNO $(echo -"
-#~ "e '\\n : ')"
-
-#~ msgid "✔ $APPMAN_APPSPATH/$arg can be managed again"
-#~ msgstr "✔ $APPMAN_APPSPATH/$arg opet može da se upravlja"
-
-#~ msgid "Checksum is not required for tarball/zip files."
-#~ msgstr "Kontrolni zbir (checksum) nije potreban za tarball/zip fajlove."
-
-#~ msgid "Checksum cannot be verified, no hashes found."
-#~ msgstr ""
-#~ "Kontrolni zbir (checksum) se ne može proveriti, nijedan heš nije pronađen."
-
-#~ msgid "Checksum verification not yet supported for this program."
-#~ msgstr ""
-#~ "Provera kontrolnog zbira (checksuma) trenutno nije podržana za ovaj "
-#~ "program."
-
-#~ msgid "Checksum matches, verification successful."
-#~ msgstr "Kontrolni zbir (checksum) se poklapa, provera uspešna."
-
-#~ msgid "%b%b"
-#~ msgstr "%b%b"
+msgstr "\\n Aucun argument valide n'a été choisi : processus annulé ! \\n"
