@@ -764,7 +764,7 @@
     "site": "AntiMicroX/antimicrox",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/antimicrox",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/antimicrox",
-    "version_raw": "https://github.com/AntiMicroX/antimicrox/releases/download/3.6.1/AntiMicroX-debug-x86_64.AppImage",
+    "version_raw": "https://github.com/AntiMicroX/antimicrox/releases/download/3.6.0/AntiMicroX-debug-x86_64.AppImage",
     "description": "Use a gamepad to control a variety of programs"
   },
   {
@@ -4308,7 +4308,7 @@
     "site": "CCDirectLink/crosscode-map-editor",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/crosscode-map-editor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/crosscode-map-editor",
-    "version_raw": "https://github.com/CCDirectLink/crosscode-map-editor/releases/download/v2.4.1/cc-map-editor-2.4.1-linux.AppImage",
+    "version_raw": "https://github.com/CCDirectLink/crosscode-map-editor/releases/download/v2.4.2/cc-map-editor-2.4.2-linux.AppImage",
     "description": "Map Editor for CrossCode"
   },
   {
@@ -6388,7 +6388,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.5.7.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -8268,7 +8268,7 @@
     "site": "pol-rivero/github-desktop-plus",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/github-desktop-plus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/github-desktop-plus",
-    "version_raw": "https://github.com/pol-rivero/github-desktop-plus/releases/download/v3.5.9.2/GitHubDesktopPlus-v3.5.9.2-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/pol-rivero/github-desktop-plus/releases/download/v3.5.9.3/GitHubDesktopPlus-v3.5.9.3-linux-x86_64.AppImage",
     "description": "Electron-based GitHub Desktop fork with advanced functionality and Bitbucket, GitLab integration"
   },
   {
@@ -15292,7 +15292,7 @@
     "site": "pkgforge-dev/openMSX-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openmsx",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openmsx",
-    "version_raw": "",
+    "version_raw": "https://github.com/pkgforge-dev/openMSX-AppImage/releases/download/21.0-1%402026-05-22_1779458096/openMSX-21.0-1-anylinux-x86_64.AppImage",
     "description": "Unofficial, the MSX emulator that aims for perfection"
   },
   {
@@ -17220,7 +17220,7 @@
     "site": "https://printventory.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/printventory",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/printventory",
-    "version_raw": "https://printventory.techjeeper.com/",
+    "version_raw": "https://printventory.techjeeper.com/printventory-2.1.3.AppImage",
     "description": "The ultimate tool for managing your 3D printing collection with ease. Sort, tag, and track your models in one place"
   },
   {
@@ -19012,7 +19012,7 @@
     "site": "https://ryujinx.app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ryujinx-canary",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ryujinx-canary",
-    "version_raw": "https://git.ryujinx.app/Ryubing/Canary/releases/download/1.3.299/ryujinx-canary-1.3.299-x64.AppImage",
+    "version_raw": "https://git.ryujinx.app/Ryubing/Canary/releases/download/1.3.301/ryujinx-canary-1.3.301-x64.AppImage",
     "description": "An open-source Nintendo Switch emulator, originally created by gdkchan, written in C# (Canary builds)"
   },
   {
@@ -19068,7 +19068,7 @@
     "site": "PaulCombal/SamRewritten",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/samrewritten",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/samrewritten",
-    "version_raw": "https://github.com/PaulCombal/SamRewritten/releases/download/v1.3.5/samrewritten-adw.AppImage",
+    "version_raw": "https://github.com/PaulCombal/SamRewritten/releases/download/v1.4.0-rc1/samrewritten-adw.AppImage",
     "description": "Steam Achievement Manager For Linux. Rewritten in C++"
   },
   {
@@ -21166,181 +21166,5 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sunny",
     "version_raw": "https://github.com/XMuli/SunnyPages/releases/download/v3.1/SunnyCapturer_3.1.0_x64.AppImage",
     "description": "Screenshot software that supports OCR and image translation features"
-  },
-  {
-    "pkg": "sunsama",
-    "site": "https://sunsama.com/",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sunsama",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sunsama",
-    "version_raw": "3.4.6",
-    "description": "The daily planner for elite professionals"
-  },
-  {
-    "pkg": "sunshine",
-    "site": "LizardByte/Sunshine",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sunshine",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sunshine",
-    "version_raw": "https://github.com/LizardByte/Sunshine/releases/download/v2026.522.22447/sunshine.AppImage",
-    "description": "Sunshine is a Gamestream host for Moonlight"
-  },
-  {
-    "pkg": "sunvox",
-    "site": "ivan-hc/sunvox-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sunvox",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sunvox",
-    "version_raw": "https://github.com/ivan-hc/sunvox-appimage/releases/download/continuous/Sunvox_2.1.4.d-1-archimage5.0-x86_64.AppImage",
-    "description": "Unofficial. Small, fast and powerful modular synthesizer with pattern-based sequencer (tracker)"
-  },
-  {
-    "pkg": "sup",
-    "site": "arnnis/Sup",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sup",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sup",
-    "version_raw": "https://github.com/arnnis/Sup/releases/download/v0.3.4/Sup-0.3.2.AppImage",
-    "description": "A Slack client with WhatsApp like UI"
-  },
-  {
-    "pkg": "superbacked",
-    "site": "superbacked/superbacked",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/superbacked",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/superbacked",
-    "version_raw": "https://github.com/superbacked/superbacked/releases/download/v1.12.0/superbacked-x64-1.12.0.AppImage",
-    "description": "Don’t lose your secrets. A secret management platform used to back up and pass on sensitive data from one generation to the next"
-  },
-  {
-    "pkg": "supercell-wx",
-    "site": "dpaulat/supercell-wx",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/supercell-wx",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/supercell-wx",
-    "version_raw": "https://github.com/dpaulat/supercell-wx/releases/download/v0.5.6-release/supercell-wx-v0.5.6-x86_64.AppImage",
-    "description": "Supercell Wx is a free, open source advanced weather radar viewer"
-  },
-  {
-    "pkg": "superfile",
-    "site": "yorukot/superfile",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/superfile",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/superfile",
-    "version_raw": "",
-    "description": "Pretty fancy and modern terminal file manager"
-  },
-  {
-    "pkg": "supermariowar",
-    "site": "pkgforge-dev/Supermariowar-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/supermariowar",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/supermariowar",
-    "version_raw": "https://github.com/pkgforge-dev/Supermariowar-AppImage/releases/download/r1748.5bb5459b-1%402026-05-22_1779458492/Super_Mario_War-r1748.5bb5459b-1-anylinux-x86_64.AppImage",
-    "description": "Unofficial, a fan-made multiplayer Super Mario Bros. style deathmatch game"
-  },
-  {
-    "pkg": "supermodel",
-    "site": "pkgforge-dev/Supermodel-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/supermodel",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/supermodel",
-    "version_raw": "https://github.com/pkgforge-dev/Supermodel-AppImage/releases/download/r1277.9c9e7b7-1%402026-05-22_1779458739/Supermodel-r1277.9c9e7b7-1-anylinux-x86_64.AppImage",
-    "description": "Unofficial, Sega Model 3 arcade emulator"
-  },
-  {
-    "pkg": "supernotes",
-    "site": "https://supernotes.app",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/supernotes",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/supernotes",
-    "version_raw": "3.2.4",
-    "description": "Enjoy efficient note-taking without the hassle"
-  },
-  {
-    "pkg": "superpaper",
-    "site": "hhannine/superpaper",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/superpaper",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/superpaper",
-    "version_raw": "https://github.com/hhannine/superpaper/releases/download/v2.2.1/Superpaper-2.2.1-x86_64.AppImage",
-    "description": "A cross-platform multi monitor wallpaper manager"
-  },
-  {
-    "pkg": "superproductivity",
-    "site": "johannesjo/super-productivity",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/superproductivity",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/superproductivity",
-    "version_raw": "https://github.com/super-productivity/super-productivity/releases/download/v18.6.0/superProductivity-x86_64.AppImage",
-    "description": "An advanced todo list app with integrated Timeboxing"
-  },
-  {
-    "pkg": "superslicer-bin",
-    "site": "supermerill/SuperSlicer",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/superslicer-bin",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/superslicer-bin",
-    "version_raw": "https://github.com/supermerill/SuperSlicer/releases/download/2.5.59.13/SuperSlicer-ubuntu_20.04-2.5.59.13.AppImage",
-    "description": "G-code generator for 3D printers"
-  },
-  {
-    "pkg": "superslicer-prerelease-bin",
-    "site": "supermerill/SuperSlicer",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/superslicer-prerelease-bin",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/superslicer-prerelease-bin",
-    "version_raw": "https://github.com/supermerill/SuperSlicer/releases/download/2.7.62.0-beta2/SuperSlicer-ubuntu_22.04-2.7.62.0.AppImage",
-    "description": "G-code generator for 3D printers"
-  },
-  {
-    "pkg": "supersonic",
-    "site": "dweymouth/supersonic",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/supersonic",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/supersonic",
-    "version_raw": "https://github.com/dweymouth/supersonic/releases/download/v0.21.1/Supersonic-0.21.1-linux-x64.AppImage",
-    "description": "A lightweight and full-featured cross-platform desktop client for self-hosted music servers"
-  },
-  {
-    "pkg": "supertag",
-    "site": "amoffat/supertag",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/supertag",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/supertag",
-    "version_raw": "https://github.com/amoffat/supertag/releases/download/v0.1.4/supertag-x86_64.AppImage",
-    "description": "A tag-based filesystem written in Rust"
-  },
-  {
-    "pkg": "supertux",
-    "site": "SuperTux/supertux",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/supertux",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/supertux",
-    "version_raw": "https://github.com/SuperTux/supertux/releases/download/v0.7.0/SuperTux-v0.7.0.glibc2.38-x86_64.AppImage",
-    "description": "Classic 2D jump'n run sidescroller game inspired to Super Mario"
-  },
-  {
-    "pkg": "supertuxkart",
-    "site": "ivan-hc/SuperTuxKart-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/supertuxkart",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/supertuxkart",
-    "version_raw": "https://github.com/ivan-hc/SuperTuxKart-appimage/releases/download/continuous-stable/SuperTuxKart_1.5-x86_64.AppImage",
-    "description": "Free kart racing game focused on Fun!"
-  },
-  {
-    "pkg": "supertuxkart-dev",
-    "site": "ivan-hc/SuperTuxKart-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/supertuxkart-dev",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/supertuxkart-dev",
-    "version_raw": "https://github.com/ivan-hc/SuperTuxKart-appimage/releases/download/continuous-dev/SuperTuxKart_DEV_1.5-x86_64.AppImage",
-    "description": "Free kart racing game focused on Fun! Pre-release"
-  },
-  {
-    "pkg": "surrealist",
-    "site": "surrealdb/surrealist",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/surrealist",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/surrealist",
-    "version_raw": "https://github.com/surrealdb/surrealist/releases/download/surrealist-v3.8.6/Surrealist_3.8.6_amd64.AppImage",
-    "description": "Surrealist is the ultimate way to visually manage your SurrealDB database"
-  },
-  {
-    "pkg": "suwayomi",
-    "site": "Suwayomi/Suwayomi-Server",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/suwayomi",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/suwayomi",
-    "version_raw": "https://github.com/Suwayomi/Suwayomi-Server/releases/download/v2.2.2100/Suwayomi-Server-v2.2.2100-appimage.AppImage",
-    "description": "A rewrite of Tachiyomi for the Desktop"
-  },
-  {
-    "pkg": "svelte-electron",
-    "site": "ptkdev-boilerplate/svelte-electron-boilerplate",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/svelte-electron",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/svelte-electron",
-    "version_raw": "https://github.com/ptkdev-boilerplate/svelte-electron-boilerplate/releases/download/2.0.0/svelte-electron-boilerplate-2.0.0-linux_x86_64.AppImage",
-    "description": "Create desktop apps with this Svelte boilerplate"
   }
 ]
