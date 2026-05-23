@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: AM 10.2-3\n"
 "Report-Msgid-Bugs-To: https://github.com/pkgforge-community/AM-HF-SYNC\n"
 "POT-Creation-Date: 2026-05-23\n"
-"PO-Revision-Date: 2026-05-22\n"
+"PO-Revision-Date: 2026-05-23 22:17+0200\n"
 "Last-Translator: John Doe <john.doe@example.com>\n"
 "Language-Team: Dutch <nl@li.org>\n"
 "Language: nl\n"
@@ -13,6 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.8\n"
 
 #: APP-MANAGER:119 APP-MANAGER:704
 msgid ""
@@ -100,8 +101,8 @@ msgstr ">>> Bedankt voor het kiezen van AppMan!"
 msgid ""
 " Write the path or just press enter to use default:$(printf \"\\n\\n \")"
 msgstr ""
-" Schrijf het pad of druk gewoon op enter om de standaard te gebruiken:"
-"$(printf \"\\n\\n \")"
+" Schrijf het pad of druk gewoon op enter om de standaard te gebruiken:$"
+"(printf \"\\n\\n \")"
 
 #: APP-MANAGER:340
 msgid " 💀 ERROR, you can't install applications in \\\"$BINDIR\\\""
@@ -187,7 +188,7 @@ msgstr ""
 "handmatig te installeren (standaard)."
 
 #: APP-MANAGER:617 modules/install.am:125 modules/install.am:142
-#: modules/install.am:664
+#: modules/install.am:664 modules/install.am:938
 msgid " Do you wish to continue? (N/y): "
 msgstr " Wilt u doorgaan? (N/j): "
 
@@ -349,8 +350,8 @@ msgid ""
 "cause problems.\\nSee https://github.com/pkgforge-community/AM-HF-SYNC/issues/1843\\n"
 msgstr ""
 "Zsh aanvulling vereist het bewerken van het hoofdconfiguratiebestand, maar "
-"het kan problemen veroorzaken.\\nZie https://github.com/pkgforge-community/AM-HF-SYNC/"
-"issues/1843\\n"
+"het kan problemen veroorzaken.\\nZie https://github.com/pkgforge-community/AM-HF-SYNC/issues/"
+"1843\\n"
 
 #: APP-MANAGER:1010
 msgid "Want to proceed anyway? (y,N)"
@@ -448,8 +449,8 @@ msgstr " Wilt u \\\"AppMan Modus\\\" betreden (j,N)?"
 #: APP-MANAGER:1327
 msgid " \\\"AM\\\" is read-only, want to use it in \\\"AppMan Mode\\\" (Y,n)? "
 msgstr ""
-" \\\"AM\\\" is alleen-lezen, wilt u het gebruiken in \\\"AppMan Modus\\\" (J,"
-"n)? "
+" \\\"AM\\\" is alleen-lezen, wilt u het gebruiken in \\\"AppMan Modus\\\" "
+"(J,n)? "
 
 #: APP-MANAGER:1331
 msgid "\\\"AppMan Mode\\\" enabled!"
@@ -859,8 +860,8 @@ msgid ""
 "\t\t\tYou can also set the path to a custom file by exporting the \\"
 "$CLONE_FILE variable."
 msgstr ""
-"Beschrijving: Kloon de lijst met geïnstalleerde apps naar een \\\"am-clone."
-"source\\\" bestand, of zoek naar een bestaande op het bureaublad "
+"Beschrijving: Kloon de lijst met geïnstalleerde apps naar een \\\"am-"
+"clone.source\\\" bestand, of zoek naar een bestaande op het bureaublad "
 "(prioriteit), in $HOME, of op het hele systeem en verwijderbare apparaten. "
 "Voeg \\\"-i\\\" of \\\"install\\\" toe als u de genoemde apps wilt "
 "installeren of toevoegen aan een nieuwe configuratie, om het te delen met "
@@ -1091,20 +1092,32 @@ msgstr ""
 "met de \\\"-t\\\" optie worden niet ondersteund."
 
 #: APP-MANAGER:2340
+msgid ""
+"Use the \\\"--launcher\\\" flag to reinstall .desktop files if they are "
+"updated or modified by the user. The files will be extracted from their "
+"respective AppImages and stored in the $SCRIPTDIR/AMLAUNCHER_DIR directory, "
+"just in case."
+msgstr ""
+"Gebruik de vlag \\\"--launcher\\\" om .desktop-bestanden opnieuw te "
+"installeren als deze door de gebruiker zijn bijgewerkt of gewijzigd. De "
+"bestanden worden uit hun respectievelijke AppImages gehaald en voor de "
+"zekerheid opgeslagen in de map $SCRIPTDIR/AMLAUNCHER_DIR."
+
+#: APP-MANAGER:2341
 msgid "Description: Remove and reinstall local/AppMan apps to a new location."
 msgstr ""
 "Beschrijving: Verwijder en herinstalleer lokale/AppMan apps naar een nieuwe "
 "locatie."
 
-#: APP-MANAGER:2341
+#: APP-MANAGER:2342
 msgid "Description: Removes one or more apps, requires confirmation."
 msgstr "Beschrijving: Verwijdert een of meer apps, vereist bevestiging."
 
-#: APP-MANAGER:2342
+#: APP-MANAGER:2343
 msgid "Description: Removes one or more apps without asking."
 msgstr "Beschrijving: Verwijdert een of meer apps zonder te vragen."
 
-#: APP-MANAGER:2343
+#: APP-MANAGER:2344
 msgid ""
 "Description: Run an AppImage in a sandbox.\n"
 "\n"
@@ -1118,11 +1131,11 @@ msgstr ""
 "en \\\"-ia\\\" of kan worden vervangen met de optie \\\"-ias\\\" (ook bekend "
 "als Install AppImage & Sandbox)."
 
-#: APP-MANAGER:2346
+#: APP-MANAGER:2347
 msgid "Description: Updates this script to the latest version hosted."
 msgstr "Beschrijving: Werkt dit script bij naar de laatst gehoste versie."
 
-#: APP-MANAGER:2347
+#: APP-MANAGER:2348
 msgid ""
 "Description: Generate a custom installation script. To test the scripts, use "
 "the \\\"$AMCLI -i '/path/to/script'\\\" command or enter the directory of "
@@ -1134,7 +1147,7 @@ msgstr ""
 "de map van het script en voer de \\\"$AMCLI -i ./script\\\" opdracht uit, "
 "zelfs met behulp van speciale vlaggen, indien nodig (zie \\\"-i\\\")."
 
-#: APP-MANAGER:2348
+#: APP-MANAGER:2349
 msgid ""
 "Description: Download and set one or more language packs (if available), set "
 "\\\"$AMCLI\\\" to English (default), your language or other languages."
@@ -1148,7 +1161,7 @@ msgstr ""
 "translations om bronbestanden te krijgen die nodig zijn om nieuwe "
 "vertalingen in te dienen of de bestaande te verbeteren."
 
-#: APP-MANAGER:2349
+#: APP-MANAGER:2350
 msgid ""
 "Description: Allow a hidden app to be shown and managed again (nulls \\"
 "\"hide\\\")."
@@ -1156,14 +1169,14 @@ msgstr ""
 "Beschrijving: Sta een verborgen app toe om weer te worden getoond en beheerd "
 "(maakt \\\"hide\\\" ongedaan)."
 
-#: APP-MANAGER:2350
+#: APP-MANAGER:2351
 msgid ""
 "Description: Unlock updates for the selected program (nulls \\\"lock\\\")."
 msgstr ""
 "Beschrijving: Ontgrendel updates voor het geselecteerde programma (maakt \\"
 "\"lock\\\" ongedaan)."
 
-#: APP-MANAGER:2351
+#: APP-MANAGER:2352
 msgid ""
 "Description: Update everything. Add \\\"--apps\\\" to update only the apps "
 "or write only the apps you want to update by adding their names. Add the \\"
@@ -1178,27 +1191,27 @@ msgstr ""
 "alleen lokale AppImages bij te werken die zijn geïntegreerd met de \\\"--"
 "launcher\\\" optie (zie \\\"--launcher\\\")."
 
-#: APP-MANAGER:2352
+#: APP-MANAGER:2353
 msgid "Description: Shows the version."
 msgstr "Beschrijving: Toont de versie."
 
-#: APP-MANAGER:2353
+#: APP-MANAGER:2354
 msgid "Description: Undo \\\"--devmode-enable\\\" (see below)."
 msgstr "Beschrijving: Maak \\\"--devmode-enable\\\" ongedaan (zie hieronder)."
 
-#: APP-MANAGER:2354
+#: APP-MANAGER:2355
 msgid "Description: Use the development branch (at your own risk)."
 msgstr "Beschrijving: Gebruik de ontwikkelingsbranch (op eigen risico)."
 
-#: APP-MANAGER:2355
+#: APP-MANAGER:2356
 msgid "Description: Disable notifications during apps update."
 msgstr "Beschrijving: Schakel meldingen uit tijdens het bijwerken van apps."
 
-#: APP-MANAGER:2356
+#: APP-MANAGER:2357
 msgid "Description: Disable the sandbox for the selected app."
 msgstr "Beschrijving: Schakel de sandbox uit voor de geselecteerde app."
 
-#: APP-MANAGER:2357
+#: APP-MANAGER:2358
 msgid ""
 "Description: Enable notifications during apps update (nulls \\\"--disable-"
 "notifications\\\")."
@@ -1206,14 +1219,14 @@ msgstr ""
 "Beschrijving: Schakel meldingen in tijdens het bijwerken van apps (maakt \\"
 "\"--disable-notifications\\\" ongedaan)."
 
-#: APP-MANAGER:2358
+#: APP-MANAGER:2359
 msgid ""
 "Description: Downgrades an installed app from pre-release to \\\"latest\\\"."
 msgstr ""
 "Beschrijving: Downgrade een geïnstalleerde app van pre-release naar \\"
 "\"latest\\\"."
 
-#: APP-MANAGER:2359
+#: APP-MANAGER:2360
 msgid ""
 "Description: Drag/drop one or more AppImages in the terminal and embed them "
 "in the apps menu and customize a command to use from the CLI.\n"
@@ -1235,15 +1248,15 @@ msgstr ""
 "zeerste aan om in plaats daarvan de opties \\\"-ia\\\" en \\\"-e\\\" te "
 "gebruiken."
 
-#: APP-MANAGER:2362
+#: APP-MANAGER:2363
 msgid ""
-"Description: Switch \\\"AM\\\" back to \\\"AM\\\" from \\\"AppMan Mode\\"
-"\" (see \\\"--user\\\")."
+"Description: Switch \\\"AM\\\" back to \\\"AM\\\" from \\\"AppMan Mode\\\" "
+"(see \\\"--user\\\")."
 msgstr ""
 "Beschrijving: Schakel \\\"AM\\\" terug van \\\"AppMan Modus\\\" naar \\\"AM\\"
 "\" (zie \\\"--user\\\")."
 
-#: APP-MANAGER:2363
+#: APP-MANAGER:2364
 msgid ""
 "Description: Made \\\"AM\\\" run in \\\"AppMan Mode\\\", locally, useful for "
 "unprivileged users. This option only works with \\\"AM\\\".\n"
@@ -1264,18 +1277,18 @@ msgstr ""
 "\t\t\t- Gebruik het om toepassingen lokaal te installeren, optie \\\"-i\\\" "
 "of \\\"install\\\":"
 
-#: APP-MANAGER:2368
+#: APP-MANAGER:2369
 msgid "- Also suboptions of \\\"-i\\\" can work with this flag:"
 msgstr "- Ook subopties van \\\"-i\\\" kunnen met deze vlag werken:"
 
-#: APP-MANAGER:2369
+#: APP-MANAGER:2370
 msgid ""
 "- Same for AppImages only, option \\\"-ia\\\" or \\\"install-appimage\\\":"
 msgstr ""
 "- Hetzelfde alleen voor AppImages, optie \\\"-ia\\\" of \\\"install-"
 "appimage\\\":"
 
-#: APP-MANAGER:2370
+#: APP-MANAGER:2371
 msgid ""
 "- External AppImages can be installed like this as well, option \\\"-e\\\" "
 "or \\\"extra\\\":"
@@ -1283,7 +1296,7 @@ msgstr ""
 "- Externe AppImages kunnen ook zo worden geïnstalleerd, optie \\\"-e\\\" of "
 "\\\"extra\\\":"
 
-#: APP-MANAGER:2371
+#: APP-MANAGER:2372
 msgid ""
 "NOTE, \\\"AM\\\" 9 or higher is also able to update and manage apps locally, "
 "by default, and without having to switch to \\\"AppMan Mode\\\"."
@@ -1291,7 +1304,7 @@ msgstr ""
 "LET OP, \\\"AM\\\" 9 of hoger is ook in staat om apps standaard lokaal bij "
 "te werken en te beheren, zonder over te schakelen naar \\\"AppMan Modus\\\"."
 
-#: APP-MANAGER:2738
+#: APP-MANAGER:2742
 msgid ""
 "ERROR: unknown option \\\"$1\\\", run the \\\"$AMCLI -h\\\" command to find "
 "out more"
@@ -1801,8 +1814,8 @@ msgid ""
 "command.\\n\\n\" \"${Gold}\")"
 msgstr ""
 "💀 FOUT: \\\"$arg\\\" bestaat NIET in de \\\"AM\\\" database, $(printf "
-"\"controleer alstublieft de lijst, voer de \\\"%b$AMCLIPATH_ORIGIN -"
-"l\\033[0m\\\" opdracht uit.\\n\\n\" \"${Gold}\")"
+"\"controleer alstublieft de lijst, voer de \\\"%b$AMCLIPATH_ORIGIN "
+"-l\\033[0m\\\" opdracht uit.\\n\\n\" \"${Gold}\")"
 
 #: modules/install.am:816
 msgid "\\n             The following new programs have been installed:\\n\\n"
@@ -1837,7 +1850,13 @@ msgstr "%b\\n AFGE BROKEN! \\n%b\\n"
 msgid "%b\\n Reinstalling everything...\\n%b\\n"
 msgstr "%b\\n Alles opnieuw installeren...\\n%b\\n"
 
-#: modules/install.am:907
+#: modules/install.am:937
+msgid "- Found differences in %b, it probably needs to be updated.\\n"
+msgstr ""
+"- Er zijn verschillen gevonden in %b, deze moet waarschijnlijk worden "
+"bijgewerkt.\\n"
+
+#: modules/install.am:955
 msgid ""
 "%b\\n Checking for changes of the installation scripts in the online "
 "database...\\n%b\\n"
@@ -1845,11 +1864,11 @@ msgstr ""
 "%b\\n Controleren op wijzigingen van de installatiescripts in de online "
 "database...\\n%b\\n"
 
-#: modules/install.am:937
+#: modules/install.am:985
 msgid " App removal and reinstallation complete! \\n%b\\n"
 msgstr " App verwijdering en herinstallatie voltooid! \\n%b\\n"
 
-#: modules/install.am:937
+#: modules/install.am:985
 msgid " Nothing to do here! \\n%b\\n"
 msgstr " Hier niets te doen! \\n%b\\n"
 
@@ -2094,11 +2113,11 @@ msgstr " Wilt u de oude libfuse2 AppImage verwijderen? (J,n) "
 
 #: modules/management.am:497 modules/management.am:515
 msgid ""
-" \\\"${RED}$arg\\033[0m\\\" is not a valid \\\"APPNAME\\\", see \\\"$AMCLI -"
-"f\\\" for more."
+" \\\"${RED}$arg\\033[0m\\\" is not a valid \\\"APPNAME\\\", see \\\"$AMCLI "
+"-f\\\" for more."
 msgstr ""
-" \\\"${RED}$arg\\033[0m\\\" is geen geldige \\\"APPNAAM\\\", zie \\\"$AMCLI -"
-"f\\\" voor meer."
+" \\\"${RED}$arg\\033[0m\\\" is geen geldige \\\"APPNAAM\\\", zie \\\"$AMCLI "
+"-f\\\" voor meer."
 
 #: modules/management.am:498
 msgid " ◆ Do you wish to remove \\\"$arg\\\"? (Y/n) "
@@ -2246,13 +2265,13 @@ msgstr ""
 msgid ""
 " LIST OF CATEGORIES:\\n 0) AudioVideo\\n 1) Audio\\n 2) Video\\n 3) "
 "Development\\n 4) Education\\n 5) Game\\n 6) Graphics\\n 7) Network\\n 8) "
-"Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility "
-"(default)\\n "
+"Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility (default)"
+"\\n "
 msgstr ""
 " LIJST VAN CATEGORIËN:\\n 0) AudioVideo\\n 1) Audio\\n 2) Video\\n 3) "
 "Development\\n 4) Education\\n 5) Game\\n 6) Graphics\\n 7) Network\\n 8) "
-"Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility "
-"(standaard)\\n "
+"Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility (standaard)"
+"\\n "
 
 #: modules/template.am:151
 msgid " CHOOSE A CATEGORY : "
@@ -2324,11 +2343,11 @@ msgstr ""
 
 #: modules/template.am:429
 msgid ""
-" PLEASE, SELECT A TEMPLATE FOR \\\"$(echo \"$arg\" | tr '[:lower:]' '[:"
-"upper:]')\\\":"
+" PLEASE, SELECT A TEMPLATE FOR \\\"$(echo \"$arg\" | tr '[:lower:]' "
+"'[:upper:]')\\\":"
 msgstr ""
-" SELECTEER ALSTUBLIEFT EEN SJABLOON VOOR \\\"$(echo \"$arg\" | tr '[:"
-"lower:]' '[:upper:]')\\\":"
+" SELECTEER ALSTUBLIEFT EEN SJABLOON VOOR \\\"$(echo \"$arg\" | tr "
+"'[:lower:]' '[:upper:]')\\\":"
 
 #: modules/template.am:431
 msgid "  0) APPIMAGE, FROM ANY WEBSITE (BETTER IF FROM GITHUB.COM)"
@@ -2355,8 +2374,8 @@ msgstr " VOOR WAT VOOR SOORT PROGRAMMA WILT U EEN SCRIPT SCHRIJVEN? : "
 
 #: modules/template.am:449 modules/template.am:485
 msgid ""
-" ◆ ADD THE URL OF THE SITE (BETTER IF IT COME FROM GITHUB), FOR EXAMPLE: "
-"$(echo -e '\n"
+" ◆ ADD THE URL OF THE SITE (BETTER IF IT COME FROM GITHUB), FOR EXAMPLE: $"
+"(echo -e '\n"
 "\n"
 " - if from github.com, use \"https://github.com/USER/PROJECT\"\n"
 "\n"

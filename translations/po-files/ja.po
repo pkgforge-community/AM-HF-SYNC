@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: AM 10.2-4\n"
 "Report-Msgid-Bugs-To: https://github.com/pkgforge-community/AM-HF-SYNC\n"
 "POT-Creation-Date: 2026-05-23\n"
-"PO-Revision-Date: 2026-05-23 17:12+0200\n"
+"PO-Revision-Date: 2026-05-23 22:22+0200\n"
 "Last-Translator: John Doe <john.doe@example.com>\n"
 "Language-Team: Japanese <LL@li.org>\n"
 "Language: ja\n"
@@ -189,7 +189,7 @@ msgstr ""
 "るには \\\"N\\\" を押してください（デフォルト）。"
 
 #: APP-MANAGER:617 modules/install.am:125 modules/install.am:142
-#: modules/install.am:664
+#: modules/install.am:664 modules/install.am:938
 msgid " Do you wish to continue? (N/y): "
 msgstr " 続行しますか? (N/y): "
 
@@ -1071,19 +1071,30 @@ msgstr ""
 "リプトはサポートされていません。"
 
 #: APP-MANAGER:2340
+msgid ""
+"Use the \\\"--launcher\\\" flag to reinstall .desktop files if they are "
+"updated or modified by the user. The files will be extracted from their "
+"respective AppImages and stored in the $SCRIPTDIR/AMLAUNCHER_DIR directory, "
+"just in case."
+msgstr ""
+"ユーザーが.desktopファイルを更新または変更した場合、\\\"--launcher\\\"フラグ"
+"を使用して再インストールしてください。ファイルはそれぞれのAppImageから抽出さ"
+"れ、念のため`$SCRIPTDIR/AMLAUNCHER_DIR`ディレクトリに保存されます。"
+
+#: APP-MANAGER:2341
 msgid "Description: Remove and reinstall local/AppMan apps to a new location."
 msgstr ""
 "説明: ローカル/AppManアプリを削除し、新しい場所に再インストールします。"
 
-#: APP-MANAGER:2341
+#: APP-MANAGER:2342
 msgid "Description: Removes one or more apps, requires confirmation."
 msgstr "説明: 1つ以上のアプリを削除します。確認が必要です。"
 
-#: APP-MANAGER:2342
+#: APP-MANAGER:2343
 msgid "Description: Removes one or more apps without asking."
 msgstr "説明: 1つ以上のアプリを確認なしで削除します。"
 
-#: APP-MANAGER:2343
+#: APP-MANAGER:2344
 msgid ""
 "Description: Run an AppImage in a sandbox.\n"
 "\n"
@@ -1097,11 +1108,11 @@ msgstr ""
 "用できます。または、オプション \\\"-ias\\\"（別名Install AppImage & Sandbox）"
 "を使用して置き換えることができます。"
 
-#: APP-MANAGER:2346
+#: APP-MANAGER:2347
 msgid "Description: Updates this script to the latest version hosted."
 msgstr "説明: このスクリプトをホストされている最新バージョンに更新します。"
 
-#: APP-MANAGER:2347
+#: APP-MANAGER:2348
 msgid ""
 "Description: Generate a custom installation script. To test the scripts, use "
 "the \\\"$AMCLI -i '/path/to/script'\\\" command or enter the directory of "
@@ -1113,7 +1124,7 @@ msgstr ""
 "ディレクトリに入って \\\"$AMCLI -i ./script\\\" コマンドを実行します。必要に"
 "応じて専用フラグを使用することもできます（\\\"-i\\\" を参照）。"
 
-#: APP-MANAGER:2348
+#: APP-MANAGER:2349
 msgid ""
 "Description: Download and set one or more language packs (if available), set "
 "\\\"$AMCLI\\\" to English (default), your language or other languages."
@@ -1127,7 +1138,7 @@ msgstr ""
 "スファイルを取得するには、https://github.com/pkgforge-community/AM-HF-SYNC/tree/$AMBRANCH/"
 "translations にアクセスしてください。"
 
-#: APP-MANAGER:2349
+#: APP-MANAGER:2350
 msgid ""
 "Description: Allow a hidden app to be shown and managed again (nulls \\"
 "\"hide\\\")."
@@ -1135,14 +1146,14 @@ msgstr ""
 "説明: 非表示のアプリが再度表示および管理されるようにします（\\\"hide\\\" を無"
 "効化します）。"
 
-#: APP-MANAGER:2350
+#: APP-MANAGER:2351
 msgid ""
 "Description: Unlock updates for the selected program (nulls \\\"lock\\\")."
 msgstr ""
 "説明: 選択したプログラムの更新のロックを解除します（\\\"lock\\\" を無効化しま"
 "す）。"
 
-#: APP-MANAGER:2351
+#: APP-MANAGER:2352
 msgid ""
 "Description: Update everything. Add \\\"--apps\\\" to update only the apps "
 "or write only the apps you want to update by adding their names. Add the \\"
@@ -1156,27 +1167,27 @@ msgstr ""
 "ションで統合されたローカルAppImageのみを更新しようとするには \\\"--launcher\\"
 "\" フラグを追加します（\\\"--launcher\\\" を参照）。"
 
-#: APP-MANAGER:2352
+#: APP-MANAGER:2353
 msgid "Description: Shows the version."
 msgstr "説明: バージョンを表示します。"
 
-#: APP-MANAGER:2353
+#: APP-MANAGER:2354
 msgid "Description: Undo \\\"--devmode-enable\\\" (see below)."
 msgstr "説明: \\\"--devmode-enable\\\" を元に戻します（下記参照）。"
 
-#: APP-MANAGER:2354
+#: APP-MANAGER:2355
 msgid "Description: Use the development branch (at your own risk)."
 msgstr "説明: 開発ブランチを使用します（自己責任）。"
 
-#: APP-MANAGER:2355
+#: APP-MANAGER:2356
 msgid "Description: Disable notifications during apps update."
 msgstr "説明: アプリの更新中に通知を無効にします。"
 
-#: APP-MANAGER:2356
+#: APP-MANAGER:2357
 msgid "Description: Disable the sandbox for the selected app."
 msgstr "説明: 選択したアプリのサンドボックスを無効にします。"
 
-#: APP-MANAGER:2357
+#: APP-MANAGER:2358
 msgid ""
 "Description: Enable notifications during apps update (nulls \\\"--disable-"
 "notifications\\\")."
@@ -1184,14 +1195,14 @@ msgstr ""
 "説明: アプリの更新中に通知を有効にします（\\\"--disable-notifications\\\" を"
 "無効化します）。"
 
-#: APP-MANAGER:2358
+#: APP-MANAGER:2359
 msgid ""
 "Description: Downgrades an installed app from pre-release to \\\"latest\\\"."
 msgstr ""
 "説明: インストール済みアプリをプレリリースから \\\"latest\\\"（最新）にダウン"
 "グレードします。"
 
-#: APP-MANAGER:2359
+#: APP-MANAGER:2360
 msgid ""
 "Description: Drag/drop one or more AppImages in the terminal and embed them "
 "in the apps menu and customize a command to use from the CLI.\n"
@@ -1212,7 +1223,7 @@ msgstr ""
 "ん。代わりにオプション \\\"-ia\\\" と \\\"-e\\\" を使用することを強くお勧めし"
 "ます。"
 
-#: APP-MANAGER:2362
+#: APP-MANAGER:2363
 msgid ""
 "Description: Switch \\\"AM\\\" back to \\\"AM\\\" from \\\"AppMan Mode\\\" "
 "(see \\\"--user\\\")."
@@ -1220,7 +1231,7 @@ msgstr ""
 "説明: \\\"AppManモード\\\" から \\\"AM\\\" に戻します（\\\"--user\\\" を参"
 "照）。"
 
-#: APP-MANAGER:2363
+#: APP-MANAGER:2364
 msgid ""
 "Description: Made \\\"AM\\\" run in \\\"AppMan Mode\\\", locally, useful for "
 "unprivileged users. This option only works with \\\"AM\\\".\n"
@@ -1241,18 +1252,18 @@ msgstr ""
 "\t\t\t- アプリケーションをローカルにインストールするために使用します、オプ"
 "ション \\\"-i\\\" または \\\"install\\\":"
 
-#: APP-MANAGER:2368
+#: APP-MANAGER:2369
 msgid "- Also suboptions of \\\"-i\\\" can work with this flag:"
 msgstr "- また、\\\"-i\\\" のサブオプションもこのフラグで機能できます:"
 
-#: APP-MANAGER:2369
+#: APP-MANAGER:2370
 msgid ""
 "- Same for AppImages only, option \\\"-ia\\\" or \\\"install-appimage\\\":"
 msgstr ""
 "- AppImageのみの場合も同じです、オプション \\\"-ia\\\" または \\\"install-"
 "appimage\\\":"
 
-#: APP-MANAGER:2370
+#: APP-MANAGER:2371
 msgid ""
 "- External AppImages can be installed like this as well, option \\\"-e\\\" "
 "or \\\"extra\\\":"
@@ -1260,7 +1271,7 @@ msgstr ""
 "- 外部AppImageもこのようにインストールできます、オプション \\\"-e\\\" または "
 "\\\"extra\\\":"
 
-#: APP-MANAGER:2371
+#: APP-MANAGER:2372
 msgid ""
 "NOTE, \\\"AM\\\" 9 or higher is also able to update and manage apps locally, "
 "by default, and without having to switch to \\\"AppMan Mode\\\"."
@@ -1268,7 +1279,7 @@ msgstr ""
 "注、\\\"AM\\\" 9以降は、デフォルトでローカルアプリを更新・管理でき、\\"
 "\"AppManモード\\\" に切り替える必要はありません。"
 
-#: APP-MANAGER:2738
+#: APP-MANAGER:2742
 msgid ""
 "ERROR: unknown option \\\"$1\\\", run the \\\"$AMCLI -h\\\" command to find "
 "out more"
@@ -1820,18 +1831,22 @@ msgstr "%b\\n 中止されました！ \\n%b\\n"
 msgid "%b\\n Reinstalling everything...\\n%b\\n"
 msgstr "%b\\n すべてを再インストール中...\\n%b\\n"
 
-#: modules/install.am:907
+#: modules/install.am:937
+msgid "- Found differences in %b, it probably needs to be updated.\\n"
+msgstr "- %bに差異が見つかりました。更新が必要かもしれません\\n"
+
+#: modules/install.am:955
 msgid ""
 "%b\\n Checking for changes of the installation scripts in the online "
 "database...\\n%b\\n"
 msgstr ""
 "%b\\n オンラインデータベースでインストールスクリプトの変更を確認中...\\n%b\\n"
 
-#: modules/install.am:937
+#: modules/install.am:985
 msgid " App removal and reinstallation complete! \\n%b\\n"
 msgstr " アプリの削除と再インストールが完了しました！ \\n%b\\n"
 
-#: modules/install.am:937
+#: modules/install.am:985
 msgid " Nothing to do here! \\n%b\\n"
 msgstr " ここでは何もしません！ \\n%b\\n"
 
