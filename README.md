@@ -149,7 +149,7 @@ curl -s -Lo ./AM-INSTALLER https://raw.githubusercontent.com/pkgforge-community/
 
 ------------------------------------------------------------------------
 
-<img width="747" height="600" alt="installer" src="https://github.com/user-attachments/assets/f8a153e8-d410-4a7e-9e5c-b48e686547ee" />
+<img width="747" height="600" alt="installer" src="https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/refs/heads/main/sample/am-installer.png" />
 
 ------------------------------------------------------------------------
 
@@ -159,7 +159,7 @@ Type "1" to install "AM", "2" to install "[AppMan](#what-is-appman)". Any other 
 
 | AM (system-wide installation) | AppMan (local installation)
 | - | - |
-| <img width="747" height="798" alt="AM" src="https://github.com/user-attachments/assets/51e45525-d858-42a0-9e33-ff2a087968fd" /> | <img width="747" height="798" alt="AppMan" src="https://github.com/user-attachments/assets/99296420-f6da-4d6f-8080-e6ad03aaf0d2" /> |
+| <img width="747" height="798" alt="AM" src="https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/refs/heads/main/sample/am-installer-am.png" /> | <img width="747" height="798" alt="AppMan" src="https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/refs/heads/main/sample/am-installer-appman.png" /> |
 
 ------------------------------------------------------------------------
 
