@@ -9412,7 +9412,7 @@
     "site": "vim/vim-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gvim",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gvim",
-    "version_raw": "https://github.com/vim/vim-appimage/releases/download/v9.2.0538/GVim-v9.2.0538.glibc2.34-x86_64.AppImage",
+    "version_raw": "https://github.com/vim/vim-appimage/releases/download/v9.2.0541/GVim-v9.2.0541.glibc2.34-x86_64.AppImage",
     "description": "Edit text files"
   },
   {
@@ -12924,7 +12924,7 @@
     "site": "mlm-games/mages",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mages",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mages",
-    "version_raw": "https://github.com/mlm-games/Mages/releases/download/4.7.3/mages-4.7.3-x86_64.AppImage",
+    "version_raw": "https://github.com/mlm-games/Mages/releases/download/4.7.4/mages-4.7.4-x86_64.AppImage",
     "description": "Multiplatform Matrix chat client (experimental CMP+rust app)"
   },
   {
@@ -13132,7 +13132,7 @@
     "site": "marktext/marktext",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/marktext",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/marktext",
-    "version_raw": "https://github.com/marktext/marktext/releases/download/v0.19.0-rc.3/marktext-linux-0.19.0-rc.3.AppImage",
+    "version_raw": "https://github.com/marktext/marktext/releases/download/v0.19.0-rc.4/marktext-linux-0.19.0-rc.4.AppImage",
     "description": "A simple and elegant markdown editor multiplatform"
   },
   {
@@ -14988,7 +14988,7 @@
     "site": "mmtrt/notepad-plus-plus_AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/notepad++",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/notepad++",
-    "version_raw": "https://github.com/mmtrt/notepad-plus-plus_AppImage/releases/download/stable/notepad-plus-plus-8.9.6-x86_64.AppImage",
+    "version_raw": "https://github.com/mmtrt/notepad-plus-plus_AppImage/releases/download/stable/notepad-plus-plus-8.9.6.1-x86_64.AppImage",
     "description": "Unofficial Appimage of Notepad++, with WINE prefix"
   },
   {
@@ -21630,21 +21630,5 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/strace",
     "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
     "description": "Trace system calls and signals. This is part of am-utils suite"
-  },
-  {
-    "pkg": "strans",
-    "site": "Inventitech/strans",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/strans",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/strans",
-    "version_raw": "https://github.com/Inventitech/strans/releases/download/v0.0.5/strans-linux.AppImage",
-    "description": "A powerful command-line utility"
-  },
-  {
-    "pkg": "strata",
-    "site": "arkottke/strata",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/strata",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/strata",
-    "version_raw": "https://github.com/arkottke/strata/releases/download/v0.8.0/Strata-v0.8.0-ac668eb-x86_64.AppImage",
-    "description": "Semi-automated selection and scaling of time series"
   }
 ]
