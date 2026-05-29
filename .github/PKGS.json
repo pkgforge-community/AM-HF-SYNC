@@ -724,7 +724,7 @@
     "site": "aurelienpierreeng/ansel",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ansel",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ansel",
-    "version_raw": "https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/Ansel-0.0.0%2B3568.g9ac588d00d-x86_64.AppImage",
+    "version_raw": "https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/Ansel-0.0.0%2B3576.g2ff67437d8-x86_64.AppImage",
     "description": "An open-source photo-editing software for digital artists, designed to help you achieve your own interpretation of raw digital photographs"
   },
   {
@@ -2708,7 +2708,7 @@
     "site": "http://c-evo.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/c-evo",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/c-evo",
-    "version_raw": "https://svn.zdechov.net/c-evo/bin/appimage/C-evo-nh-1.3.9-x86_64.AppImage",
+    "version_raw": "",
     "description": "C-evo is an empire building game based on Civilization II, but with a different focus. It aims to be a pure game with all players playing to win"
   },
   {
@@ -3502,14 +3502,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/classipod",
     "version_raw": "https://github.com/adeeteya/Classipod/releases/download/1.12.0/Classipod-Linux-AppImage.AppImage",
     "description": "A local music player app designed to capture the nostalgic essence of the iconic iPod Classic"
-  },
-  {
-    "pkg": "claude-desktop",
-    "site": "aaddrick/claude-desktop-debian",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/claude-desktop",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/claude-desktop",
-    "version_raw": "https://github.com/aaddrick/claude-desktop-debian/releases/download/v2.0.16%2Bclaude1.9255.2/claude-desktop-1.9255.2-2.0.16-amd64.AppImage",
-    "description": "Claude Desktop for Debian-based Linux distributions"
   },
   {
     "pkg": "clear",
@@ -4556,7 +4548,7 @@
     "site": "https://www.cursor.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cursor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cursor",
-    "version_raw": "https://downloads.cursor.com/production/009bb5a3600dd98fe1c1f25798f767f686e14759/linux/x64/Cursor-3.5.38-x86_64.AppImage",
+    "version_raw": "https://downloads.cursor.com/production/e7a7e93f4d75f8272503ecf33cedbaae10114a15/linux/x64/Cursor-3.6.21-x86_64.AppImage",
     "description": "Built to make you extraordinarily productive, Cursor is the best way to code with AI"
   },
   {
@@ -9108,7 +9100,7 @@
     "site": "lseurttyuu/GPU-T",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gpu-t",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gpu-t",
-    "version_raw": "https://github.com/lseurttyuu/GPU-T/releases/download/v0.2.0/GPU-T-0.2.0-x86_64.AppImage",
+    "version_raw": "https://github.com/lseurttyuu/GPU-T/releases/download/v0.2.1/GPU-T-0.2.1-x86_64.AppImage",
     "description": "A comprehensive graphics card information utility for Linux"
   },
   {
@@ -11264,6 +11256,14 @@
     "description": "Finnish bookkeeping software for small organizations"
   },
   {
+    "pkg": "kitshn",
+    "site": "aimok04/kitshn",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kitshn",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kitshn",
+    "version_raw": "https://github.com/aimok04/kitshn/releases/download/v2.1.0/kitshn-2.1.0-x86_64.AppImage",
+    "description": "An unofficial client for the self-hosted Tandoor recipe management software"
+  },
+  {
     "pkg": "kitty",
     "site": "kovidgoyal/kitty",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kitty",
@@ -11700,7 +11700,7 @@
     "site": "https://www.ledger.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ledger-live-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ledger-live-desktop",
-    "version_raw": "https://download.live.ledger.com/ledger-live-desktop-4.4.0-linux-x86_64.AppImage",
+    "version_raw": "https://download.live.ledger.com/ledger-live-desktop-4.6.0-linux-x86_64.AppImage",
     "description": "Ledger Wallet crypto app. Secure your crypto assets such as Bitcoin, Ethereum, XRP, Monero, and more. Give yourself peace of mind by knowing that your cryptocurrencies are safe"
   },
   {
@@ -12004,7 +12004,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.28_260429_x86_64_01.AppImage",
+    "version_raw": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.22_251203_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -12124,7 +12124,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.2-canary.1/LobeHub-2.2.2-canary.1.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.2-canary.2/LobeHub-2.2.2-canary.2.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -12692,7 +12692,7 @@
     "site": "Materialious/Materialious",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/materialious",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/materialious",
-    "version_raw": "https://github.com/Materialious/Materialious/releases/download/1.16.29/Materialious-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/Materialious/Materialious/releases/download/1.16.30/Materialious-linux-x86_64.AppImage",
     "description": "Modern material design for Invidious"
   },
   {
@@ -18916,7 +18916,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-c11979d1245509478145da11d7fcbe4e8815dd15/rpcs3-v0.0.40-19399-c11979d1_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-7c6b3dcdb9e63b319f06df2c4fd5798fbd25b32a/rpcs3-v0.0.40-19400-7c6b3dcd_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -21996,7 +21996,7 @@
     "site": "tenacityteam/tenacity",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tenacity",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tenacity",
-    "version_raw": "https://codeberg.org/tenacityteam/tenacity/releases/download/v1.4-alpha1/tenacity-linux-1.4.0-x86_64.AppImage",
+    "version_raw": "",
     "description": "An easy-to-use, cross-platform multi-track audio editor/recorder"
   },
   {
@@ -22540,7 +22540,7 @@
     "site": "https://gitlab.com/ForTheCommunity/torrentsdigger",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/torrents_digger",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/torrents_digger",
-    "version_raw": "https://gitlab.com/ForTheCommunity/torrentsdigger/-/jobs/artifacts/v1.2.2+22/raw/releases/torrents_digger_1.2_x86_64_linux.AppImage?job=build_appimage",
+    "version_raw": "https://gitlab.com/ForTheCommunity/torrentsdigger/-/jobs/artifacts/v1.2.3+23/raw/releases/torrents_digger_1.2_x86_64_linux.AppImage?job=build_appimage",
     "description": "Torrents Digger searches already available torrents from internet"
   },
   {
@@ -24172,7 +24172,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "10035524521",
+    "version_raw": "10040760119",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -24364,7 +24364,7 @@
     "site": "mmtrt/WINE_AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wine-staging",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wine-staging",
-    "version_raw": "https://github.com/mmtrt/WINE_AppImage/releases/download/continuous-staging/wine-staging_11.9-x86_64.AppImage",
+    "version_raw": "https://github.com/mmtrt/WINE_AppImage/releases/download/test7/wine-staging_11.9-x86_64.AppImage",
     "description": "Unofficial. Compatibility layer to run x86_64 Windows programs, Staging"
   },
   {
