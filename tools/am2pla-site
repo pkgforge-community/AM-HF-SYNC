@@ -24,7 +24,7 @@ ARGS=$(sort -u ./args)
 METAPACKAGES="kdegames kdeutils node platform-tools"
 APPS_NUMBER=$(grep -v "\"kdegames\"\|\"kdeutils\"\|\"node\"\|\"platform-tools\"" "$arch"-apps | grep -e "$" -c)
 ITEMS_NUMBER=$(grep "\"kdegames\"\|\"kdeutils\"\|\"node\"\|\"platform-tools\"" "$arch"-apps | grep -e "$" -c)
-CATEGORIES="am-utils android audio \
+CATEGORIES="ai am-utils android audio \
 	comic command-line communication \
 	disk \
 	education \
@@ -96,36 +96,13 @@ function _categories_buttons() {
 	{
 		printf '\n#### *Categories*\n\n'
 		printf '<div class="cat-grid">\n'
-		CATEGORIES_ALL="am-utils android appimages audio \
-			comic command-line communication \
-			disk \
-			education \
-			file-manager finance \
-			game gnome graphic \
-			internet \
-			kde \
-			metapackages \
-			office \
-			password \
-			portable \
-			steam system-monitor \
-			video \
-			web-app web-browser wine"
-		for c in $CATEGORIES_ALL; do
-			if [ "$c" = "am-utils" ]; then
-				if [ "$category_page" = am-utils ]; then
-					printf '  <a class="cat-pill cat-pill--all" href="%s.html">%s</a>\n' "$c" "$c"
-				else
-					printf '  <a class="cat-pill" href="%s.html">%s</a>\n' "$c" "$c"
-				fi
-			elif [ "$c" = appimages ]; then
-				printf '  <span class="cat-sep" aria-hidden="true">\xe2\x80\xa2</span>\n'
-				if [ "$category_page" = appimages ]; then
-					printf '  <a class="cat-pill cat-pill--all" href="appimages.html">AppImages</a>\n'
-				else
-					printf '  <a class="cat-pill" href="appimages.html">AppImages</a>\n'
-				fi
-			elif [ "$c" = portable ]; then
+		if [ "$category_page" = appimages ]; then
+			printf '  <a class="cat-pill cat-pill--all" href="appimages.html">AppImages</a>\n'
+		else
+			printf '  <a class="cat-pill" href="appimages.html">AppImages</a>\n'
+		fi
+		for c in $CATEGORIES; do
+			if [ "$c" = portable ]; then
 				printf '  <span class="cat-sep" aria-hidden="true">\xe2\x80\xa2</span>\n'
 				if [ "$category_page" = portable ]; then
 					printf '  <a class="cat-pill cat-pill--all" href="portable.html">Portable</a>\n'
@@ -698,7 +675,10 @@ function _category_list_body() {
 }
 
 for category in $CATEGORIES; do
-	if [ "$category" = am-utils ]; then
+	if [ "$category" = ai ]; then
+		grep "AI" ./"$arch"-apps >> "$arch-$category"
+		grep -i "chatgpt\|openai\|gemini\|claude\|copilot\|perplexity\| meta \|grok\|anthropic\|huggingface\|mistral\|cohere\|together\|replicate\|cursor\|codeium\|tabnine\|replit\|windsurf\|midjourney\|firefly\|canva\|runway\|leonardo\|synthesia\|elevenlabs\|heygen\|zapier\|z.ai\|clickup\|grammarly\|ollama\|lmstudio\|openwebui\|salesforce\|watsonx" ./"$arch"-apps >> "$arch-$category"
+	elif [ "$category" = am-utils ]; then
 		grep -i "\"$category\"" ./"$arch"-apps >> "$arch-$category"
 	elif [ "$category" = android ]; then
 		grep -i "$category\| adb \|fastboot\|phone\|platform-tools" ./"$arch"-apps >> "$arch-$category"
@@ -745,7 +725,7 @@ for category in $CATEGORIES; do
 	elif [ "$category" = web-app ]; then
 		grep -i "$category\|webapp\|web app" ./"$arch"-apps >> "$arch-$category"
 	elif [ "$category" = web-browser ]; then
-		grep -i "$category\|web browser\|browser web\|browser.*web\|browser.*chrome\|brave.*browser\|chrome.*browser\|chromium.*browser\|chromium fork\|firefox.*web browser\|firefox fork\|librewolf\|vivaldi" ./"$arch"-apps  >> "$arch-$category"
+		grep -i "$category\|web.*browser\|browser.*web\|google-chrome\|firefox.*browser\|firefox.*fork\|fork.*firefox\|safari\|microsoft-edge\|opera.*browser\|brave.*browser\|vivaldi.*browser\|arc.*browser\|tor.*browser\|chromium\|duckduckgo.*browser\|orion.*browser\|waterfox\|librewolf\|palemoon\|seamonkey\|maxthon\|yandex.*browser\|uc.*browser\|qq.*browser\|baidu.*browser\|kiwi\|puffin\|dolphin.*browser\|epic.*browser\|avast.*browser\|avg.*browser\|midori\|falkon\|konqueror\|gnome.*web.*browser\|floorp\|zen.*browser\|slimjet\|srware.*iron\|comodo.*dragon\|sleipnir\|lunascape\|otter.*browser\|basilisk\|icecat\|kmeleon\|k-melon\|netscape\|mosaic.*browser" ./"$arch"-apps | grep -vi "embedded web browser video player"  >> "$arch-$category"
 	else
 		grep -i "$category" ./"$arch"-apps  >> "$arch-$category"
 	fi
