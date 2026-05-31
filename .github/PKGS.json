@@ -6532,7 +6532,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.5.7.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -7244,7 +7244,7 @@
     "site": "DonutWare/Fladder",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fladder",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fladder",
-    "version_raw": "https://github.com/DonutWare/Fladder/releases/download/v0.10.3/Fladder-Linux-0.10.3.AppImage",
+    "version_raw": "https://github.com/DonutWare/Fladder/releases/download/nightly/Fladder-Linux-0.10.3-nightly.AppImage",
     "description": "A Simple Jellyfin frontend built on top of Flutter"
   },
   {
@@ -14500,7 +14500,7 @@
     "site": "mmtrt/notepad-plus-plus_AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/notepad++",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/notepad++",
-    "version_raw": "https://github.com/mmtrt/notepad-plus-plus_AppImage/releases/download/stable/notepad-plus-plus-8.9.6.1-x86_64.AppImage",
+    "version_raw": "https://github.com/mmtrt/notepad-plus-plus_AppImage/releases/download/stable/notepad-plus-plus-8.9.6.2-x86_64.AppImage",
     "description": "Unofficial Appimage of Notepad++, with WINE prefix"
   },
   {
@@ -16108,7 +16108,7 @@
     "site": "PCSX2/pcsx2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx2-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcsx2-nightly",
-    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.375/pcsx2-v2.7.375-linux-appimage-x64-Qt.AppImage",
+    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.376/pcsx2-v2.7.376-linux-appimage-x64-Qt.AppImage",
     "description": "PCSX2 is a free and open-source PlayStation 2 (PS2) emulator, using a combination of MIPS CPU Interpreters, Recompilers and a Virtual Machine which manages hardware states and PS2 system memory. This allows you to play PS2 games on your PC, with many additional features and benefits. This is the nightly version"
   },
   {
@@ -18796,7 +18796,7 @@
     "site": "ivan-hc/am-utils",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rmdir",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rmdir",
-    "version_raw": "",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
     "description": "Remove empty directories. This is part of am-utils suite"
   },
   {
@@ -21852,7 +21852,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.12.0-beta.8.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.11.6.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -22542,189 +22542,5 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/torcs",
     "version_raw": "https://github.com/ivan-hc/Torcs-appimage/releases/download/continuous/TORCS_1.3.8-1-archimage5.0-x86_64.AppImage",
     "description": "The 3D Open Racing Car Game and Simulator"
-  },
-  {
-    "pkg": "torrents_digger",
-    "site": "https://gitlab.com/ForTheCommunity/torrentsdigger",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/torrents_digger",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/torrents_digger",
-    "version_raw": "https://gitlab.com/ForTheCommunity/torrentsdigger/-/jobs/artifacts/v1.2.3+23/raw/releases/torrents_digger_1.2_x86_64_linux.AppImage?job=build_appimage",
-    "description": "Torrents Digger searches already available torrents from internet"
-  },
-  {
-    "pkg": "torrenttools",
-    "site": "fbdtemme/torrenttools",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/torrenttools",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/torrenttools",
-    "version_raw": "https://github.com/fbdtemme/torrenttools/releases/download/v0.6.2/torrenttools-0.6.2-linux-x86_64.AppImage",
-    "description": "Cli tool to inspect/create/edit BitTorrent metafiles"
-  },
-  {
-    "pkg": "toru",
-    "site": "sweetbbak/toru",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/toru",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/toru",
-    "version_raw": "",
-    "description": "Bittorrent streaming CLI tool. Stream anime torrents real-time"
-  },
-  {
-    "pkg": "torzu",
-    "site": "pkgforge-dev/Torzu-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/torzu",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/torzu",
-    "version_raw": "https://github.com/pkgforge-dev/Torzu-AppImage/releases/download/dee5dca%402025-08-14_1755136039/Torzu-dee5dca-anylinux-x86_64.AppImage",
-    "description": "Unofficial AppImage of Torzu (fork of yuzu), with optimized builds for modern cpus"
-  },
-  {
-    "pkg": "touch",
-    "site": "ivan-hc/am-utils",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/touch",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/touch",
-    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
-    "description": "Change file timestamps. This is part of am-utils suite"
-  },
-  {
-    "pkg": "touchhle",
-    "site": "pkgforge-dev/TouchHLE-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/touchhle",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/touchhle",
-    "version_raw": "https://github.com/pkgforge-dev/TouchHLE-AppImage/releases/download/v0.2.3%402026-05-22_1779457218/touchHLE-v0.2.3-anylinux-x86_64.AppImage",
-    "description": "Unofficial, High-level emulator for iPhone OS apps"
-  },
-  {
-    "pkg": "tput",
-    "site": "ivan-hc/am-utils",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tput",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tput",
-    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
-    "description": "tput  - initialize a terminal, exercise its capabilities, or query terminfo database. This is part of am-utils suite"
-  },
-  {
-    "pkg": "tr",
-    "site": "ivan-hc/am-utils",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tr",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tr",
-    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
-    "description": "Translate or delete characters. This is part of am-utils suite"
-  },
-  {
-    "pkg": "trackaudio",
-    "site": "pierr3/TrackAudio",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trackaudio",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/trackaudio",
-    "version_raw": "https://github.com/pierr3/TrackAudio/releases/download/1.4.0-beta.6/trackaudio-1.4.0-beta.6-x86_64.AppImage",
-    "description": "A next generation Audio-For-VATSIM ATC Client"
-  },
-  {
-    "pkg": "trans",
-    "site": "soimort/translate-shell",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trans",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/trans",
-    "version_raw": "v0.9.7.1",
-    "description": "CLI translator using Google/Bing/Yandex Translate, etc"
-  },
-  {
-    "pkg": "transfernow",
-    "site": "https://www.transfernow.net",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/transfernow",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/transfernow",
-    "version_raw": "TransferNow-1.6.1-x86_64.AppImage",
-    "description": "TransferNow is a simple, quick and secure free solution to send large files and big documents up to 250 GB per transfer. No registration required"
-  },
-  {
-    "pkg": "transformer",
-    "site": "https://gitlab.com/ForTheCommunity/Transformer",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/transformer",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/transformer",
-    "version_raw": "https://gitlab.com/ForTheCommunity/Transformer/-/jobs/artifacts/v0.1.0/raw/releases/transformer_x86_64-unknown-linux-gnu.zip?job=build_binaries",
-    "description": "A command-line utility for splitting large files into chunks/pieces and merging them back together"
-  },
-  {
-    "pkg": "translatium",
-    "site": "atomery/translatium",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/translatium",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/translatium",
-    "version_raw": "https://github.com/webcatalog/translatium-legacy/releases/download/v20.4.0/Translatium-20.4.0.AppImage",
-    "description": "Translate Any Languages like a Pro"
-  },
-  {
-    "pkg": "transmission-gtk",
-    "site": "ivan-hc/Transmission-gtk-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/transmission-gtk",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/transmission-gtk",
-    "version_raw": "https://github.com/ivan-hc/Transmission-gtk-appimage/releases/download/continuous/Transmission_4.1.1-1-archimage5.0-x86_64.AppImage",
-    "description": "Unofficial. Fast, easy, and free BitTorrent client, GTK+ GUI"
-  },
-  {
-    "pkg": "transmission-qt",
-    "site": "pkgforge-dev/transmission-qt-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/transmission-qt",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/transmission-qt",
-    "version_raw": "https://github.com/pkgforge-dev/transmission-qt-AppImage/releases/download/4.1.1-1%402026-05-29_1780051675/Transmission_Qt-4.1.1-1-anylinux-x86_64.AppImage",
-    "description": "Unofficial, Fast, easy, and free BitTorrent client, Qt GUI"
-  },
-  {
-    "pkg": "transmissionic",
-    "site": "6c65726f79/Transmissionic",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/transmissionic",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/transmissionic",
-    "version_raw": "",
-    "description": "Remote for Transmission Daemon"
-  },
-  {
-    "pkg": "trelby",
-    "site": "pkgforge-dev/Trelby-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trelby",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/trelby",
-    "version_raw": "",
-    "description": "Unofficial, Trelby is simple, fast and elegantly laid out to make screenwriting simple"
-  },
-  {
-    "pkg": "trenchbroom",
-    "site": "kduske/TrenchBroom",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trenchbroom",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/trenchbroom",
-    "version_raw": "https://github.com/TrenchBroom/TrenchBroom/releases/download/v2025.1/TrenchBroom-Linux-x86_64-v2025.1-Release.AppImage",
-    "description": "A modern, cross-platform level editor for Quake engine based games"
-  },
-  {
-    "pkg": "trezor-suite",
-    "site": "trezor/trezor-suite",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trezor-suite",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/trezor-suite",
-    "version_raw": "https://github.com/trezor/trezor-suite/releases/download/v26.5.2/Trezor-Suite-26.5.2-linux-x86_64.AppImage",
-    "description": "Trezor Suite desktop application"
-  },
-  {
-    "pkg": "trgui-ng",
-    "site": "openscopeproject/TrguiNG",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trgui-ng",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/trgui-ng",
-    "version_raw": "https://github.com/openscopeproject/TrguiNG/releases/download/v1.5.1/TrguiNG_1.5.1_amd64.AppImage",
-    "description": "Remote GUI for Transmission torrent daemon"
-  },
-  {
-    "pkg": "triagem-touch",
-    "site": "novosga/triagem-touch",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/triagem-touch",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/triagem-touch",
-    "version_raw": "https://github.com/novosga/triage-app/releases/download/v2.0.1/triagem-touch-2.0.1-x86_64.AppImage",
-    "description": "Novo SGA triage client"
-  },
-  {
-    "pkg": "trilium",
-    "site": "zadam/trilium",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trilium",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/trilium",
-    "version_raw": "https://github.com/TriliumNext/Trilium/releases/download/v0.103.0/TriliumNotes-Server-v0.103.0-linux-x64.tar.xz",
-    "description": "Build your personal knowledge base with Trilium Notes"
-  },
-  {
-    "pkg": "trinity-desktop",
-    "site": "iotaledger/trinity-wallet",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/trinity-desktop",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/trinity-desktop",
-    "version_raw": "https://github.com/iotaledger-archive/trinity-wallet/releases/download/desktop-1.6.2/trinity-desktop-1.6.2.AppImage",
-    "description": "Desktop wallet for IOTA"
   }
 ]
