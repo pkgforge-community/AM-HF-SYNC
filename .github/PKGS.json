@@ -3380,7 +3380,7 @@
     "site": "https://cinelerra.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cinelerra",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cinelerra",
-    "version_raw": "https://download.cinelerra-gg.org/download.php?file=images%2FCinGG-20260430-x86_64-older-distros.AppImage",
+    "version_raw": "https://download.cinelerra-gg.org/download.php?file=images%2FCinGG-20260531-x86_64-older-distros.AppImage",
     "description": "CINELERRA-GG is a software program NLE, Non-Linear Editor, that provides a way to edit, record, and play audio or video media. It can also be used to transcode media from one format to another or to correct and retouch photos"
   },
   {
@@ -7896,14 +7896,6 @@
     "description": "Gaia Sky, a real-time 3D space simulator & astronomy visualisation"
   },
   {
-    "pkg": "galculator",
-    "site": "pkgforge-dev/Galculator-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/galculator",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/galculator",
-    "version_raw": "https://github.com/pkgforge-dev/Galculator-AppImage/releases/download/2.1.4-10%402026-05-01_1777639191/Galculator-2.1.4-10-anylinux-x86_64.AppImage",
-    "description": "A GTK 2 / GTK 3 based scientific calculator"
-  },
-  {
     "pkg": "gale",
     "site": "Kesomannen/gale",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gale",
@@ -8110,14 +8102,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gearsystem",
     "version_raw": "https://github.com/pkgforge-dev/Gearsystem-AppImage/releases/download/3.9.8%402026-05-22_1779458731/Gearsystem-3.9.8-anylinux-x86_64.AppImage",
     "description": "Unofficial, Sega Master System / Game Gear / SG-1000 emulator"
-  },
-  {
-    "pkg": "gedit",
-    "site": "ivan-hc/Gedit-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gedit",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gedit",
-    "version_raw": "https://github.com/ivan-hc/Gedit-appimage/releases/download/continuous/gedit_50.0-3-archimage5.0-x86_64.AppImage",
-    "description": "Unofficial. The popular GNOME text editor Gedit"
   },
   {
     "pkg": "geeqie",
@@ -8646,14 +8630,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gnome-pomodoro",
     "version_raw": "https://github.com/pkgforge-dev/gnome-pomodoro-appimage/releases/download/0.27.0/Gnome-Pomodoro-0.27.0-x86_64.AppImage",
     "description": "A productivity tool designed to help you manage your time effectively using the Pomodoro Technique"
-  },
-  {
-    "pkg": "gnome-system-monitor",
-    "site": "pkgforge-dev/Gnome-System-Monitor-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gnome-system-monitor",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gnome-system-monitor",
-    "version_raw": "https://github.com/pkgforge-dev/Gnome-System-Monitor-AppImage/releases/download/50.0-1%402026-05-22_1779457231/System_Monitor-50.0-1-anylinux-x86_64.AppImage",
-    "description": "Unofficial. View current processes and monitor system state"
   },
   {
     "pkg": "gnome-text-editor",
@@ -10676,7 +10652,7 @@
     "site": "jitsi/jitsi-meet-electron",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/jitsi-meet",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/jitsi-meet",
-    "version_raw": "https://github.com/jitsi/jitsi-meet-electron/releases/download/v2026.5.0/jitsi-meet-x86_64.AppImage",
+    "version_raw": "https://github.com/jitsi/jitsi-meet-electron/releases/download/v2026.6.0/jitsi-meet-x86_64.AppImage",
     "description": "Jitsi Meet Desktop App"
   },
   {
@@ -12700,7 +12676,7 @@
     "site": "https://www.mathcha.io/notebook/",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mathcha-notebook",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mathcha-notebook",
-    "version_raw": "1.0.454",
+    "version_raw": "1.0.455",
     "description": "Desktop version of Mathcha, built for your privacy"
   },
   {
@@ -15156,7 +15132,7 @@
     "site": "kettek/open-markup-editor",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/open-markup-editor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/open-markup-editor",
-    "version_raw": "https://github.com/kettek/open-markup-editor/releases/download/v3.1.1/Open.Markup.Editor-3.1.1.AppImage",
+    "version_raw": "",
     "description": "Pluggable markup editor"
   },
   {
@@ -17804,7 +17780,7 @@
     "site": "pbek/QOwnNotes",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qownnotes",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qownnotes",
-    "version_raw": "https://github.com/pbek/QOwnNotes/releases/download/continuous/QOwnNotes-x86_64.AppImage",
+    "version_raw": "https://github.com/pbek/QOwnNotes/releases/download/v26.6.1/QOwnNotes-x86_64.AppImage",
     "description": "Plain text notepad and todo list manager"
   },
   {
@@ -18924,7 +18900,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-7b540cdb20fe3225b26251d0400300d0ebbd4dc7/rpcs3-v0.0.40-19412-7b540cdb_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-ecf77ecef0c190b6adf4619447cda165aa5ebad5/rpcs3-v0.0.40-19415-ecf77ece_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -19372,7 +19348,7 @@
     "site": "olav-st/screencloud",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/screencloud",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/screencloud",
-    "version_raw": "https://github.com/olav-st/screencloud/releases/download/v1.6.1/ScreenCloud-v1.6.1-x86_64.AppImage",
+    "version_raw": "https://github.com/olav-st/screencloud/releases/download/v1.6.2/ScreenCloud-v1.6.2-x86_64.AppImage",
     "description": "Capture and share screenshots easily"
   },
   {
@@ -21908,7 +21884,7 @@
     "site": "pkgforge-dev/Tauon-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tauon",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tauon",
-    "version_raw": "https://github.com/pkgforge-dev/Tauon-AppImage/releases/download/10.0.0-1%402026-05-22_1779458434/Tauon-10.0.0-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Tauon-AppImage/releases/download/10.0.0-1%402026-05-31_1780249002/Tauon-10.0.0-1-anylinux-x86_64.AppImage",
     "description": "Unofficial, a music player for the desktop"
   },
   {
@@ -24180,7 +24156,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "10102940390",
+    "version_raw": "10103526078",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
