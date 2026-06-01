@@ -436,7 +436,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.808/alma-0.0.808-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.809/alma-0.0.809-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -3896,22 +3896,6 @@
     "description": "Easy to use unprivileged and portable Arch Linux container"
   },
   {
-    "pkg": "conty-lite",
-    "site": "Kron4ek/Conty",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/conty-lite",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/conty-lite",
-    "version_raw": "https://github.com/Kron4ek/Conty/releases/download/1.29.1/conty_lite.sh",
-    "description": "Easy to use unprivileged and portable Arch Linux container"
-  },
-  {
-    "pkg": "conty-wine",
-    "site": "Kron4ek/Conty",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/conty-wine",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/conty-wine",
-    "version_raw": "https://github.com/Kron4ek/Conty/releases/download/1.29.1/conty_wine.sh",
-    "description": "Easy to use unprivileged and portable Arch Linux container"
-  },
-  {
     "pkg": "converse-desktop",
     "site": "conversejs/converse-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/converse-desktop",
@@ -5116,7 +5100,7 @@
     "site": "miroku-devel/dhammapada",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dhammapada",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dhammapada",
-    "version_raw": "https://github.com/Miroku-devel/dhammapada/releases/download/0.3.0/Dhammapada-a468867-x86_64.AppImage",
+    "version_raw": "https://github.com/Miroku-devel/dhammapada/releases/download/0.3.1/Dhammapada-3587cf4-x86_64.AppImage",
     "description": "A simple Dhammapada verse viewer for the Linux desktop"
   },
   {
@@ -5844,7 +5828,7 @@
     "site": "https://git.eden-emu.dev",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eden",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eden",
-    "version_raw": "https://stable.eden-emu.dev/v0.2.0/Eden-Linux-v0.2.0-amd64-clang-pgo.AppImage",
+    "version_raw": "https://stable.eden-emu.dev/v0.2.1/Eden-Linux-v0.2.1-amd64-gcc-standard.AppImage",
     "description": "An experimental open-source emulator for Nintendo Switch (yuzu fork)"
   },
   {
@@ -6764,7 +6748,7 @@
     "site": "Portable-Linux-Apps/fastfetch-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fastfetch",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fastfetch",
-    "version_raw": "https://github.com/Portable-Linux-Apps/fastfetch-AppImage/releases/download/2.63.1%402026-05-29_1780079180/fastfetch-2.63.1-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/fastfetch-AppImage/releases/download/2.63.1%402026-06-01_1780344627/fastfetch-2.63.1-x86_64.AppImage",
     "description": "Like neofetch, but much faster because written mostly in C"
   },
   {
@@ -6956,7 +6940,7 @@
     "site": "https://www.telerik.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fiddler-everywhere",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fiddler-everywhere",
-    "version_raw": "7.7.3",
+    "version_raw": "7.8.0",
     "description": "Debug your network traffic to deliver high-quality products"
   },
   {
@@ -8532,7 +8516,7 @@
     "site": "https://gitlab.com/gitlab-org/cli",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/glab",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/glab",
-    "version_raw": "https://gitlab.com/gitlab-org/cli/-/releases/v1.100.0/downloads/glab_1.100.0_linux_s390x.tar.gz",
+    "version_raw": "https://gitlab.com/gitlab-org/cli/-/releases/v1.101.0/downloads/glab_1.101.0_linux_s390x.tar.gz",
     "description": "A GitLab CLI tool bringing GitLab to your command line"
   },
   {
@@ -8908,7 +8892,7 @@
     "site": "benjamimgois/goverlay",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/goverlay",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/goverlay",
-    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-51e12967f-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-20d19b577-anylinux-x86_64.AppImage",
     "description": "An opensource project that aims to create a Graphical UI to help manage Linux overlays"
   },
   {
@@ -8948,7 +8932,7 @@
     "site": "ivan-hc/am-utils",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gp-display-src",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gp-display-src",
-    "version_raw": "",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
     "description": "Display source code annotated with profiling data. This is part of am-utils suite"
   },
   {
@@ -9100,7 +9084,7 @@
     "site": "thepeshka/grabscr",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/grabscr",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/grabscr",
-    "version_raw": "",
+    "version_raw": "https://github.com/thepeshka/grabscr/releases/download/v0.0.7/GrabSCR-0.0.7-x86_64.AppImage",
     "description": "Yet another screenshot maker"
   },
   {
@@ -9276,7 +9260,7 @@
     "site": "pkgforge-dev/gThumb-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gthumb",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gthumb",
-    "version_raw": "",
+    "version_raw": "https://github.com/pkgforge-dev/gThumb-AppImage/releases/download/3.12.10-3%402026-06-01_1780332092/gThumb-3.12.10-3-anylinux-x86_64.AppImage",
     "description": "Unofficial, image viewer and browser"
   },
   {
@@ -11012,7 +10996,7 @@
     "site": "JonMagon/KDiskMark",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kdiskmark",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kdiskmark",
-    "version_raw": "",
+    "version_raw": "https://github.com/JonMagon/KDiskMark/releases/download/3.2.0/KDiskMark-3.2.0-fio-3.40-x86_64.AppImage",
     "description": "A simple open-source disk benchmark tool for Linux distros"
   },
   {
@@ -11556,7 +11540,7 @@
     "site": "Portable-Linux-Apps/lapce-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lapce",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lapce",
-    "version_raw": "https://github.com/Portable-Linux-Apps/lapce-AppImage/releases/download/v0.4.6%402026-05-21_1779386439/Lapce-v0.4.6-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/lapce-AppImage/releases/download/v0.4.6%402026-06-01_1780345125/Lapce-v0.4.6-x86_64.AppImage",
     "description": "Lightning-fast and Powerful Code Editor written in Rust"
   },
   {
@@ -12204,7 +12188,7 @@
     "site": "Portable-Linux-Apps/Lorien-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lorien",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lorien",
-    "version_raw": "https://github.com/Portable-Linux-Apps/Lorien-AppImage/releases/download/v0.6.0%402026-05-29_1780079181/Lorien-v0.6.0-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/Lorien-AppImage/releases/download/v0.6.0%402026-06-01_1780344615/Lorien-v0.6.0-x86_64.AppImage",
     "description": "Infinite canvas drawing/whiteboarding app"
   },
   {
@@ -12452,7 +12436,7 @@
     "site": "pkgforge-dev/MAME-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mame",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mame",
-    "version_raw": "https://github.com/pkgforge-dev/MAME-AppImage/releases/download/0.287-2%402026-05-22_1779463810/MAME-0.287-2-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/MAME-AppImage/releases/download/0.288-1%402026-06-01_1780337264/MAME-0.288-1-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of MAME emulator"
   },
   {
@@ -13668,7 +13652,7 @@
     "site": "Portable-Linux-Apps/mullvad-browser-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mullvad-browser",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mullvad-browser",
-    "version_raw": "https://github.com/Portable-Linux-Apps/mullvad-browser-AppImage/releases/download/15.0.14%402026-05-29_1780079746/Mullvad_Browser-15.0.14-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/mullvad-browser-AppImage/releases/download/15.0.14%402026-06-01_1780345171/Mullvad_Browser-15.0.14-x86_64.AppImage",
     "description": "A Tor-based Web Browser"
   },
   {
@@ -13996,7 +13980,7 @@
     "site": "neanes/neanes",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/neanes",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/neanes",
-    "version_raw": "https://github.com/neanes/neanes/releases/download/v0.5.16/Neanes-0.5.16.AppImage",
+    "version_raw": "https://github.com/neanes/neanes/releases/download/v0.5.17/Neanes-0.5.17.AppImage",
     "description": "A scorewriter for notating Byzantine chant in Byzantine notation"
   },
   {
@@ -15108,7 +15092,7 @@
     "site": "MainframeHQ/onyx",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/onyx",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/onyx",
-    "version_raw": "https://github.com/Mainframe-Archive/onyx/releases/download/v0.5.2/Onyx-0.5.2-linux-amd64.AppImage",
+    "version_raw": "",
     "description": "Decentralized messaging application based on PSS"
   },
   {
@@ -16460,7 +16444,7 @@
     "site": "Picocrypt-NG/Picocrypt-NG",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/picocrypt-ng",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/picocrypt-ng",
-    "version_raw": "https://github.com/Picocrypt-NG/Picocrypt-NG/releases/download/2.09/Picocrypt-NG",
+    "version_raw": "https://github.com/Picocrypt-NG/Picocrypt-NG/releases/download/2.10/Picocrypt-NG",
     "description": "A very small, very simple, yet very secure encryption tool"
   },
   {
@@ -17740,7 +17724,7 @@
     "site": "pkgforge-dev/Qmmp-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qmmp",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qmmp",
-    "version_raw": "https://github.com/pkgforge-dev/Qmmp-AppImage/releases/download/2.3.2-1%402026-06-01_1780332060/Qmmp-2.3.2-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Qmmp-AppImage/releases/download/2.3.2-1%402026-06-01_1780342057/Qmmp-2.3.2-1-anylinux-x86_64.AppImage",
     "description": "Unofficial, Qt-based multimedia player"
   },
   {
@@ -17780,7 +17764,7 @@
     "site": "pbek/QOwnNotes",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qownnotes",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qownnotes",
-    "version_raw": "https://github.com/pbek/QOwnNotes/releases/download/continuous/QOwnNotes-x86_64.AppImage",
+    "version_raw": "https://github.com/pbek/QOwnNotes/releases/download/v26.6.2/QOwnNotes-x86_64.AppImage",
     "description": "Plain text notepad and todo list manager"
   },
   {
@@ -18220,7 +18204,7 @@
     "site": "DEgITx/rats-search",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rats-search",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rats-search",
-    "version_raw": "https://github.com/librats/rats-search/releases/download/v2.0.26/RatsSearch-Linux-x64-v2.0.26.AppImage",
+    "version_raw": "https://github.com/librats/rats-search/releases/download/v2.0.27/RatsSearch-Linux-x64-v2.0.27.AppImage",
     "description": "P2P BitTorrent search engine"
   },
   {
@@ -19724,7 +19708,7 @@
     "site": "shadps4-emu/shadps4-qtlauncher",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4-qtlauncher",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4-qtlauncher",
-    "version_raw": "https://github.com/shadps4-emu/shadps4-qtlauncher/releases/download/shadPS4QtLauncher-2026-06-01-c3e80f88f6db46d4d3e32180d926b1f804231f0a/shadPS4QtLauncher-linux-qt-2026-06-01-c3e80f8.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadps4-qtlauncher/releases/download/shadPS4QtLauncher-2026-06-01-03b354b214991ddd5aa44f54c99f178e11c79a20/shadPS4QtLauncher-linux-qt-2026-06-01-03b354b.zip",
     "description": "The official Qt launcher for shadps4 PlayStation 4 emulator"
   },
   {
@@ -21620,7 +21604,7 @@
     "site": "ivan-hc/am-utils",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sync",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sync",
-    "version_raw": "",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
     "description": "Backup and synchronization service. This is part of am-utils suite"
   },
   {
@@ -21820,7 +21804,7 @@
     "site": "galata-ink/tamga-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tamga",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tamga",
-    "version_raw": "",
+    "version_raw": "https://github.com/galata-ink/tamga-releases/releases/download/v1.3.9/tamga-linux-x64.AppImage",
     "description": "A 3D sculpting, sketching, and stylized rendering app"
   },
   {
@@ -21972,7 +21956,7 @@
     "site": "Portable-Linux-Apps/Telegram-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/telegram",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/telegram",
-    "version_raw": "https://github.com/Portable-Linux-Apps/Telegram-AppImage/releases/download/v6.8.4%402026-05-29_1780079258/Telegram-v6.8.4-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/Telegram-AppImage/releases/download/v6.8.4%402026-06-01_1780344717/Telegram-v6.8.4-x86_64.AppImage",
     "description": "Official desktop version of Telegram messaging app"
   },
   {
@@ -23244,7 +23228,7 @@
     "site": "astral-sh/uv",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uv",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uv",
-    "version_raw": "https://github.com/astral-sh/uv/releases/download/0.11.17/uv-x86_64-unknown-linux-musl.tar.gz",
+    "version_raw": "https://github.com/astral-sh/uv/releases/download/0.11.18/uv-x86_64-unknown-linux-musl.tar.gz",
     "description": "An extremely fast Python package and project manager, written in Rust"
   },
   {
@@ -23748,7 +23732,7 @@
     "site": "ivan-hc/VLC-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vlc",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vlc",
-    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous/VLC-media-player_3.0.22-4-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous/VLC-media-player_3.0.23_2-5-archimage5.0-x86_64.AppImage",
     "description": "Unofficial. Free and Open Source Video & Media player for Audio, streaming and more"
   },
   {
@@ -23996,7 +23980,7 @@
     "site": "Portable-Linux-Apps/Waterfox-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/waterfox",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/waterfox",
-    "version_raw": "https://github.com/Portable-Linux-Apps/Waterfox-AppImage/releases/download/140.11.0%402026-05-29_1780079423/Waterfox-140.11.0-x86_64.AppImage",
+    "version_raw": "https://github.com/Portable-Linux-Apps/Waterfox-AppImage/releases/download/140.11.0%402026-06-01_1780344896/Waterfox-140.11.0-x86_64.AppImage",
     "description": "A privacy-focused web browser engineered to give you speed, control, and peace of mind on the internet"
   },
   {
@@ -24156,7 +24140,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "10140656391",
+    "version_raw": "10148703186",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -24644,7 +24628,7 @@
     "site": "wxMaxima-developers/docker-wxmaxima",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wxmaxima",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wxmaxima",
-    "version_raw": "",
+    "version_raw": "https://github.com/wxMaxima-developers/docker-wxmaxima/releases/download/wxMaxima-22.09.0-5/wxmaxima-x86_64.AppImage",
     "description": "A document based interface for the computer algebra system Maxima"
   },
   {
@@ -24852,7 +24836,7 @@
     "site": "JacobDev1/xl-converter",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xl-converter",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xl-converter",
-    "version_raw": "",
+    "version_raw": "https://github.com/JacobDev1/xl-converter/releases/download/v1.2.3/xl-converter-linux-1.2.3-x86_64.AppImage",
     "description": "Powerful image converter with support for multithreading"
   },
   {
