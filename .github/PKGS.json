@@ -524,7 +524,7 @@
     "site": "https://amazingmarvin.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/amazingmarvin",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/amazingmarvin",
-    "version_raw": "https://s3.amazonaws.com/amazingmarvin/Marvin-1.69.1.AppImage",
+    "version_raw": "",
     "description": "Incorporates principles from behavioral psychology"
   },
   {
@@ -1828,7 +1828,7 @@
     "site": "https://www.beeper.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/beeper",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/beeper",
-    "version_raw": "https://beeper-desktop.download.beeper.com/builds/Beeper-4.2.876-x86_64.AppImage",
+    "version_raw": "",
     "description": "All your chats in one app"
   },
   {
@@ -3556,7 +3556,7 @@
     "site": "https://clipgrab.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clipgrab",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/clipgrab",
-    "version_raw": "https://download.clipgrab.org/ClipGrab-3.9.14-x86_64.AppImage",
+    "version_raw": "",
     "description": "Download and Convert Online Videos"
   },
   {
@@ -7076,7 +7076,7 @@
     "site": "https://firealpaca.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firealpaca",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firealpaca",
-    "version_raw": "2.14.0",
+    "version_raw": "",
     "description": "A Free and Multiplatform Digital Painting Software"
   },
   {
@@ -8396,7 +8396,7 @@
     "site": "https://gitbutler.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gitbutler",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gitbutler",
-    "version_raw": "https://releases.gitbutler.com/releases/release/0.19.13-3047/linux/x86_64/GitButler_0.19.13_amd64.AppImage.tar.gz",
+    "version_raw": "",
     "description": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte"
   },
   {
@@ -9308,7 +9308,7 @@
     "site": "vim/vim-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gvim",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gvim",
-    "version_raw": "https://github.com/vim/vim-appimage/releases/download/v9.2.0580/GVim-v9.2.0580.glibc2.34-x86_64.AppImage",
+    "version_raw": "https://github.com/vim/vim-appimage/releases/download/v9.2.0586/GVim-v9.2.0586.glibc2.34-x86_64.AppImage",
     "description": "Edit text files"
   },
   {
@@ -10132,7 +10132,7 @@
     "site": "https://infra.app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/infra-app",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/infra-app",
-    "version_raw": "v0.43",
+    "version_raw": "",
     "description": "Infra App for Linux"
   },
   {
@@ -12084,7 +12084,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.2-canary.9/LobeHub-2.2.2-canary.9.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.2-canary.15/LobeHub-2.2.2-canary.15.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -13412,7 +13412,7 @@
     "site": "https://monoline.io/",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/monoline",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/monoline",
-    "version_raw": "https://download.monoline.io/desktop-apps/Monoline-1.2.4.AppImage",
+    "version_raw": "",
     "description": "Your personal micro journal"
   },
   {
@@ -18348,7 +18348,7 @@
     "site": "https://reaper.fm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/reaper",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/reaper",
-    "version_raw": "https://landoleet.org/old/reaper773_linux_x86_64.tar.xz",
+    "version_raw": "",
     "description": "A complete digital audio production app, offering a full multitrack audio and MIDI recording, editing, processing, mixing and mastering toolset"
   },
   {
@@ -21838,5 +21838,29 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/taskell",
     "version_raw": "https://github.com/smallhadroncollider/taskell/releases/download/1.11.4/taskell-1.11.4_x86-64-linux.tar.gz",
     "description": "Command-line Kanban board/task manager with support for Trello boards and GitHub projects"
+  },
+  {
+    "pkg": "taskizer",
+    "site": "SimonBrandner/TaskizerDesktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/taskizer",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/taskizer",
+    "version_raw": "https://github.com/SimonBrandner/TaskizerDesktop/releases/download/v2.0.0-rc.2/taskizer-2.0.0-rc.2-linux-x86_64.AppImage",
+    "description": "A task management app"
+  },
+  {
+    "pkg": "tasks-org",
+    "site": "tasks/tasks",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tasks-org",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tasks-org",
+    "version_raw": "https://github.com/tasks/tasks/releases/download/15.6/tasks-org-linux-x86_64.AppImage",
+    "description": "Private, ad-free task lists. Optional sync with Google Tasks, CalDAV or EteSync"
+  },
+  {
+    "pkg": "tastee-ui",
+    "site": "tastee/tastee-ui",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tastee-ui",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tastee-ui",
+    "version_raw": "https://github.com/tastee/tastee-ui/releases/download/0.9.6/tastee-ui-0.9.6-x86_64.AppImage",
+    "description": "Tool helping you write executable specifications in your lang"
   }
 ]
