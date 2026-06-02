@@ -288,6 +288,14 @@
     "description": "AIO AI CLI tool integrating 20+ AI platforms, including OpenAI"
   },
   {
+    "pkg": "aidm",
+    "site": "Alexsussa/AIDM",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aidm",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aidm",
+    "version_raw": "https://github.com/Alexsussa/AIDM/releases/download/v0.3/AppImage_Desktop_Maker_v0.3_x86_64.AppImage",
+    "description": "AppImage Desktop Maker"
+  },
+  {
     "pkg": "aillio-ts",
     "site": "roastworld/roast-time-release",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aillio-ts",
@@ -368,6 +376,14 @@
     "description": "Simple and easy to use anime streaming desktop app without ads"
   },
   {
+    "pkg": "alacritty",
+    "site": "pkgforge-dev/alacritty-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alacritty",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alacritty",
+    "version_raw": "https://github.com/pkgforge-dev/alacritty-AppImage/releases/download/v0.17.0%402026-06-01_1780331563/Alacritty-v0.17.0-anylinux-x86_64.AppImage",
+    "description": "Unofficial. A modern terminal emulator that comes with sensible defaults, but allows for extensive configuration"
+  },
+  {
     "pkg": "albafetch",
     "site": "alba4k/albafetch",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/albafetch",
@@ -382,6 +398,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alduin",
     "version_raw": "https://github.com/AlduinApp/alduin/releases/download/v3.2.0/alduin_3.2.0_amd64.AppImage",
     "description": "An Atom and RSS feed aggregator"
+  },
+  {
+    "pkg": "alephium-wallet",
+    "site": "alephium/desktop-wallet",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alephium-wallet",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alephium-wallet",
+    "version_raw": "https://github.com/alephium/desktop-wallet/releases/download/v2.2.0/Alephium-2.2.0.AppImage",
+    "description": "The official Alephium wallet for desktop"
   },
   {
     "pkg": "alexandria",
@@ -470,6 +494,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/altus",
     "version_raw": "https://github.com/amanharwara/altus/releases/download/5.8.0/Altus-5.8.0.AppImage",
     "description": "Client for WhatsApp Web with themes & multiple account support"
+  },
+  {
+    "pkg": "alvr",
+    "site": "elpinguinoopensource/alvr-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alvr",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alvr",
+    "version_raw": "https://github.com/elpinguinoopensource/alvr-appimage/releases/download/v18.2.6/ALVR-x86_64.AppImage",
+    "description": "Stream VR games from your PC to your headset via Wi-Fi"
   },
   {
     "pkg": "am-gui",
@@ -776,6 +808,14 @@
     "description": "The everything app for those who celebrate trust & autonomy"
   },
   {
+    "pkg": "anzeigenchef",
+    "site": "https://anzeigenchef.roundcube.de",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anzeigenchef",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anzeigenchef",
+    "version_raw": "https://anzeigenchef.roundcubes.de/downloads/linux/AnzeigenChef-x86_64.AppImage",
+    "description": "AdsChef manages your classified ads"
+  },
+  {
     "pkg": "aphelion-wallet",
     "site": "aphtoken/aph-wallet-gui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aphelion-wallet",
@@ -846,6 +886,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/apphub",
     "version_raw": "https://github.com/cosmic-utils/app-hub/releases/download/v0.2.0-beta.1/app-hub_0.2.0-beta.1_amd64.AppImage",
     "description": "App that simplifies installation/management of .appImage packages"
+  },
+  {
+    "pkg": "appimage-builder",
+    "site": "AppImageCrafters/appimage-builder",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimage-builder",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appimage-builder",
+    "version_raw": "https://github.com/AppImageCrafters/appimage-builder/releases/download/Continuous/appimage-builder-1.1.1.dev32%2Bg2709a3b-x86_64.AppImage",
+    "description": "GNU/Linux packaging solution using the AppImage format"
   },
   {
     "pkg": "appimage-creator",
@@ -1190,6 +1238,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/asgardex",
     "version_raw": "https://github.com/asgardex/asgardex-desktop/releases/download/v1.43.3/ASGARDEX-1.43.3-linux.AppImage",
     "description": "Thorchain wallet desktop app"
+  },
+  {
+    "pkg": "aspect",
+    "site": "https://aspect.bildhuus.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aspect",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aspect",
+    "version_raw": "https://download.bildhuus.com/packages/aspect/aspect-1.0.0-rc.52-x86_64.AppImage",
+    "description": "Photo organization application with support for peer-to-peer based synchronization across devices"
   },
   {
     "pkg": "astroffers",
@@ -2396,7 +2452,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave-beta",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260601-224011/Brave-Web-Browser-beta-1.92.111-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260602-223129/Brave-Web-Browser-beta-1.92.112-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the beta release"
   },
   {
@@ -2404,7 +2460,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave-nightly",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260601-224011/Brave-Web-Browser-nightly-1.93.16-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260602-223129/Brave-Web-Browser-nightly-1.93.19-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the nightly release"
   },
   {
@@ -5780,7 +5836,7 @@
     "site": "https://git.eden-emu.dev",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eden-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eden-nightly",
-    "version_raw": "https://nightly.eden-emu.dev/v1780254271.bd2d344040/Eden-Linux-bd2d344040-legacy-gcc-standard.AppImage",
+    "version_raw": "https://nightly.eden-emu.dev/v1780432596.5027aecf77/Eden-Linux-5027aecf77-legacy-clang-pgo.AppImage",
     "description": "An experimental open-source emulator for Nintendo Switch (yuzu fork, nightly builds)"
   },
   {
@@ -7052,7 +7108,7 @@
     "site": "https://www.firefox.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/continuous-stable/Firefox-stable-151.0.2-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/continuous-stable/Firefox-stable-151.0.3-x86_64.AppImage",
     "description": "Fast, powerful and extensible Web Browser, Stable"
   },
   {
@@ -7060,7 +7116,7 @@
     "site": "https://www.firefox.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-beta",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260601-223617/Firefox-beta-152.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260602-222508/Firefox-beta-152.0-x86_64.AppImage",
     "description": "Fast, powerful and extensible Web Browser, Beta Edition"
   },
   {
@@ -7068,7 +7124,7 @@
     "site": "https://www.firefox.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-devedition",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-devedition",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260601-223617/Firefox-devedition-152.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260602-222508/Firefox-devedition-152.0-x86_64.AppImage",
     "description": "Fast, powerful and extensible Web Browser, Developer Edition"
   },
   {
@@ -7076,7 +7132,7 @@
     "site": "https://www.firefox.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-esr",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-esr",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260601-223617/Firefox-esr-140.11.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260602-222508/Firefox-esr-140.11.0-x86_64.AppImage",
     "description": "Fast, powerful and extensible Web Browser, ESR Edition"
   },
   {
@@ -7084,7 +7140,7 @@
     "site": "https://www.firefox.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-nightly",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260601-223617/Firefox-nightly-153.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260602-222508/Firefox-nightly-153.0a1-x86_64.AppImage",
     "description": "Fast, powerful and extensible Web Browser, Nightly Edition"
   },
   {
@@ -8076,7 +8132,7 @@
     "site": "https://sourceforge.net/p/gemrb",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gemrb",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gemrb",
-    "version_raw": "https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/Linux/GemRB-2026-06-02-master-592b03d969-x86_64.AppImage/download",
+    "version_raw": "https://sourceforge.net/projects/gemrb/files/Buildbot%20Binaries/Linux/GemRB-2026-06-02-master-58261e0fa5-x86_64.AppImage/download",
     "description": "GemRB is a portable open-source implementation of Bioware's Infinity Engine"
   },
   {
@@ -8676,7 +8732,7 @@
     "site": "GoldenCheetah/GoldenCheetah",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/goldencheetah",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/goldencheetah",
-    "version_raw": "https://github.com/GoldenCheetah/GoldenCheetah/releases/download/v3.8-DEV2605/GoldenCheetah_v3.8_x64.AppImage",
+    "version_raw": "https://github.com/GoldenCheetah/GoldenCheetah/releases/download/snapshot/GoldenCheetah_v3.8_x64.AppImage",
     "description": "Cycling Power Analysis Software"
   },
   {
@@ -13780,7 +13836,7 @@
     "site": "mytonwalletorg/mytonwallet",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mytonwallet",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mytonwallet",
-    "version_raw": "https://github.com/mytonwallet-org/mytonwallet/releases/download/v4.10.1/MyTonWallet-x86_64.AppImage",
+    "version_raw": "https://github.com/mytonwallet-org/mytonwallet/releases/download/v4.10.2/MyTonWallet-x86_64.AppImage",
     "description": "Feature-rich web wallet and browser extension for TON Network"
   },
   {
@@ -15420,7 +15476,7 @@
     "site": "ivan-hc/Opera-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/opera",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/opera",
-    "version_raw": "https://github.com/ivan-hc/Opera-appimage/releases/download/continuous/Opera-Web-Browser-stable-132.0.5905.11-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Opera-appimage/releases/download/continuous/Opera-Web-Browser-stable-132.0.5905.19-x86_64.AppImage",
     "description": "Unofficial. Fast and secure web browser, Stable version"
   },
   {
@@ -15436,7 +15492,7 @@
     "site": "ivan-hc/Opera-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/opera-dev",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/opera-dev",
-    "version_raw": "https://github.com/ivan-hc/Opera-appimage/releases/download/continuous/Opera-Web-Browser-developer-133.0.5910.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Opera-appimage/releases/download/continuous/Opera-Web-Browser-developer-133.0.5917.0-x86_64.AppImage",
     "description": "Unofficial. Fast and secure web browser, Developer version"
   },
   {
@@ -16676,7 +16732,7 @@
     "site": "playit-cloud/playit-agent",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/playit",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/playit",
-    "version_raw": "https://github.com/playit-cloud/playit-agent/releases/download/aur-rpm-test-1/playit-cli-linux-amd64",
+    "version_raw": "https://github.com/playit-cloud/playit-agent/releases/download/v1.0.7-rc2/playit-cli-linux-amd64",
     "description": "Want to run an online game server? playit.gg is a global proxy that allows anyone to host a server without port forwarding"
   },
   {
@@ -18524,7 +18580,7 @@
     "site": "retrovibed/retrovibed",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/retrovibed",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/retrovibed",
-    "version_raw": "https://github.com/retrovibed/retrovibed/releases/download/r2026.6.21780425975/retrovibed.linux.amd64.AppImage",
+    "version_raw": "https://github.com/retrovibed/retrovibed/releases/download/r2026.6.21780441499/retrovibed.linux.amd64.AppImage",
     "description": "Personal Digital Archive and Media Player with at cost cloud storage backend"
   },
   {
@@ -19460,7 +19516,7 @@
     "site": "Serial-Studio/Serial-Studio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/serial-studio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/serial-studio",
-    "version_raw": "https://github.com/Serial-Studio/Serial-Studio/releases/download/continuous/Serial-Studio-Pro-3.2.7-Linux-x64.AppImage",
+    "version_raw": "https://github.com/Serial-Studio/Serial-Studio/releases/download/v3.2.7/Serial-Studio-Pro-3.2.7-Linux-x64.AppImage",
     "description": "Multi-purpose serial data view program"
   },
   {
@@ -19644,7 +19700,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-06-02-0b9eb3dd17bbd5566b46e3daff7de5e3024c5cd2/shadps4-linux-sdl-2026-06-02-0b9eb3d.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-06-02-e777f56964bf912ec6df752f436023c4aa1e5522/shadps4-linux-sdl-2026-06-02-e777f56.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -21796,7 +21852,7 @@
     "site": "tasks/tasks",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tasks-org",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tasks-org",
-    "version_raw": "",
+    "version_raw": "https://github.com/tasks/tasks/releases/download/15.6/tasks-org-linux-x86_64.AppImage",
     "description": "Private, ad-free task lists. Optional sync with Google Tasks, CalDAV or EteSync"
   },
   {
@@ -22164,7 +22220,7 @@
     "site": "edrlab/thorium-reader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium-reader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium-reader",
-    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.4.1-alpha.1.26811131907.AppImage",
+    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.4.1-alpha.1.26852897526.AppImage",
     "description": "Desktop application to read ebooks"
   },
   {
@@ -22180,7 +22236,7 @@
     "site": "https://www.thunderbird.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-beta",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260601-223400/Thunderbird-beta-152.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260602-222343/Thunderbird-beta-152.0-x86_64.AppImage",
     "description": "Free and open source eMail client, Beta Edition"
   },
   {
@@ -22188,7 +22244,7 @@
     "site": "https://www.thunderbird.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-nightly",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260601-223400/Thunderbird-nightly-153.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260602-222343/Thunderbird-nightly-153.0a1-x86_64.AppImage",
     "description": "Free and open source eMail client, Nightly Edition"
   },
   {
