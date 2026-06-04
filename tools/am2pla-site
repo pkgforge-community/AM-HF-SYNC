@@ -12,15 +12,15 @@ cd "$(xdg-user-dir DESKTOP)" || exit 1
 
 # GET THE NAMES OF ALL APPLICATION
 curl -Ls "$AMREPO"/programs/"$arch"-apps > "$arch"-apps || exit 1
-curl -Ls "$AMREPO"/programs/"$arch"-appimages > "$arch"-appimages || exit 1
+curl -Ls "$AMREPO"/programs/stats-appimages > stats-appimages || exit 1
 curl -Ls "$AMREPO"/programs/stats-portable > stats-portable || exit 1
 
 if ! grep -q "^◆ " "$arch"-apps; then exit 0; fi
+if ! grep -q "^◆ " stats-appimages; then exit 0; fi
 if ! grep -q "^◆ " stats-portable; then exit 0; fi
-if ! grep -q "^◆ " "$arch"-appimages; then exit 0; fi
 
 ARGS=$(sort -u "$arch"-apps | awk -v FS="(◆ | : )" '{print $2}')
-APPIMAGES=$(sort -u "$arch"-appimages | awk -v FS="(◆ | : )" '{print $2}')
+APPIMAGES=$(sort -u stats-appimages | awk -v FS="(◆ | : )" '{print $2}')
 PORTABLE=$(sort -u stats-portable | grep -v "#itsappimageonthefly" | awk -v FS="(◆ | : )" '{print $2}')
 
 # GET THE EXACT NUMBER OF AVAILABLE APPS
@@ -228,7 +228,7 @@ _footer_apps >> apps.md
 ########################
 
 ARGS="$APPIMAGES"
-APPIMAGES_NUMBER=$(sort -u "$arch"-appimages | wc -l)
+APPIMAGES_NUMBER=$(sort -u stats-appimages | wc -l)
 
 echo "# APPIMAGES" > appimages.md
 _back_to_home_or_apps_buttons >> appimages.md
@@ -308,8 +308,9 @@ for category in $CATEGORIES; do
 	elif [ "$category" = command-line ]; then
 
 		CATEGORY_MSG=""
-		grep -i "#itscliapp" ./stats-portable | sed 's/ /#itscliapp/g' >> "$arch-$category"
-		grep -i -- "$category\|command line\| cli \|-cli\|terminal\|fastboot\| npm \| bash \| shell \| dash \| zsh \|\"am-utils\"\| appimagetool \| appimageupdate" ./"$arch"-apps >> "$arch-$category"
+		grep -i "#itscliapp" ./stats-appimages >> "$arch-$category"
+		grep -i "#itscliapp" ./stats-portable >> "$arch-$category"
+		grep -i -- "$category\|command line\| cli \|-cli\|terminal \|\"am-utils\"\|\"node\"\|\"platform-tools\"" ./"$arch"-apps >> "$arch-$category"
 
 	elif [ "$category" = communication ]; then
 
@@ -398,7 +399,7 @@ for category in $CATEGORIES; do
 		grep -i "$category" ./"$arch"-apps  >> "$arch-$category"
 
 	fi
-	ARGS=$(sort -u ./"$arch-$category" | awk -v FS="(◆ | : )" '{print $2}')
+	ARGS=$(sort -u ./"$arch-$category" | awk -v FS="(◆ | : )" '{print $2}' | uniq)
 	APPS_NUMBER=$(grep -v "\"kdegames\"\|\"kdeutils\"\|\"node\"\|\"platform-tools\"" "$arch-$category" | grep -e "$" -c)
 	ITEMS_NUMBER=$(grep "\"kdegames\"\|\"kdeutils\"\|\"node\"\|\"platform-tools\"" "$arch-$category" | grep -e "$" -c)
 	echo "# $(echo "$category"| tr '[:lower:]' '[:upper:]' | sed -- 's/-/ /g')" > "$category".md
@@ -425,7 +426,7 @@ for category in $CATEGORIES; do
 
 	# Category list body
 	for arg in $ARGS; do
-		grep "\*\*\*$arg\*\*\*" ./body.txt >> "$category".md
+		grep "\*\*\*$arg\*\*\*" ./body.txt | head -1 >> "$category".md
 	done
 
 	_footer_categories >> "$category".md
@@ -820,4 +821,4 @@ category_page=""
 _categories_buttons >> ./index.md
 INDEX_BODY_FULL
 
-rm ./"$arch"-apps ./"$arch"-appimages ./stats-portable ./body.txt*
+rm ./"$arch"-apps ./stats-appimages ./stats-portable ./body.txt*
