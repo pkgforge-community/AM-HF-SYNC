@@ -3468,7 +3468,7 @@
     "site": "libnyanpasu/clash-nyanpasu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clash-nyanpasu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/clash-nyanpasu",
-    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha%2Bb1ebff4_amd64.AppImage",
+    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0-alpha%2Bf6538a4_amd64.AppImage",
     "description": "A Clash GUI based on tauri"
   },
   {
@@ -4668,7 +4668,7 @@
     "site": "darktable-org/darktable",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/darktable-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/darktable-nightly",
-    "version_raw": "https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.5.0%2B1572.g53e0e72836-x86_64.AppImage",
+    "version_raw": "https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.5.0%2B1574.g42f4d1a131-x86_64.AppImage",
     "description": "Photography workflow application and raw developer (nightly)"
   },
   {
@@ -7824,14 +7824,6 @@
     "description": "Legacy GLibC Linux support for Friday Night Funkin. A rhythm game made with HaxeFlixel"
   },
   {
-    "pkg": "funterm",
-    "site": "zhangfuwen/FunTerm",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/funterm",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/funterm",
-    "version_raw": "",
-    "description": "A Linux Terminal Emulator"
-  },
-  {
     "pkg": "furnace",
     "site": "tildearrow/furnace",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/furnace",
@@ -8292,7 +8284,7 @@
     "site": "pkgforge-dev/ghostty-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ghostty-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ghostty-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.2-main-%2Bbfe633a-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.2-main-%2B42fcd58-x86_64.AppImage",
     "description": "Unofficial, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (Tip, Nightly)"
   },
   {
@@ -8892,7 +8884,7 @@
     "site": "benjamimgois/goverlay",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/goverlay",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/goverlay",
-    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-c69a805a9-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-00de4c3a8-anylinux-x86_64.AppImage",
     "description": "An opensource project that aims to create a Graphical UI to help manage Linux overlays"
   },
   {
@@ -14420,7 +14412,7 @@
     "site": "http://www.nosqlbooster.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nosqlbooster",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nosqlbooster",
-    "version_raw": "https://s3.nosqlbooster.com/download/releasesv11/nosqlbooster4mongo-11.0.0-x64.AppImage",
+    "version_raw": "https://s3.nosqlbooster.com/download/releasesv11/nosqlbooster4mongo-11.0.1-x64.AppImage",
     "description": "Essential admin GUI for mongodb"
   },
   {
@@ -14956,7 +14948,7 @@
     "site": "diegosouzapw/OmniRoute",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/omniroute",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/omniroute",
-    "version_raw": "https://github.com/diegosouzapw/OmniRoute/releases/download/v3.8.9/OmniRoute-3.8.9.AppImage",
+    "version_raw": "https://github.com/diegosouzapw/OmniRoute/releases/download/v3.8.10/OmniRoute-3.8.10.AppImage",
     "description": "OmniRoute is an AI gateway for multi-provider LLMs: an OpenAI-compatible endpoint with smart routing, load balancing, retries, and fallbacks. Add policies, rate limits, caching, and observability for reliable, cost-aware inference"
   },
   {
@@ -15908,7 +15900,7 @@
     "site": "Scille/parsec-cloud",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parsec",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parsec",
-    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.9.1-a.0.dev.20605%2Bac467c1_linux_x86_64.unsigned.AppImage",
+    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.9.1-a.0.dev.20608%2Beda9b46_linux_x86_64.unsigned.AppImage",
     "description": "Open source Dropbox-like file sharing with full client encryption"
   },
   {
@@ -17156,7 +17148,7 @@
     "site": "pragtical/pragtical",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pragtical",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pragtical",
-    "version_raw": "https://github.com/pragtical/pragtical/releases/download/v3.11.2/Pragtical-v3.11.2-x86_64.AppImage",
+    "version_raw": "https://github.com/pragtical/pragtical/releases/download/rolling/Pragtical-rolling-x86_64.AppImage",
     "description": "The practical and pragmatic code editor"
   },
   {
@@ -17228,7 +17220,7 @@
     "site": "https://printventory.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/printventory",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/printventory",
-    "version_raw": "https://printventory.techjeeper.com/printventory-2.1.3.AppImage",
+    "version_raw": "https://printventory.techjeeper.com/printventory-2.1.4.AppImage",
     "description": "The ultimate tool for managing your 3D printing collection with ease. Sort, tag, and track your models in one place"
   },
   {
@@ -18580,7 +18572,7 @@
     "site": "retrovibed/retrovibed",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/retrovibed",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/retrovibed",
-    "version_raw": "https://github.com/retrovibed/retrovibed/releases/download/r2026.6.41780588710/retrovibed.linux.amd64.AppImage",
+    "version_raw": "https://github.com/retrovibed/retrovibed/releases/download/r2026.6.41780615320/retrovibed.linux.amd64.AppImage",
     "description": "Personal Digital Archive and Media Player with at cost cloud storage backend"
   },
   {
@@ -19780,7 +19772,7 @@
     "site": "RockinChaos/Shiru",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shiru",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shiru",
-    "version_raw": "https://github.com/RockinChaos/Shiru/releases/download/v6.6.1-beta.5/linux-Shiru-v6.6.1-beta.5.AppImage",
+    "version_raw": "https://github.com/RockinChaos/Shiru/releases/download/v6.6.1-beta.6/linux-Shiru-v6.6.1-beta.6.AppImage",
     "description": "A personal anime library manager for watching and tracking your collection in real time. Lightweight, powerful, and paws-itively fast. No waiting required"
   },
   {
@@ -21580,7 +21572,7 @@
     "site": "oldj/SwitchHosts",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/switchhosts",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/switchhosts",
-    "version_raw": "https://github.com/oldj/SwitchHosts/releases/download/v5.0.1-beta.4/SwitchHosts-5.0.1-beta.4-linux-amd64.AppImage",
+    "version_raw": "https://github.com/oldj/SwitchHosts/releases/download/v5.0.1-beta.7/SwitchHosts-5.0.1-beta.7-linux-amd64.AppImage",
     "description": "Switch hosts quickly!"
   },
   {
@@ -24148,7 +24140,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "10300252559",
+    "version_raw": "10305630620",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -24820,7 +24812,7 @@
     "site": "xgetter-team/xgetter",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xgetter",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xgetter",
-    "version_raw": "https://github.com/xgetter-team/xgetter/releases/download/v1.7.5/XGetter_1.7.5_amd64.AppImage",
+    "version_raw": "https://github.com/xgetter-team/xgetter/releases/download/v1.7.6/XGetter_1.7.6_amd64.AppImage",
     "description": "Download video on Youtube, Facebook, X(Twitter), Instagram, Tiktok, Bilibili, Douyin and more"
   },
   {
