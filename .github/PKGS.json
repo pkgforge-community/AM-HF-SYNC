@@ -1244,7 +1244,7 @@
     "site": "https://aspect.bildhuus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aspect",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/aspect",
-    "version_raw": "https://download.bildhuus.com/packages/aspect/aspect-1.0.0-rc.52-x86_64.AppImage",
+    "version_raw": "https://download.bildhuus.com/packages/aspect/aspect-1.0.0-rc.53-x86_64.AppImage",
     "description": "Photo organization application with support for peer-to-peer based synchronization across devices"
   },
   {
@@ -6516,7 +6516,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.6.4.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -13980,7 +13980,7 @@
     "site": "marcinz606/negpy",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/negpy",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/negpy",
-    "version_raw": "https://github.com/marcinz606/NegPy/releases/download/0.23.0/NegPy-0.23.0-x86_64.AppImage",
+    "version_raw": "https://github.com/marcinz606/NegPy/releases/download/0.23.1/NegPy-0.23.1-x86_64.AppImage",
     "description": "Tool for processing film negatives"
   },
   {
@@ -18876,7 +18876,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-9e2c41bd4896e276870c2798d35e464fcbf0f7b6/rpcs3-v0.0.41-19447-9e2c41bd_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-e7165cbe99afb232c2e80d773bc6fed5d3da879a/rpcs3-v0.0.41-19449-e7165cbe_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -22262,5 +22262,133 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ticktick",
     "version_raw": "https://download.ticktick.app/download/linux/linux_appimage_x64/ticktick-8.0.10-x86_64.AppImage",
     "description": "A To-Do List and Calendar to keep you organized"
+  },
+  {
+    "pkg": "tidal-hifi",
+    "site": "Mastermindzh/tidal-hifi",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tidal-hifi",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tidal-hifi",
+    "version_raw": "https://github.com/Mastermindzh/tidal-hifi/releases/download/7.0.1/tidal-hifi-7.0.1.AppImage",
+    "description": "The web version of listen.tidal.com running in electron"
+  },
+  {
+    "pkg": "tidybit",
+    "site": "Veda-Swaroop/TidyBit",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tidybit",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tidybit",
+    "version_raw": "https://github.com/Veda-Swaroop/TidyBit/releases/download/v1.3.4/TidyBit-1.3.4-x86_64.AppImage",
+    "description": "TidyBit is a simple handy tool that can organize messy collection of files and move them to a chosen folder"
+  },
+  {
+    "pkg": "tilde-podcast",
+    "site": "paologiua/tilde",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tilde-podcast",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tilde-podcast",
+    "version_raw": "https://github.com/paologiua/tilde/releases/download/v1.0.0/Tilde-1.0.0.AppImage",
+    "description": "Podcast client to listen to all you favorite podcasts"
+  },
+  {
+    "pkg": "tiled",
+    "site": "bjorn/tiled",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tiled",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tiled",
+    "version_raw": "https://github.com/mapeditor/tiled/releases/download/v1.12.2/Tiled-1.12.2_Linux_x86_64.AppImage",
+    "description": "Tile map editor"
+  },
+  {
+    "pkg": "tilinggenerator",
+    "site": "PJK136/TilingGenerator",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tilinggenerator",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tilinggenerator",
+    "version_raw": "https://github.com/PJK136/TilingGenerator/releases/download/continuous/TilingGenerator-9ad9652-x86_64.AppImage",
+    "description": "Generator of regular and irregular tilings"
+  },
+  {
+    "pkg": "timenaut",
+    "site": "kmteras/timenaut",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/timenaut",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/timenaut",
+    "version_raw": "https://github.com/kmteras/timenaut/releases/download/v0.5.0/Timenaut-0.5.0.AppImage",
+    "description": "Desktop time tracking application"
+  },
+  {
+    "pkg": "timeout",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/timeout",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/timeout",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
+    "description": "Run a command with a time limit. This is part of am-utils suite"
+  },
+  {
+    "pkg": "tipitaka-pali-reader",
+    "site": "bksubhuti/tipitaka-pali-reader",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tipitaka-pali-reader",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tipitaka-pali-reader",
+    "version_raw": "https://github.com/bksubhuti/tipitaka-pali-reader/releases/download/v2.8.0/tipitaka_pali_reader.AppImage",
+    "description": "A Pali Reading app made in Flutter"
+  },
+  {
+    "pkg": "tixati",
+    "site": "https://tixati.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tixati",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tixati",
+    "version_raw": "https://download.tixati.com/tixati-3.42-1.x86_64.manualinstall.tar.gz",
+    "description": "A New and Powerful P2P System 100% Free, Simple and Easy to Use Bittorrent Client"
+  },
+  {
+    "pkg": "tkmm",
+    "site": "TKMM-Team/Tkmm",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tkmm",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tkmm",
+    "version_raw": "https://github.com/TKMM-Team/Tkmm/releases/download/v2.0.1/Tkmm-linux-x64.AppImage",
+    "description": "TotK Mod Manager, a mod manager and merger for Tears of the Kingdom"
+  },
+  {
+    "pkg": "tlock",
+    "site": "eklairs/tlock",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tlock",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tlock",
+    "version_raw": "https://github.com/eklairs/tlock/releases/download/v1.0.0/tlock-v1.0.0-linux-amd64.tar.gz",
+    "description": "Two-Factor Authentication Tokens Manager in Terminal"
+  },
+  {
+    "pkg": "tlum",
+    "site": "lyskouski/app-language",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tlum",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tlum",
+    "version_raw": "https://github.com/lyskouski/app-language/releases/download/v0.0.20/tlum_LinuxAppImage.AppImage",
+    "description": "Tlum - open-source cross-platform language learning application leverages the power of natural language processing to pinpoint pronunciation gaps and enhance articulation, machine learning to boost vocabulary proficiency"
+  },
+  {
+    "pkg": "tmon",
+    "site": "gmagno/tmon",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tmon",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tmon",
+    "version_raw": "https://github.com/gmagno/tmon/releases/download/v0.4.0/tmon-466ae00-x86_64.AppImage",
+    "description": "A simple CLI tool for monitoring/reporting CPU temperatures"
+  },
+  {
+    "pkg": "tmux",
+    "site": "nelsonenzo/tmux-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tmux",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tmux",
+    "version_raw": "https://github.com/nelsonenzo/tmux-appimage/releases/download/3.5a/tmux.appimage",
+    "description": "Tmux AppImage build via Docker"
+  },
+  {
+    "pkg": "tnt",
+    "site": "foolo/tnt",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tnt",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tnt",
+    "version_raw": "https://github.com/foolo/tnt/releases/download/0.3/tnt-0.3-linux-x64.AppImage",
+    "description": "A computer-assisted translation tool"
+  },
+  {
+    "pkg": "tockler",
+    "site": "MayGo/tockler",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tockler",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tockler",
+    "version_raw": "https://github.com/MayGo/tockler/releases/download/v4.0.22/Tockler-4.0.22.AppImage",
+    "description": "An application that tracks your time by monitoring"
   }
 ]
