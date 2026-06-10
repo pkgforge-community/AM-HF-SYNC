@@ -444,7 +444,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.814/alma-0.0.814-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.818/alma-0.0.818-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -2196,7 +2196,7 @@
     "site": "https://www.blensor.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blensor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blensor",
-    "version_raw": "1.0.18",
+    "version_raw": "",
     "description": "3D modeling, animation, rendering and post-production"
   },
   {
@@ -3284,7 +3284,7 @@
     "site": "morrolinux/ChimeraDesk",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chimeradesk",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/chimeradesk",
-    "version_raw": "",
+    "version_raw": "https://github.com/morrolinux/ChimeraDesk/releases/download/0.0.4/ChimeraDesk-KVM-40dae09-x86_64.AppImage",
     "description": "Simple, fast and flexible DIY Remote Desktop software"
   },
   {
@@ -5844,7 +5844,7 @@
     "site": "https://git.eden-emu.dev",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eden-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eden-nightly",
-    "version_raw": "https://nightly.eden-emu.dev/v1781035083.3e31831cb0/Eden-Linux-3e31831cb0-amd64-gcc-standard.AppImage",
+    "version_raw": "https://nightly.eden-emu.dev/v1781122546.5219b9f3d2/Eden-Linux-5219b9f3d2-rog-ally-gcc-standard.AppImage",
     "description": "An experimental open-source emulator for Nintendo Switch (yuzu fork, nightly builds)"
   },
   {
@@ -7124,7 +7124,7 @@
     "site": "https://www.firefox.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-beta",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260609-215001/Firefox-beta-152.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260610-220402/Firefox-beta-152.0-x86_64.AppImage",
     "description": "Fast, powerful and extensible Web Browser, Beta Edition"
   },
   {
@@ -7132,7 +7132,7 @@
     "site": "https://www.firefox.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-devedition",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-devedition",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260609-215001/Firefox-devedition-152.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260610-220402/Firefox-devedition-152.0-x86_64.AppImage",
     "description": "Fast, powerful and extensible Web Browser, Developer Edition"
   },
   {
@@ -7140,7 +7140,7 @@
     "site": "https://www.firefox.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-esr",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-esr",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260609-215001/Firefox-esr-140.11.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260610-220402/Firefox-esr-140.11.0-x86_64.AppImage",
     "description": "Fast, powerful and extensible Web Browser, ESR Edition"
   },
   {
@@ -7148,7 +7148,7 @@
     "site": "https://www.firefox.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/firefox-nightly",
-    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260609-215001/Firefox-nightly-153.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Firefox-appimage/releases/download/20260610-220402/Firefox-nightly-153.0a1-x86_64.AppImage",
     "description": "Fast, powerful and extensible Web Browser, Nightly Edition"
   },
   {
@@ -8212,7 +8212,7 @@
     "site": "cli/cli",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gh",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gh",
-    "version_raw": "https://github.com/cli/cli/releases/download/v2.93.0/gh_2.93.0_linux_amd64.tar.gz",
+    "version_raw": "https://github.com/cli/cli/releases/download/v2.94.0/gh_2.94.0_linux_amd64.tar.gz",
     "description": "GitHub’s official command line tool"
   },
   {
@@ -8300,7 +8300,7 @@
     "site": "jreisinger/ghrel",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ghrel",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ghrel",
-    "version_raw": "",
+    "version_raw": "https://github.com/jreisinger/ghrel/releases/download/v0.10.5/ghrel_0.10.5_linux_amd64.tar.gz",
     "description": "Download and verify GitHub release"
   },
   {
@@ -11852,7 +11852,7 @@
     "site": "https://librewolf.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/librewolf",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/librewolf",
-    "version_raw": "https://gitlab.com/api/v4/projects/24386000/packages/generic/librewolf/151.0.2-1/LibreWolf.x86_64.AppImage",
+    "version_raw": "https://gitlab.com/api/v4/projects/24386000/packages/generic/librewolf/151.0.3-1/LibreWolf.x86_64.AppImage",
     "description": "Firefox-based Web Browser focused on privacy, security, freedom"
   },
   {
@@ -12316,7 +12316,7 @@
     "site": "lunatask/lunatask",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lunatask",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lunatask",
-    "version_raw": "https://github.com/lunatask/lunatask/releases/download/v2.1.28/Lunatask-2.1.28.AppImage",
+    "version_raw": "https://github.com/lunatask/lunatask/releases/download/v2.1.29/Lunatask-2.1.29.AppImage",
     "description": "All-in-one encrypted to-do list, notebook, habit and mood tracker"
   },
   {
@@ -16004,7 +16004,7 @@
     "site": "zhanglun/pavo",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pavo",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pavo",
-    "version_raw": "https://github.com/zhanglun/pavo/releases/download/v0.0.14/Pavo_0.0.14_amd64.AppImage",
+    "version_raw": "",
     "description": "A mini desktop wallpaper application"
   },
   {
@@ -18596,7 +18596,7 @@
     "site": "retrovibed/retrovibed",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/retrovibed",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/retrovibed",
-    "version_raw": "https://github.com/retrovibed/retrovibed/releases/download/r2026.6.101781104845/retrovibed.linux.amd64.AppImage",
+    "version_raw": "https://github.com/retrovibed/retrovibed/releases/download/r2026.6.101781127983/retrovibed.linux.amd64.AppImage",
     "description": "Personal Digital Archive and Media Player with at cost cloud storage backend"
   },
   {
@@ -19716,7 +19716,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-06-10-2d93feb5a5d576acf8cf9146da0dd7bf8e6546a1/shadps4-linux-sdl-2026-06-10-2d93feb.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-06-10-b3a9e2009a908f15f07d452e5bf42d95c85b3b8b/shadps4-linux-sdl-2026-06-10-b3a9e20.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -22260,7 +22260,7 @@
     "site": "https://www.thunderbird.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-beta",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260609-214856/Thunderbird-beta-152.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260610-220323/Thunderbird-beta-152.0-x86_64.AppImage",
     "description": "Free and open source eMail client, Beta Edition"
   },
   {
@@ -22268,7 +22268,7 @@
     "site": "https://www.thunderbird.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-nightly",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260609-214856/Thunderbird-nightly-153.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260610-220323/Thunderbird-nightly-153.0a1-x86_64.AppImage",
     "description": "Free and open source eMail client, Nightly Edition"
   },
   {
@@ -24164,7 +24164,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "10530430054",
+    "version_raw": "10535108066",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
