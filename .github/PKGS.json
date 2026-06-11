@@ -108,7 +108,7 @@
     "site": "amir1376/ab-download-manager",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ab-download-manager",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ab-download-manager",
-    "version_raw": "https://github.com/amir1376/ab-download-manager/releases/download/v1.8.8/ABDownloadManager_1.8.8_linux_x64.tar.gz",
+    "version_raw": "https://github.com/amir1376/ab-download-manager/releases/download/v1.9.0/ABDownloadManager_1.9.0_linux_x64.tar.gz",
     "description": "A Download Manager that speeds up your downloads"
   },
   {
@@ -574,6 +574,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/amplitude-soundboard",
     "version_raw": "https://github.com/dan0v/AmplitudeSoundboard/releases/download/2.13.1/Amplitude_Soundboard-x86_64.AppImage",
     "description": "A sleek, cross-platform soundboard, available"
+  },
+  {
+    "pkg": "amule",
+    "site": "amule-project/amule",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/amule",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/amule",
+    "version_raw": "https://github.com/amule-project/amule/releases/download/3.0.0/aMule-3.0.0-Linux-x64.AppImage",
+    "description": "All-platform P2P client based on eMule. aMule is a free, GPL-licensed peer-to-peer file-sharing client for the eD2k and Kademlia networks"
   },
   {
     "pkg": "amusiz",
@@ -2196,7 +2204,7 @@
     "site": "https://www.blensor.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blensor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blensor",
-    "version_raw": "",
+    "version_raw": "1.0.18",
     "description": "3D modeling, animation, rendering and post-production"
   },
   {
@@ -2460,7 +2468,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave-beta",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260609-215710/Brave-Web-Browser-beta-1.92.118-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260610-221445/Brave-Web-Browser-beta-1.92.119-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the beta release"
   },
   {
@@ -2468,7 +2476,7 @@
     "site": "ivan-hc/Brave-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/brave-nightly",
-    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260609-215710/Brave-Web-Browser-nightly-1.93.47-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Brave-appimage/releases/download/20260610-221445/Brave-Web-Browser-nightly-1.93.52-x86_64.AppImage",
     "description": "Unofficial, a privacy oriented Web Browser based on Chromium, this is the nightly release"
   },
   {
@@ -4676,7 +4684,7 @@
     "site": "darktable-org/darktable",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/darktable-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/darktable-nightly",
-    "version_raw": "https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.5.0%2B1614.g03d3679de7-x86_64.AppImage",
+    "version_raw": "https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.5.0%2B1619.g1d0a9e511c-x86_64.AppImage",
     "description": "Photography workflow application and raw developer (nightly)"
   },
   {
@@ -5524,7 +5532,7 @@
     "site": "drawpile/Drawpile",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/drawpile",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/drawpile",
-    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.3.1-beta.1-54-gfd7af2011-x86_64.AppImage",
+    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.3.1-beta.1-55-g871886531-x86_64.AppImage",
     "description": "Drawing program to sketch on the same canvas simultaneously"
   },
   {
@@ -6460,7 +6468,7 @@
     "site": "vitaly-zdanevich/evernote-linux-repackage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/evernote",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/evernote",
-    "version_raw": "https://github.com/vitaly-zdanevich/evernote-linux-repackage/releases/download/v11.18.1-2/Evernote-v11.18.1-2-black-x86_64.AppImage",
+    "version_raw": "https://github.com/vitaly-zdanevich/evernote-linux-repackage/releases/download/v11.20.2-7/Evernote-v11.20.2-7-black-x86_64.AppImage",
     "description": "Unofficial. Note taking app. Remember everything and tackle any project with your notes, tasks, and schedule all in one place"
   },
   {
@@ -7020,7 +7028,7 @@
     "site": "gtsteffaniak/filebrowser",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/filebrowser-quantum",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/filebrowser-quantum",
-    "version_raw": "https://github.com/gtsteffaniak/filebrowser/releases/download/v1.4.3-beta/linux-amd64-filebrowser",
+    "version_raw": "https://github.com/gtsteffaniak/filebrowser/releases/download/v1.4.4-beta/linux-amd64-filebrowser",
     "description": "Web File Browser"
   },
   {
@@ -8292,7 +8300,7 @@
     "site": "pkgforge-dev/ghostty-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ghostty-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ghostty-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.2-main-%2B69095e2-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.2-main-%2B5659cef-x86_64.AppImage",
     "description": "Unofficial, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (Tip, Nightly)"
   },
   {
@@ -8892,7 +8900,7 @@
     "site": "benjamimgois/goverlay",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/goverlay",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/goverlay",
-    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-21c2518c7-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-334237a4b-anylinux-x86_64.AppImage",
     "description": "An opensource project that aims to create a Graphical UI to help manage Linux overlays"
   },
   {
@@ -9348,7 +9356,7 @@
     "site": "Wavesonics/hammer-editor",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hammer",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hammer",
-    "version_raw": "https://github.com/Wavesonics/hammer-editor/releases/download/v3.2.0/hammer.AppImage",
+    "version_raw": "https://github.com/Wavesonics/hammer-editor/releases/download/v3.2.1/hammer.AppImage",
     "description": "A simple tool for building stories"
   },
   {
@@ -13844,7 +13852,7 @@
     "site": "mytonwalletorg/mytonwallet",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mytonwallet",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mytonwallet",
-    "version_raw": "https://github.com/mytonwallet-org/mytonwallet/releases/download/v4.10.4/MyTonWallet-x86_64.AppImage",
+    "version_raw": "https://github.com/mytonwallet-org/mytonwallet/releases/download/v4.10.7/MyTonWallet-x86_64.AppImage",
     "description": "Feature-rich web wallet and browser extension for TON Network"
   },
   {
@@ -14148,7 +14156,7 @@
     "site": "lsimpsonsfdc/Nexis",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nexis",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nexis",
-    "version_raw": "https://github.com/s4solutionsllc/Nexis/releases/download/v2.3.13/Nexis-2.3.13-x86_64.AppImage",
+    "version_raw": "https://github.com/s4solutionsllc/Nexis/releases/download/v2.3.14/Nexis-2.3.14-x86_64.AppImage",
     "description": "Linux & macOS system optimizer and monitor. Qt6 fork of Stacer with GPU monitoring, dark/light themes, and active maintenance"
   },
   {
@@ -14660,7 +14668,7 @@
     "site": "neovim/neovim",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nvim",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nvim",
-    "version_raw": "https://github.com/neovim/neovim/releases/download/v0.12.2/nvim-linux-x86_64.appimage",
+    "version_raw": "https://github.com/neovim/neovim/releases/download/v0.12.3/nvim-linux-x86_64.appimage",
     "description": "NeoVim, Vim fork focused on extensibility and usability"
   },
   {
@@ -15484,7 +15492,7 @@
     "site": "ivan-hc/Opera-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/opera",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/opera",
-    "version_raw": "https://github.com/ivan-hc/Opera-appimage/releases/download/continuous/Opera-Web-Browser-stable-132.0.5905.22-x86_64-4c977f40bbcbbe2fd69198f1faf259e0.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Opera-appimage/releases/download/continuous/Opera-Web-Browser-stable-132.0.5905.37-x86_64.AppImage",
     "description": "Unofficial. Fast and secure web browser, Stable version"
   },
   {
@@ -15916,7 +15924,7 @@
     "site": "Scille/parsec-cloud",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parsec",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parsec",
-    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.9.1-a.0.dev.20612%2Bc847bcb_linux_x86_64.unsigned.AppImage",
+    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.9.1-a.0.dev.20614%2B38209e5_linux_x86_64.unsigned.AppImage",
     "description": "Open source Dropbox-like file sharing with full client encryption"
   },
   {
@@ -16004,7 +16012,7 @@
     "site": "zhanglun/pavo",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pavo",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pavo",
-    "version_raw": "",
+    "version_raw": "https://github.com/zhanglun/pavo/releases/download/v0.0.14/Pavo_0.0.14_amd64.AppImage",
     "description": "A mini desktop wallpaper application"
   },
   {
@@ -17164,7 +17172,7 @@
     "site": "pragtical/pragtical",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pragtical",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pragtical",
-    "version_raw": "https://github.com/pragtical/pragtical/releases/download/rolling/Pragtical-rolling-x86_64.AppImage",
+    "version_raw": "https://github.com/pragtical/pragtical/releases/download/v3.12.1/Pragtical-v3.12.1-x86_64.AppImage",
     "description": "The practical and pragmatic code editor"
   },
   {
@@ -18252,7 +18260,7 @@
     "site": "yurijmikhalevich/rclip",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rclip",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rclip",
-    "version_raw": "https://github.com/yurijmikhalevich/rclip/releases/download/v3.2.1/rclip-3.2.1-amd64.AppImage",
+    "version_raw": "https://github.com/yurijmikhalevich/rclip/releases/download/v3.2.2/rclip-3.2.2-amd64.AppImage",
     "description": "AI-Powered Semantic Photo Search for the Command Line"
   },
   {
@@ -19716,7 +19724,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-06-10-b3a9e2009a908f15f07d452e5bf42d95c85b3b8b/shadps4-linux-sdl-2026-06-10-b3a9e20.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-06-10-e369d8f78de000ef73b1acace48c28505831c3ce/shadps4-linux-sdl-2026-06-10-e369d8f.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -20832,6 +20840,14 @@
     "description": "Simple Terminal+ is a lightweight terminal (~100KB) with essential features and rock-solid stability for daily use. Best used with tmux and nerd-fonts"
   },
   {
+    "pkg": "stabilitymatrix",
+    "site": "lykosai/stabilitymatrix",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/stabilitymatrix",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/stabilitymatrix",
+    "version_raw": "https://github.com/LykosAI/StabilityMatrix/releases/download/v2.16.0/StabilityMatrix-linux-x64.zip",
+    "description": "Multi-Platform Package Manager for Stable Diffusion, a deep AI learning model used for converting text to images"
+  },
+  {
     "pkg": "stacer",
     "site": "QuentiumYT/Stacer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/stacer",
@@ -21732,7 +21748,7 @@
     "site": "pingdotgg/t3code",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/t3code",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/t3code",
-    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.28-nightly.20260610.520/T3-Code-0.0.28-nightly.20260610.520-x86_64.AppImage",
+    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.28-nightly.20260611.526/T3-Code-0.0.28-nightly.20260611.526-x86_64.AppImage",
     "description": "T3 Code is a minimal web GUI for coding agents (currently Codex and Claude, more coming soon)"
   },
   {
@@ -23948,7 +23964,7 @@
     "site": "https://www.warp.dev",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/warp-terminal",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/warp-terminal",
-    "version_raw": "0.2026.06.03.09.49.stable_02",
+    "version_raw": "0.2026.06.03.09.49.stable_03",
     "description": "Terminal reimagined with AI and collaborative tools"
   },
   {
@@ -24164,7 +24180,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "10535108066",
+    "version_raw": "10544524275",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -24820,7 +24836,7 @@
     "site": "has207/xenia-edge",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xenia-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xenia-edge",
-    "version_raw": "https://github.com/has207/xenia-edge/releases/download/f3a50c8/xenia_edge_linux.AppImage",
+    "version_raw": "https://github.com/has207/xenia-edge/releases/download/3ab51a5/xenia_edge_linux.AppImage",
     "description": "Xbox 360 Emulator Research Project, fork of the Xenia emulator, with the aim of quicker iteration and improvements to Vulkan backend"
   },
   {
@@ -24956,7 +24972,7 @@
     "site": "xournalpp/xournalpp",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xournal++nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xournal++nightly",
-    "version_raw": "https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-1.3.4%2Bdev-nightly-20260610-x86_64.AppImage",
+    "version_raw": "https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-1.3.5%2Bdev-nightly-20260611-x86_64.AppImage",
     "description": "C++ notetaking software with PDF annotation support, DEV"
   },
   {
