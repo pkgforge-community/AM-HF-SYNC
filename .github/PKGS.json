@@ -436,7 +436,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.825/alma-0.0.825-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.826/alma-0.0.826-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -3812,7 +3812,7 @@
     "site": "binarynonsense/comic-book-reader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/comic-book-reader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/comic-book-reader",
-    "version_raw": "https://github.com/binarynonsense/comic-book-reader/releases/download/v3.22.0/ACBR_Linux_AppImage.zip",
+    "version_raw": "https://github.com/binarynonsense/comic-book-reader/releases/download/v3.23.0/ACBR_Linux_AppImage.zip",
     "description": "Reader and converter for cbz, cbr, epub and pdf files"
   },
   {
@@ -4588,7 +4588,7 @@
     "site": "cutechess/cutechess",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cutechess",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cutechess",
-    "version_raw": "https://github.com/cutechess/cutechess/releases/download/v1.5.0-beta4/Cute_Chess-1.5.0-beta4-x86_64.AppImage",
+    "version_raw": "https://github.com/cutechess/cutechess/releases/download/v1.5.1/Cute_Chess-1.5.1-x86_64.AppImage",
     "description": "Cute Chess is a GUI, a CLI and a library for playing chess"
   },
   {
@@ -8900,7 +8900,7 @@
     "site": "benjamimgois/goverlay",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/goverlay",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/goverlay",
-    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/1.8.3/goverlay_1_8_3.appimage",
+    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-51210b675-anylinux-x86_64.AppImage",
     "description": "An opensource project that aims to create a Graphical UI to help manage Linux overlays"
   },
   {
@@ -13044,7 +13044,7 @@
     "site": "ivan-hc/MS-Edge-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/microsoft-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/microsoft-edge",
-    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/20260614-115943/Microsoft-Edge-stable-149.0.4022.69-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-stable-149.0.4022.69-1-x86_64.AppImage",
     "description": "Web Browser provided by Microsoft, Stable Edition"
   },
   {
@@ -14604,7 +14604,7 @@
     "site": "nukeop/nuclear",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nuclear",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nuclear",
-    "version_raw": "https://github.com/nukeop/nuclear/releases/download/player%401.40.0/Nuclear_1.40.0_amd64.AppImage",
+    "version_raw": "https://github.com/nukeop/nuclear/releases/download/player%401.40.1/Nuclear_1.40.1_amd64.AppImage",
     "description": "Streaming music player that finds free music for you"
   },
   {
@@ -16452,7 +16452,7 @@
     "site": "Kuingsmile/PicList",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/piclist",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/piclist",
-    "version_raw": "https://github.com/Kuingsmile/PicList/releases/download/v3.4.0/PicList-3.4.0-x86_64.AppImage",
+    "version_raw": "https://github.com/Kuingsmile/PicList/releases/download/v3.5.0/PicList-3.5.0-x86_64.AppImage",
     "description": "Cloud storage platform management & file upload tool based on PicGo"
   },
   {
@@ -21852,7 +21852,7 @@
     "site": "https://www.tangentnotes.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.12.2-beta.2.AppImage",
+    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.12.1.AppImage",
     "description": "A clean and powerful open source notes app"
   },
   {
@@ -21942,285 +21942,5 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tdlib-rs",
     "version_raw": "https://github.com/FedericoBruzzone/tdlib-rs/releases/download/v1.4.0/tdlib-1.8.61-linux-x86_64.zip",
     "description": "Rust wrapper around the Telegram Database Library"
-  },
-  {
-    "pkg": "teams",
-    "site": "IsmaelMartinez/teams-for-linux",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/teams",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/teams",
-    "version_raw": "https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.11.1/teams-for-linux-2.11.1.AppImage",
-    "description": "Unofficial, Business communication platform developed by Microsoft"
-  },
-  {
-    "pkg": "teamviewer",
-    "site": "https://www.teamviewer.com",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/teamviewer",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/teamviewer",
-    "version_raw": "",
-    "description": "Deliver remote IT support to your customers and colleagues, anytime, anywhere. Communication, network"
-  },
-  {
-    "pkg": "teamviewer-host",
-    "site": "https://www.teamviewer.com",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/teamviewer-host",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/teamviewer-host",
-    "version_raw": "",
-    "description": "Host utility for TeamViewer, if you want to set up unattended access to a device"
-  },
-  {
-    "pkg": "teamviewer-qs",
-    "site": "https://www.teamviewer.com",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/teamviewer-qs",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/teamviewer-qs",
-    "version_raw": "",
-    "description": "QuickSupport utility for TeamViewer, if you want to receive support"
-  },
-  {
-    "pkg": "tee",
-    "site": "ivan-hc/am-utils",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tee",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tee",
-    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
-    "description": "Read from standard input and write to standard output and. This is part of am-utils suite"
-  },
-  {
-    "pkg": "teledrive",
-    "site": "KhushrajRathod/TeleDrive",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/teledrive",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/teledrive",
-    "version_raw": "https://github.com/khrj/teledrive/releases/download/v1.2.0/TeleDrive-1.2.0-x86_64.AppImage",
-    "description": "Automatically backup Telegram Saved Messages"
-  },
-  {
-    "pkg": "telegram",
-    "site": "Portable-Linux-Apps/Telegram-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/telegram",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/telegram",
-    "version_raw": "https://github.com/Portable-Linux-Apps/Telegram-AppImage/releases/download/v6.8.5%402026-06-08_1780942815/Telegram-v6.8.5-x86_64.AppImage",
-    "description": "Official desktop version of Telegram messaging app"
-  },
-  {
-    "pkg": "tenacity",
-    "site": "tenacityteam/tenacity",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tenacity",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tenacity",
-    "version_raw": "https://codeberg.org/tenacityteam/tenacity/releases/download/v1.4-alpha1/tenacity-linux-1.4.0-x86_64.AppImage",
-    "description": "An easy-to-use, cross-platform multi-track audio editor/recorder"
-  },
-  {
-    "pkg": "terabox",
-    "site": "https://www.terabox.com",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/terabox",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/terabox",
-    "version_raw": "https://data.nephobox.com/issue/terabox/Linux/1.44.3/TeraBox_1.44.3_amd64.deb",
-    "description": "Terabox is the simplest way to send your files around the world. Back up and Share photos, videos, docs, and other files of any size to cloud storage"
-  },
-  {
-    "pkg": "tere",
-    "site": "mgunyho/tere",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tere",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tere",
-    "version_raw": "https://github.com/mgunyho/tere/releases/download/v1.6.0/tere-1.6.0-x86_64-unknown-linux-gnu.zip",
-    "description": "Terminal file explorer"
-  },
-  {
-    "pkg": "terminalos-sim",
-    "site": "justmaxcz/terminalOS-simulator",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/terminalos-sim",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/terminalos-sim",
-    "version_raw": "https://github.com/stuffbymax/terminalOS-simulator-archive/releases/download/v0.0.5/teminal-0_0_5-linux.AppImage",
-    "description": "A terminalOS simulator"
-  },
-  {
-    "pkg": "termora",
-    "site": "TermoraDev/termora",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/termora",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/termora",
-    "version_raw": "https://github.com/TermoraDev/termora/releases/download/2.0.0-beta.16/termora-2.0.0-beta.16-linux-x86-64.AppImage",
-    "description": "A terminal emulator and SSH client"
-  },
-  {
-    "pkg": "termshot",
-    "site": "homeport/termshot",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/termshot",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/termshot",
-    "version_raw": "https://github.com/homeport/termshot/releases/download/v0.6.1/termshot_0.6.1_linux_amd64.tar.gz",
-    "description": "Creates screenshots based on terminal command output"
-  },
-  {
-    "pkg": "teslacam-browser",
-    "site": "BobStrogg/teslacam-browser",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/teslacam-browser",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/teslacam-browser",
-    "version_raw": "https://github.com/BobStrogg/teslacam-browser/releases/download/v0.0.956/TeslaCam-Browser-0.0.956.AppImage",
-    "description": "A minimal TeslaCam Browser"
-  },
-  {
-    "pkg": "tesler",
-    "site": "j-catania/TeslaSentinelViewer",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tesler",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tesler",
-    "version_raw": "https://github.com/j-catania/TeslaSentinelViewer/releases/download/v0.2.3/TesLEr-0.2.3.AppImage",
-    "description": "The Tesla Sentinel Viewer"
-  },
-  {
-    "pkg": "tess",
-    "site": "SquitchYT/Tess",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tess",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tess",
-    "version_raw": "https://github.com/Squitch1/Tess/releases/download/0.7.0-alpha.16/tess-x86_64-unknown-linux-gnu",
-    "description": "A hackable, simple, rapid and beautiful terminal"
-  },
-  {
-    "pkg": "tesseract",
-    "site": "AlexanderP/tesseract-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tesseract",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tesseract",
-    "version_raw": "https://github.com/AlexanderP/tesseract-appimage/releases/download/v5.5.2/tesseract-5.5.2-x86_64.AppImage",
-    "description": "Tesseract Open Source OCR Engine AppImage"
-  },
-  {
-    "pkg": "test",
-    "site": "ivan-hc/am-utils",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/test",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/test",
-    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
-    "description": "Check file types and compare values. This is part of am-utils suite"
-  },
-  {
-    "pkg": "testdisk",
-    "site": "https://www.cgsecurity.org/wiki/TestDisk_Download",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/testdisk",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/testdisk",
-    "version_raw": "https://www.cgsecurity.org/testdisk-7.3-WIP.linux26-x86_64.tar.bz2",
-    "description": "TestDisk & PhotoRec, tools to recover lost partitions and files"
-  },
-  {
-    "pkg": "tetanes",
-    "site": "lukexor/tetanes",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tetanes",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tetanes",
-    "version_raw": "https://github.com/lukexor/tetanes/releases/download/tetanes-v0.14.2/tetanes-0.14.2-x86_64-unknown-linux-gnu.AppImage",
-    "description": "A cross-platform NES emulator written in Rust using wgpu"
-  },
-  {
-    "pkg": "tev",
-    "site": "tom94/tev",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tev",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tev",
-    "version_raw": "https://github.com/Tom94/tev/releases/download/v2.12.2/tev.appimage",
-    "description": "High dynamic range (HDR) image viewer for people who care about colors"
-  },
-  {
-    "pkg": "texmacs",
-    "site": "https://download.opensuse.org/repositories/home:/slowphil:",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/texmacs",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/texmacs",
-    "version_raw": "https://download.opensuse.org/repositories/home:/slowphil:/texmacs-devel/AppImage/",
-    "description": "Free scientific text editor, inspired by TeX and GNU Emacs"
-  },
-  {
-    "pkg": "texstudio",
-    "site": "texstudio-org/texstudio",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/texstudio",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/texstudio",
-    "version_raw": "https://github.com/texstudio-org/texstudio/releases/download/4.9.5/texstudio-4.9.5-x86_64.AppImage",
-    "description": "LaTeX development environment"
-  },
-  {
-    "pkg": "textnote",
-    "site": "dkaslovsky/textnote",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/textnote",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/textnote",
-    "version_raw": "https://github.com/dkaslovsky/textnote/releases/download/v1.3.2/textnote_linux_amd64",
-    "description": "Simple tool for creating and organizing daily notes on the command line"
-  },
-  {
-    "pkg": "textosaurus",
-    "site": "martinrotter/textosaurus",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/textosaurus",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/textosaurus",
-    "version_raw": "https://github.com/martinrotter/textosaurus/releases/download/0.9.13/textosaurus-0.9.13-9cb7064-linux64.AppImage",
-    "description": "Cross-platform text editor based on Qt and Scintilla"
-  },
-  {
-    "pkg": "tfcbm",
-    "site": "dyslechtchitect/tfcbm",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tfcbm",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tfcbm",
-    "version_raw": "https://github.com/dyslechtchitect/tfcbm/releases/download/v1.1.5/tfcbm-1.1.5-x86_64.AppImage",
-    "description": "The * Clipboard Manager"
-  },
-  {
-    "pkg": "tgpt",
-    "site": "aandrew-me/tgpt",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tgpt",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tgpt",
-    "version_raw": "https://github.com/aandrew-me/tgpt/releases/download/v2.11.1/tgpt-linux-amd64",
-    "description": "AI Chatbots in terminal without needing API keys"
-  },
-  {
-    "pkg": "the-way",
-    "site": "out-of-cheese-error/the-way",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/the-way",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/the-way",
-    "version_raw": "https://github.com/out-of-cheese-error/the-way/releases/download/v0.20.3/the-way-linux.tar.gz",
-    "description": "A code snippets manager for your terminal"
-  },
-  {
-    "pkg": "thedesk",
-    "site": "cutls/TheDesk",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thedesk",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thedesk",
-    "version_raw": "https://github.com/cutls/TheDesk/releases/download/v24.2.1/TheDesk-24.2.1.AppImage",
-    "description": "Mastodon Client for PC"
-  },
-  {
-    "pkg": "theframe",
-    "site": "vicr123/theFrame",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/theframe",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/theframe",
-    "version_raw": "https://github.com/vicr123/theFrame/releases/download/continuous/theframe-linux.AppImage",
-    "description": "Animation tool"
-  },
-  {
-    "pkg": "theia-blueprint",
-    "site": "https://www.eclipse.org",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/theia-blueprint",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/theia-blueprint",
-    "version_raw": "2026-06",
-    "description": "Building desktop-based products based on Eclipse Theia"
-  },
-  {
-    "pkg": "thermusqt",
-    "site": "yschutz/ThermusQt",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thermusqt",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thermusqt",
-    "version_raw": "https://github.com/yschutz/ThermusQt/releases/download/continuous/ThermusQt-x86_64.AppImage",
-    "description": "Calculate particle composition of hadronic state"
-  },
-  {
-    "pkg": "theweb",
-    "site": "vicr123/theweb",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/theweb",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/theweb",
-    "version_raw": "https://github.com/vicr123/theweb/releases/download/continuous/theWeb-linux.AppImage",
-    "description": "Web Browser"
-  },
-  {
-    "pkg": "thief",
-    "site": "cteamx/Thief",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thief",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thief",
-    "version_raw": "https://github.com/cteamx/Thief/releases/download/4.0.0/thief-4.0.0-linux64.AppImage",
-    "description": "An innovative cross-platform fishing tool, in chinese"
-  },
-  {
-    "pkg": "thinreports-section-editor",
-    "site": "thinreports/thinreports-section-editor",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thinreports-section-editor",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thinreports-section-editor",
-    "version_raw": "https://github.com/thinreports/thinreports-section-editor/releases/download/v1.0.0-dev/thinreports-section-editor-1.0.0-dev-linux-20240116-67b3e2.AppImage",
-    "description": "A template editor for Thinreports"
   }
 ]
