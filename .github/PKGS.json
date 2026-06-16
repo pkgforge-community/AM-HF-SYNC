@@ -12100,7 +12100,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.6-canary.5/LobeHub-2.2.6-canary.5.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.6-canary.6/LobeHub-2.2.6-canary.6.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -21748,7 +21748,7 @@
     "site": "pingdotgg/t3code",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/t3code",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/t3code",
-    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.28-nightly.20260616.574/T3-Code-0.0.28-nightly.20260616.574-x86_64.AppImage",
+    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.28-nightly.20260616.575/T3-Code-0.0.28-nightly.20260616.575-x86_64.AppImage",
     "description": "T3 Code is a minimal web GUI for coding agents (currently Codex and Claude, more coming soon)"
   },
   {
@@ -25254,6 +25254,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/yolx",
     "version_raw": "https://github.com/uiYzzi/yolx/releases/download/0.3.9%2B1/yolx-linux-0.3.9%2B1.AppImage",
     "description": "A modern download tool developed with Flutter, powered by Aria 2 at its core"
+  },
+  {
+    "pkg": "youplaytx",
+    "site": "ProfP303/youplaytx",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/youplaytx",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/youplaytx",
+    "version_raw": "https://codeberg.org/ProfP303/youplaytx/releases/download/v0.4.4/youplaytx_v0.4.4-x86_64.AppImage",
+    "description": "A full-screen, dual-pane YouTube audio player for the terminal"
   },
   {
     "pkg": "youtube-download",
