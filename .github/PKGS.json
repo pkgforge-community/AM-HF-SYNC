@@ -12100,7 +12100,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.7-canary.14/LobeHub-2.2.7-canary.14.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v0.0.0-nightly.pr16080.17588/LobeHub-Nightly-0.0.0-nightly.pr16080.17588.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -14582,5 +14582,389 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ntfydesktop",
     "version_raw": "https://github.com/emmaexe/ntfyDesktop/releases/download/v1.6.0/ntfyDesktop-1.6.0-x86_64.tar.gz",
     "description": "A desktop client for ntfy. Allows you to subscribe to topics from any ntfy server and recieve notifications natively on the desktop"
+  },
+  {
+    "pkg": "ntsc-rs",
+    "site": "valadaptive/ntsc-rs",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ntsc-rs",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ntsc-rs",
+    "version_raw": "https://github.com/ntsc-rs/ntsc-rs/releases/download/v0.9.4/ntsc-rs-linux-standalone.zip",
+    "description": "Free, open-source VHS effect. Standalone application + plugin (After Effects, Premiere, and OpenFX)"
+  },
+  {
+    "pkg": "nu",
+    "site": "nushell/nushell",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nu",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nu",
+    "version_raw": "https://github.com/nushell/nushell/releases/download/0.113.1/nu-0.113.1-x86_64-unknown-linux-gnu.tar.gz",
+    "description": "A new type of shell"
+  },
+  {
+    "pkg": "nuclear",
+    "site": "nukeop/nuclear",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nuclear",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nuclear",
+    "version_raw": "https://github.com/nukeop/nuclear/releases/download/player%401.40.5/Nuclear_1.40.5_amd64.AppImage",
+    "description": "Streaming music player that finds free music for you"
+  },
+  {
+    "pkg": "nuclia",
+    "site": "nuclia/frontend",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nuclia",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nuclia",
+    "version_raw": "https://github.com/nuclia/frontend/releases/download/2.7.9/NucliaDesktop-2.7.9.AppImage",
+    "description": "A low-code API to build an AI multi-language semantic search engine"
+  },
+  {
+    "pkg": "nuclino",
+    "site": "https://www.nuclino.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nuclino",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nuclino",
+    "version_raw": "1.6.8",
+    "description": "Bring knowledge, docs, and projects together in one place"
+  },
+  {
+    "pkg": "nudelta",
+    "site": "donn/nudelta",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nudelta",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nudelta",
+    "version_raw": "https://github.com/donn/nudelta/releases/download/0.10.0/nudelta-amd64.AppImage",
+    "description": "Open source NuPhy Console alternative"
+  },
+  {
+    "pkg": "nugget-doom",
+    "site": "mralaux/nugget-doom",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nugget-doom",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nugget-doom",
+    "version_raw": "https://github.com/MrAlaux/Nugget-Doom/releases/download/nugget-doom-5.0.0/Nugget-Doom-5.0.0-AppImage.zip",
+    "description": "Nugget Doom is a Doom game source port forked from Woof! with additional features"
+  },
+  {
+    "pkg": "nugget-doom-enhanced",
+    "site": "pkgforge-dev/Nugget-Doom-AppImage-Enhanced",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nugget-doom-enhanced",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nugget-doom-enhanced",
+    "version_raw": "https://github.com/pkgforge-dev/Nugget-Doom-AppImage-Enhanced/releases/download/5.0.0-1%402026-06-01_1780332354/Nugget_Doom-5.0.0-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, a Doom source port forked from Woof! with additional features"
+  },
+  {
+    "pkg": "numara",
+    "site": "bornova/numara-calculator",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/numara",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/numara",
+    "version_raw": "https://github.com/bornova/numara-calculator/releases/download/v6.10.5/Numara-6.10.5-x86_64.AppImage",
+    "description": "Simple notepad calculator built on Electron"
+  },
+  {
+    "pkg": "numfmt",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/numfmt",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/numfmt",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
+    "description": "From/to human-readable strings. This is part of am-utils suite"
+  },
+  {
+    "pkg": "nunchuk",
+    "site": "nunchuk-io/nunchuk-desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nunchuk",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nunchuk",
+    "version_raw": "https://github.com/nunchuk-io/nunchuk-desktop/releases/download/2.5.0/nunchuk-linux-v2.5.0.zip",
+    "description": "Desktop bitcoin wallet with multisig, hardware, nfc and air-gapped key support"
+  },
+  {
+    "pkg": "nvim",
+    "site": "neovim/neovim",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nvim",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nvim",
+    "version_raw": "https://github.com/neovim/neovim/releases/download/v0.12.3/nvim-linux-x86_64.appimage",
+    "description": "NeoVim, Vim fork focused on extensibility and usability"
+  },
+  {
+    "pkg": "nvim-nightly",
+    "site": "neovim/neovim",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nvim-nightly",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nvim-nightly",
+    "version_raw": "https://github.com/neovim/neovim/releases/download/nightly/nvim-linux-x86_64.appimage",
+    "description": "NeoVim, Vim fork, the most recent development build"
+  },
+  {
+    "pkg": "nvtop",
+    "site": "Syllo/nvtop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nvtop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nvtop",
+    "version_raw": "https://github.com/Syllo/nvtop/releases/download/3.3.2/nvtop-3.3.2-x86_64.AppImage",
+    "description": "GPUs process monitoring for AMD, Intel and NVIDIA"
+  },
+  {
+    "pkg": "nx-software-center",
+    "site": "nomad-desktop/nx-software-center",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nx-software-center",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nx-software-center",
+    "version_raw": "https://github.com/Nitrux/nx-software-center/releases/download/latest/nx-software-center-latest-x86_64.AppImage",
+    "description": "A GUI to install and manage AppImages, Nitrux OS"
+  },
+  {
+    "pkg": "nxengine-evo",
+    "site": "nxengine/nxengine-evo",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nxengine-evo",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nxengine-evo",
+    "version_raw": "https://github.com/nxengine/nxengine-evo/releases/download/v2.6.5-1/NXEngine-Evo-v2.6.5-1-Linux-x86_64.AppImage",
+    "description": "A somewhat upgraded/refactored version of NXEngine"
+  },
+  {
+    "pkg": "nxengine-evo-enhanced",
+    "site": "pkgforge-dev/NXEngine-evo-AppImage-Enhanced",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nxengine-evo-enhanced",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nxengine-evo-enhanced",
+    "version_raw": "https://github.com/pkgforge-dev/NXEngine-evo-AppImage-Enhanced/releases/download/2.6.5.1.r76.g1f093d1-1%402026-06-01_1780331036/Cave_Story_NX-evo-2.6.5.1.r76.g1f093d1-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, a somewhat upgraded/refactored version of NXEngine"
+  },
+  {
+    "pkg": "nxshell",
+    "site": "nxshell/nxshell",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nxshell",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nxshell",
+    "version_raw": "https://github.com/nxshell/nxshell/releases/download/v1.9.3/NxShell-x86_64-linux-1.9.3-202303220832.AppImage",
+    "description": "An easy to use new terminal"
+  },
+  {
+    "pkg": "nyaa",
+    "site": "Beastwick18/nyaa",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nyaa",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nyaa",
+    "version_raw": "",
+    "description": "A nyaa.si tui tool for browsing and downloading torrents"
+  },
+  {
+    "pkg": "nyan",
+    "site": "toshimaru/nyan",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nyan",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nyan",
+    "version_raw": "https://github.com/toshimaru/nyan/releases/download/v1.2.6/nyan_Linux_amd64.tar.gz",
+    "description": "CLI, colored cat command"
+  },
+  {
+    "pkg": "nychess",
+    "site": "nnisarggada/NyChess",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nychess",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nychess",
+    "version_raw": "https://github.com/itsjustneo-xo/NyChess/releases/download/Linux/NyChess_Chess_Game.AppImage",
+    "description": "A python Chess Engine and AI"
+  },
+  {
+    "pkg": "nym-vpn",
+    "site": "nymtech/nym-vpn-client",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nym-vpn",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nym-vpn",
+    "version_raw": "https://github.com/nymtech/nym-vpn-client/releases/download/nym-vpn-nightly-20260619054702/NymVPN_2026.11.0-beta.1_amd64.AppImage",
+    "description": "Cross-platform open source VPN client built in Rust, with mixnet anonymity and WireGuard speed. Protects metadata, not just IP addresses. Zero-knowledge payments for unlinkable online activities"
+  },
+  {
+    "pkg": "nym-wallet",
+    "site": "nymtech/nym",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nym-wallet",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nym-wallet",
+    "version_raw": "https://github.com/nymtech/nym/releases/download/nym-wallet-v1.2.22/NymWallet_1.2.22_amd64.AppImage",
+    "description": "Use the Nym network and take advantage of it"
+  },
+  {
+    "pkg": "nyrna",
+    "site": "Merrit/nyrna",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nyrna",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nyrna",
+    "version_raw": "https://github.com/Merrit/nyrna/releases/download/v2.27.2/Nyrna-Linux-Portable.tar.gz",
+    "description": "Suspend games and applications"
+  },
+  {
+    "pkg": "objcopy",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/objcopy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/objcopy",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
+    "description": "Translate object files. This is part of am-utils suite"
+  },
+  {
+    "pkg": "objdump",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/objdump",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/objdump",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
+    "description": "From object files. This is part of am-utils suite"
+  },
+  {
+    "pkg": "obliqoro",
+    "site": "mrjackwills/obliqoro",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/obliqoro",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/obliqoro",
+    "version_raw": "https://github.com/mrjackwills/obliqoro/releases/download/v0.3.3/Obliqoro_linux_x86_64.AppImage",
+    "description": "A cross-platform tauri gui where Oblique Strategies meets Pomodoro"
+  },
+  {
+    "pkg": "oblivion-desktop",
+    "site": "bepass-org/oblivion-desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/oblivion-desktop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/oblivion-desktop",
+    "version_raw": "https://github.com/bepass-org/oblivion-desktop/releases/download/v3.11.0/oblivion-desktop-linux-x86_64.AppImage",
+    "description": "Unofficial Warp Client, Oblivion provides a secure, optimised internet access"
+  },
+  {
+    "pkg": "obsidian",
+    "site": "obsidianmd/obsidian-releases",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/obsidian",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/obsidian",
+    "version_raw": "https://github.com/obsidianmd/obsidian-releases/releases/download/v1.12.7/Obsidian-1.12.7.AppImage",
+    "description": "A powerful knowledge base, plain text Markdown files"
+  },
+  {
+    "pkg": "obsidian-cli",
+    "site": "Yakitrak/obsidian-cli",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/obsidian-cli",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/obsidian-cli",
+    "version_raw": "https://github.com/Yakitrak/notesmd-cli/releases/download/v0.3.6/notesmd-cli_0.3.6_linux_amd64.tar.gz",
+    "description": "Interact with Obsidian in the terminal. Open, search, create, update, move and delete notes!"
+  },
+  {
+    "pkg": "obsidianirc",
+    "site": "ObsidianIRC/ObsidianIRC",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/obsidianirc",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/obsidianirc",
+    "version_raw": "https://github.com/obbyworld/obby/releases/download/v0.3.3-pre/ObsidianIRC_0.3.2_amd64.AppImage",
+    "description": "Modern IRC Client for the web, desktop and mobile"
+  },
+  {
+    "pkg": "ocat",
+    "site": "ic005k/OCAuxiliaryTools",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ocat",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ocat",
+    "version_raw": "https://github.com/ic005k/OCAuxiliaryTools/releases/download/20250001/OCAT-Linux-x86_64.AppImage",
+    "description": "OpenCore Auxiliary Tools, editing config.plist files for Acidanthera"
+  },
+  {
+    "pkg": "ocenaudio",
+    "site": "ivan-hc/ocenaudio-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ocenaudio",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ocenaudio",
+    "version_raw": "https://github.com/ivan-hc/ocenaudio-appimage/releases/download/continuous/ocenaudio_3.19.3-1-archimage5.0-x86_64.AppImage",
+    "description": "Unofficial. Multiplatform Audio Editor"
+  },
+  {
+    "pkg": "ocvvid2fulldome",
+    "site": "hn-88/OCVvid2fulldome",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ocvvid2fulldome",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ocvvid2fulldome",
+    "version_raw": "https://github.com/hn-88/OCVvid2fulldome/releases/download/v1.61/OCVvid2fulldome-1.61-x86_64.AppImage",
+    "description": "Take flat videos, distort them to fit fulldome"
+  },
+  {
+    "pkg": "ocvwarp",
+    "site": "hn-88/OCVWarp",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ocvwarp",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ocvwarp",
+    "version_raw": "https://github.com/hn-88/OCVWarp/releases/download/v4.01/OCVWarp-4.01-x86_64.AppImage",
+    "description": "Warping images and videos for planetarium fulldome display"
+  },
+  {
+    "pkg": "od",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/od",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/od",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
+    "description": "Dump files in octal and other formats. This is part of am-utils suite"
+  },
+  {
+    "pkg": "odamex",
+    "site": "pkgforge-dev/Odamex-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/odamex",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/odamex",
+    "version_raw": "https://github.com/pkgforge-dev/Odamex-AppImage/releases/download/12.2.0-3%402026-06-01_1780332383/Odamex-12.2.0-3-anylinux-x86_64.AppImage",
+    "description": "Unofficial, Online Multiplayer Doom port with a strong focus on the original gameplay while providing a breadth of enhancements"
+  },
+  {
+    "pkg": "odicto",
+    "site": "aandrew-me/odicto",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/odicto",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/odicto",
+    "version_raw": "https://github.com/aandrew-me/odicto/releases/download/v0.7.0/odicto_0.7.0_amd64.AppImage",
+    "description": "An offline English dictionary app for desktop"
+  },
+  {
+    "pkg": "oh",
+    "site": "michaelmacinnis/oh",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/oh",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/oh",
+    "version_raw": "https://github.com/michaelmacinnis/oh/releases/download/v0.8.3/oh-v0.8.3-linux-amd64",
+    "description": "A new Unix shell"
+  },
+  {
+    "pkg": "oh-mymd",
+    "site": "virtua1thread/support.ohmymd.app",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/oh-mymd",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/oh-mymd",
+    "version_raw": "https://github.com/virtua1thread/support.ohmymd.app/releases/download/0.5.0/Oh.Mymd-0.5.0.AppImage",
+    "description": "A markdown editor,support cloud sync"
+  },
+  {
+    "pkg": "okteta",
+    "site": "pkgforge-dev/Okteta-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/okteta",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/okteta",
+    "version_raw": "https://github.com/pkgforge-dev/Okteta-AppImage/releases/download/0.26.27-1%402026-06-01_1780331869/Okteta-0.26.27-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial. Hex editor for viewing and editing the raw data of files"
+  },
+  {
+    "pkg": "olive",
+    "site": "olive-editor/olive",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/olive",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/olive",
+    "version_raw": "https://github.com/olive-editor/olive/releases/download/0.2.0-nightly/Olive-8ac191ce-Linux-x86_64.AppImage",
+    "description": "Free open-source non-linear video editor, nightly build"
+  },
+  {
+    "pkg": "olive-legacy",
+    "site": "olive-editor/olive",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/olive-legacy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/olive-legacy",
+    "version_raw": "https://github.com/olive-editor/olive/releases/download/0.1.0/Olive-1e3cf53-x86_64.AppImage",
+    "description": "Free non-linear video editor, version 0.1"
+  },
+  {
+    "pkg": "ollama",
+    "site": "ollama/ollama",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ollama",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ollama",
+    "version_raw": "https://github.com/ollama/ollama/releases/download/v0.30.10/ollama-linux-amd64.tar.zst",
+    "description": "Get up and running with Llama 3, Mistral, Gemma, and other LLMs"
+  },
+  {
+    "pkg": "omekasy",
+    "site": "ikanago/omekasy",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/omekasy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/omekasy",
+    "version_raw": "https://github.com/ikanago/omekasy/releases/download/v1.3.3/omekasy-v1.3.3-x86_64-unknown-linux-gnu.tar.gz",
+    "description": "Command line application that converts alphanumeric characters to various styles 𝚍𝚎𝚏𝚒𝚗𝚎𝚍 𝚒𝚗 𝚄𝚗𝚒𝚌𝚘𝚍𝚎"
+  },
+  {
+    "pkg": "omikuji",
+    "site": "reakjra/omikuji",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/omikuji",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/omikuji",
+    "version_raw": "https://github.com/reakjra/omikuji/releases/download/v0.2.3/Omikuji-v0.2.3-anylinux-x86_64.AppImage",
+    "description": "Qt/QML based game launcher for Linux"
+  },
+  {
+    "pkg": "ommpfritt",
+    "site": "pasbi/ommpfritt",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ommpfritt",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ommpfritt",
+    "version_raw": "https://github.com/pasbi/ommpfritt/releases/download/v0.1.5/ommpfritt-x86_64.AppImage",
+    "description": "Semantic, procedural, non-destructive vector modelling"
+  },
+  {
+    "pkg": "omniget",
+    "site": "tonhowtf/omniget",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/omniget",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/omniget",
+    "version_raw": "https://github.com/tonhowtf/omniget/releases/download/v0.7.0/omniget_0.7.0_amd64.AppImage",
+    "description": "Media downloader from various websites"
   }
 ]
