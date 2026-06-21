@@ -740,7 +740,7 @@
     "site": "aurelienpierreeng/ansel",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ansel",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ansel",
-    "version_raw": "https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/Ansel-0.0.0%2B3822.g892022d5cc-x86_64.AppImage",
+    "version_raw": "https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/Ansel-0.0.0%2B3836.g8f7c553fb6-x86_64.AppImage",
     "description": "An open-source photo-editing software for digital artists, designed to help you achieve your own interpretation of raw digital photographs"
   },
   {
@@ -2172,7 +2172,7 @@
     "site": "ivan-hc/Blender-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blender-alpha",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blender-alpha",
-    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.3.0-alpha%2Bmain.40933da68c6d-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.3.0-alpha%2Bmain.8715ba4fafec-x86_64.AppImage",
     "description": "Very fast and versatile 3D modeller/renderer, Alpha"
   },
   {
@@ -2630,6 +2630,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bugdom2",
     "version_raw": "https://github.com/jorio/Bugdom2/releases/download/v4.0.0/Bugdom2-4.0.0-linux-x86_64.AppImage",
     "description": "Pangea Software’s Bugdom 2 for modern systems"
+  },
+  {
+    "pkg": "bulkreviewer",
+    "site": "bulk-reviewer/bulk-reviewer",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bulkreviewer",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bulkreviewer",
+    "version_raw": "https://github.com/bulk-reviewer/bulk-reviewer/releases/download/v0.3.1/BulkReviewer-0.3.1.AppImage",
+    "description": "Identify, review, and remove private information"
   },
   {
     "pkg": "bulkurlopener",
@@ -4676,7 +4684,7 @@
     "site": "darktable-org/darktable",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/darktable",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/darktable",
-    "version_raw": "https://github.com/darktable-org/darktable/releases/download/release-5.4.1/Darktable-5.4.1-x86_64.AppImage",
+    "version_raw": "https://github.com/darktable-org/darktable/releases/download/release-5.6.0/Darktable-5.6.0-x86_64.AppImage",
     "description": "Photography workflow app and raw developer"
   },
   {
@@ -4684,7 +4692,7 @@
     "site": "darktable-org/darktable",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/darktable-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/darktable-nightly",
-    "version_raw": "https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.7.0%2B7.gcc30b4ec4e-x86_64.AppImage",
+    "version_raw": "https://github.com/darktable-org/darktable/releases/download/release-5.6.0/Darktable-5.6.0-x86_64.AppImage",
     "description": "Photography workflow application and raw developer (nightly)"
   },
   {
@@ -5532,7 +5540,7 @@
     "site": "drawpile/Drawpile",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/drawpile",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/drawpile",
-    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.3.1-beta.1-80-g2c8a66344-x86_64.AppImage",
+    "version_raw": "https://github.com/drawpile/Drawpile/releases/download/continuous/Drawpile-2.3.1-beta.1-81-g57bd70ef1-x86_64.AppImage",
     "description": "Drawing program to sketch on the same canvas simultaneously"
   },
   {
@@ -7372,7 +7380,7 @@
     "site": "krille-chan/fluffychat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fluffychat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fluffychat",
-    "version_raw": "https://github.com/krille-chan/fluffychat/releases/download/rc2.7.0-3/fluffychat-linux-x64.tar.gz",
+    "version_raw": "https://github.com/krille-chan/fluffychat/releases/download/rc2.7.0-4/fluffychat-linux-x64.tar.gz",
     "description": "The cutest instant messenger in the matrix"
   },
   {
@@ -8236,7 +8244,7 @@
     "site": "G-grbz/Gharmonize",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gharmonize",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gharmonize",
-    "version_raw": "https://github.com/G-grbz/Gharmonize/releases/download/v1.3.0/Gharmonize-x64.v1.3.0.AppImage",
+    "version_raw": "https://github.com/G-grbz/Gharmonize/releases/download/v1.3.1/Gharmonize-x64.v1.3.1.AppImage",
     "description": "A cross-platform media conversion app with a built-in YouTube downloader and Spotify downloader, powered by yt-dlp and ffmpeg — now featuring FPS adaptation support for AC3, EAC3, and AAC codecs"
   },
   {
@@ -8340,7 +8348,7 @@
     "site": "ivan-hc/GIMP-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gimp-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gimp-git",
-    "version_raw": "https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_58363.c8723ae730f-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_58372.2747c76246b-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial, Cross-platform image and photo editor, built from GIT"
   },
   {
@@ -8350,6 +8358,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gimp-hybrid",
     "version_raw": "https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-hybrid/GNU-Image-Manipulation-Program_2.10.38-5-Hybrid-with-python2-from-Debian-Buster-archimage4.9-x86_64.AppImage",
     "description": "Unofficial, GIMP including third-party plugins and python2 support"
+  },
+  {
+    "pkg": "gingko",
+    "site": "gingko/client",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gingko",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gingko",
+    "version_raw": "https://github.com/gingko/client/releases/download/v2.4.15/Gingko-2.4.15.AppImage",
+    "description": "Gingko client rewritten in Elm"
   },
   {
     "pkg": "git-cliff",
@@ -9502,6 +9518,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/heimer",
     "version_raw": "https://github.com/juzzlin/Heimer/releases/download/4.5.0/Heimer-4.5.0-x86_64.AppImage",
     "description": "Simple cross-platform mind map, diagram, and note-taking tool"
+  },
+  {
+    "pkg": "helio",
+    "site": "https://helio.fm",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/helio",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/helio",
+    "version_raw": "https://ci.helio.fm/helio-3.17-x64.AppImage",
+    "description": "One music sequencer for all major platforms, desktop and mobile"
   },
   {
     "pkg": "helion",
@@ -12076,7 +12100,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v0.0.0-nightly.pr16089.17805/LobeHub-Nightly-0.0.0-nightly.pr16089.17805.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.8-canary.8/LobeHub-2.2.8-canary.8.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -13816,6 +13840,14 @@
     "description": "MyCrypto web and electron app"
   },
   {
+    "pkg": "mypaint",
+    "site": "mypaint/mypaint",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mypaint",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mypaint",
+    "version_raw": "https://github.com/mypaint/mypaint/releases/download/v2.0.1/MyPaint-v2.0.1-alt.AppImage",
+    "description": "Simple drawing and painting program, graphics"
+  },
+  {
     "pkg": "mystiq",
     "site": "swl-x/MystiQ",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mystiq",
@@ -13980,7 +14012,7 @@
     "site": "marcinz606/negpy",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/negpy",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/negpy",
-    "version_raw": "https://github.com/marcinz606/NegPy/releases/download/0.27.1/NegPy-0.27.1-x86_64.AppImage",
+    "version_raw": "https://github.com/marcinz606/NegPy/releases/download/0.28.0/NegPy-0.28.0-x86_64.AppImage",
     "description": "Tool for processing film negatives"
   },
   {
@@ -14724,7 +14756,7 @@
     "site": "nymtech/nym-vpn-client",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nym-vpn",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nym-vpn",
-    "version_raw": "https://github.com/nymtech/nym-vpn-client/releases/download/nym-vpn-nightly-20260620053325/NymVPN_2026.11.0-beta.1_amd64.AppImage",
+    "version_raw": "https://github.com/nymtech/nym-vpn-client/releases/download/nym-vpn-nightly-20260621054022/NymVPN_2026.11.0-beta.1_amd64.AppImage",
     "description": "Cross-platform open source VPN client built in Rust, with mixnet anonymity and WireGuard speed. Protects metadata, not just IP addresses. Zero-knowledge payments for unlinkable online activities"
   },
   {
@@ -16166,6 +16198,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/peazip",
     "version_raw": "https://github.com/ferion11/PeaZip_Appimage/releases/download/v11.1.0/PeaZip-v11.1.0-x86_64.AppImage",
     "description": "Unofficial. PeaZip Appimage for linux 64bits"
+  },
+  {
+    "pkg": "peep",
+    "site": "ryochack/peep",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/peep",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/peep",
+    "version_raw": "https://github.com/ryochack/peep/releases/download/v0.1.6/peep-v0.1.6-x86_64-unknown-linux-musl.zip",
+    "description": "The CLI text viewer tool that works like less command on small pane within the terminal window"
   },
   {
     "pkg": "pelusica",
@@ -17876,7 +17916,7 @@
     "site": "coozoo/qtrfpowermeter",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qtrfpowermeter",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qtrfpowermeter",
-    "version_raw": "https://github.com/coozoo/qtrfpowermeter/releases/download/0.49-202512070758_refs/heads/main/qtrfpowermeter-x86_64.AppImage",
+    "version_raw": "https://github.com/coozoo/qtrfpowermeter/releases/download/0.50-202606210726_refs/heads/main/qtrfpowermeter-x86_64.AppImage",
     "description": "Improve usage of chinese RF power meter RF8000"
   },
   {
@@ -18220,7 +18260,7 @@
     "site": "yurijmikhalevich/rclip",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rclip",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rclip",
-    "version_raw": "https://github.com/yurijmikhalevich/rclip/releases/download/v3.2.3/rclip-3.2.3-amd64.AppImage",
+    "version_raw": "https://github.com/yurijmikhalevich/rclip/releases/download/v3.2.4/rclip-3.2.4-amd64.AppImage",
     "description": "AI-Powered Semantic Photo Search for the Command Line"
   },
   {
@@ -19100,7 +19140,7 @@
     "site": "anthonyreimche/SafeLight",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/safelight",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/safelight",
-    "version_raw": "https://github.com/anthonyreimche/SafeLight/releases/download/v2.0.1/Safelight-2.0.1.AppImage",
+    "version_raw": "https://github.com/anthonyreimche/SafeLight/releases/download/v2.1.0/Safelight-2.1.0.AppImage",
     "description": "SafeLight is a modular image editing software that combines professional imaging tools with the customizability and modularity of modern IDEs to create a powerful, personalized editing workflow backed by an open-source community"
   },
   {
@@ -19692,7 +19732,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-06-20-664804ba7442d08ea9c3883333c9e72dc91b0036/shadps4-linux-sdl-2026-06-20-664804b.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-06-21-1155575ca43fee831f2e90d366f7646011e1bc0c/shadps4-linux-sdl-2026-06-21-1155575.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -19900,7 +19940,7 @@
     "site": "karo-solutions/Signal-Desktop-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/signal",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/signal",
-    "version_raw": "https://github.com/karo-solutions/Signal-Desktop-AppImage/releases/download/v8.14.0/Signal-v8.14.0-x86_64.AppImage",
+    "version_raw": "https://github.com/karo-solutions/Signal-Desktop-AppImage/releases/download/v8.15.0/Signal-v8.15.0-x86_64.AppImage",
     "description": "Unofficial AppImage package for Signal (communication)"
   },
   {
@@ -20932,7 +20972,7 @@
     "site": "ivan-hc/Steam-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/steam",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/steam",
-    "version_raw": "https://github.com/ivan-hc/Steam-appimage/releases/download/1.0.0.85-7%402026-06-01_1780312474/Steam-1.0.0.85-7-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Steam-appimage/releases/download/1.0.0.85-7%402026-06-21_1782034894/Steam-1.0.0.85-7-anylinux-x86_64.AppImage",
     "description": "Unofficial. The ultimate destination for playing, discussing, and creating games"
   },
   {
@@ -21716,7 +21756,7 @@
     "site": "pingdotgg/t3code",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/t3code",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/t3code",
-    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.28-nightly.20260621.613/T3-Code-0.0.28-nightly.20260621.613-x86_64.AppImage",
+    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.28-nightly.20260621.614/T3-Code-0.0.28-nightly.20260621.614-x86_64.AppImage",
     "description": "T3 Code is a minimal web GUI for coding agents (currently Codex and Claude, more coming soon)"
   },
   {
@@ -22014,6 +22054,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/termshot",
     "version_raw": "https://github.com/homeport/termshot/releases/download/v0.6.1/termshot_0.6.1_linux_amd64.tar.gz",
     "description": "Creates screenshots based on terminal command output"
+  },
+  {
+    "pkg": "teslacam-browser",
+    "site": "BobStrogg/teslacam-browser",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/teslacam-browser",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/teslacam-browser",
+    "version_raw": "https://github.com/BobStrogg/teslacam-browser/releases/download/v0.0.956/TeslaCam-Browser-0.0.956.AppImage",
+    "description": "A minimal TeslaCam Browser"
   },
   {
     "pkg": "tesler",
@@ -22972,7 +23020,7 @@
     "site": "CESNET/UltraGrid",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ultragrid",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ultragrid",
-    "version_raw": "https://github.com/CESNET/UltraGrid/releases/download/continuous/UltraGrid-latest-armhf.AppImage",
+    "version_raw": "https://github.com/CESNET/UltraGrid/releases/download/continuous/UltraGrid-continuous-x86_64.AppImage",
     "description": "UltraGrid low-latency audio/video network transmission system"
   },
   {
@@ -23740,7 +23788,7 @@
     "site": "ivan-hc/VLC-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vlc-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vlc-git",
-    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r37600.g5cb22e5-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r37651.g0b697ff-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial. Free and Open Source Video & Media player, GIT version"
   },
   {
@@ -23932,7 +23980,7 @@
     "site": "A-Herzog/Warteschlangensimulator",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/warteschlangensimulator",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/warteschlangensimulator",
-    "version_raw": "https://github.com/A-Herzog/Warteschlangensimulator/releases/download/6.0.0/Warteschlangensimulator-x86_64.AppImage",
+    "version_raw": "",
     "description": "A free, platform independent, discrete-event, stochastic simulator which allows to model queueing systems in form of flowcharts"
   },
   {
@@ -24140,7 +24188,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "10876211270",
+    "version_raw": "10876958716",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -24692,7 +24740,7 @@
     "site": "FWGS/xash3d-fwgs",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xash3d-fwgs",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xash3d-fwgs",
-    "version_raw": "https://github.com/FWGS/xash3d-fwgs/releases/download/continuous/xash3d-fwgs-amd64.AppImage",
+    "version_raw": "https://github.com/FWGS/xash3d-fwgs/releases/download/continuous-yy-twinks/xash3d-fwgs-amd64.AppImage",
     "description": "A game engine aimed to provide compatibility with Half-Life Engine and extend it"
   },
   {
