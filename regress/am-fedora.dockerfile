@@ -13,10 +13,10 @@ RUN cd && wget https://raw.githubusercontent.com/pkgforge-community/AM-HF-SYNC/m
 RUN cd && git clone --depth 1 https://github.com/pkgforge-community/AM-HF-SYNC && mv AM/regress . && rm -rf AM
 
 # Setup AM with safe defaults
-RUN printf "Y\n\n" | am --user && am --system && am --disable-notifications
+RUN printf "Y\n\n" | am --user && am --system && am --disable-notifications && am --devmode-enable
 
 # Setup env
 RUN echo "export PATH=$PATH:/root/.local/bin" >> ~/.bashrc
-RUN echo "echo \"AM-Fedora testing container started\"" >> ~/.bashrc
+RUN echo "echo \"AM-Fedora testing container started\" && . test-common.sh && _update" >> ~/.bashrc
 WORKDIR /root/regress
 CMD ["/bin/bash"]
