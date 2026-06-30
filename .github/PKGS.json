@@ -3468,7 +3468,7 @@
     "site": "libnyanpasu/clash-nyanpasu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clash-nyanpasu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/clash-nyanpasu",
-    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0%2Balpha.3a93026_amd64.AppImage",
+    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0%2Balpha.3ca7a3c_amd64.AppImage",
     "description": "A Clash GUI based on tauri"
   },
   {
@@ -4668,7 +4668,7 @@
     "site": "darktable-org/darktable",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/darktable-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/darktable-nightly",
-    "version_raw": "https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.7.0%2B23.g5a9d6cb481-x86_64.AppImage",
+    "version_raw": "https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.7.0%2B26.gf517020582-x86_64.AppImage",
     "description": "Photography workflow application and raw developer (nightly)"
   },
   {
@@ -8860,7 +8860,7 @@
     "site": "benjamimgois/goverlay",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/goverlay",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/goverlay",
-    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-e304f8213-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-0e2fcc307-anylinux-x86_64.AppImage",
     "description": "An opensource project that aims to create a Graphical UI to help manage Linux overlays"
   },
   {
@@ -9388,7 +9388,7 @@
     "site": "https://gitlab.com/posktomten/hashsum",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hashsum",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hashsum",
-    "version_raw": "2025.05.26",
+    "version_raw": "",
     "description": "A universal tool for finding file duplicates and modified files"
   },
   {
@@ -13148,7 +13148,7 @@
     "site": "MiniZinc/MiniZincIDE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/minizinc-ide",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/minizinc-ide",
-    "version_raw": "https://github.com/MiniZinc/MiniZincIDE/releases/download/edge/MiniZincIDE-build2630601299-x86_64.AppImage",
+    "version_raw": "https://github.com/MiniZinc/MiniZincIDE/releases/download/edge/MiniZincIDE-build2638905520-x86_64.AppImage",
     "description": "A free and open-source constraint modeling language"
   },
   {
@@ -13684,7 +13684,7 @@
     "site": "music-assistant/desktop-app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/music-assistant",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/music-assistant",
-    "version_raw": "https://github.com/music-assistant/desktop-app/releases/download/0.4.2/Music.Assistant_0.4.2_amd64.AppImage",
+    "version_raw": "https://github.com/music-assistant/desktop-app/releases/download/0.4.3/Music.Assistant_0.4.3_amd64.AppImage",
     "description": "The desktop companion app for Music Assistant"
   },
   {
@@ -19100,7 +19100,7 @@
     "site": "anthonyreimche/SafeLight",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/safelight",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/safelight",
-    "version_raw": "https://github.com/anthonyreimche/SafeLight/releases/download/v2.4.3/Safelight-2.4.3.AppImage",
+    "version_raw": "https://github.com/anthonyreimche/SafeLight/releases/download/v2.4.4/Safelight-2.4.4.AppImage",
     "description": "SafeLight is a modular image editing software that combines professional imaging tools with the customizability and modularity of modern IDEs to create a powerful, personalized editing workflow backed by an open-source community"
   },
   {
@@ -22358,5 +22358,101 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tmux",
     "version_raw": "https://github.com/nelsonenzo/tmux-appimage/releases/download/3.5a/tmux.appimage",
     "description": "Tmux AppImage build via Docker"
+  },
+  {
+    "pkg": "tnt",
+    "site": "foolo/tnt",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tnt",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tnt",
+    "version_raw": "https://github.com/foolo/tnt/releases/download/0.3/tnt-0.3-linux-x64.AppImage",
+    "description": "A computer-assisted translation tool"
+  },
+  {
+    "pkg": "tockler",
+    "site": "MayGo/tockler",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tockler",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tockler",
+    "version_raw": "https://github.com/MayGo/tockler/releases/download/v4.0.22/Tockler-4.0.22.AppImage",
+    "description": "An application that tracks your time by monitoring"
+  },
+  {
+    "pkg": "tod",
+    "site": "alanvardy/tod",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tod",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tod",
+    "version_raw": "https://github.com/tod-org/tod/releases/download/v0.6.28/tod-0.6.28-x86_64.tar.gz",
+    "description": "An unofficial Todoist command line client written in Rust"
+  },
+  {
+    "pkg": "todesktop",
+    "site": "https://www.todesktop.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/todesktop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/todesktop",
+    "version_raw": "todesktop-desktop-app-0.36.5-x86_64.AppImage",
+    "description": "Take your web app codebase and transform it into a cross platform desktop app with native functionality"
+  },
+  {
+    "pkg": "todo-bash",
+    "site": "Lateralus138/todo-bash",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/todo-bash",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/todo-bash",
+    "version_raw": "https://github.com/Lateralus138/todo-bash/releases/download/Continuous/todo-x86_64.AppImage",
+    "description": "Todo list for the Bash command line"
+  },
+  {
+    "pkg": "todoist",
+    "site": "https://todoist.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/todoist",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/todoist",
+    "version_raw": "https://electron-dl.todoist.net/linux/Todoist-linux-9.29.1-x86_64-latest.AppImage",
+    "description": "The to-do list to organize work & life"
+  },
+  {
+    "pkg": "todorant",
+    "site": "backmeupplz/todorant-releases",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/todorant",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/todorant",
+    "version_raw": "https://github.com/backmeupplz/todorant-releases/releases/download/v1.0.14/todorant-1.0.14-linux-x86_64.AppImage",
+    "description": "Todorant releases"
+  },
+  {
+    "pkg": "todorust",
+    "site": "gustavo-tomas/ToDoRust",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/todorust",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/todorust",
+    "version_raw": "https://github.com/gustavo-tomas/ToDoRust/releases/download/app-v0.2.0/to-do-rust_0.1.0_amd64.AppImage",
+    "description": "Simple ToDoList made in rust"
+  },
+  {
+    "pkg": "toerings",
+    "site": "acarl005/toerings",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/toerings",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/toerings",
+    "version_raw": "https://github.com/acarl005/toerings/releases/download/v0.0.0/toe-rings_0.0.0_amd64.AppImage",
+    "description": "A clone of Conky Seamod using Tauri"
+  },
+  {
+    "pkg": "toipe",
+    "site": "Samyak2/toipe",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/toipe",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/toipe",
+    "version_raw": "",
+    "description": "yet another typing test, but crab flavoured"
+  },
+  {
+    "pkg": "tokodon",
+    "site": "pkgforge-dev/Tokodon-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tokodon",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tokodon",
+    "version_raw": "https://github.com/pkgforge-dev/Tokodon-AppImage/releases/download/26.04.2-1%402026-06-22_1782144752/Tokodon-26.04.2-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, a modern client for Mastodon and other decentralized servers that implement its API (such as Pixelfed)"
+  },
+  {
+    "pkg": "tomatox",
+    "site": "yanjiaxuan/TOMATOX",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tomatox",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tomatox",
+    "version_raw": "https://github.com/FreeIess/TOMATOX/releases/download/v2.0.2/TOMATOX-2.0.2.AppImage",
+    "description": "An online free VIP video analysis player, in chinese"
   }
 ]
