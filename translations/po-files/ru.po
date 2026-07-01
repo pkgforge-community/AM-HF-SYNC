@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AM 10.1-3\n"
 "Report-Msgid-Bugs-To: https://github.com/pkgforge-community/AM-HF-SYNC\n"
-"POT-Creation-Date: 2026-06-28\n"
-"PO-Revision-Date: 2026-05-24 22:02+0200\n"
+"POT-Creation-Date: 2026-07-01\n"
+"PO-Revision-Date: 2026-07-01 18:07+0200\n"
 "Last-Translator: Vladimir Pakhomchik <v.pahomchik@gmail.com>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -13,10 +13,10 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Loco-Source-Locale: it_IT\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 "X-Loco-Parser: loco_parse_po\n"
 
-#: APP-MANAGER:119 APP-MANAGER:720
+#: APP-MANAGER:119 APP-MANAGER:731
 msgid ""
 " ${RED}💀 ERROR! MISSING ESSENTIAL COMMANDS\\033[0m: %s\\n\\n Install the "
 "above and try again! \\n"
@@ -25,9 +25,12 @@ msgstr ""
 "Установите указанное выше и попробуйте снова! \\n"
 
 #: APP-MANAGER:222
-msgid "Add a suitable locale code, for example \\\"it\\\" for Italian\\n\\n"
+msgid ""
+"Add a suitable locale code, for example \\\"it\\\" for Italian, or use the "
+"system language - \\\"auto\\\"\\n\\n"
 msgstr ""
-"Добавьте подходящий код локали, например \\\"it\\\" для итальянского\\n\\n"
+"Добавьте подходящий код локали, например \\\"ru\\\" для русского, или "
+"используйте язык системы - \\\"auto\\\"\\n\\n"
 
 #: APP-MANAGER:223
 msgid " Leave blank to use \\\"$CLI\\\" in English: "
@@ -105,11 +108,17 @@ msgstr ""
 " Укажите путь или просто нажмите Enter, чтобы использовать значение по "
 "умолчанию:$(printf \"\\n\\n \")"
 
-#: APP-MANAGER:356
+#: APP-MANAGER:353
+msgid " 💀 ERROR: unsupported characters in path, please use a plain path"
+msgstr ""
+" 💀 ОШИБКА: в пути содержатся неподдерживаемые символы, пожалуйста, "
+"используйте простой путь"
+
+#: APP-MANAGER:367
 msgid " 💀 ERROR, you can't install applications in \\\"$BINDIR\\\""
 msgstr " 💀 ОШИБКА: нельзя устанавливать приложения в \\\"$BINDIR\\\""
 
-#: APP-MANAGER:357
+#: APP-MANAGER:368
 msgid ""
 " $BINDIR is normally used for executables, Please choose a different path "
 "and retry!"
@@ -117,28 +126,28 @@ msgstr ""
 " $BINDIR обычно используется для исполняемых файлов. Выберите другой путь и "
 "повторите попытку!"
 
-#: APP-MANAGER:361
+#: APP-MANAGER:372
 msgid " 💀 ERROR: You don't have write access to $location or it is invalid"
 msgstr ""
 " 💀 ОШИБКА: у вас нет доступа на запись в $location или путь недействителен"
 
-#: APP-MANAGER:367
+#: APP-MANAGER:378
 msgid " You are ready! Start installing your favorite apps locally!"
 msgstr " Всё готово! Начинайте устанавливать любимые приложения локально!"
 
-#: APP-MANAGER:368
+#: APP-MANAGER:379
 msgid " All apps will be installed in $location"
 msgstr " Все приложения будут установлены в $location"
 
-#: APP-MANAGER:369
+#: APP-MANAGER:380
 msgid " In case of problems, use the option \\\"-h\\\"."
 msgstr " При проблемах используйте опцию \\\"-h\\\"."
 
-#: APP-MANAGER:390
+#: APP-MANAGER:401
 msgid "ERROR: You don't have write access to $APPSPATH"
 msgstr "ОШИБКА: у вас нет доступа на запись в $APPSPATH"
 
-#: APP-MANAGER:394
+#: APP-MANAGER:405
 msgid ""
 "%b ⚠️ WARNING\\033[0m: \\\"%b%b\\033[0m\\\" is not in PATH, local apps may "
 "not run.\\n"
@@ -146,21 +155,21 @@ msgstr ""
 "%b ⚠️ ВНИМАНИЕ\\033[0m: \\\"%b%b\\033[0m\\\" не найден в PATH, локальные "
 "приложения могут не запускаться из терминала.\\n"
 
-#: APP-MANAGER:415
+#: APP-MANAGER:426
 msgid "ERROR: No sudo or doas found"
 msgstr "ОШИБКА: sudo или doas не найдены"
 
-#: APP-MANAGER:534
+#: APP-MANAGER:545
 msgid "\\\"$AMCLIUPPER\\\" $AMVERSION: DEVELOPER MODE"
 msgstr "\\\"$AMCLIUPPER\\\" $AMVERSION: РЕЖИМ РАЗРАБОТЧИКА"
 
-#: APP-MANAGER:559
+#: APP-MANAGER:570
 msgid ""
 "\\n %b is offline, please check your internet connection and try again\\n\\n"
 msgstr ""
 "\\n %b не в сети, проверьте подключение к интернету и попробуйте снова\\n\\n"
 
-#: APP-MANAGER:584
+#: APP-MANAGER:595
 msgid ""
 "The following commands may be missing or may not be GNU-compatible and can "
 "be temporarily downloaded from https://github.com/ivan-hc/am-utils as static "
@@ -170,7 +179,7 @@ msgstr ""
 "можно временно загрузить с https://github.com/ivan-hc/am-utils в виде "
 "статических исполняемых файлов"
 
-#: APP-MANAGER:586
+#: APP-MANAGER:597
 msgid ""
 "The following commands are missing and can be temporarily downloaded from "
 "https://github.com/ivan-hc/am-utils as static binaries"
@@ -178,7 +187,7 @@ msgstr ""
 "Следующие команды отсутствуют и могут быть временно загружены с https://"
 "github.com/ivan-hc/am-utils в виде статических исполняемых файлов"
 
-#: APP-MANAGER:588
+#: APP-MANAGER:599
 msgid ""
 "Press \\\"Y\\\" to store them in cache until you clear it (with \\\"-c\\\" "
 "option), or press \\\"N\\\" to ignore this message and install them manually "
@@ -188,24 +197,24 @@ msgstr ""
 "нажмите «N», чтобы проигнорировать это сообщение и установить их вручную (по "
 "умолчанию)."
 
-#: APP-MANAGER:633 modules/install.am:95 modules/install.am:112
+#: APP-MANAGER:644 modules/install.am:95 modules/install.am:112
 #: modules/install.am:647 modules/install.am:1243
 msgid " Do you wish to continue? (N/y): "
 msgstr " Продолжить? (N/y): "
 
-#: APP-MANAGER:638 modules/install.am:181 modules/install.am:193
+#: APP-MANAGER:649 modules/install.am:181 modules/install.am:193
 msgid " - %b, downloaded from https://github.com/ivan-hc/am-utils\\n"
 msgstr " - %b, загружено с https://github.com/ivan-hc/am-utils\\n"
 
-#: APP-MANAGER:650
+#: APP-MANAGER:661
 msgid "Missing command(s): %b%b\\033[0m\\n"
 msgstr "Отсутствуют команды: %b%b\\033[0m\\n"
 
-#: APP-MANAGER:722
+#: APP-MANAGER:733
 msgid "%bList of the %b core dependences\\033[0m:\\n\\n%b\\n"
 msgstr "%bСписок основных зависимостей %b\\033[0m:\\n\\n%b\\n"
 
-#: APP-MANAGER:724
+#: APP-MANAGER:735
 msgid ""
 "If this message appears it is because you are missing some dependency and if "
 "its the first time its because something new has been introduced.\\n\\n"
@@ -213,35 +222,35 @@ msgstr ""
 "Если появилось это сообщение, значит отсутствует какая-то зависимость; если "
 "это впервые, значит была добавлена новая зависимость.\\n\\n"
 
-#: APP-MANAGER:725
+#: APP-MANAGER:736
 msgid ""
 " See %bhttps://github.com/pkgforge-community/AM-HF-SYNC#installation\\033[0m for more "
 "information\\n"
 msgstr " Подробнее см. %bhttps://github.com/pkgforge-community/AM-HF-SYNC#installation\\033[0m\\n"
 
-#: APP-MANAGER:733
+#: APP-MANAGER:744
 msgid ""
 "\\n %b⚠️ WARNING: ACCESS TO USER NAMESPACES IS RESTRICTED! \\033[0m\\n\\n"
 msgstr ""
 "\\n %b⚠️ ПРЕДУПРЕЖДЕНИЕ: ДОСТУП К ПОЛЬЗОВАТЕЛЬСКИМ ПРОСТРАНСТВАМ ИМЁН "
 "ОГРАНИЧЕН! \\033[0m\\n\\n"
 
-#: APP-MANAGER:734
+#: APP-MANAGER:745
 msgid ""
 " Some apps may not run, you need to enable access to user namespaces, see"
 msgstr ""
 " Некоторые приложения могут не запускаться; нужно включить доступ к "
 "пользовательским пространствам имён, см"
 
-#: APP-MANAGER:736
+#: APP-MANAGER:747
 msgid " to know more."
 msgstr " чтобы узнать больше."
 
-#: APP-MANAGER:770
+#: APP-MANAGER:781
 msgid "\\n %b💀WARNING! Detected \\\"%b\\\"\\033[0m\\n\\n"
 msgstr "\\n %b💀ВНИМАНИЕ! Обнаружено \\\"%b\\\"\\033[0m\\n\\n"
 
-#: APP-MANAGER:771
+#: APP-MANAGER:782
 msgid ""
 "It will prevent \\\"$AMCLIUPPER\\\" from working correctly with AppImages, "
 "especially when extracting, integrating and updating them."
@@ -249,168 +258,168 @@ msgstr ""
 "Это помешает \\\"$AMCLIUPPER\\\" корректно работать с AppImage, особенно при "
 "извлечении, интеграции и обновлении."
 
-#: APP-MANAGER:775
+#: APP-MANAGER:786
 msgid " Please remove \\\"AppImageLauncher\\\", reboot and retry!"
 msgstr ""
 " Удалите \\\"AppImageLauncher\\\", перезагрузитесь и повторите попытку!"
 
-#: APP-MANAGER:777
+#: APP-MANAGER:788
 msgid " Please remove \\\"$blacklisted_file\\\", reboot and retry!"
 msgstr ""
 " Удалите \\\"$blacklisted_file\\\", перезагрузитесь и повторите попытку!"
 
-#: APP-MANAGER:796 modules/database.am:840 modules/database.am:925
+#: APP-MANAGER:807 modules/database.am:840 modules/database.am:925
 #: modules/install.am:958 modules/install.am:983 modules/management.am:578
 #: modules/template.am:395
 msgid " USAGE: $AMCLI $1 [ARGUMENT]"
 msgstr " ИСПОЛЬЗОВАНИЕ: $AMCLI $1 [АРГУМЕНТ]"
 
-#: APP-MANAGER:800
+#: APP-MANAGER:811
 msgid " USAGE:\t$AMCLI $1 $2 /path/to/dir"
 msgstr " ИСПОЛЬЗОВАНИЕ:\t$AMCLI $1 $2 /путь/к/каталогу"
 
-#: APP-MANAGER:806 APP-MANAGER:810 APP-MANAGER:820
+#: APP-MANAGER:817 APP-MANAGER:821 APP-MANAGER:831
 msgid " ERROR, \\\"$AMDATADIR/newrepo-lists\\\" file not found"
 msgstr " ОШИБКА: файл \\\"$AMDATADIR/newrepo-lists\\\" не найден"
 
-#: APP-MANAGER:807
+#: APP-MANAGER:818
 msgid " New repo ON!"
 msgstr " Новый репозиторий включён!"
 
-#: APP-MANAGER:811
+#: APP-MANAGER:822
 msgid " New repo OFF!"
 msgstr " Новый репозиторий выключен!"
 
-#: APP-MANAGER:814
+#: APP-MANAGER:825
 msgid " Source: %b\\n Apps: %b\\n List: %b\\n"
 msgstr " Источник: %b\\n Приложения: %b\\n Список: %b\\n"
 
-#: APP-MANAGER:817
+#: APP-MANAGER:828
 msgid " Removed all 3rd party repositories"
 msgstr " Все сторонние репозитории удалены"
 
-#: APP-MANAGER:821
+#: APP-MANAGER:832
 msgid "Select a repo from the list or press CTRL+C to abort:\\n%b\\n"
 msgstr "Выберите репозиторий из списка или нажмите CTRL+C для отмены:\\n%b\\n"
 
-#: APP-MANAGER:824
+#: APP-MANAGER:835
 msgid ">>> Invalid Selection"
 msgstr ">>> Неверный выбор"
 
-#: APP-MANAGER:845
+#: APP-MANAGER:856
 msgid " Source: $AMREPO"
 msgstr " Источник: $AMREPO"
 
-#: APP-MANAGER:916
+#: APP-MANAGER:927
 msgid "Description"
 msgstr "Описание"
 
-#: APP-MANAGER:917
+#: APP-MANAGER:928
 msgid "Source"
 msgstr "Источник"
 
-#: APP-MANAGER:918
+#: APP-MANAGER:929
 msgid "Related flag"
 msgstr "Связанный флаг"
 
-#: APP-MANAGER:919
+#: APP-MANAGER:930
 msgid "Related extension"
 msgstr "Связанное расширение"
 
-#: APP-MANAGER:920
+#: APP-MANAGER:931
 msgid "PROGRAM"
 msgstr "ПРОГРАММА"
 
-#: APP-MANAGER:921
+#: APP-MANAGER:932
 msgid "To get more info about a program"
 msgstr "Получить больше информации о программе"
 
-#: APP-MANAGER:922
+#: APP-MANAGER:933
 msgid "To install a program near others from other databases"
 msgstr "Установить программу вместе с другими из других баз данных"
 
-#: APP-MANAGER:923
+#: APP-MANAGER:934
 msgid "To install a program only from this third-party database"
 msgstr "Установить программу только из этой сторонней базы данных"
 
-#: APP-MANAGER:924
+#: APP-MANAGER:935
 msgid "To list all programs available in this third-party database"
 msgstr "Показать все программы, доступные в этой сторонней базе данных"
 
-#: APP-MANAGER:925
+#: APP-MANAGER:936
 msgid "To search for keywords in this third-party database"
 msgstr "Искать ключевые слова в этой сторонней базе данных"
 
-#: APP-MANAGER:1028
+#: APP-MANAGER:1039
 msgid ""
 "Zsh completion requires editing the main configuration file, but it may "
 "cause problems.\\nSee https://github.com/pkgforge-community/AM-HF-SYNC/issues/1843\\n"
 msgstr ""
 "Автодополнение Zsh требует изменения основного конфигурационного файла, но "
-"это может вызвать проблемы.\\nСм. https://github.com/pkgforge-community/AM-HF-SYNC/"
-"issues/1843\\n"
+"это может вызвать проблемы.\\nСм. https://github.com/pkgforge-community/AM-HF-SYNC/issues/"
+"1843\\n"
 
-#: APP-MANAGER:1029
+#: APP-MANAGER:1040
 msgid "Want to proceed anyway? (y,N)"
 msgstr "Всё равно продолжить? (y,N)"
 
-#: APP-MANAGER:1042
+#: APP-MANAGER:1053
 msgid "Shell completion has been enabled!"
 msgstr "Автодополнение оболочки включено!"
 
-#: APP-MANAGER:1257
+#: APP-MANAGER:1268
 msgid "Validation successful!"
 msgstr "Проверка прошла успешно!"
 
-#: APP-MANAGER:1260
+#: APP-MANAGER:1271
 msgid "ERROR: Invalid token or insufficient permissions!"
 msgstr "ОШИБКА: недействительный токен или недостаточно прав!"
 
-#: APP-MANAGER:1263
+#: APP-MANAGER:1274
 msgid "ERROR: Unexpected response (HTTP $HTTP_STATUS)"
 msgstr "ОШИБКА: неожиданный ответ (HTTP $HTTP_STATUS)"
 
-#: APP-MANAGER:1271
+#: APP-MANAGER:1282
 msgid " ✖ No file named $ghapikey_file has been found"
 msgstr " ✖ Файл с именем $ghapikey_file не найден"
 
-#: APP-MANAGER:1282
+#: APP-MANAGER:1293
 msgid " ✔ $ghapikey_file has been removed"
 msgstr " ✔ $ghapikey_file удалён"
 
-#: APP-MANAGER:1283
+#: APP-MANAGER:1294
 msgid " ✔ Authorization headers removed from updater files"
 msgstr " ✔ Заголовки авторизации удалены из файлов обновления"
 
-#: APP-MANAGER:1293
+#: APP-MANAGER:1304
 msgid "ERROR: Wrong expression, validation failed!"
 msgstr "ОШИБКА: неверное выражение, проверка не пройдена!"
 
-#: APP-MANAGER:1304
+#: APP-MANAGER:1315
 msgid " ⚠️ Warning: Stored GitHub API token is invalid or expired"
 msgstr ""
 " ⚠️ Предупреждение: сохранённый токен GitHub API недействителен или истёк"
 
-#: APP-MANAGER:1306
+#: APP-MANAGER:1317
 msgid " Please either:"
 msgstr " Выполните одно из действий:"
 
-#: APP-MANAGER:1307
+#: APP-MANAGER:1318
 msgid ""
 "   1. Generate a new token and add it with: $AMCLI apikey YOUR_NEW_TOKEN"
 msgstr ""
 "   1. Создайте новый токен и добавьте его командой: $AMCLI apikey "
 "YOUR_NEW_TOKEN"
 
-#: APP-MANAGER:1308
+#: APP-MANAGER:1319
 msgid "   2. Remove the invalid token with: $AMCLI apikey del"
 msgstr "   2. Удалите недействительный токен командой: $AMCLI apikey del"
 
-#: APP-MANAGER:1310
+#: APP-MANAGER:1321
 msgid " For instructions on creating GitHub tokens, see:"
 msgstr " Инструкции по созданию токенов GitHub см.:"
 
-#: APP-MANAGER:1338
+#: APP-MANAGER:1349
 msgid ""
 "$DIVIDING_LINE\\n \\\"AM\\\" is running as \\\"AppMan\\\", use ${Green}am --"
 "system\\033[0m to switch it back to \\\"AM\\\"\\n$DIVIDING_LINE\\n"
@@ -419,11 +428,11 @@ msgstr ""
 "am --system\\033[0m, чтобы переключить его обратно в \\\"AM\\"
 "\"\\n$DIVIDING_LINE\\n"
 
-#: APP-MANAGER:1339
+#: APP-MANAGER:1350
 msgid "$DIVIDING_LINE\\n \\\"AppMan Mode\\\" disabled! \\n$DIVIDING_LINE\\n"
 msgstr "$DIVIDING_LINE\\n \\\"Режим AppMan\\\" отключён! \\n$DIVIDING_LINE\\n"
 
-#: APP-MANAGER:1340
+#: APP-MANAGER:1351
 msgid ""
 "$DIVIDING_LINE\\nNOTE: You can also choose to simply use \\\"--user\\\" as a "
 "flag to install apps locally (options \\\"-i\\\", \\\"-ia\\\" and \\\"-e\\"
@@ -435,91 +444,91 @@ msgstr ""
 "приложений (опции \\\"-i\\\", \\\"-ia\\\" и \\\"-e\\\"). \\\"AM\\\" также "
 "умеет работать с локальными приложениями.\\n$DIVIDING_LINE\\n"
 
-#: APP-MANAGER:1344
+#: APP-MANAGER:1355
 msgid " This function only works for AM"
 msgstr " Эта функция работает только для AM"
 
-#: APP-MANAGER:1346
+#: APP-MANAGER:1357
 msgid " Do you wish to enter \\\"AppMan Mode\\\" (y,N)?"
 msgstr " Хотите перейти в \\\"Режим AppMan\\\" (y,N)?"
 
-#: APP-MANAGER:1362
+#: APP-MANAGER:1373
 msgid " \\\"AM\\\" is read-only, want to use it in \\\"AppMan Mode\\\" (Y,n)? "
 msgstr ""
 " \\\"AM\\\" доступен только для чтения; использовать его в \\\"Режиме "
 "AppMan\\\" (Y,n)? "
 
-#: APP-MANAGER:1366
+#: APP-MANAGER:1377
 msgid "\\\"AppMan Mode\\\" enabled!"
 msgstr "\\\"Режим AppMan\\\" включён!"
 
-#: APP-MANAGER:1378
+#: APP-MANAGER:1389
 msgid " ✔ Clear the contents of $CACHEDIR/am"
 msgstr " ✔ Очищено содержимое $CACHEDIR/am"
 
-#: APP-MANAGER:1379 APP-MANAGER:1463
+#: APP-MANAGER:1390 APP-MANAGER:1474
 msgid " ✔ Clear the contents of $CACHEDIR/appman"
 msgstr " ✔ Очищено содержимое $CACHEDIR/appman"
 
-#: APP-MANAGER:1385
+#: APP-MANAGER:1396
 msgid " ✔ Clear the contents of $arg/*.home/.cache"
 msgstr " ✔ Очищено содержимое $arg/*.home/.cache"
 
-#: APP-MANAGER:1394
+#: APP-MANAGER:1405
 msgid " ✔ Removed $arg/tmp"
 msgstr " ✔ Удалено $arg/tmp"
 
-#: APP-MANAGER:1397
+#: APP-MANAGER:1408
 msgid " ✔ Removed $arg/squashfs-root"
 msgstr " ✔ Удалено $arg/squashfs-root"
 
-#: APP-MANAGER:1400
+#: APP-MANAGER:1411
 msgid " ✔ Removed $arg/AppDir"
 msgstr " ✔ Удалено $arg/AppDir"
 
-#: APP-MANAGER:1427
+#: APP-MANAGER:1438
 msgid " ✖ ERROR: cannot remove \\\"$(basename \"$var\")\\\""
 msgstr " ✖ ОШИБКА: не удалось удалить \\\"$(basename \"$var\")\\\""
 
-#: APP-MANAGER:1428
+#: APP-MANAGER:1439
 msgid "   related AppImage is located in an unmounted path of $unmounted_point"
 msgstr ""
 "   связанный AppImage находится по неподключённому пути $unmounted_point"
 
-#: APP-MANAGER:1443
+#: APP-MANAGER:1454
 msgid ""
 " ✔ Removed orphaned launchers produced with the \\\"--launcher\\\" option"
 msgstr " ✔ Удалены осиротевшие ярлыки, созданные опцией \\\"--launcher\\\""
 
-#: APP-MANAGER:1456
+#: APP-MANAGER:1467
 msgid " ✔ Removed obsolete module named \\\"$(basename -- \"$m\")\\\""
 msgstr " ✔ Удалён устаревший модуль \\\"$(basename -- \"$m\")\\\""
 
-#: APP-MANAGER:1468
+#: APP-MANAGER:1479
 msgid " Cleaning temporary files and folders..."
 msgstr " Очистка временных файлов и папок..."
 
-#: APP-MANAGER:1560
+#: APP-MANAGER:1571
 msgid " Do you want to install the set of programs listed above (y,N)?"
 msgstr " Хотите установить перечисленный выше набор программ (y,N)?"
 
-#: APP-MANAGER:1581
+#: APP-MANAGER:1592
 msgid ""
 "The local path currently in use for programs is as follows:\\n\\n%b\\n\\n"
 msgstr "Текущая папка для локальных программ:\\n\\n%b\\n\\n"
 
-#: APP-MANAGER:1582
+#: APP-MANAGER:1593
 msgid ""
 " Do you want to remove and re-install everything to a new location (y,N)?"
 msgstr " Хотите удалить всё и переустановить в другую папку (y,N)?"
 
-#: APP-MANAGER:1610
+#: APP-MANAGER:1621
 msgid ""
 "%b\\n Checking for changes of the installation scripts in the online "
 "database...\\n"
 msgstr "%b\\n Проверяю изменения установочных скриптов в базе...\\n"
 
-#: APP-MANAGER:1624
+#: APP-MANAGER:1635
 msgid ""
 " ◆ %b%b\\033[0m has changed, you may need to reinstall it, see\\n   https://"
 "github.com/pkgforge-community/AM-HF-SYNC/blob/main/programs/%b/%b\\n"
@@ -527,11 +536,11 @@ msgstr ""
 " ◆ %b%b\\033[0m изменился; возможно, его нужно переустановить, см.\\n   "
 "https://github.com/pkgforge-community/AM-HF-SYNC/blob/main/programs/%b/%b\\n"
 
-#: APP-MANAGER:1629
+#: APP-MANAGER:1640
 msgid " ◆ No installation script for %b, downloading one...\\n"
 msgstr " ◆ Нет установочного скрипта для %b, загружаю...\\n"
 
-#: APP-MANAGER:1639
+#: APP-MANAGER:1650
 msgid ""
 "\\n To fix the above, just run \\\"%b%b reinstall\\033[0m\\\", without "
 "arguments\\n"
@@ -539,28 +548,28 @@ msgstr ""
 "\\n Чтобы исправить это, просто выполните \\\"%b%b reinstall\\033[0m\\\" без "
 "аргументов\\n"
 
-#: APP-MANAGER:1653
+#: APP-MANAGER:1664
 msgid "%b\\n Check and update offline lists of additional databases...\\n"
 msgstr ""
 "%b\\n Проверка и обновление офлайн-списков дополнительных баз данных...\\n"
 
-#: APP-MANAGER:1664
+#: APP-MANAGER:1675
 msgid "%b\\n Check and update localization...\\n"
 msgstr "%b\\n Проверка и обновление локализации...\\n"
 
-#: APP-MANAGER:1676
+#: APP-MANAGER:1687
 msgid "%b\\n Check for updates in modules...\\n"
 msgstr "%b\\n Проверка обновлений модулей...\\n"
 
-#: APP-MANAGER:1681
+#: APP-MANAGER:1692
 msgid " ◆ Downloading $module_name (not previously installed)..."
 msgstr " ◆ Загрузка $module_name (ранее не был установлен)..."
 
-#: APP-MANAGER:1690
+#: APP-MANAGER:1701
 msgid " ◆ Updating $module_name..."
 msgstr " ◆ Обновление $module_name..."
 
-#: APP-MANAGER:1701
+#: APP-MANAGER:1712
 msgid ""
 "\\n ◆ SYNCHRONIZING \\\"$AMCLIUPPER\\\" VERSION \\\"$CURRENT_AM_VERSION\\"
 "\"...\\r"
@@ -568,26 +577,26 @@ msgstr ""
 "\\n ◆ СИНХРОНИЗАЦИЯ \\\"$AMCLIUPPER\\\" ВЕРСИИ \\\"$CURRENT_AM_VERSION\\\"..."
 "\\r"
 
-#: APP-MANAGER:1708
+#: APP-MANAGER:1719
 msgid " A new release of \\\"$AMCLIUPPER\\\" is available, please wait...\\r"
 msgstr " Доступен новый релиз \\\"$AMCLIUPPER\\\", подождите...\\r"
 
-#: APP-MANAGER:1709
+#: APP-MANAGER:1720
 msgid ""
 " ◆ \\\"$AMCLIUPPER\\\" IS NOW UPDATED TO THE BRAND NEW \\\"$NEW_AM_VERSION\\"
 "\" VERSION!"
 msgstr ""
 " ◆ \\\"$AMCLIUPPER\\\" ОБНОВЛЁН ДО НОВОЙ ВЕРСИИ \\\"$NEW_AM_VERSION\\\"!"
 
-#: APP-MANAGER:1710
+#: APP-MANAGER:1721
 msgid "\\n  Replacement of version \\\"%b\\\" currently in use, COMPLETED! \\n"
 msgstr "\\n  Замена используемой версии \\\"%b\\\" ЗАВЕРШЕНА! \\n"
 
-#: APP-MANAGER:1711
+#: APP-MANAGER:1722
 msgid "\\n See https://github.com/pkgforge-community/AM-HF-SYNC/commits/main\\n\\n"
 msgstr "\\n См. https://github.com/pkgforge-community/AM-HF-SYNC/commits/main\\n\\n"
 
-#: APP-MANAGER:1713
+#: APP-MANAGER:1724
 msgid ""
 " ◆ \\\"$AMCLIUPPER\\\" IS ALREADY UPDATED, CURRENT VERSION \\"
 "\"$CURRENT_AM_VERSION\\\""
@@ -595,171 +604,171 @@ msgstr ""
 " ◆ \\\"$AMCLIUPPER\\\" УЖЕ ОБНОВЛЁН, ТЕКУЩАЯ ВЕРСИЯ \\\"$CURRENT_AM_VERSION\\"
 "\""
 
-#: APP-MANAGER:1714
+#: APP-MANAGER:1725
 msgid "\\n See https://github.com/pkgforge-community/AM-HF-SYNC/commits/%b\\n\\n"
 msgstr "\\n См. https://github.com/pkgforge-community/AM-HF-SYNC/commits/%b\\n\\n"
 
-#: APP-MANAGER:1760
+#: APP-MANAGER:1771
 msgid "Checksum auto-verified."
 msgstr "Контрольная сумма автоматически проверена."
 
-#: APP-MANAGER:1792
+#: APP-MANAGER:1803
 msgid "Checksum cannot be verified, missing download URL."
 msgstr "Невозможно проверить контрольную сумму: отсутствует URL загрузки."
 
-#: APP-MANAGER:1810
+#: APP-MANAGER:1821
 msgid "Checksum cannot be verified, mismatch in binary name."
 msgstr ""
 "Невозможно проверить контрольную сумму: имя бинарного файла не совпадает."
 
-#: APP-MANAGER:1817
+#: APP-MANAGER:1828
 msgid "Checksum does not match, please manually verify file integrity."
 msgstr "Контрольная сумма не совпадает, проверьте целостность файла вручную."
 
-#: APP-MANAGER:1821
+#: APP-MANAGER:1832
 msgid "Checksum verified."
 msgstr "Контрольная сумма проверена."
 
-#: APP-MANAGER:1826
+#: APP-MANAGER:1837
 msgid "Checksum calculation tools do not exist, please install coreutils."
 msgstr ""
 "Инструменты расчёта контрольных сумм отсутствуют, установите coreutils."
 
-#: APP-MANAGER:1836
+#: APP-MANAGER:1847
 msgid ""
 " %b\\\"%b\\\" CAN MANAGE UPDATES FOR THE FOLLOWING PROGRAMS\\033[0m:"
 "\\n%b\\n\\n"
 msgstr " %b\\\"%b\\\" может обновлять следующие программы\\033[0m:\\n%b\\n\\n"
 
-#: APP-MANAGER:1837
+#: APP-MANAGER:1848
 msgid " None"
 msgstr " Нет программ"
 
-#: APP-MANAGER:1838
+#: APP-MANAGER:1849
 msgid "\\n %bAll self-updatable programs are excluded\\033[0m\\n"
 msgstr "\\n %bВсе программы с собственным обновлением исключены\\033[0m\\n"
 
-#: APP-MANAGER:1868
+#: APP-MANAGER:1879
 msgid "App"
 msgstr "Приложение"
 
-#: APP-MANAGER:1869
+#: APP-MANAGER:1880
 msgid "Previous"
 msgstr "Было"
 
-#: APP-MANAGER:1870
+#: APP-MANAGER:1881
 msgid "Current"
 msgstr "Стало"
 
-#: APP-MANAGER:1887
+#: APP-MANAGER:1898
 msgid "checksum changed"
 msgstr "контрольная сумма изменена"
 
-#: APP-MANAGER:1923
+#: APP-MANAGER:1934
 msgid " Nothing to do here! \\n"
 msgstr " Здесь ничего делать не нужно! \\n"
 
-#: APP-MANAGER:1925
+#: APP-MANAGER:1936
 msgid " The following apps have been updated:\\n\\n"
 msgstr " Следующие приложения были обновлены:\\n\\n"
 
-#: APP-MANAGER:1930
+#: APP-MANAGER:1941
 msgid " No apps to update here!"
 msgstr " Нет приложений для обновления!"
 
-#: APP-MANAGER:1982
+#: APP-MANAGER:1993
 msgid " %b✔\\033[0m $APPNAME is updated, $timelapsed second elapsed! \\n"
 msgstr " %b✔\\033[0m $APPNAME обновлён, прошла $timelapsed секунда! \\n"
 
-#: APP-MANAGER:1984
+#: APP-MANAGER:1995
 msgid " %b✔\\033[0m $APPNAME is updated, $timelapsed seconds elapsed! \\n"
 msgstr " %b✔\\033[0m $APPNAME обновлён, прошло $timelapsed секунд! \\n"
 
-#: APP-MANAGER:1999
+#: APP-MANAGER:2010
 msgid " %b✖\\033[0m %b is read-only, cannot update it!\\n"
 msgstr " %b✖\\033[0m %b доступен только для чтения, обновить невозможно!\\n"
 
-#: APP-MANAGER:2036
+#: APP-MANAGER:2047
 msgid " ◆ Update local AppImages integrated manually"
 msgstr " ◆ Обновить локальные AppImage, добавленные вручную"
 
-#: APP-MANAGER:2043
+#: APP-MANAGER:2054
 msgid "(unmounted)"
 msgstr "(не подключено)"
 
-#: APP-MANAGER:2068
+#: APP-MANAGER:2079
 msgid "%b\\n >> %bSTART OF ALL PROCESSES\\033[0m << \\n%b\\n"
 msgstr "%b\\n >> %bЗАПУСК ОПЕРАЦИЙ\\033[0m << \\n%b\\n"
 
-#: APP-MANAGER:2078
+#: APP-MANAGER:2089
 msgid " >> %bEND OF ALL PROCESSES\\033[0m << \\n%b\\n"
 msgstr " >> %bОПЕРАЦИИ ЗАВЕРШЕНЫ\\033[0m << \\n%b\\n"
 
-#: APP-MANAGER:2082
+#: APP-MANAGER:2093
 msgid "%b\\n >> %bEND OF ALL PROCESSES\\033[0m << \\n%b\\n"
 msgstr "%b\\n >> %bОПЕРАЦИИ ЗАВЕРШЕНЫ\\033[0m << \\n%b\\n"
 
-#: APP-MANAGER:2095
+#: APP-MANAGER:2106
 msgid " %b✖\\033[0m %b cannot be updated, program not found \\n"
 msgstr " %b✖\\033[0m %b не обновлено: программа не найдена \\n"
 
-#: APP-MANAGER:2100
+#: APP-MANAGER:2111
 msgid " %b✖\\033[0m %b cannot be updated%b\\n"
 msgstr " %b✖\\033[0m %b не удалось обновить%b\\n"
 
-#: APP-MANAGER:2116
+#: APP-MANAGER:2127
 msgid " ERROR: \\\"$arg\\\" is not installed, see \\\"-f\\\""
 msgstr " ОШИБКА: \\\"$arg\\\" не установлен, см. \\\"-f\\\""
 
-#: APP-MANAGER:2118
+#: APP-MANAGER:2129
 msgid " ERROR: \\\"$AMCLI\\\" cannot manage updates for \\\"$arg\\\""
 msgstr ""
 " ОШИБКА: \\\"$AMCLI\\\" не может управлять обновлениями для \\\"$arg\\\""
 
-#: APP-MANAGER:2120
+#: APP-MANAGER:2131
 msgid " ERROR: \\\"$arg\\\" source is not on Github"
 msgstr " ОШИБКА: источник \\\"$arg\\\" не находится на Github"
 
-#: APP-MANAGER:2122
+#: APP-MANAGER:2133
 msgid " ERROR: \\\"$arg\\\" does not redirect to a generic \\\"releases\\\""
 msgstr ""
 " ОШИБКА: \\\"$arg\\\" не перенаправляет на общий раздел \\\"releases\\\""
 
-#: APP-MANAGER:2146
+#: APP-MANAGER:2157
 msgid " Module not found, run \\\"$AMCLI -s\\\" to update \\\"$AMCLIUPPER\\\""
 msgstr ""
 " Модуль не найден, выполните \\\"$AMCLI -s\\\", чтобы обновить \\"
 "\"$AMCLIUPPER\\\""
 
-#: APP-MANAGER:2163
+#: APP-MANAGER:2174
 msgid " USAGE: $AMCLI [OPTION]"
 msgstr " ИСПОЛЬЗОВАНИЕ: $AMCLI [ОПЦИЯ]"
 
-#: APP-MANAGER:2164
+#: APP-MANAGER:2175
 msgid "        $AMCLI [OPTION] [ARGUMENT]"
 msgstr "        $AMCLI [ОПЦИЯ] [АРГУМЕНТ]"
 
-#: APP-MANAGER:2166
+#: APP-MANAGER:2177
 msgid " Run the \\\"$AMCLI -h\\\" command to find out more"
 msgstr " Выполните \\\"$AMCLI -h\\\", чтобы узнать больше"
 
-#: APP-MANAGER:2223
+#: APP-MANAGER:2234
 msgid "This feature is disabled by your organization"
 msgstr "Эта функция отключена вашей организацией"
 
-#: APP-MANAGER:2282
+#: APP-MANAGER:2293
 msgid "NAME"
 msgstr "ИМЯ"
 
-#: APP-MANAGER:2283
+#: APP-MANAGER:2294
 msgid "VERSION"
 msgstr "ВЕРСИЯ"
 
-#: APP-MANAGER:2284
+#: APP-MANAGER:2295
 msgid "SYNOPSIS"
 msgstr "СИНТАКСИС"
 
-#: APP-MANAGER:2285
+#: APP-MANAGER:2296
 msgid ""
 "DESCRIPTION: A command line utility to install and manage AppImages and "
 "other portable programs for GNU/Linux thanks to its AUR-inspired database."
@@ -768,33 +777,33 @@ msgstr ""
 "другими портативными программами для GNU/Linux благодаря базе данных, "
 "вдохновлённой AUR."
 
-#: APP-MANAGER:2286
+#: APP-MANAGER:2297
 msgid "OPTION"
 msgstr "ОПЦИЯ"
 
-#: APP-MANAGER:2287
+#: APP-MANAGER:2298
 msgid "OPTIONS"
 msgstr "ОПЦИИ"
 
-#: APP-MANAGER:2288
+#: APP-MANAGER:2299
 msgid "THIRD-PARTY FLAGS"
 msgstr "СТОРОННИЕ ФЛАГИ"
 
-#: APP-MANAGER:2289
+#: APP-MANAGER:2300
 msgid "Third-party databases"
 msgstr "Сторонние базы данных"
 
-#: APP-MANAGER:2290
+#: APP-MANAGER:2301
 msgid "SITES"
 msgstr "САЙТЫ"
 
-#: APP-MANAGER:2293
+#: APP-MANAGER:2304
 msgid "Description: Shows more info about one or more apps."
 msgstr ""
 "Описание: показывает дополнительную информацию об одном или нескольких "
 "приложениях."
 
-#: APP-MANAGER:2294
+#: APP-MANAGER:2305
 msgid ""
 "Description: Accede to github APIs using your personal access tokens. The "
 "file named \\\"ghapikey.txt\\\" will be saved in $AMDATADIR. Use \\\"del\\\" "
@@ -804,17 +813,17 @@ msgstr ""
 "именем \\\"ghapikey.txt\\\" будет сохранён в $AMDATADIR. Используйте \\"
 "\"del\\\" для удаления."
 
-#: APP-MANAGER:2295
+#: APP-MANAGER:2306
 msgid ""
 "Description: Create a snapshot of the current version of an installed "
 "program."
 msgstr "Описание: создаёт снимок текущей версии установленной программы."
 
-#: APP-MANAGER:2296
+#: APP-MANAGER:2307
 msgid "Description: Removes all the unnecessary files and folders."
 msgstr "Описание: удаляет все ненужные файлы и папки."
 
-#: APP-MANAGER:2297
+#: APP-MANAGER:2308
 msgid ""
 "Description: Clone the list of installed apps to an \\\"am-clone.source\\\" "
 "file, or search for an existing one on the desktop (priority), in $HOME, or "
@@ -827,9 +836,9 @@ msgid ""
 "\t\t\tYou can also set the path to a custom file by exporting the \\"
 "$CLONE_FILE variable."
 msgstr ""
-"Описание: клонирует список установленных приложений в файл \\\"am-clone."
-"source\\\" или ищет существующий файл на рабочем столе (приоритет), в $HOME, "
-"во всей системе и на съёмных устройствах. Добавьте \\\"-i\\\" или \\"
+"Описание: клонирует список установленных приложений в файл \\\"am-"
+"clone.source\\\" или ищет существующий файл на рабочем столе (приоритет), в "
+"$HOME, во всей системе и на съёмных устройствах. Добавьте \\\"-i\\\" или \\"
 "\"install\\\", если хотите установить или добавить перечисленные приложения "
 "в новую конфигурацию, чтобы поделиться ею с другими ПК и настройками. "
 "Добавьте флаг \\\"--system\\\" или \\\"--user\\\", если хотите установить "
@@ -838,18 +847,18 @@ msgstr ""
 "\t\t\tТакже можно задать путь к пользовательскому файлу, экспортировав "
 "переменную \\$CLONE_FILE."
 
-#: APP-MANAGER:2300
+#: APP-MANAGER:2311
 msgid ""
 "Description: Set a dedicated \\$XDG_CONFIG_HOME for one or more AppImages."
 msgstr ""
 "Описание: задаёт отдельный \\$XDG_CONFIG_HOME для одного или нескольких "
 "AppImage."
 
-#: APP-MANAGER:2301
+#: APP-MANAGER:2312
 msgid "Description: Download an older or specific app version."
 msgstr "Описание: загружает старую или конкретную версию приложения."
 
-#: APP-MANAGER:2302
+#: APP-MANAGER:2313
 msgid ""
 "Description: Download one or more installation scripts to your desktop or "
 "convert them to local installers for \\\"AppMan\\\". To test the scripts, "
@@ -863,7 +872,7 @@ msgstr ""
 "или перейдите в папку скрипта и выполните \\\"$AMCLI -i ./script\\\"; при "
 "необходимости можно добавить отдельные флаги (см. \\\"-i\\\")."
 
-#: APP-MANAGER:2303
+#: APP-MANAGER:2314
 msgid ""
 "Description: Install AppImages from github.com, outside the database. This "
 "allows you to install, update and manage them all like the others. Where \\"
@@ -878,7 +887,7 @@ msgstr ""
 "необходимости добавьте уникальное ключевое слово, если перечислено несколько "
 "AppImage."
 
-#: APP-MANAGER:2304
+#: APP-MANAGER:2315
 msgid ""
 "Description: Shows the list of all installed programs, with sizes. By "
 "default apps are sorted by size, use \\\"--byname\\\" to sort by name. With "
@@ -892,11 +901,11 @@ msgstr ""
 "количество установленных приложений. Опция \\\"-fi\\\" показывает только "
 "установленные приложения, без AppImage, добавленных через \\\"--launcher\\\"."
 
-#: APP-MANAGER:2305
+#: APP-MANAGER:2316
 msgid "Description: Prints this message."
 msgstr "Описание: выводит это сообщение."
 
-#: APP-MANAGER:2306
+#: APP-MANAGER:2317
 msgid ""
 "Description: Prevents an installed application from being shown or managed "
 "by \\\"$AMCLI\\\"."
@@ -904,14 +913,14 @@ msgstr ""
 "Описание: скрывает установленное приложение и запрещает управление им через "
 "\\\"$AMCLI\\\"."
 
-#: APP-MANAGER:2307
+#: APP-MANAGER:2318
 msgid ""
 "Description: Set a dedicated \\$HOME directory for one or more AppImages."
 msgstr ""
 "Описание: задаёт отдельный каталог \\$HOME для одного или нескольких "
 "AppImage."
 
-#: APP-MANAGER:2308
+#: APP-MANAGER:2319
 msgid ""
 "Description: Set dedicated \\$HOME and \\$XDG_CONFIG_HOME directories for "
 "one or more AppImages."
@@ -919,7 +928,7 @@ msgstr ""
 "Описание: задаёт отдельные каталоги \\$HOME и \\$XDG_CONFIG_HOME для одного "
 "или нескольких AppImage."
 
-#: APP-MANAGER:2309
+#: APP-MANAGER:2320
 msgid ""
 "Description: Allow installed apps to use system icon themes. You can specify "
 "the name of the apps to change or use the \\\"--all\\\" flag to change all "
@@ -930,12 +939,12 @@ msgid ""
 msgstr ""
 "Описание: разрешает установленным приложениям использовать системные темы "
 "значков. Можно указать имена приложений для изменения или использовать флаг "
-"\\\"--all\\\", чтобы изменить все сразу. Это удалит путь к значку из файла ."
-"desktop и добавит символическую ссылку на все доступные значки в каталоге "
-"$DATADIR/icons/hicolor/scalable/apps. Опцию \\\"--icons\\\" можно "
+"\\\"--all\\\", чтобы изменить все сразу. Это удалит путь к значку из "
+"файла .desktop и добавит символическую ссылку на все доступные значки в "
+"каталоге $DATADIR/icons/hicolor/scalable/apps. Опцию \\\"--icons\\\" можно "
 "использовать как флаг в опциях \\\"-i\\\" и \\\"-ia\\\"."
 
-#: APP-MANAGER:2310
+#: APP-MANAGER:2321
 msgid ""
 "Description: Install one or more programs or libraries from the list. With "
 "the \\\"--debug\\\" option you can see log messages to debug the script. For "
@@ -953,7 +962,7 @@ msgstr ""
 "можно расширять дополнительными флагами (см. сторонние флаги внизу этого "
 "сообщения)."
 
-#: APP-MANAGER:2311
+#: APP-MANAGER:2322
 msgid ""
 "Description: Same as \\\"install\\\" (see above) but for AppImages only. "
 "Option \\\"-ias\\\" (aka Install AppImage & Sandbox) is equivalent to \\\"-"
@@ -963,7 +972,7 @@ msgstr ""
 "Опция \\\"-ias\\\" (Install AppImage & Sandbox) эквивалентна \\\"-ia --"
 "sandbox\\\" и настраивает песочницы для пакетов AppImage."
 
-#: APP-MANAGER:2312
+#: APP-MANAGER:2323
 msgid ""
 "Description: Shows the list of all the apps available. Without flags only "
 "shows the apps in the \\\"AM\\\" database, add the \\\"--appimages\\\" to "
@@ -979,7 +988,7 @@ msgstr ""
 "всех поддерживаемых сторонних баз данных. Его также можно расширять "
 "дополнительными флагами (см. сторонние флаги внизу этого сообщения)."
 
-#: APP-MANAGER:2313
+#: APP-MANAGER:2324
 msgid ""
 "Description: Prevent an application being updated, if it has an\\\"AM-"
 "updater\\\" script."
@@ -987,7 +996,7 @@ msgstr ""
 "Описание: запрещает обновление приложения, если у него есть скрипт \\\"AM-"
 "updater\\\"."
 
-#: APP-MANAGER:2314
+#: APP-MANAGER:2325
 msgid ""
 "Description: Set a new default repo, use \\\"add\\\" to append the path to a "
 "local directory or an online URL, then use \\\"select\\\" to use it by "
@@ -1004,7 +1013,7 @@ msgstr ""
 "удалить все сторонние репозитории. Используйте \\\"info\\\", чтобы увидеть "
 "источник установочных скриптов и списков."
 
-#: APP-MANAGER:2315
+#: APP-MANAGER:2326
 msgid ""
 "Description: Convert old AppImages and get rid of \\\"libfuse2\\\" "
 "dependence."
@@ -1012,14 +1021,14 @@ msgstr ""
 "Описание: преобразует старые AppImage и избавляет от зависимости \\"
 "\"libfuse2\\\"."
 
-#: APP-MANAGER:2316
+#: APP-MANAGER:2327
 msgid ""
 "Description: Overwrite apps with snapshots saved previously (see \\\"-b\\\")."
 msgstr ""
 "Описание: перезаписывает приложения ранее сохранёнными снимками (см. \\\"-b\\"
 "\")."
 
-#: APP-MANAGER:2317
+#: APP-MANAGER:2328
 msgid ""
 "Description: Search for keywords in the list of available applications, add "
 "the \\\"--appimages\\\" option to list only the AppImages, \\\"--portable\\"
@@ -1033,7 +1042,7 @@ msgstr ""
 "сразу. Флаг \\\"--all\\\" позволяет просмотреть набор всех поддерживаемых "
 "баз данных."
 
-#: APP-MANAGER:2318
+#: APP-MANAGER:2329
 msgid ""
 "Description: Reinstall only programs whose installation script has been "
 "modified in AM's online database. Use the \\\"--all\\\" flag to reinstall "
@@ -1051,7 +1060,7 @@ msgstr ""
 "установленные опцией \\\"-e\\\", и пользовательские скрипты, созданные "
 "опцией \\\"-t\\\", не поддерживаются."
 
-#: APP-MANAGER:2321
+#: APP-MANAGER:2332
 msgid ""
 "Use the \\\"--launcher\\\" flag to reinstall .desktop files if they are "
 "updated or modified by the user. The files will be extracted from their "
@@ -1063,22 +1072,22 @@ msgstr ""
 "соответствующих AppImage-файлов и сохранены в каталоге $SCRIPTDIR/"
 "AMLAUNCHER_DIR на всякий случай."
 
-#: APP-MANAGER:2322
+#: APP-MANAGER:2333
 msgid "Description: Remove and reinstall local/AppMan apps to a new location."
 msgstr ""
 "Описание: удаляет локальные приложения/AppMan и переустанавливает их в "
 "другую папку."
 
-#: APP-MANAGER:2323
+#: APP-MANAGER:2334
 msgid "Description: Removes one or more apps, requires confirmation."
 msgstr ""
 "Описание: удаляет одно или несколько приложений, требуется подтверждение."
 
-#: APP-MANAGER:2324
+#: APP-MANAGER:2335
 msgid "Description: Removes one or more apps without asking."
 msgstr "Описание: удаляет одно или несколько приложений без запроса."
 
-#: APP-MANAGER:2325
+#: APP-MANAGER:2336
 msgid ""
 "Description: Run an AppImage in a sandbox.\n"
 "\n"
@@ -1091,11 +1100,11 @@ msgstr ""
 "\t\t\tПРИМЕЧАНИЕ: \\\"--sandbox\\\" можно использовать как флаг в \\\"-i\\\" "
 "и \\\"-ia\\\" или заменить опцией \\\"-ias\\\" (Install AppImage & Sandbox)."
 
-#: APP-MANAGER:2328
+#: APP-MANAGER:2339
 msgid "Description: Updates this script to the latest version hosted."
 msgstr "Описание: обновляет этот скрипт до последней размещённой версии."
 
-#: APP-MANAGER:2329
+#: APP-MANAGER:2340
 msgid ""
 "Description: Generate a custom installation script. To test the scripts, use "
 "the \\\"$AMCLI -i '/path/to/script'\\\" command or enter the directory of "
@@ -1107,21 +1116,24 @@ msgstr ""
 "папку скрипта и выполните \\\"$AMCLI -i ./script\\\"; при необходимости "
 "можно добавить отдельные флаги (см. \\\"-i\\\")."
 
-#: APP-MANAGER:2330
+#: APP-MANAGER:2341
 msgid ""
-"Description: Download and set one or more language packs (if available), set "
-"\\\"$AMCLI\\\" to English (default), your language or other languages."
-"\\n\\nVisit https://github.com/pkgforge-community/AM-HF-SYNC/tree/$AMBRANCH/translations to get "
-"source files needed to submit new translations or to improve the existing "
-"ones."
+"Description: Let \\\"$AMCLI\\\" automatically use the language based on your "
+"system language; if \\\"$AMCLI\\\" does not have that system language, it "
+"fallbacks to English - auto (default), or manually set \\\"$AMCLI\\\" to use "
+"English or other languages - isocode.\\n\\nVisit https://github.com/ivan-hc/"
+"AM/tree/$AMBRANCH/translations to get source files needed to submit new "
+"translations or to improve the existing ones."
 msgstr ""
-"Описание: загружает и устанавливает один или несколько языковых пакетов "
-"(если доступны), задаёт для \\\"$AMCLI\\\" английский (по умолчанию), ваш "
-"язык или другие языки.\\n\\nПосетите https://github.com/pkgforge-community/AM-HF-SYNC/tree/"
-"$AMBRANCH/translations, чтобы получить исходные файлы для отправки нового "
-"перевода или улучшения существующих."
+"Описание: Позвольте \\\"$AMCLI\\\" автоматически использовать язык на основе "
+"языка вашей системы; если у \\\"$AMCLI\\\" нет этого системного языка, он "
+"переключается на английский - auto (по умолчанию), или вручную установите \\"
+"\"$AMCLI\\\" для использования английского или других языков - isocode."
+"\\n\\nПосетите https://github.com/pkgforge-community/AM-HF-SYNC/tree/$AMBRANCH/translations, "
+"чтобы получить исходные файлы для отправки нового перевода или улучшения "
+"существующих."
 
-#: APP-MANAGER:2331
+#: APP-MANAGER:2342
 msgid ""
 "Description: Allow a hidden app to be shown and managed again (nulls \\"
 "\"hide\\\")."
@@ -1129,14 +1141,14 @@ msgstr ""
 "Описание: снова показывает скрытое приложение и разрешает управление им "
 "(отменяет \\\"hide\\\")."
 
-#: APP-MANAGER:2332
+#: APP-MANAGER:2343
 msgid ""
 "Description: Unlock updates for the selected program (nulls \\\"lock\\\")."
 msgstr ""
 "Описание: разблокирует обновления для выбранной программы (отменяет \\"
 "\"lock\\\")."
 
-#: APP-MANAGER:2333
+#: APP-MANAGER:2344
 msgid ""
 "Description: Update everything. Add \\\"--apps\\\" to update only the apps "
 "or write only the apps you want to update by adding their names. Add the \\"
@@ -1150,27 +1162,27 @@ msgstr ""
 "\\\"--launcher\\\", чтобы попытаться обновить только локальные AppImage, "
 "добавленные через \\\"--launcher\\\" (см. \\\"--launcher\\\")."
 
-#: APP-MANAGER:2334
+#: APP-MANAGER:2345
 msgid "Description: Shows the version."
 msgstr "Описание: показывает версию."
 
-#: APP-MANAGER:2335
+#: APP-MANAGER:2346
 msgid "Description: Undo \\\"--devmode-enable\\\" (see below)."
 msgstr "Описание: отменяет \\\"--devmode-enable\\\" (см. ниже)."
 
-#: APP-MANAGER:2336
+#: APP-MANAGER:2347
 msgid "Description: Use the development branch (at your own risk)."
 msgstr "Описание: использовать ветку разработки (на свой риск)."
 
-#: APP-MANAGER:2337
+#: APP-MANAGER:2348
 msgid "Description: Disable notifications during apps update."
 msgstr "Описание: отключает уведомления во время обновления приложений."
 
-#: APP-MANAGER:2338
+#: APP-MANAGER:2349
 msgid "Description: Disable the sandbox for the selected app."
 msgstr "Описание: отключает песочницу для выбранного приложения."
 
-#: APP-MANAGER:2339
+#: APP-MANAGER:2350
 msgid ""
 "Description: Enable notifications during apps update (nulls \\\"--disable-"
 "notifications\\\")."
@@ -1178,14 +1190,14 @@ msgstr ""
 "Описание: включает уведомления во время обновления приложений (отменяет \\"
 "\"--disable-notifications\\\")."
 
-#: APP-MANAGER:2340
+#: APP-MANAGER:2351
 msgid ""
 "Description: Downgrades an installed app from pre-release to \\\"latest\\\"."
 msgstr ""
 "Описание: переводит установленное приложение с предварительного релиза на \\"
 "\"latest\\\"."
 
-#: APP-MANAGER:2341
+#: APP-MANAGER:2352
 msgid ""
 "Description: Drag/drop one or more AppImages in the terminal and embed them "
 "in the apps menu and customize a command to use from the CLI.\n"
@@ -1205,15 +1217,15 @@ msgstr ""
 "дельта-обновления. Этот флаг не творит чудес; настоятельно рекомендуется "
 "использовать вместо него опции \\\"-ia\\\" и \\\"-e\\\"."
 
-#: APP-MANAGER:2344
+#: APP-MANAGER:2355
 msgid ""
-"Description: Switch \\\"AM\\\" back to \\\"AM\\\" from \\\"AppMan Mode\\"
-"\" (see \\\"--user\\\")."
+"Description: Switch \\\"AM\\\" back to \\\"AM\\\" from \\\"AppMan Mode\\\" "
+"(see \\\"--user\\\")."
 msgstr ""
 "Описание: переключает \\\"AM\\\" обратно из \\\"Режима AppMan\\\" в \\\"AM\\"
 "\" (см. \\\"--user\\\")."
 
-#: APP-MANAGER:2345
+#: APP-MANAGER:2356
 msgid ""
 "Description: Made \\\"AM\\\" run in \\\"AppMan Mode\\\", locally, useful for "
 "unprivileged users. This option only works with \\\"AM\\\".\n"
@@ -1233,18 +1245,18 @@ msgstr ""
 "\t\t\t- Используйте её для локальной установки приложений, опция \\\"-i\\\" "
 "или \\\"install\\\":"
 
-#: APP-MANAGER:2350
+#: APP-MANAGER:2361
 msgid "- Also suboptions of \\\"-i\\\" can work with this flag:"
 msgstr "- Подопции \\\"-i\\\" также могут работать с этим флагом:"
 
-#: APP-MANAGER:2351
+#: APP-MANAGER:2362
 msgid ""
 "- Same for AppImages only, option \\\"-ia\\\" or \\\"install-appimage\\\":"
 msgstr ""
 "- То же самое только для AppImage, опция \\\"-ia\\\" или \\\"install-"
 "appimage\\\":"
 
-#: APP-MANAGER:2352
+#: APP-MANAGER:2363
 msgid ""
 "- External AppImages can be installed like this as well, option \\\"-e\\\" "
 "or \\\"extra\\\":"
@@ -1252,7 +1264,7 @@ msgstr ""
 "- Внешние AppImage также можно устанавливать таким способом, опция \\\"-e\\"
 "\" или \\\"extra\\\":"
 
-#: APP-MANAGER:2353
+#: APP-MANAGER:2364
 msgid ""
 "NOTE, \\\"AM\\\" 9 or higher is also able to update and manage apps locally, "
 "by default, and without having to switch to \\\"AppMan Mode\\\"."
@@ -1260,7 +1272,7 @@ msgstr ""
 "ПРИМЕЧАНИЕ: \\\"AM\\\" 9 и выше также умеет по умолчанию обновлять и "
 "управлять приложениями локально, без перехода в \\\"Режим AppMan\\\"."
 
-#: APP-MANAGER:2723
+#: APP-MANAGER:2735
 msgid ""
 "ERROR: unknown option \\\"$1\\\", run the \\\"$AMCLI -h\\\" command to find "
 "out more"
@@ -1923,9 +1935,9 @@ msgid ""
 "version as a name, press \\\"1\\\"\\n ◆ To set a custom name, write anything "
 "else\\n\\n"
 msgstr ""
-"\\n ◆ Чтобы использовать дату и время как имя, нажмите ENTER (по "
-"умолчанию)\\n ◆ Чтобы использовать версию как имя, нажмите \\\"1\\\"\\n ◆ "
-"Чтобы задать своё имя, введите что угодно другое\\n\\n"
+"\\n ◆ Чтобы использовать дату и время как имя, нажмите ENTER (по умолчанию)"
+"\\n ◆ Чтобы использовать версию как имя, нажмите \\\"1\\\"\\n ◆ Чтобы задать "
+"своё имя, введите что угодно другое\\n\\n"
 
 #: modules/management.am:15
 msgid " Write your choice here, or leave blank to use \\\"date/time\\\": "
@@ -2162,8 +2174,8 @@ msgstr " Удалить старый libfuse2 AppImage? (Y/n) "
 
 #: modules/management.am:543 modules/management.am:561
 msgid ""
-" \\\"${RED}$arg\\033[0m\\\" is not a valid \\\"APPNAME\\\", see \\\"$AMCLI -"
-"f\\\" for more."
+" \\\"${RED}$arg\\033[0m\\\" is not a valid \\\"APPNAME\\\", see \\\"$AMCLI "
+"-f\\\" for more."
 msgstr ""
 " \\\"${RED}$arg\\033[0m\\\" не подходит как \\\"APPNAME\\\", подробнее см. \\"
 "\"$AMCLI -f\\\"."
@@ -2222,8 +2234,8 @@ msgstr ""
 msgid ""
 " LIST OF CATEGORIES:\\n 0) AudioVideo\\n 1) Audio\\n 2) Video\\n 3) "
 "Development\\n 4) Education\\n 5) Game\\n 6) Graphics\\n 7) Network\\n 8) "
-"Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility "
-"(default)\\n "
+"Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility (default)"
+"\\n "
 msgstr ""
 " СПИСОК КАТЕГОРИЙ:\\n 0) AudioVideo\\n 1) Audio\\n 2) Video\\n 3) "
 "Development\\n 4) Education\\n 5) Game\\n 6) Graphics\\n 7) Network\\n 8) "
@@ -2300,11 +2312,11 @@ msgstr " КАЖДАЯ МОДЕЛЬ ОСНОВАНА НА РАЗНОМ МЕТОД
 
 #: modules/template.am:429
 msgid ""
-" PLEASE, SELECT A TEMPLATE FOR \\\"$(echo \"$arg\" | tr '[:lower:]' '[:"
-"upper:]')\\\":"
+" PLEASE, SELECT A TEMPLATE FOR \\\"$(echo \"$arg\" | tr '[:lower:]' "
+"'[:upper:]')\\\":"
 msgstr ""
-" ПОЖАЛУЙСТА, ВЫБЕРИТЕ ШАБЛОН ДЛЯ \\\"$(echo \"$arg\" | tr '[:lower:]' '[:"
-"upper:]')\\\":"
+" ПОЖАЛУЙСТА, ВЫБЕРИТЕ ШАБЛОН ДЛЯ \\\"$(echo \"$arg\" | tr '[:lower:]' "
+"'[:upper:]')\\\":"
 
 #: modules/template.am:431
 msgid "  0) APPIMAGE, FROM ANY WEBSITE (BETTER IF FROM GITHUB.COM)"
@@ -2324,8 +2336,8 @@ msgstr " ДЛЯ КАКОГО ТИПА ПРОГРАММЫ ВЫ ХОТИТЕ НА�
 
 #: modules/template.am:448 modules/template.am:484
 msgid ""
-" ◆ ADD THE URL OF THE SITE (BETTER IF IT COME FROM GITHUB), FOR EXAMPLE: "
-"$(echo -e '\n"
+" ◆ ADD THE URL OF THE SITE (BETTER IF IT COME FROM GITHUB), FOR EXAMPLE: $"
+"(echo -e '\n"
 "\n"
 " - if from github.com, use \"https://github.com/USER/PROJECT\"\n"
 "\n"
