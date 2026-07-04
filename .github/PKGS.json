@@ -633,7 +633,7 @@
   },
   {
     "pkg": "android-translation-layer",
-    "site": "pkgforge-dev/android_translation_layer-AppImage",
+    "site": "pkgforge-dev/android_translation_layer-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/android-translation-layer",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/android-translation-layer",
     "version_raw": "https://github.com/pkgforge-dev/android_translation_layer-AppImage/releases/download/r1212.768ebefb-1%402026-07-01_1782914314/Android_Translation_Layer-r1212.768ebefb-1-anylinux-x86_64.AppImage",
@@ -705,10 +705,10 @@
   },
   {
     "pkg": "anki",
-    "site": "ivan-hc/anki-appimage",
+    "site": "pkgforge-dev/anki-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anki",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anki",
-    "version_raw": "https://github.com/ivan-hc/anki-appimage/releases/download/continuous/Anki_26.05-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/anki-AppImage/releases/download/26.05-1%402026-07-01_1782914662/Anki-26.05-1-anylinux-x86_64.AppImage",
     "description": "Unofficial, Anki's shared backend and web components, and the Qt frontend"
   },
   {
@@ -753,11 +753,19 @@
   },
   {
     "pkg": "antigravity",
-    "site": "https://antigravity.google",
+    "site": "pkgforge-dev/antigravity-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/antigravity",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/antigravity",
-    "version_raw": "https://edgedl.me.gvt1.com/edgedl/release2/j0qc3/antigravity/stable/2.1.1-6123990880747520/linux-x64/Antigravity%20IDE.tar.gz",
-    "description": "Google Antigravity IDE"
+    "version_raw": "https://github.com/pkgforge-dev/Antigravity-AppImage/releases/download/2.2.1%402026-07-01_1782914603/Antigravity-2.2.1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Google Antigravity"
+  },
+  {
+    "pkg": "antigravity-ide",
+    "site": "pkgforge-dev/antigravity-ide-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/antigravity-ide",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/antigravity-ide",
+    "version_raw": "https://github.com/pkgforge-dev/Antigravity-IDE-AppImage/releases/download/2.1.1%402026-07-01_1782914577/Antigravity_IDE-2.1.1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Google Antigravity IDE"
   },
   {
     "pkg": "antimicrox",
@@ -788,7 +796,7 @@
     "site": "ivan-hc/Anydesk-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anydesk",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anydesk",
-    "version_raw": "https://github.com/ivan-hc/Anydesk-appimage/releases/download/continuous/Anydesk_8.0.3-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Anydesk-appimage/releases/download/continuous/Anydesk_8.0.4-x86_64.AppImage",
     "description": "Unofficial. Remote desktop application distributed"
   },
   {
@@ -1152,6 +1160,14 @@
     "description": "AppImage for the ares emulator"
   },
   {
+    "pkg": "ares-emu",
+    "site": "pkgforge-dev/ares-emu-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ares-emu",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ares-emu",
+    "version_raw": "https://github.com/pkgforge-dev/ares-emu-appimage/releases/download/v148%402026-06-15_1781529274/ares-v148-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of the ares emulator"
+  },
+  {
     "pkg": "aretext",
     "site": "aretext/aretext",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aretext",
@@ -1216,6 +1232,14 @@
     "description": "One app. All your favorite Artix games"
   },
   {
+    "pkg": "arx-libertatis",
+    "site": "pkgforge-dev/arx-libertatis-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/arx-libertatis",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/arx-libertatis",
+    "version_raw": "https://github.com/pkgforge-dev/Arx-Libertatis-AppImage/releases/download/nightly/Arx_Libertatis_Nightly-1.2.r2756.g5b95e4c-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Arx Libertatis"
+  },
+  {
     "pkg": "as",
     "site": "ivan-hc/am-utils",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/as",
@@ -1248,6 +1272,14 @@
     "description": "Photo organization application with support for peer-to-peer based synchronization across devices"
   },
   {
+    "pkg": "asphyxia-core",
+    "site": "pkgforge-dev/asphyxia-core-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/asphyxia-core",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/asphyxia-core",
+    "version_raw": "https://github.com/pkgforge-dev/Asphyxia-CORE-AppImage/releases/download/v1.60b%402026-07-01_1782914727/asphyxia-core-v1.60b-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Asphyxia CORE"
+  },
+  {
     "pkg": "astroffers",
     "site": "jayhasyee/astroffers",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/astroffers",
@@ -1265,10 +1297,10 @@
   },
   {
     "pkg": "asunder",
-    "site": "ivan-hc/asunder-appimage",
+    "site": "pkgforge-dev/asunder-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/asunder",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/asunder",
-    "version_raw": "https://github.com/ivan-hc/asunder-appimage/releases/download/continuous/Asunder-CD-Ripper_3.0.2-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Asunder-AppImage/releases/download/3.0.2-1%402026-07-01_1782914622/Asunder_CD_Ripper-3.0.2-1-anylinux-x86_64.AppImage",
     "description": "Unofficial. Audio CD ripper and encoder, WAV, MP3, OGG, FLAC, Opus, AAC"
   },
   {
@@ -1286,6 +1318,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/atuin",
     "version_raw": "https://github.com/atuinsh/atuin/releases/download/v18.16.1/atuin-server-x86_64-unknown-linux-musl.tar.gz",
     "description": "Magical shell history"
+  },
+  {
+    "pkg": "audacious",
+    "site": "pkgforge-dev/audacious-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/audacious",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/audacious",
+    "version_raw": "https://github.com/pkgforge-dev/Audacious-AppImage/releases/download/4.6.1-1%402026-07-01_1782914606/Audacious-4.6.1-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial. An open source audio and music player, descendant of XMMS"
   },
   {
     "pkg": "audacity",
@@ -1632,6 +1672,14 @@
     "description": "Unofficial, a static recompiled port of N64 Banjo-Kazooie for PC"
   },
   {
+    "pkg": "banjorecomp",
+    "site": "pkgforge-dev/banjorecomp-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/banjorecomp",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/banjorecomp",
+    "version_raw": "https://github.com/pkgforge-dev/BanjoRecomp-AppImage/releases/download/1.0.1%402026-07-01_1782914483/Banjo_Recompiled-1.0.1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Banjo: Recompiled"
+  },
+  {
     "pkg": "barnacal",
     "site": "mike-engel/Barnacal",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/barnacal",
@@ -1880,6 +1928,14 @@
     "description": "Free, open, Among Us proximity voice chat"
   },
   {
+    "pkg": "bettermediainfo-enhanced",
+    "site": "pkgforge-dev/bettermediainfo-appimage-enhanced",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bettermediainfo-enhanced",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bettermediainfo-enhanced",
+    "version_raw": "https://github.com/pkgforge-dev/BetterMediaInfo-AppImage-Enhanced/releases/download/1.0.0%402026-07-01_1782914562/BetterMediaInfo-1.0.0-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of BetterMediaInfo"
+  },
+  {
     "pkg": "bettersis",
     "site": "mario33881/betterSIS",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bettersis",
@@ -1942,6 +1998,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bidirectional",
     "version_raw": "https://github.com/samirdjelal/bidirectional/releases/download/app-v0.3.0/bidirectional_0.3.0_amd64.AppImage",
     "description": "Write Arabic text on apps that don't support the bidirectional text"
+  },
+  {
+    "pkg": "bigpemu",
+    "site": "pkgforge-dev/bigpemu-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bigpemu",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bigpemu",
+    "version_raw": "https://github.com/pkgforge-dev/BigPEmu-AppImage/releases/download/1.221%402026-07-01_1782914735/BigPEmu-1.221-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of BigPEmu"
   },
   {
     "pkg": "bili-liveluckdraw",
@@ -2164,7 +2228,7 @@
     "site": "https://www.blensor.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blensor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blensor",
-    "version_raw": "",
+    "version_raw": "1.0.18",
     "description": "3D modeling, animation, rendering and post-production"
   },
   {
@@ -2278,6 +2342,22 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bluetuith",
     "version_raw": "https://github.com/bluetuith-org/bluetuith/releases/download/v0.2.7/bluetuith_0.2.7_Darwin_x86_64.tar.gz",
     "description": "A TUI bluetooth manager for Linux"
+  },
+  {
+    "pkg": "bm64recomp-enhanced",
+    "site": "pkgforge-dev/bm64recomp-appimage-enhanced",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bm64recomp-enhanced",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bm64recomp-enhanced",
+    "version_raw": "https://github.com/pkgforge-dev/BM64Recomp-AppImage-Enhanced/releases/download/1.0.0%402026-07-01_1782913788/Bomberman_64_Recompiled-1.0.0-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Bomberman 64 Recompiled"
+  },
+  {
+    "pkg": "bmherorecomp-enhanced",
+    "site": "pkgforge-dev/bmherorecomp-appimage-enhanced",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bmherorecomp-enhanced",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bmherorecomp-enhanced",
+    "version_raw": "https://github.com/pkgforge-dev/BMHeroRecomp-AppImage-Enhanced/releases/download/0.7.1%402026-07-01_1782913739/Bomberman_Hero_Recompiled-0.7.1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Bomberman Hero Recompiled"
   },
   {
     "pkg": "boardgamestar",
@@ -2992,6 +3072,14 @@
     "description": "Peer-testing of software projects"
   },
   {
+    "pkg": "catfish",
+    "site": "pkgforge-dev/catfish-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/catfish",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/catfish",
+    "version_raw": "https://github.com/pkgforge-dev/Catfish-AppImage/releases/download/4.20.1-2%402026-07-01_1782914467/Catfish_File_Search-4.20.1-2-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of catfish"
+  },
+  {
     "pkg": "cavoke",
     "site": "cavoke-project/cavoke",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cavoke",
@@ -3368,6 +3456,14 @@
     "description": "An old-school bash-like Unix shell written in Rust"
   },
   {
+    "pkg": "cine",
+    "site": "pkgforge-dev/cine-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cine",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cine",
+    "version_raw": "https://github.com/pkgforge-dev/Cine-AppImage/releases/download/1.3.2%402026-05-16_1778937896/Cine-1.3.2-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Cine"
+  },
+  {
     "pkg": "cinelerra",
     "site": "https://cinelerra.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cinelerra",
@@ -3494,6 +3590,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/classipod",
     "version_raw": "https://github.com/adeeteya/Classipod/releases/download/1.12.0/Classipod-Linux-AppImage.AppImage",
     "description": "A local music player app designed to capture the nostalgic essence of the iconic iPod Classic"
+  },
+  {
+    "pkg": "claude-code",
+    "site": "pkgforge-dev/claude-code-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/claude-code",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/claude-code",
+    "version_raw": "https://github.com/pkgforge-dev/claude-code-AppImage/releases/download/2.1.197%402026-07-01_1782913935/claude-2.1.197-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of claude-code"
   },
   {
     "pkg": "clear",
@@ -3870,6 +3974,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/consoleworkbench",
     "version_raw": "https://github.com/easyops-cn/console-workbench/releases/download/v1.3.3/console-workbench-1.3.3-x86_64.AppImage",
     "description": "Console workbench"
+  },
+  {
+    "pkg": "constrict",
+    "site": "pkgforge-dev/constrict-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/constrict",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/constrict",
+    "version_raw": "https://github.com/pkgforge-dev/Constrict-AppImage/releases/download/26.4%402026-05-16_1778947296/Constrict-26.4-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Constrict"
   },
   {
     "pkg": "contour",
@@ -4472,6 +4584,14 @@
     "description": "Unofficial, a lightweight, fast and extensible game server for Minecraft"
   },
   {
+    "pkg": "cubyz",
+    "site": "pkgforge-dev/cubyz-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cubyz",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cubyz",
+    "version_raw": "https://github.com/pkgforge-dev/Cubyz-AppImage/releases/download/0.2.0-1%402026-07-01_1782913777/Cubyz-0.2.0-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Cubyz"
+  },
+  {
     "pkg": "cudatext",
     "site": "https://sourceforge.net/p/cudatext",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cudatext",
@@ -4928,6 +5048,14 @@
     "description": "Demonic corruption fantasy shmup"
   },
   {
+    "pkg": "denise",
+    "site": "pkgforge-dev/denise-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/denise",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/denise",
+    "version_raw": "https://github.com/pkgforge-dev/Denise-AppImage/releases/download/2.8-1%402026-07-01_1782914553/Denise-2.8-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Denise"
+  },
+  {
     "pkg": "densify",
     "site": "hkdb/Densify",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/densify",
@@ -5144,6 +5272,14 @@
     "description": "Compare files line by line. This is part of am-utils suite"
   },
   {
+    "pkg": "diffpdf",
+    "site": "pkgforge-dev/diffpdf-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/diffpdf",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/diffpdf",
+    "version_raw": "https://github.com/pkgforge-dev/DiffPDF-AppImage/releases/download/2.1.3.1-5%402026-07-01_1782914373/DiffPDF-2.1.3.1-5-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of DiffPDF"
+  },
+  {
     "pkg": "diffre",
     "site": "printfapp/diffre",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/diffre",
@@ -5174,6 +5310,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/digikam-dev",
     "version_raw": "https://files.kde.org/digikam/",
     "description": "Professional and advanced digital photo management application"
+  },
+  {
+    "pkg": "dillo",
+    "site": "pkgforge-dev/dillo-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dillo",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dillo",
+    "version_raw": "https://github.com/pkgforge-dev/Dillo-AppImage/releases/download/3.2.0-7%402026-07-01_1782914676/Dillo-3.2.0-7-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Dillo"
   },
   {
     "pkg": "dingtalk",
@@ -5400,6 +5544,14 @@
     "description": "Tiny alternative Discord client with a smaller footprint, snappier startup, themes, plugins and more!"
   },
   {
+    "pkg": "dosbox-pure-unleashed",
+    "site": "pkgforge-dev/dosbox-pure-unleashed-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dosbox-pure-unleashed",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dosbox-pure-unleashed",
+    "version_raw": "https://github.com/pkgforge-dev/DOSBox-Pure-Unleashed-AppImage/releases/download/4a1141224%402026-07-01_1782913954/DOSBox_Pure_Unleashed-4a1141224-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of DOSBox Pure Unleashed"
+  },
+  {
     "pkg": "dosbox-x",
     "site": "pkgforge-dev/DOSBox-X-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dosbox-x",
@@ -5534,6 +5686,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/drawy",
     "version_raw": "https://github.com/Prayag2/drawy/releases/download/1.0.0-alpha/Drawy-47b7552-x86_64.AppImage",
     "description": "Your handy, infinite, brainstorming tool"
+  },
+  {
+    "pkg": "dreamm",
+    "site": "pkgforge-dev/dreamm-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dreamm",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dreamm",
+    "version_raw": "https://github.com/pkgforge-dev/DREAMM-AppImage/releases/download/4.0%402026-07-01_1782913732/DREAMM-4.0-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of DREAMM"
   },
   {
     "pkg": "drill",
@@ -5742,6 +5902,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dwarf-fortress",
     "version_raw": "https://github.com/McArcady/lnp-forge/releases/download/0.47.05-r8/Dwarf_Fortress-0.47.05-r8-x86_64.AppImage",
     "description": "The AppImage of lnp-forge built LinuxDwarfPack"
+  },
+  {
+    "pkg": "dwarf-fortress-legacy",
+    "site": "pkgforge-dev/dwarf-fortress-legacy-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dwarf-fortress-legacy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dwarf-fortress-legacy",
+    "version_raw": "https://github.com/pkgforge-dev/Dwarf-Fortress-Legacy-AppImage/releases/download/0.47.5%402026-04-23_1776916227/Dwarf_Fortress_Legacy-0.47.5-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Dwarf Fortress Legacy"
   },
   {
     "pkg": "dwarffortress",
@@ -7248,6 +7416,14 @@
     "description": "Flashpoint Archive is a community effort to preserve games and animations from the web"
   },
   {
+    "pkg": "flashrom",
+    "site": "pkgforge-dev/flashrom-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flashrom",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/flashrom",
+    "version_raw": "https://github.com/pkgforge-dev/Flashrom-AppImage/releases/download/1.7.0-1%402026-07-01_1782914459/flashrom-1.7.0-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of ffmpeg"
+  },
+  {
     "pkg": "flawesome",
     "site": "ashishBharadwaj/flawesome",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flawesome",
@@ -7904,6 +8080,14 @@
     "description": "Pack a runner/emulator/game and it's configs in a single AppImage"
   },
   {
+    "pkg": "gamescope",
+    "site": "pkgforge-dev/gamescope-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gamescope",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gamescope",
+    "version_raw": "https://github.com/pkgforge-dev/gamescope-AppImage/releases/download/3.16.24-1%402026-06-22_1782145780/gamescope-3.16.24-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of gamescope"
+  },
+  {
     "pkg": "gams-studio",
     "site": "GAMS-dev/studio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gams-studio",
@@ -8312,6 +8496,14 @@
     "description": "The open-source, Haskell-built video editor for GIF makers"
   },
   {
+    "pkg": "gimagereader",
+    "site": "pkgforge-dev/gimagereader-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gimagereader",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gimagereader",
+    "version_raw": "https://github.com/pkgforge-dev/gImageReader-AppImage/releases/download/3.4.3-3%402026-07-01_1782914467/gImageReader-3.4.3-3-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of gImageReader"
+  },
+  {
     "pkg": "gimp-git",
     "site": "ivan-hc/GIMP-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gimp-git",
@@ -8388,7 +8580,7 @@
     "site": "pol-rivero/github-desktop-plus",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/github-desktop-plus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/github-desktop-plus",
-    "version_raw": "https://github.com/desktop-plus/desktop-plus/releases/download/v3.6.2.0/DesktopPlus-v3.6.2.0-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/desktop-plus/desktop-plus/releases/download/v3.6.2.1/DesktopPlus-v3.6.2.1-linux-x86_64.AppImage",
     "description": "Electron-based GitHub Desktop fork with advanced functionality and Bitbucket, GitLab integration"
   },
   {
@@ -8608,6 +8800,14 @@
     "description": "Unofficial, Experimental AppImage port of advanced GNOME 3 settings GUI"
   },
   {
+    "pkg": "gnome-web",
+    "site": "pkgforge-dev/gnome-web-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gnome-web",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gnome-web",
+    "version_raw": "https://github.com/pkgforge-dev/Gnome-Web-AppImage/releases/download/50.4-2%402026-07-01_1782914546/Web-50.4-2-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Gnome Web aka Epiphany"
+  },
+  {
     "pkg": "gnu-freedink",
     "site": "pkgforge-dev/GNU-FreeDink-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gnu-freedink",
@@ -8824,6 +9024,14 @@
     "description": "A modern download manager that supports all platforms"
   },
   {
+    "pkg": "gopher64",
+    "site": "pkgforge-dev/gopher64-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gopher64",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gopher64",
+    "version_raw": "https://github.com/pkgforge-dev/Gopher64-AppImage/releases/download/v1.1.32%402026-07-01_1782913549/Gopher64-v1.1.32-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of gopher64"
+  },
+  {
     "pkg": "gospel",
     "site": "ksharindam/gospel-pdf-viewer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gospel",
@@ -8934,6 +9142,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gping",
     "version_raw": "",
     "description": "Ping, but with a graph"
+  },
+  {
+    "pkg": "gpodder",
+    "site": "pkgforge-dev/gpodder-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gpodder",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gpodder",
+    "version_raw": "https://github.com/pkgforge-dev/gPodder-AppImage/releases/download/3.11.5-4%402026-07-01_1782914515/gPodder-3.11.5-4-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of gPodder"
   },
   {
     "pkg": "gpredict",
@@ -9510,6 +9726,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/helium",
     "version_raw": "https://github.com/imputnet/helium-linux/releases/download/0.14.3.1/helium-0.14.3.1-x86_64.AppImage",
     "description": "The Chromium-based web browser made for people, with love. Best privacy by default, unbiased ad-blocking, no bloat and no noise"
+  },
+  {
+    "pkg": "helium-browser-enhanced",
+    "site": "pkgforge-dev/helium-browser-appimage-enhanced",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/helium-browser-enhanced",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/helium-browser-enhanced",
+    "version_raw": "https://github.com/pkgforge-dev/Helium-Browser-AppImage-Enhanced/releases/download/0.14.2.1%402026-07-01_1782914745/Helium-0.14.2.1-anylinux-x86_64.AppImage",
+    "description": "About Unofficial AppImage of Helium"
   },
   {
     "pkg": "helix",
@@ -11296,6 +11520,14 @@
     "description": "Launch Koishi from your desktop"
   },
   {
+    "pkg": "kolourpaint",
+    "site": "pkgforge-dev/kolourpaint-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kolourpaint",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kolourpaint",
+    "version_raw": "https://github.com/pkgforge-dev/KolourPaint-AppImage/releases/download/26.04.2-1%402026-07-01_1782914564/KolourPaint-26.04.2-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of KolourPaint"
+  },
+  {
     "pkg": "kondo",
     "site": "tbillington/kondo",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kondo",
@@ -11382,6 +11614,22 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ksnip",
     "version_raw": "https://github.com/ksnip/ksnip/releases/download/continuous/ksnip-1.11.0-continuous-x86_64.AppImage",
     "description": "Screenshot tool inspired by Windows Snipping Tool and made with Qt"
+  },
+  {
+    "pkg": "kstars",
+    "site": "pkgforge-dev/kstars-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kstars",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kstars",
+    "version_raw": "https://github.com/pkgforge-dev/KStars-AppImage/releases/download/3.8.3-1%402026-07-01_1782914236/KStars-3.8.3-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of KStars"
+  },
+  {
+    "pkg": "ktorrent",
+    "site": "pkgforge-dev/ktorrent-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ktorrent",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ktorrent",
+    "version_raw": "https://github.com/pkgforge-dev/KTorrent-AppImage/releases/download/26.04.2-1%402026-07-01_1782914801/KTorrent-26.04.2-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of KTorrent"
   },
   {
     "pkg": "kubeman",
@@ -11540,7 +11788,7 @@
     "site": "jesseduffield/lazygit",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lazygit",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lazygit",
-    "version_raw": "https://github.com/jesseduffield/lazygit/releases/download/v0.62.2/lazygit_0.62.2_linux_x86_64.tar.gz",
+    "version_raw": "https://github.com/jesseduffield/lazygit/releases/download/v0.63.0/lazygit_0.63.0_linux_x86_64.tar.gz",
     "description": "Simple terminal UI for git commands"
   },
   {
@@ -11838,6 +12086,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lightning-peach-wallet",
     "version_raw": "https://github.com/LightningPeach/peach-wallet-desktop/releases/download/v0.5.0-mainnet-beta/peach-wallet-desktop-0.5.0-mainnet-beta-x86_64.AppImage",
     "description": "Wallet for lightning network"
+  },
+  {
+    "pkg": "lightzone",
+    "site": "pkgforge-dev/lightzone-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lightzone",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lightzone",
+    "version_raw": "https://github.com/pkgforge-dev/LightZone-AppImage/releases/download/5.0.0beta3-1%402026-05-22_1779457497/LightZone-5.0.0beta3-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of LighZone"
   },
   {
     "pkg": "liground",
@@ -12600,6 +12856,14 @@
     "description": "Master PDF Editor allows you to create, edit, preview, encrypt, sign and print PDF documents"
   },
   {
+    "pkg": "masterkey",
+    "site": "pkgforge-dev/masterkey-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/masterkey",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/masterkey",
+    "version_raw": "https://github.com/pkgforge-dev/masterkey-AppImage/releases/download/v1.9.1%402026-05-16_1778948128/Master_Key-v1.9.1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Master Key"
+  },
+  {
     "pkg": "mastervyrn",
     "site": "LightouchDev/MasterVyrn",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mastervyrn",
@@ -12840,6 +13104,14 @@
     "description": "MegaGlest real-time strategy game engine (cross-platform, 3-d)"
   },
   {
+    "pkg": "megaman64recomp",
+    "site": "pkgforge-dev/megaman64recomp-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/megaman64recomp",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/megaman64recomp",
+    "version_raw": "https://github.com/pkgforge-dev/MegaMan64Recomp-AppImage/releases/download/0.9.1%402026-07-01_1782914761/Mega_Man_64_Recompiled-0.9.1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Mega Man 64 Recompiled"
+  },
+  {
     "pkg": "meganimus",
     "site": "Kyuyrii/Meganimus",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/meganimus",
@@ -12950,6 +13222,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mercury",
     "version_raw": "https://github.com/Alex313031/Mercury/releases/download/v.129.0.2/mercury_129.0.2_linux_ARM64.zip",
     "description": "Firefox fork with compiler optimizations and patches from Librewolf"
+  },
+  {
+    "pkg": "mesa",
+    "site": "pkgforge-dev/mesa-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mesa",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mesa",
+    "version_raw": "https://github.com/pkgforge-dev/MESA-AppImage/releases/download/26.1.3-2%402026-07-01_1782914545/MESA-26.1.3-2-anylinux-x86_64.AppImage",
+    "description": "Experimental AppImage that lets you use the latest MESA with any binary on your system"
   },
   {
     "pkg": "meshlab",
@@ -14000,6 +14280,14 @@
     "description": "Unofficial, a PC-9801 series emulator"
   },
   {
+    "pkg": "neochat",
+    "site": "pkgforge-dev/neochat-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/neochat",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/neochat",
+    "version_raw": "https://github.com/pkgforge-dev/NeoChat-AppImage/releases/download/26.04.2-1%402026-07-01_1782914611/NeoChat-26.04.2-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of NeoChat"
+  },
+  {
     "pkg": "neohtop",
     "site": "Abdenasser/neohtop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/neohtop",
@@ -14172,7 +14460,7 @@
     "site": "https://www.wakdev.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nfctools",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nfctools",
-    "version_raw": "",
+    "version_raw": "https://apps.wakdev.com/ntgui/releases/linux/nfctools-latest.AppImage",
     "description": "A library which allows userspace application access to NFC devices"
   },
   {
@@ -14262,6 +14550,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nitch",
     "version_raw": "",
     "description": "Incredibly fast system fetch written in nim"
+  },
+  {
+    "pkg": "nitrogen",
+    "site": "pkgforge-dev/nitrogen-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nitrogen",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nitrogen",
+    "version_raw": "https://github.com/pkgforge-dev/Nitrogen-AppImage/releases/download/1.6.1-6%402026-07-04_1783156628/nitrogen-1.6.1-6-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Nitrogen"
   },
   {
     "pkg": "nitrokey",
@@ -14816,6 +15112,14 @@
     "description": "Unofficial. Multiplatform Audio Editor"
   },
   {
+    "pkg": "ocrmypdf",
+    "site": "pkgforge-dev/ocrmypdf-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ocrmypdf",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ocrmypdf",
+    "version_raw": "https://github.com/pkgforge-dev/OCRmyPDF-AppImage/releases/download/17.6.0-1%402026-07-01_1782914783/ocrmypdf-17.6.0-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of OCRmyPDF"
+  },
+  {
     "pkg": "ocvvid2fulldome",
     "site": "hn-88/OCVvid2fulldome",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ocvvid2fulldome",
@@ -15176,6 +15480,14 @@
     "description": "A customizable falling block puzzle game like tetris"
   },
   {
+    "pkg": "openboardview",
+    "site": "pkgforge-dev/openboardview-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openboardview",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openboardview",
+    "version_raw": "https://github.com/pkgforge-dev/OpenBoardView-AppImage/releases/download/nightly/OpenBoardView_Nightly-5e8d3b6-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Open Board Viewer"
+  },
+  {
     "pkg": "openbor",
     "site": "mantralunar/openbor",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openbor",
@@ -15222,6 +15534,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/opencomic",
     "version_raw": "https://github.com/ollm/OpenComic/releases/download/v1.6.5/OpenComic-1.6.5.AppImage",
     "description": "Comic and Manga reader, written with Node.js and using Electron"
+  },
+  {
+    "pkg": "opengothic",
+    "site": "pkgforge-dev/opengothic-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/opengothic",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/opengothic",
+    "version_raw": "https://github.com/pkgforge-dev/OpenGothic-AppImage/releases/download/351f74593%402026-05-02_1777702768/OpenGothic-351f74593-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of OpenGothic"
   },
   {
     "pkg": "openhv",
@@ -15318,6 +15638,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openra-dune",
     "version_raw": "https://github.com/OpenRA/OpenRA/releases/download/playtest-20260222/OpenRA-Dune-2000-playtest-x86_64.AppImage",
     "description": "Real-time strategy game engine, MOD Dune 2000"
+  },
+  {
+    "pkg": "openra-enhanced",
+    "site": "pkgforge-dev/openra-appimage-enhanced",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openra-enhanced",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openra-enhanced",
+    "version_raw": "https://github.com/pkgforge-dev/OpenRA-AppImage-Enhanced/releases/download/20250330-3%402026-07-01_1782914092/OpenRA-20250330-3-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of OpenRA containing all 3 game modes"
   },
   {
     "pkg": "openra-red-alert",
@@ -15448,6 +15776,14 @@
     "description": "Unofficial, an open source simulation game based upon Transport Tycoon Deluxe"
   },
   {
+    "pkg": "opentubex",
+    "site": "opentubex/opentubex",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/opentubex",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/opentubex",
+    "version_raw": "https://github.com/OpenTubeX/OpenTubeX/releases/download/v0.25.8-beta/opentubex-0.25.8-beta-amd64.AppImage",
+    "description": "A FreeTube fork with extra features for privacy"
+  },
+  {
     "pkg": "opentyrian2000",
     "site": "pkgforge-dev/OpenTyrian2000-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/opentyrian2000",
@@ -15470,6 +15806,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openxcom-extended",
     "version_raw": "https://openxcom.org/oxce/release/",
     "description": "OXCE, extended version of openXcom provide better mod support, QoL improvements, new game mechanics, improved and new GUIs"
+  },
+  {
+    "pkg": "openxray",
+    "site": "pkgforge-dev/openxray-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openxray",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openxray",
+    "version_raw": "https://github.com/pkgforge-dev/OpenXRay-AppImage/releases/download/11b8c4eca%402026-07-01_1782913465/OpenXRay-11b8c4eca-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of OpenXRay"
   },
   {
     "pkg": "opera",
@@ -15990,6 +16334,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pathephone",
     "version_raw": "https://github.com/pathephone/pathephone-desktop/releases/download/v2.2.1/pathephone-desktop-2.2.1-x86_64.AppImage",
     "description": "Distributed audio player"
+  },
+  {
+    "pkg": "pattypan",
+    "site": "pkgforge-dev/pattypan-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pattypan",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pattypan",
+    "version_raw": "https://github.com/pkgforge-dev/Pattypan-AppImage/releases/download/v26.02%402026-05-15_1778856962/Pattypan-v26.02-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Pattypan"
   },
   {
     "pkg": "pavo",
@@ -16600,6 +16952,14 @@
     "description": "A powerful and accessible open-source pixel art multitool. Whether you want to create sprites, tiles, animations, or just express yourself in the language of pixel art"
   },
   {
+    "pkg": "pixelpulse2",
+    "site": "pkgforge-dev/pixelpulse2-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pixelpulse2",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pixelpulse2",
+    "version_raw": "https://github.com/pkgforge-dev/Pixelpulse2-AppImage/releases/download/25725434013/Pixelpulse2-anylinux-x86_64.AppImage",
+    "description": "Pixelpulse2 is a user interface for analog systems exploration"
+  },
+  {
     "pkg": "pixfetch",
     "site": "RubixDev/pixfetch",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pixfetch",
@@ -16654,6 +17014,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/planet-blupi",
     "version_raw": "https://github.com/blupi-games/planetblupi-dev/releases/download/v1.15.1/planetblupi-1.15.1.AppImage",
     "description": "A delirious spell-binding game"
+  },
+  {
+    "pkg": "planify",
+    "site": "pkgforge-dev/planify-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/planify",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/planify",
+    "version_raw": "https://github.com/pkgforge-dev/Planify-AppImage/releases/download/4.19.4-1%402026-07-01_1782914771/Planify-4.19.4-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Planify"
   },
   {
     "pkg": "platform-tools",
@@ -17012,7 +17380,7 @@
     "site": "charmbracelet/pop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pop",
-    "version_raw": "https://github.com/charmbracelet/pop/releases/download/v0.2.1/pop_0.2.1_Linux_x86_64.tar.gz",
+    "version_raw": "https://github.com/charmbracelet/pop/releases/download/v0.2.2/pop_0.2.2_Linux_x86_64.tar.gz",
     "description": "Send emails from your terminal"
   },
   {
@@ -17182,6 +17550,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/prime-world-editor",
     "version_raw": "https://github.com/AxioDL/PrimeWorldEditor/releases/download/v1.2.7/PrimeWorldEditor-1.2.7-linux64.AppImage",
     "description": "Edit world assets from games by Retro Studios"
+  },
+  {
+    "pkg": "primehack",
+    "site": "pkgforge-dev/primehack-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/primehack",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/primehack",
+    "version_raw": "https://github.com/pkgforge-dev/PrimeHack-AppImage/releases/download/1.0.9%402026-07-01_1782913879/PrimeHack-1.0.9-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of the PrimeHack emulator"
   },
   {
     "pkg": "principia",
@@ -17368,6 +17744,14 @@
     "description": "Unofficial Electron wrapper for ProtonMail"
   },
   {
+    "pkg": "protontricks",
+    "site": "pkgforge-dev/protontricks-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/protontricks",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/protontricks",
+    "version_raw": "https://github.com/pkgforge-dev/Protontricks-AppImage/releases/download/1.14.1-1%402026-07-01_1782914541/Protontricks-1.14.1-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Protontricks"
+  },
+  {
     "pkg": "protonup-qt",
     "site": "DavidoTek/ProtonUp-Qt",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/protonup-qt",
@@ -17430,6 +17814,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ptx",
     "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
     "description": "Permuted index of file contents. This is part of am-utils suite"
+  },
+  {
+    "pkg": "ptyxis",
+    "site": "pkgforge-dev/ptyxis-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ptyxis",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ptyxis",
+    "version_raw": "https://github.com/pkgforge-dev/Ptyxis-AppImage/releases/download/50.1-1%402026-07-01_1782914483/Ptyxis-50.1-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Ptyxis terminal"
   },
   {
     "pkg": "publii",
@@ -17998,6 +18390,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quickredis",
     "version_raw": "https://github.com/quick123official/quick_redis_blog/releases/download/v2.7.1/QuickRedis-2.7.1-linux-x86_64.AppImage",
     "description": "A free Redis Desktop manager"
+  },
+  {
+    "pkg": "quickshell",
+    "site": "pkgforge-dev/quickshell-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quickshell",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quickshell",
+    "version_raw": "https://github.com/pkgforge-dev/Quickshell-AppImage/releases/download/0.3.0-2%402026-07-01_1782914691/quickshell-0.3.0-2-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Quickshell"
   },
   {
     "pkg": "quicktwitch",
@@ -19104,6 +19504,14 @@
     "description": "A work-in-progress cross-platform libre handwritten notes app"
   },
   {
+    "pkg": "sacdextractgui",
+    "site": "pkgforge-dev/sacdextractgui-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sacdextractgui",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sacdextractgui",
+    "version_raw": "https://github.com/pkgforge-dev/SACDExtractGUI-AppImage/releases/download/0.1%402026-07-01_1782914662/SACDExtractGUI-0.1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of SACDExtractGUI"
+  },
+  {
     "pkg": "safe-multisig",
     "site": "gnosis/safe-react",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/safe-multisig",
@@ -19118,6 +19526,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/safelight",
     "version_raw": "https://github.com/anthonyreimche/SafeLight/releases/download/v2.4.4/Safelight-2.4.4.AppImage",
     "description": "SafeLight is a modular image editing software that combines professional imaging tools with the customizability and modularity of modern IDEs to create a powerful, personalized editing workflow backed by an open-source community"
+  },
+  {
+    "pkg": "sameboy",
+    "site": "pkgforge-dev/sameboy-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sameboy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sameboy",
+    "version_raw": "https://github.com/pkgforge-dev/SameBoy-AppImage/releases/download/1.0.3-2%402026-07-01_1782914583/SameBoy-1.0.3-2-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of SameBoy"
   },
   {
     "pkg": "samira",
@@ -19708,7 +20124,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-07-04-756d8bfa01843d35f1f696a8887458c955ff15a9/shadps4-linux-sdl-2026-07-04-756d8bf.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-07-04-07bbc77bde244d553a9bbbf48f149ec2c0e93442/shadps4-linux-sdl-2026-07-04-07bbc77.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -19782,6 +20198,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shiru",
     "version_raw": "https://github.com/RockinChaos/Shiru/releases/download/v6.7.2-beta.1/linux-Shiru-v6.7.2-beta.1.AppImage",
     "description": "A personal anime library manager for watching and tracking your collection in real time. Lightweight, powerful, and paws-itively fast. No waiting required"
+  },
+  {
+    "pkg": "shockolate",
+    "site": "pkgforge-dev/shockolate-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shockolate",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shockolate",
+    "version_raw": "https://github.com/pkgforge-dev/Shockolate-AppImage/releases/download/4cc3d07df%402026-07-01_1782914495/Shockolate-4cc3d07df-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Shockolate"
   },
   {
     "pkg": "shoopdaloop",
@@ -20120,6 +20544,14 @@
     "description": "Unofficial. VoIP-based videoconferencing, voice calls and instant messaging app"
   },
   {
+    "pkg": "slack",
+    "site": "pkgforge-dev/slack-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/slack",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/slack",
+    "version_raw": "https://github.com/pkgforge-dev/Slack-AppImage/releases/download/4.50.143-1%402026-07-01_1782913855/Slack-4.50.143-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Slack"
+  },
+  {
     "pkg": "slackbackup",
     "site": "jcolag/SlackBackup",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/slackbackup",
@@ -20376,6 +20808,14 @@
     "description": "A tool to edit the soil properties, CRITERIA1D"
   },
   {
+    "pkg": "solaar",
+    "site": "pkgforge-dev/solaar-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/solaar",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/solaar",
+    "version_raw": "https://github.com/pkgforge-dev/Solaar-AppImage/releases/download/1.1.20-1%402026-07-01_1782914682/Solaar-1.1.20-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of solaar"
+  },
+  {
     "pkg": "solars",
     "site": "hiltontj/solars",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/solars",
@@ -20592,6 +21032,14 @@
     "description": "Privacy focused messenger"
   },
   {
+    "pkg": "spek",
+    "site": "pkgforge-dev/spek-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/spek",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/spek",
+    "version_raw": "https://github.com/pkgforge-dev/Spek-AppImage/releases/download/0.8.5-3%402026-07-01_1782914269/Spek-0.8.5-3-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Spek"
+  },
+  {
     "pkg": "sphia",
     "site": "YukidouSatoru/sphia",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sphia",
@@ -20784,6 +21232,14 @@
     "description": "AppImage Package for Sonic Robo Blast 2 Kart, game"
   },
   {
+    "pkg": "srb2kart",
+    "site": "pkgforge-dev/srb2kart-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/srb2kart",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/srb2kart",
+    "version_raw": "https://github.com/pkgforge-dev/SRB2Kart-AppImage/releases/download/1.6-2%402026-07-01_1782914209/SRB2Kart-1.6-2-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of SRB2kart"
+  },
+  {
     "pkg": "ssh-mitm",
     "site": "ssh-mitm/ssh-mitm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ssh-mitm",
@@ -20798,6 +21254,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ssplot",
     "version_raw": "https://github.com/babaissarkar/ssplot/releases/download/v2.3.3/SSPlot-x86_64.AppImage",
     "description": "A simple plotting utility for dynamical systems"
+  },
+  {
+    "pkg": "st",
+    "site": "pkgforge-dev/st-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/st",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/st",
+    "version_raw": "https://github.com/pkgforge-dev/st-AppImage/releases/download/0.9.3-1%402026-07-01_1782914576/st-0.9.3-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of the suckless terminal st"
   },
   {
     "pkg": "st+",
@@ -21328,6 +21792,14 @@
     "description": "A Slack client with WhatsApp like UI"
   },
   {
+    "pkg": "super-zsnes",
+    "site": "pkgforge-dev/super-zsnes-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/super-zsnes",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/super-zsnes",
+    "version_raw": "https://github.com/pkgforge-dev/SUPER-ZSNES-AppImage/releases/download/0.230%402026-07-01_1782914362/SUPER_ZSNES-0.230-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of SUPER ZSNES"
+  },
+  {
     "pkg": "superbacked",
     "site": "superbacked/superbacked",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/superbacked",
@@ -21552,6 +22024,14 @@
     "description": "Free Offline-first Password Manager"
   },
   {
+    "pkg": "swiftynotes",
+    "site": "pkgforge-dev/swiftynotes-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/swiftynotes",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/swiftynotes",
+    "version_raw": "https://github.com/pkgforge-dev/swiftynotes-AppImage/releases/download/1.1.6%402026-05-16_1778947603/Swifty_Notes-1.1.6-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of swiftynotes"
+  },
+  {
     "pkg": "swish",
     "site": "Blutsh/Swish",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/swish",
@@ -21744,6 +22224,14 @@
     "description": "Concatenate and print files in reverse. This is part of am-utils suite"
   },
   {
+    "pkg": "tachoparser",
+    "site": "pkgforge-dev/tachoparser-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tachoparser",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tachoparser",
+    "version_raw": "https://github.com/pkgforge-dev/tachoparser-AppImage/releases/download/749b030-1%402026-07-01_1782914795/tachoparser-749b030-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of tachoparser, CLI and GUI application for reading DDD tachograph cards"
+  },
+  {
     "pkg": "tag-editor",
     "site": "https://download.opensuse.org/repositories/home:/mkittler:",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tag-editor",
@@ -21774,533 +22262,5 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tagtime-desktop",
     "version_raw": "https://github.com/mykter/TagTime-desktop/releases/download/v0.7.1/TagTime-desktop-0.7.1-x86_64.AppImage",
     "description": "Time tracking for space cadets, desktop edition"
-  },
-  {
-    "pkg": "tail",
-    "site": "ivan-hc/am-utils",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tail",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tail",
-    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
-    "description": "Output the last part of files. This is part of am-utils suite"
-  },
-  {
-    "pkg": "taisei-project",
-    "site": "pkgforge-dev/Taisei-Project-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/taisei-project",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/taisei-project",
-    "version_raw": "https://github.com/pkgforge-dev/Taisei-Project-AppImage/releases/download/1.4.4-1%402026-07-01_1782907665/Taisei-1.4.4-1-anylinux-x86_64.AppImage",
-    "description": "Unofficial, A free and open-source Touhou Project fangame"
-  },
-  {
-    "pkg": "talktype",
-    "site": "ronb1964/TalkType",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/talktype",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/talktype",
-    "version_raw": "https://github.com/ronb1964/TalkType/releases/download/v0.5.16/TalkType-v0.5.16-x86_64.AppImage",
-    "description": "Linux speech to text app"
-  },
-  {
-    "pkg": "tamga",
-    "site": "galata-ink/tamga-releases",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tamga",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tamga",
-    "version_raw": "https://github.com/galata-ink/tamga-releases/releases/download/v1.3.9/tamga-linux-x64.AppImage",
-    "description": "A 3D sculpting, sketching, and stylized rendering app"
-  },
-  {
-    "pkg": "tangent",
-    "site": "https://www.tangentnotes.com",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tangent",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tangent",
-    "version_raw": "https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.12.1.AppImage",
-    "description": "A clean and powerful open source notes app"
-  },
-  {
-    "pkg": "tar",
-    "site": "ivan-hc/am-utils",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tar",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tar",
-    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
-    "description": "Utility used to store, backup, and transport files. This is part of am-utils suite"
-  },
-  {
-    "pkg": "taradino",
-    "site": "pkgforge-dev/Taradino-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/taradino",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/taradino",
-    "version_raw": "https://github.com/pkgforge-dev/Taradino-AppImage/releases/download/2b4ea3c6c%402026-07-01_1782913877/Taradino-2b4ea3c6c-anylinux-x86_64.AppImage",
-    "description": "Unofficial, SDL2 port of Rise of the Triad"
-  },
-  {
-    "pkg": "taskell",
-    "site": "smallhadroncollider/taskell",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/taskell",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/taskell",
-    "version_raw": "https://github.com/smallhadroncollider/taskell/releases/download/1.11.4/taskell-1.11.4_x86-64-linux.tar.gz",
-    "description": "Command-line Kanban board/task manager with support for Trello boards and GitHub projects"
-  },
-  {
-    "pkg": "taskizer",
-    "site": "SimonBrandner/TaskizerDesktop",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/taskizer",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/taskizer",
-    "version_raw": "https://github.com/SimonBrandner/TaskizerDesktop/releases/download/v2.0.0-rc.2/taskizer-2.0.0-rc.2-linux-x86_64.AppImage",
-    "description": "A task management app"
-  },
-  {
-    "pkg": "tasks-org",
-    "site": "tasks/tasks",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tasks-org",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tasks-org",
-    "version_raw": "https://github.com/tasks/tasks/releases/download/15.7.2/tasks-org-linux-x86_64.AppImage",
-    "description": "Private, ad-free task lists. Optional sync with Google Tasks, CalDAV or EteSync"
-  },
-  {
-    "pkg": "tastee-ui",
-    "site": "tastee/tastee-ui",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tastee-ui",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tastee-ui",
-    "version_raw": "https://github.com/tastee/tastee-ui/releases/download/0.9.6/tastee-ui-0.9.6-x86_64.AppImage",
-    "description": "Tool helping you write executable specifications in your lang"
-  },
-  {
-    "pkg": "tauon",
-    "site": "pkgforge-dev/Tauon-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tauon",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tauon",
-    "version_raw": "https://github.com/pkgforge-dev/Tauon-AppImage/releases/download/10.0.1-1%402026-07-01_1782914723/Tauon-10.0.1-1-anylinux-x86_64.AppImage",
-    "description": "Unofficial, a music player for the desktop"
-  },
-  {
-    "pkg": "tb",
-    "site": "araaha/tb.go",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tb",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tb",
-    "version_raw": "https://github.com/araaha/tb.go/releases/download/v1.0.2-1/tb.go-1.0.2-1-linux_amd64.tar.gz",
-    "description": "Tasks, boards & notes for the command-line habitat"
-  },
-  {
-    "pkg": "tbc-video-export",
-    "site": "JuniorIsAJitterbug/tbc-video-export",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tbc-video-export",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tbc-video-export",
-    "version_raw": "https://github.com/JuniorIsAJitterbug/tbc-video-export/releases/download/v0.1.8/tbc-video-export.AppImage",
-    "description": "Tool for exporting S-Video and CVBS-type TBCs to video files"
-  },
-  {
-    "pkg": "tc",
-    "site": "mccxiv/tc",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tc",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tc",
-    "version_raw": "https://github.com/mccxiv/tc/releases/download/v15.7.0/tc-linux-15.7.0.AppImage",
-    "description": "A desktop chat client for Twitch"
-  },
-  {
-    "pkg": "tdlib-rs",
-    "site": "FedericoBruzzone/tdlib-rs",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tdlib-rs",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tdlib-rs",
-    "version_raw": "https://github.com/FedericoBruzzone/tdlib-rs/releases/download/v1.4.0/tdlib-1.8.61-linux-x86_64.zip",
-    "description": "Rust wrapper around the Telegram Database Library"
-  },
-  {
-    "pkg": "teams",
-    "site": "IsmaelMartinez/teams-for-linux",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/teams",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/teams",
-    "version_raw": "https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.13.0/teams-for-linux-2.13.0.AppImage",
-    "description": "Unofficial, Business communication platform developed by Microsoft"
-  },
-  {
-    "pkg": "teamviewer",
-    "site": "https://www.teamviewer.com",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/teamviewer",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/teamviewer",
-    "version_raw": "",
-    "description": "Deliver remote IT support to your customers and colleagues, anytime, anywhere. Communication, network"
-  },
-  {
-    "pkg": "teamviewer-host",
-    "site": "https://www.teamviewer.com",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/teamviewer-host",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/teamviewer-host",
-    "version_raw": "",
-    "description": "Host utility for TeamViewer, if you want to set up unattended access to a device"
-  },
-  {
-    "pkg": "teamviewer-qs",
-    "site": "https://www.teamviewer.com",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/teamviewer-qs",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/teamviewer-qs",
-    "version_raw": "",
-    "description": "QuickSupport utility for TeamViewer, if you want to receive support"
-  },
-  {
-    "pkg": "tee",
-    "site": "ivan-hc/am-utils",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tee",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tee",
-    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
-    "description": "Read from standard input and write to standard output and. This is part of am-utils suite"
-  },
-  {
-    "pkg": "teledrive",
-    "site": "KhushrajRathod/TeleDrive",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/teledrive",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/teledrive",
-    "version_raw": "https://github.com/khrj/teledrive/releases/download/v1.2.0/TeleDrive-1.2.0-x86_64.AppImage",
-    "description": "Automatically backup Telegram Saved Messages"
-  },
-  {
-    "pkg": "telegram",
-    "site": "Portable-Linux-Apps/Telegram-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/telegram",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/telegram",
-    "version_raw": "https://github.com/Portable-Linux-Apps/Telegram-AppImage/releases/download/v6.9.3%402026-07-01_1782928067/Telegram-v6.9.3-x86_64.AppImage",
-    "description": "Official desktop version of Telegram messaging app"
-  },
-  {
-    "pkg": "tenacity",
-    "site": "tenacityteam/tenacity",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tenacity",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tenacity",
-    "version_raw": "https://codeberg.org/tenacityteam/tenacity/releases/download/v1.4-alpha1/tenacity-linux-1.4.0-x86_64.AppImage",
-    "description": "An easy-to-use, cross-platform multi-track audio editor/recorder"
-  },
-  {
-    "pkg": "terabox",
-    "site": "https://www.terabox.com",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/terabox",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/terabox",
-    "version_raw": "https://data.nephobox.com/issue/terabox/Linux/1.45.0/TeraBox_1.45.0_amd64.deb",
-    "description": "Terabox is the simplest way to send your files around the world. Back up and Share photos, videos, docs, and other files of any size to cloud storage"
-  },
-  {
-    "pkg": "tere",
-    "site": "mgunyho/tere",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tere",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tere",
-    "version_raw": "https://github.com/mgunyho/tere/releases/download/v1.6.0/tere-1.6.0-x86_64-unknown-linux-gnu.zip",
-    "description": "Terminal file explorer"
-  },
-  {
-    "pkg": "terminalos-sim",
-    "site": "justmaxcz/terminalOS-simulator",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/terminalos-sim",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/terminalos-sim",
-    "version_raw": "https://github.com/stuffbymax/terminalOS-simulator-archive/releases/download/v0.0.5/teminal-0_0_5-linux.AppImage",
-    "description": "A terminalOS simulator"
-  },
-  {
-    "pkg": "termora",
-    "site": "TermoraDev/termora",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/termora",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/termora",
-    "version_raw": "https://github.com/TermoraDev/termora/releases/download/2.0.0-beta.16/termora-2.0.0-beta.16-linux-x86-64.AppImage",
-    "description": "A terminal emulator and SSH client"
-  },
-  {
-    "pkg": "termshot",
-    "site": "homeport/termshot",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/termshot",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/termshot",
-    "version_raw": "https://github.com/homeport/termshot/releases/download/v0.6.1/termshot_0.6.1_linux_amd64.tar.gz",
-    "description": "Creates screenshots based on terminal command output"
-  },
-  {
-    "pkg": "teslacam-browser",
-    "site": "BobStrogg/teslacam-browser",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/teslacam-browser",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/teslacam-browser",
-    "version_raw": "https://github.com/BobStrogg/teslacam-browser/releases/download/v0.0.956/TeslaCam-Browser-0.0.956.AppImage",
-    "description": "A minimal TeslaCam Browser"
-  },
-  {
-    "pkg": "tesler",
-    "site": "j-catania/TeslaSentinelViewer",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tesler",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tesler",
-    "version_raw": "https://github.com/j-catania/TeslaSentinelViewer/releases/download/v0.2.3/TesLEr-0.2.3.AppImage",
-    "description": "The Tesla Sentinel Viewer"
-  },
-  {
-    "pkg": "tess",
-    "site": "SquitchYT/Tess",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tess",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tess",
-    "version_raw": "https://github.com/Squitch1/Tess/releases/download/0.7.0-alpha.16/tess-x86_64-unknown-linux-gnu",
-    "description": "A hackable, simple, rapid and beautiful terminal"
-  },
-  {
-    "pkg": "tesseract",
-    "site": "AlexanderP/tesseract-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tesseract",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tesseract",
-    "version_raw": "https://github.com/AlexanderP/tesseract-appimage/releases/download/v5.5.2/tesseract-5.5.2-x86_64.AppImage",
-    "description": "Tesseract Open Source OCR Engine AppImage"
-  },
-  {
-    "pkg": "test",
-    "site": "ivan-hc/am-utils",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/test",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/test",
-    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
-    "description": "Check file types and compare values. This is part of am-utils suite"
-  },
-  {
-    "pkg": "testdisk",
-    "site": "https://www.cgsecurity.org/wiki/TestDisk_Download",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/testdisk",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/testdisk",
-    "version_raw": "",
-    "description": "TestDisk & PhotoRec, tools to recover lost partitions and files"
-  },
-  {
-    "pkg": "tetanes",
-    "site": "lukexor/tetanes",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tetanes",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tetanes",
-    "version_raw": "https://github.com/lukexor/tetanes/releases/download/tetanes-v0.14.2/tetanes-0.14.2-x86_64-unknown-linux-gnu.AppImage",
-    "description": "A cross-platform NES emulator written in Rust using wgpu"
-  },
-  {
-    "pkg": "tev",
-    "site": "tom94/tev",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tev",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tev",
-    "version_raw": "https://github.com/Tom94/tev/releases/download/v2.13.0/tev.appimage",
-    "description": "High dynamic range (HDR) image viewer for people who care about colors"
-  },
-  {
-    "pkg": "texmacs",
-    "site": "https://download.opensuse.org/repositories/home:/slowphil:",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/texmacs",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/texmacs",
-    "version_raw": "https://download.opensuse.org/repositories/home:/slowphil:/texmacs-devel/AppImage/",
-    "description": "Free scientific text editor, inspired by TeX and GNU Emacs"
-  },
-  {
-    "pkg": "texstudio",
-    "site": "texstudio-org/texstudio",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/texstudio",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/texstudio",
-    "version_raw": "https://github.com/texstudio-org/texstudio/releases/download/4.9.6alpha1/texstudio-4.9.6alpha1-x86_64.AppImage",
-    "description": "LaTeX development environment"
-  },
-  {
-    "pkg": "textnote",
-    "site": "dkaslovsky/textnote",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/textnote",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/textnote",
-    "version_raw": "https://github.com/dkaslovsky/textnote/releases/download/v1.3.2/textnote_linux_amd64",
-    "description": "Simple tool for creating and organizing daily notes on the command line"
-  },
-  {
-    "pkg": "textosaurus",
-    "site": "martinrotter/textosaurus",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/textosaurus",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/textosaurus",
-    "version_raw": "https://github.com/martinrotter/textosaurus/releases/download/0.9.13/textosaurus-0.9.13-9cb7064-linux64.AppImage",
-    "description": "Cross-platform text editor based on Qt and Scintilla"
-  },
-  {
-    "pkg": "tfcbm",
-    "site": "dyslechtchitect/tfcbm",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tfcbm",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tfcbm",
-    "version_raw": "https://github.com/dyslechtchitect/tfcbm/releases/download/v1.1.5/tfcbm-1.1.5-x86_64.AppImage",
-    "description": "The * Clipboard Manager"
-  },
-  {
-    "pkg": "tgpt",
-    "site": "aandrew-me/tgpt",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tgpt",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tgpt",
-    "version_raw": "https://github.com/aandrew-me/tgpt/releases/download/v2.11.1/tgpt-linux-amd64",
-    "description": "AI Chatbots in terminal without needing API keys"
-  },
-  {
-    "pkg": "the-way",
-    "site": "out-of-cheese-error/the-way",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/the-way",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/the-way",
-    "version_raw": "https://github.com/out-of-cheese-error/the-way/releases/download/v0.20.3/the-way-linux.tar.gz",
-    "description": "A code snippets manager for your terminal"
-  },
-  {
-    "pkg": "thedesk",
-    "site": "cutls/TheDesk",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thedesk",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thedesk",
-    "version_raw": "https://github.com/cutls/TheDesk/releases/download/v24.2.1/TheDesk-24.2.1.AppImage",
-    "description": "Mastodon Client for PC"
-  },
-  {
-    "pkg": "theframe",
-    "site": "vicr123/theFrame",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/theframe",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/theframe",
-    "version_raw": "https://github.com/vicr123/theFrame/releases/download/continuous/theframe-linux.AppImage",
-    "description": "Animation tool"
-  },
-  {
-    "pkg": "theia-blueprint",
-    "site": "https://www.eclipse.org",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/theia-blueprint",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/theia-blueprint",
-    "version_raw": "2026-06",
-    "description": "Building desktop-based products based on Eclipse Theia"
-  },
-  {
-    "pkg": "thermusqt",
-    "site": "yschutz/ThermusQt",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thermusqt",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thermusqt",
-    "version_raw": "https://github.com/yschutz/ThermusQt/releases/download/continuous/ThermusQt-x86_64.AppImage",
-    "description": "Calculate particle composition of hadronic state"
-  },
-  {
-    "pkg": "theweb",
-    "site": "vicr123/theweb",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/theweb",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/theweb",
-    "version_raw": "https://github.com/vicr123/theweb/releases/download/continuous/theWeb-linux.AppImage",
-    "description": "Web Browser"
-  },
-  {
-    "pkg": "thief",
-    "site": "cteamx/Thief",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thief",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thief",
-    "version_raw": "https://github.com/cteamx/Thief/releases/download/4.0.0/thief-4.0.0-linux64.AppImage",
-    "description": "An innovative cross-platform fishing tool, in chinese"
-  },
-  {
-    "pkg": "thinreports-section-editor",
-    "site": "thinreports/thinreports-section-editor",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thinreports-section-editor",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thinreports-section-editor",
-    "version_raw": "https://github.com/thinreports/thinreports-section-editor/releases/download/v1.0.0-dev/thinreports-section-editor-1.0.0-dev-linux-20240116-67b3e2.AppImage",
-    "description": "A template editor for Thinreports"
-  },
-  {
-    "pkg": "thlink",
-    "site": "weilinfox/youmu-thlink",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thlink",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thlink",
-    "version_raw": "https://github.com/weilinfox/youmu-thlink/releases/download/v0.0.12/thlink-client-gtk-v0.0.12-amd64-linux.AppImage",
-    "description": "Touhou Project Game Netplay Tool"
-  },
-  {
-    "pkg": "thoptv",
-    "site": "kkdops/thoptv",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thoptv",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thoptv",
-    "version_raw": "https://github.com/kkdops/thoptv/releases/download/46.3.0/thoptv.46.3.0.AppImage",
-    "description": "Enjoy Ultimate Movies, sports Matches, IPL and Latest Shows"
-  },
-  {
-    "pkg": "thorium",
-    "site": "Alex313031/thorium",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium",
-    "version_raw": "https://github.com/Alex313031/thorium/releases/download/M138.0.7204.303/Thorium_Browser_138.0.7204.303_AVX.AppImage",
-    "description": "Web Browser, a Chromium fork including Widevine and FFmpeg support"
-  },
-  {
-    "pkg": "thorium-client",
-    "site": "Thorium-Sim/thorium-kiosk",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium-client",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium-client",
-    "version_raw": "https://github.com/Thorium-Sim/thorium-kiosk/releases/download/v2.0.8/thorium-kiosk-2.0.8-x86_64.AppImage",
-    "description": "A locked-down electron kiosk for Thorium"
-  },
-  {
-    "pkg": "thorium-reader",
-    "site": "edrlab/thorium-reader",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium-reader",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium-reader",
-    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.5.0-beta.1.28527745703-x86_64.AppImage",
-    "description": "Desktop application to read ebooks"
-  },
-  {
-    "pkg": "thunderbird",
-    "site": "https://www.thunderbird.net",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/continuous-stable/Thunderbird-stable-152.0.1-x86_64.AppImage",
-    "description": "Free and open source eMail client, Stable"
-  },
-  {
-    "pkg": "thunderbird-beta",
-    "site": "https://www.thunderbird.net",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-beta",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-beta",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260703-210830/Thunderbird-beta-153.0-x86_64.AppImage",
-    "description": "Free and open source eMail client, Beta Edition"
-  },
-  {
-    "pkg": "thunderbird-nightly",
-    "site": "https://www.thunderbird.net",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-nightly",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-nightly",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260703-210830/Thunderbird-nightly-154.0a1-x86_64.AppImage",
-    "description": "Free and open source eMail client, Nightly Edition"
-  },
-  {
-    "pkg": "ticker",
-    "site": "achannarasappa/ticker",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ticker",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ticker",
-    "version_raw": "https://github.com/achannarasappa/ticker/releases/download/v5.3.0/ticker-5.3.0-linux-amd64.tar.gz",
-    "description": "Terminal stock ticker with live updates and position tracking"
-  },
-  {
-    "pkg": "ticktick",
-    "site": "https://ticktick.com",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ticktick",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ticktick",
-    "version_raw": "https://download.ticktick.app/download/linux/linux_appimage_x64/ticktick-8.0.10-x86_64.AppImage",
-    "description": "A To-Do List and Calendar to keep you organized"
-  },
-  {
-    "pkg": "tidal-hifi",
-    "site": "Mastermindzh/tidal-hifi",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tidal-hifi",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tidal-hifi",
-    "version_raw": "https://github.com/Mastermindzh/tidal-hifi/releases/download/7.0.1/tidal-hifi-7.0.1.AppImage",
-    "description": "The web version of listen.tidal.com running in electron"
-  },
-  {
-    "pkg": "tidybit",
-    "site": "Veda-Swaroop/TidyBit",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tidybit",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tidybit",
-    "version_raw": "https://github.com/Veda-Swaroop/TidyBit/releases/download/v1.3.4/TidyBit-1.3.4-x86_64.AppImage",
-    "description": "TidyBit is a simple handy tool that can organize messy collection of files and move them to a chosen folder"
-  },
-  {
-    "pkg": "tilde-podcast",
-    "site": "paologiua/tilde",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tilde-podcast",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tilde-podcast",
-    "version_raw": "https://github.com/paologiua/tilde/releases/download/v1.0.0/Tilde-1.0.0.AppImage",
-    "description": "Podcast client to listen to all you favorite podcasts"
-  },
-  {
-    "pkg": "tiled",
-    "site": "bjorn/tiled",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tiled",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tiled",
-    "version_raw": "https://github.com/mapeditor/tiled/releases/download/v1.12.2/Tiled-1.12.2_Linux_x86_64.AppImage",
-    "description": "Tile map editor"
-  },
-  {
-    "pkg": "tilinggenerator",
-    "site": "PJK136/TilingGenerator",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tilinggenerator",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tilinggenerator",
-    "version_raw": "https://github.com/PJK136/TilingGenerator/releases/download/continuous/TilingGenerator-9ad9652-x86_64.AppImage",
-    "description": "Generator of regular and irregular tilings"
   }
 ]
