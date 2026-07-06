@@ -420,7 +420,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.852/alma-0.0.852-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.854/alma-0.0.854-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -10988,7 +10988,7 @@
     "site": "CodyTseng/jumble",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/jumble",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/jumble",
-    "version_raw": "https://github.com/CodyTseng/jumble/releases/download/v26.6.1/Jumble-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/CodyTseng/jumble/releases/download/v26.7.1/Jumble-linux-x86_64.AppImage",
     "description": "A user-friendly Nostr client for exploring relay feeds"
   },
   {
@@ -11796,7 +11796,7 @@
     "site": "oldcai/LazyTyper-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lazytyper",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lazytyper",
-    "version_raw": "https://github.com/oldcai/LazyTyper-releases/releases/download/v1.8.9-nightly.7-linux/LazyTyper_1.8.9-nightly.7_amd64.AppImage",
+    "version_raw": "https://github.com/oldcai/LazyTyper-releases/releases/download/v1.8.9-nightly.9-linux/LazyTyper_1.8.9-nightly.9_amd64.AppImage",
     "description": "LazyTyper desktop client (repackaged from the official AppImage, including built-in dependencies)"
   },
   {
@@ -12220,7 +12220,7 @@
     "site": "LinwoodDev/Butterfly",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linwood-butterfly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linwood-butterfly",
-    "version_raw": "https://github.com/LinwoodDev/Butterfly/releases/download/nightly/linwood-butterfly-linux-alternative-x86_64.AppImage",
+    "version_raw": "https://github.com/LinwoodDev/Butterfly/releases/download/v2.6.0-beta.1/linwood-butterfly-linux-alternative-x86_64.AppImage",
     "description": "Powerful, minimalistic, cross-platform, note-taking app"
   },
   {
@@ -12316,7 +12316,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.10-canary.42/LobeHub-2.2.10-canary.42.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.10-canary.43/LobeHub-2.2.10-canary.43.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -19468,7 +19468,7 @@
     "site": "https://ryujinx.app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ryujinx-canary",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ryujinx-canary",
-    "version_raw": "https://git.ryujinx.app/Ryubing/Canary/releases/download/1.3.332/ryujinx-canary-1.3.332-x64.AppImage",
+    "version_raw": "https://git.ryujinx.app/Ryubing/Canary/releases/download/1.3.333/ryujinx-canary-1.3.333-x64.AppImage",
     "description": "An open-source Nintendo Switch emulator, originally created by gdkchan, written in C# (Canary builds)"
   },
   {
@@ -20124,7 +20124,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-07-05-db43acc4f91e347f713ad405cc0d02f85c9b8b4e/shadps4-linux-sdl-2026-07-05-db43acc.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-07-06-8f4d05fe1ba48a06eae797e99d6c98ff1ce53966/shadps4-linux-sdl-2026-07-06-8f4d05f.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -21078,6 +21078,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/splayer",
     "version_raw": "https://github.com/SPlayer-Dev/SPlayer/releases/download/v3.1.1/splayer-3.1.1-x86_64.AppImage",
     "description": "A simple music player that supports word-by-word lyrics, song downloads, comment section display, music cloud storage and playlist management, music spectrum analysis, and basic mobile adaptation. NetEase Cloud Music"
+  },
+  {
+    "pkg": "split",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/split",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/split",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
+    "description": "Divide a file into multiple smaller files. This is part of am-utils suite"
   },
   {
     "pkg": "spm",
@@ -24196,7 +24204,7 @@
     "site": "ivan-hc/Vivaldi-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vivaldi-snapshot",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vivaldi-snapshot",
-    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-snapshot-8.1.4087.36-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-snapshot-8.1.4087.40-1-x86_64.AppImage",
     "description": "Unofficial. Advanced Web Browser, Testing Version"
   },
   {
@@ -24668,7 +24676,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "11409688377",
+    "version_raw": "11413213814",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -25344,6 +25352,14 @@
     "description": "Unofficial, a follow the mouse X demo, using the X SHAPE extension"
   },
   {
+    "pkg": "xgetter",
+    "site": "xgetter-team/xgetter",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xgetter",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xgetter",
+    "version_raw": "https://github.com/xgetter-team/xgetter/releases/download/v1.7.9/XGetter_1.7.9_amd64.AppImage",
+    "description": "Download video on Youtube, Facebook, X(Twitter), Instagram, Tiktok, Bilibili, Douyin and more"
+  },
+  {
     "pkg": "xilinota",
     "site": "XilinJia/Xilinota",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xilinota",
@@ -25414,6 +25430,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xnconvert",
     "version_raw": "https://download.xnview.com/old_versions/XnConvert/",
     "description": "A fast, powerful and free cross-platform batch image converter"
+  },
+  {
+    "pkg": "xnviewmp",
+    "site": "https://www.xnview.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xnviewmp",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xnviewmp",
+    "version_raw": "https://download.xnview.com/old_versions/XnView_MP/",
+    "description": "Graphic viewer, browser, converter"
   },
   {
     "pkg": "xonsh",
@@ -25748,7 +25772,7 @@
     "site": "ProfP303/youplaytx",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/youplaytx",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/youplaytx",
-    "version_raw": "https://codeberg.org/ProfP303/youplaytx/releases/download/v0.5.3/youplaytx_v0.5.3-x86_64.AppImage",
+    "version_raw": "https://codeberg.org/ProfP303/youplaytx/releases/download/v0.5.4/youplaytx_v0.5.4-x86_64.AppImage",
     "description": "A full-screen, dual-pane YouTube audio player for the terminal"
   },
   {
@@ -25924,7 +25948,7 @@
     "site": "rafatosta/zapzap",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zapzap",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zapzap",
-    "version_raw": "https://github.com/rafatosta/zapzap/releases/download/7.0-rc.7/ZapZap-7.0-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/rafatosta/zapzap/releases/download/7.0-rc.8/ZapZap-7.0-linux-x86_64.AppImage",
     "description": "WhatsApp desktop application written in Pyqt6 + PyQt6-WebEngine"
   },
   {
