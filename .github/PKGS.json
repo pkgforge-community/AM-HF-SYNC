@@ -420,7 +420,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.874/alma-0.0.874-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.875/alma-0.0.875-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -1324,7 +1324,7 @@
     "site": "atuinsh/atuin",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/atuin",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/atuin",
-    "version_raw": "https://github.com/atuinsh/atuin/releases/download/v18.17.0/atuin-server-x86_64-unknown-linux-musl.tar.gz",
+    "version_raw": "https://github.com/atuinsh/atuin/releases/download/v18.17.1/atuin-server-x86_64-unknown-linux-musl.tar.gz",
     "description": "Magical shell history"
   },
   {
@@ -3780,7 +3780,7 @@
     "site": "https://code.visualstudio.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/code",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/code",
-    "version_raw": "https://github.com/microsoft/vscode/releases/tag/1.128.0",
+    "version_raw": "https://github.com/microsoft/vscode/releases/tag/1.128.1",
     "description": "Visual Studio, VSCode, Original Editor to build/debug web/cloud apps"
   },
   {
@@ -6028,7 +6028,7 @@
     "site": "https://git.eden-emu.dev",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eden-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eden-nightly",
-    "version_raw": "https://nightly.eden-emu.dev/v1783970082.9a0e6b3c28/Eden-Linux-9a0e6b3c28-legacy-gcc-standard.AppImage",
+    "version_raw": "https://nightly.eden-emu.dev/v1784055937.8b8034a2a0/Eden-Linux-8b8034a2a0-steamdeck-clang-pgo.AppImage",
     "description": "An experimental open-source emulator for Nintendo Switch (yuzu fork, nightly builds)"
   },
   {
@@ -7580,7 +7580,7 @@
     "site": "superfly/flyctl",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flyctl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/flyctl",
-    "version_raw": "https://github.com/superfly/flyctl/releases/download/v0.4.70/flyctl_0.4.70_Linux_x86_64.tar.gz",
+    "version_raw": "https://github.com/superfly/flyctl/releases/download/v0.4.71/flyctl_0.4.71_Linux_x86_64.tar.gz",
     "description": "Command line tools for fly.io services"
   },
   {
@@ -15532,7 +15532,7 @@
     "site": "anomalyco/opencode",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/opencode",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/opencode",
-    "version_raw": "https://github.com/anomalyco/opencode/releases/download/v1.17.20/opencode-linux-x64.tar.gz",
+    "version_raw": "https://github.com/anomalyco/opencode/releases/download/v1.18.0/opencode-linux-x64.tar.gz",
     "description": "The open source coding agent"
   },
   {
@@ -15548,7 +15548,7 @@
     "site": "anomalyco/opencode",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/opencode-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/opencode-desktop",
-    "version_raw": "https://github.com/anomalyco/opencode/releases/download/v1.17.20/opencode-desktop-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/anomalyco/opencode/releases/download/v1.18.0/opencode-desktop-linux-x86_64.AppImage",
     "description": "Desktop application for opencode, the open source coding agent"
   },
   {
@@ -18180,7 +18180,7 @@
     "site": "pbek/QOwnNotes",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qownnotes",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/qownnotes",
-    "version_raw": "https://github.com/pbek/QOwnNotes/releases/download/continuous/QOwnNotes-x86_64.AppImage",
+    "version_raw": "https://github.com/pbek/QOwnNotes/releases/download/v26.7.7/QOwnNotes-x86_64.AppImage",
     "description": "Plain text notepad and todo list manager"
   },
   {
@@ -19004,7 +19004,7 @@
     "site": "retrovibed/retrovibed",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/retrovibed",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/retrovibed",
-    "version_raw": "https://github.com/retrovibed/retrovibed/releases/download/r2026.7.91783605466/retrovibed.linux.amd64.AppImage",
+    "version_raw": "https://github.com/retrovibed/retrovibed/releases/download/r2026.7.141784056287/retrovibed.linux.amd64.AppImage",
     "description": "Personal Digital Archive and Media Player with at cost cloud storage backend"
   },
   {
@@ -19308,7 +19308,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-2f7b8a7149cc223300e1070801435a0caff3313a/rpcs3-v0.0.41-19567-2f7b8a71_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-49b0306b1dba43c2f966c96667042b2f5ac22988/rpcs3-v0.0.41-19570-49b0306b_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -20148,7 +20148,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-07-14-c07e757ddbe3d2029611a1536973614e4a4abbd1/shadps4-linux-sdl-2026-07-14-c07e757.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-07-14-2c9caf6bfbe7e1dc7a1b4565af8d84c56469dd56/shadps4-linux-sdl-2026-07-14-2c9caf6.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -22748,7 +22748,7 @@
     "site": "https://www.thunderbird.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/continuous-stable/Thunderbird-stable-152.0.1-x86_64.AppImage",
+    "version_raw": "",
     "description": "Free and open source eMail client, Stable"
   },
   {
@@ -22756,7 +22756,7 @@
     "site": "https://www.thunderbird.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-beta",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260713-205701/Thunderbird-beta-153.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260714-210323/Thunderbird-beta-153.0-x86_64.AppImage",
     "description": "Free and open source eMail client, Beta Edition"
   },
   {
@@ -22764,7 +22764,7 @@
     "site": "https://www.thunderbird.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thunderbird-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thunderbird-nightly",
-    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260713-205701/Thunderbird-nightly-154.0a1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Thunderbird-appimage/releases/download/20260714-210323/Thunderbird-nightly-154.0a1-x86_64.AppImage",
     "description": "Free and open source eMail client, Nightly Edition"
   },
   {
@@ -24700,7 +24700,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "11782642440",
+    "version_raw": "11788507161",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
