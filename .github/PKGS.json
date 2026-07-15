@@ -6308,7 +6308,7 @@
     "site": "V-Paranoiaque/Ellas-War",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ellas-war",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ellas-war",
-    "version_raw": "https://github.com/V-Paranoiaque/Ellas-War/releases/download/v2.1.9/EllasWar-2.1.9.AppImage",
+    "version_raw": "https://github.com/V-Paranoiaque/Ellas-War/releases/download/v2.1.10/EllasWar-2.1.10.AppImage",
     "description": "Explore Ancient Greece on Ellas-War"
   },
   {
@@ -7212,7 +7212,7 @@
     "site": "FilenCloudDienste/filen-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/filen",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/filen",
-    "version_raw": "https://github.com/FilenCloudDienste/filen-desktop/releases/download/v3.0.49-rc9/Filen_linux_x86_64.AppImage",
+    "version_raw": "https://github.com/FilenCloudDienste/filen-desktop/releases/download/v3.0.50/Filen_linux_x86_64.AppImage",
     "description": "Desktop client for Filen.io, end-to-end encrypted cloud storage"
   },
   {
@@ -8068,8 +8068,16 @@
     "site": "mikf/gallery-dl",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gallery-dl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gallery-dl",
-    "version_raw": "https://github.com/mikf/gallery-dl/releases/download/v1.31.10/gallery-dl.bin",
-    "description": "Command-line program to download image galleries and collections"
+    "version_raw": "https://codeberg.org/mikf/gallery-dl/releases/download/v1.32.6/gallery-dl.bin",
+    "description": "Command-line program to download image galleries and collections from several image hosting sites"
+  },
+  {
+    "pkg": "gallery-dl-nightly",
+    "site": "gdl-org/builds",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gallery-dl-nightly",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gallery-dl-nightly",
+    "version_raw": "https://github.com/gdl-org/builds/releases/download/2026.07.15/gallery-dl_linux",
+    "description": "Command-line program to download image galleries and collections from several image hosting sites, nightly build"
   },
   {
     "pkg": "gameconqueror",
@@ -8276,7 +8284,7 @@
     "site": "BestImageViewer/geeqie",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/geeqie",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/geeqie",
-    "version_raw": "https://github.com/BestImageViewer/geeqie/releases/download/v2.9/Geeqie-2.9-minimal-x86_64.AppImage",
+    "version_raw": "https://github.com/BestImageViewer/geeqie/releases/download/continuous/Geeqie-latest-x86_64.AppImage",
     "description": "Claiming to be the best image viewer and photo collection browser"
   },
   {
@@ -11796,7 +11804,7 @@
     "site": "jesseduffield/lazygit",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lazygit",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lazygit",
-    "version_raw": "https://github.com/jesseduffield/lazygit/releases/download/v0.63.0/lazygit_0.63.0_linux_x86_64.tar.gz",
+    "version_raw": "https://github.com/jesseduffield/lazygit/releases/download/v0.63.1/lazygit_0.63.1_linux_x86_64.tar.gz",
     "description": "Simple terminal UI for git commands"
   },
   {
@@ -13076,7 +13084,7 @@
     "site": "fupdec/mediaChips",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mediachips",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/mediachips",
-    "version_raw": "https://github.com/fupdec/MediaChips/releases/download/v1.0.11/MediaChips.v1.0.11.Linux.AppImage",
+    "version_raw": "https://github.com/fupdec/MediaChips/releases/download/v1.1.0/MediaChips.v1.1.0.Linux.AppImage",
     "description": "Manage your videos, add any metadata to them and play them"
   },
   {
@@ -13316,7 +13324,7 @@
     "site": "ivan-hc/MS-Edge-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/microsoft-edge-dev",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/microsoft-edge-dev",
-    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-dev-151.0.4129.21-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-dev-152.0.4148.0-1-x86_64.AppImage",
     "description": "Web Browser provided by Microsoft, Developer Edition"
   },
   {
@@ -14476,7 +14484,7 @@
     "site": "https://www.wakdev.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nfctools",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nfctools",
-    "version_raw": "",
+    "version_raw": "https://apps.wakdev.com/ntgui/releases/linux/nfctools-latest.AppImage",
     "description": "A library which allows userspace application access to NFC devices"
   },
   {
@@ -15036,7 +15044,7 @@
     "site": "nymtech/nym-vpn-client",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nym-vpn",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nym-vpn",
-    "version_raw": "https://github.com/nymtech/nym-vpn-client/releases/download/nym-vpn-v2026.11.0/NymVPN_2026.11.0_amd64.AppImage",
+    "version_raw": "https://github.com/nymtech/nym-vpn-client/releases/download/nym-vpn-v2026.12.0-nightly.20260715/NymVPN_2026.12.0-nightly_amd64.AppImage",
     "description": "Cross-platform open source VPN client built in Rust, with mixnet anonymity and WireGuard speed. Protects metadata, not just IP addresses. Zero-knowledge payments for unlinkable online activities"
   },
   {
@@ -15916,7 +15924,7 @@
     "site": "OrcaSlicer/OrcaSlicer",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/orcaslicer-devel",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/orcaslicer-devel",
-    "version_raw": "https://github.com/OrcaSlicer/OrcaSlicer/releases/download/nightly-builds/OrcaSlicer_Linux_AppImage_Ubuntu2404_nightly_belt.AppImage",
+    "version_raw": "https://github.com/OrcaSlicer/OrcaSlicer/releases/download/nightly-builds/OrcaSlicer_Linux_AppImage_Ubuntu2404_nightly.AppImage",
     "description": "G-code generator for 3D printers, the most recent development build (nightly, alpha, beta, rc)"
   },
   {
@@ -16452,7 +16460,7 @@
     "site": "PCSX2/pcsx2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx2-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pcsx2-nightly",
-    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.475/pcsx2-v2.7.475-linux-appimage-x64-Qt.AppImage",
+    "version_raw": "https://github.com/PCSX2/pcsx2/releases/download/v2.7.478/pcsx2-v2.7.478-linux-appimage-x64-Qt.AppImage",
     "description": "PCSX2 is a free and open-source PlayStation 2 (PS2) emulator, using a combination of MIPS CPU Interpreters, Recompilers and a Virtual Machine which manages hardware states and PS2 system memory. This allows you to play PS2 games on your PC, with many additional features and benefits. This is the nightly version"
   },
   {
@@ -21744,14 +21752,6 @@
     "description": "Quickly download subtitles"
   },
   {
-    "pkg": "sugarizer",
-    "site": "https://sugarizer.org",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sugarizer",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sugarizer",
-    "version_raw": "https://sugarizer.org/download/Sugarizer-1.9.0.AppImage",
-    "description": "Sugarizer is a free/libre learning platform. The Sugarizer UI use ergonomic principles from Sugar platform, developed for the One Laptop per Child project. Sugarizer is used every day by thousands of users around the world"
-  },
-  {
     "pkg": "sultanpos",
     "site": "apinprastya/sultan",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sultanpos",
@@ -22220,7 +22220,7 @@
     "site": "pingdotgg/t3code",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/t3code",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/t3code",
-    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.29-nightly.20260715.814/T3-Code-0.0.29-nightly.20260715.814-x86_64.AppImage",
+    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.29-nightly.20260715.816/T3-Code-0.0.29-nightly.20260715.816-x86_64.AppImage",
     "description": "T3 Code is a minimal web GUI for coding agents (currently Codex and Claude, more coming soon)"
   },
   {
@@ -24236,7 +24236,7 @@
     "site": "ivan-hc/Vivaldi-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vivaldi-stable",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vivaldi-stable",
-    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-stable-8.1.4087.48-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-stable-8.1.4087.53-1-x86_64.AppImage",
     "description": "Unofficial. Advanced Web Browser, Stable Version"
   },
   {
@@ -24700,7 +24700,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "11813341665",
+    "version_raw": "11820843095",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
