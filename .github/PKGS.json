@@ -2152,6 +2152,14 @@
     "description": "Cryptocurrency hardware wallet desktop app"
   },
   {
+    "pkg": "bitcoin-safe",
+    "site": "andreasgriffin/bitcoin-safe",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bitcoin-safe",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bitcoin-safe",
+    "version_raw": "https://github.com/andreasgriffin/bitcoin-safe/releases/download/1.6.1/Bitcoin-Safe-1.6.1-x86_64.AppImage",
+    "description": "A desktop software for managing your cold storage wallets"
+  },
+  {
     "pkg": "bitshares",
     "site": "bitshares/bitshares-ui",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bitshares",
@@ -3764,7 +3772,7 @@
     "site": "mmtrt/cncra2yr_AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cncra2yr",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cncra2yr",
-    "version_raw": "https://github.com/mmtrt/cncra2yr_AppImage/releases/download/stable-wp/cncra2yr-9.3.1_WP-x86_64.AppImage",
+    "version_raw": "https://github.com/mmtrt/cncra2yr_AppImage/releases/download/stable-wp/cncra2yr-9.3.2_WP-x86_64.AppImage",
     "description": "C&C Red Alert 2, a real-time strategy game by Westwood Pacific"
   },
   {
@@ -6700,7 +6708,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.7.1.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -7212,7 +7220,7 @@
     "site": "FilenCloudDienste/filen-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/filen",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/filen",
-    "version_raw": "https://github.com/FilenCloudDienste/filen-desktop/releases/download/v3.0.52/Filen_linux_x86_64.AppImage",
+    "version_raw": "https://github.com/FilenCloudDienste/filen-desktop/releases/download/v3.0.53/Filen_linux_x86_64.AppImage",
     "description": "Desktop client for Filen.io, end-to-end encrypted cloud storage"
   },
   {
@@ -17640,6 +17648,14 @@
     "description": "The ultimate tool for managing your 3D printing collection with ease. Sort, tag, and track your models in one place"
   },
   {
+    "pkg": "prism",
+    "site": "CutWire-Studios/Prism",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/prism",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/prism",
+    "version_raw": "https://github.com/CutWire-Studios/Prism/releases/download/v0.1.2/Prism-0.1.2-x86_64.AppImage",
+    "description": "A beginner-friendly live media trigger and overlay tool built with Qt 6, FFmpeg, and OpenGL. Perfect for school events, small concerts, and sports—combining the simplicity of instant clip triggering with the power of live visual control"
+  },
+  {
     "pkg": "prisma-studio",
     "site": "prisma/studio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/prisma-studio",
@@ -20156,7 +20172,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-07-20-4c72de0732ce7443a1631bf190e2606294f58f65/shadps4-linux-sdl-2026-07-20-4c72de0.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-07-21-06d4872c55871189e928959b5d3a69e39f0fe291/shadps4-linux-sdl-2026-07-21-06d4872.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -24708,7 +24724,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "12080629006",
+    "version_raw": "12081731426",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -26070,6 +26086,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zenkit",
     "version_raw": "https://static.zenkit.com/downloads/desktop-apps/base/zenkit-linux.AppImage",
     "description": "A platform for collaboration and project management"
+  },
+  {
+    "pkg": "zennotes",
+    "site": "ZenNotes/zennotes",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zennotes",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zennotes",
+    "version_raw": "https://github.com/ZenNotes/zennotes/releases/download/v2.14.0/ZenNotes-2.14.0-linux-x86_64.AppImage",
+    "description": "Keyboard-first local Markdown notes with Vim motions, diagrams, and MCP integration"
   },
   {
     "pkg": "zenroomstudio",
