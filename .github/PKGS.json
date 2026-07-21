@@ -1236,7 +1236,7 @@
     "site": "pkgforge-dev/arx-libertatis-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/arx-libertatis",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/arx-libertatis",
-    "version_raw": "",
+    "version_raw": "https://github.com/pkgforge-dev/Arx-Libertatis-AppImage/releases/download/nightly/Arx_Libertatis_Nightly-1.2.r2756.g5b95e4c-1-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of Arx Libertatis"
   },
   {
@@ -3580,7 +3580,7 @@
     "site": "libnyanpasu/clash-nyanpasu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clash-nyanpasu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/clash-nyanpasu",
-    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0%2Balpha.e7d6bca_amd64.AppImage",
+    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0%2Balpha.c786eb0_amd64.AppImage",
     "description": "A Clash GUI based on tauri"
   },
   {
@@ -4068,7 +4068,7 @@
     "site": "https://gitlab.com/coolercontrol",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/coolercontrol",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/coolercontrol",
-    "version_raw": "https://gitlab.com/coolercontrol/coolercontrol/-/releases/1.4.5/downloads/packages/CoolerControl-x86_64.AppImage",
+    "version_raw": "",
     "description": "A program to monitor and control your cooling devices"
   },
   {
@@ -6700,7 +6700,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.7.1.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -8068,7 +8068,7 @@
     "site": "mikf/gallery-dl",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gallery-dl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gallery-dl",
-    "version_raw": "https://codeberg.org/mikf/gallery-dl/releases/download/v1.32.7/gallery-dl.bin",
+    "version_raw": "",
     "description": "Command-line program to download image galleries and collections from several image hosting sites"
   },
   {
@@ -8076,7 +8076,7 @@
     "site": "gdl-org/builds",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gallery-dl-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gallery-dl-nightly",
-    "version_raw": "https://github.com/gdl-org/builds/releases/download/2026.07.20/gallery-dl_linux",
+    "version_raw": "https://github.com/gdl-org/builds/releases/download/2026.07.21/gallery-dl_linux",
     "description": "Command-line program to download image galleries and collections from several image hosting sites, nightly build"
   },
   {
@@ -8476,7 +8476,7 @@
     "site": "pkgforge-dev/ghostty-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ghostty-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ghostty-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.2-main-%2B2511abe-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.2-main-%2Bea7dc5c-x86_64.AppImage",
     "description": "Unofficial, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (Tip, Nightly)"
   },
   {
@@ -10468,7 +10468,7 @@
     "site": "https://smxi.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/inxi",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/inxi",
-    "version_raw": "6.1",
+    "version_raw": "",
     "description": "A full featured CLI system information tool"
   },
   {
@@ -11724,7 +11724,7 @@
     "site": "Laidout/laidout",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/laidout",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/laidout",
-    "version_raw": "",
+    "version_raw": "https://github.com/Laidout/laidout/releases/download/continuous/Laidout-ae6b35e-x86_64.AppImage",
     "description": "Laidout, desktop publishing software"
   },
   {
@@ -12076,7 +12076,7 @@
     "site": "https://librewolf.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/librewolf",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/librewolf",
-    "version_raw": "https://dl.librewolf.net/librewolf/152.0.6-1/librewolf-152.0.6-1-linux-x86_64-appimage.AppImage",
+    "version_raw": "",
     "description": "Firefox-based Web Browser focused on privacy, security, freedom"
   },
   {
@@ -14732,7 +14732,7 @@
     "site": "http://www.nosqlbooster.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nosqlbooster",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nosqlbooster",
-    "version_raw": "https://s3.nosqlbooster.com/download/releasesv11/nosqlbooster4mongo-11.1.0-x64.AppImage",
+    "version_raw": "https://s3.nosqlbooster.com/download/releasesv11/nosqlbooster4mongo-11.1.1-x64.AppImage",
     "description": "Essential admin GUI for mongodb"
   },
   {
@@ -14892,7 +14892,7 @@
     "site": "nukeop/nuclear",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nuclear",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nuclear",
-    "version_raw": "",
+    "version_raw": "https://github.com/nukeop/nuclear/releases/download/player%401.43.2/Nuclear_1.43.2_amd64.AppImage",
     "description": "Streaming music player that finds free music for you"
   },
   {
@@ -16292,7 +16292,7 @@
     "site": "Scille/parsec-cloud",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parsec",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parsec",
-    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.9.3-a.0.dev.20653%2Be9f215e_linux_x86_64.unsigned.AppImage",
+    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.9.3-a.0.dev.20654%2B8c2020e_linux_x86_64.unsigned.AppImage",
     "description": "Open source Dropbox-like file sharing with full client encryption"
   },
   {
@@ -19508,7 +19508,7 @@
     "site": "zquestz/s",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/s",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/s",
-    "version_raw": "https://github.com/zquestz/s/releases/download/v0.7.5/s-linux_amd64.zip",
+    "version_raw": "https://github.com/zquestz/s/releases/download/v0.8.0/s-linux_amd64.zip",
     "description": "Open a web search in your terminal"
   },
   {
@@ -20758,5 +20758,53 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/snippetstore",
     "version_raw": "https://github.com/ZeroX-DG/SnippetStore/releases/download/v0.2.12/snippetstore-0.2.12-x86_64.AppImage",
     "description": "A snippet management app for developers"
+  },
+  {
+    "pkg": "snomcontrol",
+    "site": "ballessay/snomcontrol",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/snomcontrol",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/snomcontrol",
+    "version_raw": "https://github.com/ballessay/snomcontrol/releases/download/v1.0.76-beta/snomcontrol-fb27615-x86_64.AppImage",
+    "description": "An application to control snom D3xx phones from the desktop"
+  },
+  {
+    "pkg": "snowball",
+    "site": "shaunabanana/snowball",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/snowball",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/snowball",
+    "version_raw": "https://github.com/shaunabanana/snowball/releases/download/v1.4.0/Snowball-1.4.0.AppImage",
+    "description": "Find and filter literature, fast"
+  },
+  {
+    "pkg": "snowboardkids2-recomp",
+    "site": "pkgforge-dev/SnowboardKids2Recomp-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/snowboardkids2-recomp",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/snowboardkids2-recomp",
+    "version_raw": "https://github.com/pkgforge-dev/SnowboardKids2Recomp-AppImage/releases/download/1.0.5%402026-07-04_1783143480/Snowboard_Kids_2_Recompiled-1.0.5-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of game Snowboard Kids 2 Recompilation"
+  },
+  {
+    "pkg": "soapy-sdr",
+    "site": "mryndzionek/composable-sdr",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/soapy-sdr",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/soapy-sdr",
+    "version_raw": "https://github.com/mryndzionek/composable-sdr/releases/download/v0.1.0-alpha/Soapy_SDR-x86_64.AppImage",
+    "description": "I/Q recorder and processor using SoapySDR as backend"
+  },
+  {
+    "pkg": "soar",
+    "site": "pkgforge/soar",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/soar",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/soar",
+    "version_raw": "https://github.com/pkgforge/soar/releases/download/v0.12.7/soar-x86_64-linux",
+    "description": "A fast, modern package manager for Static Binaries, Portable Formats, AppImage, AppBundle, FlatImage, Runimage & More"
+  },
+  {
+    "pkg": "socnetv",
+    "site": "socnetv/app",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/socnetv",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/socnetv",
+    "version_raw": "https://github.com/socnetv/app/releases/download/v3.6/SocNetV-3.6-x86_64.AppImage",
+    "description": "Social Network Analysis and Visualization software"
   }
 ]
