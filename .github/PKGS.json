@@ -3588,7 +3588,7 @@
     "site": "libnyanpasu/clash-nyanpasu",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clash-nyanpasu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/clash-nyanpasu",
-    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0%2Balpha.c786eb0_amd64.AppImage",
+    "version_raw": "https://github.com/libnyanpasu/clash-nyanpasu/releases/download/pre-release/Clash.Nyanpasu_2.0.0%2Balpha.a1ba49e_amd64.AppImage",
     "description": "A Clash GUI based on tauri"
   },
   {
@@ -6708,7 +6708,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.7.1.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -7860,7 +7860,7 @@
     "site": "FreeCAD/FreeCAD",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/freecad-weekly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/freecad-weekly",
-    "version_raw": "https://github.com/FreeCAD/FreeCAD/releases/download/weekly-2026.07.15/FreeCAD_weekly-2026.07.15-Linux-x86_64.AppImage",
+    "version_raw": "https://github.com/FreeCAD/FreeCAD/releases/download/weekly-2026.07.22/FreeCAD_weekly-2026.07.22-Linux-x86_64.AppImage",
     "description": "Official developmet build of FreeCAD, a free and opensource multiplatform 3D parametric modeler"
   },
   {
@@ -8076,7 +8076,7 @@
     "site": "mikf/gallery-dl",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gallery-dl",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gallery-dl",
-    "version_raw": "https://codeberg.org/mikf/gallery-dl/releases/download/v1.32.7/gallery-dl.bin",
+    "version_raw": "",
     "description": "Command-line program to download image galleries and collections from several image hosting sites"
   },
   {
@@ -8084,7 +8084,7 @@
     "site": "gdl-org/builds",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gallery-dl-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gallery-dl-nightly",
-    "version_raw": "https://github.com/gdl-org/builds/releases/download/2026.07.21/gallery-dl_linux",
+    "version_raw": "https://github.com/gdl-org/builds/releases/download/2026.07.22/gallery-dl_linux",
     "description": "Command-line program to download image galleries and collections from several image hosting sites, nightly build"
   },
   {
@@ -8244,7 +8244,7 @@
     "site": "pkgforge-dev/Gearboy-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gearboy",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gearboy",
-    "version_raw": "https://github.com/pkgforge-dev/Gearboy-AppImage/releases/download/3.8.9%402026-07-05_1783210334/Gearboy-3.8.9-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Gearboy-AppImage/releases/download/3.8.10%402026-07-21_1784677974/Gearboy-3.8.10-anylinux-x86_64.AppImage",
     "description": "Unofficial, Game Boy / Gameboy Color emulator"
   },
   {
@@ -8252,7 +8252,7 @@
     "site": "pkgforge-dev/Gearcoleco-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gearcoleco",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gearcoleco",
-    "version_raw": "https://github.com/pkgforge-dev/Gearcoleco-AppImage/releases/download/1.6.6%402026-07-05_1783210247/Gearcoleco-1.6.6-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Gearcoleco-AppImage/releases/download/1.6.7%402026-07-21_1784677965/Gearcoleco-1.6.7-anylinux-x86_64.AppImage",
     "description": "Unofficial, ColecoVision emulator"
   },
   {
@@ -8260,7 +8260,7 @@
     "site": "pkgforge-dev/Geargrafx-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/geargrafx",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/geargrafx",
-    "version_raw": "https://github.com/pkgforge-dev/Geargrafx-AppImage/releases/download/1.7.14%402026-07-04_1783209051/Geargrafx-1.7.14-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Geargrafx-AppImage/releases/download/1.7.15%402026-07-21_1784677930/Geargrafx-1.7.15-anylinux-x86_64.AppImage",
     "description": "Unofficial, PC Engine / TurboGrafx-16 / SuperGrafx / PCE CD-ROM² emulator"
   },
   {
@@ -8276,7 +8276,7 @@
     "site": "pkgforge-dev/Gearlynx-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gearlynx",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gearlynx",
-    "version_raw": "https://github.com/pkgforge-dev/Gearlynx-AppImage/releases/download/1.2.18%402026-07-05_1783210270/Gearlynx-1.2.18-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Gearlynx-AppImage/releases/download/1.2.19%402026-07-21_1784677890/Gearlynx-1.2.19-anylinux-x86_64.AppImage",
     "description": "Unofficial, Atari Lynx emulator"
   },
   {
@@ -8284,7 +8284,7 @@
     "site": "pkgforge-dev/Gearsystem-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gearsystem",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gearsystem",
-    "version_raw": "https://github.com/pkgforge-dev/Gearsystem-AppImage/releases/download/3.9.12%402026-07-05_1783210185/Gearsystem-3.9.12-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Gearsystem-AppImage/releases/download/3.9.13%402026-07-21_1784677828/Gearsystem-3.9.13-anylinux-x86_64.AppImage",
     "description": "Unofficial, Sega Master System / Game Gear / SG-1000 emulator"
   },
   {
@@ -8484,7 +8484,7 @@
     "site": "pkgforge-dev/ghostty-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ghostty-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ghostty-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.2-main-%2Bea7dc5c-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.2-main-%2B0a71d57-x86_64.AppImage",
     "description": "Unofficial, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (Tip, Nightly)"
   },
   {
@@ -10484,7 +10484,7 @@
     "site": "https://smxi.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/inxi",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/inxi",
-    "version_raw": "6.1",
+    "version_raw": "",
     "description": "A full featured CLI system information tool"
   },
   {
@@ -12092,7 +12092,7 @@
     "site": "https://librewolf.net",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/librewolf",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/librewolf",
-    "version_raw": "https://dl.librewolf.net/librewolf/153.0-1/librewolf-153.0-1-linux-x86_64-appimage.AppImage",
+    "version_raw": "",
     "description": "Firefox-based Web Browser focused on privacy, security, freedom"
   },
   {
@@ -12228,7 +12228,7 @@
     "site": "https://im.qq.com/linuxqq",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/linuxqq",
-    "version_raw": "https://qqdl.gtimg.cn/qqfile/QQNTV2/9.9.32/release/c390e792/QQ_3.2.31_260710_x86_64_01.AppImage",
+    "version_raw": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.32/release/c390e792/QQ_3.2.31_260710_x86_64_01.AppImage",
     "description": "New Linux QQ based on Electron"
   },
   {
@@ -12332,7 +12332,7 @@
     "site": "https://lmstudio.ai",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lmstudio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lmstudio",
-    "version_raw": "https://installers.lmstudio.ai/linux/x64/0.4.19-2/LM-Studio-0.4.19-2-x64.AppImage",
+    "version_raw": "https://installers.lmstudio.ai/linux/x64/0.4.20-1/LM-Studio-0.4.20-1-x64.AppImage",
     "description": "Experimenting with local and open-source Large Language Models"
   },
   {
@@ -13476,7 +13476,7 @@
     "site": "MiniZinc/MiniZincIDE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/minizinc-ide",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/minizinc-ide",
-    "version_raw": "https://github.com/MiniZinc/MiniZincIDE/releases/download/edge/MiniZincIDE-build2688719091-x86_64.AppImage",
+    "version_raw": "https://github.com/MiniZinc/MiniZincIDE/releases/download/edge/MiniZincIDE-build2695483579-x86_64.AppImage",
     "description": "A free and open-source constraint modeling language"
   },
   {
@@ -16308,7 +16308,7 @@
     "site": "Scille/parsec-cloud",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parsec",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parsec",
-    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.9.3-a.0.dev.20654%2B8c2020e_linux_x86_64.unsigned.AppImage",
+    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.9.3-a.0.dev.20655%2B8c2020e_linux_x86_64.unsigned.AppImage",
     "description": "Open source Dropbox-like file sharing with full client encryption"
   },
   {
@@ -17100,7 +17100,7 @@
     "site": "https://purei.org",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/play",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/play",
-    "version_raw": "",
+    "version_raw": "https://purei.org/downloads/play/stable/0.70/Play!-0bd77c19-x86_64.AppImage",
     "description": "Play! is a PlayStation2 games emulator"
   },
   {
@@ -17652,7 +17652,7 @@
     "site": "https://printventory.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/printventory",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/printventory",
-    "version_raw": "https://printventory.techjeeper.com/printventory-2.1.10.AppImage",
+    "version_raw": "https://printventory.techjeeper.com/printventory-2.1.12.AppImage",
     "description": "The ultimate tool for managing your 3D printing collection with ease. Sort, tag, and track your models in one place"
   },
   {
@@ -20940,7 +20940,7 @@
     "site": "sonusmix/sonusmix",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sonusmix",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sonusmix",
-    "version_raw": "https://codeberg.org/sonusmix/sonusmix/releases/download/v0.1.1/org.sonusmix.Sonusmix-0.1.1.AppImage",
+    "version_raw": "",
     "description": "Next-gen Pipewire audio routing tool"
   },
   {
@@ -21326,77 +21326,5 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/st+",
     "version_raw": "https://github.com/vishnu350/st/releases/download/0.9.3-27/st%2B-0.9.3-27-x86_64.AppImage",
     "description": "A beautiful, SIXEL-capable, lightweight terminal (~100KB) with just-enough essential features for rock-solid stability in daily usage. Features integration with nerd-fonts and Gogh color schemes"
-  },
-  {
-    "pkg": "stabilitymatrix",
-    "site": "lykosai/stabilitymatrix",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/stabilitymatrix",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/stabilitymatrix",
-    "version_raw": "https://github.com/LykosAI/StabilityMatrix/releases/download/v2.16.1/StabilityMatrix-linux-x64.zip",
-    "description": "Multi-Platform Package Manager for Stable Diffusion, a deep AI learning model used for converting text to images"
-  },
-  {
-    "pkg": "stacer",
-    "site": "QuentiumYT/Stacer",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/stacer",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/stacer",
-    "version_raw": "https://github.com/QuentiumYT/Stacer/releases/download/v1.7.0/Stacer-1.7.0-x86_64.AppImage",
-    "description": "Linux System Optimizer and Monitoring"
-  },
-  {
-    "pkg": "stack-wallet",
-    "site": "cypherstack/stack_wallet",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/stack-wallet",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/stack-wallet",
-    "version_raw": "https://github.com/cypherstack/stack_wallet/releases/download/build_310/sw-v2.6.0-linux.AppImage",
-    "description": "Stack Wallet, a multicoin, cryptocurrency wallet"
-  },
-  {
-    "pkg": "stackandconquer",
-    "site": "ElTh0r0/stackandconquer",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/stackandconquer",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/stackandconquer",
-    "version_raw": "https://github.com/ElTh0r0/stackandconquer/releases/download/v0.11.1/StackAndConquer-0.11.1-x86_64.AppImage",
-    "description": "A challenging tower conquest board game Mixtour inspired"
-  },
-  {
-    "pkg": "standard-notes",
-    "site": "standardnotes/app",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/standard-notes",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/standard-notes",
-    "version_raw": "https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.201.35/standard-notes-3.201.35-linux-x86_64.AppImage",
-    "description": "A simple and private place for your notes"
-  },
-  {
-    "pkg": "starc",
-    "site": "story-apps/starc",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/starc",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/starc",
-    "version_raw": "https://github.com/story-apps/starc/releases/download/v0.8.2/starc-setup-qt5.AppImage",
-    "description": "Story Architect, reinventing the screenwriting software"
-  },
-  {
-    "pkg": "starfox64recomp",
-    "site": "pkgforge-dev/Starfox64Recomp-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/starfox64recomp",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/starfox64recomp",
-    "version_raw": "https://github.com/pkgforge-dev/Starfox64Recomp-AppImage/releases/download/1.0.3%402026-06-01_1780331807/Starfox_64_Recompiled-1.0.3-anylinux-x86_64.AppImage",
-    "description": "Unofficial, a native port of Starfox 64, statically recompiled"
-  },
-  {
-    "pkg": "starship",
-    "site": "starship/starship",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/starship",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/starship",
-    "version_raw": "https://github.com/starship/starship/releases/download/v1.26.0/starship-x86_64-unknown-linux-musl.tar.gz",
-    "description": "The minimal, blazing-fast, and infinitely customizable prompt for any shell"
-  },
-  {
-    "pkg": "stash-electron",
-    "site": "Doccrazy/stash-electron",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/stash-electron",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/stash-electron",
-    "version_raw": "https://github.com/Doccrazy/stash-electron/releases/download/v1.3.0/Stash-1.3.0.AppImage",
-    "description": "The friendly secret storage made for teams"
   }
 ]
