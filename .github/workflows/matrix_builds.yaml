@@ -386,7 +386,7 @@ jobs:
 
       - name: Upload (LOG) Artifacts [${{ matrix.package.host }}<==>${{ matrix.package.runner }}] (${{ env.PKG_TYPE }})
         if: env.CONTINUE_GHRUN != 'FALSE'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
             name: AM_${{ env.AM_PKG_NAME }}_${{ matrix.package.host }}
             path: |
@@ -399,7 +399,7 @@ jobs:
 
       - name: Attest Build Provenance [${{ matrix.package.host }}<==>${{ matrix.package.runner }}] (${{ env.PKG_TYPE }})
         if: env.CONTINUE_GHRUN != 'FALSE'
-        uses: actions/attest-build-provenance@v2.4.0
+        uses: actions/attest-build-provenance@v4.1.1
         with:
           subject-name: "build-logs-${{ env.AM_PKG_NAME }}-${{ env.UTC_TIME }}"
           subject-path: "/tmp/BUILD.log"
