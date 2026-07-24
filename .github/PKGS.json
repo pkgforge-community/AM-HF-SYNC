@@ -724,7 +724,7 @@
     "site": "aurelienpierreeng/ansel",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ansel",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ansel",
-    "version_raw": "https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/Ansel-0.0.0%2B4057.g56bd071ee2-x86_64.AppImage",
+    "version_raw": "https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/Ansel-0.0.0%2B4063.gb38cbcb447-x86_64.AppImage",
     "description": "An open-source photo-editing software for digital artists, designed to help you achieve your own interpretation of raw digital photographs"
   },
   {
@@ -884,7 +884,7 @@
     "site": "AppFlowy-IO/AppFlowy",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appflowy",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/appflowy",
-    "version_raw": "https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.13.0/AppFlowy-0.13.0-linux-x86_64.AppImage",
     "description": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative"
   },
   {
@@ -2412,7 +2412,7 @@
     "site": "bodhiproject/bodhi-app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bodhi",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bodhi",
-    "version_raw": "",
+    "version_raw": "https://github.com/bodhiproject/bodhi-app/releases/download/0.9.0/Bodhi-0.9.0-c0-d3-x86_64-testnet.AppImage",
     "description": "Bodhi Prediction Market app"
   },
   {
@@ -5956,7 +5956,7 @@
     "site": "Canop/dysk",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dysk",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dysk",
-    "version_raw": "",
+    "version_raw": "https://github.com/Canop/dysk/releases/download/v3.6.1/dysk_3.6.1.zip",
     "description": "A linux utility to get information on filesystems, like df but better"
   },
   {
@@ -6236,7 +6236,7 @@
     "site": "NeuraiProject/electrum-neurai",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/electrum-neurai",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/electrum-neurai",
-    "version_raw": "",
+    "version_raw": "https://github.com/NeuraiProject/electrum-neurai/releases/download/v0.2.2/electrum-neurai-v0.2.2-x86_64.AppImage",
     "description": "Neurai is a decentralized open source protocol optimized to transfer cryptoassets from one party to another on Layer1. The project aims to integrate NFT and Tokens with IoT and artificial intelligence applications"
   },
   {
@@ -12348,7 +12348,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.12-canary.4/LobeHub-2.2.12-canary.4.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.12-canary.5/LobeHub-2.2.12-canary.5.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -14468,7 +14468,7 @@
     "site": "nextcloud-releases/desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nextcloud",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nextcloud",
-    "version_raw": "https://github.com/nextcloud-releases/desktop/releases/download/v34.0.0-rc3/Nextcloud-34.0.0-rc3-x86_64.AppImage",
+    "version_raw": "https://github.com/nextcloud-releases/desktop/releases/download/v34.0.0-rc5/Nextcloud-34.0.0-rc5-x86_64.AppImage",
     "description": "Client-server software for creating & using file hosting services"
   },
   {
@@ -14670,14 +14670,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/no-fwl",
     "version_raw": "https://github.com/lencx/nofwl/releases/download/v0.1.0/NoFWL_0.1.0_linux_x86_64.AppImage.tar.gz",
     "description": "NoFWL Desktop Application"
-  },
-  {
-    "pkg": "node",
-    "site": "https://nodejs.org",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/node",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/node",
-    "version_raw": "https://nodejs.org/dist/latest/node-v26.5.0-linux-x64.tar.gz",
-    "description": "This is the official suite of Node.js tools, also known as NodeJS, a JavaScript runtime built on Chrome's V8 JavaScript engine"
   },
   {
     "pkg": "nodeflow",
@@ -15452,7 +15444,7 @@
     "site": "kettek/open-markup-editor",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/open-markup-editor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/open-markup-editor",
-    "version_raw": "https://github.com/kettek/open-markup-editor/releases/download/v3.1.1/Open.Markup.Editor-3.1.1.AppImage",
+    "version_raw": "",
     "description": "Pluggable markup editor"
   },
   {
@@ -17892,7 +17884,7 @@
     "site": "https://getpublii.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/publii",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/publii",
-    "version_raw": "https://cdn.getpublii.com/Publii-0.47.8.AppImage",
+    "version_raw": "https://cdn.getpublii.com/Publii-0.47.9.AppImage",
     "description": "A desktop-based CMS that makes creating static websites fast"
   },
   {
@@ -18548,7 +18540,7 @@
     "site": "blackPantherOS/radioit",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/radioit",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/radioit",
-    "version_raw": "https://github.com/blackPantherOS/radioit/releases/download/1.0beta1/RadioIt-x86_64.AppImage",
+    "version_raw": "",
     "description": "Automation software for Radios"
   },
   {
@@ -20180,7 +20172,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-07-23-8161049f22903c1945cbe493b1a38131abcb9848/shadps4-linux-sdl-2026-07-23-8161049.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-07-24-26f4270174a0a0de9eb5c26fdd99d84ddf9fa2ab/shadps4-linux-sdl-2026-07-24-26f4270.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -21436,7 +21428,7 @@
     "site": "ivan-hc/am-utils",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/stdbuf",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/stdbuf",
-    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
+    "version_raw": "",
     "description": "With modified buffering operations for its. This is part of am-utils suite"
   },
   {
@@ -22236,7 +22228,7 @@
     "site": "pingdotgg/t3code",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/t3code",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/t3code",
-    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.29-nightly.20260724.890/T3-Code-0.0.29-nightly.20260724.890-x86_64.AppImage",
+    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.29-nightly.20260724.891/T3-Code-0.0.29-nightly.20260724.891-x86_64.AppImage",
     "description": "T3 Code is a minimal web GUI for coding agents (currently Codex and Claude, more coming soon)"
   },
   {
@@ -24740,7 +24732,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "12232548480",
+    "version_raw": "12238908620",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -24956,7 +24948,7 @@
     "site": "ryuuzaki42/WinRAR_AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/winrar",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/winrar",
-    "version_raw": "",
+    "version_raw": "https://github.com/ryuuzaki42/WinRAR_AppImage/releases/download/7.23/WinRAR-7.23-1_JB-x86_64.AppImage",
     "description": "Unofficial, data compression, encryption and archiving tool"
   },
   {
@@ -25540,7 +25532,7 @@
     "site": "xournalpp/xournalpp",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xournal++nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xournal++nightly",
-    "version_raw": "https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-1.3.6%2Bdev-nightly-20260715-x86_64.AppImage",
+    "version_raw": "https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-1.3.6%2Bdev-nightly-20260724-x86_64.AppImage",
     "description": "C++ notetaking software with PDF annotation support, DEV"
   },
   {
