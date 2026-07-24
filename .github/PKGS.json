@@ -6708,7 +6708,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "",
+    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.7.1.zip",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -9116,7 +9116,7 @@
     "site": "benjamimgois/goverlay",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/goverlay",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/goverlay",
-    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-d9028f2ec-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-e1a7125ed-anylinux-x86_64.AppImage",
     "description": "An opensource project that aims to create a Graphical UI to help manage Linux overlays"
   },
   {
@@ -9532,7 +9532,7 @@
     "site": "vim/vim-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gvim",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gvim",
-    "version_raw": "https://github.com/vim/vim-appimage/releases/download/v9.2.0838/GVim-v9.2.0838.glibc2.34-x86_64.AppImage",
+    "version_raw": "https://github.com/vim/vim-appimage/releases/download/v9.2.0843/GVim-v9.2.0843.glibc2.34-x86_64.AppImage",
     "description": "Edit text files"
   },
   {
@@ -12348,7 +12348,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.12-canary.1/LobeHub-2.2.12-canary.1.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.12-canary.2/LobeHub-2.2.12-canary.2.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -14292,7 +14292,7 @@
     "site": "neanes/neanes",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/neanes",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/neanes",
-    "version_raw": "https://github.com/neanes/neanes/releases/download/v0.5.46/Neanes-0.5.46.AppImage",
+    "version_raw": "https://github.com/neanes/neanes/releases/download/v0.5.47/Neanes-0.5.47.AppImage",
     "description": "A scorewriter for notating Byzantine chant in Byzantine notation"
   },
   {
@@ -21606,45 +21606,5 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/strata",
     "version_raw": "https://github.com/arkottke/strata/releases/download/v0.8.0/Strata-v0.8.0-ac668eb-x86_64.AppImage",
     "description": "Semi-automated selection and scaling of time series"
-  },
-  {
-    "pkg": "strawberry",
-    "site": "Samueru-sama/strawberry-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/strawberry",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/strawberry",
-    "version_raw": "https://github.com/pkgforge-dev/strawberry-AppImage/releases/download/1.2.23-1%402026-07-22_1784721324/strawberry-1.2.24-1-anylinux-x86_64.AppImage",
-    "description": "Unofficial AppImage of the strawberry music player"
-  },
-  {
-    "pkg": "streamdock",
-    "site": "jtvberg/StreamDock",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/streamdock",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/streamdock",
-    "version_raw": "https://github.com/jtvberg/StreamDock/releases/download/v2.0.1/StreamDock-2.0.1.AppImage",
-    "description": "Streaming service viewer"
-  },
-  {
-    "pkg": "streamlink",
-    "site": "streamlink/streamlink-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/streamlink",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/streamlink",
-    "version_raw": "https://github.com/streamlink/streamlink-appimage/releases/download/8.4.0-1/streamlink%2Bffmpeg-8.4.0-1-cp314-cp314-manylinux_2_28_x86_64.AppImage",
-    "description": "Command-line which pipes video streams from various services"
-  },
-  {
-    "pkg": "streamlink-twitch-gui",
-    "site": "streamlink/streamlink-twitch-gui",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/streamlink-twitch-gui",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/streamlink-twitch-gui",
-    "version_raw": "https://github.com/streamlink/streamlink-twitch-gui/releases/download/v2.5.3/streamlink-twitch-gui-v2.5.3-x86_64.AppImage",
-    "description": "A multi platform Twitch.tv browser for Streamlink"
-  },
-  {
-    "pkg": "streamon",
-    "site": "haxzie/instagram-live-streamer",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/streamon",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/streamon",
-    "version_raw": "https://github.com/haxzie/instagram-live-streamer/releases/download/0.2.1/instagram-live-streamer-0.2.1.AppImage",
-    "description": "Create streaming links to instagram live"
   }
 ]
