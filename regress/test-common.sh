@@ -207,7 +207,7 @@ _test_apps() {
 _update() {
 	am -s
 	git clone -q --depth 1 https://github.com/pkgforge-community/AM-HF-SYNC /opt/AM.git
-	cp -rf /opt/AM.git/regress ~/.
+	/bin/cp -rf /opt/AM.git/regress ~/.
 	rm -rf /opt/AM.git
 }
 
