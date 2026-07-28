@@ -4460,7 +4460,7 @@
     "site": "schollz/croc",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/croc",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/croc",
-    "version_raw": "https://github.com/schollz/croc/releases/download/v10.6.0/croc_v10.6.0_Linux-64bit.tar.gz",
+    "version_raw": "https://github.com/schollz/croc/releases/download/v10.7.0/croc_v10.7.0_Linux-64bit.tar.gz",
     "description": "Easily and securely send things from one computer to another"
   },
   {
@@ -9174,14 +9174,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gpg-tui",
     "version_raw": "https://github.com/orhun/gpg-tui/releases/download/v0.11.2/gpg-tui-0.11.2-x86_64-unknown-linux-gnu.tar.gz",
     "description": "CLI, manage your GnuPG keys with ease!"
-  },
-  {
-    "pkg": "gpgfrontend",
-    "site": "saturneric/GpgFrontend",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gpgfrontend",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gpgfrontend",
-    "version_raw": "https://github.com/saturneric/GpgFrontend/releases/download/nightly/Gpg_Frontend-9032696-x86_64.AppImage",
-    "description": "A Cross-Platform OpenPGP Frontend Software"
   },
   {
     "pkg": "gping",
@@ -19428,7 +19420,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-831a078e3f3bb72faf161e8b1d137e67db55157f/rpcs3-v0.0.41-19649-831a078e_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-b778355c680f7f796fc6133bd84ba01d5834ceb0/rpcs3-v0.0.41-19650-b778355c_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -24844,7 +24836,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "12429225665",
+    "version_raw": "12434361093",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
