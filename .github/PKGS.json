@@ -420,7 +420,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.904/alma-0.0.904-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.906/alma-0.0.906-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -812,7 +812,7 @@
     "site": "anyproto/anytype-ts",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anytype",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/anytype",
-    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.56.0/Anytype-0.56.0.AppImage",
+    "version_raw": "https://github.com/anyproto/anytype-ts/releases/download/v0.56.1/Anytype-0.56.1.AppImage",
     "description": "The everything app for those who celebrate trust & autonomy"
   },
   {
@@ -3340,7 +3340,7 @@
     "site": "CherryHQ/cherry-studio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cherry-studio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cherry-studio",
-    "version_raw": "https://github.com/CherryHQ/cherry-studio/releases/download/v2.0.0-beta.3/Cherry-Studio-2.0.0-beta.3-x86_64.AppImage",
+    "version_raw": "https://github.com/CherryHQ/cherry-studio/releases/download/v2.0.0-rc.1/Cherry-Studio-2.0.0-rc.1-x86_64.AppImage",
     "description": "Agentic AI desktop with autonomous coding, intelligent automation, and unified access to frontier LLMs"
   },
   {
@@ -8368,6 +8368,14 @@
     "description": "GeoFS flight sim as a desktop application"
   },
   {
+    "pkg": "geolibre",
+    "site": "opengeos/GeoLibre",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/geolibre",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/geolibre",
+    "version_raw": "https://github.com/opengeos/GeoLibre/releases/download/v2.3.0/GeoLibre.Desktop_2.3.0_amd64.AppImage",
+    "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data"
+  },
+  {
     "pkg": "geometrize",
     "site": "Tw1ddle/geometrize",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/geometrize",
@@ -12364,7 +12372,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.13-canary.4/LobeHub-2.2.13-canary.4.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.13-canary.5/LobeHub-2.2.13-canary.5.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -12388,7 +12396,7 @@
     "site": "lockbook/lockbook",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lockbook-cli",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lockbook-cli",
-    "version_raw": "https://github.com/lockbook/lockbook/releases/download/26.7.23/lockbook-cli-linux",
+    "version_raw": "https://github.com/lockbook/lockbook/releases/download/26.7.28/lockbook-cli-linux",
     "description": "The private, polished note-taking platform, CLI"
   },
   {
@@ -12396,7 +12404,7 @@
     "site": "lockbook/lockbook",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lockbook-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lockbook-desktop",
-    "version_raw": "https://github.com/lockbook/lockbook/releases/download/26.7.23/lockbook-linux",
+    "version_raw": "https://github.com/lockbook/lockbook/releases/download/26.7.28/lockbook-linux",
     "description": "The private, polished note-taking platform"
   },
   {
@@ -15492,7 +15500,7 @@
     "site": "nextai-translator/nextai-translator",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/open-ai-translator",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/open-ai-translator",
-    "version_raw": "https://github.com/nextai-translator/nextai-translator/releases/download/v0.6.33/NextAI.Translator_0.6.33_amd64.AppImage",
+    "version_raw": "https://github.com/nextai-translator/nextai-translator/releases/download/v0.6.34/NextAI.Translator_0.6.34_amd64.AppImage",
     "description": "Browser extension for translation based on ChatGPT API"
   },
   {
@@ -15604,7 +15612,7 @@
     "site": "anomalyco/opencode",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/opencode",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/opencode",
-    "version_raw": "https://github.com/anomalyco/opencode/releases/download/v1.18.8/opencode-linux-x64.tar.gz",
+    "version_raw": "https://github.com/anomalyco/opencode/releases/download/v1.18.9/opencode-linux-x64.tar.gz",
     "description": "The open source coding agent"
   },
   {
@@ -15620,7 +15628,7 @@
     "site": "anomalyco/opencode",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/opencode-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/opencode-desktop",
-    "version_raw": "https://github.com/anomalyco/opencode/releases/download/v1.18.8/opencode-desktop-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/anomalyco/opencode/releases/download/v1.18.9/opencode-desktop-linux-x86_64.AppImage",
     "description": "Desktop application for opencode, the open source coding agent"
   },
   {
@@ -17454,6 +17462,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/polybar",
     "version_raw": "",
     "description": "Unofficial AppImage of polybar. A fast easy-to-use status bar"
+  },
+  {
+    "pkg": "polymc",
+    "site": "PolyMC/PolyMC",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/polymc",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/polymc",
+    "version_raw": "https://github.com/PolyMC/PolyMC/releases/download/7.1/PolyMC-Linux-amd64-7.1.AppImage",
+    "description": "A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once (Fork of MultiMC)"
   },
   {
     "pkg": "polypane",
@@ -20252,7 +20268,7 @@
     "site": "shadps4-emu/shadPS4",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
-    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-07-28-4f89152f9384b37a3e683dfdf98a9749338aae28/shadps4-linux-sdl-2026-07-28-4f89152.zip",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-07-28-b45b289761ffcb4feed44df5f51b4bb5b5c0dfdc/shadps4-linux-sdl-2026-07-28-b45b289.zip",
     "description": "An early PlayStation 4 emulator written in C++"
   },
   {
@@ -23876,7 +23892,7 @@
     "site": "astral-sh/uv",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/uv",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/uv",
-    "version_raw": "https://github.com/astral-sh/uv/releases/download/0.11.33/uv-x86_64-unknown-linux-musl.tar.gz",
+    "version_raw": "https://github.com/astral-sh/uv/releases/download/0.12.0/uv-x86_64-unknown-linux-musl.tar.gz",
     "description": "An extremely fast Python package and project manager, written in Rust"
   },
   {
@@ -25238,6 +25254,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/workflowy",
     "version_raw": "https://github.com/workflowy/desktop/releases/download/v4.3.2607281401/WorkFlowy-x86_64.AppImage",
     "description": "A notetaking tool"
+  },
+  {
+    "pkg": "world-monitor",
+    "site": "koala73/worldmonitor",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/world-monitor",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/world-monitor",
+    "version_raw": "https://github.com/koala73/worldmonitor/releases/download/v2.5.23/World.Monitor_2.5.23_amd64.AppImage",
+    "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface"
   },
   {
     "pkg": "wournal",
