@@ -420,7 +420,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.907/alma-0.0.907-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.909/alma-0.0.909-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -3340,7 +3340,7 @@
     "site": "CherryHQ/cherry-studio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cherry-studio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cherry-studio",
-    "version_raw": "https://github.com/CherryHQ/cherry-studio/releases/download/v2.0.0-rc.1/Cherry-Studio-2.0.0-rc.1-x86_64.AppImage",
+    "version_raw": "https://github.com/CherryHQ/cherry-studio/releases/download/v2.0.0-rc.2/Cherry-Studio-2.0.0-rc.2-x86_64.AppImage",
     "description": "Agentic AI desktop with autonomous coding, intelligent automation, and unified access to frontier LLMs"
   },
   {
@@ -7556,7 +7556,7 @@
     "site": "zerx-lab/FluxDown",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fluxdown",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fluxdown",
-    "version_raw": "https://github.com/zerx-lab/FluxDown/releases/download/v0.2.5-rc.4/FluxDown-0.2.5-rc.4-linux-x64.AppImage",
+    "version_raw": "https://github.com/zerx-lab/FluxDown/releases/download/v0.2.5-rc.5/FluxDown-0.2.5-rc.5-linux-x64.AppImage",
     "description": "Rust based blazing fast download manager with support for HTTP/FTP/BitTorrent magnetic links and HLS/DASH streaming, intelligent multithreading acceleration and seamless integration with the browser"
   },
   {
@@ -8644,7 +8644,7 @@
     "site": "gitify-app/gitify",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gitify",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gitify",
-    "version_raw": "https://github.com/gitify-app/gitify/releases/download/v7.1.0/Gitify-7.1.0.AppImage",
+    "version_raw": "https://github.com/gitify-app/gitify/releases/download/v7.1.1/Gitify-7.1.1.AppImage",
     "description": "GitHub notifications on your menu bar"
   },
   {
@@ -13084,7 +13084,7 @@
     "site": "ORNL-AMO/AMO-Tools-Desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/measur",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/measur",
-    "version_raw": "https://github.com/ORNL-AMO/AMO-Tools-Desktop/releases/download/v1.8.0/MEASUR-1.8.0.AppImage",
+    "version_raw": "https://github.com/ORNL-AMO/AMO-Tools-Desktop/releases/download/v1.8.1/MEASUR-1.8.1.AppImage",
     "description": "Energy efficiency calculation app for use with industrial equipment"
   },
   {
@@ -16817,11 +16817,11 @@
   },
   {
     "pkg": "photogimp",
-    "site": "sudo-give-me-coffee/PhotoGIMP",
+    "site": "pkgforge-dev/GIMP-and-PhotoGIMP-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/photogimp",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/photogimp",
-    "version_raw": "https://github.com/sudo-give-me-coffee/PhotoMP/releases/download/continuous/PhotoGIMP-2.10.21-20200820-x86_64.AppImage",
-    "description": "A patched version of GIMP for Adobe Photoshop users"
+    "version_raw": "https://github.com/pkgforge-dev/GIMP-and-PhotoGIMP-AppImage/releases/download/3.2.4-2%402026-07-22_1784722162/GIMP-3.2.4-2-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of GIMP that also includes PhotoGIMP. A patched version of GIMP for Adobe Photoshop users"
   },
   {
     "pkg": "photon",
@@ -21572,7 +21572,7 @@
     "site": "mmvanheusden/SteamDepotDownloaderGUI",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/steamdepotdownloadergui",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/steamdepotdownloadergui",
-    "version_raw": "https://github.com/mmvanheusden/SteamDepotDownloaderGUI/releases/download/v3.2.0/SteamDepotDownloaderGUI-Linux-v3.2.0-x64.AppImage",
+    "version_raw": "https://github.com/mmvanheusden/SteamDepotDownloaderGUI/releases/download/v3.2.1/SteamDepotDownloaderGUI-Linux-v3.2.1-x64.AppImage",
     "description": "Easily download older versions of games from Steam"
   },
   {
@@ -22332,7 +22332,7 @@
     "site": "pingdotgg/t3code",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/t3code",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/t3code",
-    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.31-nightly.20260729.944/T3-Code-0.0.31-nightly.20260729.944-x86_64.AppImage",
+    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.31-nightly.20260729.946/T3-Code-0.0.31-nightly.20260729.946-x86_64.AppImage",
     "description": "T3 Code is a minimal web GUI for coding agents (currently Codex and Claude, more coming soon)"
   },
   {
@@ -22604,7 +22604,7 @@
     "site": "https://www.terabox.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/terabox",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/terabox",
-    "version_raw": "https://data.nephobox.com/issue/terabox/Linux/1.46.0/TeraBox_1.46.0_amd64.deb",
+    "version_raw": "https://data.nephobox.com/issue/terabox/Linux/1.46.1/TeraBox_1.46.1_amd64.deb",
     "description": "Terabox is the simplest way to send your files around the world. Back up and Share photos, videos, docs, and other files of any size to cloud storage"
   },
   {
@@ -24380,7 +24380,7 @@
     "site": "ivan-hc/Vivaldi-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vivaldi-stable",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vivaldi-stable",
-    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-stable-8.1.4087.58-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-stable-8.1.4087.61-1-x86_64.AppImage",
     "description": "Unofficial. Advanced Web Browser, Stable Version"
   },
   {
@@ -24852,7 +24852,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "12465880286",
+    "version_raw": "12478240258",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -26316,7 +26316,7 @@
     "site": "alagrede/znote-app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/znote",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/znote",
-    "version_raw": "https://github.com/alagrede/znote-app/releases/download/v4.4.1/znote-4.4.1.AppImage",
+    "version_raw": "https://github.com/alagrede/znote-app/releases/download/v4.5.1/znote-4.5.1.AppImage",
     "description": "A Beautiful markdown editor inspired by Jupyter"
   },
   {
