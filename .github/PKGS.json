@@ -764,7 +764,7 @@
     "site": "pkgforge-dev/antigravity-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/antigravity",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/antigravity",
-    "version_raw": "https://github.com/pkgforge-dev/Antigravity-AppImage/releases/download/2.3.0%402026-07-15_1784106890/Antigravity-2.3.0-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Antigravity-AppImage/releases/download/2.5.0%402026-08-03_1785799678/Antigravity-2.5.0-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of Google Antigravity"
   },
   {
@@ -772,7 +772,7 @@
     "site": "pkgforge-dev/antigravity-ide-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/antigravity-ide",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/antigravity-ide",
-    "version_raw": "https://github.com/pkgforge-dev/Antigravity-IDE-AppImage/releases/download/2.1.1%402026-07-15_1784107487/Antigravity_IDE-2.1.1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Antigravity-IDE-AppImage/releases/download/2.1.1%402026-08-03_1785800387/Antigravity_IDE-2.1.1-anylinux-x86_64.AppImage",
     "description": "Unofficial AppImage of Google Antigravity IDE"
   },
   {
@@ -1332,7 +1332,7 @@
     "site": "atuinsh/atuin",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/atuin",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/atuin",
-    "version_raw": "https://github.com/atuinsh/atuin/releases/download/v18.19.0-beta.3/atuin-server-x86_64-unknown-linux-musl.tar.gz",
+    "version_raw": "https://github.com/atuinsh/atuin/releases/download/v18.19.0/atuin-server-x86_64-unknown-linux-musl.tar.gz",
     "description": "Magical shell history"
   },
   {
@@ -8116,7 +8116,7 @@
     "site": "gdl-org/builds",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gallery-dl-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gallery-dl-nightly",
-    "version_raw": "https://github.com/gdl-org/builds/releases/download/2026.08.03/gallery-dl_linux",
+    "version_raw": "https://github.com/gdl-org/builds/releases/download/2026.08.04/gallery-dl_linux",
     "description": "Command-line program to download image galleries and collections from several image hosting sites, nightly build"
   },
   {
@@ -8360,6 +8360,14 @@
     "description": "Command line downloader for the Gemini protocol"
   },
   {
+    "pkg": "gemini-cli-desktop",
+    "site": "piebald-ai/gemini-cli-desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gemini-cli-desktop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gemini-cli-desktop",
+    "version_raw": "https://github.com/Piebald-AI/gemini-cli-desktop/releases/download/v0.3.15/GeminiCLIDesktop_0.3.15_amd64.AppImage",
+    "description": "Web desktop UI for Gemini CLI Qwen Code. Manage projects, switch between tools, search across past conversations, and manage MCP servers, all from one multilingual interface, locally or remotely"
+  },
+  {
     "pkg": "gemrb",
     "site": "https://sourceforge.net/p/gemrb",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gemrb",
@@ -8524,7 +8532,7 @@
     "site": "pkgforge-dev/ghostty-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ghostty-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ghostty-nightly",
-    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.2-main-%2Bd351d9c-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.3.2-main-%2Bf124c42-x86_64.AppImage",
     "description": "Unofficial, 👻 ⚙️ AppImage for Ghostty Terminal Emulator (Tip, Nightly)"
   },
   {
@@ -9140,7 +9148,7 @@
     "site": "benjamimgois/goverlay",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/goverlay",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/goverlay",
-    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-bb19946cc-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-be8947d1b-anylinux-x86_64.AppImage",
     "description": "An opensource project that aims to create a Graphical UI to help manage Linux overlays"
   },
   {
@@ -12388,7 +12396,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.14-canary.9/LobeHub-2.2.14-canary.9.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.14-canary.16/LobeHub-2.2.14-canary.16.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -13316,7 +13324,7 @@
     "site": "nonbili/meron",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/meron",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/meron",
-    "version_raw": "https://github.com/nonbili/meron/releases/download/v0.2.3/meron-linux-amd64.AppImage",
+    "version_raw": "https://github.com/nonbili/meron/releases/download/v0.2.4/meron-linux-amd64.AppImage",
     "description": "Mail app that sparks joy. Fast/secure email client with chat and kanban view"
   },
   {
@@ -15644,7 +15652,7 @@
     "site": "anomalyco/opencode",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/opencode",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/opencode",
-    "version_raw": "https://github.com/anomalyco/opencode/releases/download/v1.18.11/opencode-linux-x64.tar.gz",
+    "version_raw": "https://github.com/anomalyco/opencode/releases/download/v1.18.12/opencode-linux-x64.tar.gz",
     "description": "The open source coding agent"
   },
   {
@@ -15660,7 +15668,7 @@
     "site": "anomalyco/opencode",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/opencode-desktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/opencode-desktop",
-    "version_raw": "https://github.com/anomalyco/opencode/releases/download/v1.18.11/opencode-desktop-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/anomalyco/opencode/releases/download/v1.18.12/opencode-desktop-linux-x86_64.AppImage",
     "description": "Desktop application for opencode, the open source coding agent"
   },
   {
@@ -16404,7 +16412,7 @@
     "site": "Scille/parsec-cloud",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/parsec",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/parsec",
-    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.9.4-a.0.dev.20666%2B7aa0f5a_linux_x86_64.unsigned.AppImage",
+    "version_raw": "https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.9.4-a.0.dev.20668%2B9706db0_linux_x86_64.unsigned.AppImage",
     "description": "Open source Dropbox-like file sharing with full client encryption"
   },
   {
@@ -17764,7 +17772,7 @@
     "site": "https://printventory.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/printventory",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/printventory",
-    "version_raw": "https://printventory.techjeeper.com/printventory-2.1.17.AppImage",
+    "version_raw": "https://printventory.techjeeper.com/printventory-2.1.19.AppImage",
     "description": "The ultimate tool for managing your 3D printing collection with ease. Sort, tag, and track your models in one place"
   },
   {
@@ -19052,7 +19060,7 @@
     "site": "https://www.remnote.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/remnote",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/remnote",
-    "version_raw": "https://download2.remnote.io/remnote-desktop2/RemNote-1.27.16.AppImage",
+    "version_raw": "https://download2.remnote.io/remnote-desktop2/RemNote-1.27.19.AppImage",
     "description": "Make flashcards in your notes. Cut study time in half. Use evidence-based memory techniques to create flashcards that resurface at the best time for retention"
   },
   {
@@ -19164,7 +19172,7 @@
     "site": "retrovibed/retrovibed",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/retrovibed",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/retrovibed",
-    "version_raw": "https://github.com/retrovibed/retrovibed/releases/download/r2026.8.31785772861/retrovibed.linux.amd64.AppImage",
+    "version_raw": "https://github.com/retrovibed/retrovibed/releases/download/r2026.8.31785802007/retrovibed.linux.amd64.AppImage",
     "description": "Personal Digital Archive and Media Player with at cost cloud storage backend"
   },
   {
@@ -19468,7 +19476,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-228d04195d242f740f8ee2349a2f52986651f207/rpcs3-v0.0.42-19693-228d0419_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-4214dff35ef923232372e21e5d5bc55c54c79a6e/rpcs3-v0.0.42-19694-4214dff3_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -22364,7 +22372,7 @@
     "site": "pingdotgg/t3code",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/t3code",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/t3code",
-    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.32-nightly.20260803.992/T3-Code-0.0.32-nightly.20260803.992-x86_64.AppImage",
+    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.32-nightly.20260804.993/T3-Code-0.0.32-nightly.20260804.993-x86_64.AppImage",
     "description": "T3 Code is a minimal web GUI for coding agents (currently Codex and Claude, more coming soon)"
   },
   {
@@ -24884,7 +24892,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "12724732211",
+    "version_raw": "12731783255",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
