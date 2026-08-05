@@ -420,7 +420,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.934/alma-0.0.934-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.937/alma-0.0.937-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -548,7 +548,7 @@
     "site": "chrisdkn/amethyst-mod-manager",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/amethyst-mod-manager",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/amethyst-mod-manager",
-    "version_raw": "https://github.com/ChrisDKN/Amethyst-Mod-Manager/releases/download/v2.0.5/AmethystModManager-2.0.5-x86_64.AppImage",
+    "version_raw": "https://github.com/ChrisDKN/Amethyst-Mod-Manager/releases/download/v2.1.0/AmethystModManager-2.1.0-x86_64.AppImage",
     "description": "A Linux native mod manager for a variety of games"
   },
   {
@@ -1332,7 +1332,7 @@
     "site": "atuinsh/atuin",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/atuin",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/atuin",
-    "version_raw": "https://github.com/atuinsh/atuin/releases/download/v18.20.0-beta.1/atuin-server-x86_64-unknown-linux-musl.tar.gz",
+    "version_raw": "https://github.com/atuinsh/atuin/releases/download/v18.20.0-beta.2/atuin-server-x86_64-unknown-linux-musl.tar.gz",
     "description": "Magical shell history"
   },
   {
@@ -1820,7 +1820,7 @@
     "site": "Dygmalab/Bazecor",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bazecor",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/bazecor",
-    "version_raw": "https://github.com/Dygmalab/Bazecor/releases/download/v1.9.2/Bazecor-1.9.2-x64.AppImage",
+    "version_raw": "https://github.com/Dygmalab/Bazecor/releases/download/v1.10.0/Bazecor-1.10.0-x64.AppImage",
     "description": "Graphical configurator for Dygma Raise"
   },
   {
@@ -6980,7 +6980,7 @@
     "site": "faugus/faugus-launcher",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/faugus-launcher",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/faugus-launcher",
-    "version_raw": "https://github.com/Faugus/faugus-launcher/releases/download/2.0.5/Faugus-2.0.5-1-x86_64.AppImage",
+    "version_raw": "https://github.com/Faugus/faugus-launcher/releases/download/2.0.6/Faugus-2.0.6-1-x86_64.AppImage",
     "description": "A simple and lightweight app for running Windows games using UMU-Launcher"
   },
   {
@@ -9204,7 +9204,7 @@
     "site": "saturneric/GpgFrontend",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gpgfrontend",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gpgfrontend",
-    "version_raw": "https://github.com/saturneric/GpgFrontend/releases/download/nightly/Gpg_Frontend-3a99a3b-x86_64.AppImage",
+    "version_raw": "https://github.com/saturneric/GpgFrontend/releases/download/nightly/GpgFrontend-a65743e-ubuntu-22.04-x86_64-installed.AppImage",
     "description": "A Cross-Platform OpenPGP Frontend Software"
   },
   {
@@ -9644,7 +9644,7 @@
     "site": "sethcottle/hangar",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hangar",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/hangar",
-    "version_raw": "https://github.com/sethcottle/hangar/releases/download/v0.8.0/Hangar-x86_64.AppImage",
+    "version_raw": "https://github.com/sethcottle/hangar/releases/download/v0.8.1/Hangar-x86_64.AppImage",
     "description": "A native Bluesky client for Linux, built with Rust, GTK4, and Libadwaita"
   },
   {
@@ -10446,14 +10446,6 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/insomnia",
     "version_raw": "https://github.com/Kong/insomnia/releases/download/core%4013.1.0/Insomnia.Core-13.1.0.AppImage",
     "description": "API client for GraphQL, REST, WebSockets and gRPC"
-  },
-  {
-    "pkg": "insomnium",
-    "site": "ArchGPT/insomnium",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/insomnium",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/insomnium",
-    "version_raw": "",
-    "description": "A local API testing tool privacy-focused, fork of Kong/insomnia"
   },
   {
     "pkg": "install",
@@ -12396,7 +12388,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.14-canary.28/LobeHub-2.2.14-canary.28.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.14-canary.29/LobeHub-2.2.14-canary.29.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -18620,7 +18612,7 @@
     "site": "TryQuiet/quiet",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/quiet",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/quiet",
-    "version_raw": "https://github.com/TryQuiet/quiet/releases/download/%40quiet/desktop%409.0.0-alpha.5/Quiet-9.0.0-alpha.5.AppImage",
+    "version_raw": "https://github.com/TryQuiet/quiet/releases/download/%40quiet/desktop%409.0.0-alpha.7/Quiet-9.0.0-alpha.7.AppImage",
     "description": "A private, p2p alternative to Slack and Discord built on Tor & IPFS"
   },
   {
@@ -23092,7 +23084,7 @@
     "site": "https://www.todesktop.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/todesktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/todesktop",
-    "version_raw": "todesktop-desktop-app-0.37.0-x86_64.AppImage",
+    "version_raw": "todesktop-desktop-app-0.38.0-x86_64.AppImage",
     "description": "Take your web app codebase and transform it into a cross platform desktop app with native functionality"
   },
   {
@@ -23772,7 +23764,7 @@
     "site": "ungoogled-software/ungoogled-chromium-portablelinux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ungoogled-chromium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ungoogled-chromium",
-    "version_raw": "https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/150.0.7871.186-1/ungoogled-chromium-150.0.7871.186-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/151.0.7922.71-1/ungoogled-chromium-151.0.7922.71-1-x86_64.AppImage",
     "description": "Chromium Web Browser without Google services"
   },
   {
@@ -24908,7 +24900,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "12825208244",
+    "version_raw": "12833724669",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -26140,7 +26132,7 @@
     "site": "Venipa/ytmdesktop2",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ytmdesktop2",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ytmdesktop2",
-    "version_raw": "https://github.com/Venipa/ytmdesktop2/releases/download/v1.0.1/YouTube-Music-for-Desktop-1.0.1.AppImage",
+    "version_raw": "https://github.com/Venipa/ytmdesktop2/releases/download/v1.0.2/YouTube-Music-for-Desktop-1.0.2.AppImage",
     "description": "Unofficial Youtube Music Desktop App, with LastFM support"
   },
   {
@@ -26228,7 +26220,7 @@
     "site": "zed-industries/zed",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zed",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zed",
-    "version_raw": "https://github.com/zed-industries/zed/releases/download/v1.13.2/zed-linux-x86_64.tar.gz",
+    "version_raw": "https://github.com/zed-industries/zed/releases/download/v1.14.2/zed-linux-x86_64.tar.gz",
     "description": "High-performance, multiplayer code editor from the creators of Atom"
   },
   {
