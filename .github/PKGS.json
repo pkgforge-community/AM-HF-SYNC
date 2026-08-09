@@ -7732,7 +7732,7 @@
     "site": "https://fluxer.app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fluxer",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fluxer",
-    "version_raw": "fluxer-stable-0.0.8-x86_64.AppImage",
+    "version_raw": "",
     "description": "A free and open source instant messaging and VoIP platform built for friends, groups, and communities"
   },
   {
@@ -21406,5 +21406,109 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sonic-mania-decompilation",
     "version_raw": "https://github.com/pkgforge-dev/Sonic-Mania-Decompilation-AppImage/releases/download/r1243.9dc69942-1%402026-08-01_1785586172/Sonic_Mania-r1243.9dc69942-1-anylinux-x86_64.AppImage",
     "description": "Unofficial, a complete decompilation of Sonic Mania (2017)"
+  },
+  {
+    "pkg": "sonicvisualiser",
+    "site": "sonic-visualiser/sonic-visualiser",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sonicvisualiser",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sonicvisualiser",
+    "version_raw": "https://github.com/sonic-visualiser/sonic-visualiser/releases/download/sv_v5.2.1/SonicVisualiser-5.2.1-x86_64.AppImage",
+    "description": "Viewing and analysing the contents of music audio files"
+  },
+  {
+    "pkg": "sonixd",
+    "site": "jeffvli/sonixd",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sonixd",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sonixd",
+    "version_raw": "https://github.com/jeffvli/sonixd/releases/download/v0.15.5/Sonixd-0.15.5-linux-x86_64.AppImage",
+    "description": "A full-featured Subsonic/Jellyfin compatible desktop music player"
+  },
+  {
+    "pkg": "sonos-controller",
+    "site": "pascalopitz/unoffical-sonos-controller-for-linux",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sonos-controller",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sonos-controller",
+    "version_raw": "https://github.com/pascalopitz/unoffical-sonos-controller-for-linux/releases/download/v0.4.0-rc1/sonos-controller-unofficial-0.4.0-rc1.AppImage",
+    "description": "An Electron based linux app for controlling your sonos system"
+  },
+  {
+    "pkg": "sonusmix",
+    "site": "sonusmix/sonusmix",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sonusmix",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sonusmix",
+    "version_raw": "https://codeberg.org/sonusmix/sonusmix/releases/download/v0.1.1/org.sonusmix.Sonusmix-0.1.1.AppImage",
+    "description": "Next-gen Pipewire audio routing tool"
+  },
+  {
+    "pkg": "sort",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sort",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sort",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
+    "description": "Sort lines of text files. This is part of am-utils suite"
+  },
+  {
+    "pkg": "soul-arena",
+    "site": "https://soul.arena-game.app",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/soul-arena",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/soul-arena",
+    "version_raw": "https://arena-game.app/releases/Arena-Games_Lin64.zip",
+    "description": "Bleach-based online multiplayer strategy game"
+  },
+  {
+    "pkg": "sound-space-plus",
+    "site": "pkgforge-dev/sound-space-plus-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sound-space-plus",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sound-space-plus",
+    "version_raw": "https://github.com/pkgforge-dev/sound-space-plus-AppImage/releases/download/jun21-2026%402026-07-05_1783214518/Sound_Space_Plus-jun21-2026-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of sound-space-plus, Rhythm-based aim game"
+  },
+  {
+    "pkg": "soundcloud-rpc",
+    "site": "richardhbtz/soundcloud-rpc",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/soundcloud-rpc",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/soundcloud-rpc",
+    "version_raw": "https://github.com/richardhbtz/soundcloud-rpc/releases/download/v0.1.9/soundcloud-0.1.9-installer-linux.AppImage",
+    "description": "A SoundCloud client with Discord Rich Presence and AdBlock"
+  },
+  {
+    "pkg": "sourcetrail",
+    "site": "CoatiSoftware/Sourcetrail",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sourcetrail",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sourcetrail",
+    "version_raw": "https://github.com/CoatiSoftware/Sourcetrail/releases/download/2021.4.19/Sourcetrail_2021_4_19_Linux_64bit.AppImage",
+    "description": "Source explorer to get you productive on unfamiliar source code"
+  },
+  {
+    "pkg": "sozi",
+    "site": "sozi-projects/Sozi",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sozi",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sozi",
+    "version_raw": "https://github.com/sozi-projects/Sozi/releases/download/v24.11-beta/Sozi-24.11.17-1731875579.AppImage",
+    "description": "A zooming presentation editor"
+  },
+  {
+    "pkg": "spacebar",
+    "site": "spacebarchat/client",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/spacebar",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/spacebar",
+    "version_raw": "https://github.com/spacebarchat/client/releases/download/client-dev-v0.1.1/spacebar_0.1.1%2B72968360811_amd64.AppImage",
+    "description": "Themeable and extendable discord-compatible native Spacebar client"
+  },
+  {
+    "pkg": "spacebar-debug",
+    "site": "spacebarchat/client",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/spacebar-debug",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/spacebar-debug",
+    "version_raw": "https://github.com/spacebarchat/client/releases/download/client-dev-v0.1.1/spacebar_0.1.1%2B72968360811_amd64-debug.AppImage",
+    "description": "Extendable discord-compatible native Spacebar client, debug"
+  },
+  {
+    "pkg": "spacecadet",
+    "site": "ivan-hc/Spacecadetpinball-git-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/spacecadet",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/spacecadet",
+    "version_raw": "https://github.com/ivan-hc/Spacecadetpinball-git-appimage/releases/download/continuous/SpaceCadetPinball_2.1.0.r6.gcb9b7b8-1-archimage5.0-x86_64.AppImage",
+    "description": "Unofficial. Reverse engineered port of 3D Pinball for Windows XP Space Cadet"
   }
 ]
