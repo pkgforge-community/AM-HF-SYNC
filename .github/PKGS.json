@@ -436,7 +436,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.958/alma-0.0.958-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.959/alma-0.0.959-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -3892,7 +3892,7 @@
     "site": "https://code.visualstudio.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/code",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/code",
-    "version_raw": "https://github.com/microsoft/vscode/releases/tag/1.132.1",
+    "version_raw": "https://github.com/microsoft/vscode/releases/tag/1.133.0",
     "description": "Visual Studio, VSCode, Original Editor to build/debug web/cloud apps"
   },
   {
@@ -5628,7 +5628,7 @@
     "site": "pkgforge-dev/Dolphin-emu-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dolphin-emu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dolphin-emu",
-    "version_raw": "https://github.com/pkgforge-dev/Dolphin-emu-AppImage/releases/download/2606%402026-08-01_1785586331/Dolphin_Emulator-2606-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Dolphin-emu-AppImage/releases/download/2606a%402026-08-12_1786531535/Dolphin_Emulator-2606a-anylinux-x86_64.AppImage",
     "description": "Unofficial, GameCube/Nintento Wii emulator with improvements"
   },
   {
@@ -6094,6 +6094,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eaglemode",
     "version_raw": "https://github.com/probonopd/eaglemode/releases/download/continuous/Eagle_Mode-ba297f6-x86_64.AppImage",
     "description": "Zoomable user interface with plugin applications"
+  },
+  {
+    "pkg": "easier-pixel-dungeon",
+    "site": "kazam0180/easier-pixel-dungeon",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/easier-pixel-dungeon",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/easier-pixel-dungeon",
+    "version_raw": "https://github.com/kazam0180/easier-pixel-dungeon/releases/download/3.3.8%402026.08.12/Easier_Pixel_Dungeon-3.3.8-anylinux-x86_64.AppImage",
+    "description": "No Description Provided"
   },
   {
     "pkg": "easytag",
@@ -7708,7 +7716,7 @@
     "site": "zerx-lab/FluxDown",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fluxdown",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fluxdown",
-    "version_raw": "https://github.com/zerx-lab/FluxDown/releases/download/v0.4.1/FluxDown-0.4.1-linux-x64.AppImage",
+    "version_raw": "https://github.com/zerx-lab/FluxDown/releases/download/v0.4.2/FluxDown-0.4.2-linux-x64.AppImage",
     "description": "Rust based blazing fast download manager with support for HTTP/FTP/BitTorrent magnetic links and HLS/DASH streaming, intelligent multithreading acceleration and seamless integration with the browser"
   },
   {
@@ -12308,7 +12316,7 @@
     "site": "LibreCAD/LibreCAD",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/librecad",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/librecad",
-    "version_raw": "https://github.com/LibreCAD/LibreCAD/releases/download/2.2.1-latest/LibreCAD-v2.2.1.5-29-g5a8276b2e-x86_64.AppImage",
+    "version_raw": "https://github.com/LibreCAD/LibreCAD/releases/download/2.2.2_alpha-latest/LibreCAD-2.2.2_alpha1-616-g71713e5ae.AppImage",
     "description": "2D CAD program written in C++11 using the Qt framework"
   },
   {
@@ -12628,7 +12636,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.14-canary.74/LobeHub-2.2.14-canary.74.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.14-canary.75/LobeHub-2.2.14-canary.75.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -13788,7 +13796,7 @@
     "site": "MiniZinc/MiniZincIDE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/minizinc-ide",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/minizinc-ide",
-    "version_raw": "https://github.com/MiniZinc/MiniZincIDE/releases/download/edge/MiniZincIDE-build2752867724-x86_64.AppImage",
+    "version_raw": "https://github.com/MiniZinc/MiniZincIDE/releases/download/edge/MiniZincIDE-build2753704976-x86_64.AppImage",
     "description": "A free and open-source constraint modeling language"
   },
   {
@@ -20844,7 +20852,7 @@
     "site": "wimpysworld/sidra",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sidra",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sidra",
-    "version_raw": "https://github.com/wimpysworld/sidra/releases/download/0.4.0/Sidra-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/wimpysworld/sidra/releases/download/0.4.1/Sidra-linux-x86_64.AppImage",
     "description": "An elegant Apple Music desktop client for Linux, macOS and Windows"
   },
   {
@@ -25340,7 +25348,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "13155801889",
+    "version_raw": "13157672559",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
