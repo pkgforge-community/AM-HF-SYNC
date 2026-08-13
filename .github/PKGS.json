@@ -3100,7 +3100,7 @@
     "site": "cashonize/cashonize-wallet",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cashonize",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cashonize",
-    "version_raw": "https://github.com/cashonize/cashonize-wallet/releases/download/v0.11.0/Cashonize-0.11.0.AppImage",
+    "version_raw": "https://github.com/cashonize/cashonize-wallet/releases/download/v0.12.0/Cashonize-0.12.0.AppImage",
     "description": "Cashonize: A cross-platform Bitcoin Cash Wallet"
   },
   {
@@ -4188,7 +4188,7 @@
     "site": "https://gitlab.com/coolercontrol",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/coolercontrold",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/coolercontrold",
-    "version_raw": "https://gitlab.com/coolercontrol/coolercontrol/-/releases/4.3.1/downloads/packages/CoolerControlD-x86_64.AppImage",
+    "version_raw": "",
     "description": "Daemon for coolercontrol, to monitor your cooling devices"
   },
   {
@@ -5628,7 +5628,7 @@
     "site": "pkgforge-dev/Dolphin-emu-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dolphin-emu",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dolphin-emu",
-    "version_raw": "https://github.com/pkgforge-dev/Dolphin-emu-AppImage/releases/download/2606a%402026-08-12_1786531535/Dolphin_Emulator-2606a-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Dolphin-emu-AppImage/releases/download/2606a%402026-08-13_1786625544/Dolphin_Emulator-2606a-anylinux-x86_64.AppImage",
     "description": "Unofficial, GameCube/Nintento Wii emulator with improvements"
   },
   {
@@ -10204,7 +10204,7 @@
     "site": "httptoolkit/httptoolkit-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/httptoolkit",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/httptoolkit",
-    "version_raw": "https://github.com/httptoolkit/httptoolkit-desktop/releases/download/v1.27.0/HttpToolkit-1.27.0-x64.AppImage",
+    "version_raw": "https://github.com/httptoolkit/httptoolkit-desktop/releases/download/v1.27.1/HttpToolkit-1.27.1-x64.AppImage",
     "description": "HTTP Toolkit is an open-source tool for debugging, testing and building with HTTP"
   },
   {
@@ -10484,7 +10484,7 @@
     "site": "imfile-io/imfile-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/imfile",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/imfile",
-    "version_raw": "https://github.com/imfile-io/imfile-desktop/releases/download/v2.3.3/imFile-2.3.3.AppImage",
+    "version_raw": "https://github.com/imfile-io/imfile-desktop/releases/download/v2.3.4/imFile-2.3.4.AppImage",
     "description": "A full-featured download manager"
   },
   {
@@ -12636,7 +12636,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.14-canary.82/LobeHub-2.2.14-canary.82.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.14-canary.83/LobeHub-2.2.14-canary.83.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -13572,7 +13572,7 @@
     "site": "nonbili/meron",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/meron",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/meron",
-    "version_raw": "https://github.com/nonbili/meron/releases/download/v0.2.10/meron-linux-amd64.AppImage",
+    "version_raw": "https://github.com/nonbili/meron/releases/download/v0.2.11/meron-linux-amd64.AppImage",
     "description": "Mail app that sparks joy. Fast/secure email client with chat and kanban view"
   },
   {
@@ -15332,7 +15332,7 @@
     "site": "nunchuk-io/nunchuk-desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nunchuk",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nunchuk",
-    "version_raw": "https://github.com/nunchuk-io/nunchuk-desktop/releases/download/2.6.4/nunchuk-linux-v2.6.4.zip",
+    "version_raw": "https://github.com/nunchuk-io/nunchuk-desktop/releases/download/2.6.5/nunchuk-linux-v2.6.5.zip",
     "description": "Desktop bitcoin wallet with multisig, hardware, nfc and air-gapped key support"
   },
   {
@@ -16582,6 +16582,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/palemoon-legacy",
     "version_raw": "https://github.com/ivan-hc/PaleMoon-appimage/releases/download/continuous/PaleMoon-gtk2-34.3.2-x86_64.AppImage",
     "description": "Unofficial. Pale Moon is a fully-independent web browser built on its own maintained platform and rendering engine (Goanna), focusing on user customization. This is the GTK2 implementation"
+  },
+  {
+    "pkg": "panconvert",
+    "site": "apaeffgen/PanConvert",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/panconvert",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/panconvert",
+    "version_raw": "https://github.com/apaeffgen/PanConvert/releases/download/v0.3.2/PanConvert-0.3.2-linux-x86_64.AppImage",
+    "description": "GUI Wrapper for Pandoc"
   },
   {
     "pkg": "pandoralauncher",
@@ -19844,7 +19852,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-41e2d101e72d2c7bd24f584b4c23de1d2081928a/rpcs3-v0.0.42-19741-41e2d101_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-c41595e79fddac7e888687c0f12813e1b1c284af/rpcs3-v0.0.42-19743-c41595e7_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -21028,7 +21036,7 @@
     "site": "simplex-chat/simplex-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/simplex-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/simplex-chat",
-    "version_raw": "https://github.com/simplex-chat/simplex-chat/releases/download/v7.0.0/simplex-desktop-x86_64.AppImage",
+    "version_raw": "https://github.com/simplex-chat/simplex-chat/releases/download/v7.1.0-beta.0/simplex-desktop-x86_64.AppImage",
     "description": "First messaging platform operating without user identifiers"
   },
   {
@@ -22412,7 +22420,7 @@
     "site": "superbacked/superbacked",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/superbacked",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/superbacked",
-    "version_raw": "https://github.com/superbacked/superbacked/releases/download/v2.0.0-beta.8/superbacked-x64-2.0.0-beta.8.AppImage",
+    "version_raw": "https://github.com/superbacked/superbacked/releases/download/v2.0.0-beta.9/superbacked-x64-2.0.0-beta.9.AppImage",
     "description": "Don’t lose your secrets. A secret management platform used to back up and pass on sensitive data from one generation to the next"
   },
   {
@@ -22796,7 +22804,7 @@
     "site": "pingdotgg/t3code",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/t3code",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/t3code",
-    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.34-nightly.20260813.1084/T3-Code-0.0.34-nightly.20260813.1084-x86_64.AppImage",
+    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.34-nightly.20260813.1085/T3-Code-0.0.34-nightly.20260813.1085-x86_64.AppImage",
     "description": "T3 Code is a minimal web GUI for coding agents (currently Codex and Claude, more coming soon)"
   },
   {
@@ -23316,7 +23324,7 @@
     "site": "edrlab/thorium-reader",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/thorium-reader",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/thorium-reader",
-    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.5.0-beta.1.31613774419-x86_64.AppImage",
+    "version_raw": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.5.0-rc.1.31693803158-x86_64.AppImage",
     "description": "Desktop application to read ebooks"
   },
   {
@@ -24188,7 +24196,7 @@
     "site": "ungoogled-software/ungoogled-chromium-portablelinux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ungoogled-chromium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ungoogled-chromium",
-    "version_raw": "https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/151.0.7922.108-1/ungoogled-chromium-151.0.7922.108-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/151.0.7922.137-1/ungoogled-chromium-151.0.7922.137-1-x86_64.AppImage",
     "description": "Chromium Web Browser without Google services"
   },
   {
@@ -25364,7 +25372,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "13222380690",
+    "version_raw": "13224017283",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -26684,7 +26692,7 @@
     "site": "rafatosta/zapzap",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zapzap",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zapzap",
-    "version_raw": "https://github.com/rafatosta/zapzap/releases/download/7.4.1-rc.1/ZapZap-7.4.1-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/rafatosta/zapzap/releases/download/7.4.1-rc.2/ZapZap-7.4.1-linux-x86_64.AppImage",
     "description": "WhatsApp desktop application written in Pyqt6 + PyQt6-WebEngine"
   },
   {
