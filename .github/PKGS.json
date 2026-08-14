@@ -9740,7 +9740,7 @@
     "site": "vim/vim-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gvim",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gvim",
-    "version_raw": "https://github.com/vim/vim-appimage/releases/download/v9.2.0954/GVim-v9.2.0954.glibc2.34-x86_64.AppImage",
+    "version_raw": "https://github.com/vim/vim-appimage/releases/download/v9.2.0957/GVim-v9.2.0957.glibc2.34-x86_64.AppImage",
     "description": "Edit text files"
   },
   {
@@ -12644,7 +12644,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.14-canary.87/LobeHub-2.2.14-canary.87.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.14-canary.88/LobeHub-2.2.14-canary.88.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -20654,5 +20654,317 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sfrt-attendance",
     "version_raw": "https://github.com/Saint-Francis-Robotics-Team2367/Attendance/releases/download/v2.0.3/SFRT_Attendance-1c900dc-x86_64.AppImage",
     "description": "The attendance tracking program for robotics"
+  },
+  {
+    "pkg": "sh",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sh",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sh",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
+    "description": "GNU Bourne-Again Shell, the de facto standard shell on Linux. This is part of am-utils suite"
+  },
+  {
+    "pkg": "sha1sum",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sha1sum",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sha1sum",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
+    "description": "Compute and check SHA1 message digest. This is part of am-utils suite"
+  },
+  {
+    "pkg": "sha224sum",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sha224sum",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sha224sum",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
+    "description": "Check SHA224 message digest. This is part of am-utils suite"
+  },
+  {
+    "pkg": "sha256sum",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sha256sum",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sha256sum",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
+    "description": "Compute and check SHA256 message digest. This is part of am-utils suite"
+  },
+  {
+    "pkg": "sha384sum",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sha384sum",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sha384sum",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
+    "description": "Check SHA384 message digest. This is part of am-utils suite"
+  },
+  {
+    "pkg": "sha512sum",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sha512sum",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sha512sum",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
+    "description": "Compute and check SHA512 message digest. This is part of am-utils suite"
+  },
+  {
+    "pkg": "shadow-tech",
+    "site": "https://shadow.tech",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadow-tech",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadow-tech",
+    "version_raw": "9.9.10175",
+    "description": "Shadow.tech, cloud computing service"
+  },
+  {
+    "pkg": "shadowsocks",
+    "site": "shadowsocks/shadowsocks-qt5",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadowsocks",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadowsocks",
+    "version_raw": "https://github.com/shadowsocks/shadowsocks-qt5/releases/download/v3.0.1/Shadowsocks-Qt5-3.0.1-x86_64.AppImage",
+    "description": "Shadowsocks GUI client"
+  },
+  {
+    "pkg": "shadps4",
+    "site": "shadps4-emu/shadPS4",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4",
+    "version_raw": "https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2026-08-13-28c84fb5a7b19c7fb86156a1d6bb3e7e5a6cef64/shadps4-linux-sdl-2026-08-13-28c84fb.zip",
+    "description": "An early PlayStation 4 emulator written in C++"
+  },
+  {
+    "pkg": "shadps4-qtlauncher",
+    "site": "shadps4-emu/shadps4-qtlauncher",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shadps4-qtlauncher",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shadps4-qtlauncher",
+    "version_raw": "https://github.com/shadps4-emu/shadps4-qtlauncher/releases/download/shadPS4QtLauncher-2026-08-08-a12b988ef35d98f2222a614c05498b27fef87121/shadPS4QtLauncher-linux-qt-2026-08-08-a12b988.zip",
+    "description": "The official Qt launcher for shadps4 PlayStation 4 emulator"
+  },
+  {
+    "pkg": "shannon-calculator",
+    "site": "kuiperzone/Shannon-Calculator",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shannon-calculator",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shannon-calculator",
+    "version_raw": "https://github.com/kuiperzone/Shannon-Calculator/releases/download/v1.1.0/ShannonCalculator.x86_64.AppImage",
+    "description": "Self-information content of a message text"
+  },
+  {
+    "pkg": "sharemyhost",
+    "site": "antony-jr/ShareMyHost",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sharemyhost",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sharemyhost",
+    "version_raw": "https://github.com/antony-jr/ShareMyHost/releases/download/continuous/ShareMyHost-a0fb13b-x86_64.AppImage",
+    "description": "One click to share your files in your local network"
+  },
+  {
+    "pkg": "sharp-tune",
+    "site": "MD-AZMAL/Sharp-Tune",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sharp-tune",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sharp-tune",
+    "version_raw": "https://github.com/MD-AZMAL/Sharp-Tune/releases/download/v1.0.3/sharp-tune-1.0.3-x86_64.AppImage",
+    "description": "Music player build upon the node using the electron"
+  },
+  {
+    "pkg": "sheepshaver",
+    "site": "Korkman/macemu-appimage-builder",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sheepshaver",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sheepshaver",
+    "version_raw": "https://github.com/Korkman/macemu-appimage-builder/releases/download/2026-08-11/SheepShaver-x86_64.AppImage",
+    "description": "Classic Macintosh emulator SheepShaver"
+  },
+  {
+    "pkg": "sheikah",
+    "site": "witnet/sheikah",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sheikah",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sheikah",
+    "version_raw": "https://github.com/witnet/sheikah/releases/download/v2.0.0/Sheikah-Witnet-wallet-2.0.0.AppImage",
+    "description": "A Witnet compatible desktop wallet"
+  },
+  {
+    "pkg": "shellcheck",
+    "site": "koalaman/shellcheck",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shellcheck",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shellcheck",
+    "version_raw": "https://github.com/koalaman/shellcheck/releases/download/v0.11.0/shellcheck-v0.11.0.linux.x86_64.tar.xz",
+    "description": "ShellCheck, a static analysis tool for shell scripts"
+  },
+  {
+    "pkg": "shellharden",
+    "site": "anordal/shellharden",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shellharden",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shellharden",
+    "version_raw": "https://github.com/anordal/shellharden/releases/download/v4.3.2/shellharden-x86_64-unknown-linux-gnu.tar.gz",
+    "description": "The corrective bash syntax highlighter"
+  },
+  {
+    "pkg": "shockolate",
+    "site": "pkgforge-dev/shockolate-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shockolate",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shockolate",
+    "version_raw": "https://github.com/pkgforge-dev/Shockolate-AppImage/releases/download/4cc3d07df%402026-08-01_1785586121/Shockolate-4cc3d07df-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of Shockolate"
+  },
+  {
+    "pkg": "shoopdaloop",
+    "site": "SanderVocke/shoopdaloop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shoopdaloop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shoopdaloop",
+    "version_raw": "https://github.com/SanderVocke/shoopdaloop/releases/download/v0.2.0/shoopdaloop-0.2.0.release-linux-x64.AppImage",
+    "description": "A (live) looping application with DAW elements"
+  },
+  {
+    "pkg": "shotcut",
+    "site": "mltframework/shotcut",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shotcut",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shotcut",
+    "version_raw": "https://github.com/mltframework/shotcut/releases/download/v26.8.1/shotcut-linux-x86_64-26.8.1.AppImage",
+    "description": "A powerful Video Editor"
+  },
+  {
+    "pkg": "shotwell",
+    "site": "pkgforge-dev/Shotwell-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shotwell",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shotwell",
+    "version_raw": "https://github.com/pkgforge-dev/Shotwell-AppImage/releases/download/0.32.17-1%402026-08-01_1785585455/Shotwell-0.32.17-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, a digital photo organizer designed for the GNOME desktop environment"
+  },
+  {
+    "pkg": "shradiko",
+    "site": "universe-software/shradiko",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shradiko",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shradiko",
+    "version_raw": "https://github.com/universe-software/shradiko/releases/download/1.0.0/shradiko-apt",
+    "description": "Make Portable AppImages from Distro Packages"
+  },
+  {
+    "pkg": "shred",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shred",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shred",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
+    "description": "Overwrite a file to hide its contents, and optionally. This is part of am-utils suite"
+  },
+  {
+    "pkg": "shuf",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shuf",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shuf",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
+    "description": "Generate random permutations. This is part of am-utils suite"
+  },
+  {
+    "pkg": "shutter-encoder",
+    "site": "https://www.shutterencoder.com/",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shutter-encoder",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shutter-encoder",
+    "version_raw": "20.2",
+    "description": "Professional converter & compression tool designed by video editors"
+  },
+  {
+    "pkg": "shuttle",
+    "site": "ShuttleBrowser/Shuttle",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shuttle",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shuttle",
+    "version_raw": "https://github.com/ShuttleBrowser/Shuttle/releases/download/v3.1.0/Shuttle-Linux-x86_64.AppImage",
+    "description": "The fastest access to your favorite applications"
+  },
+  {
+    "pkg": "shvspy",
+    "site": "silicon-heaven/shvspy",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shvspy",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/shvspy",
+    "version_raw": "https://github.com/silicon-heaven/shvspy/releases/download/1.16.1/shvspy-qt5-1.16.1.AppImage",
+    "description": "Qt GUI tool for shvbroker administration and browsing"
+  },
+  {
+    "pkg": "sideka",
+    "site": "ghk/sideka-electron",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sideka",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sideka",
+    "version_raw": "https://github.com/ghk/sideka-electron/releases/download/v2.3.5/Sideka-2.3.5-x86_64.AppImage",
+    "description": "Platform Tata Kelola Desa"
+  },
+  {
+    "pkg": "sidenote",
+    "site": "ryot4/sidenote",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sidenote",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sidenote",
+    "version_raw": "https://github.com/ryot4/sidenote/releases/download/v0.1.11/sidenote_v0.1.11_linux_amd64.tar.gz",
+    "description": "A CLI tool that helps to manage plain text notes per working directory"
+  },
+  {
+    "pkg": "sidra",
+    "site": "wimpysworld/sidra",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sidra",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sidra",
+    "version_raw": "https://github.com/wimpysworld/sidra/releases/download/0.4.1/Sidra-linux-x86_64.AppImage",
+    "description": "An elegant Apple Music desktop client for Linux, macOS and Windows"
+  },
+  {
+    "pkg": "sigdigger",
+    "site": "BatchDrake/SigDigger",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sigdigger",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sigdigger",
+    "version_raw": "https://github.com/BatchDrake/SigDigger/releases/download/latest/SigDigger-0.3.0-x86_64-full-20250408-112743Z.AppImage",
+    "description": "Signal analyzer, using Suscan core and Sigutils DSP library"
+  },
+  {
+    "pkg": "sigil",
+    "site": "Sigil-Ebook/Sigil",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sigil",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sigil",
+    "version_raw": "https://github.com/Sigil-Ebook/Sigil/releases/download/2.8.1/Sigil-2.8.1-x86_64.AppImage",
+    "description": "Sigil is a multi-platform EPUB ebook editor"
+  },
+  {
+    "pkg": "sigma-file-manager",
+    "site": "aleksey-hoffman/sigma-file-manager",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sigma-file-manager",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sigma-file-manager",
+    "version_raw": "https://github.com/aleksey-hoffman/sigma-file-manager/releases/download/v2.2.0/Sigma-File-Manager-2.2.0-linux.AppImage",
+    "description": "A free, open-source, modern file manager"
+  },
+  {
+    "pkg": "sigmaspectra",
+    "site": "arkottke/sigmaspectra",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sigmaspectra",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sigmaspectra",
+    "version_raw": "https://github.com/arkottke/sigmaspectra/releases/download/v1.0.5/SigmaSpectra-v1.0.5-0229412-x86_64.AppImage",
+    "description": "Semi-automated selection and scaling of time series"
+  },
+  {
+    "pkg": "signal",
+    "site": "karo-solutions/Signal-Desktop-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/signal",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/signal",
+    "version_raw": "https://github.com/karo-solutions/Signal-Desktop-AppImage/releases/download/v8.22.0/Signal-v8.22.0-x86_64.AppImage",
+    "description": "Unofficial AppImage package for Signal (communication)"
+  },
+  {
+    "pkg": "silex-desktop",
+    "site": "silexlabs/silex-desktop",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/silex-desktop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/silex-desktop",
+    "version_raw": "https://github.com/silexlabs/silex-desktop/releases/download/v2.7.33/silex-desktop-2.7.33.AppImage",
+    "description": "This is the official Silex desktop version"
+  },
+  {
+    "pkg": "siliconsneaker",
+    "site": "cprevallet/siliconsneaker",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/siliconsneaker",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/siliconsneaker",
+    "version_raw": "https://github.com/cprevallet/siliconsneaker/releases/download/V1.9/SiliconSneaker-1.9-x86_64.AppImage",
+    "description": "View runs from your Garmin brand watch"
+  },
+  {
+    "pkg": "silverkey",
+    "site": "metacoma/silverkey",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/silverkey",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/silverkey",
+    "version_raw": "https://github.com/metacoma/silverkey/releases/download/beta-release/Silverkey-d95c742-x86_64.AppImage",
+    "description": "The best Qt Application Ever"
+  },
+  {
+    "pkg": "simdock",
+    "site": "onli/simdock",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/simdock",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/simdock",
+    "version_raw": "https://github.com/onli/simdock/releases/download/continuous/Simdock--x86_64.AppImage",
+    "description": "Small dock with pseudo-transparency and good window handling"
   }
 ]
