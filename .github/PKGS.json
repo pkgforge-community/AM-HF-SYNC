@@ -2300,7 +2300,7 @@
     "site": "ivan-hc/Blender-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blender-alpha",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blender-alpha",
-    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.3.0-alpha%2Bmain.bb701d8ad4e5-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.3.0-alpha%2Bmain.9e3d9f13e2f7-x86_64.AppImage",
     "description": "Very fast and versatile 3D modeller/renderer, Alpha"
   },
   {
@@ -5940,7 +5940,7 @@
     "site": "Byron/dua-cli",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dua",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dua",
-    "version_raw": "https://github.com/Byron/dua-cli/releases/download/v2.42.0/dua-v2.42.0-x86_64-unknown-linux-musl.tar.gz",
+    "version_raw": "https://github.com/Byron/dua-cli/releases/download/v2.42.1/dua-v2.42.1-x86_64-unknown-linux-musl.tar.gz",
     "description": "View disk space usage and delete unwanted data, fast"
   },
   {
@@ -13796,7 +13796,7 @@
     "site": "MiniZinc/MiniZincIDE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/minizinc-ide",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/minizinc-ide",
-    "version_raw": "https://github.com/MiniZinc/MiniZincIDE/releases/download/edge-temp/MiniZincIDE-build31803103945-x86_64-linux-gnu.AppImage",
+    "version_raw": "https://github.com/MiniZinc/MiniZincIDE/releases/download/edge-temp/MiniZincIDE-build31863913453-x86_64-linux-gnu.AppImage",
     "description": "A free and open-source constraint modeling language"
   },
   {
@@ -18182,6 +18182,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/privacy.sexy",
     "version_raw": "https://github.com/undergroundwires/privacy.sexy/releases/download/0.13.8/privacy.sexy-0.13.8.AppImage",
     "description": "Tool to enforce privacy & security best-practices"
+  },
+  {
+    "pkg": "privacynotes",
+    "site": "LifetimeLabsDev/privacynotes.app",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/privacynotes",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/privacynotes",
+    "version_raw": "https://github.com/LifetimeLabsDev/privacynotes.app/releases/download/v0.401.0/PrivacyNotes_0.401.0_amd64.AppImage",
+    "description": "End-to-end encrypted notes, tasks and journal, keyed by a 12-word BIP-39 phrase: no email, no password, no account to leak"
   },
   {
     "pkg": "privaxy",
@@ -22820,7 +22828,7 @@
     "site": "pingdotgg/t3code",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/t3-code",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/t3-code",
-    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.34-nightly.20260815.1097/T3-Code-0.0.34-nightly.20260815.1097-x86_64.AppImage",
+    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.34-nightly.20260815.1098/T3-Code-0.0.34-nightly.20260815.1098-x86_64.AppImage",
     "description": "T3 Code is a minimal GUI for coding agents"
   },
   {
@@ -22828,7 +22836,7 @@
     "site": "pingdotgg/t3code",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/t3code",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/t3code",
-    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.34-nightly.20260815.1097/T3-Code-0.0.34-nightly.20260815.1097-x86_64.AppImage",
+    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.34-nightly.20260815.1098/T3-Code-0.0.34-nightly.20260815.1098-x86_64.AppImage",
     "description": "T3 Code is a minimal web GUI for coding agents (currently Codex and Claude, more coming soon)"
   },
   {
@@ -22852,7 +22860,7 @@
     "site": "debba/tabularis",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/tabularis",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/tabularis",
-    "version_raw": "https://github.com/TabularisDB/tabularis/releases/download/nightly-20260814-dc778ed/tabularis_0.19.1-4_amd64.AppImage",
+    "version_raw": "https://github.com/TabularisDB/tabularis/releases/download/nightly-20260815-b39f1ce/tabularis_0.19.1-5_amd64.AppImage",
     "description": "A lightweight, developer-focused database management tool"
   },
   {
@@ -24964,7 +24972,7 @@
     "site": "ivan-hc/VLC-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vlc-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/vlc-git",
-    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r38552.ge439692-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r38568.g85d72b3-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial. Free and Open Source Video & Media player, GIT version"
   },
   {
@@ -25396,7 +25404,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "13319079369",
+    "version_raw": "13320608477",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -25812,7 +25820,7 @@
     "site": "workflowy/desktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/workflowy",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/workflowy",
-    "version_raw": "https://github.com/workflowy/desktop/releases/download/v4.3.2608112347/WorkFlowy-x86_64.AppImage",
+    "version_raw": "https://github.com/workflowy/desktop/releases/download/v4.3.2608150307/WorkFlowy-x86_64.AppImage",
     "description": "A notetaking tool"
   },
   {
@@ -26084,7 +26092,7 @@
     "site": "has207/xenia-edge",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xenia-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xenia-edge",
-    "version_raw": "https://github.com/has207/xenia-edge/releases/download/fe5a7a1/xenia_edge_linux.AppImage",
+    "version_raw": "https://github.com/has207/xenia-edge/releases/download/b5b201e/xenia_edge_linux.AppImage",
     "description": "Xbox 360 Emulator Research Project, fork of the Xenia emulator, with the aim of quicker iteration and improvements to Vulkan backend"
   },
   {
