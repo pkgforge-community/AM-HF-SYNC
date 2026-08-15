@@ -436,7 +436,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.969/alma-0.0.969-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.970/alma-0.0.970-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -9080,6 +9080,14 @@
     "description": "Control Spotify with CLI commands"
   },
   {
+    "pkg": "go2tv",
+    "site": "alexballas/go2tv",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/go2tv",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/go2tv",
+    "version_raw": "https://github.com/alexballas/go2tv/releases/download/v2.5.0/go2tv_v2.5.0_linux_amd64_ffmpeg.AppImage",
+    "description": "Cast media files to Smart TVs and Chromecast devices"
+  },
+  {
     "pkg": "goanime",
     "site": "alvarorichard/GoAnime",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/goanime",
@@ -12636,7 +12644,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.14-canary.97/LobeHub-2.2.14-canary.97.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.14-canary.98/LobeHub-2.2.14-canary.98.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -13572,7 +13580,7 @@
     "site": "nonbili/meron",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/meron",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/meron",
-    "version_raw": "https://github.com/nonbili/meron/releases/download/v0.2.11/meron-linux-amd64.AppImage",
+    "version_raw": "https://github.com/nonbili/meron/releases/download/v0.2.12/meron-linux-amd64.AppImage",
     "description": "Mail app that sparks joy. Fast/secure email client with chat and kanban view"
   },
   {
@@ -13796,7 +13804,7 @@
     "site": "MiniZinc/MiniZincIDE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/minizinc-ide",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/minizinc-ide",
-    "version_raw": "https://github.com/MiniZinc/MiniZincIDE/releases/download/edge-temp/MiniZincIDE-build31863913453-x86_64-linux-gnu.AppImage",
+    "version_raw": "https://github.com/MiniZinc/MiniZincIDE/releases/download/edge-temp/MiniZincIDE-build31879384981-x86_64-linux-gnu.AppImage",
     "description": "A free and open-source constraint modeling language"
   },
   {
@@ -15984,6 +15992,14 @@
     "description": "Unofficial AppImage of OpenGothic"
   },
   {
+    "pkg": "openhuman",
+    "site": "tinyhumansai/openhuman",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openhuman",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/openhuman",
+    "version_raw": "https://github.com/tinyhumansai/openhuman/releases/download/v0.63.12/OpenHuman_0.63.12_amd64.AppImage",
+    "description": "Your personal AI super intelligence - a brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher"
+  },
+  {
     "pkg": "openhv",
     "site": "OpenHV/OpenHV",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/openhv",
@@ -17456,6 +17472,14 @@
     "description": "An over-engineered rewrite of pipes.sh in Rust. CLI"
   },
   {
+    "pkg": "pixeldrain-cli",
+    "site": "ForTheCommunity/Pixeldrain-Cli",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pixeldrain-cli",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/pixeldrain-cli",
+    "version_raw": "https://github.com/ForTheCommunity/Pixeldrain-Cli/releases/download/v0.1.0/pixeldrain-cli-linux-x86_64-gnu",
+    "description": "A simple command-line client for uploading files and directories to Pixeldrain"
+  },
+  {
     "pkg": "pixelhopper",
     "site": "tomas/pixelhopper",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pixelhopper",
@@ -17644,7 +17668,7 @@
     "site": "plebbit/5chan",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/plebchan",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/plebchan",
-    "version_raw": "https://github.com/bitsocialnet/5chan/releases/download/v0.9.17/5chan-0.9.17-x64.AppImage",
+    "version_raw": "https://github.com/bitsocialnet/5chan/releases/download/v0.9.18/5chan-0.9.18-x64.AppImage",
     "description": "A GUI for plebbit similar to 4chan"
   },
   {
@@ -19572,7 +19596,7 @@
     "site": "retrovibed/retrovibed",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/retrovibed",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/retrovibed",
-    "version_raw": "https://github.com/retrovibed/retrovibed/releases/download/r2026.8.141786744200/retrovibed.linux.amd64.AppImage",
+    "version_raw": "https://github.com/retrovibed/retrovibed/releases/download/r2026.8.151786769921/retrovibed.linux.amd64.AppImage",
     "description": "Personal Digital Archive and Media Player with at cost cloud storage backend"
   },
   {
@@ -19876,7 +19900,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-3cbf9b8b6c2172d0ef9b4c41ae9feb07bf576d07/rpcs3-v0.0.42-19750-3cbf9b8b_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-fc93d932c8560f763f5223c0a4165cc53bceeb3f/rpcs3-v0.0.42-19751-fc93d932_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -22828,7 +22852,7 @@
     "site": "pingdotgg/t3code",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/t3-code",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/t3-code",
-    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.34-nightly.20260815.1100/T3-Code-0.0.34-nightly.20260815.1100-x86_64.AppImage",
+    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.34-nightly.20260815.1101/T3-Code-0.0.34-nightly.20260815.1101-x86_64.AppImage",
     "description": "T3 Code is a minimal GUI for coding agents"
   },
   {
@@ -22836,7 +22860,7 @@
     "site": "pingdotgg/t3code",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/t3code",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/t3code",
-    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.34-nightly.20260815.1100/T3-Code-0.0.34-nightly.20260815.1100-x86_64.AppImage",
+    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.34-nightly.20260815.1101/T3-Code-0.0.34-nightly.20260815.1101-x86_64.AppImage",
     "description": "T3 Code is a minimal web GUI for coding agents (currently Codex and Claude, more coming soon)"
   },
   {
@@ -25404,7 +25428,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "13326854567",
+    "version_raw": "13329113529",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
