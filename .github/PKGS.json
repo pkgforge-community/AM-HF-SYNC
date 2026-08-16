@@ -680,6 +680,14 @@
     "description": "User-friendly Stop-Motion Animation Software, FREE"
   },
   {
+    "pkg": "animashooter-pioneer",
+    "site": "http://www.animashooter.com",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/animashooter-pioneer",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/animashooter-pioneer",
+    "version_raw": "https://www.animashooter.com/download/AnimaShooter_Pioneer_3.9.9.3-x86_64.AppImage",
+    "description": "User-friendly Stop-Motion Animation Software, PRO"
+  },
+  {
     "pkg": "animecoin",
     "site": "Animecointeam/Animecoin",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/animecoin",
@@ -4440,6 +4448,14 @@
     "description": "Software that gathers information on CPU, motherboard and more"
   },
   {
+    "pkg": "cpufetch",
+    "site": "Dr-Noob/cpufetch",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cpufetch",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cpufetch",
+    "version_raw": "https://github.com/Dr-Noob/cpufetch/releases/download/v1.07/cpufetch_x86-64_linux",
+    "description": "Simple yet fancy CPU architecture fetching tool"
+  },
+  {
     "pkg": "crabfetch",
     "site": "LivacoNew/CrabFetch",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/crabfetch",
@@ -7204,7 +7220,7 @@
     "site": "ferdium/ferdium-app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ferdium",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ferdium",
-    "version_raw": "https://github.com/ferdium/ferdium-app/releases/download/v7.1.3-nightly.15/Ferdium-linux-Portable-7.1.3-nightly.15-x86_64.AppImage",
+    "version_raw": "https://github.com/ferdium/ferdium-app/releases/download/v7.1.3-nightly.16/Ferdium-linux-Portable-7.1.3-nightly.16-x86_64.AppImage",
     "description": "All your services in one place, built by the community"
   },
   {
@@ -7716,7 +7732,7 @@
     "site": "zerx-lab/FluxDown",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fluxdown",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fluxdown",
-    "version_raw": "https://github.com/zerx-lab/FluxDown/releases/download/v0.4.6/FluxDown-0.4.6-linux-x64.AppImage",
+    "version_raw": "https://github.com/zerx-lab/FluxDown/releases/download/v0.4.7/FluxDown-0.4.7-linux-x64.AppImage",
     "description": "Rust based blazing fast download manager with support for HTTP/FTP/BitTorrent magnetic links and HLS/DASH streaming, intelligent multithreading acceleration and seamless integration with the browser"
   },
   {
@@ -8820,7 +8836,7 @@
     "site": "gitify-app/gitify",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gitify",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gitify",
-    "version_raw": "https://github.com/gitify-app/gitify/releases/download/v7.3.3/Gitify-7.3.3.AppImage",
+    "version_raw": "https://github.com/gitify-app/gitify/releases/download/v7.4.0/Gitify-7.4.0.AppImage",
     "description": "GitHub notifications on your menu bar"
   },
   {
@@ -11660,7 +11676,7 @@
     "site": "ciscoriordan/kindling",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kindling-cli",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kindling-cli",
-    "version_raw": "https://github.com/ciscoriordan/kindling/releases/download/v0.35.0/kindling-cli-linux",
+    "version_raw": "https://github.com/ciscoriordan/kindling/releases/download/v0.36.0/kindling-cli-linux",
     "description": "Kindle toolkit for dictionaries, books, comics"
   },
   {
@@ -12636,7 +12652,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.15-canary.3/LobeHub-2.2.15-canary.3.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.15-canary.4/LobeHub-2.2.15-canary.4.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -15030,6 +15046,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/node",
     "version_raw": "https://nodejs.org/dist/latest/node-v26.7.0-linux-x64.tar.gz",
     "description": "This is the official suite of Node.js tools, also known as NodeJS, a JavaScript runtime built on Chrome's V8 JavaScript engine"
+  },
+  {
+    "pkg": "nodeflow",
+    "site": "maxnth/NodeFlow",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nodeflow",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nodeflow",
+    "version_raw": "https://github.com/maxnth/NodeFlow/releases/download/0.0.2-alpha/NodeFlow-0.0.2.AppImage",
+    "description": "An Editor for creating simple or complex OCR workflows"
   },
   {
     "pkg": "nodes",
@@ -19132,7 +19156,7 @@
     "site": "Dummerle/Rare",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rare",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rare",
-    "version_raw": "https://github.com/RareDevs/Rare/releases/download/1.12.0.187/Rare-1.12.0.187-x86_64.AppImage",
+    "version_raw": "https://github.com/RareDevs/Rare/releases/download/1.12.0.219/Rare-1.12.0.219-x86_64.AppImage",
     "description": "GUI for legendary. An Epic Games Launcher open source alternative"
   },
   {
@@ -20060,7 +20084,7 @@
     "site": "ryo-currency/ryo-wallet",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ryowallet",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ryowallet",
-    "version_raw": "",
+    "version_raw": "https://github.com/ryo-currency/ryo-wallet/releases/download/1.5.0/ryo-wallet-linux-x64-1.5.0-0.6.0.0.AppImage",
     "description": "Modern GUI interface for Ryo Currency"
   },
   {
@@ -21748,7 +21772,7 @@
     "site": "ivan-hc/Spotify-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/spotify",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/spotify",
-    "version_raw": "https://github.com/ivan-hc/Spotify-appimage/releases/download/continuous/Spotify-stable-1.2.92.147.g5b8f9367-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Spotify-appimage/releases/download/continuous/Spotify-stable-1.2.95.453.g0eeebbed-x86_64.AppImage",
     "description": "Unofficial. A proprietary music streaming service"
   },
   {
@@ -22020,7 +22044,7 @@
     "site": "ivan-hc/Steam-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/steam",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/steam",
-    "version_raw": "https://github.com/ivan-hc/Steam-appimage/releases/download/1.0.0.87-1%402026-07-01_1782898538/Steam-1.0.0.87-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Steam-appimage/releases/download/1.0.0.87-1%402026-08-16_1786890213/Steam-1.0.0.87-1-anylinux-x86_64.AppImage",
     "description": "Unofficial. The ultimate destination for playing, discussing, and creating games"
   },
   {
@@ -25420,7 +25444,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "13351743453",
+    "version_raw": "13356128658",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -26108,7 +26132,7 @@
     "site": "has207/xenia-edge",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/xenia-edge",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/xenia-edge",
-    "version_raw": "https://github.com/has207/xenia-edge/releases/download/f1173df/xenia_edge_linux.AppImage",
+    "version_raw": "https://github.com/has207/xenia-edge/releases/download/3292000/xenia_edge_linux.AppImage",
     "description": "Xbox 360 Emulator Research Project, fork of the Xenia emulator, with the aim of quicker iteration and improvements to Vulkan backend"
   },
   {
@@ -26668,7 +26692,7 @@
     "site": "ytmdesktop/ytmdesktop",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ytmdesktop",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ytmdesktop",
-    "version_raw": "",
+    "version_raw": "https://github.com/ytmdesktop/ytmdesktop/releases/download/1.14.1/YouTube.Music.Desktop.App-1.14.1_Nightly.AppImage",
     "description": "A Desktop App for YouTube Music"
   },
   {
