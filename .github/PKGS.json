@@ -436,7 +436,7 @@
     "site": "yetone/alma-releases",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alma",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/alma",
-    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.971/alma-0.0.971-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/yetone/alma-releases/releases/download/v0.0.973/alma-0.0.973-linux-x86_64.AppImage",
     "description": "Elegant AI Provider Orchestration. A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom providers"
   },
   {
@@ -2380,7 +2380,7 @@
     "site": "JannisX11/blockbench",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blockbench",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/blockbench",
-    "version_raw": "https://github.com/JannisX11/blockbench/releases/download/v5.1.6/Blockbench_5.1.6.AppImage",
+    "version_raw": "https://github.com/JannisX11/blockbench/releases/download/v5.2.0-beta.1/Blockbench_5.2.0-beta.1.AppImage",
     "description": "Editor for boxy models and pixel art textures like Minecraft"
   },
   {
@@ -4936,6 +4936,14 @@
     "description": "Photography workflow application and raw developer (nightly)"
   },
   {
+    "pkg": "dashbeam",
+    "site": "tonyantony300/dashbeam",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dashbeam",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dashbeam",
+    "version_raw": "https://github.com/tonyantony300/dashbeam/releases/download/v0.6.9/DashBeam_0.6.9_amd64.AppImage",
+    "description": "Peer-to-peer encrypted files and folders transfer tool to anywhere in the world - any format, no accounts, no restrictions"
+  },
+  {
     "pkg": "dashy-app",
     "site": "GordonSmith/dashy-app",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dashy-app",
@@ -5260,7 +5268,7 @@
     "site": "pkgforge-dev/dethrace-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dethrace",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dethrace",
-    "version_raw": "https://github.com/pkgforge-dev/dethrace-AppImage/releases/download/410ae4478%402026-02-19_1771468124/dethrace-410ae4478-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/dethrace-AppImage/releases/download/4ec557ab7%402026-08-16_1786882842/dethrace-4ec557ab7-anylinux-x86_64.AppImage",
     "description": "Unofficial, reverse engineering the 1997 game Carmageddon"
   },
   {
@@ -12324,7 +12332,7 @@
     "site": "LibreCAD/LibreCAD",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/librecad",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/librecad",
-    "version_raw": "https://github.com/LibreCAD/LibreCAD/releases/download/2.2.2_alpha-latest/LibreCAD-2.2.2_alpha1-618-g27add5380.AppImage",
+    "version_raw": "https://github.com/LibreCAD/LibreCAD/releases/download/2.2.1-latest/LibreCAD-v2.2.1.5-32-g8b48125cc-x86_64.AppImage",
     "description": "2D CAD program written in C++11 using the Qt framework"
   },
   {
@@ -12644,7 +12652,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.15-canary.2/LobeHub-2.2.15-canary.2.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.15-canary.3/LobeHub-2.2.15-canary.3.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -13198,6 +13206,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/marvin",
     "version_raw": "https://github.com/rolandbernard/marvin/releases/download/v0.4.9/Marvin-0.4.9.AppImage",
     "description": "Open Source record and playback test automation for the web"
+  },
+  {
+    "pkg": "master-pdf-editor",
+    "site": "https://code-industry.net",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/master-pdf-editor",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/master-pdf-editor",
+    "version_raw": "https://code-industry.net/public/Master_PDF_Editor_5.9.99-x86_64.AppImage",
+    "description": "Master PDF Editor is the optimal solution for editing PDF files in Linux. It enables you to create, edit, view, encrypt, sign and print interactive PDF documents"
   },
   {
     "pkg": "masterkey",
@@ -19900,7 +19916,7 @@
     "site": "RPCS3/rpcs3-binaries-linux",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/rpcs3",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/rpcs3",
-    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-2f3c0f04d2b2cc5b47c97313623685220874f50f/rpcs3-v0.0.42-19754-2f3c0f04_linux64.AppImage",
+    "version_raw": "https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-cbc7b60ba5cbc376d66e50082a98a182ac047ff3/rpcs3-v0.0.42-19758-cbc7b60b_linux64.AppImage",
     "description": "An open-source PlayStation 3 emulator/debugger written in C++"
   },
   {
@@ -22852,7 +22868,7 @@
     "site": "pingdotgg/t3code",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/t3-code",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/t3-code",
-    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.34-nightly.20260816.1108/T3-Code-0.0.34-nightly.20260816.1108-x86_64.AppImage",
+    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.34-nightly.20260816.1109/T3-Code-0.0.34-nightly.20260816.1109-x86_64.AppImage",
     "description": "T3 Code is a minimal GUI for coding agents"
   },
   {
@@ -22860,7 +22876,7 @@
     "site": "pingdotgg/t3code",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/t3code",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/t3code",
-    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.34-nightly.20260816.1108/T3-Code-0.0.34-nightly.20260816.1108-x86_64.AppImage",
+    "version_raw": "https://github.com/pingdotgg/t3code/releases/download/v0.0.34-nightly.20260816.1109/T3-Code-0.0.34-nightly.20260816.1109-x86_64.AppImage",
     "description": "T3 Code is a minimal web GUI for coding agents (currently Codex and Claude, more coming soon)"
   },
   {
