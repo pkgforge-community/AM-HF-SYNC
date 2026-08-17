@@ -1252,7 +1252,7 @@
     "site": "artisan-roaster-scope/artisan",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artisan",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/artisan",
-    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/v4.2.1-beta4/artisan-linux-4.2.1.AppImage",
+    "version_raw": "https://github.com/artisan-roaster-scope/artisan/releases/download/v4.2.1-beta5/artisan-linux-4.2.1.AppImage",
     "description": "Visualizes the coffee roasting process"
   },
   {
@@ -7724,7 +7724,7 @@
     "site": "krille-chan/fluffychat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fluffychat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/fluffychat",
-    "version_raw": "https://github.com/krille-chan/fluffychat/releases/download/rc2.9.1-0/fluffychat-linux-x64.tar.gz",
+    "version_raw": "https://github.com/krille-chan/fluffychat/releases/download/v2.9.1/fluffychat-linux-x64.tar.gz",
     "description": "The cutest instant messenger in the matrix"
   },
   {
@@ -8484,7 +8484,7 @@
     "site": "BestImageViewer/geeqie",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/geeqie",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/geeqie",
-    "version_raw": "https://github.com/BestImageViewer/geeqie/releases/download/v3.1/Geeqie-3.1-minimal-x86_64.AppImage",
+    "version_raw": "https://github.com/BestImageViewer/geeqie/releases/download/continuous/Geeqie-latest-x86_64.AppImage",
     "description": "Claiming to be the best image viewer and photo collection browser"
   },
   {
@@ -13628,7 +13628,7 @@
     "site": "Moresyl/metaclean",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/metaclean",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/metaclean",
-    "version_raw": "https://github.com/Moresyl/metaclean/releases/download/v0.1.0/MetaClean_0.1.0_amd64.AppImage",
+    "version_raw": "https://github.com/Moresyl/metaclean/releases/download/v0.2.0/MetaClean_0.2.0_amd64.AppImage",
     "description": "Offline desktop app for removing sensitive metadata from files"
   },
   {
@@ -13820,7 +13820,7 @@
     "site": "MiniZinc/MiniZincIDE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/minizinc-ide",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/minizinc-ide",
-    "version_raw": "https://github.com/MiniZinc/MiniZincIDE/releases/download/edge-temp/MiniZincIDE-build31996494085-x86_64-linux-gnu.AppImage",
+    "version_raw": "https://github.com/MiniZinc/MiniZincIDE/releases/download/edge-temp/MiniZincIDE-build32023965566-x86_64-linux-gnu.AppImage",
     "description": "A free and open-source constraint modeling language"
   },
   {
@@ -15212,7 +15212,7 @@
     "site": "streetwriters/notesnook",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/notesnook",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/notesnook",
-    "version_raw": "https://github.com/streetwriters/notesnook/releases/download/v3.4.5/notesnook_linux_x86_64.AppImage",
+    "version_raw": "https://github.com/streetwriters/notesnook/releases/download/v3.4.6/notesnook_linux_x86_64.AppImage",
     "description": "Private note-taking app that encrypts everything on client side"
   },
   {
@@ -15444,7 +15444,7 @@
     "site": "nymtech/nym-vpn-client",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/nym-vpn",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/nym-vpn",
-    "version_raw": "https://github.com/nymtech/nym-vpn-client/releases/download/nym-vpn-v2026.12.0-beta.9/NymVPN_2026.12.0-beta.9_amd64.AppImage",
+    "version_raw": "https://github.com/nymtech/nym-vpn-client/releases/download/nym-vpn-v2026.13.0-nightly.20260817/NymVPN_2026.13.0-nightly.20260817_amd64.AppImage",
     "description": "Cross-platform open source VPN client built in Rust, with mixnet anonymity and WireGuard speed. Protects metadata, not just IP addresses. Zero-knowledge payments for unlinkable online activities"
   },
   {
@@ -19740,7 +19740,7 @@
     "site": "mortbopet/Ripes",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ripes",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ripes",
-    "version_raw": "https://github.com/mortbopet/Ripes/releases/download/continuous/Ripes-v2.2.6-89-g140fc39-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/mortbopet/Ripes/releases/download/continuous/Ripes-v2.2.6-90-g5b55f8a-linux-x86_64.AppImage",
     "description": "Graphical processor simulator and assembly editor for the RISC-V ISA"
   },
   {
@@ -25072,6 +25072,14 @@
     "description": "Volaris-Gui is the wrapper for Volaris, a secure file encryption software"
   },
   {
+    "pkg": "voyager",
+    "site": "aeharding/voyager",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/voyager",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/voyager",
+    "version_raw": "https://github.com/aeharding/voyager/releases/download/2.48.4/Voyager-Linux-x86_64-2.48.4.AppImage",
+    "description": "A beautiful app for Lemmy and Piefed"
+  },
+  {
     "pkg": "vpaint",
     "site": "dalboris/vpaint",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vpaint",
@@ -25444,7 +25452,7 @@
     "site": "wez/wezterm",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/wezterm-nightly",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/wezterm-nightly",
-    "version_raw": "13386395061",
+    "version_raw": "13395880172",
     "description": "A GPU-accelerated terminal emulator and multiplexer"
   },
   {
@@ -26764,7 +26772,7 @@
     "site": "rafatosta/zapzap",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/zapzap",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/zapzap",
-    "version_raw": "https://github.com/rafatosta/zapzap/releases/download/7.4.2-rc.1/ZapZap-7.4.2-linux-x86_64.AppImage",
+    "version_raw": "https://github.com/rafatosta/zapzap/releases/download/7.4.2/ZapZap-7.4.2-linux-x86_64.AppImage",
     "description": "WhatsApp desktop application written in Pyqt6 + PyQt6-WebEngine"
   },
   {
