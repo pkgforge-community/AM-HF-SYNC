@@ -804,7 +804,7 @@
     "site": "anandprtp/antra",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/antra",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/antra",
-    "version_raw": "https://github.com/anandprtp/Antra/releases/download/v1.1.8/Antra-Linux.AppImage",
+    "version_raw": "https://github.com/anandprtp/Antra/releases/download/v1.1.7/Antra-Linux.AppImage",
     "description": "A desktop music library builder. Resolves Spotify / Apple Music / Amazon Music URLs → get lossless audio → auto-tags, transcodes, and organizes. No subscriptions. No compromises"
   },
   {
@@ -3420,7 +3420,7 @@
     "site": "CherryHQ/cherry-studio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cherry-studio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/cherry-studio",
-    "version_raw": "https://github.com/CherryHQ/cherry-studio/releases/download/v2.0.7/Cherry-Studio-2.0.7-x86_64.AppImage",
+    "version_raw": "https://github.com/CherryHQ/cherry-studio/releases/download/v2.0.8/Cherry-Studio-2.0.8-x86_64.AppImage",
     "description": "Agentic AI desktop with autonomous coding, intelligent automation, and unified access to frontier LLMs"
   },
   {
@@ -6876,7 +6876,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.7.30.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -11894,5 +11894,189 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/krunker",
     "version_raw": "https://client2.krunker.io/setup.AppImage",
     "description": "Krunker (.io) is a fast-paced first-person shooter game with pixel graphics"
+  },
+  {
+    "pkg": "ksnip",
+    "site": "DamirPorobic/ksnip",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ksnip",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ksnip",
+    "version_raw": "https://github.com/ksnip/ksnip/releases/download/continuous/ksnip-1.11.0-continuous-x86_64.AppImage",
+    "description": "Screenshot tool inspired by Windows Snipping Tool and made with Qt"
+  },
+  {
+    "pkg": "kstars",
+    "site": "pkgforge-dev/kstars-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kstars",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kstars",
+    "version_raw": "https://github.com/pkgforge-dev/KStars-AppImage/releases/download/3.8.3-2%402026-08-01_1785585042/KStars-3.8.3-2-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of KStars"
+  },
+  {
+    "pkg": "ktorrent",
+    "site": "pkgforge-dev/ktorrent-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ktorrent",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ktorrent",
+    "version_raw": "https://github.com/pkgforge-dev/KTorrent-AppImage/releases/download/26.04.3-1%402026-08-01_1785586125/KTorrent-26.04.3-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial AppImage of KTorrent"
+  },
+  {
+    "pkg": "kubeman",
+    "site": "walmartlabs/kubeman",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kubeman",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kubeman",
+    "version_raw": "https://github.com/walmartlabs/kubeman/releases/download/0.5.0/kubeman.0.5.0.appimage",
+    "description": "The Hero that Kubernetes deserves"
+  },
+  {
+    "pkg": "kubenav",
+    "site": "kubenav/kubenav",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kubenav",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kubenav",
+    "version_raw": "https://github.com/kubenav/kubenav/releases/download/v4.2.3/kubenav-x86_64.AppImage",
+    "description": "The navigator for your Kubernetes clusters right in your pocket"
+  },
+  {
+    "pkg": "kudu",
+    "site": "AdventDevInc/kudu",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kudu",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kudu",
+    "version_raw": "https://github.com/AdventDevInc/kudu/releases/download/v2.1.0/Kudu-2.1.0-x86_64.AppImage",
+    "description": "Free, open-source system cleaner & security scanner for Windows, macOS, and Linux. Reclaim disk space. Remove malware. Take back your privacy. All in one app"
+  },
+  {
+    "pkg": "kunkun",
+    "site": "kunkunsh/kunkun",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kunkun",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kunkun",
+    "version_raw": "https://github.com/kunkunsh/kunkun/releases/download/Kunkun-v0.1.37/kunkun_0.1.37_amd64.AppImage",
+    "description": "An open source, cross-platform, extensible app launcher"
+  },
+  {
+    "pkg": "kure",
+    "site": "GGP1/kure",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kure",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kure",
+    "version_raw": "https://github.com/GGP1/kure/releases/download/v1.3.0/kure_v1.3.0_linux_amd64.tar.gz",
+    "description": "CLI password manager with sessions"
+  },
+  {
+    "pkg": "kuro",
+    "site": "davidsmorais/kuro",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kuro",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kuro",
+    "version_raw": "https://github.com/davidsmorais/kuro/releases/download/v9.1.3/Kuro-9.1.3.AppImage",
+    "description": "An elegant Microsoft ToDo desktop client for Linux, a fork of Ao"
+  },
+  {
+    "pkg": "kwave",
+    "site": "ivan-hc/kwave-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/kwave",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/kwave",
+    "version_raw": "https://github.com/ivan-hc/kwave-appimage/releases/download/continuous/Kwave-Sound-Editor_26.04.3-1-archimage5.0-x86_64.AppImage",
+    "description": "A sound & audio editor designed for the KDE Desktop Environment"
+  },
+  {
+    "pkg": "labplot",
+    "site": "https://labplot.kde.org",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/labplot",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/labplot",
+    "version_raw": "https://download.kde.org/stable/labplot/",
+    "description": "Data Visualization and Analysis software accessible to everyone and trusted by professionals"
+  },
+  {
+    "pkg": "ladybird",
+    "site": "pkgforge-dev/ladybird-appimage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ladybird",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ladybird",
+    "version_raw": "https://github.com/pkgforge-dev/ladybird-appimage/releases/download/r79202.0be802797ac-1%402026-06-22_1782145637/Ladybird-r79202.0be802797ac-1-anylinux-x86_64.AppImage",
+    "description": "A truly independent web browser, using a novel engine based on web standards"
+  },
+  {
+    "pkg": "lagrange",
+    "site": "skyjake/lagrange",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lagrange",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lagrange",
+    "version_raw": "https://github.com/skyjake/lagrange/releases/download/v1.20.9/Lagrange-1.20.9-x86_64.AppImage",
+    "description": "Lagrange is a cross-platform client for browsing Geminispace (GUI Version)"
+  },
+  {
+    "pkg": "laidout",
+    "site": "Laidout/laidout",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/laidout",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/laidout",
+    "version_raw": "https://github.com/Laidout/laidout/releases/download/continuous/Laidout-ae6b35e-x86_64.AppImage",
+    "description": "Laidout, desktop publishing software"
+  },
+  {
+    "pkg": "laigter",
+    "site": "azagaya/laigter",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/laigter",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/laigter",
+    "version_raw": "https://github.com/azagaya/laigter/releases/download/UNKNOWN%402026-08-07_1786113264/Laigter-x86_64.AppImage",
+    "description": "Tool to generate normal/specular/occlussion/parallax 2D maps"
+  },
+  {
+    "pkg": "lambda-lantern",
+    "site": "lettier/lambda-lantern",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lambda-lantern",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lambda-lantern",
+    "version_raw": "https://github.com/lettier/lambda-lantern/releases/download/0.0.0.0/lambda-lantern-0.0.0.0-ubuntu-16.04-x86.AppImage",
+    "description": "A 3D game about functional programming patterns"
+  },
+  {
+    "pkg": "lan-mouse",
+    "site": "feschber/lan-mouse",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lan-mouse",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lan-mouse",
+    "version_raw": "https://api.github.com/repos/feschber/lan-mouse/releases/338598841",
+    "description": "Mouse & keyboard sharing via LAN"
+  },
+  {
+    "pkg": "landrop",
+    "site": "https://landrop.app",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/landrop",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/landrop",
+    "version_raw": "2.7.2",
+    "description": "Drop any files to any devices on your LAN"
+  },
+  {
+    "pkg": "lanshare",
+    "site": "abdularis/LAN-Share",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lanshare",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lanshare",
+    "version_raw": "https://github.com/abdularis/LAN-Share/releases/download/continuous/LANShare-3ccbe2c-x86_64.AppImage",
+    "description": "LAN file transfer app for any kind and size of files and folders"
+  },
+  {
+    "pkg": "lapce",
+    "site": "Portable-Linux-Apps/lapce-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lapce",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lapce",
+    "version_raw": "https://github.com/Portable-Linux-Apps/lapce-AppImage/releases/download/v0.4.6%402026-08-01_1785603769/Lapce-v0.4.6-x86_64.AppImage",
+    "description": "Lightning-fast and Powerful Code Editor written in Rust"
+  },
+  {
+    "pkg": "laravel-kit",
+    "site": "tarequemdhanif/laravel-kit",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/laravel-kit",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/laravel-kit",
+    "version_raw": "https://github.com/tmdh/laravel-kit/releases/download/v2.0.9/Laravel-Kit-2.0.9.AppImage",
+    "description": "Easy Laravel application management"
+  },
+  {
+    "pkg": "launcher",
+    "site": "martinribelotta/launcher",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/launcher",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/launcher",
+    "version_raw": "https://github.com/martinribelotta/launcher/releases/download/continuous/Application_Launcher-166f94e-x86_64.AppImage",
+    "description": "Generic application's launcher"
+  },
+  {
+    "pkg": "lazpaint",
+    "site": "bgrabitmap/lazpaint",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lazpaint",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lazpaint",
+    "version_raw": "https://github.com/bgrabitmap/lazpaint/releases/download/v7.3/lazpaint7.3_x86_64.AppImage",
+    "description": "Cross-platform image editor with raster and vector layers similar to Paint.Net written in Lazarus (Free Pascal)"
   }
 ]
