@@ -5824,6 +5824,14 @@
     "description": "Free Stock Images on Steroids"
   },
   {
+    "pkg": "drally",
+    "site": "pkgforge-dev/dRally-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/drally",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/drally",
+    "version_raw": "https://github.com/pkgforge-dev/dRally-AppImage/releases/download/920d85a7f%402026-07-01_1782905535/dRally-920d85a7f-anylinux-x86_64.AppImage",
+    "description": "Unofficial, a port of Death Rally (1996)"
+  },
+  {
     "pkg": "draw",
     "site": "maaslalani/draw",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/draw",
@@ -5942,6 +5950,14 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dstask",
     "version_raw": "https://github.com/naggie/dstask/releases/download/v1.0.1/dstask-import-linux-amd64",
     "description": "Git powered terminal-based todo/note manager, markdown note page per task"
+  },
+  {
+    "pkg": "dtmate",
+    "site": "jftuga/DateTimeMate",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dtmate",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dtmate",
+    "version_raw": "https://github.com/jftuga/DateTimeMate/releases/download/v1.21.0/DateTimeMate_1.21.0_linux_amd64.tar.xz",
+    "description": "CLI to compute difference between date, time or duration"
   },
   {
     "pkg": "du",
@@ -6080,6 +6096,14 @@
     "description": "Unofficial AppImage of Dwarf Fortress Legacy"
   },
   {
+    "pkg": "dwarffortress",
+    "site": "McArcady/lnp-forge",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dwarffortress",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/dwarffortress",
+    "version_raw": "https://github.com/McArcady/lnp-forge/releases/download/0.47.05-r8/Dwarf_Fortress-0.47.05-r8-x86_64.AppImage",
+    "description": "A Dwarf Fortress game. Build a fortress and try to help your dwarves survive against a deeply generated world"
+  },
+  {
     "pkg": "dwyco-phoo",
     "site": "blindchimp/dwyco",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/dwyco-phoo",
@@ -6096,12 +6120,28 @@
     "description": "A linux utility to get information on filesystems, like df but better"
   },
   {
+    "pkg": "e2-sat-editor",
+    "site": "ctlcltd/e2-sat-editor",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/e2-sat-editor",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/e2-sat-editor",
+    "version_raw": "https://github.com/ctlcltd/e2-sat-editor/releases/download/v2.0.0/e2-sat-editor-2.0.0-x86_64-linux.AppImage",
+    "description": "Satellite channel lists editor with tabbed nav"
+  },
+  {
     "pkg": "eaglemode",
     "site": "probonopd/eaglemode",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eaglemode",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eaglemode",
     "version_raw": "https://github.com/probonopd/eaglemode/releases/download/continuous/Eagle_Mode-ba297f6-x86_64.AppImage",
     "description": "Zoomable user interface with plugin applications"
+  },
+  {
+    "pkg": "easier-pixel-dungeon",
+    "site": "kazam0180/easier-pixel-dungeon",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/easier-pixel-dungeon",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/easier-pixel-dungeon",
+    "version_raw": "https://github.com/kazam0180/easier-pixel-dungeon/releases/download/3.3.8%402026.08.14/Easier_Pixel_Dungeon-3.3.8-anylinux-x86_64.AppImage",
+    "description": "No Description Provided"
   },
   {
     "pkg": "easytag",
@@ -6120,12 +6160,28 @@
     "description": "Rewarding communities built, owned and operated by its users"
   },
   {
+    "pkg": "echo",
+    "site": "ivan-hc/am-utils",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/echo",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/echo",
+    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
+    "description": "Display a line of text. This is part of am-utils suite"
+  },
+  {
     "pkg": "ecode",
     "site": "SpartanJ/ecode",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ecode",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ecode",
     "version_raw": "https://github.com/SpartanJ/ecode/releases/download/ecode-0.8.1/ecode-linux-0.8.1-x86_64.AppImage",
     "description": "Lightweight code editor designed for modern hardware"
+  },
+  {
+    "pkg": "ecwolf",
+    "site": "pkgforge-dev/ECWolf-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ecwolf",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ecwolf",
+    "version_raw": "https://github.com/pkgforge-dev/ECWolf-AppImage/releases/download/1.4.2-1%402026-08-01_1785585703/ECWolf-1.4.2-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial, advanced port of Wolfenstein 3D based off of Wolf4SDL"
   },
   {
     "pkg": "edconv",
@@ -6152,6 +6208,22 @@
     "description": "An experimental open-source emulator for Nintendo Switch (yuzu fork, nightly builds)"
   },
   {
+    "pkg": "edex-ui",
+    "site": "GitSquared/edex-ui",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/edex-ui",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/edex-ui",
+    "version_raw": "https://github.com/GitSquared/edex-ui/releases/download/v2.2.8/eDEX-UI-Linux-x86_64.AppImage",
+    "description": "A cross-platform, customizable science fiction terminal emulator"
+  },
+  {
+    "pkg": "eduke32",
+    "site": "pkgforge-dev/EDuke32-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eduke32",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eduke32",
+    "version_raw": "https://github.com/pkgforge-dev/EDuke32-AppImage/releases/download/20260203-10664-ba6b7bb1d%402026-08-01_1785586311/EDuke32-20260203-10664-ba6b7bb1d-anylinux-x86_64.AppImage",
+    "description": "Unofficial, an advanced Duke Nukem 3D source port"
+  },
+  {
     "pkg": "eez-studio",
     "site": "eez-open/studio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eez-studio",
@@ -6160,12 +6232,132 @@
     "description": "Cross-platform low-code GUI and automation"
   },
   {
+    "pkg": "eget",
+    "site": "zyedidia/eget",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eget",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eget",
+    "version_raw": "https://github.com/zyedidia/eget/releases/download/v1.3.4/eget-1.3.4-linux_amd64.tar.gz",
+    "description": "Easily install prebuilt binaries from GitHub"
+  },
+  {
+    "pkg": "ehdev-shell",
+    "site": "EHDFE/ehdev-shell",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ehdev-shell",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ehdev-shell",
+    "version_raw": "https://github.com/EHDFE/ehdev-shell/releases/download/v0.6.1/ehdev-shell-0.6.1-x86_64.AppImage",
+    "description": "An electron based developing tool for feds"
+  },
+  {
+    "pkg": "eiskaltdcpp",
+    "site": "https://sourceforge.net/p/eiskaltdcpp",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eiskaltdcpp",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eiskaltdcpp",
+    "version_raw": "https://sourceforge.net/projects/eiskaltdcpp/files/Linux/devel/eiskaltdcpp-qt-2.4.2-45-x86_64.AppImage/download",
+    "description": "Client for EiskaltDC++ core"
+  },
+  {
+    "pkg": "eka2l1",
+    "site": "EKA2L1/EKA2L1",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eka2l1",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eka2l1",
+    "version_raw": "https://github.com/EKA2L1/EKA2L1/releases/download/continous/EKA2L1-Linux-x86_64.AppImage",
+    "description": "A Symbian OS/N-Gage emulator"
+  },
+  {
+    "pkg": "eksplode.re",
+    "site": "AmarOk1412/Eksplode.re",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eksplode.re",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eksplode.re",
+    "version_raw": "https://github.com/AmarOk1412/Eksplode.re/releases/download/v0.0.0/Eksplode.re-x86_64.AppImage",
+    "description": "Bomberman game made with Godot under BSD3"
+  },
+  {
+    "pkg": "elastic",
+    "site": "pkgforge-dev/Elastic-AppImage",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/elastic",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/elastic",
+    "version_raw": "https://github.com/pkgforge-dev/Elastic-AppImage/releases/download/1.0.3-1%402026-08-01_1785577473/Elastic-1.0.3-1-anylinux-x86_64.AppImage",
+    "description": "Unofficial. Visualize and design physics-based animation of objects"
+  },
+  {
+    "pkg": "elcalc",
+    "site": "elcalc/elcalc",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/elcalc",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/elcalc",
+    "version_raw": "https://github.com/elcalc/elcalc/releases/download/6.1.3/elcalc-6.1.3.AppImage",
+    "description": "Cross-Platform calculator built with Electron"
+  },
+  {
+    "pkg": "eldumper",
+    "site": "rodri042/el-dumper",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/eldumper",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/eldumper",
+    "version_raw": "https://github.com/afska/el-dumper/releases/download/v1.0.0/ElDumper.AppImage",
+    "description": "A GB Cartridge Dumper"
+  },
+  {
+    "pkg": "electorrent",
+    "site": "Tympanix/Electorrent",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/electorrent",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/electorrent",
+    "version_raw": "https://github.com/tympanix/Electorrent/releases/download/v2.16.0/Electorrent-2.16.0.AppImage",
+    "description": "A remote control Torrent client"
+  },
+  {
+    "pkg": "electrocrud",
+    "site": "garrylachman/ElectroCRUD",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/electrocrud",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/electrocrud",
+    "version_raw": "https://github.com/garrylachman/ElectroCRUD/releases/download/2.8.0/ElectroCRUD-2.8.0.AppImage",
+    "description": "No coding is required"
+  },
+  {
     "pkg": "electron-app-store",
     "site": "Electron-Store/electron-app-store",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/electron-app-store",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/electron-app-store",
     "version_raw": "https://github.com/Electron-Store/electron-app-store/releases/download/v0.0.4/Electron-Store-0.0.4.AppImage",
     "description": "Simple App Store for Apps Built with Electron"
+  },
+  {
+    "pkg": "electron-cash",
+    "site": "Electron-Cash/Electron-Cash",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/electron-cash",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/electron-cash",
+    "version_raw": "https://github.com/Electron-Cash/Electron-Cash/releases/download/4.4.6/Electron-Cash-4.4.6-x86_64.AppImage",
+    "description": "Lightweight Bitcoin Cash Client"
+  },
+  {
+    "pkg": "electron-mail",
+    "site": "vladimiry/ElectronMail",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/electron-mail",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/electron-mail",
+    "version_raw": "https://github.com/vladimiry/ElectronMail/releases/download/v5.3.8/electron-mail-5.3.8-linux-x86_64.AppImage",
+    "description": "Unofficial ProtonMail Desktop App"
+  },
+  {
+    "pkg": "electron-react-boilerplate",
+    "site": "electron-react-boilerplate/electron-react-boilerplate",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/electron-react-boilerplate",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/electron-react-boilerplate",
+    "version_raw": "https://github.com/electron-react-boilerplate/electron-react-boilerplate/releases/download/v4.6.0/ElectronReact-4.6.0.AppImage",
+    "description": "A Foundation for Scalable Cross-Platform Apps"
+  },
+  {
+    "pkg": "electron-ssr",
+    "site": "shadowsocksrr/electron-ssr",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/electron-ssr",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/electron-ssr",
+    "version_raw": "https://github.com/shadowsocksrr/electron-ssr/releases/download/0.3.0-alpha.6/electron-ssr-0.3.0-alpha.6.AppImage",
+    "description": "Install electron-ssr from appimage"
+  },
+  {
+    "pkg": "electron-utils",
+    "site": "SamTV12345/DevRustPilot",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/electron-utils",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/electron-utils",
+    "version_raw": "https://github.com/SamTV12345/DevRustPilot/releases/download/v3.3.0/electron-utils_0.0.0_amd64.AppImage",
+    "description": "Electron Utils for every day usage as a dev"
   },
   {
     "pkg": "electron-xiami",
@@ -6200,12 +6392,28 @@
     "description": "Lightweight Bitcoin Client"
   },
   {
+    "pkg": "electrum-neurai",
+    "site": "NeuraiProject/electrum-neurai",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/electrum-neurai",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/electrum-neurai",
+    "version_raw": "https://github.com/NeuraiProject/electrum-neurai/releases/download/v0.2.2/electrum-neurai-v0.2.2-x86_64.AppImage",
+    "description": "Neurai is a decentralized open source protocol optimized to transfer cryptoassets from one party to another on Layer1. The project aims to integrate NFT and Tokens with IoT and artificial intelligence applications"
+  },
+  {
     "pkg": "electrum-ravencoin",
     "site": "Electrum-RVN-SIG/electrum-ravencoin",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/electrum-ravencoin",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/electrum-ravencoin",
     "version_raw": "https://github.com/Electrum-RVN-SIG/electrum-ravencoin/releases/download/v1.2.4/electrum-ravencoin-v1.2.4-x86_64.AppImage",
     "description": "Forked from the Electrum Bitcoin base client"
+  },
+  {
+    "pkg": "electrumfair",
+    "site": "faircoin/electrumfair",
+    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/electrumfair",
+    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/electrumfair",
+    "version_raw": "https://github.com/faircoin/electrumfair/releases/download/3.3.4/ElectrumFair-3.3.4.AppImage",
+    "description": "Lightweight FairCoin Client"
   },
   {
     "pkg": "electrumsvp",
@@ -6676,7 +6884,7 @@
     "site": "https://exodus.com",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/exodus",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/exodus",
-    "version_raw": "https://downloads.exodus.com/releases/exodus-linux-x64-26.7.30.zip",
+    "version_raw": "",
     "description": "Send, receive & exchange cryptocurrency. Bitcoin wallet"
   },
   {
@@ -8564,7 +8772,7 @@
     "site": "ivan-hc/GIMP-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gimp-git",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/gimp-git",
-    "version_raw": "https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_58963.fbb6fcefd58-1-archimage5.0-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-git/GNU-Image-Manipulation-Program_GIT_58971.86ef0b7e44e-1-archimage5.0-x86_64.AppImage",
     "description": "Unofficial, Cross-platform image and photo editor, built from GIT"
   },
   {
@@ -9020,7 +9228,7 @@
     "site": "ivan-hc/Chrome-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/google-chrome",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/google-chrome",
-    "version_raw": "https://github.com/ivan-hc/Chrome-appimage/releases/download/continuous/Google-Chrome-stable-151.0.7922.169-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Chrome-appimage/releases/download/continuous/Google-Chrome-stable-151.0.7922.173-1-x86_64.AppImage",
     "description": "Unofficial, Web Browser, Stable version"
   },
   {
@@ -9028,7 +9236,7 @@
     "site": "ivan-hc/Chrome-appimage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/google-chrome-beta",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/google-chrome-beta",
-    "version_raw": "https://github.com/ivan-hc/Chrome-appimage/releases/download/continuous/Google-Chrome-beta-152.0.7977.54-1-x86_64.AppImage",
+    "version_raw": "https://github.com/ivan-hc/Chrome-appimage/releases/download/continuous/Google-Chrome-beta-153.0.8010.5-1-x86_64.AppImage",
     "description": "Unofficial, Web Browser, Beta version"
   },
   {
@@ -10212,7 +10420,7 @@
     "site": "FPGAwars/icestudio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/icestudio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/icestudio",
-    "version_raw": "https://github.com/FPGAwars/icestudio/releases/download/v1.0.0.PRw-20260813/icestudio-1.0.0.PRw-20260813-linux64.AppImage",
+    "version_raw": "https://github.com/FPGAwars/icestudio/releases/download/v1.0.0.PRw-20260821/icestudio-1.0.0.PRw-20260821-linux64.AppImage",
     "description": "A real gamechanger in the world of Open Source FPGAs"
   },
   {
@@ -12452,7 +12660,7 @@
     "site": "lobehub/lobe-chat",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lobe-chat",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/lobe-chat",
-    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.15-canary.32/LobeHub-2.2.15-canary.32.AppImage",
+    "version_raw": "https://github.com/lobehub/lobehub/releases/download/v2.2.15-canary.33/LobeHub-2.2.15-canary.33.AppImage",
     "description": "LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application"
   },
   {
@@ -13628,7 +13836,7 @@
     "site": "MiniZinc/MiniZincIDE",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/minizinc-ide",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/minizinc-ide",
-    "version_raw": "https://github.com/MiniZinc/MiniZincIDE/releases/download/edge/MiniZincIDE-build32434189024-x86_64-linux-gnu.AppImage",
+    "version_raw": "https://github.com/MiniZinc/MiniZincIDE/releases/download/edge/MiniZincIDE-build32438460841-x86_64-linux-gnu.AppImage",
     "description": "A free and open-source constraint modeling language"
   },
   {
@@ -15660,7 +15868,7 @@
     "site": "nextai-translator/nextai-translator",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/open-ai-translator",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/open-ai-translator",
-    "version_raw": "https://github.com/nextai-translator/nextai-translator/releases/download/v0.6.40/NextAI.Translator_0.6.40_amd64.AppImage",
+    "version_raw": "https://github.com/nextai-translator/nextai-translator/releases/download/v0.6.41/NextAI.Translator_0.6.41_amd64.AppImage",
     "description": "Browser extension for translation based on ChatGPT API"
   },
   {
@@ -19596,7 +19804,7 @@
     "site": "pkgforge-dev/Ristretto-AppImage",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ristretto",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/ristretto",
-    "version_raw": "https://github.com/pkgforge-dev/Ristretto-AppImage/releases/download/0.14.0-1%402026-08-01_1785585604/Ristretto-0.14.0-1-anylinux-x86_64.AppImage",
+    "version_raw": "https://github.com/pkgforge-dev/Ristretto-AppImage/releases/download/0.14.0-1%402026-08-21_1787277832/Ristretto-0.14.0-1-anylinux-x86_64.AppImage",
     "description": "Unofficial. Image viewer by Xfce  that can be used to view and scroll through images"
   },
   {
@@ -20420,7 +20628,7 @@
     "site": "Serial-Studio/Serial-Studio",
     "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/serial-studio",
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/serial-studio",
-    "version_raw": "https://github.com/Serial-Studio/Serial-Studio/releases/download/continuous/Serial-Studio-Pro-4.0.3-Linux-x64.AppImage",
+    "version_raw": "https://github.com/Serial-Studio/Serial-Studio/releases/download/continuous/Serial-Studio-Pro-4.0.3-Linux-x64-compat.AppImage",
     "description": "Multi-purpose serial data view program"
   },
   {
@@ -20846,405 +21054,5 @@
     "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/simdock",
     "version_raw": "https://github.com/onli/simdock/releases/download/continuous/Simdock--x86_64.AppImage",
     "description": "Small dock with pseudo-transparency and good window handling"
-  },
-  {
-    "pkg": "simdsp",
-    "site": "lmcapacho/SimDSP",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/simdsp",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/simdsp",
-    "version_raw": "https://github.com/lmcapacho/SimDSP/releases/download/v1.0.0/SimDSP-x86_64.AppImage",
-    "description": "DSP Simulator"
-  },
-  {
-    "pkg": "simitone",
-    "site": "pkgforge-dev/Simitone-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/simitone",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/simitone",
-    "version_raw": "https://github.com/pkgforge-dev/Simitone-AppImage/releases/download/0.8.22-forked%402026-08-01_1785585540/Simitone-0.8.22-forked-anylinux-x86_64.AppImage",
-    "description": "Unofficial, re-implementation of The Sims 1, based off of FreeSO"
-  },
-  {
-    "pkg": "simple-s3-uploader",
-    "site": "rBurgett/simple-uploader",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/simple-s3-uploader",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/simple-s3-uploader",
-    "version_raw": "https://github.com/rBurgett/simple-uploader/releases/download/v0.3.1/Simple-S3-Uploader-0.3.1.AppImage",
-    "description": "Easily uploading files and sharing links via AWS S3"
-  },
-  {
-    "pkg": "simple-timer",
-    "site": "fliegwerk/simple-timer",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/simple-timer",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/simple-timer",
-    "version_raw": "https://github.com/fliegwerk/simple-timer/releases/download/v0.4.3/simple-timer-0.4.3.AppImage",
-    "description": "A really simple timer with a customizable logo and heading"
-  },
-  {
-    "pkg": "simplechroot",
-    "site": "BobyMCbobs/simplechroot",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/simplechroot",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/simplechroot",
-    "version_raw": "https://github.com/BobyMCbobs/simplechroot/releases/download/1.1.1/simplechroot-x86_64.AppImage",
-    "description": "Simple command line chroot with ease"
-  },
-  {
-    "pkg": "simpleinstabot",
-    "site": "mifi/SimpleInstaBot",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/simpleinstabot",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/simpleinstabot",
-    "version_raw": "https://github.com/mifi/SimpleInstaBot/releases/download/SimpleInstaBot/v1.11.13/SimpleInstaBot-linux-x86_64.AppImage",
-    "description": "Simple Instagram bot"
-  },
-  {
-    "pkg": "simplenote-electron",
-    "site": "Automattic/simplenote-electron",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/simplenote-electron",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/simplenote-electron",
-    "version_raw": "https://github.com/Automattic/simplenote-electron/releases/download/v2.27.2-md-editor-wysiwyg.1/Simplenote-linux-2.27.2-md-editor-wysiwyg.1-x86_64.AppImage",
-    "description": "Simplenote"
-  },
-  {
-    "pkg": "simpleos",
-    "site": "eosrio/simpleos",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/simpleos",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/simpleos",
-    "version_raw": "https://github.com/eosrio/simpleos/releases/download/v1.0.5/simpleos-1.0.5.AppImage",
-    "description": "EOS Blockchain Interface & Wallet"
-  },
-  {
-    "pkg": "simplescreenrecorder",
-    "site": "ivan-hc/SimpleScreenRecorder-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/simplescreenrecorder",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/simplescreenrecorder",
-    "version_raw": "https://github.com/ivan-hc/SimpleScreenRecorder-appimage/releases/download/continuous/SimpleScreenRecorder-0.4.4-4-anylinux-x86_64.AppImage",
-    "description": "Unofficial. Feature-rich screen recorder supporting X11 & OpenGL"
-  },
-  {
-    "pkg": "simplest-file-renamer",
-    "site": "whyboris/Simplest-File-Renamer",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/simplest-file-renamer",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/simplest-file-renamer",
-    "version_raw": "https://github.com/whyboris/Simplest-File-Renamer/releases/download/v1.0.0/Simplest.File.Renamer-1.0.0.AppImage",
-    "description": "Simplest file renamer, rename your files quickly and easily"
-  },
-  {
-    "pkg": "simplex-chat",
-    "site": "simplex-chat/simplex-chat",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/simplex-chat",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/simplex-chat",
-    "version_raw": "https://github.com/simplex-chat/simplex-chat/releases/download/v7.1.0-beta.1/simplex-desktop-x86_64.AppImage",
-    "description": "First messaging platform operating without user identifiers"
-  },
-  {
-    "pkg": "simplex-solver",
-    "site": "xeland314/simplex",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/simplex-solver",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/simplex-solver",
-    "version_raw": "https://github.com/xeland314/simplex/releases/download/v0.1.1/SimplexSolver-x86_64.AppImage",
-    "description": "Simplex for optimization problems"
-  },
-  {
-    "pkg": "simtoolkitpro",
-    "site": "simtoolkitpro/stkp-client-releases",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/simtoolkitpro",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/simtoolkitpro",
-    "version_raw": "https://github.com/simtoolkitpro/stkp-client-releases/releases/download/v1.3.6/SimToolkitPro-1.3.6-x86_64.Setup.AppImage",
-    "description": "The all-in-one flight simulation EFB"
-  },
-  {
-    "pkg": "simutrans",
-    "site": "pkgforge-dev/Simutrans-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/simutrans",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/simutrans",
-    "version_raw": "https://github.com/pkgforge-dev/Simutrans-AppImage/releases/download/124.5-2%402026-08-01_1785585874/Simutrans-124.5-2-anylinux-x86_64.AppImage",
-    "description": "Unofficial, a freeware and open-source transportation simulator"
-  },
-  {
-    "pkg": "singlebox",
-    "site": "atomery/singlebox",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/singlebox",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/singlebox",
-    "version_raw": "https://github.com/quanglam2807/singlebox-legacy/releases/download/v10.0.0-beta.4/Singlebox-10.0.0-beta.4.AppImage",
-    "description": "AppView template for WebCatalog"
-  },
-  {
-    "pkg": "sinon",
-    "site": "JCGithu/Sinon",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sinon",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sinon",
-    "version_raw": "https://github.com/JCGithu/Sinon/releases/download/v.1.3.3/Sinon-1.3.3.AppImage",
-    "description": "A handy video tool"
-  },
-  {
-    "pkg": "sioyek",
-    "site": "ahrm/sioyek",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sioyek",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sioyek",
-    "version_raw": "https://github.com/ahrm/sioyek/releases/download/sioyek3-alpha0/sioyek-release-linux.zip",
-    "description": "PDF viewer designed for reading research papers and technical books"
-  },
-  {
-    "pkg": "sipgate-softphone",
-    "site": "https://www.sipgate.co.uk",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sipgate-softphone",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sipgate-softphone",
-    "version_raw": "https://sipgate-desktop-app.s3.eu-central-1.amazonaws.com/sipgate-softphone.AppImage",
-    "description": "The sipgate softphone is developed directly by sipgate"
-  },
-  {
-    "pkg": "siyuan",
-    "site": "siyuan-note/siyuan",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/siyuan",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/siyuan",
-    "version_raw": "https://github.com/siyuan-note/siyuan/releases/download/v3.8.2-alpha.1/siyuan-3.8.2-alpha.1-linux.AppImage",
-    "description": "A local-first personal knowledge management system"
-  },
-  {
-    "pkg": "size",
-    "site": "ivan-hc/am-utils",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/size",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/size",
-    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
-    "description": "Sizes and total size of binary files. This is part of am-utils suite"
-  },
-  {
-    "pkg": "skyemu",
-    "site": "skylersaleh/SkyEmu",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/skyemu",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/skyemu",
-    "version_raw": "https://github.com/skylersaleh/SkyEmu/releases/download/v5/SkyEmu-v5-Linux.zip",
-    "description": "Game Boy Advance, Game Boy, Game Boy Color, and DS Emulator"
-  },
-  {
-    "pkg": "skype",
-    "site": "ivan-hc/Skype-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/skype",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/skype",
-    "version_raw": "https://github.com/ivan-hc/Skype-appimage/releases/download/continuous/Skype--8.150.0.125-x86_64.AppImage",
-    "description": "Unofficial. VoIP-based videoconferencing, voice calls and instant messaging app"
-  },
-  {
-    "pkg": "slack",
-    "site": "pkgforge-dev/slack-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/slack",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/slack",
-    "version_raw": "https://github.com/pkgforge-dev/Slack-AppImage/releases/download/4.51.180-1%402026-08-01_1785585281/Slack-4.51.180-1-anylinux-x86_64.AppImage",
-    "description": "Unofficial AppImage of Slack"
-  },
-  {
-    "pkg": "slackbackup",
-    "site": "jcolag/SlackBackup",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/slackbackup",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/slackbackup",
-    "version_raw": "https://github.com/jcolag/SlackBackup/releases/download/v1.2/slack-backup-1.0.0-x86_64.AppImage",
-    "description": "An app to archive Slack messages"
-  },
-  {
-    "pkg": "slacktronic",
-    "site": "migmartri/slacktronic",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/slacktronic",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/slacktronic",
-    "version_raw": "https://github.com/migmartri/slacktronic/releases/download/v0.2.0/slacktronic-0.2.0-x86_64.AppImage",
-    "description": "Connect your Slack workspace to Arduino"
-  },
-  {
-    "pkg": "slang-ed",
-    "site": "jrierab/slang-ed",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/slang-ed",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/slang-ed",
-    "version_raw": "https://github.com/jrierab/slang-ed/releases/download/V0.2.0/slang-ed.0.2.0.AppImage",
-    "description": "An Electron/Ionic app to edit i18n language translations files"
-  },
-  {
-    "pkg": "sleek",
-    "site": "ransome1/sleek",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sleek",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sleek",
-    "version_raw": "https://github.com/ransome1/sleek/releases/download/v2.0.28-rc.2/sleek-2.0.28-rc.2-linux-x86_64.AppImage",
-    "description": "Multiplatform todo.txt manager"
-  },
-  {
-    "pkg": "sleep",
-    "site": "ivan-hc/am-utils",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sleep",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sleep",
-    "version_raw": "https://github.com/ivan-hc/am-utils/releases/download/x86_64-20260526/7z-x86_64-static",
-    "description": "Delay for a specified amount of time. This is part of am-utils suite"
-  },
-  {
-    "pkg": "slic3r",
-    "site": "slic3r/Slic3r",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/slic3r",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/slic3r",
-    "version_raw": "https://github.com/slic3r/Slic3r/releases/download/1.3.0/Slic3r-1.3.0-x86_64.AppImage",
-    "description": "Open Source toolpath generator for 3D printers"
-  },
-  {
-    "pkg": "slippi",
-    "site": "project-slippi/slippi-desktop-app",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/slippi",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/slippi",
-    "version_raw": "https://github.com/project-slippi/slippi-launcher/releases/download/v2.15.0/Slippi-Launcher-2.15.0-x86_64.AppImage",
-    "description": "Slippi Launcher program for browsing and playing replays"
-  },
-  {
-    "pkg": "slogidex",
-    "site": "aklos/slogidex",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/slogidex",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/slogidex",
-    "version_raw": "https://github.com/aklos/slogidex/releases/download/slogidex-v0.2.2/slogidex_0.2.2_amd64.AppImage",
-    "description": "Task management and automation tool"
-  },
-  {
-    "pkg": "smallbasic",
-    "site": "smallbasic/SmallBASIC",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/smallbasic",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/smallbasic",
-    "version_raw": "https://github.com/smallbasic/SmallBASIC/releases/download/12_27/SmallBASIC-Console_12.27-x86_64.AppImage",
-    "description": "A fast and easy to learn BASIC language interpreter"
-  },
-  {
-    "pkg": "smartservogui",
-    "site": "emericg/SmartServoFramework",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/smartservogui",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/smartservogui",
-    "version_raw": "https://github.com/emericg/SmartServoFramework/releases/download/v0.98/SmartServoGui-0.98-linux64.AppImage",
-    "description": "Scan for servo devices easily view"
-  },
-  {
-    "pkg": "smassh",
-    "site": "kraanzu/smassh",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/smassh",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/smassh",
-    "version_raw": "https://github.com/kraanzu/smassh/releases/download/v3.2.1/linux-smassh",
-    "description": "Smassh your Keyboard, TUI Edition"
-  },
-  {
-    "pkg": "smath-studio",
-    "site": "gntech/smath-appimage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/smath-studio",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/smath-studio",
-    "version_raw": "https://github.com/gntech/smath-appimage/releases/download/4/SMathStudioDesktop.0_99_7822.x86_64.glibc2.27-PreRelease4.AppImage",
-    "description": "Tiny, but powerful mathematical program with WYSIWYG editor"
-  },
-  {
-    "pkg": "smf-dsp",
-    "site": "jpcima/smf-dsp",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/smf-dsp",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/smf-dsp",
-    "version_raw": "https://github.com/jpcima/smf-dsp/releases/download/automatic/SMF-DSP_MIDI_player-x86_64.AppImage",
-    "description": "Standard MIDI file player"
-  },
-  {
-    "pkg": "smplayer",
-    "site": "smplayer-dev/smplayer",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/smplayer",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/smplayer",
-    "version_raw": "https://github.com/smplayer-dev/smplayer/releases/download/v10430/SMPlayer-25.6.0.10430-x86_64.AppImage",
-    "description": "Media Player with built-in codecs for all audio and video formats"
-  },
-  {
-    "pkg": "smuview",
-    "site": "knarfS/smuview",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/smuview",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/smuview",
-    "version_raw": "https://github.com/knarfS/smuview/releases/download/continuous/SmuView-0.0.6-git-7ea4b33-x86_64.AppImage",
-    "description": "A Qt based source measure unit GUI for sigrok"
-  },
-  {
-    "pkg": "snake-js",
-    "site": "aenany/snake.js",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/snake-js",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/snake-js",
-    "version_raw": "https://github.com/aenany/snake.js/releases/download/v0.0.2/snake.js-0.0.2.AppImage",
-    "description": "Canvas/JavaScript based Snake Game with support for controllers"
-  },
-  {
-    "pkg": "snapclear",
-    "site": "manuelernestog/snapclear-app-releases",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/snapclear",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/snapclear",
-    "version_raw": "https://github.com/manuelernestog/snapclear-app-releases/releases/download/v2.1.0/Snapclear-2.1.0.AppImage",
-    "description": "Remove Image Background with AI for Free Offline"
-  },
-  {
-    "pkg": "snapmaker-orca",
-    "site": "Snapmaker/OrcaSlicer",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/snapmaker-orca",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/snapmaker-orca",
-    "version_raw": "https://github.com/Snapmaker/OrcaSlicer/releases/download/v2.3.0/Snapmaker_Orca_Linux_AppImage_Ubuntu2404_V2.3.0_Beta.AppImage",
-    "description": "G-code generator for 3D printers (Bambu, Prusa, Voron, VzBot, RatRig, Creality...)"
-  },
-  {
-    "pkg": "snapshot-slider",
-    "site": "IMAGINARY/snapshot-slider",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/snapshot-slider",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/snapshot-slider",
-    "version_raw": "https://github.com/IMAGINARY/snapshot-slider/releases/download/v1.1.1/snapshot-slider-1.1.1-x86_64.AppImage",
-    "description": "Present/print/email Snapshots of modern mathematics"
-  },
-  {
-    "pkg": "snes9x",
-    "site": "snes9xgit/snes9x",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/snes9x",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/snes9x",
-    "version_raw": "https://github.com/snes9xgit/snes9x/releases/download/1.63/Snes9x-1.63-x86_64.AppImage",
-    "description": "Snes9x - Portable Super Nintendo Entertainment System TM emulator"
-  },
-  {
-    "pkg": "snes9x-enhanced",
-    "site": "pkgforge-dev/Snes9x-AppImage-Enhanced",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/snes9x-enhanced",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/snes9x-enhanced",
-    "version_raw": "https://github.com/pkgforge-dev/Snes9x-AppImage-Enhanced/releases/download/1.63-1%402026-08-01_1785586216/Snes9x-1.63-1-anylinux-x86_64.AppImage",
-    "description": "Unofficial, Snes9x - Portable Super Nintendo Entertainment System TM emulator"
-  },
-  {
-    "pkg": "sniffnet",
-    "site": "GyulyVGC/sniffnet",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/sniffnet",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/sniffnet",
-    "version_raw": "https://github.com/GyulyVGC/sniffnet/releases/download/v1.5.1/Sniffnet_LinuxAppImage_amd64.AppImage",
-    "description": "Sniffnet is a network monitoring tool to help you easily keep track of your Internet traffic. Whether you want to gather statistics, you’re curious to see who you are exchanging data with, or you need to inspect more in depth what's going on in your network, this app will get you covered"
-  },
-  {
-    "pkg": "snippetstore",
-    "site": "ZeroX-DG/SnippetStore",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/snippetstore",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/snippetstore",
-    "version_raw": "https://github.com/ZeroX-DG/SnippetStore/releases/download/v0.2.12/snippetstore-0.2.12-x86_64.AppImage",
-    "description": "A snippet management app for developers"
-  },
-  {
-    "pkg": "snomcontrol",
-    "site": "ballessay/snomcontrol",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/snomcontrol",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/snomcontrol",
-    "version_raw": "https://github.com/ballessay/snomcontrol/releases/download/v1.0.76-beta/snomcontrol-fb27615-x86_64.AppImage",
-    "description": "An application to control snom D3xx phones from the desktop"
-  },
-  {
-    "pkg": "snowball",
-    "site": "shaunabanana/snowball",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/snowball",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/snowball",
-    "version_raw": "https://github.com/shaunabanana/snowball/releases/download/v1.4.0/Snowball-1.4.0.AppImage",
-    "description": "Find and filter literature, fast"
-  },
-  {
-    "pkg": "snowboardkids2-recomp",
-    "site": "pkgforge-dev/SnowboardKids2Recomp-AppImage",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/snowboardkids2-recomp",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/snowboardkids2-recomp",
-    "version_raw": "https://github.com/pkgforge-dev/SnowboardKids2Recomp-AppImage/releases/download/2.0.0%252Balpha1%402026-08-01_1785586160/Snowboard_Kids_2_Recompiled-2.0.0.2Balpha1-anylinux-x86_64.AppImage",
-    "description": "Unofficial AppImage of game Snowboard Kids 2 Recompilation"
-  },
-  {
-    "pkg": "soapy-sdr",
-    "site": "mryndzionek/composable-sdr",
-    "source_blob": "https://github.com/ivan-hc/AM/blob/main/programs/x86_64/soapy-sdr",
-    "source_raw": "https://github.com/ivan-hc/AM/raw/main/programs/x86_64/soapy-sdr",
-    "version_raw": "https://github.com/mryndzionek/composable-sdr/releases/download/v0.1.0-alpha/Soapy_SDR-x86_64.AppImage",
-    "description": "I/Q recorder and processor using SoapySDR as backend"
   }
 ]
